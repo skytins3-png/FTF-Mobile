@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#0f1115"/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<title>FTF 영화 프로젝트 곡 관리</title>
+<style>
+:root{
+ --bg:#0f1115;--panel:#171a21;--panel2:#202530;--text:#f4f6f8;--muted:#9aa4b2;
+ --line:#303744;--accent:#5ea3ff;--danger:#ff6b6b;--ok:#65d48a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Malgun Gothic",sans-serif}
+body{padding-bottom:calc(86px + env(safe-area-inset-bottom))}
+header{
+ position:sticky;top:0;z-index:10;background:rgba(15,17,21,.96);backdrop-filter:blur(10px);
+ border-bottom:1px solid var(--line);padding:14px 14px 12px
+}
+h1{margin:0;font-size:20px}
+.sub{font-size:12px;color:var(--muted);margin-top:4px}
+.wrap{padding:12px;max-width:1080px;margin:auto}
+.toolbar{display:grid;grid-template-columns:1fr auto;gap:8px;margin-bottom:10px}
+input,textarea,select,button{font:inherit}
+input,textarea,select{
+ width:100%;background:var(--panel);color:var(--text);border:1px solid var(--line);
+ border-radius:12px;padding:12px
+}
+button{
+ border:0;border-radius:12px;padding:10px 12px;background:var(--accent);color:#08111c;
+ font-weight:800;cursor:pointer
+}
+button.secondary{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+button.danger{background:#3b2023;color:#ffb3b3;border:1px solid #6b2e34}
+button.small{padding:7px 9px;font-size:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px}
+.card h2{font-size:16px;margin:0 0 10px}
+.movie-head{
+ display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 0 6px;
+ border-bottom:1px solid var(--line);margin-bottom:2px
+}
+.movie-title{font-size:15px;font-weight:800}
+.movie-count{font-size:11px;color:#b9d7ff;background:#253243;padding:4px 8px;border-radius:999px}
+.song{
+ display:grid;grid-template-columns:52px 1fr;gap:9px;padding:11px 0;border-bottom:1px solid var(--line)
+}
+.song:last-child{border-bottom:0}
+.num{font-weight:900;color:var(--accent);font-size:17px;padding-top:2px}
+.title{font-weight:800;font-size:15px;line-height:1.3}
+.meta{color:var(--muted);font-size:12px;line-height:1.45;margin-top:4px}
+.actions{grid-column:2;display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}
+.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.formgrid .full{grid-column:1/-1}
+label{display:block;color:var(--muted);font-size:12px;margin:2px 0 5px}
+.install-note{font-size:12px;color:var(--muted);line-height:1.5}
+.bottom{
+ position:fixed;left:0;right:0;bottom:0;z-index:20;padding:9px 12px calc(9px + env(safe-area-inset-bottom));
+ background:rgba(15,17,21,.97);border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px
+}
+.empty{color:var(--muted);padding:14px 2px}
+@media(min-width:780px){
+ .main{display:grid;grid-template-columns:1.6fr 1fr;gap:12px}
+ .bottom{position:static;max-width:1080px;margin:0 auto 18px;padding:0 12px;border:0;background:none}
+ body{padding-bottom:0}
+}
+</style>
+</head>
+<body>
+<header>
+ <h1>FTF 영화 프로젝트 곡 관리</h1>
+ <div class="sub">영화 제목별 자동 묶음 · 영화 안에서 FTF-01부터 순서 자동 정렬</div>
+</header>
+
+<div class="wrap">
+ <div class="toolbar">
+  <input id="search" placeholder="영화 제목, 곡 제목, 장면 검색"/>
+  <button id="installBtn" class="secondary" hidden>앱 설치</button>
+ </div>
+
+ <div class="main">
+  <section class="card">
+   <h2>영화별 곡 목록 <span id="total"></span></h2>
+   <div id="list"></div>
+  </section>
+
+  <aside class="card">
+   <h2 id="formTitle">곡 추가 / 수정</h2>
+   <div class="formgrid">
+    <div class="full">
+     <label>영화 제목</label>
+     <input id="movieTitle" placeholder="예: FOR THE FUTURE"/>
+    </div>
+    <div class="full">
+     <label>곡 제목</label>
+     <input id="songTitle" placeholder="예: Earth's Warning"/>
+    </div>
+    <div>
+     <label>언어</label>
+     <select id="language"><option>English</option><option>한국어</option><option>중국어</option><option>기타</option></select>
+    </div>
+    <div>
+     <label>상태</label>
+     <select id="songStatus"><option>제작 중</option><option>가사 완성</option><option>스타일 완성</option><option>완성</option><option>보류</option></select>
+    </div>
+    <div class="full">
+     <label>장면 / 에피소드</label>
+     <input id="scene" placeholder="예: 9월 13일 태풍 대홍수"/>
+    </div>
+    <div class="full">
+     <label>메모</label>
+     <textarea id="notes" rows="4" placeholder="Suno 길이, 보컬, 다음 장면 등"></textarea>
+    </div>
+    <div class="full" style="display:flex;gap:8px">
+     <button id="saveBtn" style="flex:1">저장</button>
+     <button id="clearBtn" class="secondary" style="flex:1">새로 입력</button>
+    </div>
+   </div>
+   <p class="install-note">영화 제목이 같으면 자동으로 한 묶음이 되고, ▲▼로 순서를 바꾸면 그 영화 안에서 FTF-01, FTF-02… 번호가 자동으로 다시 붙습니다.</p>
+  </aside>
+ </div>
+</div>
+
+<div class="bottom">
+ <button id="addBtn">+ 새 곡</button>
+ <button id="exportBtn" class="secondary">백업</button>
+ <button id="importBtn" class="secondary">불러오기</button>
+ <input id="importFile" type="file" accept=".json" hidden>
+</div>
+
+<script>
+const KEY="ftf_mobile_pwa_v2";
+let editId=null, deferredPrompt=null;
+
+const starter=[
+ {movie:"FOR THE FUTURE",title:"Earth's Warning",language:"English",status:"가사 완성",scene:"지구 이상징후 뉴스",notes:"기후변화, 엘니뇨, 빙하, 탄소배출, 오존층, 화산"},
+ {movie:"FOR THE FUTURE",title:"September 13 — Typhoon Arka",language:"English",status:"스타일 완성",scene:"9월 13일 초강력 태풍·대홍수",notes:"사이렌, 폭우, 강풍, 천둥·번개, 범람, 구조"},
+ {movie:"FOR THE FUTURE",title:"Earth Survival Plan",language:"English",status:"가사 완성",scene:"제1차 지구 생존 대책 회의",notes:"각국 과학자, 공동기금, 기부·기증, 기술 공유"},
+ {movie:"FOR THE FUTURE",title:"PROJECT 0714",language:"English",status:"스타일 완성",scene:"제2차 계획 속 청춘·비밀요원",notes:"청춘 일상, 첫사랑, 비밀 관찰"},
+ {movie:"FOR THE FUTURE",title:"Third Earth Future Council",language:"English",status:"제작 중",scene:"제3차 지구미래 대책 회의",notes:"인간 존엄 vs 의학적 신체 강화 대토론"}
+];
+
+function normMovie(v){return (v||"").trim() || "미지정 영화";}
+function load(){
+ const raw=localStorage.getItem(KEY);
+ if(raw){ try{return JSON.parse(raw)}catch(e){} }
+ const arr=starter.map((x,i)=>({...x,id:crypto.randomUUID(),order:i+1,created:Date.now()+i}));
+ localStorage.setItem(KEY,JSON.stringify(arr)); return arr;
+}
+let songs=load();
+
+function save(){localStorage.setItem(KEY,JSON.stringify(songs));render();}
+function esc(s){return String(s||"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));}
+function groups(){
+ const map=new Map();
+ songs.forEach(s=>{
+   s.movie=normMovie(s.movie);
+   if(!map.has(s.movie)) map.set(s.movie,[]);
+   map.get(s.movie).push(s);
+ });
+ [...map.values()].forEach(a=>a.sort((x,y)=>(x.order||0)-(y.order||0)||(x.created||0)-(y.created||0)));
+ return [...map.entries()].sort((a,b)=>a[0].localeCompare(b[0],"ko"));
+}
+function titleFor(idx,s){return `FTF-${String(idx+1).padStart(2,"0")} ${s.title}`;}
+
+function render(){
+ const q=search.value.trim().toLowerCase();
+ const root=document.getElementById("list");
+ total.textContent=`· ${songs.length}곡`;
+ let html="";
+ for(const [movie,arr] of groups()){
+   const filtered=arr.filter(s=>[movie,s.title,s.scene,s.notes,s.language,s.status].join(" ").toLowerCase().includes(q));
+   if(!filtered.length) continue;
+   html+=`<div class="movie-head"><div class="movie-title">🎬 ${esc(movie)}</div><div class="movie-count">${filtered.length}곡</div></div>`;
+   filtered.forEach(s=>{
+      const realIdx=arr.findIndex(x=>x.id===s.id);
+      html+=`<div class="song">
+       <div class="num">${String(realIdx+1).padStart(2,"0")}</div>
+       <div>
+        <div class="title">${esc(titleFor(realIdx,s))}</div>
+        <div class="meta">${esc(s.scene)} · ${esc(s.language)} · ${esc(s.status)}${s.notes?`<br>${esc(s.notes)}`:""}</div>
+       </div>
+       <div class="actions">
+        <button class="secondary small" onclick="copyTitle('${s.id}')">제목 복사</button>
+        <button class="secondary small" onclick="moveSong('${s.id}',-1)">▲</button>
+        <button class="secondary small" onclick="moveSong('${s.id}',1)">▼</button>
+        <button class="secondary small" onclick="editSong('${s.id}')">수정</button>
+        <button class="danger small" onclick="removeSong('${s.id}')">삭제</button>
+       </div>
+      </div>`;
+   });
+ }
+ root.innerHTML=html||'<div class="empty">검색 결과가 없습니다.</div>';
+}
+
+function sameMovieSorted(movie){
+ return songs.filter(s=>normMovie(s.movie)===movie).sort((a,b)=>(a.order||0)-(b.order||0)||(a.created||0)-(b.created||0));
+}
+function normalizeOrders(movie){
+ sameMovieSorted(movie).forEach((s,i)=>s.order=i+1);
+}
+function moveSong(id,dir){
+ const s=songs.find(x=>x.id===id); if(!s)return;
+ const movie=normMovie(s.movie), arr=sameMovieSorted(movie);
+ const i=arr.findIndex(x=>x.id===id), j=i+dir;
+ if(j<0||j>=arr.length)return;
+ const temp=arr[i].order; arr[i].order=arr[j].order; arr[j].order=temp;
+ normalizeOrders(movie); save();
+}
+async function copyTitle(id){
+ const s=songs.find(x=>x.id===id); if(!s)return;
+ const arr=sameMovieSorted(normMovie(s.movie)), i=arr.findIndex(x=>x.id===id);
+ await navigator.clipboard.writeText(titleFor(i,s));
+}
+function editSong(id){
+ const s=songs.find(x=>x.id===id); if(!s)return;
+ editId=id;
+ movieTitle.value=s.movie; songTitle.value=s.title; language.value=s.language;
+ songStatus.value=s.status; scene.value=s.scene||""; notes.value=s.notes||"";
+ formTitle.textContent="곡 수정";
+ window.scrollTo({top:0,behavior:"smooth"});
+}
+function clearForm(){
+ editId=null; movieTitle.value="FOR THE FUTURE"; songTitle.value="";
+ language.value="English"; songStatus.value="제작 중"; scene.value=""; notes.value="";
+ formTitle.textContent="곡 추가 / 수정";
+}
+function removeSong(id){
+ const s=songs.find(x=>x.id===id); if(!s)return;
+ if(!confirm("이 곡을 삭제할까요?"))return;
+ const movie=normMovie(s.movie); songs=songs.filter(x=>x.id!==id); normalizeOrders(movie); save(); clearForm();
+}
+saveBtn.onclick=()=>{
+ const movie=normMovie(movieTitle.value), title=songTitle.value.trim();
+ if(!title){alert("곡 제목을 입력해 주세요.");return;}
+ const data={movie,title,language:language.value,status:songStatus.value,scene:scene.value.trim(),notes:notes.value.trim()};
+ if(editId){
+   const old=songs.find(x=>x.id===editId), oldMovie=normMovie(old.movie);
+   Object.assign(old,data);
+   if(oldMovie!==movie){ normalizeOrders(oldMovie); old.order=sameMovieSorted(movie).length; normalizeOrders(movie); }
+ }else{
+   data.id=crypto.randomUUID(); data.created=Date.now(); data.order=sameMovieSorted(movie).length+1; songs.push(data);
+ }
+ normalizeOrders(movie); save(); clearForm();
+};
+addBtn.onclick=()=>{clearForm();movieTitle.focus();}
+clearBtn.onclick=clearForm;
+search.oninput=render;
+
+exportBtn.onclick=()=>{
+ const blob=new Blob([JSON.stringify({version:2,songs},null,2)],{type:"application/json"});
+ const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="FTF_movie_projects_backup.json"; a.click();
+ URL.revokeObjectURL(a.href);
+};
+importBtn.onclick=()=>importFile.click();
+importFile.onchange=async e=>{
+ const f=e.target.files[0]; if(!f)return;
+ try{
+  const data=JSON.parse(await f.text());
+  if(!Array.isArray(data.songs)) throw new Error();
+  if(confirm("현재 목록을 백업 내용으로 교체할까요?")){
+   songs=data.songs.map((s,i)=>({...s,movie:normMovie(s.movie),id:s.id||crypto.randomUUID(),order:s.order||i+1,created:s.created||Date.now()+i}));
+   groups().forEach(([m])=>normalizeOrders(m)); save(); clearForm();
+  }
+ }catch(e){alert("올바른 백업 파일이 아닙니다.");}
+ e.target.value="";
+};
+
+window.addEventListener("beforeinstallprompt",e=>{
+ e.preventDefault(); deferredPrompt=e; installBtn.hidden=false;
+});
+installBtn.onclick=async()=>{
+ if(!deferredPrompt)return;
+ deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt=null; installBtn.hidden=true;
+};
+if("serviceWorker" in navigator){
+ window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+}
+clearForm(); render();
+</script>
+</body>
+</html>
