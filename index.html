@@ -90,7 +90,7 @@ label{display:block;color:var(--muted);font-size:12px;margin:2px 0 5px}
     <input id="bulkFiles" type="file" multiple accept="audio/*,.mp3,.wav,.m4a,.flac,.aac,.ogg,.txt,.lrc,.srt" hidden>
    </div>
   </div>
-  <p class="install-note">여러 파일을 한 번에 선택하면 파일명 속 FTF-01/01 같은 번호를 먼저 읽고, 번호가 없으면 알려진 영화 곡 제목을 기준으로 자동 정렬합니다.</p>
+  <p class="install-note">여러 음악 파일을 한 번에 선택하면 자동 정렬하고 기기에 저장합니다. 저장된 곡은 목록의 ▶ 재생 버튼으로 바로 들을 수 있습니다.</p>
  </section>
 
  <div class="main">
@@ -197,6 +197,7 @@ function render(){
        </div>
        <div class="actions">
         <button class="secondary small" onclick="copyTitle('${s.id}')">제목 복사</button>
+        ${s.fileName?`<button class="small" onclick="playSong('${s.id}')">▶ 재생</button>`:''}
         <button class="secondary small" onclick="moveSong('${s.id}',-1)">▲</button>
         <button class="secondary small" onclick="moveSong('${s.id}',1)">▼</button>
         <button class="secondary small" onclick="editSong('${s.id}')">수정</button>
@@ -240,10 +241,10 @@ function clearForm(){
  language.value="English"; songStatus.value="제작 중"; scene.value=""; notes.value="";
  formTitle.textContent="곡 추가 / 수정";
 }
-function removeSong(id){
+async function removeSong(id){
  const s=songs.find(x=>x.id===id); if(!s)return;
  if(!confirm("이 곡을 삭제할까요?"))return;
- const movie=normMovie(s.movie); songs=songs.filter(x=>x.id!==id); normalizeOrders(movie); save(); clearForm();
+ const movie=normMovie(s.movie); if(s.fileName) await deleteStoredFile(s.id); songs=songs.filter(x=>x.id!==id); normalizeOrders(movie); save(); clearForm();
 }
 saveBtn.onclick=()=>{
  const movie=normMovie(movieTitle.value), title=songTitle.value.trim();
@@ -280,6 +281,42 @@ importFile.onchange=async e=>{
  }catch(e){alert("올바른 백업 파일이 아닙니다.");}
  e.target.value="";
 };
+
+const DB_NAME='ftf_audio_db_v1', DB_STORE='files';
+let currentAudio=null, currentAudioUrl=null;
+function openAudioDB(){
+ return new Promise((resolve,reject)=>{
+  const req=indexedDB.open(DB_NAME,1);
+  req.onupgradeneeded=()=>{const db=req.result;if(!db.objectStoreNames.contains(DB_STORE))db.createObjectStore(DB_STORE);};
+  req.onsuccess=()=>resolve(req.result); req.onerror=()=>reject(req.error);
+ });
+}
+async function storeFile(id,file){
+ const db=await openAudioDB();
+ await new Promise((resolve,reject)=>{const tx=db.transaction(DB_STORE,'readwrite');tx.objectStore(DB_STORE).put(file,id);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});
+ db.close();
+}
+async function getStoredFile(id){
+ const db=await openAudioDB();
+ const out=await new Promise((resolve,reject)=>{const tx=db.transaction(DB_STORE,'readonly');const r=tx.objectStore(DB_STORE).get(id);r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
+ db.close(); return out;
+}
+async function deleteStoredFile(id){
+ try{const db=await openAudioDB();await new Promise((resolve,reject)=>{const tx=db.transaction(DB_STORE,'readwrite');tx.objectStore(DB_STORE).delete(id);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});db.close();}catch(e){}
+}
+async function playSong(id){
+ const s=songs.find(x=>x.id===id); if(!s)return;
+ const file=await getStoredFile(id);
+ if(!file){alert('이 곡의 실제 음악 파일이 저장되어 있지 않습니다. 파일 전체 선택에서 이 곡을 다시 선택해 주세요.');return;}
+ try{
+  if(currentAudio){currentAudio.pause();currentAudio=null;}
+  if(currentAudioUrl){URL.revokeObjectURL(currentAudioUrl);currentAudioUrl=null;}
+  currentAudioUrl=URL.createObjectURL(file);
+  currentAudio=new Audio(currentAudioUrl);
+  currentAudio.onended=()=>{if(currentAudioUrl){URL.revokeObjectURL(currentAudioUrl);currentAudioUrl=null;}currentAudio=null;};
+  await currentAudio.play();
+ }catch(e){alert('재생할 수 없습니다. 파일 형식을 확인해 주세요.');}
+}
 
 const KNOWN_ORDER = [
   ["earth's warning","earths warning","earth warning"],
@@ -323,27 +360,31 @@ function smartCompare(a,b){
   return an.localeCompare(bn,'ko',{numeric:true,sensitivity:'base'});
 }
 bulkPickBtn.onclick=()=>bulkFiles.click();
-bulkFiles.onchange=()=>{
+bulkFiles.onchange=async()=>{
   const files=[...bulkFiles.files].sort(smartCompare);
   if(!files.length) return;
   const movie=normMovie(bulkMovieTitle.value);
-  files.forEach((f,idx)=>{
+  for(let idx=0;idx<files.length;idx++){
+    const f=files[idx];
     const title=cleanFileTitle(f.name) || f.name;
     const existing=songs.find(s=>normMovie(s.movie)===movie &&
       ((s.fileName&&s.fileName===f.name) || s.title.toLowerCase()===title.toLowerCase()));
+    let target=existing;
     if(existing){
       existing.fileName=f.name;
       existing.fileSize=f.size;
       existing.fileModified=f.lastModified;
     }else{
-      songs.push({
+      target={
         id:crypto.randomUUID(), created:Date.now()+idx, order:9999,
         movie, title, language:'기타', status:'완성',
         scene:'', notes:`선택 파일: ${f.name}`,
         fileName:f.name, fileSize:f.size, fileModified:f.lastModified
-      });
+      };
+      songs.push(target);
     }
-  });
+    await storeFile(target.id,f);
+  }
   const arr=songs.filter(s=>normMovie(s.movie)===movie).sort(smartCompare);
   arr.forEach((s,i)=>s.order=i+1);
   save();
