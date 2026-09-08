@@ -1,6 +1,6 @@
-const CACHE="ftf-mobile-v17";
-const ASSETS=["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./ftf-images.js","./ftf_story_images.jpg"];
-const inject=async resp=>{if(!resp)return resp;let html=await resp.text();if(!html.includes('ftf-images.js'))html=html.replace('</body>','<script src="./ftf-images.js?v=17"></script></body>');return new Response(html,{status:resp.status,statusText:resp.statusText,headers:resp.headers})};
+const CACHE="ftf-mobile-v18";
+const ASSETS=["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./ftf-images.js","./ftf_story_images.jpg","./ftf-auto-audio.js"];
+const inject=async resp=>{if(!resp)return resp;let html=await resp.text();if(!html.includes('ftf-images.js'))html=html.replace('</body>','<script src="./ftf-images.js?v=18"></script><script src="./ftf-auto-audio.js?v=18"></script></body>');else if(!html.includes('ftf-auto-audio.js'))html=html.replace('</body>','<script src="./ftf-auto-audio.js?v=18"></script></body>');return new Response(html,{status:resp.status,statusText:resp.statusText,headers:resp.headers})};
 self.addEventListener("install",e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)))});
 self.addEventListener("activate",e=>e.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))])));
 self.addEventListener("fetch",e=>{if(e.request.mode==="navigate"){e.respondWith(fetch(e.request).then(async resp=>{const raw=resp.clone();caches.open(CACHE).then(c=>c.put("./index.html",raw));return inject(resp)}).catch(async()=>inject(await caches.match("./index.html"))));return}e.respondWith(fetch(e.request).then(resp=>{const copy=resp.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return resp}).catch(()=>caches.match(e.request)))});
