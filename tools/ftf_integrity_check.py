@@ -49,7 +49,14 @@ if 'ref.currentTime/ref.duration)*TOTAL' not in comics: errors.append('audio-to-
 if 'finishScene(token)' not in comics: errors.append('automatic next-scene/song continuation missing')
 
 # Integrated comic overlay regression
-for token in ["viewer.classList.toggle('ftf-integrated'", "integratedMode(true)", "E('situation').textContent=''", "E('sfxText').textContent=''", "E('captionKo').textContent=''", "E('captionZh').textContent=''">
+for token in [
+    "viewer.classList.toggle('ftf-integrated'",
+    'integratedMode(true)',
+    "E('situation').textContent=''",
+    "E('sfxText').textContent=''",
+    "E('captionKo').textContent=''",
+    "E('captionZh').textContent=''",
+]:
     if token not in comics and token not in viewer:
         errors.append(f'Integrated comic overlay guard missing: {token}')
 if '.viewer.ftf-integrated .situation' not in viewer or '.viewer.ftf-integrated .subtitleWrap' not in viewer:
