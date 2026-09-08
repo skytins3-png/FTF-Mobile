@@ -1,1 +1,29 @@
-PLACEHOLDER
+window.FTFCinematicScenePlan=window.FTFCinematicScenePlan||{};
+window.FTFCinematicScenePlan[8]=[
+{n:1,title:'새벽의 항구',caption:'새로운 아침, 우리는 다시 바다로 나선다.',dialogue:'이제 출항이야. 모두 준비됐지?',sfx:'WOOOSH!'},
+{n:2,title:'마지막 점검',caption:'승조원들이 장비와 항로를 다시 확인한다.',dialogue:'체크리스트 마지막 항목까지 확인해.',sfx:'CLICK'},
+{n:3,title:'출항 명령',caption:'함교에 출항 명령이 울린다.',dialogue:'전 함대, 출항한다.',sfx:'BEEP'},
+{n:4,title:'항구를 떠나다',caption:'선두 함선이 방파제를 지나 넓은 바다로 향한다.',dialogue:'돌아올 길이 보이지 않아도, 우리가 갈 길은 분명해.',sfx:'WOOOSH!'},
+{n:5,title:'수평선 너머',caption:'뒤따르는 함선들이 일렬로 수평선을 가른다.',dialogue:'대형 유지. 서로의 불빛을 놓치지 마.',sfx:'RUMBLE'},
+{n:6,title:'첫 번째 파도',caption:'거센 파도가 갑판을 덮치지만 함대는 속도를 유지한다.',dialogue:'흔들려도 멈추지 마!',sfx:'SPLASH!'},
+{n:7,title:'함교의 약속',caption:'승조원들은 지구 홀로그램 앞에서 임무를 되새긴다.',dialogue:'지구를 위해, 우리의 미래를 위해.',sfx:'HUMM'},
+{n:8,title:'멀어지는 육지',caption:'해안선이 작아지고 출항의 의미가 실감난다.',dialogue:'이제 정말 시작됐네.',sfx:'WIND'},
+{n:9,title:'같은 방향',caption:'서로 다른 함선의 승조원들이 같은 좌표를 바라본다.',dialogue:'함께라면 더 멀리 갈 수 있어.',sfx:'BEEP'},
+{n:10,title:'야간 항해',caption:'해가 지고 별빛 아래 함대의 항해등이 이어진다.',dialogue:'야간 항로 진입. 속도 유지.',sfx:'WHOOM'},
+{n:11,title:'폭풍 전선',caption:'레이더에 거대한 폭풍 전선이 나타난다.',dialogue:'전방 폭풍. 우회하지 않는다.',sfx:'BEEP-BEEP'},
+{n:12,title:'폭풍 속으로',caption:'번개와 파도 사이로 선두 함선이 진입한다.',dialogue:'서로를 믿어. 우리는 통과한다.',sfx:'KRAK!'},
+{n:13,title:'기관실',caption:'기관실 승조원들이 출력 저하를 막기 위해 분주히 움직인다.',dialogue:'출력 90퍼센트 유지!',sfx:'THRUM'},
+{n:14,title:'구조 신호',caption:'멀리 조난 신호가 포착되고 함대가 항로를 조정한다.',dialogue:'구조 신호 확인. 좌현으로 12도.',sfx:'SOS'},
+{n:15,title:'구조 작전',caption:'구조정이 파도 사이를 가르며 조난자에게 접근한다.',dialogue:'손을 잡아요! 지금 갑니다!',sfx:'SPLASH!'},
+{n:16,title:'다시 항로로',caption:'구조를 마친 함대가 원래 항로로 복귀한다.',dialogue:'한 사람도 남겨두지 않는다.',sfx:'WHOOSH'},
+{n:17,title:'새로운 대륙',caption:'새벽빛 속에 먼 대륙의 윤곽이 나타난다.',dialogue:'전방 육지 확인.',sfx:'PING'},
+{n:18,title:'기록',caption:'승조원들이 항해 기록과 지구 환경 데이터를 저장한다.',dialogue:'오늘의 기록이 다음 세대의 지도야.',sfx:'TIK-TIK'},
+{n:19,title:'지구를 바라보다',caption:'우주 관측 화면 속 푸른 지구가 함교를 밝힌다.',dialogue:'저곳이 우리의 집이야.',sfx:'HUMM'},
+{n:20,title:'다음 세대',caption:'젊은 승조원들이 선배와 함께 항로 계산을 배운다.',dialogue:'다음 항해는 너희가 이어가는 거야.',sfx:'CLICK'},
+{n:21,title:'연합 함대',caption:'서로 다른 국적의 함선들이 같은 대형으로 합류한다.',dialogue:'이제 우리는 하나의 함대다.',sfx:'BOOM'},
+{n:22,title:'긴 항로',caption:'지도에는 아직 수많은 미지의 구간이 남아 있다.',dialogue:'길은 길어. 그래도 간다.',sfx:'WIND'},
+{n:23,title:'새벽 회의',caption:'함교 회의에서 다음 목적지와 임무가 결정된다.',dialogue:'다음 좌표를 공유한다.',sfx:'BEEP'},
+{n:24,title:'다시 떠오르는 태양',caption:'두 번째 일출이 함대 전체를 비춘다.',dialogue:'우리가 만든 오늘이 내일을 바꿀 거야.',sfx:'WOOOSH'},
+{n:25,title:'더 넓은 내일',caption:'함대가 넓은 바다 위에서 새로운 대형을 만든다.',dialogue:'더 넓은 내일을 향해!',sfx:'ROAR'},
+{n:26,title:'미래를 위하여',caption:'카메라가 멀어지며 지구와 함대가 한 화면에 담긴다.',dialogue:'지구는 우리의 집, 그리고 우리의 책임이다.',sfx:'BOOM…'}
+];

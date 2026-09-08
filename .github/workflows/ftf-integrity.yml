@@ -31,6 +31,8 @@ jobs:
           node --check ftf-comic-fix.js
           node --check ftf-song-comics.js
           node --check ftf-viewer-polish.js
+          node --check ftf-cinematic-scenes-08.js
+          node --check ftf-cinematic-ui.js
       - name: Verify no accidental project-data deletion
         run: |
           test -s index.html
