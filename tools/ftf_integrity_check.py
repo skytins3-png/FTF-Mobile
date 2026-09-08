@@ -20,10 +20,11 @@ sw=text('sw.js')
 comics=text('ftf-song-comics.js')
 viewer=text('ftf-viewer-polish.js')
 cinema=text('ftf-cinematic-ui.js')
+cinematic_assets=text('ftf-cinematic-assets-08.js')
 audio=text('ftf-auto-audio.js')
 fix=text('ftf-comic-fix.js')
 
-core=['ftf-images.js','ftf-radio-comic.js','ftf-auto-audio.js','ftf-comic-fix.js','ftf-song-comics.js','ftf-viewer-polish.js','ftf-cinematic-ui.js','ftf_story_images.jpg','icon-192.png','icon-512.png']
+core=['ftf-images.js','ftf-radio-comic.js','ftf-auto-audio.js','ftf-comic-fix.js','ftf-song-comics.js','ftf-viewer-polish.js','ftf-cinematic-ui.js','ftf-cinematic-scenes-08.js','ftf-cinematic-assets-08.js','ftf_story_images.jpg','icon-192.png','icon-512.png']
 for f in core: need(f)
 
 for n in range(1,9):
@@ -55,12 +56,21 @@ if '.viewer.ftf-integrated .situation' not in viewer or '.viewer.ftf-integrated 
 for token in ['ftfCinemaCounter','ftfProgressFill','ftfPrev','ftfPlay','ftfNext','/ 26']:
     if token not in cinema: errors.append(f'Cinematic mobile player missing: {token}')
 if 'ftf-cinematic-ui.js' not in sw: errors.append('service worker must inject/cache cinematic UI')
+if 'ftf-cinematic-assets-08.js' not in sw: errors.append('service worker must inject/cache cinematic FTF-08 asset mapper')
 
 mapped=set(re.findall(r"assets/comics/FTF-\d{2}/\d{2}\.svg", comics))
 cached=set(re.findall(r"assets/comics/FTF-\d{2}/\d{2}\.svg", sw))
 for rel in sorted(mapped):
     if not (ROOT/rel).exists(): errors.append(f'Mapped comic asset missing: {rel}')
     if rel not in cached: errors.append(f'Mapped comic asset not cached: {rel}')
+
+for idx in range(5,10):
+    rel=f'assets/comics/FTF-08/{idx:02d}.svg'
+    if not (ROOT/rel).exists(): errors.append(f'Cinematic illustrated asset missing: {rel}')
+    if rel not in cached: errors.append(f'Cinematic illustrated asset not cached: {rel}')
+    if f"'{idx:02d}.svg'" not in cinematic_assets: errors.append(f'Cinematic asset mapper missing FTF-08/{idx:02d}.svg')
+if "n!==8" not in cinematic_assets or "window.showComic=async function" not in cinematic_assets:
+    errors.append('Cinematic asset mapper must be scoped to FTF-08 and wrap showComic')
 
 for p in ROOT.rglob('*'):
     if p.is_file() and p.suffix.lower() in {'.js','.json','.html','.css','.svg','.py','.yml','.yaml','.txt'}:
