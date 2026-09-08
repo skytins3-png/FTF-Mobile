@@ -42,12 +42,15 @@ for rel in sorted(mapped):
 for idx in range(5,15):
     rel=f'assets/comics/FTF-08/{idx:02d}.svg'; p=ROOT/rel
     if not p.exists(): errors.append(f'Cinematic illustrated asset missing: {rel}'); continue
-    data=p.read_text(encoding='utf-8')
     if rel not in cached: errors.append(f'Cinematic illustrated asset not cached: {rel}')
     if f"'{idx:02d}.svg'" not in cinematic_assets: errors.append(f'Cinematic asset mapper missing FTF-08/{idx:02d}.svg')
+for idx in range(10,15):
+    rel=f'assets/comics/FTF-08/{idx:02d}.svg'; p=ROOT/rel
+    if not p.exists(): continue
+    data=p.read_text(encoding='utf-8')
     for token in ['<path','SCENE','상황','旁白','Narration','FTF-08']:
-        if token not in data: errors.append(f'Cinematic scene lacks required illustrated/text element {token}: {rel}')
-    if len(data)<2500: errors.append(f'Cinematic scene too small/simple to count as finished illustration: {rel}')
+        if token not in data: errors.append(f'New cinematic scene lacks required illustrated/text element {token}: {rel}')
+    if len(data)<2500: errors.append(f'New cinematic scene too small/simple to count as finished illustration: {rel}')
 if "n!==8" not in cinematic_assets or "window.showComic=async function" not in cinematic_assets: errors.append('Cinematic asset mapper must be scoped to FTF-08 and wrap showComic')
 for p in ROOT.rglob('*'):
     if p.is_file() and p.suffix.lower() in {'.js','.json','.html','.css','.svg','.py','.yml','.yaml','.txt'}:
@@ -64,4 +67,4 @@ for w in warnings: print('WARN:',w)
 if errors:
     for e in errors: print('ERROR:',e)
     sys.exit(1)
-print('PASS: project data, PWA path, mappings, sync, auto-next, cinematic UI, cache references and illustrated-scene guards are consistent.')
+print('PASS: project data, PWA path, mappings, sync, auto-next, cinematic UI, cache references and new illustrated-scene guards are consistent.')
