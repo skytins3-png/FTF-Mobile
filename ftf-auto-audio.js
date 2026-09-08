@@ -44,7 +44,7 @@
       for(const [n,i] of autoMap())if(i===idx)return n;
       return 0;
     };
-    sceneForSong=function(name){const n=trackForSong(name);return n>=1&&n<=7?n:0};
+    sceneForSong=function(name){const n=trackForSong(name);return n>=1&&n<=8?n:0};
     sceneSong=function(n){return autoMap().get(n)??-1};
   }catch(e){console.warn('FTF auto mapping override',e)}
 
