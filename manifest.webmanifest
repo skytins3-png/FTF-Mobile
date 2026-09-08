@@ -2,7 +2,7 @@
   "id": "/FTF-Mobile/",
   "name": "FTF 영화 프로젝트 곡 관리",
   "short_name": "FTF 곡관리",
-  "start_url": "/FTF-Mobile/?app=v42",
+  "start_url": "/FTF-Mobile/?app=v44",
   "scope": "/FTF-Mobile/",
   "display": "standalone",
   "background_color": "#0f1115",
