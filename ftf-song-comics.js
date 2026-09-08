@@ -1,6 +1,10 @@
 (()=>{
   const TOTAL=26;
   const SPRITE='./ftf_story_images.jpg';
+  const STORY_ASSETS={
+    1:{0:'./assets/comics/FTF-01/01.svg'},
+    2:{0:'./assets/comics/FTF-02/01.svg'}
+  };
   const TRACK_FRAMES={
     1:[0,10,19,16,13,14,1,11,20,17,12,15,2,9,18,23,5,8,3,7,21,22,4,6,24,0],
     2:[21,3,4,7,17,6,22,18,2,24,1,11,23,12,5,20,9,8,15,14,13,16,19,10,0,21],
@@ -18,19 +22,26 @@
   const viewer=E('viewer'), img=E('comicImg');
   let built=document.getElementById('ftfBuiltImage');
   if(!built){built=document.createElement('div');built.id='ftfBuiltImage';viewer.insertBefore(built,viewer.firstChild)}
-  built.style.backgroundImage=`url('${SPRITE}')`;
   built.style.backgroundRepeat='no-repeat';
-  built.style.backgroundSize='500% 500%';
   built.style.position='absolute';built.style.inset='0';built.style.zIndex='0';
 
+  function setIntegratedAsset(src){
+    built.style.backgroundImage=`url('${src}')`;
+    built.style.backgroundSize='cover';
+    built.style.backgroundPosition='center center';
+    built.style.display='block';img.style.display='none';
+  }
   function setSprite(frame){
     frame=((frame%25)+25)%25;
     const col=frame%5,row=Math.floor(frame/5);
+    built.style.backgroundImage=`url('${SPRITE}')`;
+    built.style.backgroundSize='500% 500%';
     built.style.backgroundPosition=`${col*25}% ${row*25}%`;
     built.style.display='block';img.style.display='none';
   }
   function beatFor(idx){return Math.min(5,Math.floor(idx*6/TOTAL))}
   function customComicAvailable(n){try{return typeof sceneComics==='function'&&sceneComics(n).length>0}catch(e){return false}}
+  function integratedAsset(track,idx){return STORY_ASSETS[track]&&STORY_ASSETS[track][idx]}
 
   window.showComic=async function(n,cut){
     const sc=SCRIPT.find(s=>s.n===n)||SCRIPT[n-1];
@@ -46,10 +57,10 @@
     E('situation').textContent='상황 설명 · '+((sc.sit&&sc.sit[beat])||'');
     E('captionKo').innerHTML='<span class="langtag">KR</span>'+((sc.ko&&sc.ko[beat])||'');
     E('captionZh').innerHTML='<span class="langtag">中文</span>'+((sc.zh&&sc.zh[beat])||'');
-    setSprite(frames[idx]);
+    const asset=integratedAsset(track,idx);
+    if(asset)setIntegratedAsset(asset);else setSprite(frames[idx]);
   };
 
-  // 26장면은 고정 4.7초 루프가 아니라 실제 곡의 재생 위치에 맞춰 진행한다.
   try{
     window.slideshow=function(n){
       clearInterval(timer);timer=null;currentCut=0;window.ftfSceneIndex=0;showComic(n,0);playSfx(n,0);
@@ -83,7 +94,6 @@
     }
   }catch(e){console.warn('FTF audio sync hook',e)}
 
-  // 기존 6컷 타이머가 곡 도중 다음 곡으로 넘어가던 문제를 막고, 실제 음원 종료 후 다음 FTF 곡으로 진행한다.
   try{
     window.playScene=function(n,mode='radio'){
       runToken++;const token=runToken;clearRun();speechSynthesis.cancel();stopAudio();
