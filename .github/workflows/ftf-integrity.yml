@@ -41,4 +41,4 @@ jobs:
           test -s sw.js
           test -d assets/comics
           for n in 01 02 03 04 05 06 07 08; do test -d "assets/comics/FTF-$n"; done
-          for n in 05 06 07 08 09; do test -s "assets/comics/FTF-08/$n.svg"; done
+          for n in 05 06 07 08 09 10 11 12 13 14; do test -s "assets/comics/FTF-08/$n.svg"; done
