@@ -1,0 +1,40 @@
+name: FTF integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate FTF project
+        run: python tools/ftf_integrity_check.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check ftf-images.js
+          node --check ftf-radio-comic.js
+          node --check ftf-auto-audio.js
+          node --check ftf-comic-fix.js
+          node --check ftf-song-comics.js
+          node --check ftf-viewer-polish.js
+      - name: Verify no accidental project-data deletion
+        run: |
+          test -s index.html
+          test -s manifest.webmanifest
+          test -s sw.js
+          test -d assets/comics
+          for n in 01 02 03 04 05 06 07 08; do test -d "assets/comics/FTF-$n"; done
