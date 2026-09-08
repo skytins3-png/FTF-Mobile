@@ -1,7 +1,11 @@
 (()=>{
   const TOTAL=26;
   const SPRITE='./ftf_story_images.jpg';
-  const STORY_ASSETS={1:{0:'./assets/comics/FTF-01/01.svg',1:'./assets/comics/FTF-01/02.svg',2:'./assets/comics/FTF-01/03.svg',3:'./assets/comics/FTF-01/04.svg',4:'./assets/comics/FTF-01/05.svg',5:'./assets/comics/FTF-01/06.svg'},2:{0:'./assets/comics/FTF-02/01.svg',1:'./assets/comics/FTF-02/02.svg',2:'./assets/comics/FTF-02/03.svg',3:'./assets/comics/FTF-02/04.svg',4:'./assets/comics/FTF-02/05.svg',5:'./assets/comics/FTF-02/06.svg'}};
+  const STORY_ASSETS={
+    1:{0:'./assets/comics/FTF-01/01.svg',1:'./assets/comics/FTF-01/02.svg',2:'./assets/comics/FTF-01/03.svg',3:'./assets/comics/FTF-01/04.svg',4:'./assets/comics/FTF-01/05.svg',5:'./assets/comics/FTF-01/06.svg',6:'./assets/comics/FTF-01/07.svg'},
+    2:{0:'./assets/comics/FTF-02/01.svg',1:'./assets/comics/FTF-02/02.svg',2:'./assets/comics/FTF-02/03.svg',3:'./assets/comics/FTF-02/04.svg',4:'./assets/comics/FTF-02/05.svg',5:'./assets/comics/FTF-02/06.svg',6:'./assets/comics/FTF-02/07.svg'},
+    3:{0:'./assets/comics/FTF-03/01.svg'},4:{0:'./assets/comics/FTF-04/01.svg'},5:{0:'./assets/comics/FTF-05/01.svg'},6:{0:'./assets/comics/FTF-06/01.svg'},7:{0:'./assets/comics/FTF-07/01.svg'},8:{0:'./assets/comics/FTF-08/01.svg'}
+  };
   const TRACK_FRAMES={1:[0,10,19,16,13,14,1,11,20,17,12,15,2,9,18,23,5,8,3,7,21,22,4,6,24,0],2:[21,3,4,7,17,6,22,18,2,24,1,11,23,12,5,20,9,8,15,14,13,16,19,10,0,21],3:[5,23,15,20,9,8,24,18,1,11,22,2,12,19,7,6,3,4,21,17,16,14,13,10,0,5],4:[22,18,2,24,1,11,23,15,5,20,9,8,12,19,7,6,3,4,21,17,16,14,13,10,0,22],5:[12,19,8,20,9,2,14,13,10,0,16,17,21,7,6,3,4,22,18,1,11,23,15,5,24,12],6:[24,18,15,1,11,5,23,22,2,20,9,8,12,19,7,6,3,4,21,17,16,14,13,10,0,24],7:[23,12,7,6,3,4,21,17,22,18,2,24,1,11,5,20,9,8,15,14,13,16,19,10,0,23],8:[10,14,16,19,13,0,12,20,9,8,5,23,15,1,11,24,18,2,22,17,21,7,6,3,4,10]};
   const oldShow=window.showComic;if(typeof oldShow!=='function')return;
   const viewer=E('viewer'),img=E('comicImg');let built=document.getElementById('ftfBuiltImage');if(!built){built=document.createElement('div');built.id='ftfBuiltImage';viewer.insertBefore(built,viewer.firstChild)}built.style.backgroundRepeat='no-repeat';built.style.position='absolute';built.style.inset='0';built.style.zIndex='0';
