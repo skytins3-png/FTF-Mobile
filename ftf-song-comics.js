@@ -1,6 +1,7 @@
 (()=>{
   const TOTAL=26;
   const BASE='/FTF-Mobile/';
+  const VERSION='39';
   const SPRITE=BASE+'ftf_story_images.jpg';
   const A=p=>BASE+p.replace(/^\.\//,'');
   const STORY_ASSETS={
@@ -15,15 +16,47 @@
   };
   const TRACK_FRAMES={1:[0,10,19,16,13,14,1,11,20,17,12,15,2,9,18,23,5,8,3,7,21,22,4,6,24,0],2:[21,3,4,7,17,6,22,18,2,24,1,11,23,12,5,20,9,8,15,14,13,16,19,10,0,21],3:[5,23,15,20,9,8,24,18,1,11,22,2,12,19,7,6,3,4,21,17,16,14,13,10,0,5],4:[22,18,2,24,1,11,23,15,5,20,9,8,12,19,7,6,3,4,21,17,16,14,13,10,0,22],5:[12,19,8,20,9,2,14,13,10,0,16,17,21,7,6,3,4,22,18,1,11,23,15,5,24,12],6:[24,18,15,1,11,5,23,22,2,20,9,8,12,19,7,6,3,4,21,17,16,14,13,10,0,24],7:[23,12,7,6,3,4,21,17,22,18,2,24,1,11,5,20,9,8,15,14,13,16,19,10,0,23],8:[10,14,16,19,13,0,12,20,9,8,5,23,15,1,11,24,18,2,22,17,21,7,6,3,4,10]};
   const oldShow=window.showComic;if(typeof oldShow!=='function')return;
-  const viewer=E('viewer'),img=E('comicImg');let built=document.getElementById('ftfBuiltImage');if(!built){built=document.createElement('div');built.id='ftfBuiltImage';viewer.insertBefore(built,viewer.firstChild)}built.style.backgroundRepeat='no-repeat';built.style.position='absolute';built.style.inset='0';built.style.zIndex='0';
-  function setIntegratedAsset(src,frame){built.style.display='none';img.style.display='block';img.style.objectFit='cover';img.src=src+'?v=37';img.onerror=()=>{img.onerror=null;setSprite(frame)}}
-  function setSprite(frame){frame=((frame%25)+25)%25;const col=frame%5,row=Math.floor(frame/5);img.style.display='none';built.style.backgroundImage=`url('${SPRITE}?v=37')`;built.style.backgroundSize='500% 500%';built.style.backgroundPosition=`${col*25}% ${row*25}%`;built.style.display='block'}
-  function beatFor(idx){return Math.min(5,Math.floor(idx*6/TOTAL))}function customComicAvailable(n){try{return typeof sceneComics==='function'&&sceneComics(n).length>0}catch(e){return false}}function integratedAsset(track,idx){return STORY_ASSETS[track]&&STORY_ASSETS[track][idx]}
-  window.showComic=async function(n,cut){const sc=SCRIPT.find(s=>s.n===n)||SCRIPT[n-1];if(!sc)return oldShow(n,cut);if(customComicAvailable(n)){built.style.display='none';img.style.display='block';return oldShow(n,cut)}const idx=((Number.isFinite(cut)?cut:(window.ftfSceneIndex||0))%TOTAL+TOTAL)%TOTAL;window.ftfSceneIndex=idx;const beat=beatFor(idx),track=sc.track||n,frames=TRACK_FRAMES[track]||TRACK_FRAMES[1];viewer.classList.add('show');E('viewerTitle').textContent=sc.name;E('viewerStatus').textContent=`대본 ${String(n).padStart(2,'0')} · 만화 ${idx+1}/${TOTAL}`;E('sfxText').textContent=(sc.sfx&&sc.sfx[beat])||'';E('situation').textContent='상황 설명 · '+((sc.sit&&sc.sit[beat])||'');E('captionKo').innerHTML='<span class="langtag">KR</span>'+((sc.ko&&sc.ko[beat])||'');E('captionZh').innerHTML='<span class="langtag">中文</span>'+((sc.zh&&sc.zh[beat])||'');const asset=integratedAsset(track,idx);if(asset)setIntegratedAsset(asset,frames[idx]);else setSprite(frames[idx])};
+  const viewer=E('viewer'),img=E('comicImg');
+  let built=document.getElementById('ftfBuiltImage');
+  if(!built){built=document.createElement('div');built.id='ftfBuiltImage';viewer.insertBefore(built,viewer.firstChild)}
+  built.style.backgroundRepeat='no-repeat';built.style.position='absolute';built.style.inset='0';built.style.zIndex='0';
+  function integratedMode(on){viewer.classList.toggle('ftf-integrated',!!on)}
+  function setIntegratedAsset(src,frame){
+    integratedMode(true);
+    built.style.display='none';img.style.display='block';img.style.objectFit='cover';
+    img.onerror=()=>{img.onerror=null;setSprite(frame)};
+    img.src=src+'?v='+VERSION;
+  }
+  function setSprite(frame){
+    integratedMode(false);
+    frame=((frame%25)+25)%25;const col=frame%5,row=Math.floor(frame/5);
+    img.style.display='none';built.style.backgroundImage=`url('${SPRITE}?v=${VERSION}')`;
+    built.style.backgroundSize='500% 500%';built.style.backgroundPosition=`${col*25}% ${row*25}%`;built.style.display='block';
+  }
+  function beatFor(idx){return Math.min(5,Math.floor(idx*6/TOTAL))}
+  function customComicAvailable(n){try{return typeof sceneComics==='function'&&sceneComics(n).length>0}catch(e){return false}}
+  function integratedAsset(track,idx){return STORY_ASSETS[track]&&STORY_ASSETS[track][idx]}
+  window.showComic=async function(n,cut){
+    const sc=SCRIPT.find(s=>s.n===n)||SCRIPT[n-1];if(!sc)return oldShow(n,cut);
+    if(customComicAvailable(n)){integratedMode(false);built.style.display='none';img.style.display='block';return oldShow(n,cut)}
+    const idx=((Number.isFinite(cut)?cut:(window.ftfSceneIndex||0))%TOTAL+TOTAL)%TOTAL;
+    window.ftfSceneIndex=idx;
+    const beat=beatFor(idx),track=sc.track||n,frames=TRACK_FRAMES[track]||TRACK_FRAMES[1],asset=integratedAsset(track,idx);
+    viewer.classList.add('show');
+    if(asset){
+      E('viewerTitle').textContent='';E('viewerStatus').textContent='';E('sfxText').textContent='';E('situation').textContent='';E('captionKo').textContent='';E('captionZh').textContent='';
+      setIntegratedAsset(asset,frames[idx]);
+    }else{
+      integratedMode(false);
+      E('viewerTitle').textContent=sc.name;E('viewerStatus').textContent=`대본 ${String(n).padStart(2,'0')} · 만화 ${idx+1}/${TOTAL}`;
+      E('sfxText').textContent=(sc.sfx&&sc.sfx[beat])||'';E('situation').textContent='상황 설명 · '+((sc.sit&&sc.sit[beat])||'');
+      E('captionKo').innerHTML='<span class="langtag">KR</span>'+((sc.ko&&sc.ko[beat])||'');E('captionZh').innerHTML='<span class="langtag">中文</span>'+((sc.zh&&sc.zh[beat])||'');
+      setSprite(frames[idx]);
+    }
+  };
   try{window.slideshow=function(n){clearInterval(timer);timer=null;currentCut=0;window.ftfSceneIndex=0;showComic(n,0);playSfx(n,0)}}catch(e){}
   function bindComicToAudio(n,ref){if(!ref)return;let last=-1;const sync=()=>{if(audio!==ref||!Number.isFinite(ref.duration)||ref.duration<=0)return;const idx=Math.max(0,Math.min(TOTAL-1,Math.floor((ref.currentTime/ref.duration)*TOTAL)));if(idx===last)return;last=idx;currentCut=idx;window.ftfSceneIndex=idx;showComic(n,idx);if(typeof playSfx==='function')playSfx(n,beatFor(idx))};ref.addEventListener('loadedmetadata',sync);ref.addEventListener('timeupdate',sync);ref.addEventListener('seeking',sync);sync()}
-  let playbackEpoch=0;
-  const basePlaySong=window.playSong;
+  let playbackEpoch=0;const basePlaySong=window.playSong;
   if(typeof basePlaySong==='function')window.playSong=async function(i,done){const epoch=++playbackEpoch;try{speechSynthesis.cancel()}catch(e){};try{document.querySelectorAll('audio,video').forEach(m=>{if(m!==audio){m.pause();try{m.currentTime=0}catch(e){}}})}catch(e){};stopAudio();const guarded=()=>{if(epoch===playbackEpoch)done&&done()};const r=await basePlaySong(i,guarded);const ref=audio;if(epoch===playbackEpoch&&ref&&currentScene>=1&&currentScene<=8)bindComicToAudio(currentScene,ref);return r};
   window.playScene=function(n,mode='radio'){runToken++;const token=runToken;playbackEpoch++;clearRun();try{speechSynthesis.cancel()}catch(e){};stopAudio();currentScene=n;currentCut=0;window.ftfSceneIndex=0;slideshow(n);const sc=SCRIPT.find(s=>s.n===n)||SCRIPT[n-1],i=sceneSong(n);E('now').textContent=`${sc.name} · ${mode==='radio'?'라디오 만화':'영화+음악'}`;const finish=()=>{if(token===runToken)finishScene(token)};const startMusic=()=>{if(token!==runToken)return;try{speechSynthesis.cancel()}catch(e){};stopAudio();if(i>=0)playSong(i,finish);else{E('now').textContent=`${sc.name} · 연결곡 없음`;sceneEndTimer=setTimeout(finish,6000)}};if(mode==='radio')speakEnglish(sc.en,startMusic);else startMusic()};
   window.startAuto=function(mode){playbackEpoch++;try{speechSynthesis.cancel()}catch(e){};stopAudio();autoMode=mode;queuePos=0;currentScene=1;playScene(1,mode)};
