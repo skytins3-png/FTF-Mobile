@@ -2,8 +2,8 @@
   const TOTAL=26;
   const SPRITE='./ftf_story_images.jpg';
   const STORY_ASSETS={
-    1:{0:'./assets/comics/FTF-01/01.svg'},
-    2:{0:'./assets/comics/FTF-02/01.svg'}
+    1:{0:'./assets/comics/FTF-01/01.svg',1:'./assets/comics/FTF-01/02.svg'},
+    2:{0:'./assets/comics/FTF-02/01.svg',1:'./assets/comics/FTF-02/02.svg'}
   };
   const TRACK_FRAMES={
     1:[0,10,19,16,13,14,1,11,20,17,12,15,2,9,18,23,5,8,3,7,21,22,4,6,24,0],
