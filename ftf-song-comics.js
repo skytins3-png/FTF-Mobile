@@ -1,1 +1,81 @@
-(()=>{const N=26;const palettes=[['#081d33','#ff7b54'],['#10263d','#66b8ff'],['#151b2c','#ffd166'],['#20192e','#9ad1d4'],['#2a1e2d','#ff9fbd'],['#101820','#8ad5ca'],['#22192b','#c9a7ff'],['#071b2b','#ffb45c']];const themes=[['지구의 경고','바다·빙하·산불·폭우·홍수·지구'],['태풍 아르카','태풍·강풍·번개·범람·대피·구조'],['지구 생존 계획','재난 뒤 비밀회의·세계 전문가·생존계획'],['5년 계획','17세 청소년·학교·관찰·비밀계획'],['청춘과 첫사랑','학교·버스·친구·첫사랑·평범한 하루'],['PROJECT 0714','비밀 관찰·요원·기록·갈등'],['지구미래 대책회의','과학·윤리·생존·존엄·선택'],['미래를 위하여 — 출항','새벽·함선·승무원·지구·출항·미래']];function esc(s){return String(s||'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))}function sceneText(t,i){const a=['새로운 장면이 시작된다.','상황이 조금씩 변하기 시작한다.','사람들은 변화를 알아차린다.','결정의 순간이 가까워진다.','서로의 마음과 선택이 교차한다.','다음 미래를 향해 움직인다.'];return a[i%a.length]}function art(track,i){let p=palettes[(track-1)%palettes.length],th=themes[(track-1)%themes.length],x=(i*37)%650,y=250+(i*83)%620;return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1500"><defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="${p[0]}"/><stop offset="1" stop-color="${p[1]}"/></linearGradient></defs><rect width="900" height="1500" fill="url(#g)"/><circle cx="${120+x}" cy="${y}" r="180" fill="#fff" opacity=".12"/><path d="M0 1040 Q180 900 360 1030 T720 980 T1000 1030V1500H0Z" fill="#071018" opacity=".9"/><circle cx="300" cy="720" r="95" fill="#121212"/><path d="M175 850q125-145 250 0v360H175z" fill="#121212"/><circle cx="650" cy="770" r="75" fill="#171717"/><path d="M555 870q95-115 190 0v300H555z" fill="#171717"/><text x="55" y="100" fill="white" font-family="Arial" font-size="42" font-weight="900">FTF-${String(track).padStart(2,'0')} · ${esc(th[0])}</text><text x="55" y="155" fill="white" font-family="Arial" font-size="28">SCENE ${String(i+1).padStart(2,'0')} / 26</text><rect x="45" y="190" width="810" height="150" rx="20" fill="#fff5d8" stroke="#111" stroke-width="8"/><text x="80" y="250" fill="#111" font-family="Arial" font-size="31" font-weight="700">${esc(th[1])}</text><text x="80" y="300" fill="#111" font-family="Arial" font-size="27">${esc(sceneText(track,i))}</text><ellipse cx="620" cy="500" rx="210" ry="130" fill="white" stroke="#111" stroke-width="9"/><path d="M520 600l-65 95 120-70" fill="white" stroke="#111" stroke-width="9"/><text x="620" y="480" text-anchor="middle" fill="#111" font-family="Arial" font-size="34" font-weight="900">미래를 위해</text><text x="620" y="530" text-anchor="middle" fill="#111" font-family="Arial" font-size="29">함께 가자!</text><text x="70" y="1370" fill="white" font-family="Arial" font-size="70" font-weight="900">${['WHOOSH!','BEEP!','RUMBLE!','CRACK!','THUMP!'][i%5]}</text></svg>`)}`};let old=window.showComic;if(!old)return;window.showComic=async function(n,cut){let track=(SCRIPT[n-1]&&SCRIPT[n-1].track)||n;let idx=((window.ftfSceneIndex||0)%N+N)%N;window.ftfSceneIndex=(idx+1)%N;let sc=SCRIPT[n-1];E('viewer').classList.add('show');E('viewerTitle').textContent=sc.name;E('viewerStatus').textContent=`대본 ${String(n).padStart(2,'0')} · 만화 ${idx+1}/26`;E('comicImg').style.display='block';E('comicImg').src=art(track,idx);let built=document.getElementById('ftfBuiltImage');if(built)built.style.display='none';E('sfxText').textContent=sc.sfx[idx%6];E('situation').textContent='상황 설명 · '+sc.sit[idx%6];E('captionKo').innerHTML='<span class="langtag">KR</span>'+sc.ko[idx%6];E('captionZh').innerHTML='<span class="langtag">中文</span>'+sc.zh[idx%6]};let oldScene=window.playScene;window.playScene=function(n,mode){window.ftfSceneIndex=0;return oldScene(n,mode)};})();
+(()=>{
+  const TOTAL=26;
+  const SPRITE='./ftf_story_images.jpg';
+  const TRACK_FRAMES={
+    1:[0,10,19,16,13,14,0,10,19,16,13,14,0,10,19,16,13,14,0,10,19,16,13,14,0,10],
+    2:[21,3,4,7,17,6,21,3,4,7,17,6,21,3,4,7,17,6,21,3,4,7,17,6,21,3],
+    3:[5,23,15,20,9,8,5,23,15,20,9,8,5,23,15,20,9,8,5,23,15,20,9,8,5,23],
+    4:[22,18,2,24,1,11,22,18,2,24,1,11,22,18,2,24,1,11,22,18,2,24,1,11,22,18],
+    5:[12,19,8,20,9,2,12,19,8,20,9,2,12,19,8,20,9,2,12,19,8,20,9,2,12,19],
+    6:[24,18,15,1,11,5,24,18,15,1,11,5,24,18,15,1,11,5,24,18,15,1,11,5,24,18],
+    7:[23,12,7,6,3,4,23,12,7,6,3,4,23,12,7,6,3,4,23,12,7,6,3,4,23,12],
+    8:[10,14,16,19,13,0,10,14,16,19,13,0,10,14,16,19,13,0,10,14,16,19,13,0,10,14]
+  };
+
+  const oldShow=window.showComic;
+  if(typeof oldShow!=='function')return;
+
+  const viewer=E('viewer'), img=E('comicImg');
+  let built=document.getElementById('ftfBuiltImage');
+  if(!built){
+    built=document.createElement('div');
+    built.id='ftfBuiltImage';
+    viewer.insertBefore(built,viewer.firstChild);
+  }
+  built.style.backgroundImage=`url('${SPRITE}')`;
+  built.style.backgroundRepeat='no-repeat';
+  built.style.backgroundSize='500% 500%';
+  built.style.position='absolute';
+  built.style.inset='0';
+  built.style.zIndex='0';
+
+  function setSprite(frame){
+    frame=((frame%25)+25)%25;
+    const col=frame%5,row=Math.floor(frame/5);
+    built.style.backgroundPosition=`${col*25}% ${row*25}%`;
+    built.style.display='block';
+    img.style.display='none';
+  }
+
+  function storyBeat(sceneIndex){
+    return Math.min(5,Math.floor(sceneIndex*6/TOTAL));
+  }
+
+  function customComicAvailable(n){
+    try{return typeof sceneComics==='function'&&sceneComics(n).length>0}catch(e){return false}
+  }
+
+  window.showComic=async function(n,cut){
+    const sc=SCRIPT.find(s=>s.n===n)||SCRIPT[n-1];
+    if(!sc)return oldShow(n,cut);
+
+    if(customComicAvailable(n)){
+      built.style.display='none';
+      img.style.display='block';
+      return oldShow(n,cut);
+    }
+
+    const idx=((Number.isFinite(cut)?cut:(window.ftfSceneIndex||0))%TOTAL+TOTAL)%TOTAL;
+    window.ftfSceneIndex=(idx+1)%TOTAL;
+    const beat=storyBeat(idx);
+    const track=sc.track||n;
+    const frames=TRACK_FRAMES[track]||TRACK_FRAMES[1];
+
+    viewer.classList.add('show');
+    E('viewerTitle').textContent=sc.name;
+    E('viewerStatus').textContent=`대본 ${String(n).padStart(2,'0')} · 만화 ${idx+1}/${TOTAL}`;
+    E('sfxText').textContent=(sc.sfx&&sc.sfx[beat])||'';
+    E('situation').textContent='상황 설명 · '+((sc.sit&&sc.sit[beat])||'');
+    E('captionKo').innerHTML='<span class="langtag">KR</span>'+((sc.ko&&sc.ko[beat])||'');
+    E('captionZh').innerHTML='<span class="langtag">中文</span>'+((sc.zh&&sc.zh[beat])||'');
+    setSprite(frames[idx]);
+  };
+
+  if(typeof window.playScene==='function'){
+    const oldPlayScene=window.playScene;
+    window.playScene=function(n,mode){
+      window.ftfSceneIndex=0;
+      return oldPlayScene.apply(this,arguments);
+    };
+  }
+})();
