@@ -55,3 +55,5 @@
   try{const headings=[...document.querySelectorAll('h2')];const h=headings.find(x=>x.textContent.includes('대본 7장면'));if(h)h.textContent=h.textContent.replace('대본 7장면','대본 8장면')}catch(e){}
   sync();
 })();
+
+(()=>{if(document.getElementById('ftfLyricComicStudioLoader'))return;const s=document.createElement('script');s.id='ftfLyricComicStudioLoader';s.src='./ftf-lyric-comic-studio.js?v=1';s.async=true;document.body.appendChild(s)})();
