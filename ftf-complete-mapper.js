@@ -1,7 +1,9 @@
 (()=>{
   const BASE='/FTF-Mobile/assets/comics/';
-  const TARGET_SCENES=180;
-  const AVAILABLE_SCENES={2:26,8:26};
+  // Production target is 30 distinct scenes per song.
+  const TARGET_SCENES=30;
+  // Only advertise assets that actually exist in the repository.
+  const AVAILABLE_SCENES={1:26,2:26,8:26};
   const COMPLETE=new Set(Object.keys(AVAILABLE_SCENES).map(Number));
   const previous=window.showComic;
   if(typeof previous!=='function')return;
@@ -13,12 +15,12 @@
     if(!COMPLETE.has(n)||hasUserComic(n))return result;
     const available=AVAILABLE_SCENES[n]||0;
     const requested=Number.isFinite(cut)?Math.max(0,Math.floor(cut)):(window.ftfSceneIndex||0);
-    // Never wrap beyond the real asset count: wrapping would recycle unrelated scenes.
-    if(requested>=available)return result;
+    // Never wrap or fall back to an unrelated panel beyond the real asset count.
+    if(requested>=available||requested>=TARGET_SCENES)return result;
     const idx=requested;
     const viewer=q('viewer'),img=q('comicImg'),built=q('ftfBuiltImage');
     if(!viewer||!img)return result;
-    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(idx+1).padStart(2,'0')}.svg?v=52`;
+    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(idx+1).padStart(2,'0')}.svg?v=53`;
     window.ftfSceneIndex=idx;
     viewer.classList.add('show','ftf-integrated');
     if(built)built.style.display='none';
