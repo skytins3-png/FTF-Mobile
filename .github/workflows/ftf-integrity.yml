@@ -23,6 +23,8 @@ jobs:
           python-version: '3.12'
       - name: Validate FTF project
         run: python tools/ftf_integrity_check.py
+      - name: Validate FTF comic progress
+        run: python tools/ftf_comic_progress_check.py
       - name: Validate FTF-02 cinematic progress
         run: python tools/ftf_02_progress_check.py
       - name: Check JavaScript syntax
@@ -39,6 +41,7 @@ jobs:
           node --check ftf-cinematic-assets-02.js
           node --check ftf-cinematic-ui.js
           node --check ftf-auto-background.js
+          node --check ftf-complete-mapper.js
       - name: Verify no accidental project-data deletion
         run: |
           test -s index.html
