@@ -1,0 +1,1 @@
+(()=>{const apply=()=>{const b=document.getElementById('ftfLiveBadge');if(b)b.textContent='FTF LIVE v51';document.documentElement.dataset.ftfBuild='51'};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',apply,{once:true});else apply();})();
