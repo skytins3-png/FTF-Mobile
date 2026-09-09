@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="FTF-01 scene 29 storm evacuation and recovery">
+<defs>
+  <linearGradient id="storm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101827"/><stop offset=".55" stop-color="#344a61"/><stop offset="1" stop-color="#73879a"/></linearGradient>
+  <linearGradient id="rescue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#49697f"/><stop offset="1" stop-color="#153447"/></linearGradient>
+  <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f6bd71"/><stop offset=".55" stop-color="#9cc5ba"/><stop offset="1" stop-color="#496f58"/></linearGradient>
+  <filter id="sh"><feDropShadow dx="0" dy="9" stdDeviation="9" flood-opacity=".48"/></filter>
+</defs>
+<rect width="1080" height="1920" fill="#05090d"/>
+<rect x="32" y="32" width="1016" height="1856" rx="26" fill="#0c1118" stroke="#f0f4f8" stroke-width="5"/>
+<text x="60" y="88" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="900">FTF-01 · EARTH'S WARNING</text>
+<text x="922" y="88" fill="#ffd56f" font-family="Arial,sans-serif" font-size="32" font-weight="900">29</text>
+
+<!-- PANEL 1: emergency operations center during extreme rain -->
+<g filter="url(#sh)">
+  <rect x="56" y="122" width="968" height="470" rx="20" fill="url(#storm)" stroke="#fff" stroke-width="6"/>
+  <path d="M56 430 L160 346 247 395 345 320 442 394 560 296 675 389 790 326 912 390 1024 342 1024 592 56 592Z" fill="#1d2a37"/>
+  <path d="M90 210 l120 70 M180 160 l145 95 M305 175 l125 78 M460 145 l170 115 M620 165 l150 95 M770 150 l165 110" stroke="#b6d6eb" stroke-width="6" opacity=".65"/>
+  <rect x="84" y="342" width="370" height="198" rx="10" fill="#111b24" stroke="#6f8ea4" stroke-width="4"/>
+  <rect x="104" y="366" width="150" height="72" rx="8" fill="#26394b"/><path d="M116 418 C155 382 196 420 240 382" stroke="#ff8e65" stroke-width="8" fill="none"/>
+  <rect x="274" y="366" width="154" height="72" rx="8" fill="#23384a"/><path d="M287 420 l30-32 25 18 31-42 35 36" stroke="#ffd35c" stroke-width="8" fill="none"/>
+  <text x="108" y="478" fill="#ff7f73" font-size="22" font-family="Arial" font-weight="900">LANDSLIDE RISK ↑</text>
+  <text x="108" y="510" fill="#c9deed" font-size="18" font-family="Arial">산사태 위험 · 山体滑坡风险</text>
+  <circle cx="612" cy="392" r="48" fill="#d7a17d"/><path d="M568 386 Q611 331 660 385 Q642 346 610 340 Q581 344 566 367Z" fill="#222a32"/>
+  <path d="M548 454 Q611 420 676 456 L701 566 H525Z" fill="#365f78"/><path d="M575 470 L611 495 651 469" fill="#e8f1f5"/>
+  <circle cx="768" cy="413" r="42" fill="#e6b28d"/><path d="M729 408 Q768 360 811 407 Q796 372 767 367 Q741 370 727 391Z" fill="#593c2e"/>
+  <path d="M718 466 Q768 439 820 469 L843 566 H699Z" fill="#9b5b45"/>
+  <path d="M520 170 Q735 138 991 183 L970 300 Q736 327 541 286Z" fill="#fff" stroke="#10151b" stroke-width="6"/>
+  <text x="550" y="214" fill="#111" font-size="25" font-family="Arial" font-weight="900">“산악마을 전원 대피. 지금 바로!”</text>
+  <text x="550" y="252" fill="#333" font-size="20" font-family="Arial">“山区村庄全部撤离，立刻！”</text>
+  <text x="550" y="282" fill="#4b4b4b" font-size="18" font-family="Arial">“Evacuate the mountain village—now!”</text>
+  <text x="79" y="174" fill="#ffe5aa" font-size="23" font-family="Arial" font-weight="800">상황 · 기록적 폭우가 산사태 경보를 울린다.</text>
+  <text x="79" y="203" fill="#d8e8f2" font-size="18" font-family="Arial">旁白 · 创纪录暴雨触发山体滑坡警报。 · Record rain triggers a landslide alert.</text>
+  <text x="805" y="544" fill="#ffd45f" font-size="44" font-family="Arial" font-weight="900">BEEP! BEEP!</text>
+</g>
+
+<!-- PANEL 2: mountain village evacuation -->
+<g filter="url(#sh)">
+  <rect x="56" y="622" width="968" height="548" rx="20" fill="url(#rescue)" stroke="#fff" stroke-width="6"/>
+  <path d="M56 866 L186 734 285 816 402 691 545 826 665 716 804 823 929 729 1024 808 1024 1170 56 1170Z" fill="#213343"/>
+  <path d="M86 688 l112 82 M172 658 l134 97 M330 651 l134 96 M506 660 l127 89 M684 646 l139 95 M849 658 l128 88" stroke="#b7d9ed" stroke-width="7" opacity=".7"/>
+  <path d="M56 1037 Q168 1008 273 1042 T486 1030 T700 1044 T1024 1020 V1170 H56Z" fill="#264f61"/>
+  <rect x="110" y="883" width="176" height="108" fill="#5d5148" stroke="#1a2228" stroke-width="5"/><polygon points="92,885 198,812 304,885" fill="#3c3532"/>
+  <rect x="751" y="873" width="190" height="118" fill="#5c5046" stroke="#1a2228" stroke-width="5"/><polygon points="730,875 847,798 964,875" fill="#3e3633"/>
+  <rect x="357" y="948" width="260" height="94" rx="18" fill="#df5a43" stroke="#712c25" stroke-width="5"/><rect x="392" y="915" width="121" height="60" rx="10" fill="#d7ecf4" stroke="#314856" stroke-width="4"/><circle cx="408" cy="1042" r="30" fill="#1b2026"/><circle cx="574" cy="1042" r="30" fill="#1b2026"/>
+  <text x="431" y="1008" fill="#fff" font-size="24" font-family="Arial" font-weight="900">RESCUE</text>
+  <circle cx="230" cy="934" r="34" fill="#e5b18a"/><path d="M198 930 Q230 889 266 929 Q252 899 229 895 Q208 899 196 916Z" fill="#2b2a2b"/>
+  <path d="M186 975 Q229 951 275 977 L291 1099 H169Z" fill="#e3c35b"/>
+  <circle cx="322" cy="951" r="28" fill="#d69d76"/><path d="M296 947 Q322 913 352 946 Q342 921 321 919 Q303 922 294 935Z" fill="#46352d"/>
+  <path d="M284 986 Q322 965 362 988 L377 1098 H269Z" fill="#58758a"/>
+  <circle cx="706" cy="947" r="34" fill="#d8a17b"/><path d="M674 943 Q706 901 743 942 Q730 911 705 907 Q683 910 672 929Z" fill="#252c34"/>
+  <path d="M661 990 Q706 965 752 992 L769 1104 H643Z" fill="#3d6b83"/>
+  <circle cx="818" cy="959" r="26" fill="#f0bd98"/><path d="M794 955 Q819 923 848 954 Q838 931 818 928 Q801 930 792 944Z" fill="#6a4331"/>
+  <path d="M784 991 Q818 973 854 993 L868 1084 H770Z" fill="#b95e4c"/>
+  <path d="M632 706 Q825 676 987 718 L971 824 Q820 844 649 810Z" fill="#fff" stroke="#111" stroke-width="6"/>
+  <text x="660" y="747" fill="#111" font-size="23" font-family="Arial" font-weight="900">“아이부터 차량에 태워요!”</text>
+  <text x="660" y="781" fill="#333" font-size="18" font-family="Arial">“先让孩子上车！” · “Children first!”</text>
+  <text x="84" y="666" fill="#eaf6ff" font-size="22" font-family="Arial" font-weight="800">상황 · 경보는 행동이 될 때 사람을 살린다.</text>
+  <text x="84" y="697" fill="#d3e5ef" font-size="18" font-family="Arial">旁白 · 警报只有化为行动，才能救人。 · A warning saves lives only when it becomes action.</text>
+  <text x="815" y="1131" fill="#ffea82" font-size="42" font-family="Arial" font-weight="900">RUMBLE—!</text>
+</g>
+
+<!-- PANEL 3: recovery at sunrise -->
+<g filter="url(#sh)">
+  <rect x="56" y="1200" width="968" height="636" rx="20" fill="url(#dawn)" stroke="#fff" stroke-width="6"/>
+  <circle cx="865" cy="1342" r="82" fill="#ffe6a0" opacity=".95"/>
+  <path d="M56 1542 Q190 1460 318 1530 T578 1510 T831 1522 T1024 1480 V1836 H56Z" fill="#3f735a"/>
+  <path d="M56 1660 Q180 1602 300 1652 T548 1643 T782 1655 T1024 1600 V1836 H56Z" fill="#2b5a48"/>
+  <path d="M100 1740 C180 1668 245 1715 320 1668 C390 1625 458 1661 535 1618 C618 1574 694 1628 770 1589" stroke="#98d7d3" stroke-width="20" fill="none" opacity=".9"/>
+  <circle cx="318" cy="1513" r="45" fill="#d9a27c"/><path d="M276 1507 Q318 1454 365 1506 Q349 1468 317 1464 Q289 1467 274 1490Z" fill="#272d32"/>
+  <path d="M263 1569 Q318 1538 376 1571 L397 1746 H244Z" fill="#385f76"/>
+  <circle cx="474" cy="1540" r="39" fill="#edb892"/><path d="M438 1535 Q474 1490 515 1534 Q501 1501 473 1498 Q449 1501 436 1519Z" fill="#5a3d30"/>
+  <path d="M426 1587 Q474 1561 524 1589 L542 1748 H410Z" fill="#d79a55"/>
+  <circle cx="646" cy="1519" r="43" fill="#d79f79"/><path d="M606 1514 Q646 1464 691 1512 Q676 1476 645 1472 Q619 1475 604 1497Z" fill="#202931"/>
+  <path d="M594 1571 Q646 1542 700 1574 L721 1747 H576Z" fill="#496d4c"/>
+  <path d="M344 1642 L411 1595 M505 1636 L558 1590 M681 1637 L743 1592" stroke="#7c5a38" stroke-width="14" stroke-linecap="round"/>
+  <path d="M335 1653 q24-56 50 0 M497 1649 q23-50 47 0 M674 1650 q23-50 48 0" stroke="#2f7a49" stroke-width="9" fill="none"/>
+  <path d="M99 1237 Q346 1208 682 1250 L661 1370 Q350 1399 119 1356Z" fill="#fff" stroke="#111" stroke-width="6"/>
+  <text x="132" y="1282" fill="#111" font-size="26" font-family="Arial" font-weight="900">“끝난 게 아니야. 이제 복구하고, 더 강하게 대비한다.”</text>
+  <text x="132" y="1320" fill="#333" font-size="20" font-family="Arial">“还没结束。现在修复，并为下一次做更强准备。”</text>
+  <text x="132" y="1350" fill="#555" font-size="18" font-family="Arial">“It isn’t over. We rebuild—and prepare better for the next one.”</text>
+  <rect x="90" y="1756" width="900" height="52" rx="9" fill="#07120e" opacity=".88"/>
+  <text x="112" y="1791" fill="#fff2c7" font-size="23" font-family="Arial" font-weight="900">내레이션 · 경고를 기억하는 사회가 미래를 지킨다.</text>
+  <text x="112" y="1821" fill="#dcefe4" font-size="17" font-family="Arial">记住警告的社会守护未来。 · A society that remembers the warning protects the future.</text>
+  <text x="824" y="1712" fill="#fff0a5" font-size="46" font-family="Arial" font-weight="900">THUMP · SPLASH</text>
+</g>
+<text x="62" y="1876" fill="#8da7b7" font-family="Arial" font-size="20">FTF-01 · SCENE 29 · 폭우 경보, 대피, 복구</text>
+</svg>
