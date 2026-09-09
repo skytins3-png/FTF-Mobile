@@ -1,0 +1,78 @@
+{
+  "track": 1,
+  "trackTitle": "Earth's Warning",
+  "cut": 27,
+  "targetCutCount": 30,
+  "status": "awaiting-raster-render",
+  "continuity": {
+    "previousCut": 26,
+    "rule": "Continue after the final warning/monitoring scene without reusing prior panels or generic backgrounds.",
+    "characters": "Keep the established FTF field-team visual identity: dark FTF jackets, practical disaster-response gear, consistent adult crew faces across panels."
+  },
+  "storyBeat": {
+    "ko": "경고를 기억한 사람들은 도시 곳곳에서 같은 약속을 실천하기 시작한다. 감시는 행동으로 이어지고, 행동은 다음 세대의 일상이 된다.",
+    "zh": "记住警告的人们开始在城市各处践行同一个承诺。监测化为行动，行动成为下一代的日常。",
+    "en": "People who remember the warning begin living the same promise across the city. Monitoring becomes action, and action becomes the next generation's everyday life."
+  },
+  "visualDirection": "Polished cinematic full-color manga/webtoon page matching the approved FTF-08 reference. Real illustrated people and environments, expressive faces, cinematic lighting, dense environmental detail, no silhouettes, no stick figures, no blank SVG-card look, no recycled prior scene.",
+  "layout": [
+    {
+      "panel": 1,
+      "shot": "Wide morning city establishing panel",
+      "action": "FTF crew exits an Earth-status monitoring center into a city waking under clear dawn light; solar roofs, buses and trees are visible but secondary to the people.",
+      "caption": {
+        "ko": "경고를 본 뒤, 우리는 일상으로 돌아갔다. 하지만 예전과 같은 일상은 아니었다.",
+        "zh": "看见警告之后，我们回到了日常。但那已经不是从前的日常。",
+        "en": "After seeing the warning, we returned to daily life—but not the old daily life."
+      },
+      "sfx": "WHOOSH…"
+    },
+    {
+      "panel": 2,
+      "shot": "Medium character panel",
+      "action": "A female FTF crew member kneels beside a school-age child planting a young tree while another crew member checks a neighborhood climate sensor in the background.",
+      "dialogue": {
+        "ko": "우리가 지키는 건 오늘만이 아니야. 네가 살아갈 내일이야.",
+        "zh": "我们守护的不只是今天，也是你将生活的明天。",
+        "en": "We're protecting more than today. We're protecting the tomorrow you'll live in."
+      },
+      "sfx": "톡…"
+    },
+    {
+      "panel": 3,
+      "shot": "Neighborhood action montage",
+      "action": "Residents, engineers and students work together: checking flood markers, maintaining rain gardens, sorting emergency supplies, and reviewing a public climate dashboard.",
+      "dialogue": {
+        "ko": "작은 행동이 계속되면, 경고는 준비로 바뀔 수 있어.",
+        "zh": "只要小小的行动持续下去，警告就能变成准备。",
+        "en": "When small actions continue, a warning can become preparedness."
+      },
+      "sfx": "BEEP · CHECK · CLICK"
+    },
+    {
+      "panel": 4,
+      "shot": "Cinematic closing panel",
+      "action": "The FTF crew and families stand on a riverside overlook at sunset, facing a resilient green city with visible flood barriers and restored wetlands. No heroic pose; grounded, hopeful teamwork.",
+      "caption": {
+        "ko": "지구의 경고를 기억하는 것. 그것이 미래를 지키는 첫 번째 약속이다.",
+        "zh": "记住地球的警告，就是守护未来的第一个承诺。",
+        "en": "Remembering Earth's warning is the first promise we make to the future."
+      },
+      "sfx": "WIND…"
+    }
+  ],
+  "renderRequirements": {
+    "orientation": "9:16 vertical",
+    "recommendedResolution": "1024x1536 or higher",
+    "text": "Korean/Chinese/English must be legible and placed inside proper speech bubbles or narration boxes.",
+    "forbidden": [
+      "silhouette-only people",
+      "stick figures",
+      "blank SVG cards",
+      "generic placeholder backgrounds",
+      "recycled unrelated panels",
+      "reusing cut 25 or cut 26 artwork as cut 27"
+    ]
+  },
+  "expectedAsset": "assets/comics/FTF-01/27.webp"
+}
