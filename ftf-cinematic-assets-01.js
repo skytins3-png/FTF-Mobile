@@ -1,6 +1,6 @@
 (()=>{
   const BASE='/FTF-Mobile/assets/comics/FTF-01/';
-  const EXTRA={10:'11.svg',11:'12.svg',12:'13.svg',13:'14.svg',14:'15.svg'};
+  const EXTRA={10:'11.svg',11:'12.svg',12:'13.svg',13:'14.svg',14:'15.svg',15:'16.svg',16:'17.svg',17:'18.svg',18:'19.svg',19:'20.svg'};
   const previous=window.showComic;
   if(typeof previous!=='function')return;
   const E2=id=>document.getElementById(id);
@@ -16,7 +16,7 @@
     if(built)built.style.display='none';
     img.style.display='block';img.style.objectFit='contain';img.onerror=null;
     ['viewerTitle','viewerStatus','sfxText','situation','captionKo','captionZh'].forEach(id=>{const el=E2(id);if(el)el.textContent=''});
-    img.src=BASE+EXTRA[idx]+'?v=46';
+    img.src=BASE+EXTRA[idx]+'?v=47';
     return result;
   };
 })();
