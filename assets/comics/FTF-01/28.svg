@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#10172b"/><stop offset=".55" stop-color="#9b493f"/><stop offset="1" stop-color="#f4b66e"/></linearGradient>
+ <linearGradient id="cool" x2="1" y2="1"><stop stop-color="#1d6f88"/><stop offset="1" stop-color="#72c5bc"/></linearGradient>
+ <linearGradient id="wet" x2="0" y2="1"><stop stop-color="#7ed4d7"/><stop offset="1" stop-color="#246c79"/></linearGradient>
+ <linearGradient id="hope" x2="0" y2="1"><stop stop-color="#ffd77d"/><stop offset=".55" stop-color="#8dcaa3"/><stop offset="1" stop-color="#285d50"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-opacity=".5"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1080" height="1920" fill="#05080e"/>
+<rect x="24" y="24" width="1032" height="1872" rx="30" fill="#0b1118" stroke="#f4f4f4" stroke-width="5"/>
+<text x="58" y="96" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="900">FTF-01 · EARTH'S WARNING</text>
+<text x="840" y="96" fill="#ffe47d" font-family="Arial,sans-serif" font-size="30" font-weight="900">28</text>
+
+<!-- PANEL 1: heat emergency street -->
+<g filter="url(#shadow)">
+ <rect x="56" y="132" width="968" height="408" rx="15" fill="url(#dawn)" stroke="#fff" stroke-width="6"/>
+ <circle cx="855" cy="225" r="62" fill="#ffb054" filter="url(#glow)"/>
+ <path d="M56 421 L145 356 220 387 300 321 386 389 458 338 552 403 645 348 742 395 841 342 931 388 1024 347 1024 540 56 540Z" fill="#262936"/>
+ <rect x="90" y="300" width="112" height="190" fill="#423a45"/><rect x="222" y="274" width="136" height="216" fill="#5b4141"/><rect x="380" y="327" width="126" height="163" fill="#3c4650"/>
+ <g fill="#ff9c52"><rect x="110" y="325" width="22" height="30"/><rect x="151" y="325" width="22" height="30"/><rect x="248" y="306" width="26" height="34"/><rect x="292" y="306" width="26" height="34"/></g>
+ <path d="M475 500 C520 440 552 458 585 500" fill="#e9b08b" stroke="#6b4337" stroke-width="4"/>
+ <circle cx="552" cy="395" r="42" fill="#dba17a"/><path d="M513 392 Q552 342 594 392 L585 356 Q553 332 522 354Z" fill="#2c2426"/>
+ <path d="M502 447 Q551 424 601 448 L626 523 H477Z" fill="#476c85"/><path d="M518 469 L548 489 583 466" fill="#d9eef4"/>
+ <circle cx="690" cy="412" r="34" fill="#efbc94"/><path d="M658 407 Q690 367 723 407 L716 377 Q691 356 666 376Z" fill="#56392e"/>
+ <path d="M650 455 Q690 436 731 458 L750 523 H630Z" fill="#d8b24b"/>
+ <rect x="690" y="442" width="42" height="61" rx="5" fill="#f5f5f5" stroke="#26313a" stroke-width="3"/>
+ <path d="M770 292 Q877 258 982 302 L960 389 Q855 412 776 378Z" fill="#fff" stroke="#15191d" stroke-width="5"/>
+ <text x="790" y="328" font-family="Arial" font-size="24" font-weight="800" fill="#111">“체감 46°C… 대피소를 열어!”</text>
+ <text x="790" y="358" font-family="Arial" font-size="19" fill="#333">体感46°C…立刻开放避暑点！</text>
+ <text x="790" y="383" font-family="Arial" font-size="18" fill="#333">“46°C heat index—open shelters!”</text>
+ <text x="82" y="190" fill="#ffdf8a" font-family="Arial" font-size="24" font-weight="800">도시는 경고를 몸으로 느끼기 시작했다.</text>
+ <text x="82" y="220" fill="#ffe9bd" font-family="Arial" font-size="19">城市开始亲身感受到警告。 · The city began to feel the warning.</text>
+ <text x="865" y="495" fill="#ffd65a" font-family="Arial" font-size="42" font-weight="900">WOOO—!</text>
+</g>
+
+<!-- PANEL 2: cooling response team -->
+<g filter="url(#shadow)">
+ <rect x="56" y="568" width="468" height="535" rx="15" fill="url(#cool)" stroke="#fff" stroke-width="6"/>
+ <rect x="82" y="610" width="416" height="110" rx="12" fill="#ecf7f5" stroke="#173a45" stroke-width="4"/>
+ <text x="105" y="650" fill="#173a45" font-family="Arial" font-size="25" font-weight="900">COOLING SHELTER · 냉방 대피소</text>
+ <text x="105" y="683" fill="#315a62" font-family="Arial" font-size="18">避暑点 · WATER / MEDICAL / POWER</text>
+ <rect x="105" y="754" width="82" height="150" rx="8" fill="#f1f4f5" stroke="#28424a" stroke-width="3"/>
+ <path d="M123 793 h46 M146 770 v46" stroke="#db4f4f" stroke-width="10"/>
+ <circle cx="275" cy="806" r="39" fill="#dca57d"/><path d="M238 804 Q274 754 314 804 L305 770 Q275 746 246 770Z" fill="#272d34"/>
+ <path d="M229 858 Q275 832 322 858 L347 1032 H204Z" fill="#275f79"/><path d="M244 884 L274 908 305 883" fill="#e5f0f3"/>
+ <circle cx="392" cy="833" r="33" fill="#ebb48a"/><path d="M360 830 Q392 790 425 830 L420 800 Q392 783 367 801Z" fill="#4c3025"/>
+ <path d="M354 876 Q392 856 432 879 L454 1032 H333Z" fill="#e8cc68"/>
+ <path d="M180 957 Q264 918 347 957" fill="none" stroke="#a9f2ff" stroke-width="9"/><circle cx="183" cy="958" r="14" fill="#d7fbff"/><circle cx="345" cy="957" r="14" fill="#d7fbff"/>
+ <path d="M95 735 Q245 705 407 743 L392 817 Q252 839 111 808Z" fill="#fff" stroke="#111" stroke-width="5"/>
+ <text x="120" y="773" font-family="Arial" font-size="22" font-weight="800">“경고를 행동으로 바꾸자.”</text>
+ <text x="120" y="801" font-family="Arial" font-size="17">把警告变成行动。 · Turn warning into action.</text>
+ <text x="93" y="1072" fill="#d9ffff" font-family="Arial" font-size="31" font-weight="900">PSHHH— 냉각 미스트</text>
+</g>
+
+<!-- PANEL 3: river wetland restoration -->
+<g filter="url(#shadow)">
+ <rect x="556" y="568" width="468" height="535" rx="15" fill="url(#wet)" stroke="#fff" stroke-width="6"/>
+ <path d="M562 850 C650 800 718 826 779 792 C850 751 929 785 1018 748 L1018 1097 562 1097Z" fill="#2c7f8c"/>
+ <path d="M562 962 C649 919 704 944 772 915 C844 883 933 918 1018 879" fill="none" stroke="#b6f0ef" stroke-width="13" opacity=".7"/>
+ <g fill="#4b8f59"><path d="M600 866 l20-85 22 85Z"/><path d="M651 844 l18-73 20 73Z"/><path d="M932 831 l24-96 24 96Z"/><path d="M978 846 l19-78 19 78Z"/></g>
+ <circle cx="711" cy="757" r="37" fill="#dca17c"/><path d="M676 755 Q710 710 749 755 L740 723 Q711 701 684 724Z" fill="#2d3438"/>
+ <path d="M669 804 Q711 784 755 806 L772 936 H650Z" fill="#506e48"/>
+ <circle cx="844" cy="775" r="33" fill="#efb88f"/><path d="M813 772 Q844 733 877 773 L870 743 Q845 725 821 744Z" fill="#603d2d"/>
+ <path d="M808 817 Q844 799 883 819 L901 937 H791Z" fill="#d78655"/>
+ <path d="M730 902 q38-55 80 0" fill="none" stroke="#734a2a" stroke-width="12"/><ellipse cx="772" cy="909" rx="34" ry="17" fill="#6c492d"/>
+ <path d="M774 910 q-12-65 5-99 M777 838 q-33-25-48-12 M780 852 q35-25 49-10" stroke="#2f7047" stroke-width="8" fill="none"/>
+ <path d="M585 604 Q744 575 984 617 L969 704 Q775 727 600 692Z" fill="#fff" stroke="#111" stroke-width="5"/>
+ <text x="610" y="642" font-family="Arial" font-size="21" font-weight="800">“하천이 살아야 도시도 숨 쉰다.”</text>
+ <text x="610" y="670" font-family="Arial" font-size="16">河流活着，城市才能呼吸。 · A living river lets the city breathe.</text>
+ <text x="882" y="1062" fill="#e8ffff" font-family="Arial" font-size="34" font-weight="900">SPLASH!</text>
+</g>
+
+<!-- PANEL 4: generation handoff -->
+<g filter="url(#shadow)">
+ <rect x="56" y="1132" width="968" height="704" rx="15" fill="url(#hope)" stroke="#fff" stroke-width="6"/>
+ <circle cx="865" cy="1260" r="78" fill="#ffe89a" filter="url(#glow)"/>
+ <path d="M56 1620 Q180 1470 300 1595 T550 1555 T790 1585 T1024 1515 L1024 1836 56 1836Z" fill="#315f4c"/>
+ <path d="M56 1715 Q210 1620 363 1682 T668 1668 T1024 1628 L1024 1836 56 1836Z" fill="#1f4f42"/>
+ <g fill="#275f46"><circle cx="152" cy="1512" r="45"/><rect x="143" y="1510" width="18" height="136"/><circle cx="932" cy="1495" r="52"/><rect x="922" y="1495" width="20" height="151"/></g>
+ <circle cx="371" cy="1450" r="52" fill="#d9a17c"/><path d="M321 1446 Q370 1382 423 1447 L412 1403 Q372 1374 333 1404Z" fill="#2c3038"/>
+ <path d="M307 1514 Q370 1480 437 1517 L466 1755 H276Z" fill="#315f78"/><path d="M333 1543 L370 1571 411 1542" fill="#dfedf1"/>
+ <circle cx="640" cy="1501" r="43" fill="#efba90"/><path d="M600 1496 Q640 1446 683 1498 L675 1459 Q641 1435 609 1460Z" fill="#4e3329"/>
+ <path d="M585 1554 Q640 1528 697 1556 L721 1753 H560Z" fill="#d6a54e"/>
+ <path d="M439 1592 Q523 1560 594 1601" stroke="#bf8359" stroke-width="28" stroke-linecap="round" fill="none"/>
+ <ellipse cx="520" cy="1622" rx="62" ry="27" fill="#70492f"/>
+ <path d="M520 1620 q-8-87 8-132 M525 1532 q-52-37-78-14 M527 1555 q48-39 77-17" stroke="#2f7b4a" stroke-width="12" fill="none"/>
+ <path d="M118 1180 Q360 1148 617 1190 L598 1310 Q360 1342 135 1298Z" fill="#fff" stroke="#101820" stroke-width="6"/>
+ <text x="150" y="1227" font-family="Arial" font-size="27" fill="#111" font-weight="900">“우리가 바꾼 오늘이, 네 내일이 된다.”</text>
+ <text x="150" y="1263" font-family="Arial" font-size="20" fill="#333">我们改变的今天，会成为你的明天。</text>
+ <text x="150" y="1291" font-family="Arial" font-size="19" fill="#333">“What we change today becomes your tomorrow.”</text>
+ <path d="M590 1341 Q780 1310 971 1353 L951 1450 Q778 1477 612 1436Z" fill="#fff" stroke="#101820" stroke-width="6"/>
+ <text x="625" y="1382" font-family="Arial" font-size="24" fill="#111" font-weight="900">“그럼 나도 이어갈게.”</text>
+ <text x="625" y="1414" font-family="Arial" font-size="18" fill="#333">那我也会继续。 · “Then I’ll carry it on.”</text>
+ <rect x="86" y="1762" width="905" height="48" rx="8" fill="#07100d" opacity=".88"/>
+ <text x="108" y="1796" font-family="Arial" font-size="24" fill="#f6f1c8" font-weight="800">내레이션 · 预警不是结局，而是选择的开始。 · A warning is not the end—it is the start of a choice.</text>
+ <text x="825" y="1736" font-family="Arial" font-size="43" fill="#ffe377" font-weight="900">THUMP</text>
+</g>
+</svg>
