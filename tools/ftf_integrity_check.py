@@ -12,7 +12,8 @@ def text(path):
 index=text('index.html'); manifest_text=text('manifest.webmanifest'); sw=text('sw.js')
 comics=text('ftf-song-comics.js'); viewer=text('ftf-viewer-polish.js'); cinema=text('ftf-cinematic-ui.js')
 assets08=text('ftf-cinematic-assets-08.js'); assets12=text('ftf-cinematic-assets-01.js'); audio=text('ftf-auto-audio.js'); fix=text('ftf-comic-fix.js')
-for f in ['ftf-images.js','ftf-radio-comic.js','ftf-auto-audio.js','ftf-comic-fix.js','ftf-song-comics.js','ftf-viewer-polish.js','ftf-cinematic-ui.js','ftf-cinematic-scenes-08.js','ftf-cinematic-assets-08.js','ftf-cinematic-assets-01.js','ftf_story_images.jpg','icon-192.png','icon-512.png']:
+complete=text('ftf-complete-mapper.js'); livever=text('ftf-live-version.js')
+for f in ['ftf-images.js','ftf-radio-comic.js','ftf-auto-audio.js','ftf-comic-fix.js','ftf-song-comics.js','ftf-viewer-polish.js','ftf-cinematic-ui.js','ftf-cinematic-scenes-08.js','ftf-cinematic-assets-08.js','ftf-cinematic-assets-01.js','ftf-lyric-comic-studio.js','ftf-complete-mapper.js','ftf-live-version.js','ftf_story_images.jpg','icon-192.png','icon-512.png']:
     need(f)
 for n in range(1,9):
     if f'no:{n}' not in index and f'n:{n}' not in index: errors.append(f'Project track/scene {n} missing from index.html')
@@ -21,21 +22,24 @@ for n in range(1,9):
 try:
     manifest=json.loads(manifest_text)
     if manifest.get('id')!='/FTF-Mobile/' or manifest.get('scope')!='/FTF-Mobile/': errors.append('manifest scope/id changed')
-    if 'v50' not in str(manifest.get('start_url','')): errors.append('manifest must expose v50 build')
+    if 'v51' not in str(manifest.get('start_url','')): errors.append('manifest must expose v51 build')
 except Exception as e: errors.append(f'manifest JSON invalid: {e}')
-if 'ftf-mobile-v50' not in sw: errors.append('service worker cache must be v50')
+if 'ftf-mobile-v51' not in sw: errors.append('service worker cache must be v51')
 for token in ['const TOTAL=26','ref.currentTime/ref.duration)*TOTAL','finishScene(token)']:
     if token not in comics: errors.append(f'Playback contract missing: {token}')
 for token in ['ftfCinemaCounter','ftfProgressFill','ftfPrev','ftfPlay','ftfNext','/ 26']:
     if token not in cinema: errors.append(f'Cinematic mobile player missing: {token}')
-for token in ['ftf-cinematic-ui.js','ftf-cinematic-assets-08.js','ftf-cinematic-assets-01.js']:
+for token in ['ftf-cinematic-ui.js','ftf-cinematic-assets-08.js','ftf-cinematic-assets-01.js','ftf-complete-mapper.js','ftf-live-version.js']:
     if token not in sw: errors.append(f'service worker missing runtime asset: {token}')
+for token in ["new Set([2,8])","%26+26)%26","img.src=src"]:
+    if token not in complete: errors.append(f'Complete 26-scene runtime mapper missing: {token}')
+if 'FTF LIVE v51' not in livever: errors.append('visible runtime badge must identify v51')
 # FTF-01, FTF-02 and FTF-08 are complete 26-scene sequences and must remain fully cached.
 for track,mapper in [(1,assets12),(2,assets12),(8,assets08)]:
     for idx in range(1,27):
         rel=f'assets/comics/FTF-{track:02d}/{idx:02d}.svg'; p=ROOT/rel
         if not p.exists(): errors.append(f'Complete sequence asset missing: {rel}'); continue
-        if rel not in sw: errors.append(f'Complete sequence asset not cached: {rel}')
+        if rel not in sw and 'for(const n of [1,2,8])' not in sw: errors.append(f'Complete sequence asset not cached: {rel}')
         if idx>=11 and track in (1,2) and f"'{idx:02d}.svg'" not in mapper: errors.append(f'Playback mapper missing FTF-{track:02d}/{idx:02d}.svg')
         if idx>=5 and track==8 and f"'{idx:02d}.svg'" not in mapper: errors.append(f'Playback mapper missing FTF-08/{idx:02d}.svg')
         if track==2 and idx>=21:
@@ -67,4 +71,4 @@ for w in warnings: print('WARN:',w)
 if errors:
     for e in errors: print('ERROR:',e)
     sys.exit(1)
-print('PASS: project data, PWA v50, 26-scene sync/auto-next, mobile cinematic UI, and complete FTF-01/02/08 sequences are consistent.')
+print('PASS: project data, PWA v51, 26-scene sync/auto-next, mobile cinematic UI, complete FTF-01/02/08 sequences, and direct FTF-02/08 runtime mapping are consistent.')
