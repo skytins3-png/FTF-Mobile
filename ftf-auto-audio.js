@@ -29,4 +29,41 @@
   }catch(e){console.warn(e)}}
   try{const oldRender=render;render=function(){oldRender();renderStrict()}}catch(e){}
   renderStrict();
+
+  // A rapid scene/song change can leave an older IndexedDB audio load resolving late.
+  // Use a monotonic request token so only the newest request is allowed to create/play Audio.
+  try{
+    let audioRequestToken=0;
+    const safeStop=()=>{audioRequestToken++;stopAudio()};
+    const originalStopAudio=stopAudio;
+    stopAudio=function(){audioRequestToken++;originalStopAudio()};
+    playSong=async function(i,done){
+      const token=++audioRequestToken;
+      originalStopAudio();
+      if(i<0||i>=songs.length){if(token===audioRequestToken&&done)done();return}
+      let f;
+      try{f=await dbGet(ADB,AST,songs[i].id)}catch(_){f=null}
+      if(token!==audioRequestToken)return;
+      if(!f){done&&done();return}
+      const localUrl=URL.createObjectURL(f);
+      if(token!==audioRequestToken){URL.revokeObjectURL(localUrl);return}
+      aurl=localUrl;
+      audio=new Audio(aurl);
+      let ended=false;
+      const finish=()=>{
+        if(ended||token!==audioRequestToken)return;
+        ended=true;
+        done&&done();
+      };
+      audio.onended=finish;
+      audio.onerror=finish;
+      try{
+        await audio.play();
+        if(token!==audioRequestToken){try{audio.pause()}catch(_){};return}
+        current=i;
+        E('pause').textContent='⏸ 일시정지';
+      }catch(_){finish()}
+    };
+    window.FTFStopAudioNow=safeStop;
+  }catch(e){console.warn('FTF audio overlap guard',e)}
 })();
