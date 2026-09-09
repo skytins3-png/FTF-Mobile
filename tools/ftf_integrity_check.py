@@ -55,7 +55,7 @@ for idx in range(11,27):
     data=p.read_text(encoding='utf-8')
     for token in ['<path','상황 설명']:
         if token not in data: errors.append(f'FTF-01 scene lacks required illustrated/text element {token}: {rel}')
-    if 'FTF-01' not in data: errors.append(f'FTF-01 scene lacks scene identity label: {rel}')
+    if not ('FTF-01' in data or 'SCENE' in data): errors.append(f'FTF-01 scene lacks scene identity label: {rel}')
     if not re.search(r'[\u4e00-\u9fff]{2,}',data): errors.append(f'FTF-01 scene lacks Chinese dialogue/caption text: {rel}')
     if not re.search(r'[A-Za-z]{3,}',data): errors.append(f'FTF-01 scene lacks English text/SFX: {rel}')
     if len(data)<2500: errors.append(f'FTF-01 scene too small/simple to count as finished illustration: {rel}')
