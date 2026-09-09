@@ -16,13 +16,7 @@
     if(built)built.style.display='none';
     img.style.display='block';img.style.objectFit='contain';img.onerror=null;
     ['viewerTitle','viewerStatus','sfxText','situation','captionKo','captionZh'].forEach(id=>{const el=E2(id);if(el)el.textContent=''});
-    img.src=BASE+EXTRA[idx]+'?v=49';
+    img.src=BASE+EXTRA[idx]+'?v=50';
     return result;
   };
-  if(!document.querySelector('script[data-ftf-cinematic-02]')){
-    const s=document.createElement('script');
-    s.src='/FTF-Mobile/ftf-cinematic-assets-02.js?v=50';
-    s.async=false;s.dataset.ftfCinematic02='1';
-    document.head.appendChild(s);
-  }
 })();
