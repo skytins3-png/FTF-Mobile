@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#18283d"/><stop offset=".55" stop-color="#536d83"/><stop offset="1" stop-color="#e27a52"/></linearGradient>
+ <linearGradient id="street" x2="0" y2="1"><stop stop-color="#313a43"/><stop offset="1" stop-color="#111820"/></linearGradient>
+ <linearGradient id="room" x2="1" y2="1"><stop stop-color="#182a3d"/><stop offset="1" stop-color="#0c131d"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-opacity=".55"/></filter>
+</defs>
+<rect width="1080" height="1920" fill="#070b11"/>
+<rect x="28" y="28" width="1024" height="1864" rx="26" fill="#0b1119" stroke="#eef3f8" stroke-width="5"/>
+<text x="70" y="112" font-family="Arial,sans-serif" font-size="48" fill="#fff" font-weight="900">FTF-01 · EARTH'S WARNING</text>
+<text x="770" y="110" font-family="Arial,sans-serif" font-size="34" fill="#ffd86b" font-weight="900">21 / 30</text>
+
+<!-- PANEL 1: evacuation rooftop -->
+<g filter="url(#shadow)">
+ <rect x="66" y="155" width="948" height="500" rx="10" fill="url(#sky)" stroke="#fff" stroke-width="6"/>
+ <circle cx="865" cy="260" r="66" fill="#ffbf70" opacity=".85"/>
+ <path d="M66 470 L160 390 235 445 340 350 430 420 530 330 620 405 720 345 815 410 930 330 1014 395 1014 655 66 655Z" fill="#202936"/>
+ <g fill="#37485b" stroke="#0f1822" stroke-width="5">
+  <rect x="115" y="410" width="160" height="245"/><rect x="310" y="390" width="145" height="265"/><rect x="690" y="400" width="155" height="255"/><rect x="865" y="370" width="120" height="285"/>
+ </g>
+ <g fill="#ffd56a"><rect x="138" y="450" width="26" height="24"/><rect x="190" y="450" width="26" height="24"/><rect x="337" y="430" width="26" height="24"/><rect x="389" y="430" width="26" height="24"/><rect x="716" y="440" width="26" height="24"/><rect x="768" y="440" width="26" height="24"/></g>
+ <!-- warning drone -->
+ <ellipse cx="550" cy="250" rx="85" ry="26" fill="#202c39" stroke="#9ddfff" stroke-width="5"/><circle cx="550" cy="250" r="18" fill="#ff4c55"/><path d="M470 250h-65M630 250h65" stroke="#d9f5ff" stroke-width="8"/><text x="470" y="325" font-family="Arial" font-size="52" fill="#fff" font-weight="900">WEE-OO! WEE-OO!</text>
+ <!-- young woman -->
+ <circle cx="230" cy="530" r="46" fill="#e6b08a"/><path d="M182 525 Q225 455 274 523 L263 476 Q216 438 183 480Z" fill="#18202a"/><path d="M180 570 Q230 548 280 570 L310 655 H155Z" fill="#29435f"/>
+ <!-- speech bubble -->
+ <path d="M320 485 Q470 430 640 470 L625 575 Q470 610 328 565Z" fill="#fff" stroke="#111" stroke-width="7"/>
+ <path d="M335 548 L292 598 370 563" fill="#fff" stroke="#111" stroke-width="7"/>
+ <text x="355" y="510" font-family="Arial" font-size="30" fill="#111" font-weight="800">“경보가 또 울려… 이번엔 바로 움직여.”</text>
+ <text x="355" y="548" font-family="Arial" font-size="24" fill="#333">警报又响了……这次马上行动。</text>
+</g>
+
+<!-- PANEL 2: family packs evacuation bag -->
+<g filter="url(#shadow)">
+ <rect x="66" y="688" width="948" height="485" rx="10" fill="url(#room)" stroke="#fff" stroke-width="6"/>
+ <rect x="105" y="735" width="250" height="165" fill="#263b4f" stroke="#617e98" stroke-width="4"/><path d="M105 850 L180 805 230 845 290 780 355 835 355 900 105 900Z" fill="#678054"/>
+ <rect x="690" y="755" width="245" height="170" rx="8" fill="#0b1117" stroke="#77d0ff" stroke-width="5"/><text x="720" y="808" font-family="Arial" font-size="28" fill="#ffdf68" font-weight="900">EMERGENCY</text><text x="720" y="850" font-family="Arial" font-size="24" fill="#fff">WATER · RADIO</text><text x="720" y="888" font-family="Arial" font-size="24" fill="#fff">MED KIT · LIGHT</text>
+ <!-- table and supplies -->
+ <rect x="330" y="980" width="430" height="55" fill="#513d2d"/><rect x="360" y="930" width="92" height="72" rx="8" fill="#c94049"/><path d="M394 950h24v32h-24zM386 958h40" stroke="#fff" stroke-width="8"/><rect x="485" y="950" width="44" height="54" fill="#65a8d0"/><rect x="550" y="946" width="80" height="58" fill="#d7c77a"/><rect x="650" y="945" width="62" height="62" rx="30" fill="#eeae51"/>
+ <!-- father -->
+ <circle cx="225" cy="900" r="50" fill="#cb956e"/><path d="M175 895 Q220 830 275 895 L262 846 Q218 815 182 853Z" fill="#25211f"/><path d="M170 952 Q225 922 280 952 L315 1168 H135Z" fill="#394b5c"/>
+ <!-- child -->
+ <circle cx="825" cy="1010" r="38" fill="#e5ad82"/><path d="M787 1007 Q825 955 864 1007 L852 970 Q824 944 794 972Z" fill="#34261f"/><path d="M785 1050 Q825 1032 865 1050 L890 1170 H760Z" fill="#d96b57"/>
+ <!-- bag -->
+ <path d="M400 1040 Q470 1005 540 1040 L565 1168 H375Z" fill="#315c78" stroke="#10161d" stroke-width="6"/><path d="M427 1043 Q470 990 513 1043" fill="none" stroke="#a9d8ef" stroke-width="8"/>
+ <path d="M300 780 Q465 718 655 770 L640 885 Q480 925 315 875Z" fill="#fff" stroke="#111" stroke-width="7"/>
+ <text x="330" y="820" font-family="Arial" font-size="30" fill="#111" font-weight="800">“물, 약, 손전등. 필요한 것만 챙기자.”</text>
+ <text x="330" y="858" font-family="Arial" font-size="24" fill="#333">水、药、手电筒，只带必需品。</text>
+</g>
+
+<!-- PANEL 3: emergency command center -->
+<g filter="url(#shadow)">
+ <rect x="66" y="1207" width="948" height="510" rx="10" fill="#101722" stroke="#fff" stroke-width="6"/>
+ <rect x="118" y="1250" width="500" height="240" rx="12" fill="#08131c" stroke="#6ec8ef" stroke-width="5"/>
+ <circle cx="365" cy="1368" r="92" fill="#2d79a6" stroke="#9be4ff" stroke-width="5"/><path d="M300 1320 Q355 1275 410 1320 T455 1375 Q405 1390 365 1365 T285 1398Z" fill="#76a769"/><path d="M285 1420 Q370 1452 452 1417" fill="none" stroke="#ff665e" stroke-width="13"/>
+ <path d="M485 1305 L575 1305M485 1345 L585 1345M485 1385 L560 1385M485 1425 L590 1425" stroke="#7ed9ff" stroke-width="10"/>
+ <!-- coordinator -->
+ <circle cx="790" cy="1370" r="54" fill="#d7a07b"/><path d="M735 1360 Q790 1288 846 1360 L832 1308 Q785 1272 746 1315Z" fill="#141a23"/><path d="M730 1430 Q790 1398 850 1430 L885 1710 H695Z" fill="#24394e"/><path d="M735 1515 L650 1585" stroke="#d7a07b" stroke-width="24" stroke-linecap="round"/>
+ <!-- map pointer -->
+ <path d="M648 1584 L515 1450" stroke="#ffe06d" stroke-width="12"/><circle cx="515" cy="1450" r="16" fill="#ff554f"/>
+ <path d="M300 1510 Q470 1460 650 1510 L635 1618 Q475 1655 315 1608Z" fill="#fff" stroke="#111" stroke-width="7"/>
+ <text x="330" y="1550" font-family="Arial" font-size="29" fill="#111" font-weight="800">“경고는 공포가 아니라 행동 신호야.”</text>
+ <text x="330" y="1587" font-family="Arial" font-size="24" fill="#333">Warnings are signals to act, not panic.</text>
+</g>
+
+<rect x="66" y="1748" width="948" height="112" rx="8" fill="#080d13" stroke="#dce7f1" stroke-width="4"/>
+<text x="95" y="1793" font-family="Arial" font-size="31" fill="#ffe27d" font-weight="900">상황 설명 · 시민 대피 단계가 시작된다.</text>
+<text x="95" y="1832" font-family="Arial" font-size="25" fill="#fff">경보 → 비상가방 → 지정 대피소. 도시가 동시에 움직인다.</text>
+<text x="95" y="1862" font-family="Arial" font-size="22" fill="#b9d8ea">警报 → 应急包 → 指定避难所。全城开始行动。</text>
+</svg>
