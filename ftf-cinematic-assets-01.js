@@ -11,6 +11,7 @@
   const RASTER_EXTRA={
     1:{26:'27.webp',27:'28.webp',28:'29.webp',29:'30.webp'}
   };
+  const SCENE_LIMIT={1:30,2:26};
   const previous=window.showComic;
   if(typeof previous!=='function')return;
   const E2=id=>document.getElementById(id);
@@ -23,15 +24,18 @@
   });
   window.showComic=async function(n,cut){
     const result=await previous.apply(this,arguments);
-    const sceneCount=n===1?30:26;
-    const idx=((Number.isFinite(cut)?cut:(window.ftfSceneIndex||0))%sceneCount+sceneCount)%sceneCount;
+    const sceneCount=SCENE_LIMIT[n]||0;
+    const requested=Number.isFinite(cut)?Math.floor(cut):(window.ftfSceneIndex||0);
+    // Never wrap past a song's real scene range. Wrapping silently recycles old artwork.
+    if(requested<0||requested>=sceneCount)return result;
+    const idx=requested;
     const raster=RASTER_EXTRA[n]&&RASTER_EXTRA[n][idx];
     const legacy=EXTRA[n]&&EXTRA[n][idx];
     if((!raster&&!legacy)||hasUserComic(n))return result;
     const viewer=E2('viewer'),img=E2('comicImg'),built=E2('ftfBuiltImage');
     if(!viewer||!img)return result;
     const file=raster||legacy;
-    const src=BASES[n]+file+'?v=51';
+    const src=BASES[n]+file+'?v=53';
     if(raster&&!(await probeImage(src)))return result;
     window.ftfSceneIndex=idx;
     viewer.classList.add('show','ftf-integrated');
