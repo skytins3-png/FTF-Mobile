@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+  <linearGradient id="skyA" x2="0" y2="1"><stop stop-color="#0a1c34"/><stop offset=".55" stop-color="#315d7b"/><stop offset="1" stop-color="#f3b06b"/></linearGradient>
+  <linearGradient id="river" x2="1" y2="1"><stop stop-color="#5bc2df"/><stop offset="1" stop-color="#236989"/></linearGradient>
+  <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#aee5f5" stop-opacity=".9"/><stop offset="1" stop-color="#31526a" stop-opacity=".96"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-opacity=".48"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1080" height="1920" fill="#060a10"/>
+<rect x="26" y="26" width="1028" height="1868" rx="28" fill="#0c1219" stroke="#f4f7fb" stroke-width="5"/>
+<text x="62" y="103" font-family="Arial, sans-serif" font-size="44" fill="#ffffff" font-weight="900">FTF-01 · EARTH'S WARNING</text>
+<text x="845" y="103" font-family="Arial, sans-serif" font-size="32" fill="#ffe17a" font-weight="900">27 / 30</text>
+
+<!-- PANEL 1: Dawn monitoring hub -->
+<g filter="url(#shadow)">
+<rect x="58" y="138" width="964" height="440" rx="14" fill="url(#skyA)" stroke="#fff" stroke-width="6"/>
+<circle cx="846" cy="245" r="68" fill="#ffd27d" filter="url(#glow)"/>
+<path d="M58 430 L160 365 255 418 355 345 465 414 570 350 690 420 810 362 930 420 1022 385 1022 578 58 578Z" fill="#172633"/>
+<rect x="110" y="300" width="390" height="215" rx="10" fill="#152737" stroke="#87d9fa" stroke-width="4"/>
+<rect x="135" y="325" width="340" height="165" rx="7" fill="#061621" stroke="#3e7492" stroke-width="3"/>
+<path d="M160 424 L208 392 253 405 300 360 349 381 398 348 450 370" fill="none" stroke="#7ee69a" stroke-width="7"/>
+<path d="M160 454 L210 425 260 444 310 409 365 432 420 401 450 414" fill="none" stroke="#ffd16f" stroke-width="5"/>
+<text x="154" y="356" font-family="Arial" font-size="22" fill="#9fe9ff" font-weight="700">LIVE EARTH DATA · CO₂ / HEAT / WATER</text>
+<!-- adult scientist -->
+<circle cx="620" cy="356" r="44" fill="#d9a37e"/>
+<path d="M576 352 Q620 296 665 353 L654 313 Q620 286 587 315Z" fill="#242a35"/>
+<path d="M572 414 Q620 388 671 414 L700 555 H545Z" fill="#2d667f"/>
+<path d="M585 435 L624 466 658 435" fill="#dceff6"/>
+<rect x="603" y="451" width="36" height="70" rx="6" fill="#efefef" stroke="#1b2730" stroke-width="3"/>
+<!-- young engineer -->
+<circle cx="760" cy="385" r="36" fill="#e8b186"/>
+<path d="M724 381 Q760 333 799 383 L788 347 Q760 327 733 350Z" fill="#553426"/>
+<path d="M718 430 Q760 409 804 432 L826 555 H696Z" fill="#ba6f4f"/>
+<path d="M700 340 Q740 312 798 333" fill="none" stroke="#f7d24b" stroke-width="12"/>
+<path d="M707 343 h87" stroke="#2b2b2b" stroke-width="5"/>
+<path d="M530 201 Q670 164 862 205 L846 305 Q680 334 548 294Z" fill="#fff" stroke="#101820" stroke-width="6"/>
+<text x="560" y="240" font-family="Arial" font-size="27" fill="#111" font-weight="800">“경고를 숫자로 끝내지 말자.”</text>
+<text x="560" y="275" font-family="Arial" font-size="22" fill="#333">别让警告只停留在数字里。</text>
+<text x="842" y="548" font-family="Arial" font-size="44" fill="#9de7ff" font-weight="900">BEEP…</text>
+</g>
+
+<!-- PANEL 2: rooftop solar + garden -->
+<g filter="url(#shadow)">
+<rect x="58" y="610" width="964" height="390" rx="14" fill="#89cce5" stroke="#fff" stroke-width="6"/>
+<rect x="58" y="866" width="964" height="134" fill="#526472"/>
+<g transform="skewX(-10)"><rect x="128" y="735" width="210" height="105" fill="#164d70" stroke="#8fe4ff" stroke-width="5"/><path d="M145 760h175M145 790h175M185 740v95M245 740v95" stroke="#61b9df" stroke-width="3"/><rect x="370" y="712" width="210" height="105" fill="#164d70" stroke="#8fe4ff" stroke-width="5"/><path d="M387 737h175M387 767h175M427 717v95M487 717v95" stroke="#61b9df" stroke-width="3"/></g>
+<rect x="610" y="760" width="320" height="150" rx="12" fill="#6b4b32" stroke="#3c2d25" stroke-width="5"/>
+<path d="M630 812 Q650 765 674 812 Q696 754 718 812 Q744 765 768 812 Q792 754 820 812 Q844 763 872 812 Q895 760 918 812" fill="#5a9f55" stroke="#315e31" stroke-width="6"/>
+<!-- woman watering -->
+<circle cx="675" cy="696" r="35" fill="#e2aa82"/>
+<path d="M641 692 Q675 650 711 694 L700 659 Q674 639 650 660Z" fill="#29201d"/>
+<path d="M638 735 Q675 716 715 737 L731 855 H622Z" fill="#487a5e"/>
+<path d="M620 765 L566 795" stroke="#e2aa82" stroke-width="18" stroke-linecap="round"/>
+<path d="M561 790 q-30 10 -35 45" fill="none" stroke="#b8d8dd" stroke-width="11"/>
+<path d="M520 839 q25 -22 52 0" fill="none" stroke="#6ed7f2" stroke-width="6"/>
+<!-- child planting -->
+<circle cx="885" cy="708" r="28" fill="#edb58a"/>
+<path d="M858 705 Q885 670 914 706 L905 680 Q885 664 864 681Z" fill="#472f25"/>
+<path d="M855 745 Q885 730 917 746 L932 842 H842Z" fill="#e39a4d"/>
+<path d="M882 810 l-18 46m24-42 30 34" stroke="#edb58a" stroke-width="13" stroke-linecap="round"/>
+<path d="M897 856 q8-34 34-50 q-11 34 -34 50" fill="#5ba65c" stroke="#2e6c37" stroke-width="4"/>
+<path d="M111 648 Q300 610 504 646 L490 742 Q312 774 130 735Z" fill="#fff" stroke="#101820" stroke-width="6"/>
+<text x="145" y="686" font-family="Arial" font-size="27" fill="#111" font-weight="800">“작은 지붕 하나도 도시를 바꾼다.”</text>
+<text x="145" y="720" font-family="Arial" font-size="22" fill="#333">Even one rooftop can change a city.</text>
+<text x="795" y="955" font-family="Arial" font-size="41" fill="#fff7c0" font-weight="900">SHHH—</text>
+</g>
+
+<!-- PANEL 3: river restoration team -->
+<g filter="url(#shadow)">
+<rect x="58" y="1032" width="964" height="410" rx="14" fill="#b7d9e0" stroke="#fff" stroke-width="6"/>
+<path d="M58 1195 Q220 1125 390 1195 T720 1190 T1022 1175 L1022 1442 58 1442Z" fill="url(#river)"/>
+<path d="M58 1130 Q175 1070 300 1130 T560 1125 T820 1120 T1022 1100 L1022 1200 Q850 1220 680 1175 T360 1175 T58 1210Z" fill="#64905e"/>
+<g fill="#315b3a"><circle cx="140" cy="1110" r="35"/><circle cx="200" cy="1095" r="42"/><circle cx="270" cy="1115" r="32"/><circle cx="870" cy="1090" r="38"/><circle cx="930" cy="1105" r="34"/></g>
+<!-- cleanup volunteers actual figures -->
+<circle cx="282" cy="1230" r="34" fill="#d9a178"/><path d="M249 1225 Q282 1184 318 1227 L308 1192 Q282 1171 258 1194Z" fill="#202733"/><path d="M245 1270 Q282 1252 322 1272 L342 1415 H230Z" fill="#356f8c"/><path d="M255 1290 L205 1342M315 1290 L360 1342" stroke="#d9a178" stroke-width="15" stroke-linecap="round"/>
+<circle cx="475" cy="1202" r="32" fill="#e4ad84"/><path d="M444 1198 Q475 1157 508 1199 L500 1168 Q475 1149 451 1170Z" fill="#51352a"/><path d="M440 1240 Q475 1225 513 1242 L532 1408 H426Z" fill="#e6a344"/><path d="M445 1260 L396 1325M506 1260 L548 1321" stroke="#e4ad84" stroke-width="14" stroke-linecap="round"/>
+<rect x="375" y="1315" width="120" height="70" rx="8" fill="#eef3f5" stroke="#243641" stroke-width="4"/><text x="391" y="1357" font-family="Arial" font-size="22" fill="#244">RECYCLE</text>
+<!-- fish/bird life -->
+<path d="M715 1285 q45-34 86 0 q-41 34-86 0M798 1285 l30-22 v44Z" fill="#d4eff7" stroke="#285b72" stroke-width="4"/>
+<path d="M778 1105 q24-24 48 0 q24-24 48 0" fill="none" stroke="#1e3848" stroke-width="6"/>
+<path d="M585 1065 Q760 1032 944 1065 L930 1160 Q766 1188 603 1156Z" fill="#fff" stroke="#101820" stroke-width="6"/>
+<text x="615" y="1102" font-family="Arial" font-size="26" fill="#111" font-weight="800">“물이 다시 숨 쉬기 시작했어.”</text>
+<text x="615" y="1136" font-family="Arial" font-size="21" fill="#333">河流重新开始呼吸了。</text>
+<text x="690" y="1400" font-family="Arial" font-size="42" fill="#e8fbff" font-weight="900">SPLASH!</text>
+</g>
+
+<!-- PANEL 4: promise passed to next generation -->
+<g filter="url(#shadow)">
+<rect x="58" y="1474" width="964" height="300" rx="14" fill="#132331" stroke="#fff" stroke-width="6"/>
+<circle cx="190" cy="1586" r="42" fill="#dca47d"/>
+<path d="M148 1580 Q190 1525 235 1581 L224 1542 Q190 1516 158 1544Z" fill="#202733"/>
+<path d="M145 1634 Q190 1610 238 1634 L260 1760 H127Z" fill="#2f6179"/>
+<circle cx="345" cy="1620" r="30" fill="#edb78d"/>
+<path d="M316 1616 Q345 1576 378 1618 L368 1588 Q345 1570 323 1590Z" fill="#4c3227"/>
+<path d="M315 1654 Q345 1638 378 1655 L395 1760 H302Z" fill="#d8884b"/>
+<path d="M230 1650 Q285 1618 333 1642" fill="none" stroke="#dca47d" stroke-width="15" stroke-linecap="round"/>
+<circle cx="790" cy="1600" r="88" fill="#4ca7d0" stroke="#9ee9ff" stroke-width="5"/>
+<path d="M729 1570 Q772 1534 820 1562 T855 1640 Q806 1655 774 1629 T718 1642Z" fill="#73a665"/>
+<path d="M470 1515 Q635 1487 824 1519 L810 1628 Q642 1655 488 1620Z" fill="#fff" stroke="#101820" stroke-width="6"/>
+<text x="504" y="1556" font-family="Arial" font-size="27" fill="#111" font-weight="800">“우리가 바꾸면, 미래도 바뀐다.”</text>
+<text x="504" y="1591" font-family="Arial" font-size="22" fill="#333">如果我们改变，未来也会改变。</text>
+<text x="504" y="1618" font-family="Arial" font-size="19" fill="#555">If we change, the future changes too.</text>
+<text x="860" y="1722" font-family="Arial" font-size="40" fill="#7ee6a5" font-weight="900">THUMP ♥</text>
+</g>
+
+<rect x="58" y="1800" width="964" height="66" rx="8" fill="#081018" stroke="#dfe8f0" stroke-width="4"/>
+<text x="88" y="1843" font-family="Arial" font-size="25" fill="#ffe27d" font-weight="900">행동은 경고의 다음 장면이다 · 行动，是警告之后的下一幕 · Action is the next scene after warning.</text>
+</svg>
