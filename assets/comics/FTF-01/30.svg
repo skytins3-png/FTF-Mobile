@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="FTF-01 scene 30 rebuilding toward a safer future">
+<defs>
+<linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8c77e"/><stop offset=".52" stop-color="#7db4c7"/><stop offset="1" stop-color="#315567"/></linearGradient>
+<linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a9d9df"/><stop offset="1" stop-color="#4d866b"/></linearGradient>
+<linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7a85c"/><stop offset=".58" stop-color="#836b94"/><stop offset="1" stop-color="#283d55"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-opacity=".45"/></filter>
+</defs>
+<rect width="1080" height="1920" fill="#05090d"/>
+<rect x="30" y="30" width="1020" height="1860" rx="28" fill="#0d1319" stroke="#f2f5f7" stroke-width="5"/>
+<text x="60" y="86" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="900">FTF-01 · EARTH'S WARNING</text>
+<text x="916" y="86" fill="#ffd56f" font-family="Arial,sans-serif" font-size="32" font-weight="900">30</text>
+
+<!-- PANEL 1: sunrise over rebuilt mountain village -->
+<g filter="url(#sh)">
+<rect x="56" y="120" width="968" height="525" rx="20" fill="url(#sky1)" stroke="#fff" stroke-width="6"/>
+<circle cx="865" cy="245" r="78" fill="#ffe8a5"/>
+<path d="M56 410 L175 300 282 376 390 270 516 385 646 292 774 390 913 305 1024 372 1024 645 56 645Z" fill="#35505d"/>
+<path d="M56 505 Q175 454 292 500 T532 484 T755 505 T1024 472 V645 H56Z" fill="#426e58"/>
+<rect x="118" y="442" width="170" height="108" fill="#d0b08a" stroke="#27333a" stroke-width="5"/><polygon points="96,444 202,365 310,444" fill="#6d5446"/>
+<rect x="735" y="432" width="184" height="116" fill="#c9ad87" stroke="#27333a" stroke-width="5"/><polygon points="714,434 827,352 942,434" fill="#684f43"/>
+<path d="M368 498 C430 446 493 468 554 433 C623 394 679 428 738 392" stroke="#9bd6d0" stroke-width="18" fill="none"/>
+<!-- adult woman -->
+<circle cx="390" cy="439" r="42" fill="#edb58c"/><path d="M350 435 Q391 384 436 433 Q421 397 391 394 Q364 397 348 419Z" fill="#2a2527"/><path d="M338 492 Q391 462 446 494 L466 612 H320Z" fill="#496d5a"/><path d="M351 515 L313 574 M432 516 L480 570" stroke="#edb58c" stroke-width="18" stroke-linecap="round"/>
+<!-- adult man -->
+<circle cx="545" cy="430" r="43" fill="#d7a07a"/><path d="M504 425 Q545 376 592 424 Q578 389 545 385 Q517 388 502 408Z" fill="#26303a"/><path d="M491 485 Q545 455 602 488 L621 612 H472Z" fill="#365f78"/><path d="M505 510 L464 569 M584 510 L630 564" stroke="#d7a07a" stroke-width="18" stroke-linecap="round"/>
+<!-- child -->
+<circle cx="671" cy="468" r="31" fill="#f0bd97"/><path d="M642 465 Q671 426 705 463 Q694 435 671 432 Q651 434 640 451Z" fill="#5c4032"/><path d="M633 507 Q671 486 711 509 L725 604 H620Z" fill="#d97854"/>
+<path d="M90 154 Q350 124 676 165 L655 286 Q356 310 110 270Z" fill="#fff" stroke="#111" stroke-width="6"/>
+<text x="126" y="198" fill="#111" font-size="27" font-family="Arial" font-weight="900">“우리는 경고를 기억하고, 마을을 다시 세웠다.”</text>
+<text x="126" y="237" fill="#333" font-size="21" font-family="Arial">“我们记住了警告，也重建了家园。”</text>
+<text x="126" y="268" fill="#555" font-size="19" font-family="Arial">“We remembered the warning—and rebuilt.”</text>
+<text x="78" y="616" fill="#fff0a0" font-size="42" font-family="Arial" font-weight="900">CLACK · HAMMER · THUMP</text>
+</g>
+
+<!-- PANEL 2: resilient infrastructure and community action -->
+<g filter="url(#sh)">
+<rect x="56" y="675" width="968" height="555" rx="20" fill="url(#sky2)" stroke="#fff" stroke-width="6"/>
+<path d="M56 1010 Q177 956 302 1002 T554 990 T800 1009 T1024 969 V1230 H56Z" fill="#3d7458"/>
+<!-- solar community center -->
+<rect x="100" y="826" width="320" height="176" rx="8" fill="#d8e2dc" stroke="#2c4242" stroke-width="5"/>
+<polygon points="78,828 260,735 444,828" fill="#45656b"/>
+<g fill="#315f79" stroke="#98d7e6" stroke-width="3"><polygon points="162,778 242,739 278,786 195,825"/><polygon points="249,737 327,770 359,818 282,788"/></g>
+<!-- rain garden -->
+<ellipse cx="578" cy="1020" rx="130" ry="68" fill="#82c4c0"/><g fill="#3d7e4d"><circle cx="500" cy="983" r="21"/><circle cx="550" cy="970" r="24"/><circle cx="611" cy="981" r="23"/><circle cx="657" cy="965" r="20"/></g>
+<!-- EV bus -->
+<rect x="676" y="892" width="280" height="126" rx="25" fill="#edf4f2" stroke="#35505b" stroke-width="5"/><rect x="705" y="915" width="155" height="54" rx="8" fill="#7fb2c1"/><circle cx="733" cy="1018" r="29" fill="#242a2d"/><circle cx="893" cy="1018" r="29" fill="#242a2d"/><text x="861" y="956" fill="#2c8b61" font-size="27" font-family="Arial" font-weight="900">E-BUS</text>
+<!-- people planting -->
+<circle cx="312" cy="1061" r="34" fill="#edb690"/><path d="M281 1057 Q312 1017 348 1055 Q336 1026 311 1024 Q290 1027 279 1043Z" fill="#332c2c"/><path d="M272 1102 Q311 1080 353 1104 L367 1204 H258Z" fill="#547552"/><path d="M338 1125 L402 1080" stroke="#7f5d3b" stroke-width="13" stroke-linecap="round"/>
+<circle cx="461" cy="1083" r="29" fill="#dca47d"/><path d="M434 1080 Q461 1044 493 1079 Q482 1052 460 1050 Q441 1053 432 1067Z" fill="#2b3437"/><path d="M426 1118 Q461 1100 498 1120 L510 1208 H414Z" fill="#cf7c4d"/>
+<!-- text box -->
+<rect x="85" y="704" width="890" height="112" rx="16" fill="#f9fbfb" stroke="#111" stroke-width="5"/>
+<text x="111" y="744" fill="#111" font-size="25" font-family="Arial" font-weight="900">작은 실천이 다음 재난을 막는 힘이 된다.</text>
+<text x="111" y="779" fill="#333" font-size="20" font-family="Arial">小小的行动，成为阻止下一场灾难的力量。</text>
+<text x="111" y="807" fill="#555" font-size="18" font-family="Arial">Small actions become the strength that prevents the next disaster.</text>
+<text x="714" y="1188" fill="#fff6a8" font-size="42" font-family="Arial" font-weight="900">WHIRR · CLICK!</text>
+</g>
+
+<!-- PANEL 3: handoff to the next generation -->
+<g filter="url(#sh)">
+<rect x="56" y="1260" width="968" height="576" rx="20" fill="url(#sky3)" stroke="#fff" stroke-width="6"/>
+<circle cx="845" cy="1425" r="86" fill="#ffd99b" opacity=".95"/>
+<path d="M56 1580 Q190 1510 327 1563 T598 1555 T833 1570 T1024 1528 V1836 H56Z" fill="#334c4f"/>
+<!-- wind turbines and restored river -->
+<path d="M170 1450 v180 M170 1450 l-82-52 M170 1450 l84-44 M170 1450 l-8-94" stroke="#e7edf0" stroke-width="12" stroke-linecap="round"/>
+<path d="M274 1490 v154 M274 1490 l-68-42 M274 1490 l71-38 M274 1490 l-6-78" stroke="#e7edf0" stroke-width="10" stroke-linecap="round"/>
+<path d="M56 1732 C175 1675 280 1710 386 1665 C492 1620 595 1680 703 1636 C790 1600 889 1632 1024 1589" stroke="#7fcbd0" stroke-width="24" fill="none"/>
+<!-- family/group from behind but fully illustrated -->
+<circle cx="505" cy="1549" r="44" fill="#d7a17b"/><path d="M463 1545 Q505 1493 552 1543 Q537 1506 505 1502 Q477 1505 461 1527Z" fill="#25303a"/><path d="M452 1602 Q505 1571 561 1605 L583 1811 H432Z" fill="#283f52"/><text x="467" y="1698" fill="#fff" font-size="31" font-family="Arial" font-weight="900">FTF</text>
+<circle cx="632" cy="1575" r="39" fill="#edb891"/><path d="M596 1571 Q632 1527 673 1570 Q659 1537 632 1534 Q607 1537 594 1556Z" fill="#4f392f"/><path d="M585 1620 Q632 1594 682 1622 L700 1811 H570Z" fill="#8a5b55"/>
+<circle cx="757" cy="1610" r="30" fill="#f0bf99"/><path d="M729 1607 Q757 1570 790 1605 Q779 1577 757 1575 Q737 1578 727 1594Z" fill="#604435"/><path d="M720 1645 Q757 1625 796 1647 L811 1810 H706Z" fill="#d28557"/>
+<!-- narrator and speech -->
+<path d="M94 1298 Q413 1268 792 1310 L772 1446 Q418 1472 114 1436Z" fill="#fff" stroke="#111" stroke-width="6"/>
+<text x="130" y="1342" fill="#111" font-size="28" font-family="Arial" font-weight="900">“미래는 기다리는 게 아니라, 함께 만드는 거야.”</text>
+<text x="130" y="1383" fill="#333" font-size="21" font-family="Arial">“未来不是等待，而是我们一起创造。”</text>
+<text x="130" y="1415" fill="#555" font-size="19" font-family="Arial">“The future isn’t something we wait for. We build it together.”</text>
+<rect x="96" y="1748" width="884" height="62" rx="10" fill="#081111" opacity=".9"/>
+<text x="118" y="1784" fill="#fff2bf" font-size="24" font-family="Arial" font-weight="900">내레이션 · 지구의 경고는 끝이 아니라, 행동의 시작이다.</text>
+<text x="118" y="1813" fill="#dbe9e6" font-size="17" font-family="Arial">地球的警告不是终点，而是行动的开始。 · Earth’s warning is not the end, but the beginning of action.</text>
+<text x="784" y="1706" fill="#ffe48c" font-size="45" font-family="Arial" font-weight="900">WHOOSH—</text>
+</g>
+<text x="62" y="1876" fill="#8da7b7" font-family="Arial" font-size="20">FTF-01 · SCENE 30 · 재건, 회복탄력성, 다음 세대</text>
+</svg>
