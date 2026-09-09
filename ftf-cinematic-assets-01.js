@@ -19,4 +19,10 @@
     img.src=BASE+EXTRA[idx]+'?v=49';
     return result;
   };
+  if(!document.querySelector('script[data-ftf-cinematic-02]')){
+    const s=document.createElement('script');
+    s.src='/FTF-Mobile/ftf-cinematic-assets-02.js?v=50';
+    s.async=false;s.dataset.ftfCinematic02='1';
+    document.head.appendChild(s);
+  }
 })();
