@@ -52,8 +52,9 @@ for idx in range(11,16):
     if rel not in cached: errors.append(f'FTF-01 cinematic illustrated asset not cached: {rel}')
     if f"'{idx:02d}.svg'" not in cinematic_assets01: errors.append(f'FTF-01 cinematic mapper missing scene {idx:02d}')
     data=p.read_text(encoding='utf-8')
-    for token in ['<path','SCENE','상황','NARRATION','EARTH','地']:
-        if token not in data: errors.append(f'FTF-01 scene lacks illustrated/multilingual element {token}: {rel}')
+    for token in ['<path','SCENE','상황','NARRATION','EARTH']:
+        if token not in data: errors.append(f'FTF-01 scene lacks illustrated/text element {token}: {rel}')
+    if not re.search(r'[\u4e00-\u9fff]{2,}',data): errors.append(f'FTF-01 scene lacks Chinese dialogue/caption text: {rel}')
     if len(data)<2500: errors.append(f'FTF-01 scene too small/simple to count as finished illustration: {rel}')
 for idx in range(20,27):
     rel=f'assets/comics/FTF-08/{idx:02d}.svg'; p=ROOT/rel
