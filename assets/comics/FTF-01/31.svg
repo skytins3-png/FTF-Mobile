@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="FTF-01 scene 31 resilience watch after rebuilding">
+<defs>
+  <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffcf8f"/><stop offset=".48" stop-color="#8fc8d4"/><stop offset="1" stop-color="#385f6b"/></linearGradient>
+  <linearGradient id="lab" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dff2ee"/><stop offset="1" stop-color="#7fb5a7"/></linearGradient>
+  <linearGradient id="forest" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9fd6be"/><stop offset="1" stop-color="#295844"/></linearGradient>
+  <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#34495d"/><stop offset="1" stop-color="#101827"/></linearGradient>
+  <filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-opacity=".42"/></filter>
+</defs>
+<rect width="1080" height="1920" fill="#05090e"/>
+<rect x="28" y="28" width="1024" height="1864" rx="30" fill="#0d141b" stroke="#f5f7f8" stroke-width="5"/>
+<text x="60" y="84" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="900">FTF-01 · EARTH'S WARNING</text>
+<text x="916" y="84" fill="#ffd970" font-family="Arial,sans-serif" font-size="32" font-weight="900">31</text>
+
+<!-- PANEL 1: morning resilience monitoring -->
+<g filter="url(#sh)">
+<rect x="56" y="118" width="968" height="410" rx="20" fill="url(#dawn)" stroke="#fff" stroke-width="6"/>
+<circle cx="872" cy="218" r="64" fill="#ffe9a8"/>
+<path d="M56 350 L168 286 250 334 354 252 472 342 590 278 709 346 832 267 1024 335 1024 528 56 528Z" fill="#375866"/>
+<path d="M56 420 Q174 386 286 418 T515 408 T752 420 T1024 395 V528 H56Z" fill="#41785f"/>
+<rect x="110" y="297" width="330" height="160" rx="12" fill="#d9e5e1" stroke="#23383e" stroke-width="5"/>
+<rect x="132" y="320" width="286" height="92" rx="8" fill="#183643"/>
+<polyline points="151,386 184,356 223,370 262,337 301,358 339,326 389,348" fill="none" stroke="#7be0b1" stroke-width="7"/>
+<text x="150" y="444" fill="#28434a" font-family="Arial" font-size="23" font-weight="900">RAIN · RIVER · SLOPE LIVE</text>
+<!-- woman engineer -->
+<circle cx="554" cy="357" r="39" fill="#efbc96"/><path d="M516 352 Q553 305 596 349 Q583 315 554 313 Q530 315 514 336Z" fill="#2b2528"/><path d="M508 402 Q554 376 603 404 L618 500 H495Z" fill="#3e6f70"/><path d="M519 424 L468 376 M592 424 L650 379" stroke="#efbc96" stroke-width="17" stroke-linecap="round"/>
+<!-- man volunteer -->
+<circle cx="720" cy="363" r="38" fill="#d8a27c"/><path d="M684 358 Q720 314 761 357 Q748 324 720 321 Q696 324 682 343Z" fill="#26323a"/><path d="M677 408 Q720 382 768 410 L784 500 H664Z" fill="#455e8a"/>
+<path d="M89 146 Q363 126 681 157 L664 268 Q368 285 105 257Z" fill="#fff" stroke="#111" stroke-width="5"/>
+<text x="122" y="187" fill="#111" font-family="Arial" font-size="27" font-weight="900">“재건은 끝이 아니야. 이제 매일 지켜봐야 해.”</text>
+<text x="122" y="224" fill="#333" font-family="Arial" font-size="20">“重建不是终点，我们要每天守护。”</text>
+<text x="122" y="253" fill="#555" font-family="Arial" font-size="18">“Rebuilding wasn’t the end. We watch over it every day.”</text>
+<text x="742" y="492" fill="#fff3a3" font-family="Arial" font-size="38" font-weight="900">BEEP · BEEP!</text>
+</g>
+
+<!-- PANEL 2: school climate lab -->
+<g filter="url(#sh)">
+<rect x="56" y="558" width="968" height="405" rx="20" fill="url(#lab)" stroke="#fff" stroke-width="6"/>
+<rect x="94" y="600" width="385" height="250" rx="14" fill="#f7fbf9" stroke="#355b58" stroke-width="5"/>
+<rect x="118" y="628" width="337" height="138" rx="8" fill="#183942"/>
+<path d="M142 736 Q190 676 244 704 T347 688 T432 650" stroke="#7ce0a8" stroke-width="8" fill="none"/>
+<circle cx="172" cy="681" r="9" fill="#ffd86e"/><circle cx="292" cy="698" r="9" fill="#ffd86e"/><circle cx="401" cy="665" r="9" fill="#ffd86e"/>
+<text x="140" y="810" fill="#275751" font-family="Arial" font-size="23" font-weight="900">LOCAL CLIMATE LAB</text>
+<!-- teacher -->
+<circle cx="590" cy="705" r="40" fill="#e9b58d"/><path d="M553 701 Q590 653 634 699 Q620 664 590 662 Q565 665 551 684Z" fill="#40332f"/><path d="M544 752 Q590 724 640 754 L657 925 H529Z" fill="#5a6e95"/><path d="M557 777 L506 820 M626 777 L694 735" stroke="#e9b58d" stroke-width="17" stroke-linecap="round"/>
+<!-- children -->
+<circle cx="760" cy="755" r="31" fill="#f0bd98"/><path d="M731 752 Q760 714 794 750 Q783 722 760 719 Q740 722 729 738Z" fill="#513b32"/><path d="M724 793 Q760 773 798 795 L811 921 H712Z" fill="#d17a55"/>
+<circle cx="872" cy="763" r="31" fill="#dca780"/><path d="M844 760 Q872 723 904 759 Q893 731 871 728 Q852 731 842 747Z" fill="#29363d"/><path d="M836 801 Q872 780 910 803 L923 921 H824Z" fill="#4e8767"/>
+<rect x="112" y="865" width="394" height="72" rx="10" fill="#fff" stroke="#111" stroke-width="4"/>
+<text x="130" y="893" fill="#111" font-family="Arial" font-size="22" font-weight="900">아이들이 데이터를 읽고 질문한다.</text>
+<text x="130" y="919" fill="#333" font-family="Arial" font-size="17">孩子们读数据，也开始提问。 · Children read the data—and ask why.</text>
+<path d="M660 588 Q828 567 986 604 L972 717 Q814 729 677 707Z" fill="#fff" stroke="#111" stroke-width="5"/>
+<text x="696" y="625" fill="#111" font-family="Arial" font-size="24" font-weight="900">“숫자를 알면 위험을 먼저 볼 수 있어.”</text>
+<text x="696" y="658" fill="#333" font-family="Arial" font-size="18">“懂得数字，就能更早看见风险。”</text>
+<text x="696" y="684" fill="#555" font-family="Arial" font-size="17">“Read the numbers, see the risk sooner.”</text>
+<text x="835" y="900" fill="#fff8b2" font-family="Arial" font-size="36" font-weight="900">CLICK!</text>
+</g>
+
+<!-- PANEL 3: restored wildlife corridor -->
+<g filter="url(#sh)">
+<rect x="56" y="993" width="968" height="408" rx="20" fill="url(#forest)" stroke="#fff" stroke-width="6"/>
+<path d="M56 1190 Q162 1118 267 1176 T474 1164 T682 1187 T861 1156 T1024 1176 V1401 H56Z" fill="#315f46"/>
+<path d="M56 1288 C180 1248 267 1300 388 1259 C512 1217 610 1285 739 1238 C837 1202 914 1230 1024 1208" stroke="#75cdd0" stroke-width="26" fill="none"/>
+<!-- trees -->
+<g fill="#28563e" stroke="#163727" stroke-width="5"><circle cx="145" cy="1117" r="72"/><circle cx="222" cy="1088" r="62"/><circle cx="860" cy="1098" r="70"/><circle cx="936" cy="1121" r="66"/></g>
+<g stroke="#634a35" stroke-width="18"><path d="M164 1147 v150"/><path d="M882 1139 v154"/></g>
+<!-- family observing -->
+<circle cx="498" cy="1164" r="36" fill="#e9b58d"/><path d="M465 1160 Q498 1118 537 1159 Q524 1128 498 1125 Q475 1127 463 1146Z" fill="#2d292c"/><path d="M456 1208 Q498 1184 544 1210 L560 1364 H443Z" fill="#596b8a"/>
+<circle cx="620" cy="1194" r="29" fill="#f0bf99"/><path d="M593 1191 Q620 1156 652 1190 Q641 1164 620 1162 Q601 1164 591 1179Z" fill="#594137"/><path d="M587 1230 Q620 1212 656 1232 L669 1364 H575Z" fill="#cb8159"/>
+<!-- bird and deer -->
+<path d="M742 1064 q32-28 64 0 q31-28 63 0" stroke="#233d43" stroke-width="8" fill="none"/>
+<ellipse cx="788" cy="1264" rx="48" ry="26" fill="#9a7251"/><circle cx="832" cy="1239" r="18" fill="#9a7251"/><path d="M833 1223 l-10-24 M838 1224 l14-23" stroke="#725039" stroke-width="5"/>
+<rect x="84" y="1018" width="660" height="112" rx="14" fill="#f9fbf8" stroke="#111" stroke-width="5"/>
+<text x="110" y="1057" fill="#111" font-family="Arial" font-size="25" font-weight="900">“강이 살아나자, 동물들도 돌아오기 시작했다.”</text>
+<text x="110" y="1091" fill="#333" font-family="Arial" font-size="19">“河流恢复后，动物们也开始回来了。”</text>
+<text x="110" y="1119" fill="#555" font-family="Arial" font-size="18">“As the river healed, wildlife began to return.”</text>
+<text x="760" y="1370" fill="#fff7a5" font-family="Arial" font-size="39" font-weight="900">RUSTLE · SPLASH</text>
+</g>
+
+<!-- PANEL 4: evening evacuation drill, hope with preparedness -->
+<g filter="url(#sh)">
+<rect x="56" y="1430" width="968" height="404" rx="20" fill="url(#night)" stroke="#fff" stroke-width="6"/>
+<circle cx="846" cy="1512" r="56" fill="#f4e6bc" opacity=".9"/>
+<path d="M56 1674 L190 1608 305 1657 436 1594 576 1664 702 1615 834 1668 1024 1607 V1834 H56Z" fill="#263e47"/>
+<!-- evacuation center -->
+<rect x="100" y="1582" width="278" height="150" rx="10" fill="#e1e6df" stroke="#28363c" stroke-width="5"/>
+<polygon points="84,1584 239,1507 398,1584" fill="#5c6a69"/>
+<rect x="145" y="1612" width="189" height="54" rx="8" fill="#2a725b"/><text x="166" y="1648" fill="#fff" font-family="Arial" font-size="24" font-weight="900">SAFE SHELTER</text>
+<!-- people walking -->
+<g><circle cx="507" cy="1649" r="32" fill="#dba47d"/><path d="M477 1646 Q507 1608 542 1645 Q530 1616 507 1614 Q486 1617 475 1632Z" fill="#283139"/><path d="M470 1687 Q507 1666 547 1689 L559 1802 H458Z" fill="#4e6c87"/><path d="M478 1730 L434 1794 M541 1730 L582 1795" stroke="#dba47d" stroke-width="15"/></g>
+<g><circle cx="647" cy="1666" r="28" fill="#f0bd98"/><path d="M621 1663 Q647 1628 678 1662 Q667 1636 647 1634 Q628 1636 619 1650Z" fill="#5b4035"/><path d="M615 1701 Q647 1683 681 1703 L692 1803 H604Z" fill="#cf7c54"/></g>
+<g><circle cx="753" cy="1657" r="30" fill="#e8b48c"/><path d="M725 1654 Q753 1617 786 1653 Q775 1625 753 1623 Q734 1625 723 1641Z" fill="#342d31"/><path d="M719 1694 Q753 1674 790 1696 L802 1803 H707Z" fill="#5a805d"/></g>
+<path d="M92 1455 Q395 1437 740 1467 L722 1576 Q400 1596 108 1564Z" fill="#fff" stroke="#111" stroke-width="5"/>
+<text x="126" y="1495" fill="#111" font-family="Arial" font-size="27" font-weight="900">“희망은 준비와 함께 있을 때 더 강해진다.”</text>
+<text x="126" y="1531" fill="#333" font-family="Arial" font-size="20">“希望与准备同行时，会变得更强。”</text>
+<text x="126" y="1560" fill="#555" font-family="Arial" font-size="18">“Hope grows stronger when preparedness walks beside it.”</text>
+<text x="786" y="1795" fill="#ffe082" font-family="Arial" font-size="42" font-weight="900">STEP · STEP</text>
+<rect x="106" y="1768" width="560" height="48" rx="8" fill="#071112" opacity=".9"/>
+<text x="124" y="1799" fill="#fff1bf" font-family="Arial" font-size="20" font-weight="900">내레이션 · 기억 → 관찰 → 행동 → 대비, 그리고 다음 세대.</text>
+</g>
+<text x="62" y="1876" fill="#91a8b8" font-family="Arial" font-size="20">FTF-01 · SCENE 31 · 재건 이후의 감시, 교육, 생태 회복, 대피 훈련</text>
+</svg>
