@@ -48,4 +48,4 @@ jobs:
           for n in 01 02 03 04 05 06 07 08; do test -d "assets/comics/FTF-$n"; done
           for n in $(seq -w 01 26); do test -s "assets/comics/FTF-08/$n.svg"; done
           for n in $(seq -w 01 26); do test -s "assets/comics/FTF-01/$n.svg"; done
-          for n in $(seq -w 01 15); do test -s "assets/comics/FTF-02/$n.svg"; done
+          for n in $(seq -w 01 20); do test -s "assets/comics/FTF-02/$n.svg"; done
