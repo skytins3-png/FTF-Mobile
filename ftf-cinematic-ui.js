@@ -19,10 +19,14 @@
     #ftfTrackRow{display:grid;grid-template-columns:54px 1fr;gap:10px;align-items:center}#ftfThumb{width:54px;height:54px;border-radius:10px;border:1px solid #7892af;background:#152233 center/cover no-repeat}#ftfTrackText{min-width:0}#ftfTrackTitle{font-weight:900;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#ftfTrackKo{font-size:11px;color:#c1cfdf;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
     #ftfTimeRow{display:grid;grid-template-columns:38px 1fr 38px;gap:8px;align-items:center;margin-top:7px;font-size:10px;color:#bcc8d5}#ftfProgress{height:5px;border-radius:99px;background:#30445d;overflow:hidden}#ftfProgressFill{height:100%;width:0;background:#5ec8ff;border-radius:99px}
     #ftfControlRow{display:grid;grid-template-columns:1fr 1fr 1fr 1.25fr 1.25fr 1.25fr;gap:7px;margin-top:9px}#ftfControlRow button{min-width:0;height:44px;padding:0 5px;border-radius:13px;background:#152131;color:#fff;border:1px solid #41536b;font-weight:900;font-size:11px}#ftfControlRow button.primary{background:#eef4fb;color:#09111d;font-size:20px;border-color:#fff}
+    #ftfLiveBadge{position:fixed;right:10px;bottom:8px;z-index:9999;background:#0b2238e8;border:1px solid #5ec8ff;color:#d9f4ff;border-radius:999px;padding:5px 9px;font-size:10px;font-weight:900;letter-spacing:.5px;pointer-events:none}
     .viewer.ftf-integrated #ftfPanelProgress{display:none!important}
     @media (max-width:390px){#ftfCinemaHead{height:68px;padding-left:10px}.viewer.ftf-integrated #comicImg{inset:68px 0 160px 0!important;height:calc(100% - 228px)!important}#ftfCinemaPlayer{height:160px}#ftfControlRow{gap:5px}#ftfControlRow button{font-size:10px}}
   `;
   document.head.appendChild(style);
+
+  let badge=document.getElementById('ftfLiveBadge');
+  if(!badge){badge=document.createElement('div');badge.id='ftfLiveBadge';badge.textContent='FTF LIVE v50';document.body.appendChild(badge)}
 
   const head=document.createElement('div');head.id='ftfCinemaHead';head.innerHTML='<div id="ftfCinemaBrand"><b id="ftfCinemaTitle">미래를 위하여 · FTF</b><span id="ftfCinemaSub">For the Future · FTF</span></div><div id="ftfCinemaScene"><strong id="ftfCinemaCounter">01 / 26</strong><small>시작되는 새로운 여정</small></div>';
   viewer.appendChild(head);
