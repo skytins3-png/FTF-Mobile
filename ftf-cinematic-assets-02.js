@@ -1,6 +1,6 @@
 (()=>{
   const BASE='/FTF-Mobile/assets/comics/FTF-02/';
-  const EXTRA={10:'11.svg',11:'12.svg',12:'13.svg',13:'14.svg',14:'15.svg'};
+  const EXTRA={10:'11.svg',11:'12.svg',12:'13.svg',13:'14.svg',14:'15.svg',15:'16.svg',16:'17.svg',17:'18.svg',18:'19.svg',19:'20.svg'};
   const previous=window.showComic;
   if(typeof previous!=='function')return;
   const E2=id=>document.getElementById(id);
