@@ -23,6 +23,8 @@ jobs:
           python-version: '3.12'
       - name: Validate FTF project
         run: python tools/ftf_integrity_check.py
+      - name: Validate FTF-02 cinematic progress
+        run: python tools/ftf_02_progress_check.py
       - name: Check JavaScript syntax
         run: |
           node --check ftf-images.js
@@ -34,6 +36,7 @@ jobs:
           node --check ftf-cinematic-scenes-08.js
           node --check ftf-cinematic-assets-08.js
           node --check ftf-cinematic-assets-01.js
+          node --check ftf-cinematic-assets-02.js
           node --check ftf-cinematic-ui.js
           node --check ftf-auto-background.js
       - name: Verify no accidental project-data deletion
@@ -44,4 +47,5 @@ jobs:
           test -d assets/comics
           for n in 01 02 03 04 05 06 07 08; do test -d "assets/comics/FTF-$n"; done
           for n in $(seq -w 01 26); do test -s "assets/comics/FTF-08/$n.svg"; done
-          for n in $(seq -w 01 15); do test -s "assets/comics/FTF-01/$n.svg"; done
+          for n in $(seq -w 01 26); do test -s "assets/comics/FTF-01/$n.svg"; done
+          for n in $(seq -w 01 15); do test -s "assets/comics/FTF-02/$n.svg"; done
