@@ -1,11 +1,11 @@
 (()=>{
   const TOTAL=26;
   const BASE='/FTF-Mobile/';
-  const VERSION='39';
+  const VERSION='46';
   const SPRITE=BASE+'ftf_story_images.jpg';
   const A=p=>BASE+p.replace(/^\.\//,'');
   const STORY_ASSETS={
-    1:{0:A('./assets/comics/FTF-01/01.svg'),1:A('./assets/comics/FTF-01/02.svg'),2:A('./assets/comics/FTF-01/03.svg'),3:A('./assets/comics/FTF-01/04.svg'),4:A('./assets/comics/FTF-01/05.svg'),5:A('./assets/comics/FTF-01/06.svg'),6:A('./assets/comics/FTF-01/07.svg'),7:A('./assets/comics/FTF-01/08.svg'),8:A('./assets/comics/FTF-01/09.svg'),9:A('./assets/comics/FTF-01/10.svg')},
+    1:{0:A('./assets/comics/FTF-01/01.svg'),1:A('./assets/comics/FTF-01/02.svg'),2:A('./assets/comics/FTF-01/03.svg'),3:A('./assets/comics/FTF-01/04.svg'),4:A('./assets/comics/FTF-01/05.svg'),5:A('./assets/comics/FTF-01/06.svg'),6:A('./assets/comics/FTF-01/07.svg'),7:A('./assets/comics/FTF-01/08.svg'),8:A('./assets/comics/FTF-01/09.svg'),9:A('./assets/comics/FTF-01/10.svg'),10:A('./assets/comics/FTF-01/11.svg'),11:A('./assets/comics/FTF-01/12.svg'),12:A('./assets/comics/FTF-01/13.svg'),13:A('./assets/comics/FTF-01/14.svg'),14:A('./assets/comics/FTF-01/15.svg'),15:A('./assets/comics/FTF-01/16.svg'),16:A('./assets/comics/FTF-01/17.svg'),17:A('./assets/comics/FTF-01/18.svg'),18:A('./assets/comics/FTF-01/19.svg'),19:A('./assets/comics/FTF-01/20.svg'),20:A('./assets/comics/FTF-01/21.svg'),21:A('./assets/comics/FTF-01/22.svg'),22:A('./assets/comics/FTF-01/23.svg'),23:A('./assets/comics/FTF-01/24.svg'),24:A('./assets/comics/FTF-01/25.svg'),25:A('./assets/comics/FTF-01/26.svg')},
     2:{0:A('./assets/comics/FTF-02/01.svg'),1:A('./assets/comics/FTF-02/02.svg'),2:A('./assets/comics/FTF-02/03.svg'),3:A('./assets/comics/FTF-02/04.svg'),4:A('./assets/comics/FTF-02/05.svg'),5:A('./assets/comics/FTF-02/06.svg'),6:A('./assets/comics/FTF-02/07.svg'),7:A('./assets/comics/FTF-02/08.svg'),8:A('./assets/comics/FTF-02/09.svg'),9:A('./assets/comics/FTF-02/10.svg')},
     3:{0:A('./assets/comics/FTF-03/01.svg'),1:A('./assets/comics/FTF-03/02.svg'),2:A('./assets/comics/FTF-03/03.svg'),3:A('./assets/comics/FTF-03/04.svg')},
     4:{0:A('./assets/comics/FTF-04/01.svg'),1:A('./assets/comics/FTF-04/02.svg'),2:A('./assets/comics/FTF-04/03.svg'),3:A('./assets/comics/FTF-04/04.svg')},
