@@ -25,6 +25,7 @@ try:
     if manifest.get('id')!='/FTF-Mobile/': errors.append('manifest id must be /FTF-Mobile/')
     if manifest.get('scope')!='/FTF-Mobile/': errors.append('manifest scope must be /FTF-Mobile/')
     if not str(manifest.get('start_url','')).startswith('/FTF-Mobile/'): errors.append('manifest start_url must stay under /FTF-Mobile/')
+    if 'v49' not in str(manifest.get('start_url','')): errors.append('manifest start_url must expose current v49 build')
 except Exception as e: errors.append(f'manifest JSON invalid: {e}')
 if 'const TOTAL=26' not in comics: errors.append('ftf-song-comics.js TOTAL must be 26')
 if 'ref.currentTime/ref.duration)*TOTAL' not in comics: errors.append('audio-to-comic synchronization missing')
@@ -36,6 +37,7 @@ for token in ['ftfCinemaCounter','ftfProgressFill','ftfPrev','ftfPlay','ftfNext'
     if token not in cinema: errors.append(f'Cinematic mobile player missing: {token}')
 for token in ['ftf-cinematic-ui.js','ftf-cinematic-assets-08.js','ftf-cinematic-assets-01.js']:
     if token not in sw: errors.append(f'service worker must inject/cache {token}')
+if 'ftf-mobile-v49' not in sw: errors.append('service worker cache must be v49')
 mapped=set(re.findall(r"assets/comics/FTF-\d{2}/\d{2}\.svg", comics)); cached=set(re.findall(r"assets/comics/FTF-\d{2}/\d{2}\.svg", sw))
 for rel in sorted(mapped):
     if not (ROOT/rel).exists(): errors.append(f'Mapped comic asset missing: {rel}')
@@ -45,7 +47,7 @@ for idx in range(5,27):
     if not p.exists(): errors.append(f'Cinematic illustrated asset missing: {rel}'); continue
     if rel not in cached: errors.append(f'Cinematic illustrated asset not cached: {rel}')
     if f"'{idx:02d}.svg'" not in cinematic_assets: errors.append(f'Cinematic asset mapper missing FTF-08/{idx:02d}.svg')
-for idx in range(11,21):
+for idx in range(11,27):
     rel=f'assets/comics/FTF-01/{idx:02d}.svg'; p=ROOT/rel
     if not p.exists(): errors.append(f'FTF-01 cinematic illustrated asset missing: {rel}'); continue
     if rel not in cached: errors.append(f'FTF-01 cinematic illustrated asset not cached: {rel}')
@@ -53,7 +55,7 @@ for idx in range(11,21):
     data=p.read_text(encoding='utf-8')
     for token in ['<path','상황 설명']:
         if token not in data: errors.append(f'FTF-01 scene lacks required illustrated/text element {token}: {rel}')
-    if not ('FTF-01' in data or 'SCENE' in data): errors.append(f'FTF-01 scene lacks scene identity label: {rel}')
+    if 'FTF-01' not in data: errors.append(f'FTF-01 scene lacks scene identity label: {rel}')
     if not re.search(r'[\u4e00-\u9fff]{2,}',data): errors.append(f'FTF-01 scene lacks Chinese dialogue/caption text: {rel}')
     if not re.search(r'[A-Za-z]{3,}',data): errors.append(f'FTF-01 scene lacks English text/SFX: {rel}')
     if len(data)<2500: errors.append(f'FTF-01 scene too small/simple to count as finished illustration: {rel}')
@@ -66,7 +68,7 @@ for idx in range(20,27):
 if "n!==8" not in cinematic_assets or "window.showComic=async function" not in cinematic_assets: errors.append('Cinematic asset mapper must be scoped to FTF-08 and wrap showComic')
 if "25:'26.svg'" not in cinematic_assets: errors.append('FTF-08 final scene 26 must be mapped to playback index 25')
 if "n!==1" not in cinematic_assets01 or "window.showComic=async function" not in cinematic_assets01: errors.append('FTF-01 cinematic mapper must be scoped to FTF-01 and wrap showComic')
-if "19:'20.svg'" not in cinematic_assets01: errors.append('FTF-01 scene 20 must be mapped to playback index 19')
+if "25:'26.svg'" not in cinematic_assets01: errors.append('FTF-01 final scene 26 must be mapped to playback index 25')
 for p in ROOT.rglob('*'):
     if p.is_file() and p.suffix.lower() in {'.js','.json','.html','.css','.svg','.py','.yml','.yaml','.txt'}:
         try: data=p.read_text(encoding='utf-8')
@@ -77,11 +79,11 @@ for n in range(1,9):
     d=ROOT/f'assets/comics/FTF-{n:02d}'; count=len(list(d.glob('*.svg'))) if d.exists() else 0; counts[n]=count
     if count<26: warnings.append(f'FTF-{n:02d}: {count}/26 illustrated files currently present')
 if counts.get(8,0)<26: errors.append('FTF-08 must retain a complete 26-scene sequence')
-if counts.get(1,0)<20: errors.append('FTF-01 must retain at least scenes 01-20 after this update')
+if counts.get(1,0)<26: errors.append('FTF-01 must retain a complete 26-scene sequence')
 if '.situation{' in fix and '!important' in fix: warnings.append('legacy overlay CSS remains; integrated mode must stay active for repository comics')
 print('FTF integrity check'); print('Mapped comic files:',len(mapped)); print('Scene file counts:',', '.join(f'FTF-{n:02d}={c}/26' for n,c in counts.items()))
 for w in warnings: print('WARN:',w)
 if errors:
     for e in errors: print('ERROR:',e)
     sys.exit(1)
-print('PASS: project data, PWA path, mappings, sync, auto-next, cinematic UI, cache references, FTF-08 completion and FTF-01 scenes 11-20 are consistent.')
+print('PASS: project data, PWA path, mappings, sync, auto-next, cinematic UI, cache references, FTF-08 and FTF-01 complete 26-scene sequences are consistent.')
