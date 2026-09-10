@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-labelledby="t d">
+<title id="t">FTF-01 #53 — 함께 지키는 푸른 바다</title>
+<desc id="d">Four-panel cinematic manga-style scene: a fishing family chooses reusable eco-friendly gear at a working harbor; a sea turtle is trapped in abandoned net and floating trash; fishers and family members pull ghost nets from the shore; the restored bay fills with fish, turtles and seabirds. Korean, Chinese and English narration, speech bubbles and visual sound effects are integrated into the illustration.</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#66c8ff"/><stop offset="1" stop-color="#e9f8ff"/></linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#38bde8"/><stop offset="1" stop-color="#0b5b92"/></linearGradient>
+  <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0e7699"/><stop offset="1" stop-color="#062f4f"/></linearGradient>
+  <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd77c"/><stop offset=".55" stop-color="#ff9f7c"/><stop offset="1" stop-color="#5bb9d9"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".35"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .panel{stroke:#101820;stroke-width:10}.box{fill:#fffef4;stroke:#101820;stroke-width:4}.bubble{fill:#fff;stroke:#111;stroke-width:4}.ko{font:700 29px sans-serif;fill:#101820}.zh{font:600 23px sans-serif;fill:#17385a}.en{font:600 22px sans-serif;fill:#17212b}.sfx{font:900 46px sans-serif;paint-order:stroke;stroke:#fff;stroke-width:10;stroke-linejoin:round}.small{font:700 18px sans-serif}.face{stroke:#5e3629;stroke-width:2}.line{stroke:#19242c;stroke-width:5;stroke-linecap:round;fill:none}.waterline{stroke:#d8f7ff;stroke-width:4;fill:none;opacity:.8}
+  </style>
+</defs>
+
+<!-- PANEL 1: harbor choice -->
+<g transform="translate(0 0)">
+ <rect class="panel" x="4" y="4" width="760" height="500" rx="4" fill="url(#sky)"/>
+ <!-- harbor environment -->
+ <path d="M5 330 Q120 300 230 330 T460 325 T760 320 V500 H5Z" fill="url(#sea)"/>
+ <path d="M0 292 L190 245 265 292Z" fill="#d86c3b"/><rect x="45" y="250" width="150" height="90" fill="#fff2dc" stroke="#71412c" stroke-width="3"/>
+ <rect x="86" y="270" width="36" height="55" fill="#5b8fb6"/><rect x="140" y="265" width="36" height="40" fill="#5b8fb6"/>
+ <g fill="#f7fbff" stroke="#314d60" stroke-width="3"><path d="M520 273 h135 l25 70H490Z"/><rect x="555" y="205" width="9" height="75" fill="#243b4a"/><path d="M563 211 l75 35 h-75Z" fill="#f8f2de"/></g>
+ <g stroke="#fff" stroke-width="3"><path d="M20 370 q100-30 210 5"/><path d="M300 390 q130-25 260 5"/><path d="M520 350 q100-20 220 8"/></g>
+ <!-- father fisherman -->
+ <g transform="translate(430 125)" filter="url(#shadow)">
+  <ellipse class="face" cx="95" cy="92" rx="58" ry="67" fill="#d9996e"/><path d="M43 77 Q53 18 104 23 Q155 20 161 76 Q132 51 92 52 Q65 53 43 77" fill="#212936"/>
+  <path d="M47 56 Q96 10 153 46 L146 21 Q90 -4 47 34Z" fill="#263848"/><ellipse cx="76" cy="91" rx="6" ry="7"/><ellipse cx="118" cy="91" rx="6" ry="7"/>
+  <path d="M76 120 Q96 136 119 118" class="line" stroke-width="3"/><path d="M58 116 Q96 157 137 112" fill="#4b2a20" opacity=".75"/>
+  <path d="M46 154 Q92 137 146 158 L175 300 H15Z" fill="#f28d2d" stroke="#23313a" stroke-width="4"/><path d="M61 157 V290 M127 157 V290" stroke="#17242d" stroke-width="10"/>
+  <path d="M18 194 Q-12 220 -18 270" class="line"/><path d="M170 188 Q204 212 205 260" class="line"/>
+  <path d="M165 254 q44 4 61 28" stroke="#d9996e" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <circle cx="232" cy="288" r="18" fill="#d9996e"/>
+ </g>
+ <!-- daughter -->
+ <g transform="translate(265 175)" filter="url(#shadow)">
+  <ellipse class="face" cx="72" cy="73" rx="48" ry="54" fill="#f0b18e"/><path d="M25 70 Q20 18 73 16 Q125 18 121 72 Q97 47 73 45 Q50 46 25 70" fill="#4a2a23"/>
+  <ellipse cx="55" cy="76" rx="6" ry="8"/><ellipse cx="89" cy="76" rx="6" ry="8"/><path d="M55 99 Q72 111 91 98" class="line" stroke-width="3"/>
+  <path d="M30 126 Q71 112 112 128 L127 265 H10Z" fill="#f06e75" stroke="#26343d" stroke-width="3"/>
+  <path d="M28 159 q-44 31 -61 84" stroke="#f0b18e" stroke-width="19" fill="none" stroke-linecap="round"/>
+ </g>
+ <!-- reusable gear in hands -->
+ <path d="M195 165 Q255 132 339 156 L382 398 Q301 440 205 403Z" fill="#287f6b" stroke="#173f37" stroke-width="6" opacity=".95"/>
+ <g stroke="#c6f2df" stroke-width="3" opacity=".8"><path d="M205 180 l160 200M235 160 l145 184M198 230 l145 174M360 168 L220 398M330 155 L205 365M380 225 L245 420"/></g>
+ <rect class="box" x="18" y="20" width="350" height="135" rx="8"/>
+ <text x="38" y="58" class="ko">지속 가능한 바다를 위해</text><text x="38" y="92" class="ko">친환경 어구를 선택해요!</text>
+ <text x="38" y="121" class="zh">为了可持续的海洋，选择环保渔具！</text><text x="38" y="148" class="en">Choose reusable gear for a sustainable ocean.</text>
+ <path class="bubble" d="M405 32 h317 q20 0 20 20 v122 q0 20-20 20H570 l-34 43 6-43H405q-20 0-20-20V52q0-20 20-20Z"/>
+ <text x="420" y="72" class="ko">이 그물은 다시 쓸 수 있어요!</text><text x="420" y="108" class="zh">这种渔网可以重复使用！</text><text x="420" y="142" class="en">We can use this net again!</text>
+ <text x="419" y="468" class="sfx" fill="#18a35b">GOOD CHOICE!</text>
+</g>
+
+<!-- PANEL 2: turtle in ghost net -->
+<g transform="translate(768 0)">
+ <rect class="panel" x="4" y="4" width="764" height="500" rx="4" fill="url(#deep)"/>
+ <g opacity=".55" fill="#77d6e9"><circle cx="90" cy="90" r="7"/><circle cx="120" cy="145" r="5"/><circle cx="610" cy="100" r="9"/><circle cx="665" cy="240" r="6"/><circle cx="450" cy="330" r="5"/></g>
+ <path d="M10 410 Q180 350 320 410 T760 400 V500 H10Z" fill="#694d3d"/>
+ <!-- trash -->
+ <g transform="rotate(18 180 330)"><rect x="135" y="292" width="95" height="35" rx="13" fill="#d5e3ee" opacity=".85" stroke="#789" stroke-width="3"/><rect x="215" y="303" width="22" height="14" fill="#5a8aa5"/></g>
+ <path d="M640 310 q30-35 55 0 q-16 18-4 49 q-28 11-55-7Z" fill="#e8e8e8" opacity=".75"/>
+ <!-- turtle -->
+ <g transform="translate(250 180)" filter="url(#shadow)">
+  <ellipse cx="165" cy="125" rx="120" ry="86" fill="#6f8d55" stroke="#263d2c" stroke-width="7"/><path d="M83 86 Q167 25 247 85 M74 128 Q165 76 256 128 M89 166 Q165 122 241 166" stroke="#c4b66d" stroke-width="5" fill="none"/>
+  <ellipse class="face" cx="292" cy="115" rx="62" ry="52" fill="#8fa770"/><circle cx="311" cy="104" r="10" fill="#111"/><circle cx="315" cy="100" r="3" fill="#fff"/><path d="M318 132 q22 5 28 18" class="line" stroke-width="3"/>
+  <path d="M75 114 Q5 84 8 39 Q60 48 98 80Z" fill="#7d9861" stroke="#263d2c" stroke-width="6"/><path d="M212 66 Q266 10 312 32 Q269 76 232 96Z" fill="#7d9861" stroke="#263d2c" stroke-width="6"/><path d="M210 182 Q260 231 301 207 Q258 174 227 151Z" fill="#7d9861" stroke="#263d2c" stroke-width="6"/>
+  <!-- ghost net crossing body -->
+  <g stroke="#203742" stroke-width="9" fill="none" opacity=".95"><path d="M18 35 Q150 90 355 40"/><path d="M15 92 Q170 142 360 103"/><path d="M25 148 Q190 189 349 160"/><path d="M84 15 Q113 110 111 211"/><path d="M164 10 Q183 105 180 218"/><path d="M244 11 Q258 96 249 205"/></g>
+ </g>
+ <rect class="box" x="20" y="20" width="430" height="110" rx="8"/><text x="38" y="57" class="ko">버려진 폐그물과 쓰레기가</text><text x="38" y="91" class="ko">바다 생명에게 큰 피해를 줘요.</text><text x="38" y="120" class="en">Ghost nets and trash can kill marine life.</text>
+ <path class="bubble" d="M480 54 h238 q18 0 18 18 v100 q0 18-18 18H610 l-26 34 3-34H480q-18 0-18-18V72q0-18 18-18Z"/><text x="498" y="92" class="ko">도와주세요!</text><text x="498" y="124" class="zh">救救我！</text><text x="498" y="156" class="en">HELP!</text>
+ <text x="420" y="463" class="sfx" fill="#e6342d">STOP OCEAN TRASH!</text>
+</g>
+
+<!-- PANEL 3: community cleanup -->
+<g transform="translate(0 512)">
+ <rect class="panel" x="4" y="4" width="760" height="508" rx="4" fill="url(#sky)"/>
+ <path d="M4 285 Q180 230 370 290 T760 270 V508 H4Z" fill="url(#sea)"/>
+ <path d="M4 355 Q220 310 430 360 T760 340 V508 H4Z" fill="#d6c29d"/>
+ <g transform="translate(160 138)"><circle class="face" cx="70" cy="62" r="42" fill="#e7a77d"/><path d="M28 57 q20-65 87-15 l-4 27 q-42-25-80 4Z" fill="#21384d"/><path d="M38 112 q70-30 104 18 l22 160H15Z" fill="#f08b2d" stroke="#253746" stroke-width="4"/><path d="M47 132 v155 M111 126 v163" stroke="#23323c" stroke-width="9"/><path d="M40 165 Q-5 220 -18 276" stroke="#e7a77d" stroke-width="20" fill="none" stroke-linecap="round"/></g>
+ <g transform="translate(325 160)"><circle class="face" cx="60" cy="52" r="38" fill="#efb18c"/><path d="M22 48 q17-51 77-13 l-4 25 q-32-22-69 4Z" fill="#44261f"/><path d="M25 103 q55-24 92 12 l18 145H8Z" fill="#f16c74" stroke="#26333c" stroke-width="4"/><path d="M112 128 q40 45 54 112" stroke="#efb18c" stroke-width="17" fill="none" stroke-linecap="round"/></g>
+ <g transform="translate(500 125)"><circle class="face" cx="67" cy="65" r="44" fill="#c98d65"/><path d="M25 62 q10-60 89-22 l-2 33 q-40-26-83 2Z" fill="#35312c"/><path d="M30 116 q62-28 103 12 l25 167H8Z" fill="#345c4c" stroke="#25363d" stroke-width="4"/></g>
+ <!-- net being pulled -->
+ <path d="M80 410 Q250 355 410 395 T700 375" stroke="#213943" stroke-width="16" fill="none"/>
+ <g stroke="#36525b" stroke-width="4"><path d="M100 385 l160 80M175 370 l170 84M260 362 l170 76M350 360 l170 74M450 350 l160 70"/><path d="M130 454 l100-90M230 470 l105-105M340 458 l110-103M445 445 l110-100M555 430 l105-90"/></g>
+ <rect class="box" x="18" y="18" width="430" height="112" rx="8"/><text x="38" y="56" class="ko">우리가 함께 폐그물을 수거하고</text><text x="38" y="91" class="ko">깨끗한 해안을 되찾아요.</text><text x="38" y="120" class="en">Together, we restore the coast.</text>
+ <path class="bubble" d="M475 38 h240 q18 0 18 18 v95 q0 18-18 18H590 l-30 35 4-35H475q-18 0-18-18V56q0-18 18-18Z"/><text x="494" y="78" class="ko">함께하면 할 수 있어요!</text><text x="494" y="112" class="zh">一起就能做到！</text><text x="494" y="145" class="en">Together we can do it!</text>
+ <text x="45" y="485" class="sfx" fill="#1986d4">PULL! CLEAN! RESTORE!</text>
+</g>
+
+<!-- PANEL 4: restored bay -->
+<g transform="translate(768 512)">
+ <rect class="panel" x="4" y="4" width="764" height="508" rx="4" fill="url(#sunset)"/>
+ <circle cx="615" cy="110" r="55" fill="#fff6c7" opacity=".9" filter="url(#glow)"/>
+ <path d="M4 248 Q180 185 350 235 Q530 150 764 230 V508 H4Z" fill="#2e7556"/>
+ <path d="M4 285 Q170 250 320 285 T764 270 V508 H4Z" fill="url(#sea)"/>
+ <g stroke="#e3fbff" stroke-width="5" fill="none" opacity=".8"><path d="M20 315 Q150 285 270 315 T520 310 T750 305"/><path d="M65 365 Q220 330 370 365 T700 350"/></g>
+ <!-- fish schools -->
+ <g fill="#ffd45f" stroke="#234" stroke-width="2"><path d="M180 365 q35-28 70 0 q-35 28-70 0m70 0 28-18v36Z"/><path d="M320 405 q32-24 63 0 q-31 24-63 0m63 0 25-16v32Z"/><path d="M460 340 q28-20 57 0 q-29 22-57 0m57 0 22-14v28Z"/></g>
+ <!-- healthy turtle -->
+ <g transform="translate(235 290)"><ellipse cx="95" cy="72" rx="70" ry="48" fill="#729a57" stroke="#294230" stroke-width="5"/><ellipse cx="172" cy="70" rx="35" ry="27" fill="#91ad72" stroke="#294230" stroke-width="4"/><circle cx="184" cy="64" r="5"/><path d="M37 61 Q0 32 -13 59 Q12 80 43 81Z" fill="#789d5f"/><path d="M110 30 q35-42 58-8 q-25 28-49 36Z" fill="#789d5f"/><path d="M109 111 q35 37 60 5 q-27-27-49-34Z" fill="#789d5f"/></g>
+ <!-- seabirds -->
+ <g class="line" stroke-width="4"><path d="M90 110 q22-20 44 0 q22-20 44 0"/><path d="M520 72 q18-17 36 0 q18-17 36 0"/></g>
+ <!-- family viewing -->
+ <g transform="translate(555 260)"><circle class="face" cx="52" cy="45" r="34" fill="#e7a77d"/><path d="M20 42 q10-42 65-18 l-2 25 q-28-20-59 4Z" fill="#23323b"/><path d="M24 88 q46-20 76 11 l17 120H8Z" fill="#f18b2c" stroke="#253642" stroke-width="3"/></g>
+ <g transform="translate(648 285)"><circle class="face" cx="42" cy="36" r="30" fill="#efb18c"/><path d="M13 34 q7-35 55-17 l-2 22 q-24-18-49 2Z" fill="#4b2921"/><path d="M17 76 q38-17 63 9 l14 95H5Z" fill="#ef6f78" stroke="#253642" stroke-width="3"/></g>
+ <rect class="box" x="18" y="18" width="450" height="128" rx="8"/><text x="38" y="56" class="ko">깨끗해진 바다에는 생명이 돌아옵니다.</text><text x="38" y="91" class="ko">지금의 작은 실천이 더 푸른 미래를 만들어요.</text><text x="38" y="120" class="zh">现在的小行动，创造更蓝的海洋未来。</text><text x="38" y="145" class="en">Small actions today create a bluer tomorrow.</text>
+ <path class="bubble" d="M475 160 h250 q18 0 18 18 v95 q0 18-18 18H615 l-30 34 4-34H475q-18 0-18-18v-95q0-18 18-18Z"/><text x="493" y="198" class="ko">와! 바다가 다시 살아났어요!</text><text x="493" y="232" class="zh">哇！大海恢复生机了！</text><text x="493" y="265" class="en">The ocean is alive again!</text>
+ <text x="32" y="482" class="sfx" fill="#16a66b">HEALTHY OCEAN! BRIGHTER TOMORROW!</text>
+</g>
+
+<rect x="0" y="990" width="1536" height="34" fill="#101820"/><text x="24" y="1015" font-family="sans-serif" font-size="21" font-weight="700" fill="#fff">FTF-01 #53  |  FOR THE FUTURE  |  바다를 지키는 선택 · 保护海洋 · Protect Our Ocean</text>
+</svg>
