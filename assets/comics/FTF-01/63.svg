@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-labelledby="t d">
+<title id="t">FTF-01 #63 — 바다를 함께 지키는 눈</title>
+<desc id="d">Four-panel cinematic manga-style continuation of FTF-01. After reef-safe moorings are installed, researchers, local fishers and young volunteers establish a shared monitoring watch, underwater sensors detect a heat spike, rangers respond to protect a vulnerable nursery reef, and the community confirms coral recovery with returning turtles and fish. Korean Chinese English narration, speech bubbles, visual sound effects, illustrated people, boats, reef, sensors and wildlife.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#55c5ee"/><stop offset=".58" stop-color="#dff8ff"/><stop offset="1" stop-color="#ffd68e"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#19bde1"/><stop offset=".48" stop-color="#087ea5"/><stop offset="1" stop-color="#06394f"/></linearGradient>
+ <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b9ac0"/><stop offset=".55" stop-color="#07546f"/><stop offset="1" stop-color="#02283a"/></linearGradient>
+ <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7a85a"/><stop offset=".52" stop-color="#ffd695"/><stop offset="1" stop-color="#5488a1"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".35"/></filter>
+ <style>.panel{stroke:#071722;stroke-width:10}.box{fill:#fffdf5;stroke:#112734;stroke-width:4}.bubble{fill:#fff;stroke:#112734;stroke-width:4}.ko{font:700 22px 'Noto Sans KR','Malgun Gothic',Arial,sans-serif;fill:#111a20}.zh{font:600 18px 'Noto Sans SC','Microsoft YaHei',Arial,sans-serif;fill:#17445a}.en{font:600 17px Arial,sans-serif;fill:#132935}.sfx{font:900 42px Impact,Arial,sans-serif;paint-order:stroke;stroke:#fff;stroke-width:9;stroke-linejoin:round}.skin{fill:#e6aa82;stroke:#6d4332;stroke-width:2}.hair{fill:#17232d}.navy{fill:#113f5c;stroke:#06293b;stroke-width:4}.reef1{fill:#ef7664;stroke:#782f31;stroke-width:3}.reef2{fill:#f0c84f;stroke:#76601f;stroke-width:3}.reef3{fill:#9b7ce5;stroke:#4c3b78;stroke-width:3}.reef4{fill:#59c69a;stroke:#256c52;stroke-width:3}</style>
+</defs>
+<!-- PANEL 1: COMMUNITY WATCH -->
+<g>
+ <rect class="panel" x="4" y="4" width="760" height="500" fill="url(#sky)"/>
+ <path d="M4 332Q160 292 320 340T760 314V500H4Z" fill="#0b8cad"/><path d="M4 390Q175 350 350 392T760 368V500H4Z" fill="#076987" opacity=".86"/>
+ <path d="M530 260q44-63 88-48q36 12 60 53q35-40 78-5v61H530Z" fill="#4f9667"/>
+ <g transform="translate(35 215)" filter="url(#shadow)"><ellipse class="skin" cx="56" cy="48" rx="38" ry="42"/><path class="hair" d="M17 46Q20 4 57 3q42 4 43 49q-23-15-43-12q-20 2-40 6"/><path d="M7 101q50-23 101 6l18 127H-4Z" fill="#d95d79" stroke="#17313b" stroke-width="4"/><path d="M95 124q83 3 154 52" stroke="#e6aa82" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <g transform="translate(230 219)" filter="url(#shadow)"><ellipse class="skin" cx="56" cy="47" rx="37" ry="41"/><path class="hair" d="M18 45Q22 6 56 4q38 2 41 44q-22-13-42-10q-19 1-37 7"/><path class="navy" d="M7 98q48-22 98 5l17 130H-3Z"/><path d="M28 16h58l17 17H15Z" fill="#173e56"/><text x="19" y="151" font-size="16" font-weight="900" fill="#e2f8ff">REEF WATCH</text></g>
+ <g transform="translate(392 224)" filter="url(#shadow)"><ellipse class="skin" cx="54" cy="47" rx="36" ry="40"/><path class="hair" d="M17 43Q19 4 55 4q39 3 40 43q-20-12-39-10q-19 2-39 6"/><path d="M6 96q47-20 95 5l16 129H-3Z" fill="#df8d3b" stroke="#6c431e" stroke-width="4"/><path d="M19 18h72l12 17H8Z" fill="#e6c763" stroke="#604c24" stroke-width="3"/></g>
+ <g transform="translate(520 292)" filter="url(#shadow)"><rect x="0" y="0" width="210" height="132" rx="8" fill="#edf8e8" stroke="#173846" stroke-width="5"/><path d="M19 84q43-48 90-16q40-35 85-2" fill="none" stroke="#4a9d6a" stroke-width="11"/><circle cx="56" cy="52" r="8" fill="#ef4343"/><circle cx="126" cy="70" r="8" fill="#f3c133"/><circle cx="172" cy="47" r="8" fill="#3a9be2"/><text x="39" y="29" font-size="20" font-weight="900" fill="#17455a">COMMUNITY WATCH</text></g>
+ <rect class="box" x="18" y="18" width="492" height="136" rx="8"/><text x="38" y="50" class="ko">계류부표를 설치한 뒤, 지역 주민과 연구팀이 감시조를 만듭니다.</text><text x="38" y="82" class="ko">매일 같은 산호를 기록해 작은 변화도 놓치지 않습니다.</text><text x="38" y="112" class="zh">居民与研究团队共同建立珊瑚礁监测队，每天记录变化。</text><text x="38" y="142" class="en">Fishers, researchers and volunteers build a shared reef watch.</text>
+ <path class="bubble" d="M522 38h220q14 0 14 15v112q0 15-14 15H627l-27 30 6-30h-84q-14 0-14-15V53q0-15 14-15Z"/><text x="540" y="76" class="ko">우리 바다는 우리가 먼저 지켜요!</text><text x="540" y="110" class="zh">我们的海，我们一起守护！</text><text x="540" y="144" class="en">We watch our ocean together!</text>
+ <text x="28" y="468" class="sfx" fill="#ffd83e">WATCH! RECORD! PROTECT!</text>
+</g>
+<!-- PANEL 2: SENSOR ALERT -->
+<g transform="translate(768 0)">
+ <rect class="panel" x="4" y="4" width="764" height="500" fill="url(#deep)"/>
+ <g opacity=".25" stroke="#eaffff" stroke-width="5"><path d="M100 0L30 250M280 0L170 270M520 0L370 300M730 0L590 290"/></g>
+ <path d="M4 390Q150 342 320 390T760 365V500H4Z" fill="#7b6b55"/>
+ <g transform="translate(70 195)" filter="url(#shadow)"><ellipse class="skin" cx="56" cy="48" rx="36" ry="40"/><rect x="18" y="40" width="77" height="30" rx="13" fill="#c9f6ff" stroke="#153a4a" stroke-width="4"/><path class="navy" d="M7 94q47-21 94 6l17 125H-3Z"/><path d="M97 127q74 7 137 41" stroke="#e6aa82" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <g transform="translate(330 195)" filter="url(#shadow)"><ellipse class="skin" cx="56" cy="48" rx="36" ry="40"/><rect x="18" y="40" width="77" height="30" rx="13" fill="#c9f6ff" stroke="#153a4a" stroke-width="4"/><path d="M7 94q47-21 94 6l17 125H-3Z" fill="#d65e79" stroke="#17313b" stroke-width="4"/></g>
+ <g transform="translate(545 214)" filter="url(#shadow)"><rect x="0" y="0" width="126" height="170" rx="12" fill="#d9edf0" stroke="#173c48" stroke-width="6"/><circle cx="63" cy="46" r="22" fill="#65c8df" stroke="#173c48" stroke-width="5"/><path d="M63 68v48M32 132h62" stroke="#173c48" stroke-width="7"/><text x="18" y="156" font-size="17" font-weight="900" fill="#17445b">TEMP SENSOR</text><path d="M63 0V-85" stroke="#f2cb40" stroke-width="7"/><circle cx="63" cy="-96" r="18" fill="#f2cb40" stroke="#6d5914" stroke-width="5"/></g>
+ <g transform="translate(480 370)"><path class="reef1" d="M20 106q-9-45 20-69q-3 37 17 30q7-44 32-57q-6 48 11 50q17-35 36-40q-10 47 2 83Z"/><path class="reef2" d="M128 108q-8-44 22-68q0 37 19 29q7-42 29-55q-4 45 12 47q17-32 36-37q-10 43-1 78Z"/></g>
+ <rect class="box" x="18" y="18" width="488" height="138" rx="8"/><text x="38" y="50" class="ko">수중 센서가 갑작스러운 수온 상승을 감지합니다.</text><text x="38" y="82" class="ko">눈으로 보이기 전에 데이터가 먼저 위험을 알려줍니다.</text><text x="38" y="112" class="zh">水下传感器发现海温突然升高，数据提前发出警报。</text><text x="38" y="142" class="en">Underwater sensors detect a heat spike before damage is visible.</text>
+ <path class="bubble" d="M518 42h224q14 0 14 15v108q0 15-14 15H630l-27 28 5-28h-90q-14 0-14-15V57q0-15 14-15Z"/><text x="536" y="80" class="ko">경보! 보육 산호 구역부터 확인해요!</text><text x="536" y="114" class="zh">警报！先检查珊瑚育苗区！</text><text x="536" y="148" class="en">ALERT! Check the nursery reef first!</text>
+ <text x="370" y="468" class="sfx" fill="#ff5648">BEEP! HEAT ALERT!</text>
+</g>
+<!-- PANEL 3: RAPID RESPONSE -->
+<g transform="translate(0 512)">
+ <rect class="panel" x="4" y="4" width="760" height="508" fill="url(#sea)"/>
+ <path d="M4 362Q150 326 310 370T760 346V508H4Z" fill="#7f6e59"/>
+ <g transform="translate(28 204)" filter="url(#shadow)"><path d="M0 76h272l-33 76H30Z" fill="#f7f6ef" stroke="#173744" stroke-width="5"/><path d="M66 18h106v60H66Z" fill="#d9eff4" stroke="#173744" stroke-width="4"/><path d="M118 18V-38M118-38l58 26" stroke="#173744" stroke-width="5"/><rect x="31" y="98" width="163" height="14" fill="#2ca7c9"/><text x="76" y="130" font-size="19" font-weight="900" fill="#123c53">REEF RESPONSE</text></g>
+ <g transform="translate(340 220)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="47" rx="36" ry="40"/><path class="hair" d="M17 43Q20 5 55 4q38 2 40 43q-21-12-39-10q-19 1-39 6"/><path class="navy" d="M6 95q47-21 95 5l16 126H-3Z"/><path d="M26 16h57l18 17H13Z" fill="#173e56"/><path d="M98 127q78 11 145 58" stroke="#e6aa82" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <g transform="translate(580 272)" filter="url(#shadow)"><path d="M0 0h112v90H0Z" fill="#f0f3f1" stroke="#1a3a46" stroke-width="5"/><path d="M15 68q32-45 78-20" fill="none" stroke="#47a96d" stroke-width="10"/><text x="22" y="28" font-size="19" font-weight="900" fill="#17445b">NURSERY</text></g>
+ <g transform="translate(500 380)"><path class="reef3" d="M20 103q-8-43 18-66q0 34 18 28q7-40 29-52q-5 42 12 44q15-30 34-34q-8 40-1 73Z"/><path class="reef4" d="M122 106q-7-41 20-63q0 34 18 27q7-39 28-50q-4 41 11 43q15-29 33-34q-8 39-1 71Z"/></g>
+ <rect class="box" x="18" y="18" width="500" height="138" rx="8"/><text x="38" y="50" class="ko">연구팀과 순찰대가 즉시 보육 산호 구역으로 이동합니다.</text><text x="38" y="82" class="ko">차광막과 추가 온도계를 설치하고 선박 접근도 줄입니다.</text><text x="38" y="112" class="zh">研究员和巡护队立即赶到育苗礁，设置遮阳与额外温度计。</text><text x="38" y="142" class="en">The response team shields the nursery reef and limits disturbance.</text>
+ <path class="bubble" d="M528 38h212q14 0 14 15v111q0 15-14 15H629l-27 29 6-29h-80q-14 0-14-15V53q0-15 14-15Z"/><text x="545" y="77" class="ko">빠르게, 하지만 산호는 건드리지 마세요!</text><text x="545" y="111" class="zh">快一点，但不要碰珊瑚！</text><text x="545" y="145" class="en">Move fast—don't touch the coral!</text>
+ <text x="28" y="474" class="sfx" fill="#ffd83e">GO! CHECK! GUARD!</text>
+</g>
+<!-- PANEL 4: RECOVERY CONFIRMED -->
+<g transform="translate(768 512)">
+ <rect class="panel" x="4" y="4" width="764" height="508" fill="url(#sunset)"/>
+ <path d="M4 250Q130 210 270 252T760 230V508H4Z" fill="#0788aa"/><path d="M4 336Q145 294 315 342T760 315V508H4Z" fill="#075f7d" opacity=".88"/>
+ <circle cx="650" cy="93" r="52" fill="#fff2b1" opacity=".92"/>
+ <g transform="translate(40 255)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="47" rx="36" ry="40"/><path class="hair" d="M17 43Q19 4 55 4q39 3 40 43q-20-12-39-10q-19 2-39 6"/><path d="M6 95q47-21 95 5l16 127H-3Z" fill="#d65e79" stroke="#17313b" stroke-width="4"/></g>
+ <g transform="translate(190 255)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="47" rx="36" ry="40"/><path class="hair" d="M17 43Q20 5 55 4q38 2 40 43q-21-12-39-10q-19 1-39 6"/><path class="navy" d="M6 95q47-21 95 5l16 127H-3Z"/></g>
+ <g transform="translate(350 260)" filter="url(#shadow)"><ellipse class="skin" cx="54" cy="47" rx="36" ry="40"/><path class="hair" d="M17 43Q19 4 55 4q39 3 40 43q-20-12-39-10q-19 2-39 6"/><path d="M6 95q47-21 95 5l16 127H-3Z" fill="#df8d3b" stroke="#6c431e" stroke-width="4"/></g>
+ <!-- underwater window vignette -->
+ <g transform="translate(470 235)" filter="url(#shadow)"><rect x="0" y="0" width="260" height="206" rx="18" fill="#086a87" stroke="#d9f8ff" stroke-width="6"/><path d="M0 137q64-39 121-7q61-36 139-5v81H0Z" fill="#6f6a54"/><path class="reef1" d="M22 178q-7-34 15-52q-1 27 14 22q5-31 24-40q-4 33 9 35q12-24 27-28q-6 31 0 59Z"/><path class="reef2" d="M102 183q-5-31 15-48q0 26 14 21q5-29 21-38q-3 31 9 32q11-22 24-25q-5 29 0 54Z"/><ellipse cx="172" cy="83" rx="44" ry="25" fill="#8dbf9c" stroke="#234e43" stroke-width="4"/><circle cx="203" cy="78" r="13" fill="#8dbf9c" stroke="#234e43" stroke-width="4"/><path d="M149 78q-24-24-35-9q12 16 34 19M185 95q17 24 29 7q-7-14-26-19" fill="#8dbf9c" stroke="#234e43" stroke-width="4"/><g fill="#f2c348" stroke="#6d5914" stroke-width="2"><ellipse cx="66" cy="75" rx="17" ry="9"/><ellipse cx="93" cy="101" rx="14" ry="8"/><ellipse cx="224" cy="118" rx="15" ry="8"/></g></g>
+ <rect class="box" x="18" y="18" width="488" height="138" rx="8"/><text x="38" y="50" class="ko">며칠 뒤 수온이 안정되고, 어린 산호의 색이 돌아옵니다.</text><text x="38" y="82" class="ko">기록과 협력이 산호초를 지키는 가장 빠른 경보가 됩니다.</text><text x="38" y="112" class="zh">几天后海温恢复稳定，幼珊瑚重新显色，鱼和海龟也回来了。</text><text x="38" y="142" class="en">Days later, the reef stabilizes—and life returns.</text>
+ <path class="bubble" d="M520 39h221q14 0 14 15v112q0 15-14 15H629l-27 29 6-29h-88q-14 0-14-15V54q0-15 14-15Z"/><text x="538" y="77" class="ko">기록했어요! 산호가 회복되고 있어요!</text><text x="538" y="111" class="zh">记录到了！珊瑚正在恢复！</text><text x="538" y="145" class="en">We recorded it—the reef is recovering!</text>
+ <text x="27" y="477" class="sfx" fill="#ffe64d">LIFE RETURNS! TOGETHER!</text>
+</g>
+</svg>
