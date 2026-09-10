@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-labelledby="t d">
+<title id="t">FTF-01 #62 — 보호구역을 지키는 약속</title>
+<desc id="d">Four-panel cinematic manga-style continuation of FTF-01. After the Marine Protected Area is established, local fishers and marine rangers agree on reef-safe routes, a patrol prevents illegal anchoring on coral, divers install a reef-safe mooring, and juvenile fish return to a protected nursery reef. Illustrated people and environments, Korean Chinese English narration and speech, and visual sound effects.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#4dbbe8"/><stop offset=".55" stop-color="#d9f7ff"/><stop offset="1" stop-color="#ffd991"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#16b8dc"/><stop offset=".45" stop-color="#08799f"/><stop offset="1" stop-color="#06364c"/></linearGradient>
+ <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1496bb"/><stop offset=".52" stop-color="#075a7c"/><stop offset="1" stop-color="#02293c"/></linearGradient>
+ <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffbb66"/><stop offset=".48" stop-color="#ffda91"/><stop offset="1" stop-color="#5e8ea7"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".38"/></filter>
+ <style>.panel{stroke:#071722;stroke-width:10}.box{fill:#fffdf4;stroke:#10232f;stroke-width:4}.bubble{fill:#fff;stroke:#10232f;stroke-width:4}.ko{font:700 23px 'Noto Sans KR','Malgun Gothic',Arial,sans-serif;fill:#111a20}.zh{font:600 18px 'Noto Sans SC','Microsoft YaHei',Arial,sans-serif;fill:#15435c}.en{font:600 17px Arial,sans-serif;fill:#132935}.sfx{font:900 44px Impact,Arial,sans-serif;paint-order:stroke;stroke:#fff;stroke-width:9;stroke-linejoin:round}.skin{fill:#e7aa83;stroke:#683f32;stroke-width:2}.hair{fill:#17232c}.suit{fill:#103e5b;stroke:#062638;stroke-width:4}.reefA{fill:#ef7662;stroke:#762e30;stroke-width:3}.reefB{fill:#f1c44f;stroke:#74591f;stroke-width:3}.reefC{fill:#9d79e2;stroke:#4b3971;stroke-width:3}.reefD{fill:#57c095;stroke:#24684e;stroke-width:3}</style>
+</defs>
+<!-- PANEL 1: COMMUNITY AGREEMENT -->
+<g>
+ <rect class="panel" x="4" y="4" width="760" height="500" fill="url(#sky)"/>
+ <path d="M4 334Q145 295 315 337T760 318V500H4Z" fill="#0a84a9"/><path d="M4 388Q165 350 336 392T760 369V500H4Z" fill="#075d7e" opacity=".78"/>
+ <path d="M505 285q45-65 96-50q42 11 70 55q35-43 78-8v45H505Z" fill="#4e9466"/>
+ <!-- harbor pier --> <path d="M0 410h760v94H0Z" fill="#c79b6a"/><path d="M0 431h760M95 410v94M210 410v94M325 410v94M440 410v94M555 410v94M670 410v94" stroke="#785535" stroke-width="6"/>
+ <!-- fisher -->
+ <g transform="translate(60 220)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="48" rx="38" ry="42"/><path class="hair" d="M17 45Q22 4 57 4q38 4 40 45q-24-15-42-12q-19 2-38 8"/><path d="M7 98q48-22 98 5l18 128H-3Z" fill="#d88639" stroke="#6e431e" stroke-width="4"/><path d="M20 17h72l13 18H8Z" fill="#e5c45d" stroke="#604b22" stroke-width="3"/><path d="M97 130q74 8 132 43" stroke="#e7aa83" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <!-- female scientist -->
+ <g transform="translate(238 214)" filter="url(#shadow)"><ellipse class="skin" cx="57" cy="49" rx="38" ry="43"/><path class="hair" d="M17 48Q18 4 57 2q44 4 44 51q-26-18-45-14q-21 1-39 9"/><path d="M7 102q50-24 101 5l18 128H-4Z" fill="#d9607c" stroke="#17313b" stroke-width="4"/><path d="M7 141q-55 18-98 46" stroke="#e7aa83" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <!-- ranger -->
+ <g transform="translate(400 214)" filter="url(#shadow)"><ellipse class="skin" cx="56" cy="48" rx="37" ry="42"/><path class="hair" d="M18 45Q23 5 56 3q38 1 41 46q-21-13-42-11q-20 2-37 7"/><path class="suit" d="M8 99q49-22 99 5l18 132H-4Z"/><path d="M29 18h57l17 17H16Z" fill="#173e56"/><text x="21" y="151" fill="#d9f4ff" font-size="16" font-weight="800">MPA RANGER</text></g>
+ <!-- map board -->
+ <g transform="translate(515 298)" filter="url(#shadow)"><rect x="0" y="0" width="220" height="135" rx="8" fill="#edf6e5" stroke="#173846" stroke-width="5"/><path d="M20 82q46-53 93-17q40-37 90-4" fill="none" stroke="#4e9f6e" stroke-width="12"/><path d="M30 34q79 45 161 7" fill="none" stroke="#e54848" stroke-width="5" stroke-dasharray="10 7"/><text x="48" y="28" font-size="20" font-weight="900" fill="#17445b">SAFE ROUTE</text></g>
+ <rect class="box" x="18" y="18" width="498" height="138" rx="8"/><text x="38" y="50" class="ko">보호구역은 선만 긋는다고 지켜지지 않습니다.</text><text x="38" y="82" class="ko">연구팀과 지역 어민이 ‘산호를 피하는 항로’를 함께 정합니다.</text><text x="38" y="112" class="zh">研究团队与当地渔民一起制定避开珊瑚的安全航线。</text><text x="38" y="142" class="en">Researchers and local fishers agree on reef-safe routes.</text>
+ <path class="bubble" d="M523 42h214q16 0 16 16v105q0 16-16 16H629l-25 30 5-30h-86q-16 0-16-16V58q0-16 16-16Z"/><text x="540" y="80" class="ko">우리도 이 바다를 오래 지켜야죠!</text><text x="540" y="114" class="zh">这片海，我们也要一起守护！</text><text x="540" y="147" class="en">We'll protect this sea together!</text>
+ <text x="28" y="468" class="sfx" fill="#ffd83e">AGREE! SHARE! PROTECT!</text>
+</g>
+<!-- PANEL 2: STOP ILLEGAL ANCHOR -->
+<g transform="translate(768 0)">
+ <rect class="panel" x="4" y="4" width="764" height="500" fill="url(#sea)"/>
+ <path d="M4 363Q132 328 300 365T760 342V500H4Z" fill="#7f6b55"/>
+ <!-- patrol boat -->
+ <g transform="translate(46 198)" filter="url(#shadow)"><path d="M0 75h260l-32 74H29Z" fill="#f6f6ef" stroke="#173744" stroke-width="5"/><path d="M65 18h103v59H65Z" fill="#d9eff4" stroke="#173744" stroke-width="4"/><path d="M116 17V-40M116-40l55 26" stroke="#173744" stroke-width="5"/><rect x="30" y="96" width="155" height="14" fill="#2da5c8"/><text x="72" y="126" font-size="19" font-weight="900" fill="#123c53">MPA PATROL</text></g>
+ <!-- skipper -->
+ <g transform="translate(250 180)" filter="url(#shadow)"><ellipse class="skin" cx="50" cy="44" rx="34" ry="38"/><path class="hair" d="M15 42Q18 5 51 4q35 2 36 42q-21-13-37-11q-18 1-35 7"/><path class="suit" d="M4 91q45-20 92 6l15 109H-4Z"/><path d="M87 112q70-15 117-45" stroke="#e7aa83" stroke-width="14" fill="none" stroke-linecap="round"/></g>
+ <!-- yacht + falling anchor -->
+ <g transform="translate(510 120)" filter="url(#shadow)"><path d="M0 85h205l-24 55H20Z" fill="#fff4e3" stroke="#3c4b53" stroke-width="5"/><path d="M72 38h75l30 48H72Z" fill="#bde8f2" stroke="#3c4b53" stroke-width="4"/><path d="M164 138v126" stroke="#303a42" stroke-width="7"/><path d="M164 264q-29 22-42 57M164 264q28 23 41 57M129 299h70" stroke="#303a42" stroke-width="9" fill="none" stroke-linecap="round"/></g>
+ <!-- coral directly under anchor -->
+ <g transform="translate(480 370)"><path class="reefA" d="M20 105q-10-45 19-68q-2 37 17 30q8-45 33-57q-7 48 10 50q18-36 37-40q-10 48 2 83Z"/><path class="reefB" d="M125 108q-7-44 22-67q1 36 19 28q7-42 30-55q-5 45 12 47q16-32 35-36q-10 43-1 77Z"/></g>
+ <rect class="box" x="18" y="18" width="490" height="134" rx="8"/><text x="38" y="49" class="ko">순찰 중, 산호초 바로 위에서 닻을 내리려는 배를 발견합니다.</text><text x="38" y="81" class="ko">한 번의 투묘도 수십 년 자란 산호를 부술 수 있습니다.</text><text x="38" y="111" class="zh">巡逻队发现一艘船正准备在珊瑚礁上抛锚。</text><text x="38" y="141" class="en">A patrol stops a boat from dropping anchor onto living coral.</text>
+ <path class="bubble" d="M500 46h242q14 0 14 15v102q0 15-14 15H621l-27 29 6-29h-100q-14 0-14-15V61q0-15 14-15Z"/><text x="518" y="82" class="ko">정지! 여기는 투묘 금지 구역입니다!</text><text x="518" y="115" class="zh">停！这里禁止抛锚！</text><text x="518" y="148" class="en">STOP! No anchoring inside the MPA!</text>
+ <text x="356" y="465" class="sfx" fill="#ff4a40">STOP! ANCHOR!</text>
+</g>
+<!-- PANEL 3: REEF-SAFE MOORING -->
+<g transform="translate(0 512)">
+ <rect class="panel" x="4" y="4" width="760" height="508" fill="url(#deep)"/>
+ <g opacity=".24" stroke="#eaffff" stroke-width="5"><path d="M100 0L20 280M300 0L185 298M520 0L370 310M730 0L585 305"/></g>
+ <path d="M4 405Q140 354 305 393T760 368V508H4Z" fill="#826e58"/>
+ <!-- eco mooring -->
+ <g transform="translate(336 92)" filter="url(#shadow)"><ellipse cx="56" cy="44" rx="49" ry="58" fill="#f3ca32" stroke="#665114" stroke-width="6"/><text x="27" y="51" font-size="23" font-weight="900" fill="#173e50">MPA</text><path d="M56 101v178" stroke="#d6bf78" stroke-width="10"/><path d="M56 279q-22 33-45 48M56 279q20 34 45 48" stroke="#7d6e48" stroke-width="8"/><rect x="9" y="326" width="96" height="35" rx="12" fill="#777d83" stroke="#27333a" stroke-width="5"/></g>
+ <!-- divers -->
+ <g transform="translate(72 222)" filter="url(#shadow)"><ellipse class="skin" cx="56" cy="48" rx="36" ry="40"/><rect x="18" y="40" width="77" height="30" rx="13" fill="#c9f6ff" stroke="#153a4a" stroke-width="4"/><path d="M7 94q47-21 94 6l17 125H-3Z" fill="#d55f7d" stroke="#17313b" stroke-width="4"/><path d="M97 126q79 10 135 52" stroke="#e7aa83" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <g transform="translate(550 220)" filter="url(#shadow)"><ellipse class="skin" cx="56" cy="48" rx="36" ry="40"/><rect x="18" y="40" width="77" height="30" rx="13" fill="#c9f6ff" stroke="#153a4a" stroke-width="4"/><path class="suit" d="M7 94q47-21 94 6l17 125H-3Z"/><path d="M8 127q-72 5-121 44" stroke="#e7aa83" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <!-- reef -->
+ <g transform="translate(18 390)"><path class="reefC" d="M18 112q-11-42 16-69q1 38 18 30q8-44 31-56q-6 47 10 48q16-33 36-38q-10 44-2 79Z"/><path class="reefD" d="M595 111q-9-43 18-67q1 36 19 28q7-41 31-54q-6 44 11 46q15-31 34-36q-9 43-2 77Z"/></g>
+ <rect class="box" x="18" y="18" width="496" height="133" rx="8"/><text x="38" y="50" class="ko">대신 산호에서 떨어진 모래 바닥에 ‘리프 세이프 계류부표’를 설치합니다.</text><text x="38" y="82" class="ko">배는 이제 닻을 내리지 않고 안전하게 머물 수 있습니다.</text><text x="38" y="112" class="zh">潜水员在沙地安装环保系泊浮标，避免船锚伤害珊瑚。</text><text x="38" y="141" class="en">Divers install a reef-safe mooring away from living coral.</text>
+ <path class="bubble" d="M518 48h222q14 0 14 14v101q0 14-14 14H629l-28 30 6-30h-89q-14 0-14-14V62q0-14 14-14Z"/><text x="536" y="83" class="ko">고정 완료! 산호는 그대로 살아 있어요.</text><text x="536" y="116" class="zh">固定完成！珊瑚没有受到伤害。</text><text x="536" y="148" class="en">Locked in—coral stays untouched!</text>
+ <text x="331" y="472" class="sfx" fill="#3ee2ff">CLICK! SAFE! MOOR!</text>
+</g>
+<!-- PANEL 4: NURSERY REEF RETURNS -->
+<g transform="translate(768 512)">
+ <rect class="panel" x="4" y="4" width="764" height="508" fill="url(#deep)"/>
+ <g opacity=".22" stroke="#eaffff" stroke-width="5"><path d="M110 0L25 300M310 0L188 315M525 0L380 322M735 0L590 315"/></g>
+ <path d="M4 400Q140 348 305 390T760 362V508H4Z" fill="#7c6954"/>
+ <!-- lush reef -->
+ <g transform="translate(15 330)"><path class="reefA" d="M10 160q-12-68 25-105q0 55 24 45q9-65 40-83q-7 65 14 68q20-49 45-58q-13 65-4 124Z"/><path class="reefB" d="M150 160q-9-62 28-100q2 53 26 41q8-59 38-80q-6 65 17 64q21-45 48-54q-14 64-5 124Z"/><path class="reefC" d="M315 160q-9-66 27-104q4 55 27 42q8-60 39-79q-4 61 17 66q20-46 47-54q-15 62-5 124Z"/><path class="reefD" d="M493 160q-10-64 27-101q2 54 27 41q7-58 39-79q-6 63 17 64q20-44 46-52q-14 60-6 122Z"/></g>
+ <!-- turtle --> <g transform="translate(385 175) rotate(-7)" filter="url(#shadow)"><ellipse cx="0" cy="0" rx="87" ry="49" fill="#6fa46c" stroke="#355a3d" stroke-width="5"/><path d="M-54-18q54-40 108 0q-19 48-54 55q-38-10-54-55" fill="#8cc782" stroke="#355a3d" stroke-width="4"/><ellipse cx="92" cy="-1" rx="29" ry="22" fill="#87b87d" stroke="#355a3d" stroke-width="4"/><path d="M-62-11q-61-48-79-12q28 51 94 45M-52 19q-46 58-14 70q48-27 69-61" fill="#78aa70" stroke="#355a3d" stroke-width="5"/></g>
+ <!-- schools of juvenile fish -->
+ <g fill="#ffd84d" stroke="#6d5817" stroke-width="2"><path d="M95 215q38-26 70 0q-32 26-70 0m0 0-22-16v32Z"/><path d="M200 265q34-23 64 0q-30 24-64 0m0 0-20-14v28Z"/><path d="M580 244q38-25 70 0q-32 25-70 0m0 0-22-15v30Z"/><path d="M645 315q31-20 57 0q-27 21-57 0m0 0-18-13v26Z"/></g>
+ <rect class="box" x="18" y="18" width="500" height="136" rx="8"/><text x="38" y="50" class="ko">몇 달 뒤, 어린 물고기 떼가 보호받는 산호초를 보육장처럼 이용하기 시작합니다.</text><text x="38" y="82" class="ko">지역의 약속 하나가 다음 세대의 바다를 지켜냅니다.</text><text x="38" y="112" class="zh">几个月后，幼鱼重新把受保护的珊瑚礁当作育幼场。</text><text x="38" y="142" class="en">Months later, juvenile fish return to the protected nursery reef.</text>
+ <path class="bubble" d="M523 45h220q14 0 14 14v103q0 14-14 14H635l-28 31 6-31h-90q-14 0-14-14V59q0-14 14-14Z"/><text x="541" y="81" class="ko">우리가 지킨 경계 안에서 새 생명이 자라요!</text><text x="541" y="115" class="zh">新的生命正在我们守护的海域里成长！</text><text x="541" y="148" class="en">New life is growing inside the protected reef!</text>
+ <text x="340" y="469" class="sfx" fill="#ffe34a">LIFE GROWS! TOGETHER!</text>
+</g>
+</svg>
