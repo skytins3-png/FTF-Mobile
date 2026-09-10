@@ -3,7 +3,7 @@
   // Production target is 180 distinct scenes per song.
   const TARGET_SCENES=180;
   // Only advertise assets that actually exist in the repository.
-  const AVAILABLE_SCENES={1:45,2:26,8:26};
+  const AVAILABLE_SCENES={1:46,2:26,8:26};
   const COMPLETE=new Set(Object.keys(AVAILABLE_SCENES).map(Number));
   const previous=window.showComic;
   if(typeof previous!=='function')return;
