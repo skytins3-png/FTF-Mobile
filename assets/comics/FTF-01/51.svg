@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 512">
+<title>FTF-01 Scene 51 - From Polluted Harbor to Living Coast</title>
+<desc>Four-panel cinematic manga illustration continuing the environmental story: a fishing family chooses reusable gear, a polluted harbor harms wildlife, volunteers remove ghost nets and restore the shore, and a healthy coast returns. Korean, Chinese and English narration, dialogue and visual sound effects are embedded.</desc>
+<defs>
+ <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd9a6"/><stop offset="1" stop-color="#6fb7d8"/></linearGradient>
+ <linearGradient id="smog" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65717a"/><stop offset="1" stop-color="#202b34"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#42bfe8"/><stop offset="1" stop-color="#14608f"/></linearGradient>
+ <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dff5b8"/><stop offset="1" stop-color="#4da36e"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".35"/></filter>
+ <style><![CDATA[
+ .panel{stroke:#111;stroke-width:5}.box{fill:#fffdf6;stroke:#111;stroke-width:2;rx:8}.bubble{fill:#fff;stroke:#111;stroke-width:2.2}.cap{font-family:Arial,'Noto Sans KR',sans-serif;font-size:13px;font-weight:700;fill:#111}.tri{font-family:Arial,'Noto Sans KR',sans-serif;font-size:11.5px;font-weight:700}.sfx{font-family:Impact,Arial,sans-serif;font-style:italic;font-size:28px;font-weight:900;paint-order:stroke;stroke:#111;stroke-width:5;fill:#ffea38}.small{font-size:10px}.line{stroke:#111;stroke-width:2;fill:none;stroke-linecap:round}.skin{fill:#f3c8aa;stroke:#563b30;stroke-width:1.5}.hair{fill:#302018;stroke:#111;stroke-width:1.5}.eye{fill:#111}.cloth1{fill:#1f6f8f;stroke:#163a49;stroke-width:1.5}.cloth2{fill:#f47f8f;stroke:#8c3948;stroke-width:1.5}.vest{fill:#f4c542;stroke:#715a12;stroke-width:1.5}.leaf{fill:#4b9d5c;stroke:#27693b;stroke-width:1}.water{fill:url(#sea)}
+ ]]></style>
+</defs>
+<!-- PANEL 1: fishing family chooses reusable gear -->
+<g id="p1"><rect class="panel" x="2" y="2" width="382" height="252" fill="url(#warm)"/>
+ <rect x="2" y="2" width="382" height="252" fill="#fff" opacity=".08"/>
+ <path d="M0 185 Q90 150 185 170 T384 158 V254H0Z" fill="#2f8fb2"/><path d="M0 202 Q95 178 190 194 T384 183" fill="none" stroke="#bdeeff" stroke-width="4" opacity=".8"/>
+ <path d="M28 162 L84 112 L135 161Z" fill="#744b2c"/><rect x="47" y="142" width="54" height="43" fill="#e8d4aa" stroke="#4d3a2b"/><rect x="66" y="157" width="14" height="28" fill="#7e5032"/>
+ <path d="M255 173 l36-55 38 55" fill="#8e6a48"/><rect x="272" y="144" width="38" height="34" fill="#f1dfb6" stroke="#4d3a2b"/>
+ <!-- father --> <circle class="skin" cx="183" cy="105" r="28"/><path class="hair" d="M155 103q3-39 33-33 27 5 23 34-12-18-28-17-11 0-28 16z"/><circle class="eye" cx="174" cy="105" r="2.4"/><circle class="eye" cx="193" cy="105" r="2.4"/><path class="line" d="M176 118q9 8 18 0"/><path class="cloth1" d="M150 135q33-18 67 0l12 65h-92z"/><path class="skin" d="M150 148q-21 9-37 28l10 9q18-15 35-21z"/>
+ <!-- girl --> <circle class="skin" cx="245" cy="126" r="22"/><path class="hair" d="M224 125q0-27 24-26 22 3 20 27-13-12-22-12-9 0-22 11z"/><circle class="eye" cx="239" cy="126" r="2.2"/><circle class="eye" cx="253" cy="126" r="2.2"/><path class="line" d="M240 137q7 5 13 0"/><path class="cloth2" d="M221 149q25-14 49 0l8 50h-65z"/>
+ <!-- reusable net basket --> <ellipse cx="302" cy="198" rx="47" ry="19" fill="#c08d45" stroke="#68471f" stroke-width="3"/><path d="M264 190q38-46 76 0M271 181q31-34 62 0" fill="none" stroke="#68471f" stroke-width="3"/><path d="M280 185q21 24 43 0M289 173q12 34 24 0" fill="none" stroke="#5c8f68" stroke-width="4"/>
+ <rect class="box" x="12" y="12" width="210" height="58"/><text class="cap" x="22" y="30">바다를 지키는 선택은 항구에서 시작됩니다.</text><text class="tri" x="22" y="47">守护海洋的选择，从港口开始。</text><text class="tri" x="22" y="63">Protecting the sea starts at the harbor.</text>
+ <path class="bubble" d="M228 28h137q10 0 10 10v53q0 10-10 10h-77l-17 15 5-15h-48q-10 0-10-10V38q0-10 10-10z"/><text class="tri" x="236" y="47">일회용 대신 오래 쓰는 장비!</text><text class="tri" x="236" y="64">不用一次性用品，用可重复装备！</text><text class="tri" x="236" y="81">Reusable gear, not throwaway gear!</text>
+ <text class="sfx" x="14" y="233" transform="rotate(-8 14 233)">CHOOSE!</text></g>
+<!-- PANEL 2: polluted harbor -->
+<g id="p2"><rect class="panel" x="384" y="2" width="382" height="252" fill="url(#smog)"/>
+ <rect x="384" y="174" width="382" height="80" fill="#354b59"/><path d="M384 190q60-16 120 0t120 0t142 0" fill="none" stroke="#6a8795" stroke-width="5"/>
+ <g fill="#232a2e"><rect x="430" y="58" width="22" height="112"/><rect x="486" y="75" width="28" height="95"/><rect x="545" y="45" width="25" height="125"/><rect x="622" y="81" width="37" height="89"/></g>
+ <g fill="#333"><rect x="436" y="30" width="10" height="34"/><rect x="551" y="19" width="10" height="31"/></g><g fill="#50565a" opacity=".75"><ellipse cx="442" cy="25" rx="27" ry="12"/><ellipse cx="557" cy="15" rx="34" ry="14"/></g>
+ <!-- turtle --> <ellipse cx="596" cy="204" rx="54" ry="28" fill="#4c7764" stroke="#1e3a31" stroke-width="3"/><circle cx="647" cy="202" r="17" fill="#6f9a78" stroke="#1e3a31" stroke-width="2"/><circle cx="652" cy="198" r="2"/><path d="M559 189q-18-17-27-8m24 33q-19 14-28 5" stroke="#6f9a78" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M540 170q31 18 75 53M531 187q43 4 90 27M545 225q36-22 84-25" stroke="#d6d6d6" stroke-width="2" fill="none"/>
+ <!-- trash --> <g fill="#d2d2d2" stroke="#555"><path d="M406 213l32-11 13 22-34 12z"/><rect x="472" y="210" width="14" height="31" rx="5" fill="#4b9bd6"/><path d="M692 206l24-8 8 25-27 7z" fill="#eee"/></g>
+ <path class="bubble" d="M585 34h160v75q0 10-10 10h-75l-18 17 5-17h-62q-10 0-10-10V44q0-10 10-10z"/><text class="tri" x="596" y="54">그물이 몸을 조여요… 도와주세요!</text><text class="tri" x="596" y="72">渔网缠住了我……请帮帮我！</text><text class="tri" x="596" y="90">The net is trapping me… please help!</text>
+ <rect class="box" x="397" y="12" width="176" height="75"/><text class="cap" x="407" y="31">버려진 어구는 바다에서</text><text class="cap" x="407" y="47">오랫동안 생명을 위협합니다.</text><text class="tri" x="407" y="64">废弃渔具长期威胁海洋生命。</text><text class="tri" x="407" y="79">Ghost gear keeps harming sea life.</text>
+ <text class="sfx" x="414" y="231" fill="#ff493b">HELP!</text><text class="sfx" x="653" y="159" font-size="21" fill="#ff493b" transform="rotate(-8 653 159)">STOP!</text></g>
+<!-- PANEL 3: cleanup and restoration -->
+<g id="p3"><rect class="panel" x="2" y="254" width="382" height="256" fill="#8dd1e6"/><path d="M2 407q80-25 170-6t212-9v118H2z" class="water"/>
+ <path d="M2 389q90-40 180-24t202-28v67q-91 27-191 8T2 432z" fill="#c9e6c2"/><g class="leaf"><path d="M25 382q16-32 27 0-12 8-27 0z"/><path d="M61 369q18-34 31 0-14 9-31 0z"/><path d="M330 357q18-31 29 2-13 8-29-2z"/></g>
+ <!-- volunteers --> <circle class="skin" cx="113" cy="341" r="24"/><path class="hair" d="M90 340q3-28 25-27 21 4 22 28-16-12-26-11-9 0-21 10z"/><circle class="eye" cx="106" cy="341" r="2"/><circle class="eye" cx="120" cy="341" r="2"/><path class="vest" d="M84 366q29-16 58 0l15 64H72z"/><path class="skin" d="M139 375q28 9 51 27l-8 11q-27-14-50-19z"/>
+ <circle class="skin" cx="245" cy="352" r="22"/><path class="hair" d="M223 350q5-25 24-25 18 3 20 26-11-11-22-11-10 0-22 10z"/><path class="cloth1" d="M219 375q27-14 53 2l8 52h-70z"/>
+ <!-- recovered net --> <path d="M167 416q48-46 105 0M171 403q46 33 92 0M182 389q31 50 64 0M196 380q9 53 20 0M232 381q-5 48-11 0" fill="none" stroke="#dedede" stroke-width="3"/>
+ <rect class="box" x="12" y="266" width="228" height="64"/><text class="cap" x="22" y="285">사람들이 힘을 모아 폐그물과 쓰레기를 걷어냅니다.</text><text class="tri" x="22" y="302">大家一起清除废弃渔网和垃圾。</text><text class="tri" x="22" y="318">Together, we remove ghost nets and trash.</text>
+ <path class="bubble" d="M245 267h128v76q0 9-9 9h-57l-16 13 4-13h-50q-9 0-9-9v-67q0-9 9-9z"/><text class="tri" x="253" y="286">살아 있는 바다로 돌려놓자!</text><text class="tri" x="253" y="303">让大海重新充满生命！</text><text class="tri" x="253" y="320">Bring the living sea back!</text>
+ <text class="sfx" x="20" y="481" fill="#72e064">PULL!</text><text class="sfx" x="260" y="473" font-size="22" fill="#72e064">CLEAN!</text></g>
+<!-- PANEL 4: restored coast -->
+<g id="p4"><rect class="panel" x="384" y="254" width="382" height="256" fill="url(#green)"/>
+ <rect x="384" y="381" width="382" height="129" fill="url(#sea)"/><path d="M384 400q62-18 124 0t124 0t134 0" fill="none" stroke="#d7f6ff" stroke-width="5"/>
+ <!-- mangrove coast --> <path d="M401 414q28-56 53 0m-35-13q-8 35-18 65m53-64q10 39 18 67m205-58q26-55 51 0m-32-12q-7 34-17 62m48-60q10 32 20 58" fill="none" stroke="#5a4a29" stroke-width="5"/><g class="leaf"><ellipse cx="421" cy="384" rx="24" ry="11"/><ellipse cx="445" cy="375" rx="24" ry="11"/><ellipse cx="700" cy="382" rx="24" ry="11"/><ellipse cx="724" cy="374" rx="24" ry="11"/></g>
+ <!-- family from back/side --> <circle class="skin" cx="500" cy="386" r="22"/><path class="hair" d="M480 384q3-24 21-24 18 3 21 25-12-10-22-10-9 0-20 9z"/><path class="cloth1" d="M474 407q27-15 54 0l8 66h-71z"/>
+ <circle class="skin" cx="558" cy="401" r="18"/><path class="hair" d="M541 399q2-20 18-20 15 2 18 21-10-9-18-9-8 0-18 8z"/><path class="cloth2" d="M537 420q22-12 44 0l7 51h-58z"/>
+ <!-- fish and bird --> <g fill="#ffd86b" stroke="#6e5b16"><path d="M619 446q20-13 37 0-17 15-37 0l-11 9v-18z"/><path d="M680 466q16-10 30 0-14 12-30 0l-9 7v-14z"/></g><path d="M620 332q12-11 24 0 12-11 24 0" fill="none" stroke="#222" stroke-width="3"/>
+ <rect class="box" x="397" y="266" width="225" height="67"/><text class="cap" x="407" y="285">깨끗한 항구는 사람과 생명이 함께 돌아오는 곳.</text><text class="tri" x="407" y="302">洁净的港湾，让人与生命一起归来。</text><text class="tri" x="407" y="319">A clean harbor brings people and wildlife back.</text>
+ <path class="bubble" d="M631 273h123v78q0 9-9 9h-52l-15 14 3-14h-50q-9 0-9-9v-69q0-9 9-9z"/><text class="tri" x="639" y="292">다시 물고기가 보여요!</text><text class="tri" x="639" y="309">鱼儿又回来了！</text><text class="tri" x="639" y="326">The fish are back!</text>
+ <text class="sfx" x="604" y="493" font-size="23" fill="#b8ff62">LIVING COAST!</text>
+ <rect x="397" y="469" width="196" height="31" rx="6" fill="#0d3425" opacity=".9"/><text x="406" y="483" fill="#fff" class="small" font-family="Arial">작은 실천, 살아나는 바다 · 小小行动，让海洋重生</text><text x="406" y="495" fill="#fff" class="small" font-family="Arial">Small actions. A living sea.</text></g>
+</svg>
