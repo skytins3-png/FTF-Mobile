@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-labelledby="t d">
+<title id="t">FTF-01 #55 — 바닷속 초원을 되살리다</title>
+<desc id="d">Four-panel cinematic manga-style scene continuing FTF-01 in strict story order: a coastal family learns about seagrass, an injured seafloor shows damage from anchors and trash, divers and residents restore a seagrass nursery, and the recovered meadow shelters fish, a sea turtle and a dugong. Korean, Chinese and English captions, speech bubbles and visual sound effects are integrated into story-specific illustrated environments.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#67c9ff"/><stop offset="1" stop-color="#eaf9ff"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#32cbe2"/><stop offset=".5" stop-color="#1187ba"/><stop offset="1" stop-color="#063f6c"/></linearGradient>
+ <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1a6e91"/><stop offset="1" stop-color="#06283c"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd676"/><stop offset=".48" stop-color="#76d4e8"/><stop offset="1" stop-color="#0b6d9a"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".32"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+ .panel{stroke:#101820;stroke-width:10}.box{fill:#fffdf2;stroke:#101820;stroke-width:4}.bubble{fill:#fff;stroke:#111;stroke-width:4}.ko{font:700 27px sans-serif;fill:#111923}.zh{font:600 21px sans-serif;fill:#16415f}.en{font:600 20px sans-serif;fill:#17222c}.sfx{font:900 42px sans-serif;paint-order:stroke;stroke:#fff;stroke-width:9;stroke-linejoin:round}.line{stroke:#26333c;stroke-width:5;stroke-linecap:round;fill:none}.face{stroke:#5b3528;stroke-width:2}
+ </style>
+</defs>
+<!-- PANEL 1: discovery at restored coast -->
+<g>
+ <rect class="panel" x="4" y="4" width="760" height="500" fill="url(#sky)"/>
+ <path d="M4 275 Q170 245 350 275 T760 265 V500H4Z" fill="url(#sea)"/>
+ <path d="M4 390 Q150 350 320 392 T760 375 V500H4Z" fill="#d7c48f"/>
+ <g fill="#f8f1dc" stroke="#6b4b39" stroke-width="3"><rect x="32" y="220" width="145" height="88"/><path d="M18 220 l87-62 88 62Z" fill="#e46f48"/><rect x="88" y="256" width="34" height="52" fill="#78adc2"/></g>
+ <g transform="translate(410 135)" filter="url(#shadow)"><ellipse class="face" cx="78" cy="62" rx="45" ry="52" fill="#d89d75"/><path d="M33 58q7-47 49-50q44 2 44 54q-27-21-48-18q-20 1-45 14" fill="#27323d"/><ellipse cx="61" cy="65" rx="5" ry="7"/><ellipse cx="94" cy="65" rx="5" ry="7"/><path d="M60 91q18 13 36 0" class="line" stroke-width="3"/><path d="M28 113q53-22 100 10l20 150H8Z" fill="#ef8b2e" stroke="#26333d" stroke-width="4"/></g>
+ <g transform="translate(250 185)" filter="url(#shadow)"><ellipse class="face" cx="65" cy="54" rx="40" ry="46" fill="#efb18d"/><path d="M25 51q5-41 42-44q40 1 41 48q-22-18-42-17q-20 0-41 13" fill="#4d2d28"/><path d="M24 98q45-18 83 9l17 128H7Z" fill="#ef7180" stroke="#26333d" stroke-width="4"/><path d="M106 126q42 21 75 63" stroke="#efb18d" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <g fill="#1f9e5b" stroke="#176f44" stroke-width="2"><path d="M520 415q-14-80 4-118q17 45 11 119Z"/><path d="M550 420q-10-72 14-110q13 48 0 112Z"/><path d="M580 418q-4-66 25-105q6 47-12 109Z"/><path d="M616 420q-12-70 8-109q16 43 6 111Z"/></g>
+ <rect class="box" x="18" y="18" width="393" height="130" rx="8"/><text x="35" y="53" class="ko">맹그로브 다음은 바닷속 초원이에요.</text><text x="35" y="86" class="ko">잘피는 어린 생명의 숨을 곳을 만들어요.</text><text x="35" y="116" class="zh">红树林之后，我们还要守护海草床。</text><text x="35" y="144" class="en">Next, we protect the underwater meadows.</text>
+ <path class="bubble" d="M455 22h277q17 0 17 17v108q0 17-17 17H615l-29 33 5-33H455q-17 0-17-17V39q0-17 17-17Z"/><text x="475" y="62" class="ko">잘피가 물고기의 아기방이래!</text><text x="475" y="96" class="zh">海草床是小鱼的育儿室！</text><text x="475" y="129" class="en">Seagrass is a nursery for young fish!</text>
+ <text x="70" y="466" class="sfx" fill="#13955c">DISCOVER! PROTECT!</text>
+</g>
+<!-- PANEL 2: damaged seabed -->
+<g transform="translate(768 0)">
+ <rect class="panel" x="4" y="4" width="764" height="500" fill="url(#deep)"/>
+ <g opacity=".42" stroke="#b9efff" stroke-width="5"><path d="M60 0L20 250M180 0L100 260M310 0L225 275M440 0L330 280M570 0L450 270M700 0L565 280"/></g>
+ <path d="M4 370Q180 330 350 382T760 365V500H4Z" fill="#806e56"/>
+ <g fill="none" stroke="#333" stroke-width="8"><path d="M145 350q70-60 145 5t165 0"/><path d="M260 405q90-65 195 5"/></g>
+ <g fill="#999"><rect x="95" y="335" width="70" height="28" transform="rotate(12 130 349)"/><rect x="520" y="350" width="55" height="24" transform="rotate(-18 548 362)"/></g>
+ <g transform="translate(420 215)" filter="url(#shadow)"><path d="M25 75q60-62 130-4q-17 78-90 84q-48-8-40-80Z" fill="#70634e" stroke="#2b2c28" stroke-width="4"/><ellipse cx="84" cy="79" rx="9" ry="8" fill="#111"/><path d="M152 88q52-18 80 5q-33 20-74 15Z" fill="#756851" stroke="#2b2c28" stroke-width="4"/><path d="M48 128q-5 49-42 74q47 6 78-45" fill="#756851" stroke="#2b2c28" stroke-width="4"/></g>
+ <path d="M190 40q20 90 8 170q-22 29-40 92" stroke="#3a3a3a" stroke-width="14" fill="none"/><path d="M142 295l31 39l38-31l-8 69l-70-6Z" fill="#6b6b6b" stroke="#222" stroke-width="4"/>
+ <rect class="box" x="20" y="18" width="512" height="132" rx="8"/><text x="38" y="53" class="ko">무거운 닻과 쓰레기가 잘피밭을 긁어 없애요.</text><text x="38" y="87" class="ko">숨을 곳을 잃은 바다 생명도 함께 줄어듭니다.</text><text x="38" y="117" class="zh">船锚和垃圾会破坏海草床，让海洋生物失去家园。</text><text x="38" y="145" class="en">Anchors and trash tear up seagrass habitat.</text>
+ <path class="bubble" d="M520 172h210q16 0 16 16v91q0 16-16 16H628l-22 31 3-31H520q-16 0-16-16v-91q0-16 16-16Z"/><text x="541" y="211" class="ko">우리 집이 사라져요!</text><text x="541" y="244" class="zh">我们的家不见了！</text><text x="541" y="276" class="en">Our home is disappearing!</text>
+ <text x="75" y="462" class="sfx" fill="#ef3a35">SCRAPE! STOP!</text>
+</g>
+<!-- PANEL 3: active restoration -->
+<g transform="translate(0 512)">
+ <rect class="panel" x="4" y="4" width="760" height="508" fill="url(#sea)"/>
+ <g opacity=".35" stroke="#d5fbff" stroke-width="5"><path d="M60 0L10 250M190 0L100 260M330 0L225 280M470 0L350 278M620 0L480 278M740 0L590 285"/></g>
+ <path d="M4 355Q190 312 375 360T760 350V508H4Z" fill="#b79b6c"/>
+ <g fill="#259b58" stroke="#176b43" stroke-width="2"><path d="M110 466q-12-80 6-124q18 46 8 128Z"/><path d="M160 470q-7-75 18-121q10 50-3 124Z"/><path d="M220 465q-11-68 9-117q15 46 5 120Z"/><path d="M590 468q-8-72 14-120q12 48 0 123Z"/><path d="M645 470q-10-69 8-115q17 45 6 118Z"/></g>
+ <!-- diver 1 -->
+ <g transform="translate(280 155)" filter="url(#shadow)"><ellipse cx="62" cy="54" rx="40" ry="44" fill="#e6aa84" stroke="#59372b" stroke-width="2"/><path d="M20 50q8-41 45-44q40 2 40 47q-25-18-44-16q-19 0-41 13" fill="#272f39"/><rect x="22" y="49" width="82" height="31" rx="14" fill="#bdefff" opacity=".76" stroke="#173949" stroke-width="4"/><path d="M18 101q50-20 92 10l19 118H1Z" fill="#233e59" stroke="#162735" stroke-width="4"/><path d="M98 130q58 34 88 88" stroke="#e6aa84" stroke-width="16" fill="none" stroke-linecap="round"/><path d="M180 212q-8 25-1 55" stroke="#176b43" stroke-width="5"/></g>
+ <!-- diver 2 -->
+ <g transform="translate(500 165)" filter="url(#shadow)"><ellipse cx="58" cy="50" rx="36" ry="41" fill="#efb18d" stroke="#59372b" stroke-width="2"/><path d="M22 47q6-39 38-41q36 1 38 43q-22-17-39-15q-17 0-37 13" fill="#4d2e28"/><rect x="22" y="44" width="73" height="29" rx="13" fill="#c8f5ff" opacity=".8" stroke="#173949" stroke-width="4"/><path d="M20 94q42-17 78 8l16 110H5Z" fill="#ee6f7f" stroke="#20313d" stroke-width="4"/><path d="M18 120q-45 30-72 76" stroke="#efb18d" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+ <g fill="#fff" opacity=".75"><circle cx="410" cy="140" r="8"/><circle cx="426" cy="112" r="6"/><circle cx="618" cy="150" r="7"/><circle cx="635" cy="128" r="5"/></g>
+ <rect class="box" x="18" y="18" width="468" height="132" rx="8"/><text x="36" y="53" class="ko">잠수사와 주민이 잘피 모종을 심고</text><text x="36" y="87" class="ko">보호 부표로 닻이 들어오지 않게 지켜요.</text><text x="36" y="117" class="zh">潜水员和居民种下海草，并设置保护浮标。</text><text x="36" y="145" class="en">Divers replant seagrass and mark a no-anchor zone.</text>
+ <path class="bubble" d="M500 24h232q16 0 16 16v88q0 16-16 16H625l-23 31 3-31H500q-16 0-16-16V40q0-16 16-16Z"/><text x="520" y="62" class="ko">한 포기씩 바다를 살려요!</text><text x="520" y="96" class="zh">一株一株，让海洋重生！</text><text x="520" y="128" class="en">One shoot at a time!</text>
+ <text x="58" y="474" class="sfx" fill="#0b93d2">PLANT! GROW! GUARD!</text>
+</g>
+<!-- PANEL 4: thriving underwater meadow -->
+<g transform="translate(768 512)">
+ <rect class="panel" x="4" y="4" width="764" height="508" fill="url(#sun)"/>
+ <path d="M4 0h760v508H4Z" fill="url(#sea)" opacity=".55"/>
+ <path d="M4 390Q180 350 365 395T760 382V508H4Z" fill="#c7ac78"/>
+ <g fill="#28a15b" stroke="#167447" stroke-width="2"><path d="M40 500q-15-110 9-174q24 69 8 176Z"/><path d="M86 500q-8-105 18-168q16 70 1 171Z"/><path d="M135 500q-13-100 10-160q22 66 7 163Z"/><path d="M190 500q-9-112 19-174q15 76 0 177Z"/><path d="M245 500q-14-100 9-165q23 68 8 168Z"/><path d="M310 500q-10-107 15-168q18 70 3 171Z"/><path d="M560 500q-13-110 11-170q22 72 7 173Z"/><path d="M615 500q-8-104 16-166q17 68 3 169Z"/><path d="M680 500q-12-108 11-171q22 72 6 174Z"/></g>
+ <!-- dugong -->
+ <g transform="translate(330 245)" filter="url(#shadow)"><ellipse cx="105" cy="78" rx="112" ry="58" fill="#a9aca7" stroke="#545c5d" stroke-width="4"/><ellipse cx="22" cy="77" rx="48" ry="39" fill="#b8bbb6" stroke="#545c5d" stroke-width="4"/><ellipse cx="5" cy="70" rx="5" ry="6" fill="#111"/><path d="M210 69q63-42 94 1q-44 17-87 33Z" fill="#a9aca7" stroke="#545c5d" stroke-width="4"/><path d="M115 124q-24 44-62 50q8-38 39-63" fill="#9da29f" stroke="#545c5d" stroke-width="4"/></g>
+ <!-- turtle -->
+ <g transform="translate(155 255)" filter="url(#shadow)"><ellipse cx="65" cy="56" rx="56" ry="43" fill="#6e8d52" stroke="#32472d" stroke-width="4"/><path d="M21 51q44-34 87 0q-38 39-87 0Z" fill="#94ad68"/><ellipse cx="126" cy="59" rx="24" ry="18" fill="#80945f"/><circle cx="134" cy="55" r="3"/><path d="M39 90q-36 37-58 15q33-9 48-35M80 91q31 35 58 17q-30-12-48-38" fill="#7f9960" stroke="#32472d" stroke-width="3"/></g>
+ <g fill="#f2cf43"><path d="M100 220q30-18 60 0q-28 26-60 0Z"/><path d="M600 215q32-18 64 0q-30 25-64 0Z"/></g>
+ <g fill="#ee7448"><path d="M565 310q28-15 54 0q-25 22-54 0Z"/><path d="M250 195q24-13 48 0q-22 20-48 0Z"/></g>
+ <rect class="box" x="18" y="18" width="505" height="132" rx="8"/><text x="36" y="53" class="ko">잘피 초원이 돌아오자 물고기와 거북이,</text><text x="36" y="87" class="ko">듀공까지 다시 찾아오는 바다가 됩니다.</text><text x="36" y="117" class="zh">海草床恢复后，鱼、海龟和儒艮都回来了。</text><text x="36" y="145" class="en">The restored meadow brings marine life home.</text>
+ <path class="bubble" d="M530 25h205q15 0 15 15v89q0 15-15 15H644l-23 30 4-30H530q-15 0-15-15V40q0-15 15-15Z"/><text x="550" y="63" class="ko">바닷속 초원이 돌아왔어요!</text><text x="550" y="97" class="zh">海底草原回来了！</text><text x="550" y="128" class="en">The underwater meadow is back!</text>
+ <text x="44" y="472" class="sfx" fill="#18a85c">BLUE CARBON! LIVING OCEAN!</text>
+</g>
+</svg>
