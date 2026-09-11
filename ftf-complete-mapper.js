@@ -3,7 +3,7 @@
   // Production target is 180 distinct scenes per song.
   const TARGET_SCENES=180;
   // Only advertise assets that actually exist in the repository.
-  const AVAILABLE_SCENES={1:73,2:26,8:26};
+  const AVAILABLE_SCENES={1:74,2:26,8:26};
   const COMPLETE=new Set(Object.keys(AVAILABLE_SCENES).map(Number));
   const previous=window.showComic;
   if(typeof previous!=='function')return;
@@ -20,7 +20,7 @@
     const idx=requested;
     const viewer=q('viewer'),img=q('comicImg'),built=q('ftfBuiltImage');
     if(!viewer||!img)return result;
-    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(idx+1).padStart(2,'0')}.svg?v=96`;
+    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(idx+1).padStart(2,'0')}.svg?v=97`;
     window.ftfSceneIndex=idx;
     viewer.classList.add('show','ftf-integrated');
     if(built)built.style.display='none';
