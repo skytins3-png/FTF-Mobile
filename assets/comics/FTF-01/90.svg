@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">FTF-01 Scene 90 - 오염의 길을 막다</title>
+<desc id="desc">Four-panel cinematic manga scene continuing scene 89: researchers and students follow the C-3 pollution trail to a river outlet, install a floating litter trap and drain filters, local shops and families switch to reusable alternatives, and follow-up monitoring confirms a sharp drop in microplastics while fish and shorebirds return. Korean Chinese English narration, speech bubbles and visual sound effects.</desc>
+<defs>
+ <linearGradient id="skyA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#75d4ff"/><stop offset="1" stop-color="#ecfbff"/></linearGradient>
+ <linearGradient id="river" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#37bfe0"/><stop offset="1" stop-color="#075a87"/></linearGradient>
+ <linearGradient id="shop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8df"/><stop offset="1" stop-color="#d9f1e4"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd97a"/><stop offset=".55" stop-color="#ff9e72"/><stop offset="1" stop-color="#6f83b5"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".26"/></filter>
+ <style>
+ .p{stroke:#071d2a;stroke-width:7}.box,.bub{fill:#fff;stroke:#071d2a;stroke-width:4;filter:url(#shadow)}
+ .ko{font:700 20px Arial,sans-serif;fill:#071d2a}.zh{font:600 15px Arial,sans-serif;fill:#173947}.en{font:600 15px Arial,sans-serif;fill:#274957}.small{font-size:13px}
+ .fx{font:900 35px Impact,Arial,sans-serif;fill:#fff;stroke:#087bbb;stroke-width:7;paint-order:stroke}
+ .skin{fill:#efbd98;stroke:#071d2a;stroke-width:3}.hair{fill:#2b1f1d;stroke:#071d2a;stroke-width:3}.ftf{fill:#164d6c;stroke:#071d2a;stroke-width:3}.vest{fill:#f08b4c;stroke:#071d2a;stroke-width:3}.line{fill:none;stroke:#071d2a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.eye{fill:#071d2a}
+ </style>
+</defs>
+<!-- PANEL 1: trace reaches river outlet -->
+<g class="p">
+ <rect x="4" y="4" width="584" height="386" fill="url(#skyA)"/>
+ <path d="M4 246q105-32 219-6t365-10v160H4Z" fill="url(#river)"/>
+ <path d="M4 315q95-30 183-11t156-1q111-28 245 9v78H4Z" fill="#d0b17b"/>
+ <rect x="420" y="143" width="118" height="70" rx="10" fill="#7a858b" stroke="#071d2a" stroke-width="5"/><circle cx="480" cy="206" r="28" fill="#2a3d47"/><path d="M447 213q30 19 67 0" stroke="#62c8df" stroke-width="8" fill="none"/>
+ <g fill="#f16c59"><rect x="491" y="245" width="18" height="10" transform="rotate(18 500 250)"/><circle cx="454" cy="264" r="7"/></g><g fill="#2e86bb"><rect x="524" y="280" width="15" height="12"/><circle cx="407" cy="277" r="6"/></g>
+ <!-- researcher --> <ellipse cx="118" cy="205" rx="30" ry="33" class="skin"/><path d="M90 197q8-46 41-29 24 12 20 39-29-11-61-10Z" class="hair"/><path d="M71 245q48-24 96 0l18 125H54Z" class="ftf"/><circle cx="109" cy="204" r="4" class="eye"/><circle cx="132" cy="204" r="4" class="eye"/><path d="M151 255q63-40 128-53" class="line"/>
+ <!-- student --> <ellipse cx="248" cy="272" rx="25" ry="28" class="skin"/><path d="M225 266q8-37 33-24 19 10 16 31-22-9-49-7Z" class="hair"/><path d="M212 307q36-17 72 0l12 71h-96Z" class="vest"/><rect x="292" y="240" width="109" height="72" rx="8" fill="#dff7ff" stroke="#071d2a" stroke-width="4"/><path d="M308 288q22-37 43-19t34-21" fill="none" stroke="#1b8fc0" stroke-width="6"/><circle cx="378" cy="248" r="8" fill="#f2574d"/>
+ <rect class="box" x="22" y="22" width="356" height="89" rx="9"/><text x="38" y="51" class="ko">C-3의 흔적은 결국 하천 배출구까지 이어졌습니다.</text><text x="38" y="75" class="zh">C-3的污染轨迹最终指向河口排水口。</text><text x="38" y="99" class="en">The C-3 trail finally leads to a river outlet.</text>
+ <path class="bub" d="M271 120h292q14 0 14 14v71q0 14-14 14H444l-20 18 4-18H271q-14 0-14-14v-71q0-14 14-14Z"/><text x="286" y="150" class="ko">여기서 바다로 흘러가고 있었어요!</text><text x="286" y="174" class="zh small">原来污染物是从这里流向大海的！</text><text x="286" y="197" class="en small">This is where it was flowing into the sea!</text><text x="350" y="356" class="fx" transform="rotate(-4 350 356)">FOUND THE SOURCE!</text>
+</g>
+<!-- PANEL 2: install prevention -->
+<g class="p">
+ <rect x="596" y="4" width="600" height="386" fill="url(#skyA)"/>
+ <path d="M596 233q123-26 249 3t351-8v162H596Z" fill="url(#river)"/>
+ <path d="M596 327q112-29 219-5t381-9v77H596Z" fill="#b88f61"/>
+ <!-- floating litter trap --> <path d="M754 254q101 32 210 3" fill="none" stroke="#ffcb3d" stroke-width="18"/><g fill="#e85d51"><rect x="825" y="258" width="18" height="12"/><circle cx="874" cy="271" r="8"/></g><g fill="#2f8fc4"><rect x="919" y="256" width="18" height="12"/><circle cx="793" cy="257" r="7"/></g>
+ <!-- drain filter cage --> <rect x="1002" y="185" width="136" height="88" rx="12" fill="#dce4e7" stroke="#071d2a" stroke-width="5"/><path d="M1018 200v58M1042 200v58M1066 200v58M1090 200v58M1114 200v58" stroke="#60727b" stroke-width="6"/>
+ <!-- workers --> <ellipse cx="688" cy="225" rx="29" ry="32" class="skin"/><path d="M662 218q8-43 38-27 22 11 19 37-27-11-57-10Z" class="hair"/><path d="M647 264q44-21 88 0l15 113H631Z" class="ftf"/><ellipse cx="1111" cy="310" rx="25" ry="28" class="skin"/><path d="M1088 304q7-37 32-24 19 9 16 31-21-9-48-7Z" class="hair"/><path d="M1076 343q36-16 72 0l10 39h-92Z" class="vest"/>
+ <rect class="box" x="617" y="24" width="352" height="90" rx="9"/><text x="633" y="53" class="ko">바다에 도착하기 전에, 떠다니는 쓰레기를 여기서 막습니다.</text><text x="633" y="77" class="zh">在垃圾进入大海之前，我们先在这里拦住它。</text><text x="633" y="101" class="en">We stop floating waste here before it reaches the ocean.</text>
+ <path class="bub" d="M803 122h365q14 0 14 14v70q0 14-14 14H1041l-20 18 4-18H803q-14 0-14-14v-70q0-14 14-14Z"/><text x="818" y="151" class="ko">부유식 포집망과 배수구 필터, 둘 다 설치 완료!</text><text x="818" y="175" class="zh small">漂浮拦截网和排水口过滤器，都安装好了！</text><text x="818" y="198" class="en small">Floating trap and drain filters—both installed!</text><text x="832" y="354" class="fx" transform="rotate(-4 832 354)">CLANK! · LOCK! · BLOCK!</text>
+</g>
+<!-- PANEL 3: community reduces source -->
+<g class="p">
+ <rect x="4" y="398" width="584" height="398" fill="url(#shop)"/>
+ <rect x="36" y="454" width="516" height="286" rx="18" fill="#fffdf5" stroke="#071d2a" stroke-width="5"/>
+ <rect x="68" y="478" width="154" height="86" rx="10" fill="#dff2ff" stroke="#071d2a" stroke-width="4"/><text x="86" y="508" font-family="Arial" font-size="18" font-weight="900" fill="#17455f">REFILL STATION</text><path d="M106 536h77" stroke="#1c8db7" stroke-width="8"/><path d="M171 523l22 13-22 13" fill="#1c8db7"/>
+ <rect x="250" y="478" width="260" height="86" rx="10" fill="#e6f8e9" stroke="#071d2a" stroke-width="4"/><text x="270" y="506" font-family="Arial" font-size="17" font-weight="900" fill="#24623f">REUSE · REFILL · RETURN</text><text x="270" y="535" font-family="Arial" font-size="14" font-weight="800" fill="#2f7250">Less single-use plastic</text>
+ <!-- shop owner --> <ellipse cx="123" cy="640" rx="29" ry="32" class="skin"/><path d="M96 633q8-43 38-27 22 11 19 37-26-11-57-10Z" class="hair"/><path d="M84 680q43-20 86 0l13 100H70Z" fill="#f7fafb" stroke="#071d2a" stroke-width="4"/>
+ <!-- family/student --> <ellipse cx="267" cy="646" rx="25" ry="28" class="skin"/><path d="M244 640q7-37 32-24 19 9 16 31-22-9-48-7Z" class="hair"/><path d="M231 679q36-16 72 0l11 99h-94Z" class="vest"/><ellipse cx="394" cy="633" rx="27" ry="30" class="skin"/><path d="M369 626q7-40 35-25 21 10 18 34-24-10-53-9Z" class="hair"/><path d="M357 670q39-18 76 0l13 108H344Z" class="ftf"/>
+ <!-- reusable bottles/bags --> <rect x="187" y="666" width="25" height="49" rx="8" fill="#65b8cf" stroke="#071d2a" stroke-width="3"/><path d="M464 660q28-18 54 0v64h-54Z" fill="#d8b16e" stroke="#071d2a" stroke-width="4"/><path d="M474 658q17-23 34 0" fill="none" stroke="#071d2a" stroke-width="4"/>
+ <rect class="box" x="19" y="414" width="389" height="90" rx="9"/><text x="35" y="443" class="ko">막는 것보다 더 좋은 방법은, 처음부터 쓰레기를 줄이는 것입니다.</text><text x="35" y="467" class="zh">比拦截更好的办法，是从源头减少垃圾。</text><text x="35" y="491" class="en">Better than catching waste is reducing it at the source.</text>
+ <path class="bub" d="M304 574h250q13 0 13 13v72q0 13-13 13H461l-18 18 3-18H304q-13 0-13-13v-72q0-13 13-13Z"/><text x="319" y="603" class="ko">오늘부터 일회용품을 확 줄여볼게요!</text><text x="319" y="627" class="zh small">从今天开始，我们大幅减少一次性用品！</text><text x="319" y="650" class="en small">From today, we’re cutting single-use items!</text><text x="252" y="758" class="fx" transform="rotate(-3 252 758)">REUSE! · REFILL!</text>
+</g>
+<!-- PANEL 4: follow-up data confirms improvement -->
+<g class="p">
+ <rect x="596" y="398" width="600" height="398" fill="url(#sun)"/>
+ <circle cx="1030" cy="530" r="48" fill="#fff2ae"/>
+ <path d="M596 612q121-30 235 0t365-4v188H596Z" fill="url(#river)"/>
+ <path d="M596 704q95-26 188-7t173 0q116-24 239 8v91H596Z" fill="#d6b87b"/>
+ <!-- dashboard --> <rect x="626" y="443" width="333" height="174" rx="13" fill="#f8fcfd" stroke="#071d2a" stroke-width="5"/><text x="646" y="476" font-family="Arial" font-size="19" font-weight="900" fill="#17455f">COVE C-3 · 30 DAY FOLLOW-UP</text><text x="646" y="510" font-family="Arial" font-size="18" font-weight="900" fill="#2f8a55">Microplastics  -61%</text><text x="646" y="541" font-family="Arial" font-size="18" font-weight="900" fill="#2f8a55">Captured waste  412 kg</text><text x="646" y="572" font-family="Arial" font-size="18" font-weight="900" fill="#2f8a55">Juvenile fish  +24%</text><path d="M646 593h278" stroke="#2d8aae" stroke-width="5"/><path d="M667 579l41-19 35 7 45-28 40 10 44-31" fill="none" stroke="#39b26d" stroke-width="6"/>
+ <!-- children and researcher --> <ellipse cx="1008" cy="667" rx="28" ry="31" class="skin"/><path d="M982 660q8-42 37-27 22 11 19 36-25-10-56-9Z" class="hair"/><path d="M970 706q42-20 84 0l12 82h-108Z" class="ftf"/><ellipse cx="1113" cy="681" rx="24" ry="27" class="skin"/><path d="M1091 675q7-36 31-23 19 9 16 30-21-9-47-7Z" class="hair"/><path d="M1079 714q34-15 68 0l10 74h-88Z" class="vest"/>
+ <!-- fish and birds --> <g fill="none" stroke="#071d2a" stroke-width="4" stroke-linecap="round"><path d="M1015 466q17-13 34 0 17-13 34 0"/><path d="M1081 493q14-11 28 0 14-11 28 0"/></g><g fill="#7fe4db" stroke="#083c56" stroke-width="3"><path d="M811 688q28-17 54 0-26 17-54 0l-18 12 4-23Z"/><path d="M878 728q23-14 46 0-22 14-46 0l-15 10 3-20Z"/></g>
+ <rect class="box" x="628" y="630" width="337" height="91" rx="9"/><text x="644" y="659" class="ko">한 달 뒤, 미세플라스틱은 61% 줄고 어린 물고기가 돌아왔습니다.</text><text x="644" y="683" class="zh">一个月后，微塑料减少61%，幼鱼重新回来了。</text><text x="644" y="707" class="en">One month later, microplastics are down 61% and young fish are back.</text>
+ <path class="bub" d="M966 546h214q12 0 12 12v77q0 12-12 12h-68l-18 18 3-18H966q-12 0-12-12v-77q0-12 12-12Z"/><text x="981" y="575" class="ko">청소에서 예방으로!</text><text x="981" y="599" class="zh small">从清理走向预防！</text><text x="981" y="622" class="en small">From cleanup to prevention!</text><text x="917" y="768" class="fx" transform="rotate(-3 917 768)">STOP IT BEFORE THE SEA!</text>
+</g>
+<rect x="4" y="4" width="1192" height="792" fill="none" stroke="#071d2a" stroke-width="8"/>
+</svg>
