@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-labelledby="title desc">
+<title id="title">FTF-01 #71 — 돌아오는 생명, 이어지는 미래</title>
+<desc id="desc">Four-panel cinematic manga-style continuation after FTF-01 scene 70. A real illustrated ocean-research team confirms returning sea turtles and fish, checks young corals in the nursery, records the reef recovery, and commits to expanding the protected restoration zone. Korean, Chinese and English narration, speech bubbles and visual sound effects.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#75d8ff"/><stop offset=".55" stop-color="#dff7ff"/><stop offset="1" stop-color="#fff3d0"/></linearGradient>
+ <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#13b6dc"/><stop offset=".45" stop-color="#087eb0"/><stop offset="1" stop-color="#06385f"/></linearGradient>
+ <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffb64a"/><stop offset=".45" stop-color="#ff715e"/><stop offset="1" stop-color="#283c6f"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".28"/></filter>
+ <style>
+ .panel{stroke:#07131e;stroke-width:8}.narr{fill:#fffdf4;stroke:#142739;stroke-width:4}.bubble{fill:#fff;stroke:#142739;stroke-width:4}.cap{font-family:Arial,'Noto Sans KR',sans-serif;font-weight:900;fill:#10243a}.body{font-family:Arial,'Noto Sans KR',sans-serif;font-weight:700;fill:#10243a}.sfx{font-family:Arial,'Noto Sans KR',sans-serif;font-weight:1000;font-style:italic;paint-order:stroke;stroke:#08131f;stroke-width:8;stroke-linejoin:round}.white{fill:#fff}.small{font-size:20px}.med{font-size:28px}.big{font-size:48px}.huge{font-size:58px}
+ </style>
+</defs>
+<!-- PANEL 1 : survey boat / returning wildlife -->
+<g>
+ <rect class="panel" x="4" y="4" width="758" height="500" rx="8" fill="url(#sky)"/>
+ <path d="M0 268Q118 236 232 268T470 262T762 254V504H0Z" fill="#1594c3"/>
+ <path d="M0 320Q135 285 265 322T520 314T762 304V504H0Z" fill="#086a9b" opacity=".9"/>
+ <!-- island --> <path d="M8 272Q76 190 140 225Q190 168 255 244L290 275Z" fill="#446f5e"/><path d="M30 250Q84 201 125 226Q164 190 208 248Z" fill="#6ca66e"/>
+ <!-- research vessel -->
+ <g filter="url(#shadow)"><path d="M402 164h285l-42 65H432Z" fill="#f2f6f8" stroke="#162b3a" stroke-width="5"/><rect x="482" y="105" width="126" height="63" rx="6" fill="#e9f8ff" stroke="#162b3a" stroke-width="5"/><rect x="515" y="75" width="8" height="30" fill="#1b3546"/><path d="M523 76l66 20h-66z" fill="#168db5"/><text x="454" y="205" class="cap small">FTF OCEAN RESEARCH</text></g>
+ <!-- researchers -->
+ <g transform="translate(180 302)"><circle cx="0" cy="0" r="38" fill="#efc09d" stroke="#152735" stroke-width="4"/><path d="M-38-8Q0-54 38-8V-30Q3-65-38-28Z" fill="#2b211f"/><path d="M-46 48Q0 26 47 48L58 160H-58Z" fill="#eaf3f7" stroke="#152735" stroke-width="4"/><path d="M-10 46h20v92h-20z" fill="#153f5d"/><path d="M45 75Q90 67 124 29" stroke="#efc09d" stroke-width="14" fill="none" stroke-linecap="round"/><circle cx="126" cy="27" r="10" fill="#efc09d"/></g>
+ <g transform="translate(318 316)"><circle cx="0" cy="0" r="36" fill="#d8a27f" stroke="#152735" stroke-width="4"/><path d="M-36-5Q0-46 36-5V-28Q0-58-36-27Z" fill="#171d24"/><rect x="-44" y="42" width="88" height="126" rx="18" fill="#193b56" stroke="#152735" stroke-width="4"/><rect x="-22" y="73" width="44" height="25" rx="4" fill="#0e2233"/><circle cx="-9" cy="85" r="7" fill="#77d9f0"/><circle cx="10" cy="85" r="7" fill="#77d9f0"/><path d="M32 68l58-25" stroke="#d8a27f" stroke-width="13" stroke-linecap="round"/><circle cx="91" cy="42" r="9" fill="#d8a27f"/></g>
+ <!-- turtle surface -->
+ <g transform="translate(625 332) scale(.72)"><ellipse cx="0" cy="0" rx="70" ry="45" fill="#5a8e75" stroke="#193a42" stroke-width="5"/><ellipse cx="67" cy="-3" rx="28" ry="23" fill="#79ad87" stroke="#193a42" stroke-width="5"/><path d="M-35-27l-55-38 20 60zM-35 24l-55 40 23-58zM26-27l38-55 8 68zM25 24l43 48 4-64z" fill="#78a984" stroke="#193a42" stroke-width="5"/></g>
+ <rect class="narr" x="22" y="20" width="414" height="108" rx="8"/><text x="40" y="53" class="cap med">1. 돌아온 친구들이 보입니다</text><text x="40" y="82" class="body small">回来的朋友们出现了</text><text x="40" y="110" class="body small">Our returning friends are in sight</text>
+ <path class="bubble" d="M100 136h335q18 0 18 18v91q0 18-18 18H272l-25 31 3-31H100q-18 0-18-18v-91q0-18 18-18Z"/><text x="117" y="169" class="body small">저기 봐요! 거북이가 다시 왔어요!</text><text x="117" y="198" class="body small">快看！海龟又回来了！</text><text x="117" y="227" class="body small">Look! The turtle is back!</text>
+ <text x="500" y="448" class="sfx big" fill="#ffe96e">WELCOME BACK!</text>
+</g>
+<!-- PANEL 2 : underwater biodiversity -->
+<g transform="translate(768 0)">
+ <rect class="panel" x="4" y="4" width="764" height="500" rx="8" fill="url(#water)"/>
+ <path d="M0 386Q120 324 240 374T485 365T764 350V504H0Z" fill="#073f66"/>
+ <g fill="#ff806d"><path d="M25 487q16-85 38-6q21-110 42 0q28-86 43 4v19H25Z"/><path d="M530 485q18-95 41-9q22-86 43 0q28-72 40 8v20H530Z"/></g>
+ <g fill="#ffd95e" stroke="#17384a" stroke-width="2"><path d="M178 184q34-23 67 0q-33 25-67 0l-23 16 5-33z"/><path d="M438 214q38-25 75 0q-37 26-75 0l-23 17 5-35z"/><path d="M306 334q31-20 62 0q-31 22-62 0l-21 15 5-30z"/></g>
+ <g fill="#4fd2f0" stroke="#17384a" stroke-width="2"><path d="M120 302q27-19 54 0q-27 20-54 0l-19 13 5-26z"/><path d="M625 266q30-19 59 0q-29 21-59 0l-19 14 4-29z"/></g>
+ <!-- diver 1 -->
+ <g transform="translate(256 242)"><circle r="34" fill="#dfab83" stroke="#152735" stroke-width="4"/><path d="M-33-7Q0-43 33-7V-30Q0-55-33-26Z" fill="#1b2530"/><rect x="-38" y="36" width="76" height="116" rx="24" fill="#133d5a"/><rect x="-42" y="-11" width="84" height="39" rx="18" fill="#84e2f4" opacity=".55" stroke="#071722" stroke-width="5"/><path d="M38 61Q92 69 124 37" stroke="#dfab83" stroke-width="14" fill="none" stroke-linecap="round"/></g>
+ <!-- diver 2 -->
+ <g transform="translate(390 285) scale(.9)"><circle r="34" fill="#efbd99" stroke="#152735" stroke-width="4"/><path d="M-34-6Q0-46 34-6V-30Q0-57-34-27Z" fill="#352720"/><rect x="-38" y="36" width="76" height="116" rx="24" fill="#153d59"/><rect x="-42" y="-11" width="84" height="39" rx="18" fill="#84e2f4" opacity=".55" stroke="#071722" stroke-width="5"/></g>
+ <!-- turtle --> <g transform="translate(620 120) scale(.75)"><ellipse rx="70" ry="45" fill="#6f9d79" stroke="#173d45" stroke-width="5"/><ellipse cx="67" cy="-3" rx="28" ry="23" fill="#86b38b" stroke="#173d45" stroke-width="5"/><path d="M-35-27l-58-35 22 60zM-35 24l-55 40 25-58zM26-27l40-54 7 66zM25 24l45 46 3-63z" fill="#7bab85" stroke="#173d45" stroke-width="5"/></g>
+ <rect class="narr" x="24" y="20" width="448" height="108" rx="8"/><text x="42" y="53" class="cap med">2. 산호초에 생명이 다시 모입니다</text><text x="42" y="82" class="body small">生命重新汇聚到珊瑚礁</text><text x="42" y="110" class="body small">Life is gathering around the reef again</text>
+ <path class="bubble" d="M300 133h360q18 0 18 18v87q0 18-18 18H520l-28 32 5-32H300q-18 0-18-18v-87q0-18 18-18Z"/><text x="318" y="165" class="body small">어종 수가 지난 조사보다 크게 늘었어요!</text><text x="318" y="194" class="body small">鱼类种数比上次调查明显增加了！</text><text x="318" y="223" class="body small">Fish diversity is clearly increasing!</text>
+ <text x="498" y="445" class="sfx big" fill="#87ffaf">MORE LIFE!</text>
+</g>
+<!-- PANEL 3 : nursery check -->
+<g transform="translate(0 510)">
+ <rect class="panel" x="4" y="4" width="758" height="510" rx="8" fill="url(#water)"/>
+ <path d="M0 398Q170 338 332 388T758 374V510H0Z" fill="#064264"/>
+ <!-- nursery frames -->
+ <g stroke="#d8edf2" stroke-width="8" fill="none"><rect x="80" y="286" width="220" height="112"/><rect x="345" y="286" width="220" height="112"/><path d="M80 342h220M345 342h220M145 286v112M235 286v112M410 286v112M500 286v112"/></g>
+ <g fill="#ff8e70"><path d="M115 286q9-60 20-3q12-72 25 0q15-58 23 3Z"/><path d="M380 286q10-66 22-4q13-74 27 0q16-58 24 4Z"/><path d="M470 286q8-50 18-2q12-62 22 0q14-47 20 2Z"/></g>
+ <!-- diver female -->
+ <g transform="translate(612 225)"><circle r="35" fill="#efbc96" stroke="#152735" stroke-width="4"/><path d="M-35-6Q0-48 35-6V-32Q0-60-35-28Z" fill="#38251f"/><rect x="-40" y="39" width="80" height="122" rx="24" fill="#143d59"/><rect x="-43" y="-12" width="86" height="40" rx="18" fill="#82def2" opacity=".55" stroke="#071722" stroke-width="5"/><path d="M-40 69Q-91 72-124 117" stroke="#efbc96" stroke-width="14" fill="none" stroke-linecap="round"/><rect x="-157" y="110" width="46" height="31" rx="5" fill="#142f43" stroke="#8ae7ff" stroke-width="3"/></g>
+ <rect class="narr" x="22" y="20" width="448" height="108" rx="8"/><text x="40" y="53" class="cap med">3. 어린 산호의 성장도 기록합니다</text><text x="40" y="82" class="body small">记录幼小珊瑚的成长</text><text x="40" y="110" class="body small">Recording the growth of young corals</text>
+ <path class="bubble" d="M112 132h414q18 0 18 18v88q0 18-18 18H346l-28 31 4-31H112q-18 0-18-18v-88q0-18 18-18Z"/><text x="129" y="164" class="body small">정착률이 좋아요. 이제 더 넓은 구역으로 옮길 수 있어요.</text><text x="129" y="193" class="body small">附着率很好，可以扩大恢复区域了。</text><text x="129" y="222" class="body small">Settlement is strong—we can expand restoration.</text>
+ <text x="485" y="463" class="sfx big" fill="#ffea76">GROW! RECORD!</text>
+</g>
+<!-- PANEL 4 : sunset expansion promise -->
+<g transform="translate(768 510)">
+ <rect class="panel" x="4" y="4" width="764" height="510" rx="8" fill="url(#sunset)"/>
+ <circle cx="615" cy="188" r="58" fill="#ffe27e"/>
+ <path d="M0 286Q150 252 292 288T548 283T764 274V510H0Z" fill="#173e5c"/>
+ <path d="M0 399L764 352V510H0Z" fill="#5a6974"/>
+ <!-- four team members -->
+ <g transform="translate(168 332)"><circle r="31" fill="#d9a27d"/><rect x="-37" y="34" width="74" height="132" rx="18" fill="#173d58"/><path d="M-31-7Q0-43 31-7V-27Q0-55-31-25Z" fill="#171d24"/></g>
+ <g transform="translate(278 326)"><circle r="32" fill="#efbb96"/><rect x="-38" y="36" width="76" height="137" rx="18" fill="#edf4f6"/><path d="M-32-7Q0-46 32-7V-29Q0-58-32-27Z" fill="#35241f"/></g>
+ <g transform="translate(390 336)"><circle r="31" fill="#e8b48e"/><rect x="-37" y="34" width="74" height="128" rx="18" fill="#173d58"/><path d="M-31-7Q0-44 31-7V-28Q0-56-31-26Z" fill="#252d35"/></g>
+ <g transform="translate(500 330)"><circle r="32" fill="#efbf9b"/><rect x="-38" y="35" width="76" height="137" rx="18" fill="#f2f5f6"/><path d="M-32-7Q0-45 32-7V-29Q0-57-32-27Z" fill="#30231f"/></g>
+ <path d="M200 386Q270 430 346 386Q420 433 496 386" stroke="#efbf9b" stroke-width="15" fill="none" stroke-linecap="round" opacity=".9"/>
+ <rect class="narr" x="22" y="20" width="465" height="120" rx="8"/><text x="40" y="53" class="cap med">4. 복원 구역을 더 넓게 이어갑니다</text><text x="40" y="82" class="body small">让恢复区域延伸得更远</text><text x="40" y="110" class="body small">Expanding the restoration zone together</text>
+ <path class="bubble" d="M250 145h430q18 0 18 18v95q0 18-18 18H510l-28 33 3-33H250q-18 0-18-18v-95q0-18 18-18Z"/><text x="269" y="178" class="body small">오늘 돌아온 생명이 내일의 바다를 만듭니다.</text><text x="269" y="207" class="body small">今天回归的生命，创造明天的海洋。</text><text x="269" y="236" class="body small">Life returning today builds tomorrow’s ocean.</text>
+ <text x="334" y="467" class="sfx huge" fill="#91f7ff">TOGETHER, BRIGHTER TOMORROW!</text>
+</g>
+</svg>
