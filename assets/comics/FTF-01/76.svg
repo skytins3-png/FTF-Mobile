@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024">
+<defs>
+ <linearGradient id="skyA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#7dd8ff"/><stop offset="1" stop-color="#e9fbff"/></linearGradient>
+ <linearGradient id="seaA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#24b8ec"/><stop offset="1" stop-color="#08629a"/></linearGradient>
+ <linearGradient id="reef" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#37d9ff"/><stop offset=".45" stop-color="#087cb6"/><stop offset="1" stop-color="#06375d"/></linearGradient>
+ <linearGradient id="lab" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071927"/><stop offset="1" stop-color="#123c5a"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff9d5b"/><stop offset=".5" stop-color="#ffd179"/><stop offset="1" stop-color="#6b4d8d"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity=".45"/></filter>
+ <style>.t{font-family:Arial,'Malgun Gothic','Noto Sans CJK KR',sans-serif}.b{font-weight:900}.box{fill:#fff;stroke:#111;stroke-width:4}.panel{stroke:#fff;stroke-width:6}.fx{font-style:italic;font-weight:900;paint-order:stroke;stroke:#073d68;stroke-width:4}</style>
+</defs>
+<rect width="1536" height="1024" fill="#07131f"/>
+<g class="t">
+<!-- PANEL 1 : departure to expanded zone -->
+<g transform="translate(8 8)">
+ <rect width="752" height="500" rx="10" fill="url(#skyA)" class="panel"/>
+ <rect y="312" width="752" height="188" fill="url(#seaA)"/>
+ <path d="M355 111 L716 111 L690 328 L320 328Z" fill="#f4fbff" stroke="#173149" stroke-width="7"/>
+ <rect x="433" y="48" width="190" height="82" rx="10" fill="#dff4ff" stroke="#173149" stroke-width="6"/>
+ <g fill="#4e9fc2"><rect x="454" y="65" width="38" height="30"/><rect x="505" y="65" width="38" height="30"/><rect x="556" y="65" width="38" height="30"/></g>
+ <path d="M535 48 V17 M510 17 H560" stroke="#173149" stroke-width="7"/><path d="M560 17 l45 20" stroke="#173149" stroke-width="5"/>
+ <text x="410" y="173" class="b" font-size="31" fill="#145d9d">FTF OCEAN RESTORATION</text><text x="458" y="208" class="b" font-size="21" fill="#145d9d">FOR A BRIGHTER TOMORROW</text>
+ <circle cx="177" cy="240" r="44" fill="#f1bd96" stroke="#1b2735" stroke-width="5"/><path d="M136 233 q8-57 55-50 q40 8 42 53 q-31-24-57-20 q-23 2-40 17" fill="#3a241b"/><circle cx="164" cy="241" r="4"/><circle cx="190" cy="241" r="4"/><path d="M164 260 q14 13 31 0" fill="none" stroke="#8c3f45" stroke-width="4"/>
+ <path d="M126 287 q52-24 110 4 l28 174H94Z" fill="#113451" stroke="#0b1c2c" stroke-width="6"/><text x="146" y="344" font-size="29" class="b" fill="#fff">FTF</text><path d="M122 318 l122-10" stroke="#4e94bd" stroke-width="9"/>
+ <path d="M215 331 L327 258" stroke="#eeb58e" stroke-width="24" stroke-linecap="round"/><circle cx="337" cy="251" r="14" fill="#eeb58e"/>
+ <circle cx="283" cy="257" r="39" fill="#edb48d" stroke="#1b2735" stroke-width="5"/><path d="M247 247 q13-43 53-36 q30 8 35 40 q-26-20-48-17Z" fill="#241b1c"/><path d="M244 299 q42-22 86 2 l20 145H222Z" fill="#173e5e" stroke="#0a1c2b" stroke-width="5"/>
+ <g filter="url(#shadow)"><rect x="18" y="18" width="295" height="130" rx="14" class="box"/><text x="35" y="53" class="b" font-size="25">더 넓은 바다로 출발!</text><text x="35" y="84" font-size="18">복원 구역을 더 멀리 확장합니다.</text><text x="35" y="111" font-size="17">向更广阔的海域再次出发。</text><text x="35" y="137" font-size="17">We set sail for a wider blue.</text></g>
+ <g filter="url(#shadow)"><path d="M465 240 q0-24 24-24 h225 q24 0 24 24 v92 q0 24-24 24H489q-24 0-24-24Z" fill="#fff" stroke="#111" stroke-width="4"/><text x="489" y="273" class="b" font-size="22">더 넓은 바다를 위해</text><text x="489" y="301" font-size="18">다시 출항해요!</text><text x="489" y="328" font-size="16">为了更广阔的海洋，我们再次出发！</text></g>
+ <text x="384" y="451" class="fx" font-size="47" fill="#fff">EXPAND THE BLUE!</text><text x="25" y="486" class="b" font-size="20" fill="#fff">FTF-01 #76 · 더 넓은 푸른 내일을 향해</text>
+</g>
+<g transform="translate(776 8)">
+ <rect width="752" height="500" rx="10" fill="url(#reef)" class="panel"/>
+ <circle cx="630" cy="72" r="64" fill="#dafcff" opacity=".35"/>
+ <g stroke-linecap="round"><path d="M42 477 q5-120 42-166 q-10 78 25 166 M96 477 q-8-94 30-150 q-9 85 27 150" stroke="#ff6477" stroke-width="20"/><path d="M174 480 q5-130 43-177 q-7 92 28 177 M242 480 q-3-113 38-159 q-8 83 30 159" stroke="#ffaf48" stroke-width="18"/><path d="M535 480 q0-120 38-170 q-5 89 34 170 M608 480 q-4-110 37-155 q-8 83 31 155" stroke="#965ddb" stroke-width="19"/></g>
+ <circle cx="231" cy="259" r="39" fill="#efb88e" stroke="#101c28" stroke-width="5"/><path d="M195 247 q5-45 42-39 q31 5 36 40" fill="#3c241d"/><rect x="194" y="239" width="74" height="29" rx="10" fill="#6ad9ff" stroke="#0d3150" stroke-width="5"/><path d="M188 302 q47-23 98 3 l27 143H164Z" fill="#091e31" stroke="#07111c" stroke-width="6"/><rect x="158" y="320" width="24" height="104" rx="8" fill="#536b78"/><text x="205" y="359" class="b" font-size="28" fill="#fff">FTF</text><path d="M284 331 L381 279" stroke="#eab183" stroke-width="22" stroke-linecap="round"/><circle cx="390" cy="274" r="13" fill="#eab183"/>
+ <circle cx="404" cy="308" r="33" fill="#e8b086" stroke="#101c28" stroke-width="5"/><rect x="373" y="289" width="62" height="25" rx="9" fill="#6ad9ff" stroke="#0d3150" stroke-width="5"/><path d="M367 343 q37-19 78 2 l20 103H347Z" fill="#0b273e"/>
+ <ellipse cx="564" cy="190" rx="95" ry="55" fill="#6ba77b" stroke="#174037" stroke-width="7"/><ellipse cx="668" cy="180" rx="31" ry="24" fill="#88bf84" stroke="#174037" stroke-width="6"/><path d="M516 177 q43-38 88 0 q-37 36-88 0 M523 208 q36-29 75 1" fill="none" stroke="#315e46" stroke-width="5"/><path d="M519 215 q-68 57-98 29 q24-55 87-61 M587 214 q67 47 97 12 q-30-46-85-54" fill="#75b080" stroke="#174037" stroke-width="6"/>
+ <g stroke="#1f4356" stroke-width="3"><path d="M100 182 q38-27 70 0 q-32 29-70 0 l-25 19 6-36Z" fill="#ffcf45"/><path d="M565 350 q34-25 65 0 q-31 27-65 0 l-23 18 5-34Z" fill="#ff8f39"/><path d="M444 120 q30-21 56 0 q-26 24-56 0 l-20 15 5-29Z" fill="#56d2ff"/></g>
+ <g filter="url(#shadow)"><rect x="18" y="18" width="330" height="121" rx="14" class="box"/><text x="35" y="52" class="b" font-size="24">생명이 더 멀리 돌아옵니다</text><text x="35" y="82" font-size="18">확장된 산호초가 다시 숨 쉽니다.</text><text x="35" y="109" font-size="17">随着修复区域扩大，生命正在回归。</text><text x="35" y="134" font-size="17">Life returns as restoration expands.</text></g>
+ <text x="468" y="408" class="fx" font-size="48" fill="#fff34c">LIFE RETURNS!</text><text x="500" y="447" class="b" font-size="21" fill="#fff">생명이 돌아온다 · 生命正在回归</text>
+</g>
+<g transform="translate(8 516)">
+ <rect width="752" height="500" rx="10" fill="url(#lab)" class="panel"/>
+ <rect x="300" y="62" width="426" height="320" rx="16" fill="#0a5889" stroke="#7de4ff" stroke-width="5"/>
+ <text x="328" y="104" class="b" font-size="27" fill="#fff">EXPANDED RESTORATION DATA</text><text x="328" y="143" font-size="20" fill="#d8f8ff">CORAL COVERAGE</text>
+ <rect x="342" y="223" width="82" height="98" fill="#57b7f7"/><rect x="474" y="145" width="82" height="176" fill="#6ce5a8"/><text x="351" y="355" class="b" font-size="31" fill="#fff">35%</text><text x="484" y="355" class="b" font-size="31" fill="#fff">72%</text>
+ <path d="M590 314 l30-49 31 17 40-92" fill="none" stroke="#ffe665" stroke-width="8"/><text x="575" y="352" class="b" font-size="22" fill="#fff">BIODIVERSITY +52%</text>
+ <g fill="#b8efff"><path d="M591 190 q23-17 43 0 q-21 19-43 0 l-16 12 4-23Z"/><path d="M643 232 q22-16 41 0 q-20 18-41 0 l-15 11 4-22Z"/><path d="M603 264 q21-15 39 0 q-19 17-39 0 l-14 10 3-20Z"/></g>
+ <circle cx="118" cy="241" r="42" fill="#edb58d" stroke="#101820" stroke-width="5"/><path d="M80 230 q11-51 53-43 q34 8 37 44 q-28-20-52-17Z" fill="#2c211d"/><path d="M67 287 q52-24 106 2 l27 167H40Z" fill="#e6eef4" stroke="#1b2c3a" stroke-width="5"/><path d="M111 331 L285 238" stroke="#eab183" stroke-width="22" stroke-linecap="round"/><circle cx="294" cy="233" r="13" fill="#eab183"/>
+ <circle cx="220" cy="355" r="35" fill="#f0bb94" stroke="#101820" stroke-width="5"/><path d="M188 345 q7-39 38-38 q31 1 36 39" fill="#4a2a20"/><path d="M184 393 q40-20 80 2 l18 61H170Z" fill="#17354e"/>
+ <g filter="url(#shadow)"><rect x="18" y="18" width="480" height="128" rx="14" class="box"/><text x="37" y="51" class="b" font-size="24">데이터가 말해주는 실제 변화</text><text x="37" y="82" font-size="18">산호 피복률 35%→72%, 생물다양성 +52%</text><text x="37" y="109" font-size="17">珊瑚覆盖率35%→72%，生物多样性+52%。</text><text x="37" y="134" font-size="17">Coral cover 35%→72%; biodiversity +52%.</text></g>
+ <text x="367" y="446" class="fx" font-size="49" fill="#77edff">REAL CHANGE!</text>
+</g>
+<g transform="translate(776 516)">
+ <rect width="752" height="500" rx="10" fill="url(#sun)" class="panel"/>
+ <circle cx="596" cy="138" r="54" fill="#fff3ad"/>
+ <path d="M0 267 Q140 228 292 266 T752 255 V500 H0Z" fill="#1b5c7b"/><path d="M0 306 Q166 262 328 303 T752 290" fill="none" stroke="#f5d17d" stroke-width="9" opacity=".8"/>
+ <path d="M0 234 q80-55 155 0 q80-70 168 0" fill="#3e5771" opacity=".85"/>
+ <circle cx="167" cy="307" r="38" fill="#edb58d" stroke="#111" stroke-width="5"/><path d="M128 345 q41-23 84 1 l22 129H106Z" fill="#123650" stroke="#111" stroke-width="5"/><text x="145" y="404" class="b" font-size="25" fill="#fff">FTF</text>
+ <circle cx="280" cy="329" r="33" fill="#f1bd96" stroke="#111" stroke-width="5"/><path d="M250 363 q32-17 66 2 l16 110H235Z" fill="#f4f6f7" stroke="#111" stroke-width="5"/><circle cx="368" cy="338" r="31" fill="#ebb087" stroke="#111" stroke-width="5"/><path d="M340 370 q31-16 63 2 l16 103H326Z" fill="#f7f3e8" stroke="#111" stroke-width="5"/>
+ <circle cx="475" cy="312" r="37" fill="#efb88f" stroke="#111" stroke-width="5"/><path d="M437 348 q39-21 79 1 l20 126H420Z" fill="#143954" stroke="#111" stroke-width="5"/><text x="454" y="406" class="b" font-size="25" fill="#fff">FTF</text>
+ <circle cx="571" cy="349" r="29" fill="#f0bd98" stroke="#111" stroke-width="5"/><path d="M544 380 q28-14 58 2 l14 93H531Z" fill="#e8f3f7" stroke="#111" stroke-width="5"/>
+ <g filter="url(#shadow)"><path d="M36 28 h420 a18 18 0 0 1 18 18 v127 a18 18 0 0 1-18 18H36a18 18 0 0 1-18-18V46a18 18 0 0 1 18-18Z" fill="#fff" stroke="#111" stroke-width="4"/><text x="56" y="65" class="b" font-size="24">오늘의 변화가 다음 세대의 바다가 됩니다.</text><text x="56" y="98" font-size="18">우리는 함께 더 넓은 푸른 내일을 지켜갈 거예요.</text><text x="56" y="128" font-size="17">今天的改变，将成为下一代更蓝的海洋。</text><text x="56" y="157" font-size="17">Today's change becomes tomorrow's wider blue ocean.</text></g>
+ <g filter="url(#shadow)"><path d="M511 185 q0-18 18-18h180q18 0 18 18v85q0 18-18 18H529q-18 0-18-18Z" fill="#fff" stroke="#111" stroke-width="4"/><text x="535" y="221" class="b" font-size="21">우리가 지켜줄게요!</text><text x="535" y="248" font-size="17">我们会守护它！</text><text x="535" y="273" font-size="17">We will protect it!</text></g>
+ <text x="118" y="464" class="fx" font-size="44" fill="#fff5d7">TOGETHER FOR A BRIGHTER TOMORROW!</text>
+</g>
+</g>
+</svg>
