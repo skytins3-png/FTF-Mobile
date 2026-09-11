@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-labelledby="title desc">
+<title id="title">FTF-01 #64 — 산호를 식히는 긴급 작전</title>
+<desc id="desc">Four-panel cinematic manga scene continuing the FTF-01 reef-monitoring story. A marine biologist confirms heat stress from sensor data, a research crew deploys reef-safe temporary shade over a coral nursery, divers relocate vulnerable coral fragments to a cooler deeper refuge, and the community reviews recovery data as turtles and fish return. Korean Chinese English narration, speech bubbles, visual sound effects, fully illustrated characters, research boat, reef, sensors, shade canopy and marine life.</desc>
+<defs>
+  <linearGradient id="skyA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#55c9f1"/><stop offset=".58" stop-color="#dff8ff"/><stop offset="1" stop-color="#ffd79d"/></linearGradient>
+  <linearGradient id="seaA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#25c8e7"/><stop offset=".48" stop-color="#0a7da4"/><stop offset="1" stop-color="#043c58"/></linearGradient>
+  <linearGradient id="deepA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0f8fb6"/><stop offset=".5" stop-color="#085673"/><stop offset="1" stop-color="#02283b"/></linearGradient>
+  <linearGradient id="sunsetA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f4a15d"/><stop offset=".5" stop-color="#ffd8a2"/><stop offset="1" stop-color="#5d8ca6"/></linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop stop-color="#fff7c6"/><stop offset="1" stop-color="#fff7c6" stop-opacity="0"/></radialGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".35"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+  <style>
+    .panel{stroke:#071a26;stroke-width:10}.box{fill:#fffdf7;stroke:#122e3c;stroke-width:4}.bubble{fill:#fff;stroke:#102a38;stroke-width:4}
+    .ko{font:700 22px 'Noto Sans KR','Malgun Gothic',Arial,sans-serif;fill:#101820}.zh{font:600 18px 'Noto Sans SC','Microsoft YaHei',Arial,sans-serif;fill:#17465c}.en{font:600 17px Arial,sans-serif;fill:#153040}
+    .sfx{font:900 42px Impact,Arial,sans-serif;paint-order:stroke;stroke:#fff;stroke-width:9;stroke-linejoin:round}.skin{fill:#e7ad85;stroke:#704733;stroke-width:2}.hair{fill:#18242d}
+    .navy{fill:#103f5d;stroke:#062b40;stroke-width:4}.orange{fill:#df7a39;stroke:#784116;stroke-width:4}.reef1{fill:#ef7465;stroke:#7c3030;stroke-width:3}.reef2{fill:#e6c653;stroke:#796522;stroke-width:3}.reef3{fill:#9b7fe1;stroke:#4f3f7b;stroke-width:3}.reef4{fill:#62c99e;stroke:#286f58;stroke-width:3}
+  </style>
+</defs>
+<!-- PANEL 1 : HEAT STRESS CONFIRMED -->
+<g>
+  <rect class="panel" x="4" y="4" width="760" height="500" fill="url(#skyA)"/>
+  <path d="M4 336Q160 294 320 340T760 318V500H4Z" fill="#0c8eaf"/><path d="M4 393Q165 353 344 394T760 370V500H4Z" fill="#076c8b" opacity=".88"/>
+  <path d="M550 262q42-70 86-45q34 18 56 54q36-39 68-8v64H550Z" fill="#55996f"/>
+  <g transform="translate(54 210)" filter="url(#shadow)"><ellipse class="skin" cx="56" cy="48" rx="38" ry="42"/><path class="hair" d="M16 47Q21 5 57 4q41 3 43 48q-22-15-43-12q-20 2-41 7"/><path class="navy" d="M7 101q50-23 101 6l18 128H-4Z"/><path d="M24 18h66l15 18H13Z" fill="#173f58"/><text x="23" y="152" font-size="17" font-weight="900" fill="#e7faff">MARINE LAB</text></g>
+  <g transform="translate(238 218)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="47" rx="37" ry="41"/><path class="hair" d="M17 45Q20 7 55 4q39 3 41 43q-21-12-40-10q-20 2-39 8"/><path class="orange" d="M5 98q48-21 97 6l16 128H-4Z"/><path d="M98 127q80 6 153 49" stroke="#e7ad85" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+  <g transform="translate(455 246)" filter="url(#shadow)"><rect x="0" y="0" width="268" height="178" rx="14" fill="#e9f5f2" stroke="#173b49" stroke-width="6"/><rect x="18" y="22" width="232" height="120" rx="8" fill="#0d3448"/><path d="M34 112L68 92l30 12 32-48 36 15 31-34 35 21" fill="none" stroke="#ff5e57" stroke-width="6"/><line x1="34" y1="118" x2="235" y2="118" stroke="#7ed6e9" stroke-width="2"/><line x1="34" y1="42" x2="34" y2="118" stroke="#7ed6e9" stroke-width="2"/><text x="49" y="54" font-size="18" font-weight="900" fill="#fff">28.9°C</text><text x="48" y="82" font-size="16" fill="#ffd154">HEAT STRESS</text><circle cx="218" cy="45" r="11" fill="#ff4e45"/><text x="62" y="165" font-size="18" font-weight="900" fill="#17445c">REEF SENSOR LIVE</text></g>
+  <rect class="box" x="18" y="18" width="500" height="142" rx="8"/><text x="38" y="50" class="ko">센서 자료와 현장 관찰이 같은 신호를 보냅니다.</text><text x="38" y="82" class="ko">보육 산호가 열 스트레스를 받기 시작했습니다.</text><text x="38" y="112" class="zh">传感器与现场观察同时显示：育苗珊瑚开始出现热应激。</text><text x="38" y="142" class="en">Sensor data confirms early heat stress in the coral nursery.</text>
+  <path class="bubble" d="M526 40h216q14 0 14 15v112q0 15-14 15H630l-28 29 6-29h-82q-14 0-14-15V55q0-15 14-15Z"/><text x="544" y="78" class="ko">지금 움직이면 지킬 수 있어요!</text><text x="544" y="112" class="zh">现在行动，还来得及保护它们！</text><text x="544" y="146" class="en">Act now — we can still protect them!</text>
+  <text x="24" y="468" class="sfx" fill="#ff594a">ALERT! HEAT STRESS!</text>
+</g>
+<!-- PANEL 2 : SHADE DEPLOYMENT -->
+<g transform="translate(768 0)">
+  <rect class="panel" x="4" y="4" width="764" height="500" fill="url(#deepA)"/>
+  <g opacity=".22" stroke="#eaffff" stroke-width="5"><path d="M90 0L30 260M260 0L165 280M490 0L355 300M720 0L575 290"/></g>
+  <path d="M4 394Q155 346 322 392T760 366V500H4Z" fill="#7b6d59"/>
+  <g transform="translate(74 182)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="48" rx="36" ry="40"/><rect x="17" y="40" width="77" height="31" rx="13" fill="#c9f5ff" stroke="#153947" stroke-width="4"/><path class="navy" d="M6 94q48-21 96 6l16 127H-4Z"/><path d="M99 125q76 11 139 50" stroke="#e7ad85" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+  <g transform="translate(310 190)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="48" rx="36" ry="40"/><rect x="17" y="40" width="77" height="31" rx="13" fill="#c9f5ff" stroke="#153947" stroke-width="4"/><path d="M6 94q48-21 96 6l16 127H-4Z" fill="#d65d79" stroke="#17313b" stroke-width="4"/></g>
+  <g transform="translate(448 235)" filter="url(#shadow)"><path d="M0 0h256l-30 96H28Z" fill="#e8f5e8" opacity=".92" stroke="#153947" stroke-width="6"/><path d="M28 96v96M226 96v96" stroke="#d7eef0" stroke-width="8"/><path d="M0 0l-48 68M256 0l48 68" stroke="#d7eef0" stroke-width="7"/><text x="63" y="56" font-size="25" font-weight="900" fill="#165c72">REEF-SAFE SHADE</text></g>
+  <g transform="translate(480 370)"><path class="reef1" d="M20 108q-9-48 20-70q0 37 18 30q8-44 32-57q-6 47 12 50q17-35 37-40q-10 47 1 82Z"/><path class="reef2" d="M128 110q-8-45 22-69q0 37 19 29q8-42 30-55q-5 46 12 48q17-33 36-38q-10 44-1 79Z"/></g>
+  <rect class="box" x="18" y="18" width="493" height="140" rx="8"/><text x="38" y="50" class="ko">잠수팀이 산호를 건드리지 않는 임시 차광막을 펼칩니다.</text><text x="38" y="82" class="ko">강한 햇빛과 열 부담을 줄여 회복 시간을 벌어 줍니다.</text><text x="38" y="112" class="zh">潜水队部署不接触珊瑚的临时遮阳棚，降低光热压力。</text><text x="38" y="142" class="en">Divers deploy a reef-safe shade canopy to reduce heat stress.</text>
+  <path class="bubble" d="M519 42h220q14 0 14 15v110q0 15-14 15H629l-26 28 5-28h-89q-14 0-14-15V57q0-15 14-15Z"/><text x="537" y="80" class="ko">산호에 닿지 않게! 천천히 고정해요!</text><text x="537" y="114" class="zh">不要碰到珊瑚！慢慢固定！</text><text x="537" y="148" class="en">No contact with coral — secure it slowly!</text>
+  <text x="356" y="468" class="sfx" fill="#ffd53e">DEPLOY! SHADE! COOL!</text>
+</g>
+<!-- PANEL 3 : COOLER REFUGE TRANSFER -->
+<g transform="translate(0 512)">
+  <rect class="panel" x="4" y="4" width="760" height="508" fill="url(#seaA)"/>
+  <path d="M4 364Q150 326 318 370T760 348V508H4Z" fill="#756c59"/>
+  <g transform="translate(60 202)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="48" rx="36" ry="40"/><rect x="17" y="40" width="77" height="31" rx="13" fill="#c9f5ff" stroke="#153947" stroke-width="4"/><path class="navy" d="M6 94q48-21 96 6l16 127H-4Z"/><path d="M100 126q92 9 178 63" stroke="#e7ad85" stroke-width="15" fill="none" stroke-linecap="round"/></g>
+  <g transform="translate(302 214)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="48" rx="36" ry="40"/><rect x="17" y="40" width="77" height="31" rx="13" fill="#c9f5ff" stroke="#153947" stroke-width="4"/><path d="M6 94q48-21 96 6l16 127H-4Z" fill="#d65d79" stroke="#17313b" stroke-width="4"/></g>
+  <g transform="translate(490 300)" filter="url(#shadow)"><rect x="0" y="0" width="215" height="122" rx="12" fill="#e7f5ec" stroke="#173c48" stroke-width="6"/><path d="M18 86q31-46 65-18q34-39 69-8q22-26 45-11" fill="none" stroke="#4ca36b" stroke-width="10"/><text x="39" y="31" font-size="19" font-weight="900" fill="#17445b">COOL REFUGE</text><text x="54" y="56" font-size="17" fill="#17445b">27.2°C</text></g>
+  <g transform="translate(476 394)"><path class="reef3" d="M20 100q-8-42 19-64q0 34 18 27q7-39 29-51q-5 42 12 44q15-30 34-34q-8 40-1 73Z"/><path class="reef4" d="M126 102q-7-40 20-62q0 33 18 26q7-38 28-49q-4 40 11 42q15-29 33-33q-8 38-1 70Z"/></g>
+  <rect class="box" x="18" y="18" width="500" height="140" rx="8"/><text x="38" y="50" class="ko">취약한 산호 조각은 더 깊고 시원한 임시 보육장으로 옮깁니다.</text><text x="38" y="82" class="ko">원래 군락의 유전적 다양성을 지키며 위치를 모두 기록합니다.</text><text x="38" y="112" class="zh">脆弱珊瑚被转移到更深更凉的临时育苗区，并完整记录位置。</text><text x="38" y="142" class="en">Vulnerable fragments move to a cooler refuge, each one carefully logged.</text>
+  <path class="bubble" d="M527 42h210q14 0 14 15v111q0 15-14 15H628l-26 28 5-28h-80q-14 0-14-15V57q0-15 14-15Z"/><text x="545" y="80" class="ko">번호 확인! 같은 산호끼리 기록해요!</text><text x="545" y="114" class="zh">确认编号！每株珊瑚都要记录！</text><text x="545" y="148" class="en">ID confirmed — log every coral!</text>
+  <text x="26" y="474" class="sfx" fill="#7ce8ff">MOVE! LOG! PROTECT!</text>
+</g>
+<!-- PANEL 4 : RECOVERY REVIEW -->
+<g transform="translate(768 512)">
+  <rect class="panel" x="4" y="4" width="764" height="508" fill="url(#sunsetA)"/>
+  <circle cx="592" cy="92" r="112" fill="url(#glow)"/><circle cx="592" cy="92" r="38" fill="#ffe79c"/>
+  <path d="M4 282Q155 240 325 286T760 258V508H4Z" fill="#147f9d"/><path d="M4 340Q160 300 330 344T760 318V508H4Z" fill="#075d79"/>
+  <g transform="translate(40 220)" filter="url(#shadow)"><path d="M0 84h290l-36 82H32Z" fill="#f5f4ed" stroke="#163946" stroke-width="5"/><path d="M73 18h112v68H73Z" fill="#d9eef3" stroke="#163946" stroke-width="4"/><path d="M129 18V-42M129-42l66 27" stroke="#163946" stroke-width="5"/><text x="64" y="138" font-size="19" font-weight="900" fill="#153f57">FTF REEF TEAM</text></g>
+  <g transform="translate(360 214)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="48" rx="37" ry="41"/><path class="hair" d="M17 44Q20 5 55 4q39 2 41 43q-21-12-40-10q-19 2-39 7"/><path class="navy" d="M6 97q48-21 97 5l16 129H-4Z"/><path d="M24 18h65l14 17H13Z" fill="#173f58"/></g>
+  <g transform="translate(486 214)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="48" rx="37" ry="41"/><path class="hair" d="M17 44Q20 5 55 4q39 2 41 43q-21-12-40-10q-19 2-39 7"/><path class="orange" d="M6 97q48-21 97 5l16 129H-4Z"/></g>
+  <g transform="translate(610 214)" filter="url(#shadow)"><ellipse class="skin" cx="55" cy="48" rx="37" ry="41"/><path class="hair" d="M17 44Q20 5 55 4q39 2 41 43q-21-12-40-10q-19 2-39 7"/><path d="M6 97q48-21 97 5l16 129H-4Z" fill="#d75c79" stroke="#17313b" stroke-width="4"/></g>
+  <g transform="translate(452 350)"><ellipse cx="114" cy="76" rx="92" ry="42" fill="#0a6f8d"/><path d="M40 96q34-45 79-20q34-37 74-4" fill="none" stroke="#70d69f" stroke-width="12"/><path d="M38 30q22-24 52-6q21-18 45-3q19-14 37 0" fill="none" stroke="#f0d05b" stroke-width="8"/><path d="M7 56q34-20 66 2M159 54q31-18 58 2" stroke="#dffaff" stroke-width="5" fill="none"/></g>
+  <rect class="box" x="18" y="18" width="508" height="140" rx="8"/><text x="38" y="50" class="ko">며칠 뒤 수온이 내려가고, 팀은 산호의 색과 생존률을 다시 확인합니다.</text><text x="38" y="82" class="ko">빠른 대응이 다음 회복의 시간을 만들어 냈습니다.</text><text x="38" y="112" class="zh">数日后海温回落，团队再次确认珊瑚颜色与存活率。</text><text x="38" y="142" class="en">Days later, cooler water and careful monitoring show the reef stabilizing.</text>
+  <path class="bubble" d="M535 40h210q14 0 14 15v113q0 15-14 15H636l-26 28 5-28h-80q-14 0-14-15V55q0-15 14-15Z"/><text x="553" y="78" class="ko">다음 경보도 놓치지 않아요!</text><text x="553" y="112" class="zh">下一次警报，我们也不会错过！</text><text x="553" y="146" class="en">We won't miss the next warning!</text>
+  <text x="300" y="476" class="sfx" fill="#fff04f">COOLER! STABLE! RECOVER!</text>
+</g>
+</svg>
