@@ -20,9 +20,7 @@
     const idx=requested;
     const viewer=q('viewer'),img=q('comicImg'),built=q('ftfBuiltImage');
     if(!viewer||!img)return result;
-    const sceneNumber=idx+1;
-    const ext=(n===1&&sceneNumber===77)?'jpg':'svg';
-    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(sceneNumber).padStart(2,'0')}.${ext}?v=100`;
+    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(idx+1).padStart(2,'0')}.svg?v=101`;
     window.ftfSceneIndex=idx;
     viewer.classList.add('show','ftf-integrated');
     if(built)built.style.display='none';
