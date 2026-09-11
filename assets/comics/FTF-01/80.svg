@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07152f"/><stop offset=".55" stop-color="#123f63"/><stop offset="1" stop-color="#0a2438"/></linearGradient>
+  <linearGradient id="reef" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0c88ad"/><stop offset=".55" stop-color="#075678"/><stop offset="1" stop-color="#052d45"/></linearGradient>
+  <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffb067"/><stop offset=".42" stop-color="#ffdba0"/><stop offset="1" stop-color="#28718c"/></linearGradient>
+  <linearGradient id="lab" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eafaff"/><stop offset="1" stop-color="#8dd0e8"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".45"/></filter>
+  <style>.t{font-family:Arial,'Malgun Gothic','Noto Sans CJK KR',sans-serif}.b{font-weight:900}.panel{stroke:#fff;stroke-width:7}.box{fill:#fffffff4;stroke:#101820;stroke-width:4}.fx{font-weight:1000;font-style:italic;paint-order:stroke;stroke:#032238;stroke-width:6;stroke-linejoin:round}.small{font-size:17px}</style>
+</defs>
+<rect width="1536" height="1024" fill="#03111c"/>
+<g class="t">
+<rect width="1536" height="72" fill="#06121f"/>
+<text x="24" y="47" font-size="38" class="b" fill="#fff">FTF-01 #80 · 산호가 별처럼 피어난 밤</text>
+<text x="1034" y="31" font-size="19" class="b" fill="#7feaff">THE NIGHT THE REEF BLOOMED</text>
+<text x="1034" y="56" font-size="18" fill="#fff">珊瑚如星光绽放的夜晚</text>
+
+<!-- PANEL 1: night watch -->
+<g transform="translate(8 80)">
+ <rect width="752" height="455" rx="10" fill="url(#sky)" class="panel"/>
+ <circle cx="640" cy="72" r="42" fill="#eef7ff"/><g fill="#dff5ff"><circle cx="563" cy="47" r="3"/><circle cx="687" cy="121" r="3"/><circle cx="525" cy="103" r="2"/></g>
+ <path d="M0 332 Q170 297 365 329 T752 313 V455 H0Z" fill="#08627e"/><path d="M0 350 Q175 317 364 346 T752 331" fill="none" stroke="#8ce9f6" stroke-width="5" opacity=".55"/>
+ <g transform="translate(310 154)"><path d="M0 95 L286 95 L246 154 H38Z" fill="#e9f3f6" stroke="#0b2333" stroke-width="6"/><rect x="108" y="22" width="101" height="73" rx="8" fill="#f7fbff" stroke="#0b2333" stroke-width="6"/><rect x="130" y="39" width="55" height="28" fill="#75c9e7"/><line x1="156" y1="22" x2="156" y2="-30" stroke="#0b2333" stroke-width="6"/><path d="M156 -30 L210 -10 L156 5Z" fill="#38c3dd"/></g>
+ <g transform="translate(55 170)"><circle cx="92" cy="68" r="39" fill="#efb78e" stroke="#111d28" stroke-width="5"/><path d="M55 60 q12-43 46-38 q31 5 34 40" fill="#34231f"/><path d="M38 115 q53-24 108 4 l28 173H17Z" fill="#113c5b" stroke="#07131d" stroke-width="6"/><text x="64" y="170" font-size="29" class="b" fill="#fff">FTF</text><path d="M145 151 L218 121" stroke="#edb48b" stroke-width="20" stroke-linecap="round"/><circle cx="228" cy="117" r="13" fill="#edb48b"/></g>
+ <g filter="url(#shadow)"><rect x="18" y="18" width="435" height="128" rx="14" class="box"/><text x="36" y="51" font-size="24" class="b">회복 12일째, 연구팀은 밤바다를 지킵니다</text><text x="36" y="82" class="small">수온이 안정되자 산호 군락에서 이상한 움직임이 포착됩니다.</text><text x="36" y="109" class="small">恢复第12天，研究队发现珊瑚群出现异常活动。</text><text x="36" y="135" class="small">Day 12: the night watch detects unusual movement across the reef.</text></g>
+ <text x="474" y="416" font-size="48" class="fx" fill="#ffe76f">NIGHT WATCH!</text>
+</g>
+
+<!-- PANEL 2: coral spawning -->
+<g transform="translate(776 80)">
+ <rect width="752" height="455" rx="10" fill="url(#reef)" class="panel"/>
+ <g opacity=".95"><path d="M45 455 q12-128 43-190 q0 90 25 190" stroke="#ff6e7d" stroke-width="18"/><path d="M116 455 q4-116 37-179 q-4 92 28 179" stroke="#ff9b52" stroke-width="18"/><path d="M617 455 q4-126 39-192 q-3 93 31 192" stroke="#a978df" stroke-width="18"/></g>
+ <g fill="#ffb7c4" opacity=".95"><circle cx="252" cy="204" r="7"/><circle cx="273" cy="185" r="6"/><circle cx="299" cy="165" r="8"/><circle cx="324" cy="192" r="7"/><circle cx="349" cy="150" r="6"/><circle cx="377" cy="172" r="8"/><circle cx="399" cy="137" r="7"/><circle cx="424" cy="191" r="6"/><circle cx="452" cy="157" r="7"/><circle cx="478" cy="127" r="6"/><circle cx="506" cy="169" r="8"/><circle cx="533" cy="146" r="7"/></g>
+ <g transform="translate(94 203)"><circle cx="83" cy="66" r="36" fill="#efb58b" stroke="#0b1a24" stroke-width="5"/><rect x="49" y="53" width="68" height="27" rx="9" fill="#68dbff" stroke="#10394f" stroke-width="5"/><path d="M32 109 q49-22 101 3 l25 158H12Z" fill="#09283e" stroke="#06141d" stroke-width="6"/><text x="55" y="162" font-size="27" class="b" fill="#fff">FTF</text><path d="M133 147 L227 180" stroke="#eab083" stroke-width="20" stroke-linecap="round"/><circle cx="237" cy="184" r="13" fill="#eab083"/></g>
+ <g transform="translate(499 249)"><ellipse cx="79" cy="66" rx="63" ry="37" fill="#6da57e" stroke="#174537" stroke-width="6"/><ellipse cx="146" cy="60" rx="23" ry="17" fill="#8bc28f" stroke="#174537" stroke-width="5"/><path d="M45 62 q32-24 65 0 q-29 25-65 0" fill="none" stroke="#315f48" stroke-width="4"/><path d="M46 83 q-45 36-65 15 q20-33 57-42" fill="#77b287" stroke="#174537" stroke-width="5"/></g>
+ <g filter="url(#shadow)"><rect x="18" y="18" width="437" height="128" rx="14" class="box"/><text x="36" y="51" font-size="24" class="b">산호들이 동시에 알을 방출하기 시작합니다!</text><text x="36" y="82" class="small">수천 개의 분홍빛 알이 별처럼 물속을 채웁니다.</text><text x="36" y="109" class="small">成千上万颗粉红色珊瑚卵像星光一样升起。</text><text x="36" y="135" class="small">Thousands of coral eggs rise like stars through the water.</text></g>
+ <text x="371" y="414" font-size="44" class="fx" fill="#ffcfdf">BLOOM! BLOOM!</text>
+</g>
+
+<!-- PANEL 3: microscope evidence -->
+<g transform="translate(8 543)">
+ <rect width="752" height="473" rx="10" fill="url(#lab)" class="panel"/>
+ <rect x="388" y="95" width="312" height="249" rx="15" fill="#fff" stroke="#164d6b" stroke-width="6"/><text x="417" y="128" font-size="22" class="b" fill="#164d6b">SPAWNING SAMPLE</text><circle cx="505" cy="215" r="58" fill="#d9f8ff" stroke="#2789a6" stroke-width="5"/><g fill="#f59ab0"><circle cx="480" cy="196" r="14"/><circle cx="521" cy="194" r="12"/><circle cx="494" cy="229" r="13"/><circle cx="534" cy="232" r="11"/></g><text x="586" y="190" font-size="18" class="b" fill="#20718d">VIABLE</text><text x="586" y="217" font-size="31" class="b" fill="#0d9f76">87%</text><text x="586" y="250" font-size="18" fill="#20718d">larvae active</text>
+ <g transform="translate(62 170)"><circle cx="89" cy="66" r="37" fill="#efb68d" stroke="#13212b" stroke-width="5"/><path d="M55 58 q9-41 41-36 q30 4 32 40" fill="#33231e"/><path d="M35 110 q51-23 104 4 l25 165H13Z" fill="#123a59"/><text x="58" y="166" font-size="27" class="b" fill="#fff">FTF</text><path d="M139 150 L241 138" stroke="#eab083" stroke-width="20" stroke-linecap="round"/><circle cx="251" cy="136" r="13" fill="#eab083"/></g>
+ <g filter="url(#shadow)"><rect x="18" y="18" width="445" height="128" rx="14" class="box"/><text x="36" y="51" font-size="24" class="b">현미경 아래, 살아 있는 유생이 확인됩니다</text><text x="36" y="82" class="small">복원 산호가 스스로 다음 세대를 만들기 시작한 것입니다.</text><text x="36" y="109" class="small">显微镜下确认了活跃幼体，修复珊瑚开始自然繁衍。</text><text x="36" y="135" class="small">Active larvae confirm the restored coral is reproducing on its own.</text></g>
+ <text x="397" y="431" font-size="46" class="fx" fill="#58dfb4">NEW LIFE!</text>
+</g>
+
+<!-- PANEL 4: dawn future -->
+<g transform="translate(776 543)">
+ <rect width="752" height="473" rx="10" fill="url(#dawn)" class="panel"/>
+ <circle cx="628" cy="79" r="55" fill="#fff5b6"/>
+ <path d="M0 296 Q174 245 360 294 T752 281 V473 H0Z" fill="#0a6d8e"/><path d="M0 324 Q177 279 359 319 T752 307" fill="none" stroke="#ffe299" stroke-width="8"/>
+ <g transform="translate(68 194)"><circle cx="82" cy="61" r="35" fill="#efb78e" stroke="#13212b" stroke-width="5"/><path d="M50 54 q9-39 39-35 q29 4 31 38" fill="#35231e"/><path d="M34 104 q48-21 99 3 l24 146H13Z" fill="#123b59"/><text x="55" y="157" font-size="26" class="b" fill="#fff">FTF</text></g>
+ <g transform="translate(278 214)"><circle cx="35" cy="35" r="28" fill="#efbc96" stroke="#13212b" stroke-width="4"/><path d="M10 29 q6-27 30-24 q21 3 23 27" fill="#3a2a23"/><path d="M2 70 q35-16 71 2 l17 108H-8Z" fill="#fff7e3" stroke="#19354c" stroke-width="4"/><text x="4" y="113" font-size="15" class="b" fill="#176183">OCEAN KID</text><circle cx="144" cy="37" r="28" fill="#edbb94" stroke="#13212b" stroke-width="4"/><path d="M118 30 q6-27 30-24 q22 3 24 28" fill="#2e211d"/><path d="M111 73 q36-17 73 2 l17 105H101Z" fill="#eef9ff" stroke="#19354c" stroke-width="4"/><text x="118" y="114" font-size="15" class="b" fill="#176183">FTF KIDS</text></g>
+ <g transform="translate(529 228)"><path d="M0 130 q12-92 34-138 q-1 68 22 138" stroke="#ff6f7c" stroke-width="17"/><path d="M52 130 q3-84 31-132 q-3 67 24 132" stroke="#ff9b50" stroke-width="17"/><g fill="#ffd0dc"><circle cx="72" cy="25" r="6"/><circle cx="102" cy="9" r="7"/><circle cx="126" cy="29" r="6"/></g></g>
+ <g filter="url(#shadow)"><rect x="18" y="18" width="442" height="128" rx="14" class="box"/><text x="36" y="51" font-size="24" class="b">이제 바다는 스스로 다음 장을 씁니다</text><text x="36" y="82" class="small">우리가 지킨 산호가 새로운 산호의 시작이 됩니다.</text><text x="36" y="109" class="small">我们守护的珊瑚，正在孕育下一代珊瑚礁。</text><text x="36" y="135" class="small">The coral we protected is now creating the reef's next generation.</text></g>
+ <text x="323" y="431" font-size="42" class="fx" fill="#fff4a7">THE REEF LIVES ON!</text>
+</g>
+</g>
+</svg>
