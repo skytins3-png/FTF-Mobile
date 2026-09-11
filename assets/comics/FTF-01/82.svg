@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">FTF-01 Scene 82 - 해초숲에 돌아온 작은 생명</title>
+<desc id="desc">Four-panel cinematic manga scene: ocean team restores a seagrass nursery, divers plant shoots, juvenile fish and seahorses return, and children promise to protect the recovering coast. Korean, Chinese, and English narration and speech are integrated.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#68c9ff"/><stop offset="1" stop-color="#eaf9ff"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b91c7"/><stop offset="1" stop-color="#043b67"/></linearGradient>
+ <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b7cb2"/><stop offset="1" stop-color="#022b50"/></linearGradient>
+ <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd07b"/><stop offset=".48" stop-color="#ff9e7b"/><stop offset="1" stop-color="#6d75c9"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity=".35"/></filter>
+ <style>.panel{stroke:#071827;stroke-width:8}.box{fill:#fff;stroke:#071827;stroke-width:4;rx:14}.ko{font:700 25px 'Noto Sans KR',sans-serif;fill:#08151f}.zh{font:600 20px 'Noto Sans SC',sans-serif;fill:#1a2a35}.en{font:600 19px Arial,sans-serif;fill:#173342}.fx{font:900 43px Impact,Arial,sans-serif;fill:#fff;stroke:#064e7c;stroke-width:8;paint-order:stroke;letter-spacing:1px}.small{font-size:16px}.bubble{fill:#fff;stroke:#071827;stroke-width:4}.line{stroke:#071827;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.skin{fill:#f3c3a0;stroke:#071827;stroke-width:3}.hair{fill:#2a1a18;stroke:#071827;stroke-width:3}.suit{fill:#153852;stroke:#071827;stroke-width:3}.vest{fill:#0f2941;stroke:#071827;stroke-width:3}.eye{fill:#12202c}</style>
+</defs>
+<!-- PANEL 1: departure / seagrass mission -->
+<g class="panel"><rect x="4" y="4" width="592" height="386" fill="url(#sky)"/>
+ <path d="M4 245 Q160 215 330 250 T596 235 V390 H4Z" fill="url(#sea)"/>
+ <path d="M370 108 h150 l38 50 v102 H320 v-88 l50-64Z" fill="#f5f7f8" stroke="#071827" stroke-width="5"/>
+ <rect x="405" y="122" width="62" height="39" fill="#9be6ff" stroke="#071827" stroke-width="4"/><rect x="477" y="122" width="42" height="39" fill="#9be6ff" stroke="#071827" stroke-width="4"/>
+ <path d="M323 258 h245 l-28 49 H350Z" fill="#154b70" stroke="#071827" stroke-width="5"/><text x="388" y="212" font-family="Arial" font-weight="800" font-size="21" fill="#123d60">FTF OCEAN TEAM</text>
+ <line x1="442" y1="108" x2="442" y2="62" class="line"/><path d="M444 64 l51 18 -51 17Z" fill="#ffef72" stroke="#071827" stroke-width="3"/>
+ <!-- lead researcher actual illustrated woman -->
+ <ellipse cx="158" cy="226" rx="45" ry="50" class="skin"/><path d="M113 212 q10-71 73-48 43 15 27 77-12-38-34-42-42 18-66 13Z" class="hair"/>
+ <circle cx="145" cy="222" r="5" class="eye"/><circle cx="177" cy="219" r="5" class="eye"/><path d="M148 243 q18 13 34-2" fill="none" class="line"/>
+ <path d="M104 270 q54-28 110 2 l22 98H76Z" class="vest"/><path d="M126 279 h68 v22 h-68Z" fill="#eaf8ff"/><text x="138" y="296" font-family="Arial" font-weight="900" font-size="14" fill="#13384f">FTF</text>
+ <path d="M81 299 q-37 6-52 35" fill="none" class="line"/><path d="M219 300 q58 1 81 42" fill="none" class="line"/>
+ <!-- crates --> <rect x="266" y="296" width="112" height="58" rx="8" fill="#8f653c" stroke="#071827" stroke-width="4"/><path d="M276 330 q12-36 25 0t25 0t25 0" fill="none" stroke="#4eaf57" stroke-width="7"/><text x="278" y="350" font-family="Arial" font-weight="800" font-size="14" fill="#fff">SEAGRASS</text>
+ <rect class="box" x="18" y="18" width="315" height="96"/><text x="33" y="48" class="ko">1. 해초숲 복원지로 출항!</text><text x="33" y="75" class="zh">向海草床修复区出发！</text><text x="33" y="101" class="en">Set sail for the seagrass nursery!</text>
+ <path class="bubble" d="M213 144 h183 q18 0 18 18 v64 q0 18-18 18H272 l-28 29 6-29h-37q-18 0-18-18v-64q0-18 18-18Z"/><text x="224" y="174" class="ko" font-size="19">“작은 생명이 돌아올</text><text x="224" y="199" class="ko" font-size="19">집을 만들어요!”</text><text x="224" y="221" class="en small">A home for small life!</text>
+ <text x="350" y="350" class="fx" transform="rotate(-5 350 350)">RESTORE THE BLUE!</text>
+</g>
+<!-- PANEL 2: divers plant seagrass -->
+<g class="panel"><rect x="604" y="4" width="592" height="386" fill="url(#deep)"/>
+ <path d="M604 322 Q770 276 930 325 T1196 300V390H604Z" fill="#b89764"/>
+ <!-- light rays --><path d="M650 4 L770 390" stroke="#8be9ff" stroke-width="38" opacity=".12"/><path d="M850 4 L970 390" stroke="#8be9ff" stroke-width="25" opacity=".1"/>
+ <!-- seagrass -->
+ <g stroke="#46c56e" stroke-width="8" stroke-linecap="round" fill="none"><path d="M710 360 q-14-50 8-92M725 365q20-63 2-99M746 366q-8-52 26-93M988 365q-11-64 14-105M1006 365q24-64 4-108M1030 366q-7-58 28-92M1110 366q-15-50 4-86M1132 368q19-57 0-93"/></g>
+ <!-- diver woman -->
+ <ellipse cx="814" cy="180" rx="42" ry="45" class="skin"/><path d="M770 172 q14-61 70-32 23 18 12 56-23-22-82-24Z" class="hair"/><rect x="774" y="170" width="75" height="28" rx="12" fill="#bcecff" stroke="#071827" stroke-width="4"/><circle cx="798" cy="184" r="5" class="eye"/><circle cx="827" cy="184" r="5" class="eye"/>
+ <path d="M765 222 q48-24 93 2 l28 102-134-2Z" class="suit"/><rect x="732" y="229" width="23" height="91" rx="11" fill="#b5c7d1" stroke="#071827" stroke-width="4"/><path d="M782 255 q-41 30-65 62" fill="none" class="line"/><path d="M858 258 q54 23 77 54" fill="none" class="line"/>
+ <circle cx="712" cy="320" r="13" fill="#f3c3a0" stroke="#071827" stroke-width="3"/><path d="M701 319 q14-22 28-1" stroke="#46c56e" stroke-width="7" fill="none"/>
+ <!-- second diver --><circle cx="1061" cy="178" r="34" class="skin"/><path d="M1027 170 q15-49 61-20 17 14 8 45-28-22-69-25Z" class="hair"/><path d="M1020 211 q42-18 82 4 l18 83-113-1Z" class="suit"/><rect x="987" y="216" width="20" height="75" rx="10" fill="#b5c7d1" stroke="#071827" stroke-width="4"/>
+ <!-- fish --> <g fill="#ffd65c" stroke="#071827" stroke-width="3"><path d="M936 127 q28-20 55 0-27 21-55 0l-18 14 3-28Z"/><path d="M1120 244 q28-20 55 0-27 21-55 0l-18 14 3-28Z"/></g>
+ <rect class="box" x="620" y="18" width="338" height="96"/><text x="635" y="48" class="ko">2. 한 포기씩 바다의 숲을 심습니다.</text><text x="635" y="75" class="zh">一株一株，重新种下海底森林。</text><text x="635" y="101" class="en">Planting the underwater forest, one shoot at a time.</text>
+ <path class="bubble" d="M885 145 h247 q18 0 18 18v53q0 18-18 18h-132l-26 25 6-25h-95q-18 0-18-18v-53q0-18 18-18Z"/><text x="900" y="175" class="ko" font-size="19">“뿌리가 단단히 잡혔어요!”</text><text x="900" y="199" class="zh small">根已经牢牢扎住了！</text><text x="900" y="220" class="en small">The roots are holding!</text>
+ <text x="890" y="345" class="fx" transform="rotate(-6 890 345)">SWISH · PLANT!</text>
+</g>
+<!-- PANEL 3: juvenile life returns -->
+<g class="panel"><rect x="4" y="398" width="592" height="398" fill="url(#deep)"/>
+ <path d="M4 698 Q180 640 350 692T596 668V796H4Z" fill="#b18b5c"/>
+ <g stroke="#42bf67" stroke-width="8" stroke-linecap="round" fill="none"><path d="M70 744q-25-92 3-151M95 753q27-95 2-166M130 749q-6-96 39-161M247 752q-15-104 17-173M281 754q26-86 9-166M420 755q-20-100 10-171M463 750q33-93 8-161M535 748q-13-84 18-149"/></g>
+ <!-- baby fish school --><g fill="#ffcf59" stroke="#071827" stroke-width="3"><path d="M195 540q26-17 51 0-26 18-51 0l-17 12 3-24Z"/><path d="M296 573q23-15 45 0-23 16-45 0l-15 10 2-20Z"/><path d="M386 528q22-15 44 0-22 16-44 0l-14 10 2-20Z"/></g>
+ <!-- seahorse --> <path d="M488 565 q28-34 58-5 q16 16-3 38 q-18 20-8 48 q10 28-22 30 q-26 1-16-22 q10-22-7-34 q-31-21-4-55Z" fill="#ffd875" stroke="#071827" stroke-width="4"/><circle cx="527" cy="568" r="4" class="eye"/><path d="M514 610 q22 10 29-8" fill="none" class="line"/>
+ <!-- observation diver --> <ellipse cx="119" cy="545" rx="38" ry="40" class="skin"/><path d="M82 538q12-54 59-28 18 14 11 43-21-19-70-15Z" class="hair"/><rect x="86" y="537" width="67" height="25" rx="11" fill="#bcecff" stroke="#071827" stroke-width="4"/><path d="M77 584q42-22 84 1l20 85-120 0Z" class="suit"/><path d="M162 608 q53 3 75-30" fill="none" class="line"/>
+ <rect class="box" x="18" y="412" width="370" height="96"/><text x="33" y="442" class="ko">3. 어린 물고기와 해마가 돌아왔습니다.</text><text x="33" y="469" class="zh">幼鱼和海马回到了这里。</text><text x="33" y="495" class="en">Juvenile fish and seahorses have returned.</text>
+ <path class="bubble" d="M205 602 h254 q18 0 18 18v55q0 18-18 18H315l-27 24 7-24h-90q-18 0-18-18v-55q0-18 18-18Z"/><text x="220" y="632" class="ko" font-size="19">“여기가 다시 아기들의 집이 됐어요!”</text><text x="220" y="655" class="zh small">这里又成了幼小生命的家！</text><text x="220" y="678" class="en small">The nursery is alive again!</text>
+ <text x="320" y="754" class="fx" transform="rotate(-5 320 754)">LIFE RETURNS!</text>
+</g>
+<!-- PANEL 4: children + stewardship -->
+<g class="panel"><rect x="604" y="398" width="592" height="398" fill="url(#sunset)"/>
+ <circle cx="1010" cy="498" r="52" fill="#fff2b3" opacity=".9"/><path d="M604 600 q105-35 210 0t210 0t172 0v196H604Z" fill="#0b668e"/><path d="M604 624 q120-27 238 8t220-5t134 8" fill="none" stroke="#bcecff" stroke-width="6" opacity=".7"/>
+ <!-- adult researcher --> <ellipse cx="1015" cy="588" rx="42" ry="47" class="skin"/><path d="M973 578q12-64 65-31 25 17 17 53-23-26-82-22Z" class="hair"/><circle cx="1002" cy="590" r="5" class="eye"/><circle cx="1031" cy="588" r="5" class="eye"/><path d="M1002 610q18 12 33-2" fill="none" class="line"/><path d="M967 635q48-25 98 2l24 137H943Z" class="vest"/><text x="983" y="672" font-family="Arial" font-weight="900" font-size="18" fill="#eaf8ff">FTF</text>
+ <!-- children actual figures --> <g><circle cx="718" cy="622" r="34" class="skin"/><path d="M685 617q9-47 44-27 25 11 22 36-22-17-66-9Z" fill="#6a341f" stroke="#071827" stroke-width="3"/><circle cx="709" cy="625" r="4" class="eye"/><circle cx="728" cy="624" r="4" class="eye"/><path d="M682 657q36-18 72 2l18 114H665Z" fill="#f4a84a" stroke="#071827" stroke-width="3"/>
+ <circle cx="814" cy="607" r="36" class="skin"/><path d="M779 600q8-52 48-31 27 12 25 39-24-17-73-8Z" fill="#2b1c1b" stroke="#071827" stroke-width="3"/><circle cx="804" cy="610" r="4" class="eye"/><circle cx="826" cy="609" r="4" class="eye"/><path d="M774 644q40-20 80 2l18 127H758Z" fill="#65b9dd" stroke="#071827" stroke-width="3"/>
+ <circle cx="904" cy="632" r="31" class="skin"/><path d="M874 627q9-43 42-25 23 10 21 34-21-15-63-9Z" fill="#4a291d" stroke="#071827" stroke-width="3"/><circle cx="896" cy="635" r="4" class="eye"/><circle cx="915" cy="634" r="4" class="eye"/><path d="M870 663q35-17 69 2l14 108H857Z" fill="#f0cf5a" stroke="#071827" stroke-width="3"/></g>
+ <!-- tray of seagrass --> <ellipse cx="887" cy="697" rx="86" ry="22" fill="#6b4b2c" stroke="#071827" stroke-width="4"/><g stroke="#4dc76d" stroke-width="7"><path d="M842 697q-8-45 7-66M868 700q15-46 2-68M899 700q-6-48 19-65M926 699q12-42 3-62"/></g>
+ <rect class="box" x="620" y="412" width="391" height="96"/><text x="635" y="442" class="ko">4. 오늘 심은 숲이 내일의 바다를 키웁니다.</text><text x="635" y="469" class="zh">今天种下的海草，孕育明天的海洋。</text><text x="635" y="495" class="en">What we plant today grows tomorrow's ocean.</text>
+ <path class="bubble" d="M646 520 h286q18 0 18 18v66q0 18-18 18H793l-29 27 7-27H646q-18 0-18-18v-66q0-18 18-18Z"/><text x="662" y="550" class="ko" font-size="19">“우리도 계속 지킬게요!”</text><text x="662" y="575" class="zh small">我们也会一直守护它！</text><text x="662" y="599" class="en small">We'll keep protecting it!</text>
+ <text x="855" y="753" class="fx" transform="rotate(-6 855 753)">GROW THE FUTURE!</text>
+</g>
+<!-- footer -->
+<rect x="4" y="760" width="1192" height="36" fill="#071827"/><text x="24" y="786" font-family="Arial" font-weight="800" font-size="18" fill="#fff">FTF-01 #82  |  해초숲에 돌아온 작은 생명  |  海草森林里的新生命  |  Small Life Returns to the Seagrass Forest</text>
+</svg>
