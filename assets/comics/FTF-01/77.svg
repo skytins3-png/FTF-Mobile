@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5ec8ff"/><stop offset="1" stop-color="#eaf8ff"/></linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0f9ed0"/><stop offset="1" stop-color="#034b78"/></linearGradient>
+  <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#31c9ef"/><stop offset="1" stop-color="#04345d"/></linearGradient>
+  <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb65b"/><stop offset=".55" stop-color="#ff6d62"/><stop offset="1" stop-color="#395b8f"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".32"/></filter>
+  <style>
+    .panel{stroke:#101820;stroke-width:12}.box{fill:#fff;stroke:#111;stroke-width:5;rx:20}.ko{font-family:'Noto Sans KR',sans-serif;font-size:31px;font-weight:900;fill:#111}.zh{font-family:'Noto Sans SC',sans-serif;font-size:25px;font-weight:700;fill:#222}.en{font-family:Arial,sans-serif;font-size:22px;font-weight:700;fill:#222}.fx{font-family:Arial Black,Impact,sans-serif;font-style:italic;font-size:66px;fill:#fff;stroke:#0b4771;stroke-width:5;paint-order:stroke;letter-spacing:1px}.small{font-size:20px}.label{font-family:Arial Black,sans-serif;font-size:26px;fill:#fff}.bubble{fill:#fff;stroke:#111;stroke-width:5}.skin{fill:#f5c5a8}.hair{fill:#221810}.suit{fill:#0d3451}.line{stroke:#111;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.thin{stroke:#17212a;stroke-width:4;stroke-linecap:round}.white{fill:#fff}.navy{fill:#0a2943}
+  </style>
+</defs>
+<rect width="1200" height="110" fill="#07131f"/>
+<text x="35" y="46" class="label" font-size="36">FTF-01  #77</text><text x="35" y="84" class="label" font-size="25">함께 지키는 더 푸른 내일 · 共同守护更蔚蓝的明天 · A Brighter Tomorrow, Together</text>
+<g transform="translate(0 110)">
+ <rect width="1200" height="370" fill="url(#sky)" class="panel"/>
+ <path d="M0 245 Q160 220 330 248 T650 250 T980 238 T1200 245 V370 H0Z" fill="url(#sea)"/>
+ <path d="M590 90 L1040 90 L1110 250 L500 250 Z" fill="#f7f8f8" stroke="#15212c" stroke-width="7"/>
+ <rect x="715" y="30" width="215" height="105" rx="15" fill="#eaf7ff" stroke="#15212c" stroke-width="6"/>
+ <rect x="745" y="48" width="62" height="45" fill="#6ec5e8" stroke="#15212c" stroke-width="4"/><rect x="825" y="48" width="62" height="45" fill="#6ec5e8" stroke="#15212c" stroke-width="4"/>
+ <path d="M850 30 V-4 M825 8 H875" class="line"/>
+ <text x="710" y="170" font-family="Arial Black" font-size="38" fill="#155a86">FTF OCEAN RESEARCH</text><text x="740" y="205" font-family="Arial" font-size="25" font-weight="700" fill="#155a86">FOR A BRIGHTER TOMORROW</text>
+ <g transform="translate(220 160)"><path d="M-75 170 Q-52 70 0 45 Q52 70 75 170Z" class="suit" stroke="#111" stroke-width="6"/><circle cx="0" cy="0" r="52" class="skin" stroke="#111" stroke-width="6"/><path d="M-52 -4 Q-34 -75 17 -54 Q72 -35 47 22 Q30 -25 3 -14 Q-25 -36 -52 -4" class="hair"/><circle cx="-18" cy="3" r="5"/><circle cx="19" cy="3" r="5"/><path d="M-12 24 Q0 34 14 24" fill="none" class="thin"/><path d="M60 110 L180 44" class="line"/><path d="M178 44 l-26 -4 m26 4 -15 24" class="line"/><text x="-48" y="135" class="white" font-family="Arial Black" font-size="30">FTF</text></g>
+ <g transform="translate(465 205) scale(.78)"><path d="M-60 145 Q-40 55 0 40 Q40 55 60 145Z" class="navy" stroke="#111" stroke-width="6"/><circle cx="0" cy="0" r="45" class="skin" stroke="#111" stroke-width="6"/><path d="M-46 -8 Q-25 -63 18 -45 Q52 -31 40 13 Q20 -23 -4 -12 Q-24 -28 -46 -8" class="hair"/><circle cx="-15" cy="2" r="4"/><circle cx="15" cy="2" r="4"/></g>
+ <rect x="18" y="20" width="420" height="118" class="box" filter="url(#shadow)"/><text x="40" y="58" class="ko">1. 더 넓은 회복을 향해, 다시 출항!</text><text x="40" y="91" class="zh">为了更广阔的复苏，再次启航。</text><text x="40" y="121" class="en">We set sail again for a wider recovery.</text>
+ <path d="M345 115 Q430 80 490 120 Q520 155 476 190 L360 194 Q325 164 345 115" class="bubble"/><text x="366" y="145" class="ko" font-size="25">더 푸른 바다를</text><text x="383" y="177" class="ko" font-size="25">함께 지켜요!</text>
+ <text x="720" y="335" class="fx">SET SAIL!</text>
+</g>
+<g transform="translate(0 480)">
+ <rect width="1200" height="385" fill="url(#deep)" class="panel"/>
+ <path d="M40 0 L220 385 M215 0 L360 385 M390 0 L530 385" stroke="#a8ecff" stroke-width="18" opacity=".18"/>
+ <g stroke="#111" stroke-width="5"><path d="M20 365 C70 325 65 285 90 300 C110 315 102 342 123 319 C147 292 165 310 145 350 Z" fill="#f25f6f"/><path d="M140 375 C180 320 178 260 205 284 C224 300 211 332 243 292 C270 259 292 295 262 349 Z" fill="#ff9c4a"/><path d="M330 380 C355 325 355 270 384 292 C399 305 398 329 416 300 C445 260 470 290 442 352Z" fill="#c765d8"/><path d="M905 379 C935 330 932 280 958 295 C980 307 967 340 992 306 C1024 265 1052 305 1022 356Z" fill="#ff6b7a"/></g>
+ <g transform="translate(310 145)"><ellipse cx="0" cy="0" rx="45" ry="52" class="skin" stroke="#111" stroke-width="6"/><path d="M-50 -8 Q-18 -60 28 -35 Q52 -18 42 11" class="hair"/><path d="M-45 -10 H45 V25 H-45Z" fill="#7fdcff" stroke="#111" stroke-width="7"/><circle cx="-18" cy="7" r="6"/><circle cx="18" cy="7" r="6"/><path d="M-60 70 Q0 45 65 72 L45 170 L-55 170Z" fill="#0a1f2f" stroke="#111" stroke-width="6"/><rect x="-78" y="76" width="22" height="88" rx="8" fill="#dce9ee" stroke="#111" stroke-width="5"/><path d="M57 90 L145 125" class="line"/></g>
+ <g transform="translate(520 190) scale(.75)"><ellipse cx="0" cy="0" rx="45" ry="52" class="skin" stroke="#111" stroke-width="6"/><path d="M-50 -8 Q-18 -60 28 -35 Q52 -18 42 11" class="hair"/><path d="M-45 -10 H45 V25 H-45Z" fill="#7fdcff" stroke="#111" stroke-width="7"/><path d="M-60 70 Q0 45 65 72 L45 170 L-55 170Z" fill="#0a1f2f" stroke="#111" stroke-width="6"/></g>
+ <g transform="translate(815 145) rotate(-8)"><ellipse cx="0" cy="0" rx="115" ry="72" fill="#6b9f63" stroke="#163b32" stroke-width="8"/><path d="M-75 -38 Q0 36 75 -38 M-75 35 Q0 -35 75 35 M0 -68 V68" fill="none" stroke="#365b42" stroke-width="6"/><ellipse cx="125" cy="-5" rx="42" ry="32" fill="#93ba72" stroke="#163b32" stroke-width="7"/><path d="M-85 -50 L-165 -98 Q-190 -105 -178 -72 L-112 -20Z" fill="#93ba72" stroke="#163b32" stroke-width="7"/><path d="M-90 48 L-170 98 Q-188 108 -175 70 L-112 18Z" fill="#93ba72" stroke="#163b32" stroke-width="7"/></g>
+ <g fill="#ffd84f" stroke="#111" stroke-width="4"><path d="M670 95 q38 -28 76 0 q-38 28 -76 0 l-30 20 v-40z"/><path d="M1010 245 q38 -28 76 0 q-38 28 -76 0 l-30 20 v-40z"/><path d="M765 300 q32 -24 64 0 q-32 24 -64 0 l-25 17 v-34z"/></g>
+ <rect x="18" y="18" width="432" height="104" class="box"/><text x="40" y="55" class="ko">2. 되살아나는 산호초, 돌아온 생명</text><text x="40" y="86" class="zh">重生的珊瑚礁，回归的海洋生命。</text><text x="40" y="114" class="en">Reviving coral reefs, returning marine life.</text>
+ <path d="M242 145 Q350 115 425 150 Q455 185 420 225 L270 228 Q230 195 242 145" class="bubble"/><text x="267" y="181" class="ko" font-size="24">와! 정말 아름다워요!</text><text x="295" y="211" class="en">Wow! It’s beautiful!</text>
+ <text x="750" y="348" class="fx">LIFE RETURNS!</text>
+</g>
+<g transform="translate(0 865)">
+ <rect width="1200" height="340" fill="#10293b" class="panel"/>
+ <rect x="470" y="46" width="665" height="245" rx="18" fill="#071b29" stroke="#55d7ff" stroke-width="5"/>
+ <text x="500" y="82" class="label">CORAL COVERAGE</text><text x="505" y="155" font-family="Arial Black" font-size="50" fill="#fff">35%</text><path d="M650 140 H770" stroke="#ffcc44" stroke-width="12"/><path d="M770 140 l-30 -24 v48z" fill="#ffcc44"/><text x="815" y="155" font-family="Arial Black" font-size="58" fill="#ffe26a">76%</text>
+ <text x="500" y="220" class="label">BIODIVERSITY</text><rect x="510" y="240" width="48" height="35" fill="#46d5ff"/><rect x="570" y="225" width="48" height="50" fill="#46d5ff"/><rect x="630" y="205" width="48" height="70" fill="#46d5ff"/><rect x="690" y="180" width="48" height="95" fill="#46d5ff"/><text x="790" y="255" font-family="Arial Black" font-size="58" fill="#7ce9ff">+52%</text>
+ <g transform="translate(250 185)"><path d="M-75 165 Q-50 70 0 45 Q55 70 80 165Z" fill="#e8edf0" stroke="#111" stroke-width="6"/><circle cx="0" cy="0" r="52" class="skin" stroke="#111" stroke-width="6"/><path d="M-52 -5 Q-25 -68 20 -48 Q58 -28 48 12 Q25 -20 -5 -10 Q-25 -28 -52 -5" class="hair"/><rect x="-38" y="-7" width="32" height="22" rx="6" fill="none" stroke="#111" stroke-width="5"/><rect x="6" y="-7" width="32" height="22" rx="6" fill="none" stroke="#111" stroke-width="5"/><path d="M-6 4 H6" class="thin"/><path d="M68 92 L195 38" class="line"/></g>
+ <rect x="20" y="20" width="416" height="93" class="box"/><text x="42" y="58" class="ko">3. 숫자로 확인되는 희망</text><text x="42" y="88" class="zh">用数据看见希望。</text><text x="42" y="114" class="en small">Hope confirmed by data.</text>
+ <path d="M60 126 Q155 108 350 135 Q380 175 345 215 L80 218 Q45 180 60 126" class="bubble"/><text x="88" y="165" class="ko" font-size="23">산호 피복률 35% → 76%</text><text x="110" y="198" class="ko" font-size="23">생물다양성 +52%!</text>
+ <text x="725" y="326" class="fx">REAL CHANGE!</text>
+</g>
+<g transform="translate(0 1205)">
+ <rect width="1200" height="395" fill="url(#sunset)" class="panel"/>
+ <circle cx="930" cy="120" r="68" fill="#fff3bc" opacity=".95"/>
+ <path d="M0 220 Q200 185 370 230 T750 224 T1200 212 V395 H0Z" fill="#0c4965" opacity=".92"/>
+ <path d="M0 255 Q170 220 340 262 T690 258 T1040 246 T1200 255" fill="none" stroke="#f8c98e" stroke-width="10" opacity=".7"/>
+ <g transform="translate(425 228)"><circle cx="0" cy="0" r="48" class="skin" stroke="#111" stroke-width="6"/><path d="M-48 0 Q-32 -58 8 -48 Q52 -38 46 12" class="hair"/><path d="M-86 170 Q-58 62 0 48 Q55 65 88 170Z" class="navy" stroke="#111" stroke-width="6"/><text x="-46" y="120" class="white" font-family="Arial Black" font-size="28">OCEAN</text><text x="-53" y="150" class="white" font-family="Arial" font-size="20">FOR TOMORROW</text></g>
+ <g transform="translate(280 286)"><circle cx="0" cy="0" r="34" class="skin" stroke="#111" stroke-width="5"/><path d="M-34 0 Q-20 -44 12 -34 Q40 -22 32 9" class="hair"/><path d="M-55 110 Q-38 45 0 33 Q38 45 55 110Z" fill="#f7f7f2" stroke="#111" stroke-width="5"/><text x="-38" y="82" font-family="Arial Black" font-size="16" fill="#176192">OUR OCEAN</text></g>
+ <g transform="translate(570 293)"><circle cx="0" cy="0" r="32" class="skin" stroke="#111" stroke-width="5"/><path d="M-32 0 Q-18 -42 12 -34 Q37 -20 31 8" class="hair"/><path d="M-52 104 Q-35 42 0 32 Q35 42 52 104Z" fill="#f7f7f2" stroke="#111" stroke-width="5"/></g>
+ <g transform="translate(680 300)"><circle cx="0" cy="0" r="29" class="skin" stroke="#111" stroke-width="5"/><path d="M-30 0 Q-18 -40 10 -31 Q35 -20 28 8" class="hair"/><path d="M-48 96 Q-33 38 0 29 Q33 38 48 96Z" fill="#f7f7f2" stroke="#111" stroke-width="5"/></g>
+ <rect x="18" y="18" width="420" height="110" class="box"/><text x="40" y="56" class="ko">4. 다음 세대를 위한 약속</text><text x="40" y="89" class="zh">为了下一代的约定。</text><text x="40" y="119" class="en">A promise for the next generation.</text>
+ <path d="M470 28 Q610 8 770 38 Q800 85 760 128 L500 132 Q455 90 470 28" class="bubble"/><text x="510" y="70" class="ko" font-size="23">그래, 우리가 함께라면</text><text x="518" y="103" class="ko" font-size="23">더 푸른 바다를 만들 수 있어.</text><text x="530" y="128" class="en small">Together, we can create a bluer ocean.</text>
+ <text x="610" y="360" class="fx" font-size="52">TOGETHER FOR TOMORROW!</text>
+</g>
+</svg>
