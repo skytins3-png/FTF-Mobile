@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-labelledby="title desc">
+<title id="title">FTF-01 #70 — 산호의 밤, 다음 세대</title>
+<desc id="desc">Four-panel cinematic manga-style scene continuing FTF-01 after scene 69: researchers witness coral spawning at night, collect larvae, settle young corals in a nursery, and prepare the next generation reef. Illustrated people, boats, reef environments, Korean Chinese English captions, speech bubbles, narration and sound effects.</desc>
+<defs>
+ <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07182f"/><stop offset="1" stop-color="#0c5b7e"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0a90be"/><stop offset="1" stop-color="#063f67"/></linearGradient>
+ <linearGradient id="lab" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef9ff"/><stop offset="1" stop-color="#b7d9e8"/></linearGradient>
+ <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff8c64"/><stop offset=".55" stop-color="#68406f"/><stop offset="1" stop-color="#173754"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+ .panel{stroke:#07131e;stroke-width:8}.cap{font-family:Arial,'Noto Sans KR',sans-serif;font-weight:800;fill:#10253a}.body{font-family:Arial,'Noto Sans KR',sans-serif;font-weight:700;fill:#10253a}.bubble{fill:#fff;stroke:#152536;stroke-width:4}.narr{fill:#fffdf6;stroke:#152536;stroke-width:4}.sfx{font-family:Arial,sans-serif;font-weight:900;font-style:italic;paint-order:stroke;stroke:#081522;stroke-width:8;stroke-linejoin:round}.label{font-family:Arial,'Noto Sans KR',sans-serif;font-weight:900;fill:#fff}.small{font-size:22px}.med{font-size:28px}.big{font-size:46px}
+ </style>
+</defs>
+<!-- PANEL 1: night spawning observation -->
+<g>
+ <rect class="panel" x="4" y="4" width="758" height="500" rx="8" fill="url(#night)"/>
+ <circle cx="666" cy="72" r="34" fill="#fff3b0" opacity=".95"/><path d="M0 182 Q120 150 238 182T470 178T762 172V504H0Z" fill="#0b6d91" opacity=".8"/>
+ <path d="M22 235 Q130 180 248 228T455 227T735 224V500H22Z" fill="#083b63"/>
+ <!-- research boat -->
+ <path d="M430 128 L650 128 L615 166 L452 166Z" fill="#e7eef3" stroke="#152536" stroke-width="4"/><rect x="500" y="78" width="100" height="52" fill="#d7edf8" stroke="#152536" stroke-width="4"/><rect x="534" y="49" width="8" height="30" fill="#263a4b"/><path d="M542 50 l48 18 h-48z" fill="#19a1c7"/><text x="482" y="155" class="body small">FTF OCEAN RESEARCH</text>
+ <!-- divers -->
+ <g transform="translate(165 250)"><circle cx="0" cy="0" r="31" fill="#e0ad86" stroke="#132434" stroke-width="4"/><path d="M-31 -4 Q0 -42 31 -4V-26Q0 -56 -31 -27Z" fill="#161d25"/><rect x="-30" y="36" width="62" height="92" rx="22" fill="#153c58"/><rect x="-37" y="-8" width="74" height="35" rx="17" fill="#76d9f3" opacity=".55" stroke="#071722" stroke-width="5"/><path d="M31 58 Q85 60 111 29" stroke="#e0ad86" stroke-width="14" fill="none" stroke-linecap="round"/><circle cx="111" cy="28" r="10" fill="#e0ad86"/></g>
+ <g transform="translate(315 282) scale(.86)"><circle cx="0" cy="0" r="31" fill="#d09a73" stroke="#132434" stroke-width="4"/><path d="M-31 -7 Q0 -42 31 -7V-28Q0 -53 -31 -26Z" fill="#202934"/><rect x="-30" y="36" width="62" height="92" rx="22" fill="#102d45"/><rect x="-37" y="-8" width="74" height="35" rx="17" fill="#76d9f3" opacity=".55" stroke="#071722" stroke-width="5"/></g>
+ <!-- coral and spawning dots -->
+ <g fill="#ff7f78"><path d="M40 470q18-80 42-8q20-100 42 0q28-70 37 5v25H40Z"/><path d="M375 465q15-72 35-8q18-94 38 0q24-65 34 5v30H375Z"/></g>
+ <g fill="#ffd1c7" filter="url(#glow)"><circle cx="100" cy="405" r="7"/><circle cx="130" cy="384" r="6"/><circle cx="154" cy="422" r="8"/><circle cx="405" cy="382" r="7"/><circle cx="437" cy="404" r="6"/><circle cx="472" cy="370" r="8"/><circle cx="525" cy="420" r="7"/></g>
+ <rect class="narr" x="24" y="22" width="410" height="106" rx="8"/><text x="42" y="54" class="cap med">1. 산호가 별처럼 피어나는 밤</text><text x="42" y="82" class="body small">珊瑚像星光一样绽放的夜晚</text><text x="42" y="108" class="body small">The night the reef blooms like stars</text>
+ <path class="bubble" d="M198 166h255q18 0 18 18v74q0 18-18 18H305l-25 32 4-32h-86q-18 0-18-18v-74q0-18 18-18Z"/><text x="207" y="198" class="body small">산호 산란이 시작됐어요!</text><text x="207" y="225" class="body small">珊瑚开始产卵了！</text><text x="207" y="252" class="body small">Coral spawning has begun!</text>
+ <text x="500" y="430" class="sfx big" fill="#ffdf69">SPARK! SPAWN!</text><text x="505" y="462" class="label small">새 생명의 빛 · 新生之光</text>
+</g>
+<!-- PANEL 2: larval collection -->
+<g transform="translate(768 0)">
+ <rect class="panel" x="4" y="4" width="764" height="500" rx="8" fill="url(#sea)"/>
+ <path d="M0 332 Q180 265 350 330T764 314V504H0Z" fill="#0b496a"/><g fill="#ff956f"><path d="M52 480q14-70 33-9q14-80 32-2q20-55 28 8v23H52Z"/><path d="M610 480q18-88 40-8q18-72 34 0q23-60 30 8v20H610Z"/></g>
+ <!-- collector funnel -->
+ <path d="M390 205 L500 205 L470 332 L422 332Z" fill="#bff4ff" opacity=".55" stroke="#e7fbff" stroke-width="4"/><rect x="434" y="332" width="28" height="62" rx="10" fill="#d8f7ff" stroke="#e7fbff" stroke-width="4"/><g fill="#ffd8d2"><circle cx="430" cy="232" r="7"/><circle cx="457" cy="247" r="6"/><circle cx="472" cy="275" r="7"/><circle cx="442" cy="290" r="5"/></g>
+ <!-- diver collecting -->
+ <g transform="translate(205 268)"><circle cx="0" cy="0" r="34" fill="#e4b28a" stroke="#132434" stroke-width="4"/><path d="M-34 -5Q0-43 34-5V-29Q0-56-34-27Z" fill="#242c35"/><rect x="-34" y="38" width="70" height="104" rx="24" fill="#153b57"/><rect x="-41" y="-10" width="82" height="38" rx="18" fill="#7bdbf0" opacity=".5" stroke="#071722" stroke-width="5"/><path d="M36 63 Q93 72 127 30" stroke="#e4b28a" stroke-width="14" fill="none" stroke-linecap="round"/><circle cx="127" cy="30" r="10" fill="#e4b28a"/></g>
+ <rect class="narr" x="24" y="22" width="426" height="106" rx="8"/><text x="42" y="54" class="cap med">2. 떠오르는 생명을 조심스럽게 모읍니다</text><text x="42" y="82" class="body small">小心收集漂浮的新生命</text><text x="42" y="108" class="body small">Carefully collecting the floating new life</text>
+ <path class="bubble" d="M330 118h354q18 0 18 18v84q0 18-18 18H548l-22 28 2-28H330q-18 0-18-18v-84q0-18 18-18Z"/><text x="346" y="151" class="body small">한 알도 놓치지 말아요. 모두 미래의 산호예요.</text><text x="346" y="178" class="body small">一个都别错过，它们都是未来的珊瑚。</text><text x="346" y="205" class="body small">Every larva can become tomorrow’s reef.</text>
+ <text x="492" y="438" class="sfx big" fill="#73f2ff">COLLECT! PROTECT!</text>
+</g>
+<!-- PANEL 3: lab nursery settlement -->
+<g transform="translate(0 510)">
+ <rect class="panel" x="4" y="4" width="758" height="510" rx="8" fill="url(#lab)"/>
+ <rect x="28" y="185" width="702" height="270" rx="18" fill="#69bad0" opacity=".4" stroke="#1e5c72" stroke-width="6"/><path d="M30 278 Q190 258 350 280T730 272" stroke="#ecffff" stroke-width="5" fill="none"/>
+ <!-- nursery tiles and baby corals -->
+ <g stroke="#274b59" stroke-width="3"><rect x="80" y="338" width="105" height="55" rx="8" fill="#d8c7a4"/><rect x="215" y="338" width="105" height="55" rx="8" fill="#d8c7a4"/><rect x="350" y="338" width="105" height="55" rx="8" fill="#d8c7a4"/><rect x="485" y="338" width="105" height="55" rx="8" fill="#d8c7a4"/></g>
+ <g fill="#ff755f"><path d="M120 340q5-32 12 0q7-42 16 0q9-30 14 0Z"/><path d="M250 340q5-32 12 0q7-42 16 0q9-30 14 0Z"/><path d="M390 340q5-32 12 0q7-42 16 0q9-30 14 0Z"/><path d="M525 340q5-32 12 0q7-42 16 0q9-30 14 0Z"/></g>
+ <!-- scientist -->
+ <g transform="translate(610 196)"><circle cx="0" cy="0" r="34" fill="#e5b38f" stroke="#253846" stroke-width="4"/><path d="M-33 -4Q0-41 33-4V-25Q0-55-33-25Z" fill="#2d211f"/><rect x="-38" y="37" width="76" height="118" rx="20" fill="#f5f7f8" stroke="#253846" stroke-width="4"/><path d="M-38 58Q-95 70-118 121" stroke="#e5b38f" stroke-width="14" fill="none" stroke-linecap="round"/><circle cx="-118" cy="121" r="10" fill="#e5b38f"/></g>
+ <rect class="narr" x="24" y="22" width="435" height="106" rx="8"/><text x="42" y="54" class="cap med">3. 어린 산호가 새로운 자리를 잡습니다</text><text x="42" y="82" class="body small">幼小珊瑚正在新的家园扎根</text><text x="42" y="108" class="body small">Young corals settle into their new home</text>
+ <path class="bubble" d="M95 134h430q18 0 18 18v76q0 18-18 18H338l-24 30 3-30H95q-18 0-18-18v-76q0-18 18-18Z"/><text x="113" y="165" class="body small">착상이 시작됐어요. 이제 우리가 키워낼 차례예요!</text><text x="113" y="192" class="body small">附着开始了，现在轮到我们守护成长！</text><text x="113" y="219" class="body small">Settlement has begun—now we help them grow!</text>
+ <text x="66" y="452" class="sfx big" fill="#8dff8a">SETTLE! GROW!</text>
+</g>
+<!-- PANEL 4: dawn deployment promise -->
+<g transform="translate(768 510)">
+ <rect class="panel" x="4" y="4" width="764" height="510" rx="8" fill="url(#dawn)"/>
+ <circle cx="590" cy="190" r="52" fill="#ffd46b"/><path d="M0 280 Q150 250 285 282T540 276T764 270V510H0Z" fill="#153f5d"/>
+ <!-- boat deck and reef crates -->
+ <path d="M0 404 L764 360V510H0Z" fill="#6a7882"/><g transform="translate(95 356)"><rect width="145" height="82" rx="8" fill="#c9d7dc" stroke="#1b2c36" stroke-width="5"/><path d="M16 60h112M30 16v50M70 16v50M110 16v50" stroke="#657983" stroke-width="4"/><g fill="#ff7b65"><path d="M24 22q7-28 14 0q8-36 18 0q10-24 14 0Z"/><path d="M78 22q7-28 14 0q8-36 18 0q10-24 14 0Z"/></g></g>
+ <!-- team: three actual illustrated figures -->
+ <g transform="translate(340 318)"><circle cx="0" cy="0" r="32" fill="#d7a27d" stroke="#1d2b34" stroke-width="4"/><path d="M-31 -6Q0-42 31-6V-27Q0-53-31-25Z" fill="#1f252b"/><rect x="-34" y="36" width="68" height="120" rx="19" fill="#173c56"/></g>
+ <g transform="translate(455 303)"><circle cx="0" cy="0" r="34" fill="#e8b58c" stroke="#1d2b34" stroke-width="4"/><path d="M-34 -6Q0-44 34-6V-28Q0-57-34-27Z" fill="#34241e"/><rect x="-37" y="38" width="74" height="125" rx="20" fill="#f4f5f6" stroke="#1d2b34" stroke-width="4"/></g>
+ <g transform="translate(565 320)"><circle cx="0" cy="0" r="32" fill="#d7a47d" stroke="#1d2b34" stroke-width="4"/><path d="M-31 -5Q0-40 31-5V-25Q0-52-31-25Z" fill="#111820"/><rect x="-34" y="36" width="68" height="120" rx="19" fill="#16374c"/></g>
+ <rect class="narr" x="24" y="22" width="470" height="112" rx="8"/><text x="42" y="54" class="cap med">4. 다음 세대의 산호초를 바다로 돌려보낼 준비</text><text x="42" y="83" class="body small">准备把下一代珊瑚礁送回大海</text><text x="42" y="111" class="body small">Preparing the next generation reef for the sea</text>
+ <path class="bubble" d="M205 144h474q18 0 18 18v83q0 18-18 18H501l-24 29 2-29H205q-18 0-18-18v-83q0-18 18-18Z"/><text x="224" y="175" class="body small">이 작은 생명들이 언젠가 거대한 산호숲이 될 거예요.</text><text x="224" y="202" class="body small">这些小生命终会长成巨大的珊瑚森林。</text><text x="224" y="229" class="body small">These tiny lives will become a great reef forest.</text>
+ <text x="270" y="465" class="sfx big" fill="#73f2ff">NEXT GENERATION REEF!</text>
+</g>
+<rect x="20" y="16" width="210" height="60" rx="12" fill="#071a2c" stroke="#fff" stroke-width="3"/><text x="40" y="57" class="label big">FTF-01 #70</text>
+</svg>
