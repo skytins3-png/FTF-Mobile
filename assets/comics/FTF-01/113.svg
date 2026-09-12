@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#75d7ff"/><stop offset="1" stop-color="#f5fcff"/></linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#22b7d4"/><stop offset="1" stop-color="#04516f"/></linearGradient>
+  <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0c8caf"/><stop offset="1" stop-color="#022f47"/></linearGradient>
+  <linearGradient id="lab" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9fbff"/><stop offset="1" stop-color="#7ebbd2"/></linearGradient>
+  <filter id="sh"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".42"/></filter>
+  <pattern id="bub" width="70" height="70" patternUnits="userSpaceOnUse"><circle cx="14" cy="15" r="5" fill="none" stroke="#dcffff" stroke-width="2" opacity=".55"/><circle cx="52" cy="47" r="8" fill="none" stroke="#dcffff" stroke-width="2" opacity=".28"/></pattern>
+  <clipPath id="p1"><rect x="16" y="84" width="746" height="428" rx="8"/></clipPath>
+  <clipPath id="p2"><rect x="774" y="84" width="746" height="428" rx="8"/></clipPath>
+  <clipPath id="p3"><rect x="16" y="524" width="746" height="482" rx="8"/></clipPath>
+  <clipPath id="p4"><rect x="774" y="524" width="746" height="482" rx="8"/></clipPath>
+</defs>
+<rect width="1536" height="1024" fill="#06131f"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0b2a43"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic,sans-serif" font-size="34" font-weight="900">FTF-01  #113  바다의 숨을 심는 사람들</text>
+<text x="835" y="49" fill="#a8efff" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="800">B-16 SEAGRASS BLUE-CARBON RESTORATION · 种下海洋的呼吸</text>
+
+<!-- PANEL 1: arrival at B-16 -->
+<g clip-path="url(#p1)">
+ <rect x="16" y="84" width="746" height="428" fill="url(#sky)"/>
+ <path d="M16 292 Q168 260 314 297 T762 292 V512 H16Z" fill="url(#sea)"/>
+ <path d="M535 270 q48-72 112-47 q-24 17-32 42 q48-15 82 8 q-39 11-67 37Z" fill="#4f8369"/>
+ <g filter="url(#sh)"><path d="M53 355 L462 355 L426 460 L104 460Z" fill="#f5fbff" stroke="#172b39" stroke-width="6"/><rect x="145" y="245" width="240" height="111" rx="7" fill="#edf8fb" stroke="#172b39" stroke-width="6"/><rect x="178" y="269" width="72" height="38" fill="#25546b"/><rect x="279" y="269" width="72" height="38" fill="#25546b"/><path d="M268 245 V187 M268 187 L310 216 M268 187 L232 219" stroke="#172b39" stroke-width="7"/><text x="263" y="333" text-anchor="middle" fill="#0b5c84" font-family="Arial" font-size="30" font-weight="900">FTF</text><text x="260" y="388" text-anchor="middle" fill="#0b5c84" font-family="Arial" font-size="15" font-weight="900">CLEAN OCEAN · BRIGHTER TOMORROW</text></g>
+ <!-- foreground researcher -->
+ <g filter="url(#sh)"><ellipse cx="560" cy="284" rx="43" ry="51" fill="#efbd98" stroke="#17212b" stroke-width="5"/><path d="M517 281 Q522 235 558 233 Q593 236 604 286 Q578 256 556 256 Q536 255 517 281Z" fill="#38271f"/><path d="M520 338 Q558 316 603 338 L642 493 L480 493Z" fill="#eaf6fa" stroke="#17212b" stroke-width="5"/><path d="M521 340 L559 381 L594 340" fill="#0d5f88"/><text x="560" y="424" text-anchor="middle" fill="#0d6289" font-family="Arial" font-size="24" font-weight="900">FTF</text><circle cx="543" cy="294" r="5"/><circle cx="574" cy="294" r="5"/><path d="M544 313 Q558 324 577 312" fill="none" stroke="#a75f52" stroke-width="4"/><path d="M597 363 Q646 347 705 326" stroke="#efbd98" stroke-width="18" stroke-linecap="round"/><circle cx="705" cy="326" r="11" fill="#efbd98"/></g>
+ <rect x="32" y="103" width="402" height="123" rx="22" fill="#fff" stroke="#111" stroke-width="4"/><text x="233" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="19" font-weight="900"><tspan x="233">B-16 해초 복원 구역 도착!</tspan><tspan x="233" dy="25">오늘은 바다의 숨을 다시 심는다.</tspan><tspan x="233" dy="23" font-size="15">抵达 B-16 海草修复区！</tspan><tspan x="233" dy="21" font-size="14">B-16 seagrass restoration site!</tspan></text>
+ <rect x="452" y="104" width="285" height="106" rx="22" fill="#fff5d8" stroke="#111" stroke-width="4"/><text x="594" y="135" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="594">씨앗 매트와 센서 준비!</tspan><tspan x="594" dy="24" font-size="14">准备种子垫和传感器！</tspan><tspan x="594" dy="22" font-size="14">Seed mats and sensors—ready!</tspan></text>
+ <text x="42" y="482" fill="#fff" stroke="#084461" stroke-width="4" paint-order="stroke" font-family="Arial" font-size="39" font-weight="900" font-style="italic">TO B-16 — RESTORE THE BLUE!</text>
+</g>
+
+<!-- PANEL 2: planting seagrass -->
+<g clip-path="url(#p2)">
+ <rect x="774" y="84" width="746" height="428" fill="url(#deep)"/><rect x="774" y="84" width="746" height="428" fill="url(#bub)"/>
+ <path d="M774 412 Q920 380 1055 413 T1520 404 V512 H774Z" fill="#c5b27c"/>
+ <!-- seagrass bed -->
+ <g stroke-linecap="round">
+  <path d="M842 465 Q830 410 850 363 M870 474 Q864 421 890 374 M905 470 Q895 408 923 356 M1392 469 Q1385 414 1411 362 M1432 473 Q1421 414 1450 368" stroke="#2aa76d" stroke-width="14"/>
+  <path d="M825 478 Q815 432 835 397 M923 480 Q916 436 936 397 M1361 475 Q1350 429 1374 388 M1470 480 Q1460 431 1483 390" stroke="#56cc83" stroke-width="10"/>
+ </g>
+ <!-- diver 1 -->
+ <g filter="url(#sh)"><ellipse cx="1030" cy="236" rx="43" ry="48" fill="#e6b18d" stroke="#0d1720" stroke-width="5"/><path d="M990 233 Q998 194 1031 191 Q1067 194 1072 234Z" fill="#1d262d"/><rect x="994" y="215" width="73" height="29" rx="11" fill="#92d8ee" stroke="#111" stroke-width="5"/><path d="M989 291 Q1031 265 1075 292 L1110 416 L951 416Z" fill="#132a3d" stroke="#07121b" stroke-width="6"/><text x="1031" y="349" text-anchor="middle" fill="#d9f6ff" font-family="Arial" font-size="25" font-weight="900">FTF</text><path d="M984 333 Q946 352 925 388" stroke="#132a3d" stroke-width="25" stroke-linecap="round"/><path d="M1074 333 Q1113 349 1133 384" stroke="#132a3d" stroke-width="25" stroke-linecap="round"/></g>
+ <!-- diver 2 -->
+ <g filter="url(#sh)"><ellipse cx="1268" cy="247" rx="42" ry="47" fill="#efbd98" stroke="#0d1720" stroke-width="5"/><path d="M1228 244 Q1236 204 1268 202 Q1303 206 1310 244Z" fill="#422c24"/><rect x="1232" y="226" width="72" height="29" rx="11" fill="#92d8ee" stroke="#111" stroke-width="5"/><path d="M1231 301 Q1268 276 1312 302 L1348 420 L1192 420Z" fill="#132a3d" stroke="#07121b" stroke-width="6"/><text x="1270" y="355" text-anchor="middle" fill="#d9f6ff" font-family="Arial" font-size="25" font-weight="900">FTF</text><path d="M1230 341 Q1194 358 1172 392" stroke="#132a3d" stroke-width="24" stroke-linecap="round"/><path d="M1310 341 Q1348 358 1370 391" stroke="#132a3d" stroke-width="24" stroke-linecap="round"/></g>
+ <!-- seed mat and sensor -->
+ <rect x="1070" y="394" width="260" height="58" rx="8" fill="#9a7b45" stroke="#513b21" stroke-width="5"/><g fill="#39b870"><circle cx="1104" cy="392" r="10"/><circle cx="1145" cy="395" r="10"/><circle cx="1192" cy="391" r="10"/><circle cx="1240" cy="396" r="10"/><circle cx="1287" cy="392" r="10"/></g><rect x="1344" y="360" width="24" height="79" rx="6" fill="#d9eef6" stroke="#123" stroke-width="4"/><circle cx="1356" cy="352" r="12" fill="#39e5ff" stroke="#123" stroke-width="4"/>
+ <rect x="795" y="101" width="405" height="92" rx="8" fill="#fff" stroke="#111" stroke-width="4"/><text x="997" y="128" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="997">해초 씨앗 매트를 바닥에 고정한다.</tspan><tspan x="997" dy="23" font-size="14">把海草种子垫固定在海床上。</tspan><tspan x="997" dy="21" font-size="14">We anchor seagrass seed mats to the seabed.</tspan></text>
+ <rect x="1213" y="103" width="282" height="120" rx="28" fill="#fff" stroke="#111" stroke-width="4"/><text x="1354" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1354">뿌리가 잡히면</tspan><tspan x="1354" dy="23">탄소도 바닥에 저장돼!</tspan><tspan x="1354" dy="21" font-size="14">扎根后，碳也会被储存在海床。</tspan><tspan x="1354" dy="20" font-size="13">Roots lock carbon into the seabed.</tspan></text>
+ <text x="1020" y="468" fill="#fff" stroke="#075270" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="52" font-weight="900" font-style="italic">PRESS!  SET!  GROW!</text>
+</g>
+
+<!-- PANEL 3: life returns -->
+<g clip-path="url(#p3)">
+ <rect x="16" y="524" width="746" height="482" fill="url(#deep)"/><rect x="16" y="524" width="746" height="482" fill="url(#bub)"/>
+ <path d="M16 914 Q185 883 338 918 T762 906 V1006 H16Z" fill="#b89d67"/>
+ <!-- dense seagrass -->
+ <g stroke-linecap="round"><path d="M54 934 Q40 808 79 710 M112 950 Q99 825 141 731 M176 944 Q158 801 201 687 M252 953 Q234 818 278 724 M325 949 Q310 811 350 702 M405 948 Q392 822 436 730 M488 950 Q472 806 516 690 M566 944 Q551 817 593 719 M645 950 Q629 805 674 699 M718 947 Q706 831 739 741" stroke="#2fa76f" stroke-width="16"/><path d="M82 955 Q72 847 99 773 M222 956 Q208 846 237 773 M374 955 Q361 837 391 765 M537 954 Q524 850 553 772 M686 954 Q673 846 704 776" stroke="#62ce8a" stroke-width="10"/></g>
+ <!-- turtle --> <g filter="url(#sh)" transform="translate(250 650)"><ellipse cx="0" cy="0" rx="98" ry="61" fill="#6f8f65" stroke="#263c31" stroke-width="6"/><path d="M-62 -32 Q0 -69 65 -30 Q32 8 -2 24 Q-39 6 -62 -32Z" fill="#829e6f"/><circle cx="108" cy="-2" r="31" fill="#809b70" stroke="#263c31" stroke-width="5"/><path d="M-72 -4 L-144 -55 Q-157 -67 -150 -80 Q-96 -64 -51 -42Z" fill="#78936b"/><path d="M-69 15 L-137 65 Q-153 73 -158 58 Q-115 26 -52 -4Z" fill="#78936b"/></g>
+ <!-- fish school -->
+ <g fill="#ffd35c" stroke="#765b16" stroke-width="3"><path d="M488 663 q35-29 70 0 q-34 31-70 0 l-22 18 v-36Z"/><path d="M580 729 q30-25 61 0 q-30 27-61 0 l-20 16 v-32Z"/><path d="M449 793 q28-23 57 0 q-28 25-57 0 l-18 15 v-29Z"/></g>
+ <g fill="#3fb7db" stroke="#145c72" stroke-width="3"><path d="M604 640 q28-22 56 0 q-27 24-56 0 l-18 15 v-29Z"/><path d="M365 746 q28-22 56 0 q-27 24-56 0 l-18 15 v-29Z"/></g>
+ <rect x="35" y="543" width="364" height="93" rx="8" fill="#fff" stroke="#111" stroke-width="4"/><text x="217" y="570" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="217">해초 숲 사이로 생명들이 돌아온다.</tspan><tspan x="217" dy="23" font-size="14">生命重新回到海草森林。</tspan><tspan x="217" dy="21" font-size="14">Life returns through the seagrass forest.</tspan></text>
+ <rect x="438" y="552" width="286" height="121" rx="30" fill="#fff" stroke="#111" stroke-width="4"/><text x="581" y="582" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="581">바다거북도 돌아왔어!</tspan><tspan x="581" dy="24">여기가 다시 쉼터가 됐어.</tspan><tspan x="581" dy="21" font-size="14">海龟也回来了！</tspan><tspan x="581" dy="20" font-size="13">The turtles are back too!</tspan></text>
+ <text x="43" y="980" fill="#fff" stroke="#0b5871" stroke-width="7" paint-order="stroke" font-family="Arial" font-size="58" font-weight="900" font-style="italic">THE SEA BREATHES AGAIN!</text>
+</g>
+
+<!-- PANEL 4: monitoring and promise -->
+<g clip-path="url(#p4)">
+ <rect x="774" y="524" width="746" height="482" fill="url(#lab)"/>
+ <rect x="803" y="573" width="414" height="287" rx="12" fill="#082338" stroke="#1d516d" stroke-width="6"/>
+ <text x="1010" y="608" text-anchor="middle" fill="#bff8ff" font-family="Arial" font-size="24" font-weight="900">B-16 BLUE-CARBON MONITORING</text>
+ <text x="842" y="659" fill="#a9eaff" font-family="Arial" font-size="20">Seagrass Cover</text><text x="1160" y="659" text-anchor="end" fill="#63ff9d" font-family="Arial" font-size="31" font-weight="900">+58%</text>
+ <text x="842" y="704" fill="#a9eaff" font-family="Arial" font-size="20">Juvenile Fish</text><text x="1160" y="704" text-anchor="end" fill="#63ff9d" font-family="Arial" font-size="31" font-weight="900">+44%</text>
+ <text x="842" y="749" fill="#a9eaff" font-family="Arial" font-size="20">Blue Carbon Storage</text><text x="1160" y="749" text-anchor="end" fill="#63ff9d" font-family="Arial" font-size="31" font-weight="900">+37%</text>
+ <path d="M835 820 L886 800 L931 789 L975 754 L1017 742 L1064 700 L1110 676 L1162 632" fill="none" stroke="#62f8ff" stroke-width="8"/><g fill="#62f8ff"><circle cx="835" cy="820" r="7"/><circle cx="886" cy="800" r="7"/><circle cx="931" cy="789" r="7"/><circle cx="975" cy="754" r="7"/><circle cx="1017" cy="742" r="7"/><circle cx="1064" cy="700" r="7"/><circle cx="1110" cy="676" r="7"/><circle cx="1162" cy="632" r="7"/></g>
+ <!-- team -->
+ <g filter="url(#sh)"><ellipse cx="1324" cy="698" rx="42" ry="49" fill="#efbd98" stroke="#17212b" stroke-width="5"/><path d="M1285 696 Q1290 653 1324 650 Q1361 653 1366 698 Q1342 671 1323 672 Q1301 670 1285 696Z" fill="#38271f"/><path d="M1284 753 Q1323 731 1367 754 L1411 934 L1246 934Z" fill="#eaf6fa" stroke="#17212b" stroke-width="5"/><text x="1327" y="845" text-anchor="middle" fill="#0c638a" font-family="Arial" font-size="27" font-weight="900">FTF</text><path d="M1284 788 Q1240 775 1192 744" stroke="#efbd98" stroke-width="18" stroke-linecap="round"/><circle cx="1192" cy="744" r="11" fill="#efbd98"/></g>
+ <rect x="1213" y="548" width="284" height="126" rx="28" fill="#fff" stroke="#111" stroke-width="4"/><text x="1355" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1355">해초 면적 +58%!</tspan><tspan x="1355" dy="24">작은 숲이 큰 변화를 만들었어.</tspan><tspan x="1355" dy="21" font-size="14">海草覆盖率上升 58%！</tspan><tspan x="1355" dy="20" font-size="13">Seagrass cover is up 58%!</tspan></text>
+ <rect x="1212" y="858" width="290" height="124" rx="28" fill="#fff7d9" stroke="#111" stroke-width="4"/><text x="1357" y="888" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1357">다음 해역에도 이 숨을 이어가자!</tspan><tspan x="1357" dy="24" font-size="14">把这份呼吸带到下一片海域！</tspan><tspan x="1357" dy="22" font-size="14">Carry this breath to the next sea!</tspan></text>
+ <text x="814" y="967" fill="#fff" stroke="#0a5570" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="43" font-weight="900" font-style="italic">PLANT TODAY · BREATHE TOMORROW</text>
+</g>
+
+<!-- panel borders -->
+<g fill="none" stroke="#fff" stroke-width="8"><rect x="16" y="84" width="746" height="428" rx="8"/><rect x="774" y="84" width="746" height="428" rx="8"/><rect x="16" y="524" width="746" height="482" rx="8"/><rect x="774" y="524" width="746" height="482" rx="8"/></g>
+<text x="1488" y="997" text-anchor="end" fill="#d9f7ff" font-family="Arial" font-size="14" font-weight="700">FTF · FOR THE FUTURE</text>
+</svg>
