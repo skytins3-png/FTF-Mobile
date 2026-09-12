@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#59c9ff"/><stop offset="1" stop-color="#eafcff"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#19b7ca"/><stop offset="1" stop-color="#045b78"/></linearGradient>
+ <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#087fa0"/><stop offset="1" stop-color="#042f4c"/></linearGradient>
+ <linearGradient id="lab" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dff8ff"/><stop offset="1" stop-color="#5fabc6"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".38"/></filter>
+ <clipPath id="p1"><rect x="16" y="84" width="746" height="428" rx="8"/></clipPath><clipPath id="p2"><rect x="774" y="84" width="746" height="428" rx="8"/></clipPath><clipPath id="p3"><rect x="16" y="524" width="746" height="482" rx="8"/></clipPath><clipPath id="p4"><rect x="774" y="524" width="746" height="482" rx="8"/></clipPath>
+</defs>
+<rect width="1536" height="1024" fill="#06131f"/><rect x="12" y="12" width="1512" height="58" rx="12" fill="#0b2a43"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic,sans-serif" font-size="34" font-weight="900">FTF-01  #117  굴초가 세우는 살아 있는 방파제</text>
+<text x="867" y="49" fill="#a8efff" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="800">B-20 OYSTER REEF · 牡蛎礁生态防波堤 · LIVING BREAKWATER</text>
+
+<!-- PANEL 1: estuary survey -->
+<g clip-path="url(#p1)">
+ <rect x="16" y="84" width="746" height="428" fill="url(#sky)"/><path d="M16 312 Q185 284 348 312 T762 301 V512 H16Z" fill="url(#sea)"/><path d="M500 304 q78-71 152-17 q49-22 110 23v82H487Z" fill="#6d9b65"/>
+ <g filter="url(#sh)"><path d="M52 367 L438 367 L408 455 L101 455Z" fill="#f6fbff" stroke="#152936" stroke-width="6"/><rect x="136" y="254" width="238" height="113" rx="8" fill="#edf8fb" stroke="#152936" stroke-width="6"/><rect x="169" y="278" width="70" height="36" fill="#25546b"/><rect x="273" y="278" width="70" height="36" fill="#25546b"/><text x="255" y="340" text-anchor="middle" fill="#0b5c84" font-family="Arial" font-size="30" font-weight="900">FTF</text><path d="M255 254V196M255 196L296 221M255 196L220 224" stroke="#152936" stroke-width="7"/></g>
+ <g filter="url(#sh)"><ellipse cx="563" cy="276" rx="43" ry="51" fill="#efbd98" stroke="#17212b" stroke-width="5"/><path d="M520 272 Q526 232 560 227 Q600 231 607 278 Q584 250 558 250 Q538 250 520 272Z" fill="#3f2a22"/><path d="M521 331 Q564 309 608 333 L649 494 L480 494Z" fill="#e9f5fa" stroke="#17212b" stroke-width="5"/><text x="564" y="420" text-anchor="middle" fill="#0d6289" font-family="Arial" font-size="24" font-weight="900">FTF</text><circle cx="548" cy="286" r="5"/><circle cx="579" cy="286" r="5"/><path d="M548 306 Q563 318 580 305" fill="none" stroke="#a75f52" stroke-width="4"/><path d="M607 359 Q660 349 710 321" stroke="#efbd98" stroke-width="18" stroke-linecap="round"/></g>
+ <rect x="656" y="299" width="76" height="103" rx="8" fill="#142c40" stroke="#07131d" stroke-width="5"/><path d="M668 315h52v63h-52z" fill="#7de6f5"/><path d="M673 359 q17-35 40-17" fill="none" stroke="#f15e5e" stroke-width="6"/>
+ <rect x="31" y="101" width="430" height="135" rx="22" fill="#fff" stroke="#111" stroke-width="4"/><text x="246" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="246">B-20 하구는 파도와 탁수에 계속 깎이고 있다.</tspan><tspan x="246" dy="25" font-size="14">B-20 河口仍受波浪和浑水侵蚀。</tspan><tspan x="246" dy="21" font-size="14">B-20 estuary is still being eroded by waves and turbid water.</tspan></text>
+ <rect x="472" y="101" width="266" height="118" rx="24" fill="#fff5d8" stroke="#111" stroke-width="4"/><text x="605" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="605">이번엔 굴초가</tspan><tspan x="605" dy="23">파도를 받아 줄 거야!</tspan><tspan x="605" dy="21" font-size="14">让牡蛎礁来挡浪！</tspan><tspan x="605" dy="20" font-size="13">Let the oyster reef take the waves!</tspan></text>
+ <text x="45" y="482" fill="#fff" stroke="#084461" stroke-width="5" paint-order="stroke" font-family="Arial" font-size="39" font-weight="900" font-style="italic">SCAN!  MAP!  DEPLOY!</text>
+</g>
+
+<!-- PANEL 2: divers build oyster reef -->
+<g clip-path="url(#p2)">
+ <rect x="774" y="84" width="746" height="428" fill="url(#deep)"/>
+ <circle cx="1430" cy="135" r="95" fill="#6ddff1" opacity=".15"/><g fill="#a9f4ff" opacity=".7"><circle cx="861" cy="153" r="7"/><circle cx="878" cy="132" r="4"/><circle cx="1120" cy="184" r="6"/><circle cx="1389" cy="239" r="7"/><circle cx="1410" cy="216" r="4"/></g>
+ <path d="M774 438 Q960 398 1120 431 T1520 420 V512 H774Z" fill="#927c58"/>
+ <!-- reef modules -->
+ <g stroke="#624b36" stroke-width="6" fill="#c7b08a"><path d="M852 414 l58-96 60 96z"/><path d="M986 422 l61-102 63 102z"/><path d="M1130 426 l62-106 64 106z"/><path d="M1268 424 l60-99 62 99z"/></g>
+ <g fill="#e7d8b9" stroke="#7d674d" stroke-width="3"><ellipse cx="892" cy="374" rx="17" ry="9"/><ellipse cx="920" cy="397" rx="18" ry="10"/><ellipse cx="1032" cy="377" rx="17" ry="9"/><ellipse cx="1065" cy="403" rx="18" ry="10"/><ellipse cx="1174" cy="379" rx="17" ry="9"/><ellipse cx="1210" cy="404" rx="19" ry="10"/><ellipse cx="1312" cy="378" rx="17" ry="9"/><ellipse cx="1350" cy="402" rx="19" ry="10"/></g>
+ <!-- diver male -->
+ <g filter="url(#sh)"><ellipse cx="985" cy="226" rx="44" ry="48" fill="#efbd98" stroke="#07121b" stroke-width="5"/><path d="M947 222Q951 184 984 179Q1021 185 1026 224Z" fill="#202a31"/><rect x="948" y="213" width="76" height="33" rx="15" fill="#94e9f5" opacity=".82" stroke="#07121b" stroke-width="5"/><path d="M951 281 Q987 258 1030 283 L1072 407 L913 407Z" fill="#15384d" stroke="#07121b" stroke-width="6"/><text x="990" y="348" text-anchor="middle" fill="#e3faff" font-family="Arial" font-size="25" font-weight="900">FTF</text><rect x="909" y="278" width="29" height="92" rx="12" fill="#26323c" stroke="#07121b" stroke-width="5"/><path d="M950 326 Q900 347 870 389" stroke="#15384d" stroke-width="25" stroke-linecap="round"/><path d="M1029 328 Q1080 345 1115 379" stroke="#15384d" stroke-width="25" stroke-linecap="round"/></g>
+ <!-- diver female -->
+ <g filter="url(#sh)"><ellipse cx="1270" cy="214" rx="43" ry="48" fill="#efbd98" stroke="#07121b" stroke-width="5"/><path d="M1229 213Q1237 174 1270 171Q1305 177 1312 217Z" fill="#493026"/><path d="M1302 180 q40 21 47 62 q-28-9-45-24" fill="#493026"/><rect x="1234" y="204" width="73" height="33" rx="15" fill="#94e9f5" opacity=".82" stroke="#07121b" stroke-width="5"/><path d="M1235 270 Q1270 248 1315 272 L1357 407 L1198 407Z" fill="#15384d" stroke="#07121b" stroke-width="6"/><text x="1275" y="341" text-anchor="middle" fill="#e3faff" font-family="Arial" font-size="25" font-weight="900">FTF</text><rect x="1323" y="271" width="28" height="91" rx="12" fill="#26323c" stroke="#07121b" stroke-width="5"/><path d="M1237 315 Q1190 334 1158 374" stroke="#15384d" stroke-width="24" stroke-linecap="round"/><path d="M1312 316 Q1360 336 1400 370" stroke="#15384d" stroke-width="24" stroke-linecap="round"/></g>
+ <rect x="793" y="101" width="418" height="91" rx="8" fill="#fff" stroke="#111" stroke-width="4"/><text x="1002" y="127" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1002">잠수팀이 굴껍데기 복원 모듈을 하구 바닥에 연결한다.</tspan><tspan x="1002" dy="22" font-size="14">潜水队把牡蛎礁模块固定在河口底部。</tspan><tspan x="1002" dy="20" font-size="14">Divers lock oyster-shell reef modules onto the estuary floor.</tspan></text>
+ <rect x="1220" y="100" width="279" height="123" rx="26" fill="#fff" stroke="#111" stroke-width="4"/><text x="1360" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1360">간격 맞춰!</tspan><tspan x="1360" dy="23">물길은 남겨 둬!</tspan><tspan x="1360" dy="21" font-size="14">留出水流通道！</tspan><tspan x="1360" dy="20" font-size="13">Keep the tidal channels open!</tspan></text>
+ <text x="874" y="483" fill="#fff" stroke="#0b6071" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="45" font-weight="900" font-style="italic">CLACK!  LOCK!  REEF!</text>
+</g>
+
+<!-- PANEL 3: filtration and life return -->
+<g clip-path="url(#p3)">
+ <rect x="16" y="524" width="746" height="482" fill="url(#deep)"/><path d="M16 920 Q178 885 349 918 T762 903 V1006 H16Z" fill="#917957"/>
+ <g stroke="#624b36" stroke-width="5" fill="#c8b38f"><path d="M87 910 l49-80 51 80z"/><path d="M205 920 l53-88 55 88z"/><path d="M335 916 l52-86 55 86z"/><path d="M465 920 l54-90 56 90z"/></g>
+ <g fill="#eadbbb" stroke="#77624b" stroke-width="3"><ellipse cx="128" cy="868" rx="16" ry="9"/><ellipse cx="168" cy="893" rx="18" ry="10"/><ellipse cx="246" cy="870" rx="16" ry="9"/><ellipse cx="286" cy="897" rx="18" ry="10"/><ellipse cx="377" cy="869" rx="16" ry="9"/><ellipse cx="419" cy="895" rx="18" ry="10"/><ellipse cx="510" cy="870" rx="16" ry="9"/><ellipse cx="552" cy="896" rx="18" ry="10"/></g>
+ <!-- fish schools -->
+ <g fill="#ffd35e" stroke="#283747" stroke-width="3"><path d="M134 692q42-31 82 0q-40 31-82 0l-27-22v44z"/><path d="M253 738q34-25 68 0q-34 25-68 0l-23-18v36z"/><path d="M485 683q39-29 77 0q-38 29-77 0l-25-20v40z"/></g>
+ <g fill="#6ee4ff" stroke="#243847" stroke-width="3"><path d="M346 656q31-23 63 0q-32 24-63 0l-20-16v32z"/><path d="M572 755q32-23 65 0q-33 24-65 0l-20-16v32z"/></g>
+ <!-- water clarity split -->
+ <path d="M16 524h255v482H16z" fill="#8b6e50" opacity=".18"/><path d="M276 524h486v482H276z" fill="#45d7e3" opacity=".07"/>
+ <!-- turtle -->
+ <g transform="translate(563 628)" filter="url(#sh)"><ellipse cx="60" cy="42" rx="73" ry="43" fill="#7f9c63" stroke="#283c32" stroke-width="5"/><ellipse cx="129" cy="38" rx="28" ry="22" fill="#8baa6c" stroke="#283c32" stroke-width="5"/><path d="M20 16q-55-37-67-11q20 36 65 42M23 68q-54 31-43 52q42-6 68-44M86 13q51-29 63-5q-14 29-54 38M91 67q49 26 43 47q-39-3-68-38" fill="#8baa6c" stroke="#283c32" stroke-width="5"/><path d="M18 41q42-52 85 0q-42 47-85 0" fill="none" stroke="#526c48" stroke-width="6"/></g>
+ <rect x="35" y="543" width="433" height="110" rx="8" fill="#fff" stroke="#111" stroke-width="4"/><text x="252" y="570" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="252">굴초가 물을 거르고, 어린 물고기가 다시 모인다.</tspan><tspan x="252" dy="23" font-size="14">牡蛎礁过滤水体，幼鱼重新聚集。</tspan><tspan x="252" dy="21" font-size="14">Oyster reefs filter the water and juvenile fish return.</tspan></text>
+ <rect x="476" y="546" width="257" height="120" rx="26" fill="#fff5d8" stroke="#111" stroke-width="4"/><text x="604" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="604">물이 맑아졌어!</tspan><tspan x="604" dy="23">바다거북도 왔어!</tspan><tspan x="604" dy="21" font-size="14">水清了，海龟也回来了！</tspan><tspan x="604" dy="20" font-size="13">Clearer water—and the turtle is back!</tspan></text>
+ <text x="57" y="971" fill="#fff" stroke="#0b6071" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="49" font-weight="900" font-style="italic">FILTER!  SHELTER!  LIFE RETURNS!</text>
+</g>
+
+<!-- PANEL 4: monitoring and living breakwater -->
+<g clip-path="url(#p4)">
+ <rect x="774" y="524" width="746" height="482" fill="url(#lab)"/>
+ <rect x="1073" y="558" width="414" height="303" rx="18" fill="#09293c" stroke="#06141f" stroke-width="8"/>
+ <text x="1280" y="594" text-anchor="middle" fill="#bdf5ff" font-family="Arial" font-size="23" font-weight="900">B-20 LIVING BREAKWATER</text>
+ <text x="1110" y="638" fill="#dffbff" font-family="Arial" font-size="18">Wave energy</text><text x="1437" y="638" text-anchor="end" fill="#75ffb6" font-family="Arial" font-size="26" font-weight="900">−61%</text>
+ <text x="1110" y="684" fill="#dffbff" font-family="Arial" font-size="18">Water turbidity</text><text x="1437" y="684" text-anchor="end" fill="#75ffb6" font-family="Arial" font-size="26" font-weight="900">−43%</text>
+ <text x="1110" y="730" fill="#dffbff" font-family="Arial" font-size="18">Juvenile fish</text><text x="1437" y="730" text-anchor="end" fill="#75ffb6" font-family="Arial" font-size="26" font-weight="900">+49%</text>
+ <text x="1110" y="776" fill="#dffbff" font-family="Arial" font-size="18">Oyster settlement</text><text x="1437" y="776" text-anchor="end" fill="#75ffb6" font-family="Arial" font-size="26" font-weight="900">+72%</text>
+ <path d="M1110 824h322" stroke="#8befff" stroke-width="3"/><path d="M1118 814l55-17 55-9 55-31 55-9 55-42" fill="none" stroke="#69ffbd" stroke-width="7"/>
+ <!-- team -->
+ <g filter="url(#sh)"><ellipse cx="896" cy="704" rx="45" ry="51" fill="#efbd98" stroke="#17212b" stroke-width="5"/><path d="M853 699Q858 659 892 653Q933 657 940 706Q916 677 891 678Q870 676 853 699Z" fill="#3f2a22"/><path d="M850 760 Q897 735 944 760 L980 959 L811 959Z" fill="#15384d" stroke="#07121b" stroke-width="6"/><text x="897" y="853" text-anchor="middle" fill="#e3faff" font-family="Arial" font-size="27" font-weight="900">FTF</text><path d="M944 793 Q1012 772 1090 719" stroke="#15384d" stroke-width="27" stroke-linecap="round"/></g>
+ <g filter="url(#sh)"><ellipse cx="1010" cy="782" rx="36" ry="41" fill="#e6b18d" stroke="#17212b" stroke-width="5"/><path d="M975 778Q980 747 1009 742Q1042 748 1047 782Z" fill="#202a31"/><path d="M977 827 Q1011 808 1048 829 L1072 960 L946 960Z" fill="#eaf6fa" stroke="#17212b" stroke-width="5"/><text x="1009" y="900" text-anchor="middle" fill="#0d6289" font-family="Arial" font-size="22" font-weight="900">FTF</text></g>
+ <rect x="792" y="544" width="258" height="113" rx="25" fill="#fff" stroke="#111" stroke-width="4"/><text x="921" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="921">파도 에너지 −61%!</tspan><tspan x="921" dy="23">굴초가 살아 있는 방파제가 됐어.</tspan><tspan x="921" dy="21" font-size="14">浪能下降61%，牡蛎礁成为生态防波堤。</tspan><tspan x="921" dy="20" font-size="13">Wave energy down 61%—the reef is working.</tspan></text>
+ <rect x="1084" y="875" width="394" height="105" rx="24" fill="#fff5d8" stroke="#111" stroke-width="4"/><text x="1281" y="904" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1281">벽을 세우는 대신 생명을 키운다.</tspan><tspan x="1281" dy="23" font-size="14">不是筑墙，而是让生命成长。</tspan><tspan x="1281" dy="21" font-size="14">Instead of a wall, we grow a living coast.</tspan></text>
+ <text x="801" y="987" fill="#fff" stroke="#0a526c" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="40" font-weight="900" font-style="italic">GROW THE REEF · PROTECT THE SHORE</text>
+</g>
+
+<g fill="none" stroke="#fff" stroke-width="8"><rect x="16" y="84" width="746" height="428"/><rect x="774" y="84" width="746" height="428"/><rect x="16" y="524" width="746" height="482"/><rect x="774" y="524" width="746" height="482"/></g>
+</svg>
