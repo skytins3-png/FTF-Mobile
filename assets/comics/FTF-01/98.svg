@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="skyA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#80d6ff"/><stop offset="1" stop-color="#e8f9ff"/></linearGradient>
+ <linearGradient id="seaA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#17a8d0"/><stop offset="1" stop-color="#04547f"/></linearGradient>
+ <linearGradient id="deepA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#148ab5"/><stop offset="1" stop-color="#022f56"/></linearGradient>
+ <linearGradient id="sunA" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd26c"/><stop offset=".5" stop-color="#f38a64"/><stop offset="1" stop-color="#55436f"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".35"/></filter>
+ <style>
+ .panel{stroke:#071722;stroke-width:8}.cap{font-family:'Noto Sans KR','Noto Sans CJK SC',Arial,sans-serif;font-weight:700}.ko{font-size:22px}.zh{font-size:18px}.en{font-size:17px}.box{fill:#fffdf7;stroke:#12212c;stroke-width:4}.bubble{fill:#fff;stroke:#101820;stroke-width:4}.line{stroke:#101820;stroke-width:4;stroke-linejoin:round}.skin{fill:#efbd9c}.skin2{fill:#d5a07d}.hair{fill:#1d242b}.hair2{fill:#493229}.ftf{fill:#155f92}.sfx{font-family:Arial Black,sans-serif;font-weight:900;font-style:italic;paint-order:stroke;stroke:#fff;stroke-width:9;stroke-linejoin:round}.tag{font-family:Arial Black,sans-serif;font-weight:900}.reef{stroke:#cb6e5c;stroke-width:7;stroke-linecap:round;fill:none}.reef2{stroke:#f0a24a;stroke-width:6;stroke-linecap:round;fill:none}
+ </style>
+</defs>
+<rect width="1536" height="1024" fill="#06131c"/>
+<rect width="1536" height="66" fill="#0b3659"/>
+<text x="20" y="44" class="tag" font-size="32" fill="#fff">FTF-01  #98</text>
+<text x="250" y="42" class="cap" font-size="28" fill="#fff">함께 지키는 바다, 더 멀리까지 · 一起守护海洋，走向更远 · A CLEANER OCEAN, FURTHER TOGETHER</text>
+<text x="1510" y="42" text-anchor="end" class="cap" font-size="16" fill="#d8f7ff">지금의 작은 행동이 더 먼 바다까지 이어집니다.</text>
+
+<!-- PANEL 1: research vessel reaches a new restoration zone -->
+<g transform="translate(14,80)">
+ <rect class="panel" width="748" height="424" rx="8" fill="url(#skyA)"/>
+ <path d="M0 270q90-35 180 0t180 0 180 0 208 0v154H0z" fill="#188cb6"/>
+ <path d="M0 280q90-22 180 0t180 0 180 0 208 0" fill="none" stroke="#b6f3ff" stroke-width="7" opacity=".85"/>
+ <path d="M515 90l60 78H455z" fill="#577481"/><path d="M551 68l20 25h-39z" fill="#f3f6f7"/>
+ <path d="M25 210h450l60 118H0z" fill="#eef4f6" class="line"/>
+ <rect x="78" y="126" width="230" height="84" rx="8" fill="#dce8ed" class="line"/><rect x="108" y="146" width="63" height="39" fill="#75c9df" class="line"/><rect x="188" y="146" width="63" height="39" fill="#75c9df" class="line"/>
+ <g transform="translate(70,195)" filter="url(#shadow)"><path d="M50 100Q20 132 22 210h124q3-76-38-109z" class="ftf line"/><circle cx="86" cy="69" r="46" class="skin line"/><path d="M43 70q5-48 44-50 44 2 47 52-23-16-43-28-16 17-46 26z" class="hair2 line"/><path d="M48 36q33-25 78-2l-7-24q-35-20-65 0z" fill="#195f8e" class="line"/><text x="87" y="27" text-anchor="middle" class="tag" font-size="13" fill="#fff">FTF</text><ellipse cx="72" cy="73" rx="6" ry="8" fill="#17212a"/><ellipse cx="103" cy="73" rx="6" ry="8" fill="#17212a"/><path d="M76 94q13 9 27-1" fill="none" stroke="#9b514a" stroke-width="4"/><path d="M112 142l130-50 10 26-124 68" class="skin line"/></g>
+ <g transform="translate(265,190)" filter="url(#shadow)"><path d="M45 93Q16 120 19 190h112q3-67-34-96z" fill="#152532" class="line"/><circle cx="77" cy="61" r="41" class="skin2 line"/><path d="M38 62q5-43 39-44 39 2 41 45-21-14-38-25-15 16-41 24z" class="hair line"/><path d="M55 126l120 25-7 27-121-13" class="skin2 line"/><rect x="122" y="126" width="55" height="39" rx="6" fill="#253947" class="line"/><circle cx="150" cy="145" r="11" fill="#81d4ef"/></g>
+ <g transform="translate(430,202)" filter="url(#shadow)"><path d="M47 88Q18 114 21 182h108q3-66-33-93z" fill="#e8eef1" class="line"/><circle cx="78" cy="58" r="39" class="skin line"/><path d="M40 59q5-41 38-42 37 2 39 43-19-13-36-23-14 15-40 22z" class="hair2 line"/><path d="M49 29q31-21 62 0l-4-18q-29-17-54 0z" fill="#f0f4f6" class="line"/><text x="80" y="24" text-anchor="middle" class="tag" font-size="11" fill="#155f92">FTF</text><rect x="104" y="115" width="86" height="56" rx="7" fill="#222f38" class="line"/><rect x="113" y="124" width="68" height="38" fill="#78cbdd"/></g>
+ <rect x="18" y="16" width="350" height="112" rx="8" class="box"/><text x="31" y="44" class="cap ko">복원된 바다는 끝이 아니라, 다음 바다의 시작입니다.</text><text x="31" y="72" class="cap zh">修复的海洋不是终点，而是下一片海的起点。</text><text x="31" y="99" class="cap en">A restored sea is the beginning of the next one.</text>
+ <rect x="395" y="18" width="327" height="109" rx="52" class="bubble"/><text x="559" y="48" text-anchor="middle" class="cap ko">저기 봐요! 새 복원 구역이에요!</text><text x="559" y="76" text-anchor="middle" class="cap zh">看！新的修复海域到了！</text><text x="559" y="102" text-anchor="middle" class="cap en">Look! We reached the next restoration zone!</text>
+ <text x="488" y="395" class="sfx" font-size="46" fill="#42c7ff">FURTHER!</text>
+</g>
+
+<!-- PANEL 2: divers maintain coral nursery and sensors -->
+<g transform="translate(774,80)">
+ <rect class="panel" width="748" height="424" rx="8" fill="url(#deepA)"/>
+ <g opacity=".28" fill="#d7faff"><circle cx="80" cy="60" r="8"/><circle cx="115" cy="42" r="5"/><circle cx="357" cy="74" r="7"/><circle cx="613" cy="56" r="9"/><circle cx="666" cy="96" r="5"/></g>
+ <path d="M0 350q100-62 210-21t195-5 343 12v88H0z" fill="#244c55"/>
+ <g stroke="#b8c9c3" stroke-width="7"><path d="M92 318h486"/><path d="M138 252v110M238 246v117M338 238v125M438 246v116M538 252v110"/><path d="M92 318l46-66 100 66 100-80 100 80 100-66 40 66"/></g>
+ <g class="reef"><path d="M168 318v-58m0 28l-21-18m21 2l18-24M273 318v-63m0 30l-20-20m20 3l21-26M382 316v-55m0 29l-21-18m21 1l21-22M490 317v-59m0 30l-18-20m18 2l21-24"/></g>
+ <g transform="translate(98,118)" filter="url(#shadow)"><path d="M47 92q-22 48-18 121h108q3-74-24-120z" fill="#101a22" class="line"/><circle cx="82" cy="61" r="40" class="skin line"/><path d="M43 62q5-43 39-44 38 2 40 46-20-14-38-24-14 15-40 22z" class="hair line"/><rect x="47" y="48" width="70" height="31" rx="12" fill="#8fdaf0" opacity=".72" stroke="#0d1b22" stroke-width="4"/><rect x="19" y="93" width="20" height="91" rx="9" fill="#d8dfe4" class="line"/><path d="M115 139l112 30-7 27-114-18" class="skin line"/></g>
+ <g transform="translate(420,132)" filter="url(#shadow)"><path d="M42 88q-21 47-18 116h102q3-70-23-115z" fill="#101a22" class="line"/><circle cx="76" cy="58" r="38" class="skin2 line"/><path d="M39 59q5-41 37-42 37 2 39 43-19-13-36-23-14 15-39 22z" class="hair2 line"/><rect x="44" y="46" width="65" height="29" rx="11" fill="#8fdaf0" opacity=".72" stroke="#0d1b22" stroke-width="4"/><rect x="17" y="89" width="19" height="87" rx="9" fill="#d8dfe4" class="line"/><path d="M31 131l-72 38 12 24 73-26" class="skin2 line"/></g>
+ <g transform="translate(605,225)"><rect x="0" y="0" width="67" height="104" rx="8" fill="#334f5f" class="line"/><circle cx="33" cy="27" r="13" fill="#51daf3"/><path d="M16 57h34M16 73h34" stroke="#c8f4ff" stroke-width="5"/></g>
+ <g fill="#f6c56f" stroke="#543b26" stroke-width="2"><path d="M652 105l28 13-28 13 8-13z"/><path d="M575 85l22 10-22 10 6-10z"/><path d="M310 92l26 12-26 12 7-12z"/></g>
+ <rect x="18" y="16" width="354" height="112" rx="8" class="box"/><text x="31" y="44" class="cap ko">건강한 산호와 수질 센서를 함께 점검합니다.</text><text x="31" y="72" class="cap zh">我们同时检查健康珊瑚和水质传感器。</text><text x="31" y="99" class="cap en">We check coral health and water-quality sensors together.</text>
+ <rect x="402" y="18" width="320" height="109" rx="52" class="bubble"/><text x="562" y="48" text-anchor="middle" class="cap ko">심고 끝이 아니야. 계속 지켜봐야 해!</text><text x="562" y="76" text-anchor="middle" class="cap zh">种下去还不够，要一直守护！</text><text x="562" y="102" text-anchor="middle" class="cap en">Planting is only the start. We keep watching!</text>
+ <text x="522" y="390" class="sfx" font-size="48" fill="#63e6ff">CHECK!</text>
+</g>
+
+<!-- PANEL 3: thriving reef corridor -->
+<g transform="translate(14,518)">
+ <rect class="panel" width="748" height="490" rx="8" fill="url(#deepA)"/>
+ <path d="M0 385q100-72 220-29t210-8 318 8v134H0z" fill="#284e50"/>
+ <g class="reef2"><path d="M70 422v-120m0 62l-38-31m38 7l38-52m68 134V287m0 65l-43-36m43 6l36-55m75 155V303m0 62l-36-31m36 2l42-50m65 136V294m0 65l-40-34m40 4l37-57m76 150V309m0 57l-34-28m34 1l39-46m67 129V300m0 61l-36-33m36 3l39-50"/></g>
+ <g transform="translate(220,160)" filter="url(#shadow)"><ellipse cx="165" cy="116" rx="94" ry="60" fill="#749866" class="line"/><path d="M96 113q-58-49-90-8 35 33 87 42M234 111q62-53 96-11-38 34-92 45M149 170q-20 57 15 77 25-33 22-72" fill="#7da86d" class="line"/><circle cx="251" cy="109" r="31" fill="#8caf74" class="line"/><circle cx="262" cy="102" r="5" fill="#111"/><path d="M106 87q61-37 124 5-18 74-68 76-51 0-56-81z" fill="#82aa70"/><g stroke="#536f4a" stroke-width="4"><path d="M116 100q46 25 101 6M127 128q38 26 82 8M150 80l-8 74M181 76l-2 84M211 84l-16 69"/></g></g>
+ <g fill="#ffd46f" stroke="#5c4027" stroke-width="2"><path d="M71 136l39 17-39 18 11-18z"/><path d="M129 195l31 14-31 14 9-14z"/><path d="M578 143l36 16-36 16 10-16z"/><path d="M647 231l29 13-29 13 8-13z"/><path d="M541 286l30 14-30 14 8-14z"/></g>
+ <g fill="#65d8ef" opacity=".65"><circle cx="120" cy="83" r="8"/><circle cx="153" cy="62" r="5"/><circle cx="577" cy="87" r="7"/><circle cx="630" cy="108" r="5"/></g>
+ <rect x="18" y="16" width="365" height="112" rx="8" class="box"/><text x="31" y="44" class="cap ko">이어진 산호 길에 물고기와 바다거북이 돌아왔습니다.</text><text x="31" y="72" class="cap zh">连成片的珊瑚带迎回了鱼群和海龟。</text><text x="31" y="99" class="cap en">A connected reef corridor brings fish and turtles back.</text>
+ <text x="422" y="452" class="sfx" font-size="50" fill="#ffe36b">LIFE SPREADS!</text>
+ <rect x="22" y="365" width="295" height="105" rx="8" class="box"/><text x="36" y="393" class="cap ko">한 곳의 회복이 옆 바다의 생명까지 이어집니다.</text><text x="36" y="421" class="cap zh">一处海域的恢复，会把生命带到更远处。</text><text x="36" y="448" class="cap en">One recovery can carry life farther along the coast.</text>
+</g>
+
+<!-- PANEL 4: local families and FTF team at coastal education pier -->
+<g transform="translate(774,518)">
+ <rect class="panel" width="748" height="490" rx="8" fill="url(#sunA)"/>
+ <circle cx="585" cy="160" r="43" fill="#ffeab0" opacity=".95"/>
+ <path d="M0 225q110-40 220 0t220 0 308 0v265H0z" fill="#315a72" opacity=".9"/>
+ <path d="M0 244q105-26 210 0t210 0 328 0" fill="none" stroke="#f9dca9" stroke-width="7" opacity=".72"/>
+ <path d="M0 325h748v165H0z" fill="#705945"/><path d="M0 325h748" stroke="#caa47c" stroke-width="9"/><path d="M60 325v165M160 325v165M260 325v165M360 325v165M460 325v165M560 325v165M660 325v165" stroke="#4d3d32" stroke-width="8"/>
+ <g transform="translate(64,260)" filter="url(#shadow)"><path d="M44 91Q15 120 18 190h110q3-67-33-97z" class="ftf line"/><circle cx="75" cy="59" r="40" class="skin2 line"/><path d="M37 60q5-42 38-43 38 2 40 45-20-14-37-24-15 15-40 22z" class="hair line"/><path d="M96 127l90-40 11 25-87 54" class="skin2 line"/></g>
+ <g transform="translate(205,270)" filter="url(#shadow)"><path d="M43 85Q16 112 19 174h102q3-62-31-88z" fill="#edf2f4" class="line"/><circle cx="72" cy="56" r="37" class="skin line"/><path d="M36 57q5-39 36-40 35 2 37 41-18-13-34-22-13 14-38 21z" class="hair2 line"/><path d="M49 26q28-18 55 0l-4-15q-25-15-47 0z" fill="#eef3f6" class="line"/><text x="72" y="22" text-anchor="middle" class="tag" font-size="10" fill="#155f92">FTF</text></g>
+ <g transform="translate(353,297)" filter="url(#shadow)"><circle cx="50" cy="45" r="31" class="skin line"/><path d="M20 45q4-32 30-33 29 2 31 34-15-10-28-18-11 12-32 17z" class="hair line"/><path d="M24 78q-17 24-14 67h82q2-44-18-66z" fill="#f5c954" class="line"/></g>
+ <g transform="translate(447,300)" filter="url(#shadow)"><circle cx="49" cy="43" r="30" class="skin2 line"/><path d="M20 44q4-31 29-32 28 2 30 33-14-10-27-17-10 11-31 16z" class="hair2 line"/><path d="M23 75q-16 24-13 65h79q2-42-18-64z" fill="#69b9df" class="line"/></g>
+ <g transform="translate(535,265)" filter="url(#shadow)"><rect x="0" y="0" width="172" height="112" rx="8" fill="#fffdf7" class="line"/><text x="86" y="32" text-anchor="middle" class="cap" font-size="16">우리 바다 약속</text><text x="86" y="57" text-anchor="middle" class="cap" font-size="14">少用塑料 · 不乱丢垃圾</text><text x="86" y="82" text-anchor="middle" class="cap" font-size="14">LESS PLASTIC · CLEAN COAST</text><path d="M63 95q24 16 48 0" fill="none" stroke="#1e86b7" stroke-width="5"/></g>
+ <rect x="18" y="16" width="355" height="112" rx="8" class="box"/><text x="31" y="44" class="cap ko">바다를 지키는 방법을 지역 가족들과 함께 나눕니다.</text><text x="31" y="72" class="cap zh">我们和当地家庭一起学习如何守护海洋。</text><text x="31" y="99" class="cap en">We share ocean-protection habits with local families.</text>
+ <rect x="398" y="18" width="324" height="109" rx="52" class="bubble"/><text x="560" y="48" text-anchor="middle" class="cap ko">다음 세대와 함께해야 더 멀리 갈 수 있어요!</text><text x="560" y="76" text-anchor="middle" class="cap zh">和下一代一起，我们才能走得更远！</text><text x="560" y="102" text-anchor="middle" class="cap en">With the next generation, we can go farther!</text>
+ <text x="415" y="458" class="sfx" font-size="44" fill="#ffd85e">TOGETHER!</text>
+</g>
+</svg>
