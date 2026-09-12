@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8edbff"/><stop offset="1" stop-color="#dff7ff"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1ea6d4"/><stop offset="1" stop-color="#065781"/></linearGradient>
+ <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1aa0cf"/><stop offset="1" stop-color="#033d69"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffbe64"/><stop offset=".48" stop-color="#f47f61"/><stop offset="1" stop-color="#4a416a"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".35"/></filter>
+ <style>
+ .panel{stroke:#071722;stroke-width:8}.cap{font-family:'Noto Sans KR','Noto Sans CJK SC',Arial,sans-serif;font-weight:700}.ko{font-size:22px}.zh{font-size:18px}.en{font-size:17px}.box{fill:#fffdf7;stroke:#12212c;stroke-width:4}.bubble{fill:#fff;stroke:#101820;stroke-width:4}.line{stroke:#101820;stroke-width:4;stroke-linejoin:round}.skin{fill:#efbd9c}.skin2{fill:#d9a17e}.hair{fill:#1f252b}.hair2{fill:#493028}.ftf{fill:#165b88}.sfx{font-family:Arial Black,sans-serif;font-weight:900;font-style:italic;paint-order:stroke;stroke:#fff;stroke-width:9;stroke-linejoin:round}.tag{font-family:Arial Black,sans-serif;font-weight:900}.coral{stroke:#6b332d;stroke-width:5;stroke-linecap:round;fill:none}.coral2{stroke:#d96555;stroke-width:6;stroke-linecap:round;fill:none}
+ </style>
+</defs>
+<rect width="1536" height="1024" fill="#05141e"/>
+<rect width="1536" height="66" fill="#0b3659"/>
+<text x="20" y="44" class="tag" font-size="32" fill="#fff">FTF-01  #97</text>
+<text x="250" y="42" class="cap" font-size="28" fill="#fff">잃어버린 집을 다시, 푸른 바다로 · 让失去的家园重返蔚蓝 · HOMES FOR LIFE, BLUE OCEAN AGAIN</text>
+<text x="1510" y="42" text-anchor="end" class="cap" font-size="16" fill="#d8f7ff">작은 복원이 큰 생명을 다시 부릅니다.</text>
+
+<!-- PANEL 1: coral nursery preparation on research boat -->
+<g transform="translate(14,80)">
+ <rect class="panel" width="748" height="424" rx="8" fill="url(#sky)"/>
+ <path d="M0 265q85-32 170 0t170 0 170 0 238 0v159H0z" fill="#188ab1"/>
+ <path d="M0 275q90-25 180 0t180 0 180 0 208 0" fill="none" stroke="#a8efff" stroke-width="6" opacity=".8"/>
+ <path d="M590 60l60 75H530z" fill="#718291"/><path d="M620 33l21 26h-42z" fill="#e9f1f4"/><path d="M20 172h410l52 110H0z" fill="#eef4f6" class="line"/>
+ <rect x="70" y="98" width="205" height="77" rx="8" fill="#dce8ed" class="line"/><rect x="112" y="119" width="54" height="35" fill="#70bfd4" class="line"/><rect x="179" y="119" width="54" height="35" fill="#70bfd4" class="line"/>
+ <g transform="translate(390,193)"><rect width="315" height="95" rx="9" fill="#8d745d" class="line"/><g class="coral2"><path d="M33 75V30m0 20l-18-15m18 5l18-19m42 54V26m0 22L72 31m21 7l20-17m45 54V24m0 27l-19-16m19 1l20-18m45 57V29m0 21l-20-17m20 6l20-19m42 55V28m0 20l-19-17m19 8l19-18"/></g></g>
+ <g transform="translate(82,184)" filter="url(#shadow)"><path d="M56 104Q18 135 21 216h132q4-78-42-111z" fill="#e9eef0" class="line"/><circle cx="93" cy="72" r="49" class="skin line"/><path d="M45 74q6-51 49-52 47 2 49 55-25-18-46-31-17 19-49 28z" class="hair2 line"/><path d="M48 39q35-30 83-1l-6-25q-37-23-70 0z" fill="#1d6da0" class="line"/><text x="90" y="27" text-anchor="middle" class="tag" font-size="13" fill="#fff">FTF</text><ellipse cx="76" cy="77" rx="6" ry="8" fill="#17212a"/><ellipse cx="108" cy="77" rx="6" ry="8" fill="#17212a"/><path d="M80 99q13 9 28-1" fill="none" stroke="#9b514a" stroke-width="4"/><path d="M119 145l104 38-9 27-106-25" class="skin line"/></g>
+ <g transform="translate(268,194)" filter="url(#shadow)"><path d="M47 91Q15 118 18 185h110q4-64-31-93z" class="ftf line"/><circle cx="75" cy="59" r="40" class="skin2 line"/><path d="M38 60q5-42 38-43 38 2 40 45-20-14-37-24-15 15-40 22z" class="hair line"/><path d="M96 137l99 35-8 24-101-21" class="skin2 line"/></g>
+ <rect x="18" y="16" width="355" height="112" rx="8" class="box"/><text x="31" y="44" class="cap ko">오염을 줄인 다음, 우리는 생명의 집을 복원합니다.</text><text x="31" y="72" class="cap zh">减少污染之后，我们开始修复海洋生命的家园。</text><text x="31" y="99" class="cap en">After reducing pollution, we begin restoring marine habitat.</text>
+ <rect x="402" y="20" width="320" height="109" rx="52" class="bubble"/><text x="562" y="49" text-anchor="middle" class="cap ko">이 산호들은 다시 자랄 수 있어요!</text><text x="562" y="77" text-anchor="middle" class="cap zh">这些珊瑚还能重新生长！</text><text x="562" y="103" text-anchor="middle" class="cap en">These corals can grow again!</text>
+ <text x="493" y="392" class="sfx" font-size="46" fill="#ffd54f">READY!</text>
+</g>
+
+<!-- PANEL 2: divers plant coral fragments on reef frame -->
+<g transform="translate(774,80)">
+ <rect class="panel" width="748" height="424" rx="8" fill="url(#deep)"/>
+ <g opacity=".25" fill="#d8fbff"><circle cx="80" cy="70" r="8"/><circle cx="111" cy="42" r="5"/><circle cx="356" cy="84" r="7"/><circle cx="612" cy="60" r="9"/><circle cx="660" cy="98" r="5"/></g>
+ <path d="M0 352q130-70 252-22t224-7 272 6v95H0z" fill="#244d58"/>
+ <g stroke="#b7c9c2" stroke-width="7"><path d="M100 320h505"/><path d="M145 254v110M245 245v118M345 238v124M445 245v115M545 251v111"/><path d="M100 320l45-66 100 66 100-82 100 82 100-69 60 69"/></g>
+ <g class="coral2"><path d="M172 318v-52m0 25l-19-17m19 1l18-19M280 318v-58m0 29l-21-19m21 4l19-21M390 316v-52m0 27l-18-18m18 1l18-20M500 317v-55m0 27l-19-18m19 2l20-20"/></g>
+ <g transform="translate(116,120)" filter="url(#shadow)"><path d="M46 92q-22 48-18 121h108q3-74-24-120z" fill="#101a22" class="line"/><circle cx="82" cy="61" r="40" class="skin line"/><path d="M43 62q5-43 39-44 38 2 40 46-20-14-38-24-14 15-40 22z" class="hair line"/><rect x="47" y="48" width="70" height="31" rx="12" fill="#8fdaf0" opacity=".7" stroke="#0d1b22" stroke-width="4"/><rect x="19" y="93" width="20" height="91" rx="9" fill="#d8dfe4" class="line"/><path d="M33 137l-68 49 14 23 70-37" class="skin line"/><path d="M111 138l72 31-8 25-73-19" class="skin line"/></g>
+ <g transform="translate(442,132)" filter="url(#shadow)"><path d="M42 88q-21 47-18 116h102q3-70-23-115z" fill="#101a22" class="line"/><circle cx="76" cy="58" r="38" class="skin2 line"/><path d="M39 59q5-41 37-42 37 2 39 43-19-13-36-23-14 15-39 22z" class="hair2 line"/><rect x="44" y="46" width="65" height="29" rx="11" fill="#8fdaf0" opacity=".7" stroke="#0d1b22" stroke-width="4"/><rect x="17" y="89" width="19" height="87" rx="9" fill="#d8dfe4" class="line"/><path d="M31 131l-72 38 12 24 73-26" class="skin2 line"/></g>
+ <g fill="#f6c56f" stroke="#543b26" stroke-width="2"><path d="M650 110l28 13-28 13 8-13z"/><path d="M578 82l22 10-22 10 6-10z"/><path d="M305 92l26 12-26 12 7-12z"/></g>
+ <rect x="18" y="16" width="354" height="112" rx="8" class="box"/><text x="31" y="44" class="cap ko">잠수팀이 살아 있는 산호 조각을 하나씩 고정합니다.</text><text x="31" y="72" class="cap zh">潜水队把健康的珊瑚碎枝一株株固定在礁架上。</text><text x="31" y="99" class="cap en">Divers secure healthy coral fragments one by one.</text>
+ <rect x="402" y="18" width="320" height="109" rx="52" class="bubble"/><text x="562" y="48" text-anchor="middle" class="cap ko">하나씩, 조심스럽게. 여기서 다시 시작해!</text><text x="562" y="76" text-anchor="middle" class="cap zh">一个一个，慢慢来。从这里重新开始！</text><text x="562" y="102" text-anchor="middle" class="cap en">One by one, carefully. Start again here!</text>
+ <text x="520" y="390" class="sfx" font-size="52" fill="#64e5ff">PLANT!</text>
+</g>
+
+<!-- PANEL 3: six months later, living reef -->
+<g transform="translate(14,518)">
+ <rect class="panel" width="748" height="490" rx="8" fill="url(#deep)"/>
+ <path d="M0 386q110-80 225-29t214-10 309 9v134H0z" fill="#274b50"/>
+ <g class="coral2"><path d="M78 420v-110m0 55l-35-28m35 5l35-50m62 128V286m0 61l-39-33m39 4l34-52m70 154V303m0 58l-34-29m34 1l39-48m64 135V295m0 61l-38-31m38 3l34-53m70 145V309m0 54l-31-27m31 1l35-43m68 126V302m0 58l-34-31m34 2l37-47"/></g>
+ <g transform="translate(240,165)" filter="url(#shadow)"><ellipse cx="160" cy="113" rx="94" ry="60" fill="#769a65" class="line"/><path d="M91 110q-55-48-87-8 34 32 84 41M230 108q61-52 94-11-37 34-91 44M145 167q-20 56 15 76 24-33 21-71" fill="#7ca669" class="line"/><circle cx="247" cy="106" r="30" fill="#8bae72" class="line"/><circle cx="258" cy="100" r="5" fill="#111"/><path d="M101 84q62-36 123 6-17 72-67 74-50 0-56-80z" fill="#80a76e"/><g stroke="#506e49" stroke-width="4"><path d="M112 97q45 25 100 6M124 125q37 26 80 7M145 77l-8 72M176 73l-2 83M204 82l-16 68"/></g></g>
+ <g fill="#ffd46f" stroke="#5c4027" stroke-width="2"><path d="M72 135l39 17-39 18 11-18z"/><path d="M130 194l31 14-31 14 9-14z"/><path d="M576 145l36 16-36 16 10-16z"/><path d="M646 230l29 13-29 13 8-13z"/><path d="M540 285l30 14-30 14 8-14z"/></g>
+ <rect x="18" y="16" width="250" height="74" rx="8" fill="#082d49" opacity=".92"/><text x="38" y="48" class="cap" font-size="27" fill="#fff">6개월 후 · 六个月后</text><text x="38" y="76" class="cap en" fill="#d9f6ff">6 MONTHS LATER</text>
+ <rect x="18" y="350" width="330" height="119" rx="8" class="box"/><text x="31" y="379" class="cap ko">다시 자라는 산호와 돌아온 해양 생물들.</text><text x="31" y="408" class="cap zh">重新生长的珊瑚，和回归的海洋生物。</text><text x="31" y="437" class="cap en">Coral grows again, and marine life returns.</text>
+ <rect x="478" y="22" width="244" height="106" rx="50" class="bubble"/><text x="600" y="54" text-anchor="middle" class="cap ko">와… 정말 달라졌어요!</text><text x="600" y="80" text-anchor="middle" class="cap zh">哇，真的不一样了！</text><text x="600" y="105" text-anchor="middle" class="cap en">Wow… it’s alive again!</text>
+ <text x="422" y="445" class="sfx" font-size="48" fill="#ffe55c">LIFE RETURNS!</text>
+</g>
+
+<!-- PANEL 4: sunset promise, monitoring team -->
+<g transform="translate(774,518)">
+ <rect class="panel" width="748" height="490" rx="8" fill="url(#sun)"/>
+ <circle cx="570" cy="190" r="54" fill="#ffeab0" opacity=".96"/>
+ <path d="M0 290q88-34 175 0t175 0 175 0 223 0v200H0z" fill="#315b78" opacity=".9"/>
+ <path d="M0 314q95-22 190 0t190 0 190 0 178 0" fill="none" stroke="#ffd9b0" stroke-width="6" opacity=".55"/>
+ <path d="M560 250l67-79 54 88z" fill="#383d51"/><path d="M35 315l74-85 74 91z" fill="#3c4053"/>
+ <g transform="translate(90,245)" filter="url(#shadow)"><path d="M0 118q0-83 43-105 43 22 43 105z" fill="#263845" class="line"/><circle cx="43" cy="8" r="30" class="skin2 line"/><path d="M13 9q4-32 31-33 29 2 31 35-16-10-29-18-11 12-31 16z" class="hair line"/><text x="43" y="86" text-anchor="middle" class="tag" font-size="16" fill="#d8f5ff">FTF</text></g>
+ <g transform="translate(190,242)" filter="url(#shadow)"><path d="M0 120q0-87 44-109 45 22 45 109z" class="ftf line"/><circle cx="44" cy="6" r="31" class="skin line"/><path d="M13 8q4-34 32-34 31 2 32 36-16-11-30-19-11 12-32 17z" class="hair2 line"/><text x="44" y="87" text-anchor="middle" class="tag" font-size="16" fill="#fff">FTF</text></g>
+ <g transform="translate(295,247)" filter="url(#shadow)"><path d="M0 115q0-80 41-102 42 22 42 102z" fill="#243744" class="line"/><circle cx="41" cy="7" r="29" class="skin2 line"/><path d="M13 9q4-31 29-32 28 2 30 33-15-10-27-17-11 11-30 16z" class="hair line"/><text x="41" y="82" text-anchor="middle" class="tag" font-size="15" fill="#d8f5ff">FTF</text></g>
+ <g transform="translate(390,244)" filter="url(#shadow)"><path d="M0 118q0-84 43-106 43 22 43 106z" class="ftf line"/><circle cx="43" cy="7" r="30" class="skin line"/><path d="M14 9q4-33 30-33 30 2 31 34-15-10-29-18-11 12-30 17z" class="hair2 line"/><text x="43" y="85" text-anchor="middle" class="tag" font-size="15" fill="#fff">FTF</text></g>
+ <path d="M219 278q83 55 189 1" fill="none" stroke="#efbd9c" stroke-width="18" stroke-linecap="round"/>
+ <path d="M530 119q20-15 40 0M600 104q17-13 34 0M665 145q17-12 34 0" fill="none" stroke="#202836" stroke-width="5"/>
+ <rect x="18" y="18" width="343" height="112" rx="8" class="box"/><text x="31" y="47" class="cap ko">복원은 끝이 아니라, 계속 지켜야 할 약속입니다.</text><text x="31" y="75" class="cap zh">修复不是终点，而是持续守护的约定。</text><text x="31" y="102" class="cap en">Restoration is not the end. It is a promise to keep watch.</text>
+ <rect x="399" y="21" width="324" height="112" rx="54" class="bubble"/><text x="561" y="51" text-anchor="middle" class="cap ko">우리가 지킨 바다가 더 많은 생명의 집이 되길!</text><text x="561" y="79" text-anchor="middle" class="cap zh">愿我们守护的海洋，成为更多生命的家！</text><text x="561" y="105" text-anchor="middle" class="cap en">May this ocean become a home for more life!</text>
+ <rect x="40" y="393" width="668" height="73" rx="8" fill="#062940" opacity=".93"/><text x="374" y="422" text-anchor="middle" class="cap" font-size="25" fill="#fff">살아 있는 바다가, 더 밝은 내일을 만듭니다.</text><text x="374" y="450" text-anchor="middle" class="cap" font-size="18" fill="#d8f7ff">生机盎然的海洋，创造更明亮的明天。 · A living ocean makes a brighter tomorrow.</text>
+ <text x="500" y="380" class="sfx" font-size="38" fill="#7eeaff">TOGETHER!</text>
+</g>
+</svg>
