@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9fddff"/><stop offset="1" stop-color="#eaf8ff"/></linearGradient>
+ <linearGradient id="river" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2a9fc9"/><stop offset="1" stop-color="#0f668f"/></linearGradient>
+ <linearGradient id="lab" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eef7fb"/><stop offset="1" stop-color="#cddfe8"/></linearGradient>
+ <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffb35f"/><stop offset=".55" stop-color="#ffd9a4"/><stop offset="1" stop-color="#3f91b4"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".35"/></filter>
+ <style>
+  .panel{stroke:#07131f;stroke-width:8}.cap{font-family:'Noto Sans KR','Noto Sans CJK SC',Arial,sans-serif;font-weight:700}.ko{font-size:22px}.zh{font-size:18px}.en{font-size:17px}.bubble{fill:#fff;stroke:#111a22;stroke-width:4}.narr{fill:#fffdf3;stroke:#17212a;stroke-width:4}.sfx{font-family:Arial Black,sans-serif;font-style:italic;font-weight:900;paint-order:stroke;stroke:#fff;stroke-width:8;stroke-linejoin:round}.tag{font-family:Arial Black,sans-serif;font-weight:900}.skin{fill:#f1c4a1}.skin2{fill:#deb18f}.hair{fill:#24252d}.hair2{fill:#3b2a25}.uniform{fill:#164b77}.vest{fill:#1f6e9b}.white{fill:#f5f7fa}.outline{stroke:#111b26;stroke-width:4;stroke-linejoin:round}.eye{fill:#17202a}.screen{fill:#0e2634;stroke:#46d4ef;stroke-width:3}.small{font-size:15px}
+ </style>
+</defs>
+<rect width="1536" height="1024" fill="#07131f"/>
+<rect x="0" y="0" width="1536" height="64" fill="#09233b"/>
+<text x="22" y="42" class="tag" font-size="30" fill="#fff">FTF-01  #93</text>
+<text x="248" y="40" class="cap" font-size="29" fill="#fff">보이지 않는 것도 지킨다 · 连看不见的也要守护 · WE PROTECT EVEN WHAT WE CANNOT SEE</text>
+<text x="1510" y="40" text-anchor="end" class="cap" font-size="16" fill="#b9eaff">작은 조각 하나도, 바다에겐 큰 상처입니다.</text>
+
+<!-- PANEL 1: sorting recovered trash -->
+<g transform="translate(14,78)">
+ <rect class="panel" width="748" height="422" rx="5" fill="url(#sky)"/>
+ <rect y="235" width="748" height="187" fill="url(#river)"/>
+ <path d="M0 245 Q120 210 250 246 T500 245 T748 236" fill="none" stroke="#c8f4ff" stroke-width="7" opacity=".5"/>
+ <g fill="#96a6af"><rect x="0" y="122" width="748" height="28"/><rect x="75" y="82" width="90" height="40"/><rect x="183" y="65" width="70" height="57"/><rect x="579" y="79" width="112" height="43"/></g>
+ <g transform="translate(455,198)" filter="url(#shadow)"><rect width="260" height="110" rx="9" fill="#18384b" stroke="#07131f" stroke-width="5"/><rect x="18" y="18" width="224" height="62" fill="#0f1c25"/><g fill="#a87f57"><circle cx="48" cy="48" r="16"/><rect x="83" y="31" width="28" height="30" rx="4"/><path d="M147 29l26 43h-48z"/><circle cx="205" cy="49" r="12"/></g><text x="130" y="101" text-anchor="middle" class="tag" font-size="16" fill="#fff">RECOVERED DEBRIS</text></g>
+ <g transform="translate(66,188)" filter="url(#shadow)"><path d="M55 105Q20 137 24 220h125q5-77-34-113z" class="uniform outline"/><circle cx="89" cy="73" r="48" class="skin outline"/><path d="M42 73q6-50 52-51 46 1 47 55-27-17-47-31-17 19-49 27z" class="hair outline"/><path d="M47 43q35-35 88-1l-7-28q-39-26-74 0z" fill="#f9fbfd" class="outline"/><text x="91" y="28" text-anchor="middle" class="cap" font-size="14" fill="#164b77">FTF</text><ellipse cx="74" cy="76" rx="6" ry="8" class="eye"/><ellipse cx="104" cy="76" rx="6" ry="8" class="eye"/><path d="M78 97q13 9 27-1" fill="none" stroke="#9d514b" stroke-width="4"/>
+ <path d="M37 141l-48 62 19 15 58-54z" class="skin outline"/><path d="M121 145l74 25-8 24-78-15z" class="skin outline"/>
+ <path d="M180 158l38 11 10 18-24 12-36-14z" fill="#cfd4c6" stroke="#111b26" stroke-width="3"/></g>
+ <g transform="translate(255,225)" filter="url(#shadow)"><path d="M48 92Q16 118 18 185h108q4-62-30-92z" fill="#2f6f91" class="outline"/><circle cx="76" cy="61" r="40" class="skin outline"/><path d="M37 59q7-41 40-42 39 2 42 44-20-13-38-24-15 15-42 22z" class="hair2 outline"/><ellipse cx="64" cy="62" rx="5" ry="7" class="eye"/><ellipse cx="88" cy="62" rx="5" ry="7" class="eye"/><path d="M63 78q12 8 23 0" fill="none" stroke="#954b47" stroke-width="3"/></g>
+ <rect x="18" y="16" width="310" height="104" rx="8" class="narr"/><text x="31" y="43" class="cap ko">하천에서 모은 쓰레기, 이제 분석합니다.</text><text x="31" y="70" class="cap zh">从河流收集的垃圾，现在进行分析。</text><text x="31" y="96" class="cap en">Trash collected from the river—now we analyze it.</text>
+ <rect x="382" y="18" width="336" height="112" rx="54" class="bubble"/><text x="550" y="49" text-anchor="middle" class="cap ko">겉보다 더 위험한 게 숨어 있어요.</text><text x="550" y="77" text-anchor="middle" class="cap zh">真正危险的东西藏在看不见的地方。</text><text x="550" y="103" text-anchor="middle" class="cap en">The bigger threat is what we cannot see.</text>
+ <text x="25" y="392" class="sfx" font-size="46" fill="#20b7d8" transform="rotate(-5 25 392)">SORT · CHECK!</text>
+</g>
+
+<!-- PANEL 2: microscope -->
+<g transform="translate(774,78)">
+ <rect class="panel" width="748" height="422" rx="5" fill="url(#lab)"/>
+ <rect x="420" y="38" width="290" height="190" rx="10" class="screen"/>
+ <text x="565" y="68" text-anchor="middle" class="tag" font-size="20" fill="#fff">MICROPLASTICS 1 mm ↓</text>
+ <g fill="#ff6b5f"><path d="M470 112l20-11 14 25-24 13z"/><circle cx="550" cy="126" r="13"/><path d="M625 96l26 8-10 22-27-6z"/></g>
+ <g fill="#ffd85a"><circle cx="505" cy="176" r="10"/><path d="M580 155l18 18-13 17-23-15z"/></g>
+ <g fill="#4bd5ef"><path d="M665 154l18 8-8 24-19-7z"/><circle cx="453" cy="177" r="8"/></g>
+ <g transform="translate(68,120)" filter="url(#shadow)"><path d="M53 104Q18 136 20 219h126q3-78-33-112z" fill="#eef3f7" class="outline"/><circle cx="89" cy="74" r="49" class="skin outline"/><path d="M41 76q5-49 49-52 47 2 48 54-25-18-46-30-16 18-48 28z" class="hair2 outline"/><ellipse cx="73" cy="77" rx="6" ry="8" class="eye"/><ellipse cx="105" cy="77" rx="6" ry="8" class="eye"/><path d="M77 98q13 7 27-2" fill="none" stroke="#95514c" stroke-width="4"/><rect x="31" y="61" width="44" height="25" rx="10" fill="none" stroke="#334d5f" stroke-width="4"/><rect x="101" y="61" width="42" height="25" rx="10" fill="none" stroke="#334d5f" stroke-width="4"/><line x1="75" y1="73" x2="101" y2="73" stroke="#334d5f" stroke-width="4"/>
+ <g transform="translate(158,76)"><rect x="0" y="68" width="104" height="22" rx="6" fill="#2c5569"/><path d="M35 0h24l9 75H43z" fill="#dbe6eb" stroke="#223846" stroke-width="4"/><rect x="42" y="13" width="28" height="48" rx="8" fill="#182a36"/></g></g>
+ <rect x="22" y="18" width="330" height="108" rx="8" class="narr"/><text x="36" y="45" class="cap ko">현미경 속에서 ‘보이지 않던 오염’이 드러납니다.</text><text x="36" y="73" class="cap zh">显微镜下，隐藏的污染终于显现。</text><text x="36" y="99" class="cap en">Under the microscope, invisible pollution appears.</text>
+ <rect x="373" y="247" width="338" height="132" rx="55" class="bubble"/><text x="542" y="279" text-anchor="middle" class="cap ko">이 작은 조각들이 생물의 몸속으로 들어갈 수 있어요.</text><text x="542" y="309" text-anchor="middle" class="cap zh">这些小碎片可能进入海洋生物体内。</text><text x="542" y="338" text-anchor="middle" class="cap en">These tiny pieces can enter marine life.</text><text x="542" y="365" text-anchor="middle" class="cap en">What we throw away never truly disappears.</text>
+ <text x="428" y="407" class="sfx" font-size="43" fill="#ff7a56">ZOOM!</text>
+</g>
+
+<!-- PANEL 3: tracing sources -->
+<g transform="translate(14,514)">
+ <rect class="panel" width="748" height="488" rx="5" fill="#dff3fb"/>
+ <path d="M0 300 Q100 258 210 300 T430 300 T748 292V488H0Z" fill="#3399bf"/>
+ <g fill="#b6c2c8"><rect x="0" y="106" width="748" height="30"/><rect x="48" y="40" width="88" height="66"/><rect x="150" y="55" width="70" height="51"/><rect x="560" y="42" width="105" height="64"/></g>
+ <g transform="translate(455,132)"><circle cx="72" cy="62" r="58" fill="#fff" stroke="#19303c" stroke-width="4"/><rect x="45" y="25" width="55" height="54" rx="5" fill="#8d9fa8"/><path d="M55 39h35M55 50h35M55 61h35" stroke="#425a66" stroke-width="4"/><text x="72" y="137" text-anchor="middle" class="cap" font-size="17">도시 빗물 · 城市雨水</text></g>
+ <g transform="translate(586,132)"><circle cx="72" cy="62" r="58" fill="#fff" stroke="#19303c" stroke-width="4"/><rect x="35" y="31" width="22" height="45" rx="3" fill="#6dc4e8"/><rect x="65" y="25" width="29" height="52" rx="3" fill="#f4cc6c"/><circle cx="105" cy="55" r="18" fill="#dfe8ec"/><text x="72" y="137" text-anchor="middle" class="cap" font-size="17">생활 폐기물 · 生活垃圾</text></g>
+ <g transform="translate(508,268)"><circle cx="72" cy="62" r="58" fill="#fff" stroke="#19303c" stroke-width="4"/><path d="M33 70h78" stroke="#4d5960" stroke-width="15"/><g fill="#242b30"><circle cx="43" cy="54" r="4"/><circle cx="58" cy="78" r="4"/><circle cx="79" cy="49" r="4"/><circle cx="100" cy="76" r="4"/></g><text x="72" y="137" text-anchor="middle" class="cap" font-size="17">도로 먼지 · 道路灰尘</text></g>
+ <g transform="translate(74,192)" filter="url(#shadow)"><path d="M56 106Q20 137 23 224h130q4-82-37-116z" class="uniform outline"/><circle cx="92" cy="73" r="50" class="skin2 outline"/><path d="M44 76q5-53 50-53 49 2 50 55-26-19-47-31-18 19-50 29z" class="hair outline"/><path d="M52 43q37-33 84-2l-5-28q-39-24-73 1z" fill="#173e62" class="outline"/><text x="93" y="28" text-anchor="middle" class="cap" font-size="14" fill="#fff">FTF</text><ellipse cx="76" cy="77" rx="6" ry="8" class="eye"/><ellipse cx="109" cy="77" rx="6" ry="8" class="eye"/><path d="M80 99q14 9 28-1" fill="none" stroke="#914b46" stroke-width="4"/><path d="M133 137l102-38 8 22-98 55z" class="skin2 outline"/></g>
+ <g transform="translate(245,282)"><path d="M43 76Q14 101 17 162h99q3-56-28-84z" fill="#31739a" class="outline"/><circle cx="69" cy="50" r="36" class="skin outline"/><path d="M35 50q5-36 35-38 35 2 37 39-17-12-34-21-12 14-35 20z" class="hair2 outline"/><ellipse cx="58" cy="51" rx="4" ry="6" class="eye"/><ellipse cx="80" cy="51" rx="4" ry="6" class="eye"/></g>
+ <rect x="18" y="16" width="380" height="112" rx="8" class="narr"/><text x="32" y="44" class="cap ko">오염은 어디서 오는 걸까? 함께 경로를 찾습니다.</text><text x="32" y="73" class="cap zh">污染从哪里来？我们一起追踪源头。</text><text x="32" y="100" class="cap en">Where does it come from? We trace the source together.</text>
+ <rect x="22" y="137" width="350" height="116" rx="53" class="bubble"/><text x="197" y="169" text-anchor="middle" class="cap ko">생활쓰레기, 일회용품, 빗물이 핵심 경로예요.</text><text x="197" y="197" text-anchor="middle" class="cap zh">生活垃圾、一次性用品和雨水是主要来源。</text><text x="197" y="224" text-anchor="middle" class="cap en">Household waste, disposables and runoff are key sources.</text>
+ <text x="413" y="450" class="sfx" font-size="45" fill="#1779aa">TRACE!</text>
+</g>
+
+<!-- PANEL 4: pledge and restored ocean -->
+<g transform="translate(774,514)">
+ <rect class="panel" width="748" height="488" rx="5" fill="url(#sunset)"/>
+ <circle cx="580" cy="117" r="48" fill="#fff4a8" opacity=".92"/>
+ <path d="M0 260 Q125 228 260 262 T520 260 T748 249V488H0Z" fill="#287fa4"/>
+ <path d="M0 296 Q126 268 252 300 T500 296 T748 288" fill="none" stroke="#d6f4ff" stroke-width="5" opacity=".6"/>
+ <path d="M30 250q70-80 155-35 65-58 135-15 60-45 120 8" fill="#384f54" opacity=".65"/>
+ <g transform="translate(66,266)" filter="url(#shadow)"><path d="M47 87Q15 115 18 180h108q3-62-31-92z" class="uniform outline"/><circle cx="75" cy="58" r="39" class="skin outline"/><path d="M38 60q3-40 38-42 38 2 39 42-21-14-37-22-13 14-38 22z" class="hair outline"/><ellipse cx="63" cy="59" rx="5" ry="7" class="eye"/><ellipse cx="87" cy="59" rx="5" ry="7" class="eye"/><path d="M65 77q11 8 22 0" fill="none" stroke="#934947" stroke-width="3"/><path d="M96 91l64-24 11 23-61 35z" class="skin outline"/><g transform="translate(150,45)"><rect width="32" height="76" rx="13" fill="#4fc2da" stroke="#111b26" stroke-width="4"/><rect x="7" y="-10" width="18" height="16" rx="3" fill="#e8f0f4" stroke="#111b26" stroke-width="3"/></g></g>
+ <g transform="translate(240,288)" filter="url(#shadow)"><path d="M42 74Q14 98 16 156h95q3-54-27-81z" fill="#31739a" class="outline"/><circle cx="67" cy="48" r="34" class="skin outline"/><path d="M35 48q4-34 33-35 33 2 35 36-17-11-33-20-11 13-33 19z" class="hair2 outline"/><ellipse cx="56" cy="49" rx="4" ry="6" class="eye"/><ellipse cx="77" cy="49" rx="4" ry="6" class="eye"/></g>
+ <g transform="translate(356,300)" filter="url(#shadow)"><path d="M40 70Q13 94 15 149h91q3-52-26-78z" fill="#f4f6f8" class="outline"/><circle cx="64" cy="46" r="32" class="skin outline"/><path d="M34 47q4-32 31-33 31 2 33 34-16-10-31-18-10 12-31 17z" class="hair outline"/><ellipse cx="54" cy="47" rx="4" ry="5" class="eye"/><ellipse cx="74" cy="47" rx="4" ry="5" class="eye"/></g>
+ <g fill="#19313d"><path d="M564 184q18-20 37 0-18-10-37 0z"/><path d="M619 166q16-18 33 0-16-8-33 0z"/></g>
+ <g fill="#4ca3c7"><ellipse cx="532" cy="338" rx="38" ry="17"/><path d="M564 338l25-18v36z"/><ellipse cx="625" cy="382" rx="28" ry="13"/><path d="M649 382l20-14v28z"/></g>
+ <rect x="18" y="18" width="360" height="112" rx="8" class="narr"/><text x="32" y="46" class="cap ko">이제는 버리지 않고, 다시 쓰는 습관을 만듭니다.</text><text x="32" y="75" class="cap zh">从现在开始，少丢弃，多重复使用。</text><text x="32" y="102" class="cap en">We choose reuse over throwaway habits.</text>
+ <rect x="393" y="18" width="325" height="126" rx="58" class="bubble"/><text x="555" y="49" text-anchor="middle" class="cap ko">우리 모두가 지키면 바다는 다시 푸르게 빛나요!</text><text x="555" y="80" text-anchor="middle" class="cap zh">只要大家一起守护，海洋会再次湛蓝！</text><text x="555" y="111" text-anchor="middle" class="cap en">Together, we can make the ocean blue again!</text>
+ <rect x="490" y="330" width="220" height="102" rx="8" fill="#e8d1a6" stroke="#382c23" stroke-width="5"/><text x="600" y="359" text-anchor="middle" class="tag" font-size="19" fill="#25435a">LESS PLASTIC</text><text x="600" y="385" text-anchor="middle" class="tag" font-size="19" fill="#25435a">CLEAN RIVERS</text><text x="600" y="411" text-anchor="middle" class="tag" font-size="19" fill="#25435a">HEALTHY OCEANS</text>
+ <text x="290" y="470" class="sfx" font-size="44" fill="#fff">TOGETHER!</text>
+</g>
+
+<rect x="0" y="1004" width="1536" height="20" fill="#09233b"/>
+<text x="22" y="1020" class="cap" font-size="15" fill="#fff">작은 습관이 큰 변화를 만듭니다. · 小小的习惯，能带来巨大的改变。 · Small habits make a big change.</text>
+</svg>
