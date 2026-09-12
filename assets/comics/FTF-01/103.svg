@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#7fd5ff"/><stop offset="1" stop-color="#eefaff"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#17bce7"/><stop offset=".55" stop-color="#087aa8"/><stop offset="1" stop-color="#043e5e"/></linearGradient>
+<linearGradient id="reef" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a7593"/><stop offset="1" stop-color="#063647"/></linearGradient>
+<linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd56d"/><stop offset=".5" stop-color="#ef8f70"/><stop offset="1" stop-color="#465873"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-opacity=".35"/></filter>
+<style>
+.p{stroke:#071923;stroke-width:8}.box{fill:#fffdf8;stroke:#102530;stroke-width:4}.bubble{fill:#fff;stroke:#102530;stroke-width:4}.txt{font-family:'Noto Sans KR','Noto Sans CJK SC',Arial,sans-serif;font-weight:700}.ko{font-size:22px}.zh{font-size:18px}.en{font-size:17px}.line{stroke:#111f27;stroke-width:4;stroke-linejoin:round;stroke-linecap:round}.skin{fill:#efbd9d}.skin2{fill:#d7a17e}.hair{fill:#16232c}.hair2{fill:#4d3028}.ftf{fill:#155f92}.vest{fill:#112c3e}.sfx{font-family:Arial Black,sans-serif;font-weight:900;font-style:italic;paint-order:stroke;stroke:#fff;stroke-width:10;stroke-linejoin:round}.tag{font-family:Arial Black,sans-serif;font-weight:900}
+</style>
+</defs>
+<rect width="1536" height="1024" fill="#07151e"/><rect width="1536" height="66" fill="#0a385e"/>
+<text x="20" y="45" class="tag" font-size="34" fill="#fff">FTF-01  #103</text>
+<text x="275" y="42" class="txt" font-size="28" fill="#fff">다시, 더 푸른 바다를 위해 · 再次为了更蓝的海洋 · FOR A BLUER OCEAN, AGAIN</text>
+<text x="1510" y="42" text-anchor="end" class="txt" font-size="16" fill="#d7f7ff">작은 행동이 만드는 큰 바다의 변화</text>
+
+<!-- PANEL 1: depart to next data target -->
+<g transform="translate(14,80)">
+<rect class="p" width="748" height="424" rx="8" fill="url(#sky)"/><path d="M0 270q110-28 215 0t205 0 190 0 138 0v154H0z" fill="#1595bd"/><path d="M0 298q95-18 190 0t190 0 190 0 178 0" fill="none" stroke="#c9f7ff" stroke-width="7"/>
+<g transform="translate(438,101)" filter="url(#sh)"><path d="M0 153h246l-32 92H35z" fill="#f5f7f7" class="line"/><rect x="70" y="61" width="122" height="94" fill="#eef3f4" class="line"/><rect x="95" y="78" width="30" height="24" fill="#8fd3e7" class="line"/><rect x="138" y="78" width="30" height="24" fill="#8fd3e7" class="line"/><path d="M128 61V14" stroke="#263d49" stroke-width="8"/><path d="M128 14l42 25h-42z" fill="#155f92"/><text x="128" y="133" text-anchor="middle" class="tag" font-size="23" fill="#155f92">FTF</text><text x="128" y="151" text-anchor="middle" class="txt" font-size="12" fill="#31566f">FOR THE FUTURE</text></g>
+<g transform="translate(45,190)" filter="url(#sh)"><path d="M44 100Q18 142 20 218h128q2-76-40-115z" class="ftf line"/><circle cx="84" cy="67" r="43" class="skin line"/><path d="M43 69q5-46 41-48 40 2 45 49-21-14-40-27-16 16-45 26z" class="hair2 line"/><path d="M48 35q32-23 74-2l-7-22q-31-19-59 0z" fill="#155f92" class="line"/><text x="84" y="27" text-anchor="middle" class="tag" font-size="13" fill="#fff">FTF</text><ellipse cx="69" cy="73" rx="6" ry="8"/><ellipse cx="99" cy="73" rx="6" ry="8"/><path d="M74 94q12 8 27-1" fill="none" stroke="#9c5148" stroke-width="4"/><path d="M111 143l154-54 11 28-148 71" class="skin line"/><circle cx="263" cy="103" r="15" fill="#303f46" class="line"/></g>
+<g transform="translate(311,197)" filter="url(#sh)"><circle cx="62" cy="58" r="39" class="skin2 line"/><path d="M27 58q6-40 35-42 35 2 39 42-18-12-34-22-14 14-39 22z" class="hair line"/><path d="M36 92q-22 36-18 103h98q2-64-27-102z" class="vest line"/><path d="M96 136l96-30 9 27-98 47" class="skin2 line"/></g>
+<rect x="18" y="16" width="362" height="112" rx="8" class="box"/><text x="31" y="44" class="txt ko">데이터가 가리킨 다음 해역으로 다시 출항합니다.</text><text x="31" y="73" class="txt zh">我们再次驶向数据标出的下一个海域。</text><text x="31" y="100" class="txt en">We head back out to the next site marked by the data.</text>
+<rect x="403" y="18" width="320" height="112" rx="55" class="bubble"/><text x="563" y="48" text-anchor="middle" class="txt ko">이번에도 더 푸른 바다를 만들러 가요!</text><text x="563" y="77" text-anchor="middle" class="txt zh">这次也去创造更蓝的海洋吧！</text><text x="563" y="104" text-anchor="middle" class="txt en">Let’s make an even bluer ocean!</text><text x="30" y="395" class="sfx" font-size="45" fill="#1d85d2">TO THE NEXT SITE!</text>
+</g>
+
+<!-- PANEL 2: precise ghost-net removal -->
+<g transform="translate(774,80)">
+<rect class="p" width="748" height="424" rx="8" fill="url(#sea)"/><path d="M0 338q115-48 218-20t198-6 332 16v96H0z" fill="#214f5c"/>
+<g opacity=".35" fill="#e9fbff"><circle cx="74" cy="70" r="8"/><circle cx="112" cy="45" r="5"/><circle cx="355" cy="76" r="7"/><circle cx="636" cy="54" r="9"/><circle cx="673" cy="91" r="5"/></g>
+<g transform="translate(92,126)" filter="url(#sh)"><path d="M42 91q-22 46-19 121h108q3-72-26-120z" fill="#101d25" class="line"/><circle cx="78" cy="59" r="40" class="skin line"/><path d="M40 60q5-42 38-43 37 2 40 44-20-13-37-24-14 15-41 23z" class="hair line"/><rect x="42" y="46" width="72" height="31" rx="11" fill="#8bdcf0" opacity=".86" stroke="#0d1b22" stroke-width="4"/><rect x="16" y="91" width="20" height="92" rx="9" fill="#d9e0e4" class="line"/><path d="M109 137l135 20-5 27-136-7" class="skin line"/><path d="M235 151l58-22 22 19-12 33-64 11z" fill="#41484c" class="line"/><path d="M293 137l35 38" stroke="#ecb23c" stroke-width="6"/></g>
+<g transform="translate(430,160)" filter="url(#sh)"><circle cx="63" cy="56" r="36" class="skin2 line"/><path d="M29 57q5-38 34-40 35 2 39 41-18-12-34-21-13 13-39 20z" class="hair2 line"/><path d="M37 89q-20 35-18 96h93q2-59-24-95z" fill="#0f1d26" class="line"/><rect x="20" y="103" width="18" height="79" rx="9" fill="#d8dfe4" class="line"/><path d="M92 132l108 15-4 26-111-5" class="skin2 line"/></g>
+<g transform="translate(297,294)"><path d="M0 0q42-36 100-9 39 18 74-4" fill="none" stroke="#6f604b" stroke-width="8"/><path d="M31-17l25 17-10 26-29-7z" fill="#cbd1d3" class="line"/><path d="M82-20l28 8-4 30-29-1z" fill="#5ba8cf" class="line"/><path d="M137-14l33 13-8 29-33-4z" fill="#e4e9ec" class="line"/></g>
+<rect x="18" y="16" width="385" height="112" rx="8" class="box"/><text x="31" y="44" class="txt ko">산호를 덮은 폐그물과 플라스틱을 정밀 제거합니다.</text><text x="31" y="73" class="txt zh">我们精准清除覆盖珊瑚的废弃渔网和塑料。</text><text x="31" y="100" class="txt en">We carefully remove ghost nets and plastic from the reef.</text>
+<rect x="421" y="18" width="300" height="112" rx="54" class="bubble"/><text x="571" y="48" text-anchor="middle" class="txt ko">조심히 잘라! 산호가 다시 살아날 수 있어!</text><text x="571" y="77" text-anchor="middle" class="txt zh">小心剪开！珊瑚还能恢复！</text><text x="571" y="104" text-anchor="middle" class="txt en">Cut carefully—the coral can recover!</text><text x="446" y="397" class="sfx" font-size="48" fill="#58ddff">SNIP!  LIFT!</text>
+</g>
+
+<!-- PANEL 3: reef recovery -->
+<g transform="translate(14,518)">
+<rect class="p" width="748" height="490" rx="8" fill="url(#reef)"/><path d="M0 392q105-58 211-28t186-8 351 12v122H0z" fill="#173e47"/>
+<g fill="#e77975" stroke="#9a4546" stroke-width="4"><path d="M60 405l27-96 21 59 32-78 18 115z"/><path d="M213 432l25-78 23 43 30-70 19 105z"/><path d="M536 423l30-89 22 51 31-69 19 107z"/></g>
+<g fill="#f4bf68" stroke="#a16e2c" stroke-width="3"><path d="M130 420l19-64 18 30 17-46 15 80z"/><path d="M457 430l17-64 19 31 18-48 15 81z"/></g>
+<g transform="translate(320,225)"><ellipse cx="0" cy="0" rx="100" ry="59" fill="#8fbc8f" class="line"/><ellipse cx="83" cy="-9" rx="39" ry="31" fill="#9ccc96" class="line"/><path d="M-84-15l-64-40 19 66z" fill="#8fbc8f" class="line"/><path d="M-37 46l-28 65 53-44z" fill="#8fbc8f" class="line"/><path d="M25 49l27 61 17-60z" fill="#8fbc8f" class="line"/><circle cx="95" cy="-16" r="5" fill="#142021"/><path d="M-49-32q43-21 86 1M-54-5q47-20 93 1M-46 23q40-18 80 2" fill="none" stroke="#6c916c" stroke-width="5"/></g>
+<g fill="#f7d45b" stroke="#20323b" stroke-width="3"><path d="M90 188q43-29 88 0-45 31-88 0z"/><path d="M552 180q39-26 82 0-43 28-82 0z"/><path d="M594 268q31-21 66 0-35 23-66 0z"/></g>
+<g fill="#4bc2d1" stroke="#20323b" stroke-width="3"><path d="M178 244q32-21 69 0-37 23-69 0z"/><path d="M496 237q30-20 65 0-35 22-65 0z"/></g>
+<rect x="18" y="16" width="390" height="112" rx="8" class="box"/><text x="31" y="44" class="txt ko">정화된 산호초에 물고기와 바다거북이 다시 돌아옵니다.</text><text x="31" y="73" class="txt zh">清理后的珊瑚礁迎回了鱼群和海龟。</text><text x="31" y="100" class="txt en">Fish and sea turtles return to the restored reef.</text>
+<rect x="429" y="18" width="292" height="112" rx="54" class="bubble"/><text x="575" y="48" text-anchor="middle" class="txt ko">봐! 정말 다시 살아나고 있어!</text><text x="575" y="77" text-anchor="middle" class="txt zh">看！真的又活起来了！</text><text x="575" y="104" text-anchor="middle" class="txt en">Look—it’s truly coming back to life!</text><text x="30" y="458" class="sfx" font-size="52" fill="#ffe74e">LIFE RETURNS!</text>
+</g>
+
+<!-- PANEL 4: data proof and next commitment -->
+<g transform="translate(774,518)">
+<rect class="p" width="748" height="490" rx="8" fill="url(#sunset)"/><circle cx="618" cy="103" r="51" fill="#fff0ad"/><path d="M0 282q105-35 210 0t205 0 180 0 153 0v208H0z" fill="#285e77" opacity=".96"/>
+<g transform="translate(36,172)" filter="url(#sh)"><rect x="0" y="95" width="360" height="167" rx="12" fill="#152b39" class="line"/><rect x="16" y="113" width="328" height="126" rx="7" fill="#0c4f69"/><path d="M35 205l45-38 35 22 43-61 48 31 51-24 56 52 44-72" fill="none" stroke="#63e0ff" stroke-width="7"/><text x="31" y="145" class="tag" font-size="25" fill="#fff">POLLUTION  -62%</text><text x="31" y="230" class="txt" font-size="14" fill="#d5f7ff">FTF OCEAN ACTION DATA</text></g>
+<g transform="translate(423,171)" filter="url(#sh)"><circle cx="73" cy="63" r="42" class="skin line"/><path d="M34 64q5-45 39-47 39 2 43 47-20-14-38-25-15 15-44 25z" class="hair line"/><path d="M42 99q-25 42-20 120h112q3-75-33-118z" class="ftf line"/><path d="M103 147l104-35 12 28-110 58" class="skin line"/><circle cx="202" cy="126" r="12" fill="#fff" class="line"/></g>
+<g transform="translate(602,210)" filter="url(#sh)"><circle cx="48" cy="53" r="33" class="skin2 line"/><path d="M18 54q5-35 30-37 31 2 34 37-16-11-29-19-12 12-35 19z" class="hair2 line"/><path d="M26 83q-18 32-16 87h82q2-53-22-86z" class="vest line"/></g>
+<rect x="18" y="16" width="380" height="112" rx="8" class="box"/><text x="31" y="44" class="txt ko">이번 조사에서 오염 수치가 62% 감소한 것을 확인했습니다.</text><text x="31" y="73" class="txt zh">本次调查确认污染指标下降了62%。</text><text x="31" y="100" class="txt en">This survey confirms pollution levels are down by 62%.</text>
+<rect x="420" y="18" width="302" height="112" rx="54" class="bubble"/><text x="571" y="48" text-anchor="middle" class="txt ko">우리가 함께하면 바다는 반드시 회복할 수 있어!</text><text x="571" y="77" text-anchor="middle" class="txt zh">只要一起努力，海洋一定能恢复！</text><text x="571" y="104" text-anchor="middle" class="txt en">Together, we can restore the ocean!</text>
+<text x="391" y="457" class="sfx" font-size="42" fill="#66dbff">CLEANER OCEAN · BRIGHTER TOMORROW!</text>
+</g>
+</svg>
