@@ -3,7 +3,7 @@
   // Production target is 180 distinct scenes per song.
   const TARGET_SCENES=180;
   // Only advertise assets that actually exist in the repository.
-  const AVAILABLE_SCENES={1:111,2:26,8:26};
+  const AVAILABLE_SCENES={1:112,2:26,8:26};
   const COMPLETE=new Set(Object.keys(AVAILABLE_SCENES).map(Number));
   const previous=window.showComic;
   if(typeof previous!=='function')return;
@@ -23,7 +23,7 @@
     const sceneNumber=idx+1;
     // Raster cinematic panels: 77, 96, 102. Scene 91 is raster artwork embedded in SVG; all other mapped scenes are vector scenes.
     const ext=(n===1&&(sceneNumber===77||sceneNumber===96||sceneNumber===102))?'jpg':'svg';
-    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(sceneNumber).padStart(2,'0')}.${ext}?v=135`;
+    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(sceneNumber).padStart(2,'0')}.${ext}?v=136`;
     window.ftfSceneIndex=idx;
     viewer.classList.add('show','ftf-integrated');
     if(built)built.style.display='none';
