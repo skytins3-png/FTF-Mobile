@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffbf7a"/><stop offset=".45" stop-color="#87d5f5"/><stop offset="1" stop-color="#eaf9ff"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1bb6dd"/><stop offset="1" stop-color="#075b91"/></linearGradient>
+ <linearGradient id="shore" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0cf91"/><stop offset="1" stop-color="#b9804c"/></linearGradient>
+ <linearGradient id="lab" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#194c72"/><stop offset="1" stop-color="#071d32"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".42"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="p1"><rect x="18" y="84" width="742" height="432" rx="8"/></clipPath>
+ <clipPath id="p2"><rect x="776" y="84" width="742" height="432" rx="8"/></clipPath>
+ <clipPath id="p3"><rect x="18" y="532" width="742" height="474" rx="8"/></clipPath>
+ <clipPath id="p4"><rect x="776" y="532" width="742" height="474" rx="8"/></clipPath>
+</defs>
+<rect width="1536" height="1024" fill="#061522"/>
+<rect x="14" y="13" width="1508" height="56" rx="12" fill="#07131f"/>
+<text x="35" y="51" fill="#fff" font-family="Arial,Malgun Gothic,sans-serif" font-size="34" font-weight="900">FTF-01  #105  폭풍 뒤, 우리가 지키는 해안</text>
+<text x="790" y="49" fill="#9cecff" font-family="Arial,sans-serif" font-size="20" font-weight="800">AFTER THE STORM · 暴风雨后，我们守护海岸</text>
+
+<!-- PANEL 1: dawn shoreline after storm -->
+<g clip-path="url(#p1)">
+ <rect x="18" y="84" width="742" height="432" fill="url(#dawn)"/>
+ <circle cx="649" cy="153" r="50" fill="#ffe4a2" opacity=".95"/>
+ <path d="M18 278 Q150 250 290 274 T560 266 T760 278 V386 H18Z" fill="url(#sea)"/>
+ <path d="M18 343 Q170 322 340 347 T760 337 V516 H18Z" fill="url(#shore)"/>
+ <path d="M20 332 Q168 307 335 333 T760 324" fill="none" stroke="#e8fbff" stroke-width="7" opacity=".8"/>
+ <!-- storm debris -->
+ <g stroke="#5a4634" stroke-width="8" stroke-linecap="round"><path d="M94 402 l86 34"/><path d="M157 383 l-52 73"/><path d="M262 422 l92 -32"/></g>
+ <g fill="#d94b4b"><rect x="230" y="394" width="28" height="48" rx="5"/><rect x="442" y="408" width="46" height="24" rx="6"/></g>
+ <g fill="#2ca7c4"><ellipse cx="383" cy="428" rx="25" ry="11"/><ellipse cx="522" cy="389" rx="20" ry="9"/></g>
+ <!-- woman rescuer -->
+ <g filter="url(#shadow)">
+  <ellipse cx="388" cy="286" rx="48" ry="55" fill="#f3c6aa" stroke="#17212c" stroke-width="5"/>
+  <path d="M344 279 Q350 219 389 222 Q431 224 438 279 Q413 249 386 250 Q363 251 344 279Z" fill="#392723"/>
+  <circle cx="371" cy="284" r="6" fill="#1b2631"/><circle cx="404" cy="284" r="6" fill="#1b2631"/>
+  <path d="M375 306 Q388 317 402 306" fill="none" stroke="#9f554d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M349 338 Q389 322 431 340 L448 484 L325 484Z" fill="#0b4b78" stroke="#17212c" stroke-width="5"/>
+  <text x="387" y="405" fill="#fff" font-size="27" text-anchor="middle" font-family="Arial" font-weight="900">FTF</text>
+  <path d="M430 360 Q496 333 552 300" fill="none" stroke="#f3c6aa" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="554" cy="299" r="14" fill="#f3c6aa"/>
+  <path d="M554 299 l34 -18" stroke="#f3c6aa" stroke-width="11" stroke-linecap="round"/>
+ </g>
+ <!-- male crew -->
+ <g filter="url(#shadow)"><ellipse cx="235" cy="329" rx="33" ry="39" fill="#d6a181" stroke="#17212c" stroke-width="4"/><path d="M203 322 Q210 285 240 289 Q265 292 270 324" fill="#20262d"/><path d="M201 366 L267 366 L287 484 L179 484Z" fill="#123d61" stroke="#17212c" stroke-width="4"/><text x="235" y="424" fill="#fff" font-size="22" text-anchor="middle" font-weight="900">FTF</text></g>
+ <!-- narration/bubbles -->
+ <rect x="34" y="98" width="302" height="127" rx="27" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="185" y="129" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="20" font-weight="900"><tspan x="185">밤새 폭풍이 지나갔어.</tspan><tspan x="185" dy="25">해안으로 쓰레기가 밀려왔어!</tspan><tspan x="185" dy="25" font-size="17">暴风雨一夜之间把垃圾冲上岸。</tspan><tspan x="185" dy="22" font-size="16">The storm washed debris onto the shore.</tspan></text>
+ <rect x="477" y="95" width="256" height="115" rx="24" fill="#fff7d9" stroke="#111" stroke-width="4"/>
+ <text x="605" y="127" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="19" font-weight="900"><tspan x="605">먼저 생명을 찾고,</tspan><tspan x="605" dy="24">그 다음 해안을 정리하자.</tspan><tspan x="605" dy="23" font-size="16">先救生命，再清理海岸。</tspan><tspan x="605" dy="21" font-size="15">Life first. Cleanup next.</tspan></text>
+ <text x="38" y="495" fill="#fff" stroke="#0b4f79" stroke-width="7" paint-order="stroke" font-family="Arial" font-size="42" font-weight="1000" font-style="italic">MOVE! MOVE!</text>
+</g>
+
+<!-- PANEL 2: seabird rescue -->
+<g clip-path="url(#p2)">
+ <rect x="776" y="84" width="742" height="432" fill="#8fdaf1"/>
+ <path d="M776 356 Q930 318 1100 350 T1518 340 V516 H776Z" fill="url(#shore)"/>
+ <path d="M776 232 Q930 208 1100 236 T1518 226 V366 H776Z" fill="url(#sea)"/>
+ <!-- bird entangled -->
+ <g transform="translate(1280 359)" filter="url(#shadow)"><ellipse rx="48" ry="31" fill="#f6f2e8" stroke="#30383e" stroke-width="5"/><circle cx="43" cy="-15" r="20" fill="#fff" stroke="#30383e" stroke-width="4"/><path d="M59 -17 l30 8 l-28 9Z" fill="#efac34"/><circle cx="49" cy="-21" r="4"/><path d="M-19 -17 q-45 -45 -69 -11 q35 8 66 34" fill="#d9e0e4" stroke="#30383e" stroke-width="4"/></g>
+ <g stroke="#737b69" stroke-width="5" opacity=".85"><path d="M1182 315 Q1260 350 1352 327" fill="none"/><path d="M1190 335 Q1275 300 1368 357" fill="none"/><path d="M1210 289 l126 112 M1248 282 l101 112"/></g>
+ <!-- kneeling woman -->
+ <g filter="url(#shadow)"><ellipse cx="1001" cy="271" rx="45" ry="51" fill="#f2c4a6" stroke="#16212c" stroke-width="5"/><path d="M961 267 Q967 212 1007 218 Q1043 222 1046 268 Q1023 241 999 242 Q979 242 961 267Z" fill="#3d2924"/><path d="M968 322 Q1004 306 1044 324 L1088 438 L932 438Z" fill="#0b4d78" stroke="#16212c" stroke-width="5"/><text x="1007" y="380" fill="#fff" font-size="27" text-anchor="middle" font-weight="900">FTF</text><path d="M1040 345 Q1114 338 1180 349" fill="none" stroke="#f2c4a6" stroke-width="22" stroke-linecap="round"/><path d="M1178 349 l28 2" stroke="#f2c4a6" stroke-width="12" stroke-linecap="round"/></g>
+ <!-- male cutting net -->
+ <g filter="url(#shadow)"><ellipse cx="1115" cy="246" rx="39" ry="45" fill="#d4a07f" stroke="#16212c" stroke-width="4"/><path d="M1079 241 Q1085 202 1119 204 Q1148 207 1152 242" fill="#1d2630"/><path d="M1080 293 L1154 293 L1180 414 L1053 414Z" fill="#123d61" stroke="#16212c" stroke-width="4"/><path d="M1146 331 Q1192 338 1223 348" fill="none" stroke="#d4a07f" stroke-width="18" stroke-linecap="round"/><path d="M1221 347 l25 18 M1223 347 l23 -17" stroke="#ef4b3f" stroke-width="9" stroke-linecap="round"/></g>
+ <rect x="793" y="99" width="336" height="124" rx="27" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="961" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="20" font-weight="900"><tspan x="961">갈매기가 폐낚싯줄에 걸렸어!</tspan><tspan x="961" dy="25">천천히, 날개를 다치지 않게.</tspan><tspan x="961" dy="24" font-size="16">海鸟被废弃鱼线缠住了，小心翅膀！</tspan><tspan x="961" dy="22" font-size="15">Easy—protect the wing while cutting the line.</tspan></text>
+ <text x="1162" y="455" fill="#ffe34c" stroke="#112839" stroke-width="8" paint-order="stroke" font-family="Arial" font-size="46" font-weight="1000" transform="rotate(-8 1162 455)">SNIP!</text>
+ <rect x="1290" y="105" width="205" height="95" rx="16" fill="#fff7d9" stroke="#111" stroke-width="3"/>
+ <text x="1392" y="135" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1392">구조가 먼저다.</tspan><tspan x="1392" dy="22" font-size="15">先救援。</tspan><tspan x="1392" dy="20" font-size="14">Rescue comes first.</tspan></text>
+</g>
+
+<!-- PANEL 3: children + sorting/data -->
+<g clip-path="url(#p3)">
+ <rect x="18" y="532" width="742" height="474" fill="#eaf7fb"/>
+ <rect x="18" y="782" width="742" height="224" fill="#d1b27a"/>
+ <rect x="390" y="565" width="340" height="205" rx="18" fill="url(#lab)" stroke="#15364f" stroke-width="5"/>
+ <text x="410" y="603" fill="#9cecff" font-size="24" font-family="Arial" font-weight="900">FTF COAST DATA</text>
+ <rect x="414" y="625" width="134" height="98" rx="8" fill="#0a2540" stroke="#49cdf2" stroke-width="3"/><rect x="565" y="625" width="140" height="98" rx="8" fill="#0a2540" stroke="#49cdf2" stroke-width="3"/>
+ <polyline points="427,697 447,682 467,688 486,660 506,668 526,642" fill="none" stroke="#5ce094" stroke-width="5"/>
+ <g fill="#ffbd4c"><circle cx="588" cy="687" r="10"/><circle cx="614" cy="659" r="10"/><circle cx="650" cy="677" r="10"/><circle cx="680" cy="647" r="10"/></g>
+ <!-- bins -->
+ <g><rect x="81" y="789" width="120" height="145" rx="14" fill="#208bc0" stroke="#17334b" stroke-width="5"/><text x="141" y="835" fill="#fff" font-size="21" text-anchor="middle" font-weight="900">PLASTIC</text><rect x="235" y="789" width="120" height="145" rx="14" fill="#2e9e72" stroke="#17334b" stroke-width="5"/><text x="295" y="835" fill="#fff" font-size="21" text-anchor="middle" font-weight="900">NET</text></g>
+ <!-- child -->
+ <g filter="url(#shadow)"><ellipse cx="177" cy="683" rx="38" ry="44" fill="#f0bf9d" stroke="#17212c" stroke-width="4"/><path d="M142 678 Q148 638 181 641 Q211 643 215 679" fill="#30251f"/><path d="M145 727 L212 727 L229 801 L128 801Z" fill="#f2b847" stroke="#17212c" stroke-width="4"/><path d="M208 747 Q250 762 274 781" fill="none" stroke="#f0bf9d" stroke-width="17" stroke-linecap="round"/><circle cx="278" cy="784" r="12" fill="#f0bf9d"/></g>
+ <!-- woman with tablet -->
+ <g filter="url(#shadow)"><ellipse cx="507" cy="827" rx="43" ry="49" fill="#f3c6aa" stroke="#17212c" stroke-width="4"/><path d="M468 822 Q474 772 511 778 Q548 780 551 823" fill="#3e2924"/><path d="M472 874 L549 874 L573 1001 L449 1001Z" fill="#0b4a75" stroke="#17212c" stroke-width="4"/><rect x="543" y="855" width="115" height="80" rx="7" fill="#142d42" stroke="#9cecff" stroke-width="4" transform="rotate(-7 543 855)"/></g>
+ <rect x="35" y="551" width="331" height="160" rx="28" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="200" y="583" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="20" font-weight="900"><tspan x="200">이건 그냥 청소가 아니야.</tspan><tspan x="200" dy="25">종류별로 기록해야 다음 폭풍을 대비할 수 있어.</tspan><tspan x="200" dy="25" font-size="16">这不只是清理，还要分类记录数据。</tspan><tspan x="200" dy="22" font-size="15">We sort and log it, so the next storm hurts less.</tspan></text>
+ <text x="60" y="972" fill="#fff" stroke="#0e4466" stroke-width="7" paint-order="stroke" font-family="Arial" font-size="44" font-weight="1000" font-style="italic">SORT! SCAN! LOG!</text>
+</g>
+
+<!-- PANEL 4: restored coast + release -->
+<g clip-path="url(#p4)">
+ <rect x="776" y="532" width="742" height="474" fill="url(#dawn)"/>
+ <circle cx="1400" cy="633" r="58" fill="#ffd786" filter="url(#glow)"/>
+ <path d="M776 748 Q940 716 1110 744 T1518 735 V863 H776Z" fill="url(#sea)"/>
+ <path d="M776 829 Q946 802 1118 829 T1518 816 V1006 H776Z" fill="url(#shore)"/>
+ <path d="M776 812 Q952 786 1124 812 T1518 802" fill="none" stroke="#eefcff" stroke-width="7" opacity=".9"/>
+ <!-- released bird -->
+ <g transform="translate(1295 675)" fill="#fff" stroke="#26323b" stroke-width="4"><path d="M0 0 q32 -34 66 -3 q-36 1 -64 24 q-29 -23 -63 -10 q30 -30 61 -11Z"/></g>
+ <!-- team foreground -->
+ <g filter="url(#shadow)"><ellipse cx="1005" cy="783" rx="44" ry="50" fill="#f2c4a5" stroke="#17212c" stroke-width="5"/><path d="M966 778 Q972 729 1009 733 Q1045 736 1049 779" fill="#3a2822"/><path d="M969 835 L1047 835 L1074 1004 L939 1004Z" fill="#0a4b77" stroke="#17212c" stroke-width="5"/><text x="1008" y="911" fill="#fff" font-size="28" text-anchor="middle" font-weight="900">FTF</text></g>
+ <g filter="url(#shadow)"><ellipse cx="1135" cy="806" rx="39" ry="45" fill="#d39e7d" stroke="#17212c" stroke-width="4"/><path d="M1100 801 Q1106 760 1138 763 Q1166 766 1171 802" fill="#1e2730"/><path d="M1100 850 L1172 850 L1196 1005 L1074 1005Z" fill="#123d61" stroke="#17212c" stroke-width="4"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1263" cy="839" rx="34" ry="39" fill="#efbc9a" stroke="#17212c" stroke-width="4"/><path d="M1232 835 Q1238 799 1266 801 Q1291 804 1295 837" fill="#31251f"/><path d="M1234 876 L1294 876 L1310 1004 L1215 1004Z" fill="#f0b648" stroke="#17212c" stroke-width="4"/></g>
+ <rect x="794" y="550" width="358" height="157" rx="28" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="973" y="583" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="20" font-weight="900"><tspan x="973">한 마리의 생명을 살리고,</tspan><tspan x="973" dy="25">한 조각의 쓰레기를 치우는 일이</tspan><tspan x="973" dy="25">결국 바다 전체를 바꿔.</tspan><tspan x="973" dy="24" font-size="16">救一条生命，捡一片垃圾，最终会改变整片海洋。</tspan><tspan x="973" dy="22" font-size="15">Save one life. Remove one piece. Change the whole coast.</tspan></text>
+ <rect x="1187" y="729" width="301" height="114" rx="22" fill="#fff7d9" stroke="#111" stroke-width="4"/>
+ <text x="1337" y="761" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="19" font-weight="900"><tspan x="1337">다음 폭풍이 와도</tspan><tspan x="1337" dy="24">우리는 더 잘 지킬 수 있어.</tspan><tspan x="1337" dy="23" font-size="16">下一场风暴来时，我们会准备得更好。</tspan><tspan x="1337" dy="21" font-size="15">Next storm, we’ll be ready.</tspan></text>
+ <text x="818" y="969" fill="#fff" stroke="#0a527f" stroke-width="8" paint-order="stroke" font-family="Arial" font-size="45" font-weight="1000" font-style="italic">RESCUE · RECORD · RESTORE</text>
+</g>
+
+<!-- borders -->
+<g fill="none" stroke="#fff" stroke-width="8"><rect x="18" y="84" width="742" height="432"/><rect x="776" y="84" width="742" height="432"/><rect x="18" y="532" width="742" height="474"/><rect x="776" y="532" width="742" height="474"/></g>
+<g fill="none" stroke="#07131f" stroke-width="4"><rect x="18" y="84" width="742" height="432"/><rect x="776" y="84" width="742" height="432"/><rect x="18" y="532" width="742" height="474"/><rect x="776" y="532" width="742" height="474"/></g>
+</svg>
