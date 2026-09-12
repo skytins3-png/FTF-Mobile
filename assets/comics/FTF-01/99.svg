@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#7ed7ff"/><stop offset="1" stop-color="#eafaff"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#20b8df"/><stop offset="1" stop-color="#064f7c"/></linearGradient>
+ <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1596c5"/><stop offset="1" stop-color="#032b4f"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd37a"/><stop offset=".55" stop-color="#ef8a63"/><stop offset="1" stop-color="#543e68"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".35"/></filter>
+ <style>
+  .p{stroke:#071722;stroke-width:8}.b{fill:#fffdf8;stroke:#10202b;stroke-width:4}.sp{fill:#fff;stroke:#10202b;stroke-width:4}.txt{font-family:'Noto Sans KR','Noto Sans CJK SC',Arial,sans-serif;font-weight:700}.ko{font-size:22px}.zh{font-size:18px}.en{font-size:17px}.line{stroke:#101820;stroke-width:4;stroke-linejoin:round}.skin{fill:#efbd9d}.skin2{fill:#d7a17d}.hair{fill:#18232c}.hair2{fill:#4b3027}.vest{fill:#123e62}.ftf{fill:#1c6d9f}.sfx{font-family:Arial Black,sans-serif;font-style:italic;font-weight:900;paint-order:stroke;stroke:#fff;stroke-width:9}.tag{font-family:Arial Black,sans-serif;font-weight:900}
+ </style>
+</defs>
+<rect width="1536" height="1024" fill="#07151e"/>
+<rect width="1536" height="66" fill="#0a385e"/>
+<text x="20" y="45" class="tag" font-size="34" fill="#fff">FTF-01  #99</text>
+<text x="250" y="42" class="txt" font-size="29" fill="#fff">작은 행동이 만드는 큰 변화 · 小小行动，创造更大改变 · SMALL ACTIONS, BIGGER TOMORROW</text>
+<text x="1510" y="42" text-anchor="end" class="txt" font-size="16" fill="#d7f7ff">오늘의 한 조각이 내일의 바다를 바꿉니다.</text>
+
+<!-- PANEL 1: departure to the next cleanup zone -->
+<g transform="translate(14,80)">
+ <rect class="p" width="748" height="424" rx="8" fill="url(#sky)"/>
+ <path d="M0 278q95-29 188 1t188 0 188 0 184 0v145H0z" fill="#148db8"/>
+ <path d="M0 294q95-22 188 0t188 0 188 0 184 0" fill="none" stroke="#bff5ff" stroke-width="7"/>
+ <path d="M560 142l52 80H508z" fill="#4f6f7f"/><path d="M582 118l22 30h-42z" fill="#f4f7f8"/>
+ <path d="M40 229h452l58 112H10z" fill="#eef4f7" class="line"/>
+ <rect x="82" y="146" width="236" height="84" rx="8" fill="#dbe8ed" class="line"/><rect x="110" y="163" width="70" height="42" fill="#77cde2" class="line"/><rect x="197" y="163" width="70" height="42" fill="#77cde2" class="line"/><text x="287" y="198" class="tag" font-size="22" fill="#155f92">FTF</text>
+ <g transform="translate(83,203)" filter="url(#shadow)"><path d="M52 102Q20 134 23 210h124q3-76-39-108z" class="vest line"/><circle cx="87" cy="70" r="46" class="skin line"/><path d="M44 72q5-50 43-51 43 2 47 52-22-15-42-29-16 18-47 28z" class="hair line"/><ellipse cx="73" cy="74" rx="6" ry="8"/><ellipse cx="104" cy="74" rx="6" ry="8"/><path d="M75 96q14 10 28-1" fill="none" stroke="#98504b" stroke-width="4"/><path d="M111 143l143-58 11 27-137 78" class="skin line"/></g>
+ <g transform="translate(285,200)" filter="url(#shadow)"><path d="M46 94Q17 122 20 192h112q3-69-36-98z" fill="#edf2f4" class="line"/><circle cx="78" cy="62" r="42" class="skin line"/><path d="M39 62q5-44 38-45 39 2 41 45-20-13-37-24-15 16-41 24z" class="hair2 line"/><path d="M48 32q31-22 63 0l-5-19q-28-18-54 0z" fill="#f7f9fa" class="line"/><text x="79" y="26" class="tag" text-anchor="middle" font-size="12" fill="#155f92">FTF</text><rect x="110" y="125" width="87" height="55" rx="7" fill="#253844" class="line"/><rect x="121" y="135" width="65" height="34" fill="#77cadd"/></g>
+ <rect x="18" y="16" width="355" height="112" rx="8" class="b"/><text x="31" y="45" class="txt ko">다음 정화 구역으로 출발합니다.</text><text x="31" y="74" class="txt zh">我们出发前往下一个清理海域。</text><text x="31" y="101" class="txt en">The FTF team heads to the next clean-up zone.</text>
+ <rect x="408" y="18" width="315" height="115" rx="54" class="sp"/><text x="566" y="49" text-anchor="middle" class="txt ko">저기 봐요! 또 다른 잔해 구역이에요!</text><text x="566" y="78" text-anchor="middle" class="txt zh">看！那边还有海底残骸！</text><text x="566" y="105" text-anchor="middle" class="txt en">Look! Another debris field ahead!</text>
+ <text x="472" y="394" class="sfx" font-size="47" fill="#31c9ff">GO FURTHER!</text>
+</g>
+
+<!-- PANEL 2: diver removes a plastic sheet and fishing line -->
+<g transform="translate(774,80)">
+ <rect class="p" width="748" height="424" rx="8" fill="url(#deep)"/>
+ <g opacity=".25" fill="#d8faff"><circle cx="90" cy="65" r="8"/><circle cx="129" cy="45" r="5"/><circle cx="348" cy="72" r="7"/><circle cx="618" cy="54" r="9"/><circle cx="668" cy="96" r="5"/></g>
+ <path d="M0 353q110-65 222-24t205-7 321 15v87H0z" fill="#244c55"/>
+ <g stroke="#dc7a5f" stroke-width="7" stroke-linecap="round" fill="none"><path d="M80 390v-86m0 45l-31-25m31 2l33-43M176 393v-100m0 49l-35-29m35 2l37-47M600 393v-83m0 44l-30-26m30 2l35-40"/></g>
+ <g transform="translate(162,112)" filter="url(#shadow)"><path d="M50 98q-24 51-20 126h116q3-76-27-125z" fill="#0e1a23" class="line"/><circle cx="88" cy="65" r="43" class="skin line"/><path d="M46 66q5-46 42-47 41 2 43 48-21-14-40-25-15 16-44 24z" class="hair line"/><rect x="50" y="49" width="76" height="33" rx="12" fill="#91def1" opacity=".75" stroke="#0d1b22" stroke-width="4"/><rect x="22" y="99" width="21" height="95" rx="9" fill="#d8dfe4" class="line"/><path d="M120 146l150 16-4 30-151-3" class="skin line"/><path d="M257 140l75-26 37 86-95 17z" fill="#dfe9ee" opacity=".85" class="line"/><path d="M297 119l46 93" stroke="#5f6970" stroke-width="5"/><path d="M332 122q45 44 73 13" fill="none" stroke="#65747a" stroke-width="4"/></g>
+ <g transform="translate(500,212)" filter="url(#shadow)"><path d="M44 86q-20 43-18 106h100q2-65-24-105z" fill="#0e1a23" class="line"/><circle cx="76" cy="57" r="37" class="skin2 line"/><path d="M40 58q5-40 36-41 36 2 38 42-18-12-35-22-13 14-38 21z" class="hair2 line"/><rect x="44" y="46" width="64" height="28" rx="11" fill="#8fdaf0" opacity=".72" stroke="#0d1b22" stroke-width="4"/><path d="M30 126l-70 39 12 23 72-25" class="skin2 line"/></g>
+ <rect x="18" y="16" width="356" height="112" rx="8" class="b"/><text x="31" y="44" class="txt ko">바닷속 잔류 쓰레기를 하나씩 제거합니다.</text><text x="31" y="73" class="txt zh">我们把海底残留垃圾一件件清走。</text><text x="31" y="100" class="txt en">We remove every remaining piece, one by one.</text>
+ <rect x="410" y="18" width="312" height="113" rx="54" class="sp"/><text x="566" y="49" text-anchor="middle" class="txt ko">하나만 더! 바다가 다시 숨 쉬도록!</text><text x="566" y="78" text-anchor="middle" class="txt zh">再捡一个，让海洋重新呼吸！</text><text x="566" y="105" text-anchor="middle" class="txt en">One more piece—let the ocean breathe!</text>
+ <text x="520" y="392" class="sfx" font-size="53" fill="#58e1ff">PICK UP!</text>
+</g>
+
+<!-- PANEL 3: life returns to the cleaned reef -->
+<g transform="translate(14,518)">
+ <rect class="p" width="748" height="490" rx="8" fill="url(#deep)"/>
+ <path d="M0 385q100-70 220-30t210-6 318 8v133H0z" fill="#284f53"/>
+ <g stroke="#f0a04e" stroke-width="7" stroke-linecap="round" fill="none"><path d="M68 426V301m0 62l-38-30m38 5l38-53M178 426V294m0 67l-42-35m42 5l37-56M510 426V302m0 61l-37-31m37 4l40-51M617 426V310m0 56l-33-27m33 2l38-47"/></g>
+ <g transform="translate(215,168)" filter="url(#shadow)"><ellipse cx="166" cy="117" rx="96" ry="61" fill="#6f9765" class="line"/><path d="M96 114q-59-48-91-8 35 34 88 43M235 112q63-53 97-10-39 34-93 45M150 171q-20 58 15 78 25-34 22-73" fill="#7fa970" class="line"/><circle cx="252" cy="110" r="32" fill="#8daf75" class="line"/><circle cx="263" cy="103" r="5"/><path d="M108 86q61-38 124 6-21 49-67 49-42-2-57-55z" fill="#809c68" stroke="#415c3d" stroke-width="4"/></g>
+ <g fill="#ffd36d" stroke="#5a4222" stroke-width="2"><path d="M113 160l32 15-32 15 9-15z"/><path d="M578 178l34 15-34 16 10-16z"/><path d="M652 240l28 13-28 13 8-13z"/><path d="M93 284l27 12-27 13 7-13z"/></g>
+ <g fill="#ff784f" stroke="#54251b" stroke-width="2"><path d="M553 128l26 12-26 12 7-12z"/><path d="M180 222l30 14-30 14 8-14z"/></g>
+ <rect x="18" y="16" width="365" height="112" rx="8" class="b"/><text x="31" y="44" class="txt ko">쓰레기가 사라진 자리엔 생명이 돌아옵니다.</text><text x="31" y="73" class="txt zh">垃圾消失的地方，生命再次回来。</text><text x="31" y="100" class="txt en">Where trash is gone, marine life returns.</text>
+ <rect x="424" y="18" width="298" height="108" rx="52" class="sp"/><text x="573" y="48" text-anchor="middle" class="txt ko">역시 지키길 잘했어!</text><text x="573" y="76" text-anchor="middle" class="txt zh">守护它真的值得！</text><text x="573" y="102" text-anchor="middle" class="txt en">It was worth protecting!</text>
+ <text x="39" y="451" class="sfx" font-size="57" fill="#45d9ff">LIFE RETURNS!</text>
+</g>
+
+<!-- PANEL 4: youth outreach at sunset -->
+<g transform="translate(774,518)">
+ <rect class="p" width="748" height="490" rx="8" fill="url(#sun)"/>
+ <circle cx="580" cy="96" r="52" fill="#fff2b7" opacity=".9"/>
+ <path d="M0 266q92-24 178 0t178 0 178 0 214 0v224H0z" fill="#305c70" opacity=".9"/>
+ <path d="M0 291q100-20 198 0t198 0 198 0 154 0" fill="none" stroke="#ffd6ac" stroke-width="6" opacity=".8"/>
+ <path d="M0 360q110-34 218-3t215 4 315-4v133H0z" fill="#8b765f"/>
+ <g transform="translate(230,190)" filter="url(#shadow)"><path d="M50 101Q20 132 23 208h120q3-75-39-107z" fill="#f1f4f5" class="line"/><circle cx="84" cy="69" r="44" class="skin line"/><path d="M42 70q5-47 42-48 41 2 44 49-21-14-40-26-15 17-45 25z" class="hair2 line"/><path d="M49 36q32-24 68-1l-6-21q-31-18-57 0z" fill="#145d8b" class="line"/><text x="83" y="28" text-anchor="middle" class="tag" font-size="12" fill="#fff">FTF</text><rect x="106" y="128" width="108" height="81" rx="8" fill="#fff" class="line"/><circle cx="160" cy="160" r="24" fill="#60b7df"/><path d="M142 160h36M160 142v36" stroke="#fff" stroke-width="5"/><text x="160" y="198" text-anchor="middle" class="tag" font-size="12" fill="#155f92">LESS PLASTIC</text></g>
+ <g transform="translate(440,200)" filter="url(#shadow)"><path d="M45 94Q16 121 19 190h112q3-68-36-96z" class="vest line"/><circle cx="77" cy="62" r="41" class="skin2 line"/><path d="M38 62q5-43 39-44 38 2 40 45-20-13-38-24-14 16-40 23z" class="hair line"/><path d="M46 122l-96 53 13 25 99-39" class="skin2 line"/></g>
+ <g fill="#232b31" stroke="#101820" stroke-width="3"><circle cx="122" cy="392" r="31"/><circle cx="191" cy="412" r="29"/><circle cx="292" cy="408" r="30"/><circle cx="385" cy="417" r="29"/><circle cx="515" cy="414" r="30"/></g>
+ <g fill="#f0b99a"><circle cx="122" cy="373" r="18"/><circle cx="191" cy="394" r="17"/><circle cx="292" cy="390" r="18"/><circle cx="385" cy="399" r="17"/><circle cx="515" cy="396" r="18"/></g>
+ <rect x="18" y="16" width="353" height="112" rx="8" class="b"/><text x="31" y="44" class="txt ko">아이들과 다음 세대에게 바다 보호를 전합니다.</text><text x="31" y="73" class="txt zh">我们把守护海洋的方法传给下一代。</text><text x="31" y="100" class="txt en">We pass ocean stewardship to the next generation.</text>
+ <rect x="392" y="18" width="330" height="115" rx="54" class="sp"/><text x="557" y="49" text-anchor="middle" class="txt ko">우리의 작은 실천이 바다의 미래를 바꿔요!</text><text x="557" y="78" text-anchor="middle" class="txt zh">每一个小行动都能改变海洋的未来！</text><text x="557" y="105" text-anchor="middle" class="txt en">Small actions can change the ocean's future!</text>
+ <text x="405" y="463" class="sfx" font-size="44" fill="#ffffff">TOGETHER!</text>
+</g>
+</svg>
