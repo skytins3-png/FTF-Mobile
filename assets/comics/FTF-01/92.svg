@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+  <linearGradient id="storm" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#17263d"/><stop offset="1" stop-color="#49647d"/></linearGradient>
+  <linearGradient id="river" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183e56"/><stop offset="1" stop-color="#1e7890"/></linearGradient>
+  <linearGradient id="lab" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#13263c"/><stop offset="1" stop-color="#23475e"/></linearGradient>
+  <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8b36e"/><stop offset=".5" stop-color="#ffd9a3"/><stop offset="1" stop-color="#5fa9c9"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity=".45"/></filter>
+  <pattern id="rain" width="32" height="32" patternUnits="userSpaceOnUse" patternTransform="rotate(15)"><path d="M0 0v28" stroke="#cbeeff" stroke-width="3" opacity=".62"/></pattern>
+  <style>
+    .panel{stroke:#07131f;stroke-width:9}.cap{font-family:'Noto Sans KR','Noto Sans CJK SC',Arial,sans-serif;font-weight:700}.ko{font-size:23px}.zh{font-size:19px}.en{font-size:18px}.bubble{fill:#fff;stroke:#0b1520;stroke-width:4}.narr{fill:#f9fbff;stroke:#142233;stroke-width:4}.sfx{font-family:Arial Black,sans-serif;font-style:italic;font-weight:900;paint-order:stroke;stroke:#fff;stroke-width:8;stroke-linejoin:round}.tag{font-family:Arial Black,sans-serif;font-weight:900;fill:#eef8ff}.small{font-size:16px}.skin{fill:#f3c7a7}.skin2{fill:#e8b68e}.hair{fill:#20242e}.hair2{fill:#3b291f}.uniform{fill:#173d63}.vest{fill:#f47b32}.white{fill:#f5f8fc}.outline{stroke:#111b26;stroke-width:4;stroke-linejoin:round}.eye{fill:#17202a}.shine{fill:#fff}.screen{fill:#0c334a;stroke:#70e8ff;stroke-width:3}
+  </style>
+</defs>
+<rect width="1536" height="1024" fill="#08131f"/>
+<!-- header -->
+<rect x="0" y="0" width="1536" height="62" fill="#07182a"/>
+<text x="24" y="41" class="tag" font-size="30">FTF-01  #92</text>
+<text x="238" y="40" class="cap" font-size="29" fill="#fff">폭우 속 첫 시험 · 暴雨中的首次考验 · FIRST STORM TEST</text>
+<text x="1510" y="38" text-anchor="end" class="cap" font-size="17" fill="#b9dff4">작은 실천을 ‘평상시’가 아니라 ‘폭우 속’에서도 검증하다</text>
+
+<!-- PANEL 1 -->
+<g transform="translate(14,76)">
+<rect class="panel" width="744" height="435" rx="4" fill="url(#storm)"/>
+<!-- city bridge -->
+<rect x="0" y="98" width="744" height="35" fill="#313d48"/><rect x="0" y="123" width="744" height="18" fill="#202933"/>
+<g fill="#263442"><rect x="45" y="45" width="72" height="54"/><rect x="130" y="30" width="68" height="69"/><rect x="616" y="38" width="83" height="61"/></g>
+<g fill="#f4cf72" opacity=".7"><rect x="58" y="56" width="10" height="13"/><rect x="78" y="56" width="10" height="13"/><rect x="145" y="44" width="10" height="13"/><rect x="165" y="44" width="10" height="13"/></g>
+<!-- river -->
+<path d="M0 138 C180 120 270 178 410 147 C560 115 665 155 744 140 L744 435 L0 435Z" fill="url(#river)"/>
+<path d="M0 220 Q90 185 180 220 T360 220 T540 220 T744 215" fill="none" stroke="#d2eef2" stroke-width="5" opacity=".45"/>
+<path d="M0 285 Q95 250 185 286 T365 284 T545 286 T744 278" fill="none" stroke="#c6ebef" stroke-width="4" opacity=".35"/>
+<!-- interceptor -->
+<g transform="translate(350,198)" filter="url(#shadow)"><rect x="0" y="0" width="310" height="108" rx="8" fill="#243847" stroke="#07131f" stroke-width="5"/><rect x="16" y="18" width="278" height="68" fill="#0d2634"/><path d="M26 26h258v50H26z" fill="#192c35"/><g fill="#716c58"><circle cx="54" cy="47" r="14"/><rect x="83" y="35" width="28" height="25" rx="4"/><circle cx="145" cy="54" r="11"/><path d="M189 35l24 35h-45z"/><rect x="237" y="38" width="33" height="28" rx="3"/></g><text x="155" y="104" text-anchor="middle" class="tag" font-size="17">FTF RIVER INTERCEPTOR</text></g>
+<!-- female researcher detailed -->
+<g transform="translate(92,205)" filter="url(#shadow)">
+ <path d="M68 116 Q25 145 20 225 L150 225 Q145 148 111 118Z" class="uniform outline"/>
+ <path d="M54 120 L44 174 L18 187 L5 169 L31 147" class="vest outline"/>
+ <path d="M115 124 L135 170 L166 159 L173 179 L131 199 L100 151" class="vest outline"/>
+ <circle cx="88" cy="82" r="51" class="skin outline"/>
+ <path d="M38 83 Q43 22 92 24 Q145 25 143 90 Q129 70 119 52 Q94 74 44 62Z" class="hair outline"/>
+ <path d="M37 60 Q70 15 130 34 L123 8 Q75 -5 43 17Z" fill="#f6f7fb" class="outline"/><text x="84" y="28" text-anchor="middle" class="cap" font-size="15" fill="#173d63">FTF</text>
+ <ellipse cx="71" cy="84" rx="6" ry="8" class="eye"/><ellipse cx="105" cy="84" rx="6" ry="8" class="eye"/><circle cx="73" cy="81" r="2" class="shine"/><circle cx="107" cy="81" r="2" class="shine"/>
+ <path d="M75 105 Q90 116 106 103" fill="none" stroke="#9f4b49" stroke-width="4" stroke-linecap="round"/>
+ <path d="M18 187 Q-2 203 8 224 Q17 241 34 230 L46 201Z" class="skin outline"/><path d="M165 160 q25 -15 32 6 q5 18 -15 24 l-14 -8z" class="skin outline"/>
+</g>
+<!-- speech/narration -->
+<rect x="18" y="16" width="270" height="105" rx="8" class="narr"/><text x="32" y="43" class="cap ko">예보보다 비가 더 거세졌습니다.</text><text x="32" y="68" class="cap zh">降雨比预报更猛烈。</text><text x="32" y="92" class="cap en">The rain is heavier than forecast.</text>
+<path d="M434 92 q-25 10 -16 34 l17 44 23-40 q10-26-24-38z" class="bubble"/><rect x="432" y="18" width="286" height="106" rx="53" class="bubble"/><text x="575" y="49" text-anchor="middle" class="cap ko">수위가 빠르게 올라가요!</text><text x="575" y="76" text-anchor="middle" class="cap zh">水位正在快速上涨！</text><text x="575" y="101" text-anchor="middle" class="cap en">The water level is rising fast!</text>
+<rect x="0" y="0" width="744" height="435" fill="url(#rain)" opacity=".48"/>
+<text x="478" y="182" class="sfx" font-size="54" fill="#63c8ff" transform="rotate(-8 478 182)">RUMBLE!</text>
+<text x="18" y="414" class="cap" font-size="18" fill="#fff">1  폭우가 닥친 밤, 설치한 차단시설의 첫 ‘실전 시험’이 시작됩니다.</text>
+</g>
+
+<!-- PANEL 2 -->
+<g transform="translate(778,76)">
+<rect class="panel" width="744" height="435" rx="4" fill="#214f68"/>
+<path d="M0 230 Q120 175 250 232 T500 230 T744 220 V435H0Z" fill="#0c6f86"/>
+<path d="M0 270 Q125 220 250 275 T500 270 T744 263" fill="none" stroke="#e6fbff" stroke-width="7" opacity=".55"/>
+<!-- boom and trap -->
+<path d="M0 292 C160 250 330 340 744 270" fill="none" stroke="#ff8a32" stroke-width="22"/>
+<g transform="translate(155,240)"><path d="M0 0 L390 20 L350 170 L35 150Z" fill="#101a20" stroke="#07131f" stroke-width="6"/><g fill="#8d7251"><circle cx="65" cy="58" r="24"/><rect x="102" y="35" width="42" height="34" rx="5"/><circle cx="183" cy="86" r="18"/><path d="M245 38l37 58h-72z"/><rect x="312" y="53" width="43" height="40" rx="5"/></g><g stroke="#78858a" stroke-width="3" opacity=".7"><path d="M15 20l350 130M32 4l342 135M20 70l340 70M35 120l300-95"/></g></g>
+<!-- male worker -->
+<g transform="translate(520,130)" filter="url(#shadow)"><path d="M55 110Q18 142 25 232h132q6-82-36-118z" class="vest outline"/><circle cx="91" cy="75" r="48" class="skin2 outline"/><path d="M43 72q8-49 52-50 47 0 50 55-26-19-48-31-17 21-50 28z" class="hair outline"/><path d="M46 49q38-40 92 1l-7-30q-40-30-78 0z" fill="#fff" class="outline"/><text x="91" y="33" text-anchor="middle" class="cap" font-size="14" fill="#183e56">FTF</text><ellipse cx="75" cy="77" rx="6" ry="8" class="eye"/><ellipse cx="106" cy="77" rx="6" ry="8" class="eye"/><path d="M80 96q14 10 28-1" fill="none" stroke="#89453f" stroke-width="4"/><path d="M40 150l-58 40 15 22 70-32z" class="skin2 outline"/><path d="M128 150l62-5 1 29-71 16z" class="skin2 outline"/></g>
+<rect x="20" y="18" width="317" height="104" rx="8" class="narr"/><text x="34" y="45" class="cap ko">차단망은 급류를 버티고 있습니다.</text><text x="34" y="72" class="cap zh">拦截网正在承受急流冲击。</text><text x="34" y="98" class="cap en">The interceptor is holding against the surge.</text>
+<rect x="390" y="18" width="330" height="114" rx="55" class="bubble"/><text x="555" y="49" text-anchor="middle" class="cap ko">넘치기 전에 전부 잡아냈어요!</text><text x="555" y="77" text-anchor="middle" class="cap zh">在溢出之前全都拦住了！</text><text x="555" y="103" text-anchor="middle" class="cap en">We caught it before it reached the sea!</text>
+<text x="85" y="214" class="sfx" font-size="58" fill="#ffd65c" transform="rotate(-7 85 214)">CLANK!</text><text x="415" y="322" class="sfx" font-size="52" fill="#86e4ff" transform="rotate(7 415 322)">SPLASH!</text>
+<text x="18" y="414" class="cap" font-size="18" fill="#fff">2  떠내려온 쓰레기는 하구를 넘기 전에 포집됩니다.</text>
+</g>
+
+<!-- PANEL 3 -->
+<g transform="translate(14,528)">
+<rect class="panel" width="744" height="470" rx="4" fill="url(#lab)"/>
+<!-- screens -->
+<g transform="translate(35,42)"><rect x="0" y="0" width="390" height="212" rx="10" class="screen"/><text x="195" y="31" text-anchor="middle" class="tag" font-size="19">STORM RESPONSE LIVE DATA</text><path d="M35 160 L85 130 128 142 172 82 226 98 274 58 342 72" fill="none" stroke="#62efff" stroke-width="6"/><line x1="35" y1="178" x2="352" y2="178" stroke="#6a91a3" stroke-width="2"/><line x1="35" y1="48" x2="35" y2="178" stroke="#6a91a3" stroke-width="2"/><text x="38" y="203" class="cap" font-size="15" fill="#bfefff">강우 87 mm/h · 유속 2.4 m/s · 포집률 94%</text></g>
+<g transform="translate(456,48)"><rect width="250" height="198" rx="10" class="screen"/><text x="125" y="31" text-anchor="middle" class="tag" font-size="17">OCEAN LEAKAGE</text><text x="125" y="106" text-anchor="middle" class="tag" font-size="72" fill="#74ffc2">0</text><text x="125" y="144" text-anchor="middle" class="cap" font-size="18" fill="#bfefff">bags / bottles detected</text><text x="125" y="174" text-anchor="middle" class="cap" font-size="18" fill="#8effb0">NO OVERLAP · NO LOSS</text></g>
+<!-- researcher + student -->
+<g transform="translate(145,267)"><path d="M38 92Q5 117 10 191h105q3-67-31-98z" class="white outline"/><circle cx="62" cy="60" r="39" class="skin outline"/><path d="M24 59Q28 15 64 15q39 0 39 48-21-16-37-26-13 17-39 24z" class="hair outline"/><rect x="42" y="52" width="17" height="11" rx="5" fill="none" stroke="#17202a" stroke-width="3"/><rect x="68" y="52" width="17" height="11" rx="5" fill="none" stroke="#17202a" stroke-width="3"/><line x1="59" y1="57" x2="68" y2="57" stroke="#17202a" stroke-width="3"/><path d="M50 77q12 8 23 0" fill="none" stroke="#8e4b46" stroke-width="3"/></g>
+<g transform="translate(370,285)"><path d="M32 78Q5 102 8 166h95q3-56-28-86z" class="uniform outline"/><circle cx="55" cy="49" r="34" class="skin2 outline"/><path d="M22 46Q28 8 58 10q34 1 33 40-19-13-34-23-12 15-31 20z" class="hair2 outline"/><ellipse cx="46" cy="51" rx="4" ry="5" class="eye"/><ellipse cx="65" cy="51" rx="4" ry="5" class="eye"/><path d="M47 65q9 6 18 0" fill="none" stroke="#8e4b46" stroke-width="3"/></g>
+<rect x="460" y="282" width="258" height="125" rx="60" class="bubble"/><text x="589" y="315" text-anchor="middle" class="cap ko">포집률 94%, 바다 유출 0!</text><text x="589" y="345" text-anchor="middle" class="cap zh">拦截率94%，入海泄漏为0！</text><text x="589" y="374" text-anchor="middle" class="cap en">94% captured, zero ocean leakage!</text>
+<text x="36" y="333" class="sfx" font-size="46" fill="#66f7cf" transform="rotate(-6 36 333)">DATA CHECK!</text>
+<rect x="30" y="388" width="360" height="58" rx="8" class="narr"/><text x="45" y="412" class="cap ko">숫자로 확인되는 변화가 신뢰를 만듭니다.</text><text x="45" y="434" class="cap en">Measured results turn action into trust.</text>
+<text x="18" y="459" class="cap" font-size="18" fill="#fff">3  연구팀은 폭우 중에도 시설 성능과 해양 유출을 실시간으로 확인합니다.</text>
+</g>
+
+<!-- PANEL 4 -->
+<g transform="translate(778,528)">
+<rect class="panel" width="744" height="470" rx="4" fill="url(#dawn)"/>
+<!-- hills and sea -->
+<path d="M0 206 Q80 135 165 192 Q260 108 360 190 Q462 118 565 185 Q640 138 744 174 L744 250H0Z" fill="#435448" opacity=".75"/>
+<path d="M0 220 Q150 205 290 225 T580 221 T744 218 V470H0Z" fill="#428ba6"/>
+<path d="M0 282 Q100 258 210 284 T420 280 T610 285 T744 276" fill="none" stroke="#d6f5f7" stroke-width="6" opacity=".55"/>
+<circle cx="596" cy="112" r="48" fill="#ffe19b" opacity=".95"/>
+<!-- fish/turtle -->
+<g transform="translate(430,310)" fill="#20485e" opacity=".9"><path d="M0 0q32-24 66 0-34 25-66 0zm66 0 27-18v36z"/><path d="M120 22q29-22 58 0-30 21-58 0zm58 0 23-15v30z"/><path d="M230 -18q28-23 57 0-29 22-57 0zm57 0 22-15v30z"/></g>
+<g transform="translate(280,285)"><ellipse cx="50" cy="34" rx="47" ry="27" fill="#688c73" stroke="#1d3e38" stroke-width="4"/><circle cx="99" cy="32" r="15" fill="#76977d" stroke="#1d3e38" stroke-width="4"/><path d="M23 12l-26-23 38 9zM22 54L-4 74l39-8M70 10l20-25 3 34M70 55l24 21-4-30" fill="#76977d" stroke="#1d3e38" stroke-width="4"/><path d="M27 20q22-15 43 0M29 34q20 14 39 0" fill="none" stroke="#d1c78f" stroke-width="4"/></g>
+<!-- family/researcher foreground -->
+<g transform="translate(72,246)"><path d="M18 92Q-8 116 0 205h112q3-76-33-110z" class="uniform outline"/><circle cx="56" cy="60" r="40" class="skin outline"/><path d="M17 59Q20 15 58 14q40 0 40 48-24-15-39-26-14 18-39 24z" class="hair outline"/><path d="M48 77q11 7 22 0" fill="none" stroke="#8e4b46" stroke-width="3"/></g>
+<g transform="translate(178,299)"><path d="M16 69Q-4 90 2 156h88q3-57-28-84z" fill="#f4f6f9" class="outline"/><circle cx="44" cy="43" r="31" class="skin2 outline"/><path d="M14 42Q18 8 46 8q29 0 29 36-17-11-30-20-10 13-28 19z" class="hair2 outline"/><ellipse cx="36" cy="44" rx="4" ry="5" class="eye"/><ellipse cx="53" cy="44" rx="4" ry="5" class="eye"/><path d="M37 57q8 6 17 0" fill="none" stroke="#8e4b46" stroke-width="3"/></g>
+<rect x="18" y="18" width="330" height="125" rx="9" class="narr"/><text x="34" y="47" class="cap ko">아침, 하구에는 쓰레기 대신 생명이 남았습니다.</text><text x="34" y="77" class="cap zh">清晨，河口留下的是生命，而不是垃圾。</text><text x="34" y="108" class="cap en">At dawn, life—not trash—remains in the estuary.</text>
+<rect x="390" y="28" width="326" height="126" rx="62" class="bubble"/><text x="553" y="61" text-anchor="middle" class="cap ko">폭우에도 바다까지 가지 않았어요!</text><text x="553" y="91" text-anchor="middle" class="cap zh">即使暴雨，垃圾也没流进大海！</text><text x="553" y="120" text-anchor="middle" class="cap en">Even in the storm, it never reached the sea!</text>
+<text x="438" y="220" class="sfx" font-size="49" fill="#f7ff8c" transform="rotate(-5 438 220)">LIFE STAYS!</text>
+<rect x="344" y="388" width="370" height="56" rx="8" fill="#0b2d40" opacity=".88"/><text x="529" y="412" text-anchor="middle" class="cap ko" fill="#fff">강을 지키면, 바다가 버팁니다.</text><text x="529" y="434" text-anchor="middle" class="cap en" fill="#bcecff">Healthy rivers make a resilient ocean.</text>
+<text x="18" y="459" class="cap" font-size="18" fill="#fff">4  “설치”가 끝이 아니라, 극한 상황에서도 작동하는지 확인하며 다음 장면으로 이어집니다.</text>
+</g>
+</svg>
