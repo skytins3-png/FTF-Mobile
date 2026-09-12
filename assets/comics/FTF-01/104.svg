@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#84d8ff"/><stop offset="1" stop-color="#e9f8ff"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1197cf"/><stop offset="1" stop-color="#043b69"/></linearGradient>
+ <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b78a9"/><stop offset="1" stop-color="#032942"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb35b"/><stop offset="1" stop-color="#7c3c72"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".45"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="p1"><rect x="18" y="82" width="742" height="437" rx="8"/></clipPath>
+ <clipPath id="p2"><rect x="776" y="82" width="742" height="437" rx="8"/></clipPath>
+ <clipPath id="p3"><rect x="18" y="535" width="742" height="471" rx="8"/></clipPath>
+ <clipPath id="p4"><rect x="776" y="535" width="742" height="471" rx="8"/></clipPath>
+</defs>
+<rect width="1536" height="1024" fill="#071827"/>
+<rect x="16" y="14" width="1504" height="54" rx="12" fill="#08131f"/>
+<text x="38" y="51" fill="#fff" font-family="Arial,Malgun Gothic,sans-serif" font-size="34" font-weight="900">FTF-01  #104  함께 만들어가는 변화</text>
+<text x="720" y="48" fill="#9fe8ff" font-family="Arial,sans-serif" font-size="21" font-weight="700">CHANGE WE CREATE TOGETHER · 我们一起创造的改变</text>
+
+<!-- PANEL 1: survey departure -->
+<g clip-path="url(#p1)">
+ <rect x="18" y="82" width="742" height="437" fill="url(#sky)"/>
+ <path d="M18 360 Q160 330 300 360 T580 352 T760 365 V519 H18Z" fill="url(#sea)"/>
+ <path d="M18 342 Q160 330 290 344 T560 340 T760 350" fill="none" stroke="#dff8ff" stroke-width="7" opacity=".8"/>
+ <!-- island -->
+ <path d="M545 307 Q592 225 639 205 Q687 240 735 314Z" fill="#356f5c"/>
+ <path d="M582 280 Q614 230 644 218 Q673 243 704 288" fill="#68a774"/>
+ <!-- ship -->
+ <path d="M40 325 L330 325 L295 395 L72 395Z" fill="#e9eef4" stroke="#17314d" stroke-width="5"/>
+ <rect x="115" y="239" width="155" height="86" rx="8" fill="#f6fbff" stroke="#17314d" stroke-width="5"/>
+ <rect x="142" y="259" width="42" height="30" fill="#193b57"/><rect x="194" y="259" width="42" height="30" fill="#193b57"/>
+ <rect x="182" y="193" width="10" height="47" fill="#273b4b"/><path d="M187 191 L187 153" stroke="#273b4b" stroke-width="7"/>
+ <path d="M154 159 L220 177" stroke="#273b4b" stroke-width="4"/>
+ <text x="194" y="311" text-anchor="middle" fill="#0d5c91" font-size="24" font-weight="900" font-family="Arial">FTF</text>
+ <!-- woman character -->
+ <g filter="url(#shadow)">
+  <ellipse cx="382" cy="292" rx="48" ry="55" fill="#f5c9ad" stroke="#172331" stroke-width="5"/>
+  <path d="M338 289 Q345 223 388 229 Q430 229 435 289 Q415 253 384 254 Q359 256 338 289Z" fill="#4b2b24"/>
+  <circle cx="365" cy="287" r="6" fill="#1b2530"/><circle cx="401" cy="287" r="6" fill="#1b2530"/>
+  <path d="M373 313 Q385 323 398 312" fill="none" stroke="#9b4d45" stroke-width="4" stroke-linecap="round"/>
+  <path d="M346 344 Q382 327 420 344 L449 471 L324 471Z" fill="#0a4b79" stroke="#172331" stroke-width="5"/>
+  <path d="M352 356 L370 381 L394 356 L414 381 L431 356" fill="none" stroke="#70bce7" stroke-width="5"/>
+  <text x="384" y="420" fill="#fff" font-size="27" text-anchor="middle" font-weight="900" font-family="Arial">FTF</text>
+  <path d="M424 363 Q495 336 552 296" fill="none" stroke="#f5c9ad" stroke-width="25" stroke-linecap="round"/>
+  <circle cx="555" cy="294" r="15" fill="#f5c9ad"/>
+  <path d="M555 294 L591 273" stroke="#f5c9ad" stroke-width="12" stroke-linecap="round"/>
+ </g>
+ <!-- crew -->
+ <g><circle cx="270" cy="351" r="25" fill="#d5aa8d"/><path d="M245 347 Q251 319 276 324 Q294 327 296 352" fill="#172332"/><path d="M244 375 L295 375 L311 440 L227 440Z" fill="#173d62"/><text x="268" y="414" fill="#fff" font-size="18" text-anchor="middle" font-weight="900">FTF</text></g>
+ <g><circle cx="112" cy="352" r="23" fill="#c99878"/><path d="M89 349 Q96 320 119 326 Q137 329 137 352" fill="#202b36"/><path d="M89 375 L137 375 L153 438 L76 438Z" fill="#183b5e"/></g>
+ <!-- bubble -->
+ <rect x="35" y="96" width="319" height="139" rx="30" fill="#fff" stroke="#111" stroke-width="4"/>
+ <path d="M316 220 L350 252 L333 211Z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="195" y="129" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="20" font-weight="900" fill="#111"><tspan x="195">다음 조사 지점이 보여요!</tspan><tspan x="195" dy="25">함께라면 더 큰 변화를 만들어요!</tspan><tspan x="195" dy="25" font-size="17">下一个调查地点到了！</tspan><tspan x="195" dy="22" font-size="16">Together, we can make an even bigger change!</tspan></text>
+ <text x="48" y="490" fill="#fff" stroke="#0d4770" stroke-width="2" paint-order="stroke" font-family="Arial" font-size="32" font-weight="900" font-style="italic">TO THE NEXT SITE!</text>
+</g>
+
+<!-- PANEL 2: ghost net removal -->
+<g clip-path="url(#p2)">
+ <rect x="776" y="82" width="742" height="437" fill="url(#deep)"/>
+ <circle cx="1396" cy="133" r="70" fill="#6edfff" opacity=".16" filter="url(#glow)"/>
+ <!-- reef -->
+ <path d="M776 444 Q854 386 933 445 Q1012 382 1092 447 Q1174 379 1261 445 Q1352 386 1518 441 V519 H776Z" fill="#6b4b3d"/>
+ <g fill="#f36f72"><circle cx="870" cy="443" r="28"/><circle cx="897" cy="419" r="20"/><circle cx="928" cy="447" r="25"/></g>
+ <g fill="#efb449"><circle cx="1220" cy="441" r="25"/><circle cx="1248" cy="422" r="19"/><circle cx="1273" cy="448" r="23"/></g>
+ <g stroke="#d9d5bd" stroke-width="5" opacity=".85"><path d="M814 257 Q940 349 1095 258 T1425 304" fill="none"/><path d="M820 290 Q965 198 1110 310 T1450 238" fill="none"/><path d="M873 212 L1012 410 M949 184 L1130 443 M1060 180 L1248 430 M1182 194 L1380 405"/></g>
+ <!-- diver main -->
+ <g filter="url(#shadow)">
+  <ellipse cx="1115" cy="245" rx="52" ry="58" fill="#d8a888" stroke="#101820" stroke-width="5"/>
+  <path d="M1065 234 Q1078 183 1121 184 Q1165 187 1167 231 Q1136 205 1106 210Z" fill="#1d2028"/>
+  <rect x="1077" y="226" width="82" height="35" rx="16" fill="#123b55" stroke="#76d9f1" stroke-width="5"/>
+  <circle cx="1100" cy="243" r="8" fill="#b8f3ff"/><circle cx="1137" cy="243" r="8" fill="#b8f3ff"/>
+  <rect x="1068" y="296" width="105" height="135" rx="30" fill="#0b3556" stroke="#16283a" stroke-width="5"/>
+  <text x="1120" y="354" fill="#fff" font-family="Arial" font-size="29" text-anchor="middle" font-weight="900">FTF</text>
+  <path d="M1082 337 Q1003 365 964 405" fill="none" stroke="#0b3556" stroke-width="31" stroke-linecap="round"/>
+  <path d="M1153 335 Q1235 342 1285 393" fill="none" stroke="#0b3556" stroke-width="31" stroke-linecap="round"/>
+  <path d="M965 404 l-30 10" stroke="#ecb397" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1285 393 l31 14" stroke="#ecb397" stroke-width="18" stroke-linecap="round"/>
+  <!-- cutter --> <path d="M932 402 l-25 30 M935 404 l27 28" stroke="#f14f3d" stroke-width="10" stroke-linecap="round"/>
+ </g>
+ <!-- turtle -->
+ <g transform="translate(1370 390)"><ellipse rx="62" ry="39" fill="#698b45" stroke="#263d2d" stroke-width="5"/><circle cx="65" cy="-5" r="18" fill="#86a95b"/><path d="M-38 -30 l-56 -35 l31 53 M-35 28 l-55 36 l33 -54" fill="#789c50" stroke="#263d2d" stroke-width="4"/><path d="M-20 -27 Q0 0 20 -27 M-40 0 Q0 26 40 0 M-20 27 Q0 2 20 27" fill="none" stroke="#c8d88a" stroke-width="4"/></g>
+ <!-- bubble -->
+ <rect x="800" y="97" width="330" height="130" rx="28" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="965" y="128" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="19" font-weight="900" fill="#111"><tspan x="965">이 폐그물을 제거하면</tspan><tspan x="965" dy="24">산호가 다시 숨 쉴 수 있어요.</tspan><tspan x="965" dy="24" font-size="16">只要清除这张废弃渔网，珊瑚就能再次呼吸。</tspan><tspan x="965" dy="22" font-size="15">Remove it carefully — the coral can live again.</tspan></text>
+ <text x="912" y="390" fill="#ffe24b" stroke="#172334" stroke-width="8" paint-order="stroke" font-family="Arial" font-size="48" font-weight="1000" transform="rotate(-10 912 390)">SNIP!</text>
+</g>
+
+<!-- PANEL 3: reef recovery -->
+<g clip-path="url(#p3)">
+ <rect x="18" y="535" width="742" height="471" fill="#0784bc"/>
+ <path d="M18 880 Q115 820 208 878 Q315 804 417 880 Q530 810 635 880 Q699 845 760 876 V1006 H18Z" fill="#9c6548"/>
+ <g fill="#ff6a83"><circle cx="142" cy="870" r="35"/><circle cx="175" cy="842" r="26"/><circle cx="204" cy="874" r="30"/></g>
+ <g fill="#eea82f"><circle cx="465" cy="882" r="34"/><circle cx="496" cy="847" r="24"/><circle cx="526" cy="883" r="31"/></g>
+ <g fill="#8b61c7"><circle cx="600" cy="868" r="30"/><circle cx="627" cy="844" r="20"/><circle cx="651" cy="875" r="28"/></g>
+ <!-- fish -->
+ <g fill="#ffd84b" stroke="#21465d" stroke-width="3"><ellipse cx="240" cy="680" rx="38" ry="20"/><path d="M205 680 l-31 -22 v44Z"/><ellipse cx="570" cy="714" rx="35" ry="18"/><path d="M538 714 l-28 -20 v40Z"/></g>
+ <g fill="#4dd3ed" stroke="#21465d" stroke-width="3"><ellipse cx="330" cy="760" rx="33" ry="17"/><path d="M300 760 l-27 -18 v36Z"/><ellipse cx="680" cy="650" rx="30" ry="15"/><path d="M652 650 l-25 -16 v32Z"/></g>
+ <!-- large turtle -->
+ <g transform="translate(390 705) rotate(-7)"><ellipse rx="110" ry="66" fill="#688f4e" stroke="#243e35" stroke-width="7"/><circle cx="116" cy="-4" r="30" fill="#83a85e" stroke="#243e35" stroke-width="5"/><path d="M-70 -48 l-102 -64 l58 93 M-71 49 l-100 69 l61 -96 M67 -45 l70 -58 l-30 79 M64 48 l76 58 l-35 -84" fill="#739b55" stroke="#243e35" stroke-width="5"/><path d="M-55 -42 Q0 15 55 -42 M-90 0 Q0 58 90 0 M-53 43 Q0 -5 53 43" fill="none" stroke="#c6d88b" stroke-width="6"/></g>
+ <!-- diver background -->
+ <g transform="translate(135 635)"><circle cx="0" cy="0" r="30" fill="#d0a080"/><rect x="-27" y="-12" width="55" height="25" rx="12" fill="#163c56" stroke="#7ce8ff" stroke-width="4"/><path d="M-28 34 L28 34 L45 130 L-44 130Z" fill="#0e3e63"/><text x="0" y="89" fill="#fff" text-anchor="middle" font-size="20" font-weight="900">FTF</text></g>
+ <rect x="36" y="554" width="360" height="107" rx="22" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="216" y="584" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="20" font-weight="900" fill="#111"><tspan x="216">와! 산호가 다시 살아나고</tspan><tspan x="216" dy="25">물고기들이 돌아왔어요!</tspan><tspan x="216" dy="23" font-size="16">珊瑚正在恢复，鱼群也回来了！</tspan><tspan x="216" dy="21" font-size="15">The coral is recovering, and the fish are back!</tspan></text>
+ <text x="40" y="972" fill="#fff" stroke="#063b66" stroke-width="8" paint-order="stroke" font-family="Arial" font-size="52" font-weight="1000" transform="rotate(-5 40 972)">LIFE RETURNS!</text>
+</g>
+
+<!-- PANEL 4: data verification -->
+<g clip-path="url(#p4)">
+ <rect x="776" y="535" width="742" height="471" fill="url(#sun)"/>
+ <circle cx="1430" cy="618" r="67" fill="#ffd67f" opacity=".85"/>
+ <path d="M776 771 Q920 735 1065 772 T1320 764 T1518 778 V1006 H776Z" fill="#0a5377" opacity=".88"/>
+ <!-- control console -->
+ <rect x="824" y="625" width="460" height="273" rx="22" fill="#132534" stroke="#7bbde4" stroke-width="6" filter="url(#shadow)"/>
+ <text x="852" y="665" fill="#d9f4ff" font-family="Arial" font-size="28" font-weight="900">FTF OCEAN MAP · ZONE B-04</text>
+ <rect x="851" y="688" width="176" height="155" rx="10" fill="#062d43" stroke="#4ac7e5" stroke-width="3"/>
+ <text x="939" y="735" text-anchor="middle" fill="#aeeeff" font-size="20" font-family="Arial">POLLUTION</text>
+ <text x="939" y="802" text-anchor="middle" fill="#5dff9b" font-size="58" font-family="Arial" font-weight="1000">-62%</text>
+ <rect x="1050" y="688" width="200" height="155" rx="10" fill="#082f46" stroke="#4ac7e5" stroke-width="3"/>
+ <path d="M1070 800 L1100 770 L1134 779 L1164 726 L1195 745 L1230 706" fill="none" stroke="#63f3ae" stroke-width="6"/>
+ <circle cx="1100" cy="770" r="6" fill="#fff"/><circle cx="1164" cy="726" r="6" fill="#fff"/><circle cx="1230" cy="706" r="6" fill="#fff"/>
+ <!-- team faces -->
+ <g filter="url(#shadow)">
+  <circle cx="1322" cy="755" r="49" fill="#f1c3a8" stroke="#172331" stroke-width="5"/><path d="M1273 747 Q1280 693 1324 698 Q1369 698 1371 746 Q1343 716 1313 720Z" fill="#39251f"/><circle cx="1306" cy="752" r="6"/><circle cx="1340" cy="752" r="6"/><path d="M1310 778 Q1324 789 1338 778" fill="none" stroke="#9e4c47" stroke-width="4"/>
+  <path d="M1277 807 Q1323 788 1368 807 L1400 1000 L1242 1000Z" fill="#0d4268" stroke="#172331" stroke-width="5"/><text x="1323" y="886" fill="#fff" text-anchor="middle" font-size="30" font-weight="900">FTF</text>
+  <circle cx="1448" cy="786" r="43" fill="#d8aa8d" stroke="#172331" stroke-width="5"/><path d="M1407 779 Q1416 733 1452 740 Q1488 744 1490 781" fill="#20242b"/><circle cx="1434" cy="788" r="5"/><circle cx="1463" cy="788" r="5"/><path d="M1437 810 Q1449 819 1461 809" fill="none" stroke="#8c4d45" stroke-width="4"/><path d="M1408 825 L1490 825 L1510 999 L1388 999Z" fill="#163b5d"/>
+ </g>
+ <!-- pointing arm -->
+ <path d="M1278 836 Q1197 800 1138 779" fill="none" stroke="#f1c3a8" stroke-width="25" stroke-linecap="round"/><circle cx="1137" cy="779" r="13" fill="#f1c3a8"/>
+ <!-- speech -->
+ <rect x="1293" y="555" width="210" height="159" rx="28" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1398" y="584" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900" fill="#111"><tspan x="1398">오염 수치가 62%나 줄었어요!</tspan><tspan x="1398" dy="23">다음 지점으로 계속 가요.</tspan><tspan x="1398" dy="23" font-size="15">污染水平下降了62%！</tspan><tspan x="1398" dy="21" font-size="14">Pollution is down 62%.</tspan><tspan x="1398" dy="20" font-size="14">Let's keep going.</tspan></text>
+ <rect x="818" y="914" width="500" height="70" rx="12" fill="#ffffffea" stroke="#111" stroke-width="3"/>
+ <text x="1068" y="943" text-anchor="middle" fill="#111" font-family="Arial,Malgun Gothic" font-size="19" font-weight="900"><tspan x="1068">함께하는 데이터가 더 깨끗한 내일을 만듭니다.</tspan><tspan x="1068" dy="24" font-size="15">Our data, together, creates a cleaner tomorrow. · 我们共同的数据创造更清洁的明天。</tspan></text>
+ <text x="1032" y="894" fill="#fff" stroke="#07456d" stroke-width="7" paint-order="stroke" font-family="Arial" font-size="35" font-weight="1000" font-style="italic">MEASURE · ACT · PROTECT</text>
+</g>
+
+<!-- panel borders -->
+<g fill="none" stroke="#050b10" stroke-width="8"><rect x="18" y="82" width="742" height="437" rx="8"/><rect x="776" y="82" width="742" height="437" rx="8"/><rect x="18" y="535" width="742" height="471" rx="8"/><rect x="776" y="535" width="742" height="471" rx="8"/></g>
+</svg>
