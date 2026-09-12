@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#68cfff"/><stop offset="1" stop-color="#f3fbff"/></linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#18b8d0"/><stop offset="1" stop-color="#034b67"/></linearGradient>
+  <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b91ae"/><stop offset="1" stop-color="#022b43"/></linearGradient>
+  <linearGradient id="mud" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b79d70"/><stop offset="1" stop-color="#71593d"/></linearGradient>
+  <linearGradient id="lab" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eafaff"/><stop offset="1" stop-color="#79b8d2"/></linearGradient>
+  <filter id="sh"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".42"/></filter>
+  <pattern id="bub" width="72" height="72" patternUnits="userSpaceOnUse"><circle cx="15" cy="17" r="5" fill="none" stroke="#e3ffff" stroke-width="2" opacity=".55"/><circle cx="53" cy="48" r="8" fill="none" stroke="#e3ffff" stroke-width="2" opacity=".3"/></pattern>
+  <clipPath id="p1"><rect x="16" y="84" width="746" height="428" rx="8"/></clipPath>
+  <clipPath id="p2"><rect x="774" y="84" width="746" height="428" rx="8"/></clipPath>
+  <clipPath id="p3"><rect x="16" y="524" width="746" height="482" rx="8"/></clipPath>
+  <clipPath id="p4"><rect x="774" y="524" width="746" height="482" rx="8"/></clipPath>
+</defs>
+<rect width="1536" height="1024" fill="#06131f"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0b2a43"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic,sans-serif" font-size="34" font-weight="900">FTF-01  #114  해초 숲에서 갯벌까지, 생명의 길을 잇다</text>
+<text x="875" y="49" fill="#a8efff" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="800">B-17 BLUE-CARBON CORRIDOR · 从海草床到潮滩</text>
+
+<!-- PANEL 1: survey the broken corridor -->
+<g clip-path="url(#p1)">
+ <rect x="16" y="84" width="746" height="428" fill="url(#sky)"/>
+ <path d="M16 290 Q168 263 314 296 T762 290 V512 H16Z" fill="url(#sea)"/>
+ <path d="M530 271 q55-78 122-44 q-29 16-39 43 q50-14 87 11 q-42 11-73 38Z" fill="#4c8368"/>
+ <!-- FTF vessel -->
+ <g filter="url(#sh)"><path d="M49 357 L459 357 L425 461 L102 461Z" fill="#f6fbff" stroke="#172b39" stroke-width="6"/><rect x="142" y="246" width="242" height="112" rx="7" fill="#edf8fb" stroke="#172b39" stroke-width="6"/><rect x="176" y="270" width="72" height="38" fill="#25546b"/><rect x="279" y="270" width="72" height="38" fill="#25546b"/><path d="M267 246 V188 M267 188 L310 216 M267 188 L231 220" stroke="#172b39" stroke-width="7"/><text x="263" y="333" text-anchor="middle" fill="#0b5c84" font-family="Arial" font-size="30" font-weight="900">FTF</text><text x="258" y="389" text-anchor="middle" fill="#0b5c84" font-family="Arial" font-size="15" font-weight="900">CLEAN OCEAN · BRIGHTER TOMORROW</text></g>
+ <!-- female field scientist -->
+ <g filter="url(#sh)"><ellipse cx="565" cy="286" rx="43" ry="51" fill="#efbd98" stroke="#17212b" stroke-width="5"/><path d="M522 281 Q526 236 560 233 Q596 236 608 287 Q580 258 558 258 Q537 257 522 281Z" fill="#3f2a22"/><path d="M523 340 Q563 317 607 340 L646 494 L484 494Z" fill="#eaf6fa" stroke="#17212b" stroke-width="5"/><path d="M524 342 L563 382 L598 342" fill="#0d5f88"/><text x="565" y="425" text-anchor="middle" fill="#0d6289" font-family="Arial" font-size="24" font-weight="900">FTF</text><circle cx="548" cy="296" r="5"/><circle cx="579" cy="296" r="5"/><path d="M549 314 Q564 325 581 313" fill="none" stroke="#a75f52" stroke-width="4"/><path d="M606 365 Q651 348 710 326" stroke="#efbd98" stroke-width="18" stroke-linecap="round"/><circle cx="710" cy="326" r="11" fill="#efbd98"/></g>
+ <!-- survey tablet -->
+ <rect x="661" y="300" width="72" height="95" rx="8" fill="#132b40" stroke="#07131d" stroke-width="5"/><path d="M672 320 L719 320 L719 365 L672 365Z" fill="#79e7f5"/><path d="M678 351 q15-24 34-9" fill="none" stroke="#1d8c68" stroke-width="6"/>
+ <rect x="32" y="103" width="421" height="126" rx="22" fill="#fff" stroke="#111" stroke-width="4"/><text x="242" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="19" font-weight="900"><tspan x="242">B-17 연결 구역 도착!</tspan><tspan x="242" dy="25">해초 숲과 갯벌 사이가 끊겨 있어.</tspan><tspan x="242" dy="22" font-size="14">抵达 B-17！海草床与潮滩之间出现断点。</tspan><tspan x="242" dy="20" font-size="14">B-17: the seagrass–tidal-flat corridor is broken.</tspan></text>
+ <rect x="463" y="105" width="274" height="104" rx="22" fill="#fff5d8" stroke="#111" stroke-width="4"/><text x="600" y="136" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="600">오늘 목표는 하나!</tspan><tspan x="600" dy="23">생명의 이동길을 다시 잇자.</tspan><tspan x="600" dy="21" font-size="14">重新连接生命通道！</tspan><tspan x="600" dy="20" font-size="13">Reconnect the nursery corridor!</tspan></text>
+ <text x="45" y="482" fill="#fff" stroke="#084461" stroke-width="5" paint-order="stroke" font-family="Arial" font-size="37" font-weight="900" font-style="italic">MAP IT!  LINK IT!  RESTORE IT!</text>
+</g>
+
+<!-- PANEL 2: underwater planting corridor -->
+<g clip-path="url(#p2)">
+ <rect x="774" y="84" width="746" height="428" fill="url(#deep)"/><rect x="774" y="84" width="746" height="428" fill="url(#bub)"/>
+ <path d="M774 420 Q930 386 1070 418 T1520 410 V512 H774Z" fill="#bda36f"/>
+ <!-- existing seagrass edges -->
+ <g stroke-linecap="round"><path d="M808 478 Q795 408 825 350 M850 482 Q840 414 870 359 M895 480 Q884 421 909 374 M1405 481 Q1393 412 1422 354 M1451 482 Q1438 417 1469 365 M1491 481 Q1481 427 1504 384" stroke="#2fa76f" stroke-width="15"/><path d="M825 486 Q818 439 837 402 M920 486 Q911 441 930 400 M1380 485 Q1372 438 1392 397 M1477 488 Q1467 441 1487 402" stroke="#60cf89" stroke-width="10"/></g>
+ <!-- diver male -->
+ <g filter="url(#sh)"><ellipse cx="1030" cy="236" rx="43" ry="48" fill="#e6b18d" stroke="#0d1720" stroke-width="5"/><path d="M990 233 Q997 194 1031 191 Q1068 194 1073 235Z" fill="#1d262d"/><rect x="994" y="215" width="74" height="29" rx="11" fill="#92d8ee" stroke="#111" stroke-width="5"/><path d="M990 292 Q1032 265 1076 292 L1112 416 L950 416Z" fill="#132a3d" stroke="#07121b" stroke-width="6"/><text x="1032" y="350" text-anchor="middle" fill="#d9f6ff" font-family="Arial" font-size="25" font-weight="900">FTF</text><path d="M986 332 Q948 350 919 391" stroke="#132a3d" stroke-width="25" stroke-linecap="round"/><path d="M1075 334 Q1115 349 1140 389" stroke="#132a3d" stroke-width="25" stroke-linecap="round"/></g>
+ <!-- diver female -->
+ <g filter="url(#sh)"><ellipse cx="1281" cy="248" rx="42" ry="47" fill="#efbd98" stroke="#0d1720" stroke-width="5"/><path d="M1241 244 Q1249 205 1281 202 Q1316 206 1322 245Z" fill="#422c24"/><rect x="1245" y="226" width="72" height="29" rx="11" fill="#92d8ee" stroke="#111" stroke-width="5"/><path d="M1244 302 Q1281 277 1324 302 L1360 421 L1205 421Z" fill="#132a3d" stroke="#07121b" stroke-width="6"/><text x="1282" y="355" text-anchor="middle" fill="#d9f6ff" font-family="Arial" font-size="25" font-weight="900">FTF</text><path d="M1243 342 Q1208 359 1179 394" stroke="#132a3d" stroke-width="24" stroke-linecap="round"/><path d="M1322 342 Q1353 357 1381 391" stroke="#132a3d" stroke-width="24" stroke-linecap="round"/></g>
+ <!-- biodegradable corridor mats -->
+ <path d="M948 422 L1384 422 L1348 473 L917 473Z" fill="#8b7448" stroke="#4b3d25" stroke-width="5"/>
+ <g fill="#3ec479"><circle cx="985" cy="424" r="10"/><circle cx="1037" cy="429" r="10"/><circle cx="1091" cy="425" r="10"/><circle cx="1148" cy="430" r="10"/><circle cx="1201" cy="425" r="10"/><circle cx="1260" cy="430" r="10"/><circle cx="1316" cy="425" r="10"/></g>
+ <rect x="1349" y="363" width="24" height="74" rx="5" fill="#dff7ff" stroke="#123" stroke-width="4"/><circle cx="1361" cy="355" r="12" fill="#4fe6ff" stroke="#123" stroke-width="4"/>
+ <rect x="795" y="101" width="411" height="94" rx="8" fill="#fff" stroke="#111" stroke-width="4"/><text x="1000" y="128" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1000">생분해성 매트로 해초 연결 통로를 만든다.</tspan><tspan x="1000" dy="23" font-size="14">用可降解种植垫连接海草廊道。</tspan><tspan x="1000" dy="21" font-size="14">Biodegradable mats reconnect the seagrass corridor.</tspan></text>
+ <rect x="1218" y="102" width="278" height="120" rx="28" fill="#fff" stroke="#111" stroke-width="4"/><text x="1357" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1357">센서 고정 완료!</tspan><tspan x="1357" dy="23">탄소·유속·생물 이동을 함께 추적해.</tspan><tspan x="1357" dy="21" font-size="13">同步追踪碳、流速与生物迁移。</tspan><tspan x="1357" dy="20" font-size="13">Track carbon, current and wildlife movement.</tspan></text>
+ <text x="983" y="477" fill="#fff" stroke="#075270" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="47" font-weight="900" font-style="italic">ANCHOR!  CONNECT!  GROW!</text>
+</g>
+
+<!-- PANEL 3: nursery life returns -->
+<g clip-path="url(#p3)">
+ <rect x="16" y="524" width="746" height="482" fill="url(#deep)"/><rect x="16" y="524" width="746" height="482" fill="url(#bub)"/>
+ <path d="M16 920 Q185 886 338 920 T762 907 V1006 H16Z" fill="#b79b66"/>
+ <g stroke-linecap="round"><path d="M55 941 Q42 805 82 697 M116 954 Q102 821 147 715 M183 951 Q167 799 211 681 M263 957 Q244 818 290 709 M342 954 Q328 806 367 690 M423 955 Q409 820 452 711 M510 956 Q492 807 538 688 M593 952 Q578 817 620 707 M679 955 Q662 801 707 688 M732 951 Q720 835 748 743" stroke="#2fa76f" stroke-width="16"/><path d="M83 960 Q72 846 102 770 M229 961 Q215 848 244 769 M387 960 Q373 836 404 758 M554 959 Q541 850 570 769 M706 958 Q692 844 723 771" stroke="#62ce8a" stroke-width="10"/></g>
+ <!-- juvenile fish school -->
+ <g stroke-width="3"><g fill="#ffd35c" stroke="#765b16"><path d="M410 676 q33-26 67 0 q-32 28-67 0 l-25 17 l5-34Z"/><path d="M538 732 q30-24 61 0 q-29 26-61 0 l-22 15 l4-30Z"/></g><g fill="#ff8e57" stroke="#7a3824"><path d="M451 803 q32-25 65 0 q-31 27-65 0 l-23 16 l4-31Z"/><path d="M618 669 q28-22 57 0 q-28 24-57 0 l-20 14 l4-28Z"/></g><g fill="#6bd4ff" stroke="#165671"><path d="M566 855 q30-23 61 0 q-29 25-61 0 l-21 15 l4-30Z"/></g></g>
+ <!-- seahorse -->
+ <g transform="translate(175 774)" fill="#f3c653" stroke="#805d21" stroke-width="5"><path d="M0-62 q42-10 45 28 q1 22-24 31 q22 16 9 45 q-13 28-39 4 q-17-16-1-30 q13-10 23 1 q-2-26-23-39 q-22-13-11-31 q7-11 21-9Z"/><circle cx="11" cy="-48" r="4" fill="#111"/></g>
+ <!-- crab on tidal edge -->
+ <g transform="translate(288 875)" fill="#ef7250" stroke="#7b2f22" stroke-width="5"><ellipse rx="45" ry="25"/><circle cx="-20" cy="-21" r="8"/><circle cx="20" cy="-21" r="8"/><path d="M-37 -4 L-70 -24 M37 -4 L70 -24 M-32 12 L-66 35 M32 12 L66 35" fill="none" stroke-linecap="round"/></g>
+ <rect x="33" y="543" width="422" height="96" rx="8" fill="#fff" stroke="#111" stroke-width="4"/><text x="244" y="570" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="244">연결된 해초 통로로 어린 물고기와 해마가 돌아온다.</tspan><tspan x="244" dy="23" font-size="14">幼鱼和海马重新利用连通的海草廊道。</tspan><tspan x="244" dy="21" font-size="14">Juvenile fish and seahorses return to the connected corridor.</tspan></text>
+ <rect x="472" y="548" width="270" height="122" rx="28" fill="#fff" stroke="#111" stroke-width="4"/><text x="607" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="607">봐! 작은 생명들이</tspan><tspan x="607" dy="23">길을 다시 찾았어!</tspan><tspan x="607" dy="22" font-size="14">看！小生命重新找到通道了！</tspan><tspan x="607" dy="20" font-size="13">Look! The nursery route is alive again!</tspan></text>
+ <text x="55" y="982" fill="#fff" stroke="#0a607c" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="56" font-weight="900" font-style="italic">LIFE FINDS A WAY!</text>
+</g>
+
+<!-- PANEL 4: monitoring confirms restoration -->
+<g clip-path="url(#p4)">
+ <rect x="774" y="524" width="746" height="482" fill="url(#lab)"/>
+ <!-- monitoring wall -->
+ <rect x="976" y="553" width="516" height="317" rx="15" fill="#082f4b" stroke="#0a1722" stroke-width="7"/>
+ <text x="1234" y="590" text-anchor="middle" fill="#9defff" font-family="Arial" font-size="27" font-weight="900">B-17 BLUE-CARBON CORRIDOR MONITORING</text>
+ <rect x="1001" y="616" width="210" height="212" rx="10" fill="#0b4562"/><path d="M1022 786 C1062 752 1080 760 1102 716 S1166 698 1191 652" fill="none" stroke="#4ff3bc" stroke-width="8"/><path d="M1024 802 H1192 M1024 760 H1192 M1024 718 H1192 M1024 676 H1192" stroke="#37708a" stroke-width="2"/>
+ <text x="1106" y="649" text-anchor="middle" fill="#fff" font-family="Arial" font-size="15">CORRIDOR USE</text>
+ <rect x="1230" y="616" width="235" height="212" rx="10" fill="#0b4562"/><text x="1348" y="657" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18" font-weight="800">Blue Carbon Retention</text><text x="1348" y="724" text-anchor="middle" fill="#6dffbe" font-family="Arial" font-size="55" font-weight="900">+37%</text><text x="1348" y="759" text-anchor="middle" fill="#bff9ff" font-family="Arial" font-size="17">Juvenile Fish Passage ↑</text><text x="1348" y="785" text-anchor="middle" fill="#bff9ff" font-family="Arial" font-size="17">Seagrass Cover ↑</text><text x="1348" y="811" text-anchor="middle" fill="#bff9ff" font-family="Arial" font-size="17">Sediment Carbon ↑</text>
+ <!-- team foreground -->
+ <g filter="url(#sh)"><ellipse cx="865" cy="704" rx="47" ry="55" fill="#efbd98" stroke="#17212b" stroke-width="5"/><path d="M820 700 Q829 650 866 648 Q904 651 912 702 Q885 670 862 671 Q840 669 820 700Z" fill="#3d2b23"/><path d="M820 765 Q865 739 911 765 L951 1002 L780 1002Z" fill="#eaf6fa" stroke="#17212b" stroke-width="5"/><text x="866" y="855" text-anchor="middle" fill="#0d6289" font-family="Arial" font-size="25" font-weight="900">FTF</text><circle cx="848" cy="712" r="5"/><circle cx="881" cy="712" r="5"/><path d="M850 734 Q866 746 884 733" fill="none" stroke="#a75f52" stroke-width="4"/></g>
+ <g filter="url(#sh)"><ellipse cx="966" cy="768" rx="40" ry="46" fill="#e6b18d" stroke="#17212b" stroke-width="5"/><path d="M929 764 Q936 726 966 723 Q999 727 1005 766Z" fill="#202930"/><path d="M931 817 Q966 795 1007 817 L1032 1004 L902 1004Z" fill="#172e42" stroke="#07121b" stroke-width="5"/><text x="968" y="891" text-anchor="middle" fill="#d9f6ff" font-family="Arial" font-size="22" font-weight="900">FTF</text></g>
+ <rect x="792" y="548" width="418" height="100" rx="8" fill="#fff" stroke="#111" stroke-width="4"/><text x="1001" y="576" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1001">4주 후, 연결 통로 이용률과 탄소 저장량이 함께 상승했다.</tspan><tspan x="1001" dy="23" font-size="14">四周后，廊道利用率与蓝碳储存量同步上升。</tspan><tspan x="1001" dy="21" font-size="14">Four weeks later, corridor use and blue-carbon storage rise together.</tspan></text>
+ <rect x="1112" y="846" width="365" height="125" rx="28" fill="#fff" stroke="#111" stroke-width="4"/><text x="1294" y="878" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="1294">숲 하나를 심는 게 아니라,</tspan><tspan x="1294" dy="24">바다 전체의 길을 다시 잇는 거야!</tspan><tspan x="1294" dy="22" font-size="14">不是只修复一片海草，而是重新连接整片海洋。</tspan><tspan x="1294" dy="20" font-size="13">We are reconnecting the whole living sea.</tspan></text>
+ <text x="795" y="988" fill="#fff" stroke="#064b69" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="43" font-weight="900" font-style="italic">CONNECT HABITAT · CONNECT TOMORROW</text>
+</g>
+
+<!-- borders -->
+<g fill="none" stroke="#fff" stroke-width="8"><rect x="16" y="84" width="746" height="428"/><rect x="774" y="84" width="746" height="428"/><rect x="16" y="524" width="746" height="482"/><rect x="774" y="524" width="746" height="482"/></g>
+<g fill="none" stroke="#07131d" stroke-width="4"><rect x="16" y="84" width="746" height="428"/><rect x="774" y="84" width="746" height="428"/><rect x="16" y="524" width="746" height="482"/><rect x="774" y="524" width="746" height="482"/></g>
+</svg>
