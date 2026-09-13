@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="night" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="1" stop-color="#243c58"/></linearGradient>
+ <linearGradient id="shelter" x2="0" y2="1"><stop stop-color="#37495b"/><stop offset="1" stop-color="#172331"/></linearGradient>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#14253c"/><stop offset=".55" stop-color="#6d8da6"/><stop offset="1" stop-color="#efaa75"/></linearGradient>
+ <style>
+ .p{stroke:#050b12;stroke-width:16}.b{fill:#fff;stroke:#17202b;stroke-width:5}.n{fill:#f7efda;stroke:#17202b;stroke-width:5}.ko{font:700 24px Arial,sans-serif;fill:#111827}.zh{font:600 19px Arial,sans-serif;fill:#263448}.en{font:600 16px Arial,sans-serif;fill:#435266}.fx{font:900 italic 38px Impact,Arial,sans-serif;fill:#ffd75c;stroke:#111827;stroke-width:3;paint-order:stroke}.skin{fill:#efbd98;stroke:#17202b;stroke-width:4}.hair{fill:#18202a;stroke:#0d1117;stroke-width:4}.coat{fill:#e9eef3;stroke:#17202b;stroke-width:4}.navy{fill:#29435f;stroke:#17202b;stroke-width:4}.vest{fill:#e86b4b;stroke:#17202b;stroke-width:4}.screen{fill:#0b2436;stroke:#73d7ef;stroke-width:4}.lamp{fill:#ffd86a;stroke:#5b4320;stroke-width:4}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#050a10"/>
+<rect x="28" y="24" width="1024" height="110" rx="24" fill="#111c2b" stroke="#73d7ef" stroke-width="4"/>
+<text x="55" y="66" fill="#ccecff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 13</text>
+<text x="55" y="107" fill="white" font-size="33" font-weight="900">통신망이 끊긴 밤 — 독립 생존 모드</text>
+
+<!-- PANEL 1 blackout hits command center -->
+<rect class="p" x="28" y="154" width="1024" height="405" rx="24" fill="url(#night)"/>
+<path d="M28 420h1024v139H28z" fill="#101923"/>
+<rect class="screen" x="70" y="205" width="560" height="250" rx="18"/>
+<text x="95" y="244" fill="#ff9e94" font-size="23" font-weight="900">REGIONAL NETWORK: OFFLINE</text>
+<path d="M110 315h110l35-55 50 115 40-80 60 18 55-95 75 150" fill="none" stroke="#ff756d" stroke-width="8"/>
+<path d="M120 405h450" stroke="#73d7ef" stroke-width="3" stroke-dasharray="14 12"/>
+<ellipse class="skin" cx="780" cy="300" rx="43" ry="49"/><path class="hair" d="M740 287q14-59 75-30q18 9 11 41q-38-21-77-6z"/><path class="coat" d="M708 370q72-64 144 0v150H708z"/>
+<ellipse class="skin" cx="930" cy="315" rx="40" ry="46"/><path class="hair" d="M892 301q13-55 69-28q16 8 10 38q-35-19-70-5z"/><path class="navy" d="M864 382q66-59 132 0v138H864z"/>
+<rect class="b" x="600" y="168" width="410" height="125" rx="18"/>
+<text class="ko" x="625" y="205">주 통신망이 끊겼다. 중앙 지시를 기다리지 마.</text>
+<text class="zh" x="625" y="237">主通信网中断。不要等待中央指令。</text>
+<text class="en" x="625" y="268">PRIMARY NETWORK DOWN. DO NOT WAIT FOR CENTRAL COMMAND.</text>
+<text class="fx" x="665" y="525">BZZT! BLACKOUT!</text>
+
+<!-- PANEL 2 neighborhood mesh and radio relays -->
+<rect class="p" x="28" y="580" width="1024" height="405" rx="24" fill="#26384b"/>
+<path d="M28 828h1024v157H28z" fill="#172632"/>
+<path d="M60 820l105-120 100 120 115-150 118 150 112-105 105 105 115-160 145 160" fill="#394c59" stroke="#16232d" stroke-width="7"/>
+<g stroke="#8ee8ff" stroke-width="5" fill="none"><path d="M170 720l190 80 185-95 185 70 170-110"/><circle cx="170" cy="720" r="12" fill="#8ee8ff"/><circle cx="360" cy="800" r="12" fill="#8ee8ff"/><circle cx="545" cy="705" r="12" fill="#8ee8ff"/><circle cx="730" cy="775" r="12" fill="#8ee8ff"/><circle cx="900" cy="665" r="12" fill="#8ee8ff"/></g>
+<g transform="translate(250 770)"><ellipse class="skin" cx="0" cy="0" rx="30" ry="36"/><path class="vest" d="M-50 50q50-45 100 0v110H-50z"/><rect x="-78" y="78" width="42" height="62" rx="8" fill="#1f2937" stroke="#73d7ef" stroke-width="4"/><path d="M-58 78v-62" stroke="#73d7ef" stroke-width="5"/></g>
+<g transform="translate(520 790)"><ellipse class="skin" cx="0" cy="0" rx="30" ry="36"/><path class="navy" d="M-50 50q50-45 100 0v110H-50z"/><circle class="lamp" cx="58" cy="90" r="28"/></g>
+<g transform="translate(790 765)"><ellipse class="skin" cx="0" cy="0" rx="30" ry="36"/><path class="vest" d="M-50 50q50-45 100 0v110H-50z"/><rect x="38" y="72" width="42" height="68" rx="8" fill="#202b36" stroke="#ffd86a" stroke-width="4"/></g>
+<rect class="n" x="70" y="602" width="890" height="110" rx="18"/>
+<text class="ko" x="94" y="635">각 구역이 무전기·근거리 메시망·수기 전달망으로 독립 연결된다.</text>
+<text class="zh" x="94" y="666">各区域用无线电、近距离网状网络和人工传递独立连接。</text>
+<text class="en" x="94" y="696">RADIO, LOCAL MESH AND RUNNERS KEEP EACH DISTRICT CONNECTED.</text>
+<text class="fx" x="620" y="947">RADIO! MESH! RELAY!</text>
+
+<!-- PANEL 3 shelter runs without central network -->
+<rect class="p" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#shelter)"/>
+<path d="M70 1370v-235h940v235" fill="#2f4052" stroke="#162331" stroke-width="8"/>
+<rect x="105" y="1160" width="235" height="155" rx="15" fill="#dce6ec" stroke="#17202b" stroke-width="5"/>
+<text x="133" y="1200" font-size="18" font-weight="900" fill="#263448">LOCAL SHELTER BOARD</text>
+<text x="135" y="1240" font-size="18" fill="#2f6b4f">WATER ✓</text><text x="135" y="1275" font-size="18" fill="#2f6b4f">POWER ✓</text><text x="135" y="1310" font-size="18" fill="#2f6b4f">MEDICAL ✓</text>
+<ellipse class="skin" cx="470" cy="1205" rx="36" ry="43"/><path class="hair" d="M435 1193q12-53 64-27q15 8 9 36q-33-18-65-5z"/><path class="coat" d="M410 1267q60-54 120 0v110H410z"/><path d="M470 1280v70m-32-35h64" stroke="#d85b5b" stroke-width="9"/>
+<ellipse class="skin" cx="620" cy="1220" rx="34" ry="41"/><path class="hair" d="M587 1209q11-50 61-25q15 8 9 34q-31-17-61-5z"/><path class="navy" d="M562 1278q58-52 116 0v99H562z"/>
+<ellipse class="skin" cx="805" cy="1220" rx="32" ry="39"/><path class="hair" d="M774 1209q11-47 57-23q14 7 9 32q-29-16-58-5z"/><path d="M752 1275q53-48 106 0v102H752z" fill="#efb65d" stroke="#17202b" stroke-width="4"/>
+<rect class="b" x="360" y="1028" width="625" height="112" rx="18"/>
+<text class="ko" x="386" y="1061">중앙 서버가 꺼져도 물·전력·의료 기록은 현장에서 계속 돌아간다.</text>
+<text class="zh" x="386" y="1093">即使中央服务器断线，供水、电力和医疗记录仍在现场运行。</text>
+<text class="en" x="386" y="1121">WATER, POWER AND MEDICAL LOGS KEEP RUNNING LOCALLY.</text>
+<text class="fx" x="640" y="1380">LOCAL MODE: ON!</text>
+
+<!-- PANEL 4 dawn confirms resilience -->
+<rect class="p" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#dawn)"/>
+<circle cx="885" cy="1542" r="86" fill="#ffd18a" opacity=".85"/>
+<path d="M28 1750l145-118 122 88 126-145 150 135 120-112 126 114 120-92 115 130v140H28z" fill="#334b5c" stroke="#1e303d" stroke-width="7"/>
+<rect class="screen" x="70" y="1485" width="510" height="245" rx="16"/>
+<text x="96" y="1525" fill="#c8f3ff" font-size="20" font-weight="900">BLACKOUT DRILL · RESULT</text>
+<text x="98" y="1575" fill="#8ff0b3" font-size="24" font-weight="900">LOCAL WATER 100%</text>
+<text x="98" y="1615" fill="#8ff0b3" font-size="24" font-weight="900">LOCAL POWER 94%</text>
+<text x="98" y="1655" fill="#ffd75c" font-size="24" font-weight="900">MESSAGE DELIVERY 91%</text>
+<text x="98" y="1695" fill="#ff9b8f" font-size="18" font-weight="700">NEXT: LONG-DURATION SUPPLY ISOLATION</text>
+<ellipse class="skin" cx="725" cy="1635" rx="40" ry="46"/><path class="hair" d="M687 1623q12-56 69-29q17 8 10 39q-36-20-71-6z"/><path class="coat" d="M660 1697q65-58 130 0v145H660z"/>
+<ellipse class="skin" cx="875" cy="1650" rx="38" ry="44"/><path class="hair" d="M839 1638q11-53 66-27q16 8 9 37q-34-19-67-6z"/><path class="navy" d="M812 1708q63-56 126 0v134H812z"/>
+<rect class="b" x="585" y="1455" width="420" height="132" rx="18"/>
+<text class="ko" x="608" y="1490">도시는 연결이 끊겨도 멈추지 않았다. 이제 고립 장기전을 시험한다.</text>
+<text class="zh" x="608" y="1522">城市断联却没有停摆。下一步测试长期孤立生存。</text>
+<text class="en" x="608" y="1553">THE CITY KEPT MOVING. NEXT: LONG-TERM ISOLATION.</text>
+<rect class="n" x="595" y="1770" width="400" height="82" rx="18"/>
+<text class="ko" x="620" y="1803">다음 단계: 보급 없이 버티는 14일.</text>
+<text class="zh" x="620" y="1832">下一阶段：无补给坚持14天。</text>
+<text class="fx" x="115" y="1847">SIGNAL LOST — CITY LIVES!</text>
+</svg>
