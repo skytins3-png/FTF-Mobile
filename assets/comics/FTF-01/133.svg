@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#7fc8e8"/><stop offset="1" stop-color="#e9f7fb"/></linearGradient>
+  <linearGradient id="harbor" x2="0" y2="1"><stop stop-color="#3b7f96"/><stop offset="1" stop-color="#0b4258"/></linearGradient>
+  <linearGradient id="yard" x2="0" y2="1"><stop stop-color="#707b82"/><stop offset="1" stop-color="#2b3338"/></linearGradient>
+  <linearGradient id="lab" x2="0" y2="1"><stop stop-color="#dcecf3"/><stop offset="1" stop-color="#8ba9b6"/></linearGradient>
+  <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#59d3df"/><stop offset="1" stop-color="#075d7c"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".36"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="#07131b"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0d3447"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #133  항구의 바퀴까지 막아라</text>
+<text x="892" y="49" fill="#c9fbff" font-family="Arial" font-size="18" font-weight="800">B-36 PORT FLEET DEFENSE · 港区车队颗粒拦截</text>
+
+<!-- PANEL 1: port source audit -->
+<g>
+  <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#sky)"/>
+  <rect x="16" y="292" width="746" height="220" fill="url(#yard)"/>
+  <rect x="38" y="201" width="151" height="91" fill="#ce6c38" stroke="#53301f" stroke-width="5"/>
+  <rect x="197" y="213" width="141" height="79" fill="#3e89ad" stroke="#1a4356" stroke-width="5"/>
+  <rect x="347" y="185" width="166" height="107" fill="#d7a43c" stroke="#5d481e" stroke-width="5"/>
+  <path d="M62 200V121h22v79M58 122h182M218 122v78" stroke="#46545b" stroke-width="13" fill="none"/>
+  <path d="M83 125l105 64M216 126l-108 64" stroke="#62737a" stroke-width="8"/>
+  <g transform="translate(84 330)" filter="url(#shadow)"><rect width="260" height="91" rx="16" fill="#1b6f80" stroke="#0a2832" stroke-width="6"/><rect x="33" y="-34" width="150" height="52" rx="10" fill="#a9d7df" stroke="#0a2832" stroke-width="5"/><circle cx="54" cy="94" r="30" fill="#111" stroke="#7e8b91" stroke-width="9"/><circle cx="205" cy="94" r="30" fill="#111" stroke="#7e8b91" stroke-width="9"/><text x="130" y="57" text-anchor="middle" fill="#fff" font-family="Arial" font-size="17" font-weight="900">PORT TRACTOR</text></g>
+  <g transform="translate(390 334)" filter="url(#shadow)"><rect width="161" height="72" rx="14" fill="#df9e2d" stroke="#4e3510" stroke-width="6"/><rect x="17" y="-34" width="74" height="49" rx="8" fill="#dceef3" stroke="#4e3510" stroke-width="5"/><circle cx="39" cy="75" r="25" fill="#111" stroke="#7e8b91" stroke-width="8"/><circle cx="128" cy="75" r="25" fill="#111" stroke="#7e8b91" stroke-width="8"/><path d="M156 8h62v13h-62zM208 8v91" stroke="#51380f" stroke-width="10"/></g>
+  <g filter="url(#shadow)"><ellipse cx="627" cy="280" rx="37" ry="43" fill="#efb890" stroke="#10212b" stroke-width="5"/><path d="M594 273q9-33 35-39q30 6 35 39z" fill="#303a3f"/><path d="M586 345q42-26 84 0l27 108H559z" fill="#eef7f8" stroke="#10212b" stroke-width="5"/><path d="M592 362q-54 8-105 34" stroke="#eef7f8" stroke-width="22" stroke-linecap="round"/></g>
+  <g transform="translate(485 398)"><rect width="229" height="73" rx="12" fill="#112f3e" stroke="#7de7ed" stroke-width="4"/><text x="16" y="28" fill="#d9fbff" font-family="Arial" font-size="13" font-weight="900">PORT TIRE DUST AUDIT</text><text x="16" y="55" fill="#7ef0b5" font-family="Arial" font-size="22" font-weight="900">HOTSPOTS: 7</text></g>
+  <rect x="37" y="103" width="486" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="280" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="280">도시 도로 다음은 항구다. 무거운 장비의 바퀴가 더 많은 입자를 만든다.</tspan><tspan x="280" dy="24" font-size="14">城市道路之后是港区，重型设备的轮胎会产生更多磨耗颗粒。</tspan><tspan x="280" dy="22" font-size="13">After city streets comes the port, where heavy wheels shed even more particles.</tspan></text>
+  <rect x="541" y="103" width="192" height="94" rx="22" fill="#fff0b8" stroke="#111" stroke-width="4"/>
+  <text x="637" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="637">핫스폿부터 찾자!</tspan><tspan x="637" dy="21" font-size="13">先找磨耗热点！</tspan><tspan x="637" dy="19" font-size="12">Find the hotspots!</tspan></text>
+  <text x="40" y="486" fill="#fff" stroke="#0c6179" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="32" font-weight="900">SCAN!  TRACE!  MARK!</text>
+</g>
+
+<!-- PANEL 2: low-wear tires + speed control -->
+<g>
+  <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#yard)"/>
+  <rect x="774" y="84" width="746" height="175" fill="url(#sky)"/>
+  <path d="M797 418h690" stroke="#f0e58e" stroke-width="8" stroke-dasharray="52 31"/>
+  <g transform="translate(826 315)" filter="url(#shadow)"><rect width="278" height="93" rx="16" fill="#246f7e" stroke="#0b2932" stroke-width="6"/><rect x="38" y="-38" width="149" height="57" rx="10" fill="#afdbe2" stroke="#0b2932" stroke-width="5"/><circle cx="58" cy="96" r="31" fill="#111" stroke="#7f8d92" stroke-width="9"/><circle cx="218" cy="96" r="31" fill="#111" stroke="#7f8d92" stroke-width="9"/><text x="139" y="58" text-anchor="middle" fill="#fff" font-family="Arial" font-size="17" font-weight="900">LOW-WEAR TIRE</text></g>
+  <g transform="translate(1151 321)" filter="url(#shadow)"><rect width="179" height="77" rx="15" fill="#dfa02f" stroke="#503710" stroke-width="6"/><rect x="18" y="-34" width="82" height="49" rx="8" fill="#dceff3" stroke="#503710" stroke-width="5"/><circle cx="42" cy="80" r="26" fill="#111" stroke="#7f8d92" stroke-width="8"/><circle cx="143" cy="80" r="26" fill="#111" stroke="#7f8d92" stroke-width="8"/></g>
+  <g transform="translate(1351 267)"><rect width="126" height="118" rx="10" fill="#f9fbfc" stroke="#19313c" stroke-width="5"/><circle cx="63" cy="39" r="25" fill="#eef8fa" stroke="#19313c" stroke-width="4"/><text x="63" y="47" text-anchor="middle" fill="#c13e2d" font-family="Arial" font-size="24" font-weight="900">20</text><text x="63" y="81" text-anchor="middle" fill="#19313c" font-family="Arial" font-size="12" font-weight="900">km/h ZONE</text><text x="63" y="102" text-anchor="middle" fill="#17805c" font-family="Arial" font-size="13" font-weight="900">SMOOTH DRIVE</text></g>
+  <g filter="url(#shadow)"><ellipse cx="1430" cy="216" rx="35" ry="41" fill="#e7aa7f" stroke="#10212b" stroke-width="5"/><path d="M1399 209q8-31 33-37q29 6 34 37z" fill="#45362f"/><path d="M1392 278q40-24 79 0l25 93h-129z" fill="#176b79" stroke="#10212b" stroke-width="5"/></g>
+  <rect x="795" y="103" width="486" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="1038" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1038">저마모 타이어와 저속 회전 규칙을 함께 적용해 마찰 자체를 줄인다.</tspan><tspan x="1038" dy="24" font-size="14">低磨耗轮胎配合低速转向规则，从源头减少摩擦。</tspan><tspan x="1038" dy="22" font-size="13">Low-wear tires plus slower turns reduce friction at the source.</tspan></text>
+  <rect x="1293" y="103" width="205" height="94" rx="22" fill="#eaffdb" stroke="#111" stroke-width="4"/>
+  <text x="1395" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1395">급회전을 없애!</tspan><tspan x="1395" dy="21" font-size="13">减少急转弯！</tspan><tspan x="1395" dy="19" font-size="12">Cut hard turns!</tspan></text>
+  <text x="801" y="486" fill="#fff" stroke="#4d641a" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="32" font-weight="900">ROLL SLOW!  TURN CLEAN!</text>
+</g>
+
+<!-- PANEL 3: capture trench before seawall -->
+<g>
+  <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#harbor)"/>
+  <path d="M16 524H762V735H16z" fill="#6d777c"/>
+  <path d="M16 735H762V1006H16z" fill="url(#sea)"/>
+  <path d="M62 672h646" stroke="#ede38c" stroke-width="8" stroke-dasharray="50 30"/>
+  <g transform="translate(99 622)" filter="url(#shadow)"><rect width="286" height="102" rx="15" fill="#e0a439" stroke="#4a3413" stroke-width="6"/><circle cx="55" cy="105" r="31" fill="#111" stroke="#7c8a90" stroke-width="9"/><circle cx="226" cy="105" r="31" fill="#111" stroke="#7c8a90" stroke-width="9"/><text x="143" y="58" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18" font-weight="900">VACUUM SWEEPER</text></g>
+  <rect x="432" y="663" width="239" height="70" rx="8" fill="#25373e" stroke="#9adfea" stroke-width="5"/>
+  <g fill="#131313"><circle cx="458" cy="687" r="5"/><circle cx="479" cy="704" r="4"/><circle cx="501" cy="686" r="6"/><circle cx="526" cy="707" r="4"/><circle cx="552" cy="690" r="5"/><circle cx="578" cy="705" r="4"/></g>
+  <path d="M448 711q101 38 205 0" fill="none" stroke="#a8ecf4" stroke-width="7" stroke-dasharray="12 10"/>
+  <g transform="translate(500 786)"><rect width="183" height="111" rx="15" fill="#10384b" stroke="#7fe2eb" stroke-width="5"/><text x="91" y="29" text-anchor="middle" fill="#d8fbff" font-family="Arial" font-size="13" font-weight="900">DRAIN FILTER</text><text x="91" y="59" text-anchor="middle" fill="#7ff0b6" font-family="Arial" font-size="22" font-weight="900">CAPTURE 63%</text><text x="91" y="84" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12">tire particles</text></g>
+  <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M145 865q37-24 69 0q-36 27-69 0z"/><path d="M236 905q34-22 63 0q-32 25-63 0z"/><path d="M343 846q31-20 59 0q-30 23-59 0z"/></g>
+  <g filter="url(#shadow)"><ellipse cx="681" cy="622" rx="35" ry="41" fill="#efb890" stroke="#10212b" stroke-width="5"/><path d="M649 615q9-31 34-37q29 6 34 37z" fill="#303a3f"/><path d="M643 683q40-24 79 0l26 95H617z" fill="#eef7f8" stroke="#10212b" stroke-width="5"/><path d="M649 700q-49 10-94 37" stroke="#eef7f8" stroke-width="21" stroke-linecap="round"/></g>
+  <rect x="38" y="544" width="494" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="285" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="285">바닷가 배수구 앞에서는 진공 청소와 포집 트렌치가 마지막 입자를 잡는다.</tspan><tspan x="285" dy="24" font-size="14">靠海排水口前，用真空清扫和截留沟抓住最后的颗粒。</tspan><tspan x="285" dy="22" font-size="13">Vacuum sweeping and capture trenches stop the last particles before the seawall.</tspan></text>
+  <text x="42" y="981" fill="#fff" stroke="#0e6176" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">WHIRR!  SWEEP!  CATCH!</text>
+</g>
+
+<!-- PANEL 4: verification and recovered harbor -->
+<g>
+  <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#lab)"/>
+  <path d="M774 788H1520V1006H774z" fill="url(#sea)"/>
+  <g transform="translate(810 690)" filter="url(#shadow)"><rect width="376" height="220" rx="16" fill="#102d3d" stroke="#78e4ec" stroke-width="5"/><text x="24" y="35" fill="#d8fbff" font-family="Arial" font-size="16" font-weight="900">B-36 PORT IMPACT · 30 DAYS</text><text x="24" y="76" fill="#7ff0b6" font-family="Arial" font-size="24" font-weight="900">TIRE PARTICLES      −57%</text><text x="24" y="111" fill="#7ff0b6" font-family="Arial" font-size="24" font-weight="900">DRAIN LOAD          −49%</text><text x="24" y="146" fill="#7ff0b6" font-family="Arial" font-size="24" font-weight="900">ZINC SIGNAL         −38%</text><text x="24" y="184" fill="#fff" font-family="Arial" font-size="14">SAFETY / BRAKING: MAINTAINED</text></g>
+  <g filter="url(#shadow)"><ellipse cx="1284" cy="689" rx="37" ry="43" fill="#efb890" stroke="#10212b" stroke-width="5"/><path d="M1251 682q9-33 35-39q30 6 35 39z" fill="#313a3f"/><path d="M1243 753q42-25 83 0l28 104H1215z" fill="#edf7f8" stroke="#10212b" stroke-width="5"/><path d="M1250 770q-53 8-102 28" stroke="#edf7f8" stroke-width="22" stroke-linecap="round"/></g>
+  <g filter="url(#shadow)"><ellipse cx="1383" cy="716" rx="34" ry="40" fill="#dda176" stroke="#10212b" stroke-width="5"/><path d="M1352 709q8-31 32-36q28 5 34 36z" fill="#46362f"/><path d="M1346 775q38-23 77 0l25 91h-127z" fill="#176b79" stroke="#10212b" stroke-width="5"/></g>
+  <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M1240 910q34-23 65 0q-33 26-65 0z"/><path d="M1332 933q32-21 60 0q-31 24-60 0z"/><path d="M1422 887q29-19 55 0q-28 22-55 0z"/></g>
+  <path d="M1390 969q35-58 68 0" fill="#6db56b" stroke="#2f7440" stroke-width="5"/><path d="M1461 973q29-52 57 0" fill="#79bf70" stroke="#2f7440" stroke-width="5"/>
+  <rect x="797" y="544" width="490" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="1042" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1042">30일 뒤 항구 배수구의 타이어 입자 신호가 크게 줄었다. 방어선이 바다 앞에서 닫혔다.</tspan><tspan x="1042" dy="24" font-size="14">30天后，港区排水口的轮胎颗粒信号明显下降，防线在入海前闭合。</tspan><tspan x="1042" dy="22" font-size="13">Thirty days later, tire-particle signals at the harbor drains are sharply lower.</tspan></text>
+  <rect x="1303" y="544" width="193" height="95" rx="22" fill="#dcffe3" stroke="#111" stroke-width="4"/>
+  <text x="1399" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1399">바다 앞에서 끝내자!</tspan><tspan x="1399" dy="21" font-size="13">别让颗粒入海！</tspan><tspan x="1399" dy="19" font-size="12">Stop it before the sea!</tspan></text>
+  <text x="1202" y="982" fill="#fff" stroke="#185e44" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">PORT CLEANER · OCEAN SAFER!</text>
+</g>
+</svg>
