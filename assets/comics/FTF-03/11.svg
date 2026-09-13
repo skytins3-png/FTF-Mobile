@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+  <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#bde9f4"/><stop offset="1" stop-color="#35647e"/></linearGradient>
+  <linearGradient id="night" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#314c68"/></linearGradient>
+  <linearGradient id="coast" x2="0" y2="1"><stop stop-color="#d8a56d"/><stop offset=".45" stop-color="#647f91"/><stop offset="1" stop-color="#19384e"/></linearGradient>
+  <style>
+    .p{stroke:#07101a;stroke-width:16}.b{fill:#fff;stroke:#17202b;stroke-width:5}.n{fill:#f7efda;stroke:#17202b;stroke-width:5}.ko{font:700 24px Arial,sans-serif;fill:#111827}.zh{font:600 19px Arial,sans-serif;fill:#263448}.en{font:600 16px Arial,sans-serif;fill:#435266}.fx{font:900 italic 38px Impact,Arial,sans-serif;fill:#ffd75c;stroke:#111827;stroke-width:3;paint-order:stroke}.skin{fill:#efbd98;stroke:#17202b;stroke-width:4}.hair{fill:#18202a;stroke:#0d1117;stroke-width:4}.parka{fill:#e46b4f;stroke:#17202b;stroke-width:4}.navy{fill:#293f58;stroke:#17202b;stroke-width:4}.coat{fill:#e9eef3;stroke:#17202b;stroke-width:4}.screen{fill:#0c2538;stroke:#73d7ef;stroke-width:4}
+  </style>
+</defs>
+<rect width="1080" height="1920" fill="#070c13"/>
+<rect x="28" y="24" width="1024" height="110" rx="24" fill="#111c2b" stroke="#73d7ef" stroke-width="4"/>
+<text x="55" y="66" fill="#ccecff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 11</text>
+<text x="55" y="107" fill="white" font-size="33" font-weight="900">빙하가 보낸 두 번째 신호</text>
+
+<!-- PANEL 1: polar glacier monitoring -->
+<rect class="p" x="28" y="154" width="1024" height="405" rx="24" fill="url(#ice)"/>
+<path d="M28 490L170 330l120 95 120-175 135 160 145-210 160 175 172-120v304H28z" fill="#dff7fb" stroke="#2c5870" stroke-width="7"/>
+<path d="M436 258l-36 110 68-17-20 126 89-160-61 22 27-81z" fill="#5bb9d8" stroke="#24536d" stroke-width="5"/>
+<rect class="n" x="55" y="178" width="925" height="94" rx="18"/>
+<text class="ko" x="78" y="210">화산 경보망이 연결된 지 사흘 뒤, 북쪽 빙하 센서가 비정상 수압을 감지한다.</text>
+<text class="zh" x="78" y="239">火山预警网络接通三天后，北方冰川传感器检测到异常水压。</text>
+<text class="en" x="78" y="262">THREE DAYS LATER, GLACIER SENSORS DETECT ABNORMAL WATER PRESSURE.</text>
+<!-- field scientist -->
+<ellipse class="skin" cx="760" cy="380" rx="40" ry="46"/><path class="hair" d="M720 368q12-58 74-28q17 9 10 40q-38-21-76-6z"/>
+<path class="parka" d="M690 444q70-65 140 0v95H690z"/><path d="M706 440q54-55 108 0" fill="none" stroke="#f6c0a8" stroke-width="14"/>
+<rect x="850" y="370" width="115" height="90" rx="10" fill="#172b3d" stroke="#9fe8ff" stroke-width="4"/><path d="M868 423h18l9-22 13 44 13-35 12 16 16-34" fill="none" stroke="#ff7c78" stroke-width="5"/>
+<rect class="b" x="560" y="285" width="425" height="84" rx="18"/>
+<text class="ko" x="584" y="317">이건 단순한 해빙이 아니에요. 안쪽에서 물이 밀고 있어요.</text>
+<text class="zh" x="584" y="346">这不只是融冰，水正在从内部顶出来。</text>
+<text class="fx" x="670" y="525">CRACK! BEEP!</text>
+
+<!-- PANEL 2: real field inspection -->
+<rect class="p" x="28" y="580" width="1024" height="405" rx="24" fill="#8fc6d7"/>
+<path d="M28 810q180-90 330 0t330 0t364 0v175H28z" fill="#315f77"/>
+<path d="M40 730L230 620l135 125 160-130 160 155 160-135 207 135v215H40z" fill="#d4eef2" stroke="#2d5a70" stroke-width="6"/>
+<!-- rope bridge and team -->
+<path d="M100 850Q520 720 960 850" fill="none" stroke="#5e4b38" stroke-width="12"/><path d="M100 885Q520 755 960 885" fill="none" stroke="#5e4b38" stroke-width="12"/>
+<g transform="translate(300 720)"><ellipse class="skin" cx="0" cy="0" rx="31" ry="37"/><path class="parka" d="M-52 52q52-48 104 0v103H-52z"/><path d="M-18 146l-20 75m56-75l20 75" stroke="#263442" stroke-width="18"/></g>
+<g transform="translate(510 680)"><ellipse class="skin" cx="0" cy="0" rx="31" ry="37"/><path class="navy" d="M-52 52q52-48 104 0v103H-52z"/><path d="M-18 146l-20 75m56-75l20 75" stroke="#263442" stroke-width="18"/></g>
+<g transform="translate(720 735)"><ellipse class="skin" cx="0" cy="0" rx="31" ry="37"/><path class="parka" d="M-52 52q52-48 104 0v103H-52z"/><path d="M-18 146l-20 75m56-75l20 75" stroke="#263442" stroke-width="18"/></g>
+<rect class="b" x="70" y="600" width="620" height="106" rx="18"/>
+<text class="ko" x="94" y="633">드론만 보내지 않는다. 현장팀이 균열과 빙하호 수위를 직접 확인한다.</text>
+<text class="zh" x="94" y="663">不只派无人机，现场队直接确认裂缝和冰湖水位。</text>
+<text class="en" x="94" y="690">FIELD TEAMS VERIFY THE CRACKS AND GLACIAL-LAKE LEVELS IN PERSON.</text>
+<text class="fx" x="675" y="945">STEP! SNAP!</text>
+
+<!-- PANEL 3: command room combines datasets -->
+<rect class="p" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#night)"/>
+<rect class="screen" x="70" y="1045" width="580" height="245" rx="16"/>
+<text x="95" y="1080" fill="#c8f3ff" font-size="20" font-weight="900">EARTH SURVIVAL GRID · FUSION VIEW</text>
+<circle cx="180" cy="1165" r="58" fill="#8a443d"/><path d="M145 1165h70m-35-35v70" stroke="#ffd27a" stroke-width="8"/>
+<path d="M300 1230l55-145 60 145z" fill="#d5f5fa" stroke="#73d7ef" stroke-width="5"/>
+<path d="M470 1230q60-95 120 0" fill="none" stroke="#73b7e6" stroke-width="15"/>
+<path d="M230 1165h70m115 0h55" stroke="#91ffc0" stroke-width="6" stroke-dasharray="12 10"/>
+<text x="120" y="1270" fill="#91ffc0" font-size="17">VOLCANO + GLACIER + SEA LEVEL = LINKED</text>
+<!-- analysts -->
+<ellipse class="skin" cx="780" cy="1135" rx="38" ry="45"/><path class="hair" d="M742 1120q12-56 69-29q17 8 10 39q-36-20-71-6z"/><path class="coat" d="M715 1198q65-58 130 0v168H715z"/>
+<ellipse class="skin" cx="918" cy="1150" rx="38" ry="45"/><path class="hair" d="M880 1135q12-56 69-29q17 8 10 39q-36-20-71-6z"/><path class="navy" d="M853 1213q65-58 130 0v153H853z"/>
+<rect class="b" x="630" y="1028" width="370" height="104" rx="18"/>
+<text class="ko" x="654" y="1062">세 신호가 겹치면 즉시 경보 단계 상향.</text>
+<text class="zh" x="654" y="1092">三种信号重叠时立即升级预警。</text>
+<text class="en" x="654" y="1118">THREE SIGNALS ALIGN: ESCALATE.</text>
+<text class="fx" x="720" y="1382">LINK! LINK! ALERT!</text>
+
+<!-- PANEL 4: public warning and safe relocation -->
+<rect class="p" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#coast)"/>
+<path d="M28 1700q160-70 320 0t320 0t384 0v190H28z" fill="#2b6079"/>
+<path d="M75 1660h170v-145h145v145h130v-190h175v190h115v-120h165v210H75z" fill="#596d78" stroke="#24343e" stroke-width="6"/>
+<!-- evacuation family and medic -->
+<ellipse class="skin" cx="200" cy="1640" rx="32" ry="39"/><path class="hair" d="M168 1627q11-49 52-25q17 8 12 34q-30-17-58-5z"/><path d="M150 1691q50-45 100 0v145H150z" fill="#6987b7" stroke="#17202b" stroke-width="4"/>
+<ellipse class="skin" cx="315" cy="1685" rx="25" ry="31"/><path d="M280 1725q35-34 70 0v111H280z" fill="#efb65d" stroke="#17202b" stroke-width="4"/>
+<ellipse class="skin" cx="465" cy="1645" rx="32" ry="39"/><path class="coat" d="M412 1698q53-48 106 0v138H412z"/><path d="M465 1710v86m-40-43h80" stroke="#d85b5b" stroke-width="9"/>
+<rect class="b" x="535" y="1470" width="475" height="120" rx="18"/>
+<text class="ko" x="558" y="1504">경보는 공포를 만드는 게 아니라, 움직일 시간을 주는 거야.</text>
+<text class="zh" x="558" y="1534">预警不是制造恐惧，而是争取行动时间。</text>
+<text class="en" x="558" y="1562">A WARNING IS TIME TO MOVE, NOT A REASON TO PANIC.</text>
+<rect class="n" x="545" y="1610" width="450" height="150" rx="18"/>
+<text class="ko" x="570" y="1648">주민에게 위험도·대피로·근거 데이터를 동시에 공개한다.</text>
+<text class="zh" x="570" y="1680">同时公开风险等级、撤离路线与依据数据。</text>
+<text class="en" x="570" y="1710">PUBLISH RISK, ROUTES AND EVIDENCE TOGETHER.</text>
+<text class="ko" x="570" y="1744">다음 단계: 72시간 통합 대응훈련.</text>
+<text class="fx" x="610" y="1845">WEE-OO! MOVE!</text>
+</svg>
