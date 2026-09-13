@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 138 ballast water biosecurity">
+<defs>
+ <linearGradient id="night" x2="0" y2="1"><stop stop-color="#10213d"/><stop offset=".55" stop-color="#335c78"/><stop offset="1" stop-color="#e7a96f"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#1488a8"/><stop offset="1" stop-color="#063247"/></linearGradient>
+ <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#dfe9ee"/><stop offset="1" stop-color="#91a9b5"/></linearGradient>
+ <linearGradient id="tank" x2="0" y2="1"><stop stop-color="#17485a"/><stop offset="1" stop-color="#0a2735"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".48"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#061017"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#113248"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #138  보이지 않는 승객도 항구에 들이지 마라</text>
+<text x="865" y="49" fill="#c9f6ff" font-family="Arial" font-size="18" font-weight="800">B-41 BALLAST BIOSECURITY · 压载水生物安全</text>
+
+<!-- PANEL 1: ballast sample at port gate -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#night)"/>
+ <rect x="16" y="292" width="746" height="220" fill="url(#sea)"/>
+ <path d="M65 363q238-78 492-14l-49 102H122z" fill="#293f4b" stroke="#0b2029" stroke-width="7"/>
+ <rect x="157" y="281" width="303" height="67" rx="13" fill="#edf3f5" stroke="#24333b" stroke-width="6"/>
+ <text x="309" y="323" text-anchor="middle" font-family="Arial" font-size="20" font-weight="900" fill="#24333b">OCEAN CARRIER 21</text>
+ <path d="M525 218v172" stroke="#eef9ff" stroke-width="7"/><path d="M525 221l115 41-115 29z" fill="#e85050"/>
+ <!-- female scientist -->
+ <g transform="translate(536 355)" filter="url(#shadow)">
+  <ellipse cx="44" cy="-51" rx="35" ry="41" fill="#e8ad85" stroke="#14242c" stroke-width="5"/>
+  <path d="M10-56q10-35 39-38q33 8 31 43l-16-13q-18 12-54 8z" fill="#2a2a33"/>
+  <circle cx="32" cy="-50" r="4"/><circle cx="56" cy="-50" r="4"/><path d="M33-31q11 7 23 0" stroke="#864d3a" stroke-width="3" fill="none"/>
+  <rect x="0" y="-7" width="91" height="111" rx="19" fill="#eef7f9" stroke="#14242c" stroke-width="5"/>
+  <path d="M17 18l-73-25" stroke="#eef7f9" stroke-width="19" stroke-linecap="round"/>
+  <rect x="-150" y="-44" width="99" height="79" rx="10" fill="#0d3548" stroke="#72e9f1" stroke-width="4"/>
+  <rect x="-135" y="-28" width="70" height="22" rx="5" fill="#173f52"/><circle cx="-124" cy="3" r="8" fill="#77efaf"/><path d="M-106-18h30M-106 2h38" stroke="#9ceff7" stroke-width="5"/>
+ </g>
+ <!-- sample bottle and microscopic organisms -->
+ <g transform="translate(115 394)"><rect width="118" height="74" rx="12" fill="#dffcff" stroke="#193846" stroke-width="5"/><rect x="40" y="-21" width="38" height="26" rx="6" fill="#eef7f8" stroke="#193846" stroke-width="4"/><path d="M12 38q49-18 94 1v27H12z" fill="#44bfd1" opacity=".8"/><circle cx="35" cy="43" r="7" fill="#b8f575"/><circle cx="61" cy="52" r="5" fill="#ffd76f"/><path d="M80 36q12 11 0 22q-12-11 0-22z" fill="#ff8d79"/></g>
+ <rect x="38" y="103" width="491" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="283" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="283">선체 검사가 끝나도 안심할 수 없다. FTF팀은 배 밑 탱크의 물을 먼저 채취한다.</tspan><tspan x="283" dy="24" font-size="14">船体检查结束后仍不能放松，FTF团队先采集压载舱水样。</tspan><tspan x="283" dy="22" font-size="13">Hull clearance is not enough. The FTF team samples ballast water before discharge.</tspan></text>
+ <rect x="548" y="103" width="188" height="94" rx="22" fill="#fff1b5" stroke="#111" stroke-width="4"/>
+ <text x="642" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">물속 승객도 확인!</tspan><tspan x="642" dy="21" font-size="13">水里的乘客也要查！</tspan><tspan x="642" dy="19" font-size="12">Check hidden passengers!</tspan></text>
+ <text x="42" y="486" fill="#fff" stroke="#0b5871" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">SAMPLE!  SCAN!  DETECT!</text>
+</g>
+
+<!-- PANEL 2: lab detects live invasive organisms -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#lab)"/>
+ <rect x="805" y="251" width="680" height="226" rx="15" fill="#c8d6dc" stroke="#5c737e" stroke-width="4"/>
+ <!-- male lab specialist -->
+ <g transform="translate(900 352)" filter="url(#shadow)">
+  <ellipse cx="45" cy="-48" rx="34" ry="40" fill="#d7a079" stroke="#18252b" stroke-width="5"/>
+  <path d="M12-55q8-32 34-36q30 5 31 37l-15-12q-21 10-50 11z" fill="#202b31"/>
+  <circle cx="34" cy="-47" r="4"/><circle cx="57" cy="-47" r="4"/><path d="M34-29q10 5 22 0" stroke="#774433" stroke-width="3" fill="none"/>
+  <rect x="0" y="-7" width="92" height="111" rx="18" fill="#f7fafb" stroke="#18252b" stroke-width="5"/>
+  <path d="M79 18l76 31" stroke="#f7fafb" stroke-width="19" stroke-linecap="round"/>
+ </g>
+ <!-- microscope -->
+ <g transform="translate(1090 315)" filter="url(#shadow)"><path d="M35 0h45l-9 74q38 20 37 76H45q2-42 34-58l-9-40H35z" fill="#2b4653" stroke="#152730" stroke-width="6"/><rect x="16" y="145" width="128" height="24" rx="8" fill="#17313c"/><circle cx="91" cy="67" r="15" fill="#75edf3"/></g>
+ <!-- live organism monitor -->
+ <g transform="translate(1270 264)" filter="url(#shadow)"><rect width="205" height="166" rx="16" fill="#0d3040" stroke="#6ee5ec" stroke-width="5"/><text x="103" y="27" text-anchor="middle" fill="#d9fbff" font-family="Arial" font-size="13" font-weight="900">LIVE CELL ANALYSIS</text><circle cx="70" cy="81" r="18" fill="#b9f56d"/><path d="M62 74q14-18 29 0q-10 22-29 0z" fill="#ff967e"/><path d="M122 65q22 18 2 39q-23-13-2-39z" fill="#77d9ff"/><text x="103" y="139" text-anchor="middle" fill="#ffca75" font-family="Arial" font-size="17" font-weight="900">LIVE ORGANISMS: FOUND</text></g>
+ <rect x="796" y="103" width="494" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1043" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1043">현미경 화면에 다른 해역에서 따라온 살아 있는 플랑크톤과 유생이 나타난다.</tspan><tspan x="1043" dy="24" font-size="14">显微镜中出现了从外海随船而来的活体浮游生物和幼体。</tspan><tspan x="1043" dy="22" font-size="13">The microscope reveals live plankton and larvae carried from another sea.</tspan></text>
+ <rect x="1307" y="103" width="188" height="94" rx="22" fill="#ffe1d7" stroke="#111" stroke-width="4"/>
+ <text x="1401" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1401">살아 있다. 방류 금지!</tspan><tspan x="1401" dy="21" font-size="13">还活着，禁止排放！</tspan><tspan x="1401" dy="19" font-size="12">Alive. No discharge!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#5d7381" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">ZOOM!  COUNT!  ALERT!</text>
+</g>
+
+<!-- PANEL 3: onboard closed-loop ballast treatment -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="12" fill="#29444f"/>
+ <rect x="28" y="678" width="722" height="315" rx="16" fill="#18323e" stroke="#587482" stroke-width="4"/>
+ <g transform="translate(56 703)" filter="url(#shadow)">
+  <rect width="230" height="212" rx="18" fill="url(#tank)" stroke="#74e7ee" stroke-width="5"/><text x="115" y="31" text-anchor="middle" fill="#d8fbff" font-family="Arial" font-size="14" font-weight="900">BALLAST TREATMENT</text>
+  <path d="M30 78h170" stroke="#62cedd" stroke-width="16"/><circle cx="63" cy="78" r="22" fill="#194e60" stroke="#9af5fa" stroke-width="5"/><circle cx="117" cy="78" r="22" fill="#194e60" stroke="#9af5fa" stroke-width="5"/><circle cx="171" cy="78" r="22" fill="#194e60" stroke="#9af5fa" stroke-width="5"/>
+  <text x="115" y="130" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14" font-weight="800">FILTER → UV → VERIFY</text><rect x="35" y="151" width="160" height="34" rx="8" fill="#0e2732"/><text x="115" y="174" text-anchor="middle" fill="#7df1b4" font-family="Arial" font-size="17" font-weight="900">CLOSED LOOP</text>
+ </g>
+ <!-- engineer -->
+ <g transform="translate(376 761)" filter="url(#shadow)"><ellipse cx="44" cy="-48" rx="34" ry="40" fill="#edb088" stroke="#15242c" stroke-width="5"/><path d="M10-54q9-31 34-36q29 4 33 35l-17-11q-20 11-50 12z" fill="#49382d"/><circle cx="33" cy="-47" r="4"/><circle cx="56" cy="-47" r="4"/><rect y="-7" width="89" height="110" rx="18" fill="#f0b52f" stroke="#15242c" stroke-width="5"/><path d="M72 14l93-30" stroke="#f0b52f" stroke-width="19" stroke-linecap="round"/><rect x="151" y="-56" width="138" height="99" rx="12" fill="#0e3444" stroke="#7ae9f0" stroke-width="5"/><text x="220" y="-29" text-anchor="middle" fill="#d6fbff" font-family="Arial" font-size="12" font-weight="900">TREATMENT STATUS</text><text x="220" y="2" text-anchor="middle" fill="#7cf0b4" font-family="Arial" font-size="20" font-weight="900">PASS</text><text x="220" y="27" text-anchor="middle" fill="#ffd477" font-family="Arial" font-size="12">LIVE CELLS &lt; LIMIT</text></g>
+ <path d="M285 807h87" stroke="#69dce7" stroke-width="14"/><path d="M363 807l-22-15v30z" fill="#b5f9ff"/>
+ <rect x="38" y="543" width="493" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="284" y="572" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="284">배출 밸브를 잠근 채 여과와 UV 처리를 돌리고, 살아 있는 세포가 남았는지 다시 확인한다.</tspan><tspan x="284" dy="24" font-size="14">关闭排放阀后进行过滤和紫外处理，并再次确认活体细胞是否残留。</tspan><tspan x="284" dy="22" font-size="13">With the discharge valve locked, filtration and UV treatment run before a live-cell recheck.</tspan></text>
+ <rect x="548" y="543" width="188" height="94" rx="22" fill="#dcfbff" stroke="#111" stroke-width="4"/>
+ <text x="642" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">검증 전엔 열지 마!</tspan><tspan x="642" dy="21" font-size="13">验证前不能开阀！</tspan><tspan x="642" dy="19" font-size="12">No valve before proof!</tspan></text>
+ <text x="42" y="979" fill="#fff" stroke="#0b6177" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">FILTER!  UV!  VERIFY!</text>
+</g>
+
+<!-- PANEL 4: safe discharge and harbor life -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="12" fill="#dce9ed"/>
+ <rect x="790" y="783" width="714" height="207" rx="15" fill="url(#sea)"/>
+ <!-- dashboard -->
+ <g transform="translate(817 653)" filter="url(#shadow)"><rect width="385" height="168" rx="18" fill="#0d3444" stroke="#73e8ef" stroke-width="5"/><text x="193" y="31" text-anchor="middle" fill="#dcfbff" font-family="Arial" font-size="15" font-weight="900">BALLAST RELEASE CLEARANCE</text><text x="25" y="68" fill="#fff" font-family="Arial" font-size="15" font-weight="800">Live organism reduction</text><text x="360" y="68" text-anchor="end" fill="#7cf1b4" font-family="Arial" font-size="19" font-weight="900">−99.2%</text><text x="25" y="101" fill="#fff" font-family="Arial" font-size="15" font-weight="800">Foreign larvae detected</text><text x="360" y="101" text-anchor="end" fill="#7cf1b4" font-family="Arial" font-size="19" font-weight="900">0</text><text x="25" y="134" fill="#fff" font-family="Arial" font-size="15" font-weight="800">Harbor discharge status</text><text x="360" y="134" text-anchor="end" fill="#ffd470" font-family="Arial" font-size="18" font-weight="900">CLEARED</text></g>
+ <!-- port officer -->
+ <g transform="translate(1278 711)" filter="url(#shadow)"><ellipse cx="44" cy="-48" rx="34" ry="40" fill="#dda77e" stroke="#15242c" stroke-width="5"/><path d="M11-54q9-31 34-36q28 5 31 34l-15-10q-20 10-50 12z" fill="#202e35"/><circle cx="33" cy="-47" r="4"/><circle cx="56" cy="-47" r="4"/><path d="M34-29q10 6 21 0" stroke="#784535" stroke-width="3" fill="none"/><rect y="-7" width="90" height="109" rx="18" fill="#edf4f6" stroke="#15242c" stroke-width="5"/><path d="M13 19l-78 18" stroke="#edf4f6" stroke-width="19" stroke-linecap="round"/><rect x="-160" y="-13" width="101" height="74" rx="11" fill="#12425a" stroke="#7be8ef" stroke-width="4"/><text x="-109" y="17" text-anchor="middle" fill="#dffcff" font-family="Arial" font-size="12" font-weight="900">PORT GATE</text><text x="-109" y="44" text-anchor="middle" fill="#78f0b2" font-family="Arial" font-size="17" font-weight="900">CLEAR</text></g>
+ <!-- harbor ecology -->
+ <path d="M823 921q41-25 82 0q-41 30-82 0z" fill="#ffc86a"/><circle cx="894" cy="915" r="4" fill="#111"/><path d="M991 881q44-27 88 0q-44 31-88 0z" fill="#8de3ff"/><circle cx="1067" cy="875" r="4" fill="#111"/><path d="M1135 944q39-23 78 0q-39 27-78 0z" fill="#9de27f"/><circle cx="1201" cy="939" r="4" fill="#111"/><path d="M1331 950q-20-67 0-116q25 49 4 116M1360 954q-13-58 16-104q16 54-9 104M1397 950q3-58 39-94q1 55-30 99" stroke="#4f9f6e" stroke-width="12" fill="none"/>
+ <rect x="796" y="543" width="494" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1043" y="572" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1043">처리 검증을 통과한 뒤에만 방류가 허용된다. 항구의 토종 생태계는 그대로 지켜진다.</tspan><tspan x="1043" dy="24" font-size="14">只有处理验证合格后才允许排放，港湾本地生态得到保护。</tspan><tspan x="1043" dy="22" font-size="13">Discharge is cleared only after verification, protecting the harbor's native ecosystem.</tspan></text>
+ <rect x="1307" y="543" width="188" height="94" rx="22" fill="#e3ffe8" stroke="#111" stroke-width="4"/>
+ <text x="1401" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1401">이제 열어도 됩니다.</tspan><tspan x="1401" dy="21" font-size="13">现在可以排放。</tspan><tspan x="1401" dy="19" font-size="12">Release cleared.</tspan></text>
+ <text x="804" y="979" fill="#fff" stroke="#07566e" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">PASS!  RELEASE!  PROTECT!</text>
+ <text x="1152" y="848" fill="#d8fbff" font-family="Arial" font-size="16" font-weight="900">NATIVE HARBOR LIFE SAFE</text>
+</g>
+</svg>
