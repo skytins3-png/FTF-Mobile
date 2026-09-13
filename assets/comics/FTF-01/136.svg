@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9fd5e8"/><stop offset="1" stop-color="#f7d6a1"/></linearGradient>
+  <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#39bfd2"/><stop offset="1" stop-color="#063e63"/></linearGradient>
+  <linearGradient id="dock" x2="0" y2="1"><stop stop-color="#5e727d"/><stop offset="1" stop-color="#202d34"/></linearGradient>
+  <linearGradient id="lab" x2="0" y2="1"><stop stop-color="#edf8fb"/><stop offset="1" stop-color="#a6c0ca"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".38"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#06131b"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#123748"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #136  붙기 전에 관리하라</text>
+<text x="895" y="49" fill="#c8fbff" font-family="Arial" font-size="18" font-weight="800">B-39 PROACTIVE HULL GROOMING · 船体早期生物附着管理</text>
+
+<!-- PANEL 1: inspection after low-release coating -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#sky)"/>
+ <path d="M16 278h746v234H16z" fill="url(#sea)"/>
+ <path d="M98 319q221-104 470-3l-47 101H154z" fill="#246f78" stroke="#123e45" stroke-width="7"/>
+ <rect x="183" y="241" width="286" height="66" rx="14" fill="#f1f6f7" stroke="#29424b" stroke-width="6"/>
+ <text x="326" y="282" text-anchor="middle" fill="#18323b" font-family="Arial" font-size="21" font-weight="900">FTF HARBOR SERVICE 07</text>
+ <g opacity=".96"><circle cx="181" cy="407" r="8" fill="#704f37"/><circle cx="219" cy="390" r="7" fill="#5f8d51"/><circle cx="267" cy="420" r="9" fill="#77513a"/><circle cx="308" cy="398" r="6" fill="#5f8d51"/><circle cx="351" cy="427" r="8" fill="#6e533c"/></g>
+ <g transform="translate(545 338)" filter="url(#shadow)"><ellipse cx="42" cy="-47" rx="33" ry="39" fill="#efb58d" stroke="#12212a" stroke-width="5"/><path d="M12-50q8-28 31-33q26 5 30 33z" fill="#30393d"/><rect x="0" y="-10" width="87" height="106" rx="17" fill="#f1f8fa" stroke="#12212a" stroke-width="5"/><path d="M12 12l-73-34" stroke="#f1f8fa" stroke-width="19" stroke-linecap="round"/><rect x="-143" y="-50" width="92" height="72" rx="9" fill="#103b4a" stroke="#7de9ee" stroke-width="4"/><path d="M-130-28h63M-130-8h43" stroke="#7ff0b6" stroke-width="6"/></g>
+ <g transform="translate(439 422)"><rect width="271" height="64" rx="12" fill="#102f3d" stroke="#78e4ec" stroke-width="4"/><text x="18" y="26" fill="#d8fbff" font-family="Arial" font-size="13" font-weight="900">48-HOUR HULL SCAN</text><text x="18" y="51" fill="#f6d078" font-family="Arial" font-size="19" font-weight="900">EARLY BIOFILM DETECTED</text></g>
+ <rect x="38" y="103" width="491" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="283" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="283">새 도료가 좋아도 얇은 생물막은 다시 시작된다. 두껍게 붙기 전에 찾아낸다.</tspan><tspan x="283" dy="24" font-size="14">即使换了低脱落涂层，薄薄的生物膜仍会重新出现，要在变厚前发现。</tspan><tspan x="283" dy="22" font-size="13">Even with clean coating, a thin biofilm returns. Detect it before heavy fouling begins.</tspan></text>
+ <rect x="548" y="103" width="188" height="94" rx="22" fill="#fff1bd" stroke="#111" stroke-width="4"/>
+ <text x="642" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">초기에 잡아!</tspan><tspan x="642" dy="21" font-size="13">趁早发现！</tspan><tspan x="642" dy="19" font-size="12">Catch it early!</tspan></text>
+ <text x="42" y="486" fill="#fff" stroke="#0f657b" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">SCAN!  FIND!  ACT!</text>
+</g>
+
+<!-- PANEL 2: underwater grooming robot -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#sea)"/>
+ <path d="M806 182q256-93 590 0l-45 139H850z" fill="#27757e" stroke="#113c43" stroke-width="7"/>
+ <path d="M827 188q250-61 548 1" fill="none" stroke="#d8efe7" stroke-width="16"/>
+ <g opacity=".7" fill="#8d7655"><circle cx="887" cy="278" r="8"/><circle cx="930" cy="291" r="6"/><circle cx="980" cy="269" r="7"/><circle cx="1028" cy="302" r="9"/></g>
+ <g transform="translate(1039 350)" filter="url(#shadow)"><rect x="0" y="0" width="170" height="92" rx="19" fill="#f0a52f" stroke="#2f321c" stroke-width="6"/><circle cx="28" cy="78" r="29" fill="#26363c" stroke="#9ceaf0" stroke-width="8"/><circle cx="142" cy="78" r="29" fill="#26363c" stroke="#9ceaf0" stroke-width="8"/><rect x="42" y="17" width="87" height="34" rx="9" fill="#15333e" stroke="#a6f1f4" stroke-width="4"/><circle cx="62" cy="34" r="8" fill="#7ff0b6"/><circle cx="108" cy="34" r="8" fill="#7ff0b6"/><path d="M14 90q69 33 142 0" fill="none" stroke="#c8f7fb" stroke-width="9"/><text x="85" y="-15" text-anchor="middle" fill="#fff" font-family="Arial" font-size="15" font-weight="900">SOFT GROOM BOT</text></g>
+ <path d="M1152 441q96 16 175-13" fill="none" stroke="#e6f8f9" stroke-width="7" stroke-dasharray="13 11"/>
+ <g fill="#d7f4ff" stroke="#155e79" stroke-width="4"><path d="M1330 362q35-23 66 0q-34 26-66 0z"/><path d="M1375 421q31-20 59 0q-30 23-59 0z"/><path d="M1271 458q29-19 55 0q-28 21-55 0z"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1442" cy="315" rx="34" ry="40" fill="#e8ad83" stroke="#12212a" stroke-width="5"/><path d="M1411 307q8-29 32-34q27 5 31 34z" fill="#342f2b"/><path d="M1404 379q39-24 78 0l25 91h-128z" fill="#1e7f8d" stroke="#12212a" stroke-width="5"/></g>
+ <rect x="795" y="103" width="495" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1042" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1042">잠수 없이 부드러운 브러시 로봇이 얇은 생물막만 걷어내고 도막은 손상시키지 않는다.</tspan><tspan x="1042" dy="24" font-size="14">软刷机器人无需潜水作业，只清除早期生物膜，不损伤船体涂层。</tspan><tspan x="1042" dy="22" font-size="13">A soft grooming robot removes early biofilm without damaging the clean hull coating.</tspan></text>
+ <rect x="1308" y="103" width="187" height="94" rx="22" fill="#dbffe8" stroke="#111" stroke-width="4"/>
+ <text x="1401" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1401">독성 없이 깨끗하게!</tspan><tspan x="1401" dy="21" font-size="13">无毒保持清洁！</tspan><tspan x="1401" dy="19" font-size="12">Clean without toxins!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#125c6e" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">WHIRR!  BRUSH!  RELEASE!</text>
+</g>
+
+<!-- PANEL 3: captured debris filtered instead of released -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#dock)"/>
+ <rect x="16" y="799" width="746" height="207" fill="url(#sea)"/>
+ <g transform="translate(93 650)" filter="url(#shadow)"><rect width="312" height="165" rx="18" fill="#143845" stroke="#7be2ea" stroke-width="6"/><text x="156" y="32" text-anchor="middle" fill="#d8fbff" font-family="Arial" font-size="15" font-weight="900">GROOMING RECOVERY UNIT</text><rect x="28" y="55" width="89" height="76" rx="10" fill="#243f48" stroke="#9aeaf0" stroke-width="4"/><path d="M39 76h67M39 96h67M39 116h67" stroke="#7ff0b6" stroke-width="6"/><path d="M146 73h132" stroke="#66d7e4" stroke-width="14"/><path d="M146 111h132" stroke="#a5edf1" stroke-width="10"/><text x="211" y="151" text-anchor="middle" fill="#f5d477" font-family="Arial" font-size="17" font-weight="900">SOLIDS CAPTURE 94%</text></g>
+ <path d="M406 725q89-92 205-51" fill="none" stroke="#5fd7e4" stroke-width="16"/>
+ <path d="M599 674l-36-23M599 674l-16 39" stroke="#d6fbff" stroke-width="9"/>
+ <g transform="translate(546 690)" filter="url(#shadow)"><ellipse cx="45" cy="-51" rx="34" ry="40" fill="#efb58d" stroke="#12212a" stroke-width="5"/><path d="M14-54q8-29 32-34q27 5 31 34z" fill="#343b3e"/><rect x="0" y="-14" width="91" height="113" rx="18" fill="#f0a52f" stroke="#12212a" stroke-width="5"/><path d="M72 9l71-31" stroke="#f0a52f" stroke-width="20" stroke-linecap="round"/></g>
+ <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M141 907q38-24 70 0q-36 28-70 0z"/><path d="M267 946q34-22 64 0q-33 25-64 0z"/><path d="M392 894q32-20 60 0q-30 23-60 0z"/></g>
+ <rect x="38" y="543" width="492" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="284" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="284">닦아낸 생물 조각은 그대로 바다에 버리지 않고 회수 필터로 모아 육상 처리한다.</tspan><tspan x="284" dy="24" font-size="14">清除下来的生物碎屑不直接排入海里，而是过滤回收后送上岸处理。</tspan><tspan x="284" dy="22" font-size="13">Removed biofouling is captured by filters and taken ashore instead of released at sea.</tspan></text>
+ <rect x="548" y="543" width="188" height="94" rx="22" fill="#dffcff" stroke="#111" stroke-width="4"/>
+ <text x="642" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">닦은 것도 회수해!</tspan><tspan x="642" dy="21" font-size="13">清下来的也要回收！</tspan><tspan x="642" dy="19" font-size="12">Capture what you clean!</tspan></text>
+ <text x="42" y="979" fill="#fff" stroke="#0c6179" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">VAC!  FILTER!  CONTAIN!</text>
+</g>
+
+<!-- PANEL 4: data verification and restored harbor -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#lab)"/>
+ <rect x="790" y="792" width="714" height="198" rx="18" fill="url(#sea)"/>
+ <g transform="translate(815 660)"><rect width="343" height="170" rx="16" fill="#102f3d" stroke="#77e3eb" stroke-width="5"/><text x="171" y="31" text-anchor="middle" fill="#d8fbff" font-family="Arial" font-size="15" font-weight="900">8-WEEK GROOMING RESULT</text><text x="24" y="69" fill="#7ff0b6" font-family="Arial" font-size="21" font-weight="900">HEAVY FOULING   −81%</text><text x="24" y="101" fill="#7ff0b6" font-family="Arial" font-size="21" font-weight="900">FUEL USE        −6%</text><text x="24" y="133" fill="#7ff0b6" font-family="Arial" font-size="21" font-weight="900">BIOCIDE RELEASE  0</text><text x="24" y="157" fill="#f5d477" font-family="Arial" font-size="14" font-weight="900">COATING DAMAGE: NONE</text></g>
+ <g filter="url(#shadow)"><ellipse cx="1263" cy="688" rx="36" ry="42" fill="#efb58d" stroke="#12212a" stroke-width="5"/><path d="M1230 680q9-31 34-36q29 5 33 36z" fill="#30383d"/><path d="M1223 754q41-25 82 0l27 94h-136z" fill="#f4fafb" stroke="#12212a" stroke-width="5"/><path d="M1218 770q-54 3-104 26" stroke="#f4fafb" stroke-width="21" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1402" cy="703" rx="34" ry="40" fill="#dfa47b" stroke="#12212a" stroke-width="5"/><path d="M1371 696q8-29 32-34q27 5 31 34z" fill="#50382e"/><path d="M1364 768q39-24 78 0l25 85h-128z" fill="#1f7f8d" stroke="#12212a" stroke-width="5"/></g>
+ <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M850 918q40-26 74 0q-38 29-74 0z"/><path d="M974 951q36-23 67 0q-34 26-67 0z"/><path d="M1111 904q34-22 63 0q-32 25-63 0z"/><path d="M1294 938q31-20 58 0q-29 23-58 0z"/></g>
+ <path d="M1180 924q28-55 57 0M1201 935q27-61 56 0" fill="none" stroke="#5bbf78" stroke-width="9"/>
+ <rect x="1174" y="552" width="318" height="91" rx="20" fill="#e5ffe6" stroke="#111" stroke-width="4"/>
+ <text x="1333" y="581" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="16" font-weight="900"><tspan x="1333">붙은 뒤 독하게 벗기는 대신,</tspan><tspan x="1333" dy="22">붙기 전에 부드럽게 관리한다.</tspan><tspan x="1333" dy="20" font-size="13">与其重度清除，不如提前轻柔维护。</tspan><tspan x="1333" dy="18" font-size="12">Prevent early, clean gently.</tspan></text>
+ <text x="808" y="971" fill="#fff" stroke="#0c6179" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="29" font-weight="900">VERIFY!  PREVENT!  PROTECT THE BAY!</text>
+</g>
+</svg>
