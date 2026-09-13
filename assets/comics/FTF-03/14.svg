@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="cold" x2="1" y2="1"><stop stop-color="#0d1c2b"/><stop offset="1" stop-color="#39596a"/></linearGradient>
+ <linearGradient id="store" x2="0" y2="1"><stop stop-color="#314253"/><stop offset="1" stop-color="#17222d"/></linearGradient>
+ <linearGradient id="green" x2="1" y2="1"><stop stop-color="#183a34"/><stop offset="1" stop-color="#5f8066"/></linearGradient>
+ <linearGradient id="sunrise" x2="0" y2="1"><stop stop-color="#172b45"/><stop offset=".55" stop-color="#7b96a7"/><stop offset="1" stop-color="#f3bd76"/></linearGradient>
+ <style>
+ .p{stroke:#050b12;stroke-width:16}.bubble{fill:#fff;stroke:#15212c;stroke-width:5}.note{fill:#f8efd8;stroke:#15212c;stroke-width:5}.ko{font:700 24px Arial,sans-serif;fill:#111827}.zh{font:600 19px Arial,sans-serif;fill:#28394d}.en{font:600 16px Arial,sans-serif;fill:#425267}.fx{font:900 italic 38px Impact,Arial,sans-serif;fill:#ffd85c;stroke:#101820;stroke-width:3;paint-order:stroke}.skin{fill:#efbd98;stroke:#17202b;stroke-width:4}.hair{fill:#17202b;stroke:#0c1117;stroke-width:4}.coat{fill:#edf2f5;stroke:#17202b;stroke-width:4}.navy{fill:#2d4964;stroke:#17202b;stroke-width:4}.vest{fill:#e86b4b;stroke:#17202b;stroke-width:4}.screen{fill:#0b2435;stroke:#71d7ed;stroke-width:4}.crate{fill:#9d754c;stroke:#402f20;stroke-width:5}.pipe{fill:none;stroke:#81d9f0;stroke-width:13}.lamp{fill:#ffd76a;stroke:#59431f;stroke-width:4}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#050a10"/>
+<rect x="28" y="24" width="1024" height="110" rx="24" fill="#101b29" stroke="#73d7ef" stroke-width="4"/>
+<text x="55" y="66" fill="#ccecff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 14</text>
+<text x="55" y="107" fill="white" font-size="33" font-weight="900">외부 보급 없이 버티는 14일</text>
+
+<!-- PANEL 1: gates close / isolation begins -->
+<rect class="p" x="28" y="154" width="1024" height="405" rx="24" fill="url(#cold)"/>
+<path d="M28 420h1024v139H28z" fill="#14212b"/>
+<rect class="screen" x="65" y="205" width="455" height="215" rx="17"/>
+<text x="92" y="245" fill="#d2f5ff" font-size="21" font-weight="900">ISOLATION SURVIVAL TEST</text>
+<text x="92" y="292" fill="#ffd85c" font-size="34" font-weight="900">DAY 1 / 14</text>
+<text x="92" y="338" fill="#ff938c" font-size="21" font-weight="800">EXTERNAL SUPPLY: 0</text>
+<text x="92" y="378" fill="#8ff1b6" font-size="20" font-weight="800">LOCAL SYSTEMS: ACTIVE</text>
+<path d="M580 445V220h380v225" fill="#263847" stroke="#111923" stroke-width="8"/>
+<path d="M600 245h340M600 300h340M600 355h340" stroke="#65798a" stroke-width="7"/>
+<path d="M770 218v227" stroke="#65798a" stroke-width="7"/>
+<circle cx="770" cy="333" r="45" fill="#192632" stroke="#ffd85c" stroke-width="6"/><path d="M748 332l18 18 34-43" fill="none" stroke="#8ff1b6" stroke-width="8"/>
+<ellipse class="skin" cx="655" cy="470" rx="34" ry="40"/><path class="hair" d="M623 457q10-50 60-25q15 7 9 34q-31-17-61-5z"/><path class="vest" d="M600 525q55-50 110 0v28H600z"/>
+<ellipse class="skin" cx="885" cy="470" rx="34" ry="40"/><path class="hair" d="M853 457q10-50 60-25q15 7 9 34q-31-17-61-5z"/><path class="navy" d="M830 525q55-50 110 0v28H830z"/>
+<rect class="bubble" x="535" y="170" width="480" height="132" rx="18"/>
+<text class="ko" x="560" y="207">문을 닫는다. 14일 동안 외부 보급은 없다.</text>
+<text class="zh" x="560" y="239">关闭外部补给。十四天内完全依靠本地系统。</text>
+<text class="en" x="560" y="270">GATES CLOSED. FOURTEEN DAYS ON LOCAL RESOURCES ONLY.</text>
+<text class="fx" x="590" y="535">CLANG! LOCK! DAY 1!</text>
+
+<!-- PANEL 2: ration room and water recycling -->
+<rect class="p" x="28" y="580" width="1024" height="405" rx="24" fill="url(#store)"/>
+<path d="M28 835h1024v150H28z" fill="#192731"/>
+<g><rect class="crate" x="75" y="725" width="160" height="110"/><rect class="crate" x="255" y="710" width="150" height="125"/><rect class="crate" x="83" y="855" width="150" height="92"/><rect class="crate" x="252" y="850" width="175" height="97"/></g>
+<text x="102" y="768" fill="#fff6d4" font-size="19" font-weight="900">GRAIN</text><text x="282" y="758" fill="#fff6d4" font-size="19" font-weight="900">MEDICAL</text>
+<path class="pipe" d="M515 905v-160h120v-85h150v80h170v165"/>
+<rect x="545" y="760" width="135" height="125" rx="18" fill="#dfeef2" stroke="#183040" stroke-width="5"/><path d="M570 820q42-52 84 0q-42 55-84 0z" fill="#69bee0"/><text x="558" y="865" font-size="17" font-weight="900" fill="#26465b">RECYCLE</text>
+<ellipse class="skin" cx="475" cy="760" rx="31" ry="37"/><path class="hair" d="M446 749q10-46 56-23q14 7 8 31q-28-15-56-4z"/><path class="coat" d="M423 814q52-47 104 0v125H423z"/>
+<ellipse class="skin" cx="870" cy="800" rx="31" ry="37"/><path class="hair" d="M841 789q10-46 56-23q14 7 8 31q-28-15-56-4z"/><path class="navy" d="M818 854q52-47 104 0v85H818z"/>
+<rect class="note" x="63" y="602" width="900" height="108" rx="18"/>
+<text class="ko" x="88" y="636">식량은 하루 단위로 배분하고, 물은 회수·정화·재사용한다.</text>
+<text class="zh" x="88" y="667">食物按日配给，水则回收、净化并循环使用。</text>
+<text class="en" x="88" y="697">FOOD IS RATIONED DAILY; WATER IS RECOVERED, CLEANED AND REUSED.</text>
+<text class="fx" x="600" y="952">COUNT! FILTER! SAVE!</text>
+
+<!-- PANEL 3: day 9 fatigue, greenhouse and clinic -->
+<rect class="p" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#green)"/>
+<path d="M28 1322h1024v88H28z" fill="#18302d"/>
+<path d="M68 1320V1120h420v200" fill="#bce0d3" fill-opacity=".22" stroke="#b8eee0" stroke-width="6"/>
+<path d="M110 1320v-80m70 80v-115m70 115v-95m70 95v-125m70 125v-75" stroke="#77c873" stroke-width="11"/>
+<g fill="#79c779" stroke="#285f39" stroke-width="3"><ellipse cx="110" cy="1240" rx="30" ry="16"/><ellipse cx="180" cy="1205" rx="31" ry="17"/><ellipse cx="250" cy="1225" rx="30" ry="16"/><ellipse cx="320" cy="1195" rx="32" ry="17"/><ellipse cx="390" cy="1245" rx="30" ry="16"/></g>
+<rect x="540" y="1135" width="460" height="185" rx="20" fill="#dfe7e4" stroke="#22363a" stroke-width="6"/>
+<path d="M750 1160v128m-64-64h128" stroke="#d85b5b" stroke-width="12"/>
+<ellipse class="skin" cx="590" cy="1290" rx="29" ry="35"/><path class="hair" d="M563 1280q9-43 52-21q13 6 8 29q-27-14-53-4z"/><path class="coat" d="M542 1340q48-43 96 0v52H542z"/>
+<ellipse class="skin" cx="910" cy="1285" rx="29" ry="35"/><path class="hair" d="M883 1275q9-43 52-21q13 6 8 29q-27-14-53-4z"/><path class="vest" d="M862 1335q48-43 96 0v57H862z"/>
+<rect class="bubble" x="520" y="1028" width="490" height="116" rx="18"/>
+<text class="ko" x="545" y="1062">9일째. 피로가 쌓여도 농장·의료·전력은 멈출 수 없다.</text>
+<text class="zh" x="545" y="1093">第九天。即使疲惫，农场、医疗和电力也不能停。</text>
+<text class="en" x="545" y="1121">DAY 9. TIRED OR NOT, FOOD, MEDICINE AND POWER MUST HOLD.</text>
+<rect class="note" x="78" y="1040" width="405" height="102" rx="17"/>
+<text class="ko" x="103" y="1074">교대 시간을 늘려. 사람부터 지켜야 해.</text>
+<text class="zh" x="103" y="1105">延长轮班休息。先保护人。</text>
+<text class="en" x="103" y="1133">LONGER REST ROTATIONS. PROTECT PEOPLE FIRST.</text>
+<text class="fx" x="610" y="1382">DAY 9 — HOLD THE LINE!</text>
+
+<!-- PANEL 4: day 14 success and next stress test -->
+<rect class="p" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#sunrise)"/>
+<circle cx="890" cy="1535" r="86" fill="#ffd18a" opacity=".88"/>
+<path d="M28 1750l140-105 130 78 115-145 145 128 125-100 128 112 118-83 123 115v140H28z" fill="#344f60" stroke="#1e303c" stroke-width="7"/>
+<rect class="screen" x="65" y="1490" width="500" height="250" rx="17"/>
+<text x="93" y="1530" fill="#d2f5ff" font-size="20" font-weight="900">14-DAY ISOLATION · FINAL</text>
+<text x="93" y="1578" fill="#8ff0b3" font-size="23" font-weight="900">WATER LOOP 97%</text>
+<text x="93" y="1620" fill="#8ff0b3" font-size="23" font-weight="900">POWER UPTIME 93%</text>
+<text x="93" y="1662" fill="#ffd85c" font-size="23" font-weight="900">FOOD RESERVE 21 DAYS</text>
+<text x="93" y="1704" fill="#ff9b8f" font-size="18" font-weight="800">NEXT: MULTI-CITY CASCADE FAILURE</text>
+<ellipse class="skin" cx="700" cy="1655" rx="38" ry="44"/><path class="hair" d="M664 1643q11-53 66-27q16 8 9 37q-34-19-67-6z"/><path class="coat" d="M637 1714q63-56 126 0v126H637z"/>
+<ellipse class="skin" cx="860" cy="1665" rx="37" ry="43"/><path class="hair" d="M825 1653q11-52 64-26q16 8 9 36q-33-18-65-6z"/><path class="navy" d="M798 1723q62-55 124 0v117H798z"/>
+<rect class="bubble" x="575" y="1455" width="430" height="132" rx="18"/>
+<text class="ko" x="600" y="1490">14일을 버텼다. 살아남은 건 장비가 아니라 시스템과 사람이다.</text>
+<text class="zh" x="600" y="1522">我们撑过了十四天。真正活下来的，是系统和人。</text>
+<text class="en" x="600" y="1553">FOURTEEN DAYS COMPLETE. PEOPLE AND SYSTEMS HELD TOGETHER.</text>
+<rect class="note" x="585" y="1770" width="420" height="82" rx="18"/>
+<text class="ko" x="610" y="1803">다음 단계: 여러 도시가 동시에 무너진다면?</text>
+<text class="zh" x="610" y="1832">下一阶段：如果多座城市同时失效？</text>
+<text class="fx" x="100" y="1847">DAY 14! SURVIVE!</text>
+</svg>
