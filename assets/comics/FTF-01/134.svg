@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="storm" x2="0" y2="1"><stop stop-color="#7aa8ba"/><stop offset="1" stop-color="#d9e6e8"/></linearGradient>
+ <linearGradient id="dock" x2="0" y2="1"><stop stop-color="#49545b"/><stop offset="1" stop-color="#1c252a"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#36b9cb"/><stop offset="1" stop-color="#064d70"/></linearGradient>
+ <linearGradient id="lab" x2="0" y2="1"><stop stop-color="#edf7f9"/><stop offset="1" stop-color="#9ab8c1"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".38"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#06131b"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#123748"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #134  배 밑의 먼지를 바다에 보내지 마라</text>
+<text x="900" y="49" fill="#c8fbff" font-family="Arial" font-size="18" font-weight="800">B-37 SHIPYARD DUST DEFENSE · 船厂涂层粉尘拦截</text>
+
+<!-- PANEL 1: drydock source inspection -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#storm)"/>
+ <rect x="16" y="300" width="746" height="212" fill="url(#dock)"/>
+ <path d="M74 306q250-134 486 0l-42 122H111z" fill="#c64f36" stroke="#4a241c" stroke-width="7"/>
+ <path d="M91 305q239-91 452 0" fill="none" stroke="#f3d7b9" stroke-width="16"/>
+ <rect x="116" y="191" width="391" height="34" rx="8" fill="#eef5f6" stroke="#27353b" stroke-width="5"/>
+ <text x="311" y="214" text-anchor="middle" fill="#17303b" font-family="Arial" font-size="18" font-weight="900">FTF HARBOR SERVICE 07</text>
+ <g opacity=".9" fill="#4c2f28"><circle cx="180" cy="340" r="8"/><circle cx="221" cy="366" r="6"/><circle cx="267" cy="350" r="9"/><circle cx="319" cy="383" r="7"/><circle cx="365" cy="347" r="6"/><circle cx="420" cy="371" r="8"/></g>
+ <g filter="url(#shadow)"><ellipse cx="635" cy="277" rx="38" ry="44" fill="#efb68d" stroke="#10212b" stroke-width="5"/><path d="M600 270q10-34 37-39q30 6 35 39z" fill="#27343a"/><path d="M592 347q43-27 86 0l29 114H560z" fill="#eef7f8" stroke="#10212b" stroke-width="5"/><rect x="607" y="305" width="60" height="23" rx="8" fill="#d6f4ff" stroke="#10212b" stroke-width="4"/></g>
+ <g transform="translate(480 400)"><rect width="239" height="79" rx="12" fill="#102f3d" stroke="#7de7ed" stroke-width="4"/><text x="17" y="28" fill="#d9fbff" font-family="Arial" font-size="13" font-weight="900">COATING DUST SURVEY</text><text x="17" y="58" fill="#ffbf6b" font-family="Arial" font-size="22" font-weight="900">Cu / Zn / PAINT FLAKES ↑</text></g>
+ <rect x="38" y="103" width="495" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="286" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="286">항구 바퀴를 막아도 선체 연마 먼지가 그대로 바다로 떨어지고 있다.</tspan><tspan x="286" dy="24" font-size="14">即使拦住轮胎颗粒，船体打磨粉尘仍会直接落入海中。</tspan><tspan x="286" dy="22" font-size="13">Stopping tire dust is not enough if hull-sanding debris still falls into the sea.</tspan></text>
+ <rect x="548" y="103" width="188" height="94" rx="22" fill="#fff1bd" stroke="#111" stroke-width="4"/>
+ <text x="642" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">먼지의 길부터 찾아!</tspan><tspan x="642" dy="21" font-size="13">先追踪粉尘路径！</tspan><tspan x="642" dy="19" font-size="12">Trace the dust path!</tspan></text>
+ <text x="42" y="486" fill="#fff" stroke="#7b402e" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">SCRAPE!  DUST!  TRACE!</text>
+</g>
+
+<!-- PANEL 2: workers with vacuum sanding shrouds -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#dock)"/>
+ <path d="M774 84h746v126H774z" fill="url(#storm)"/>
+ <path d="M819 259q263-116 580-2l-41 162H842z" fill="#b64235" stroke="#47241f" stroke-width="7"/>
+ <path d="M831 272q247-78 548 2" fill="none" stroke="#ebdbc7" stroke-width="15"/>
+ <g transform="translate(921 310)" filter="url(#shadow)"><ellipse cx="42" cy="-47" rx="31" ry="35" fill="#d9a477" stroke="#17252b" stroke-width="5"/><path d="M14-48q8-25 29-29q23 5 27 29z" fill="#31383b"/><rect x="0" y="-12" width="86" height="113" rx="18" fill="#f0a329" stroke="#17252b" stroke-width="5"/><path d="M66 14l77-42" stroke="#f0a329" stroke-width="20" stroke-linecap="round"/><circle cx="152" cy="-35" r="28" fill="#34444a" stroke="#9ce8ef" stroke-width="8"/><path d="M172-34q68 12 98 83" stroke="#52b9c7" stroke-width="13" fill="none"/></g>
+ <g transform="translate(1204 330)" filter="url(#shadow)"><ellipse cx="37" cy="-47" rx="30" ry="35" fill="#efb48a" stroke="#17252b" stroke-width="5"/><path d="M10-49q7-25 28-29q22 5 26 29z" fill="#44352e"/><rect x="0" y="-12" width="80" height="108" rx="17" fill="#1f7e8b" stroke="#17252b" stroke-width="5"/><path d="M15 14l-72-35" stroke="#1f7e8b" stroke-width="19" stroke-linecap="round"/><circle cx="-69" cy="-26" r="27" fill="#34444a" stroke="#9ce8ef" stroke-width="8"/><path d="M-91-24q-66 15-98 78" stroke="#52b9c7" stroke-width="13" fill="none"/></g>
+ <g transform="translate(1363 338)"><rect width="118" height="111" rx="13" fill="#102f3c" stroke="#74e0e8" stroke-width="5"/><text x="59" y="27" text-anchor="middle" fill="#d9fbff" font-family="Arial" font-size="12" font-weight="900">HEPA VAC</text><text x="59" y="59" text-anchor="middle" fill="#7ff0b6" font-family="Arial" font-size="20" font-weight="900">CAPTURE</text><text x="59" y="86" text-anchor="middle" fill="#fff" font-family="Arial" font-size="22" font-weight="900">96%</text></g>
+ <rect x="795" y="103" width="493" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1041" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1041">연마기에 진공 후드를 씌워 도료 조각과 금속 먼지를 생기는 즉시 빨아들인다.</tspan><tspan x="1041" dy="24" font-size="14">给打磨机加装真空罩，在产生瞬间吸走涂层碎屑和金属粉尘。</tspan><tspan x="1041" dy="22" font-size="13">Vacuum shrouds capture paint chips and metal dust the moment sanding begins.</tspan></text>
+ <rect x="1305" y="103" width="190" height="94" rx="22" fill="#dbffe8" stroke="#111" stroke-width="4"/>
+ <text x="1400" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1400">공기 중으로 보내지 마!</tspan><tspan x="1400" dy="21" font-size="13">别让粉尘飞散！</tspan><tspan x="1400" dy="19" font-size="12">Capture it now!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#14596a" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">GRRRR!  SUCK!  SEAL!</text>
+</g>
+
+<!-- PANEL 3: enclosed washwater capture before drain -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#dock)"/>
+ <path d="M16 790h746v216H16z" fill="url(#sea)"/>
+ <path d="M63 711h625" stroke="#dce7e9" stroke-width="10"/>
+ <path d="M98 735h556l-55 114H157z" fill="#2d454f" stroke="#9adfea" stroke-width="6"/>
+ <path d="M176 744q102 36 198 0t190 0" fill="none" stroke="#67d9e6" stroke-width="9" stroke-dasharray="14 10"/>
+ <g fill="#7a4d3d"><circle cx="211" cy="762" r="7"/><circle cx="254" cy="786" r="5"/><circle cx="309" cy="768" r="8"/><circle cx="354" cy="800" r="6"/></g>
+ <g transform="translate(477 655)" filter="url(#shadow)"><rect width="209" height="121" rx="15" fill="#123846" stroke="#7ce3eb" stroke-width="5"/><text x="104" y="29" text-anchor="middle" fill="#d8fbff" font-family="Arial" font-size="13" font-weight="900">CLOSED-LOOP WASH</text><text x="104" y="60" text-anchor="middle" fill="#7ff0b6" font-family="Arial" font-size="20" font-weight="900">SOLIDS −91%</text><text x="104" y="88" text-anchor="middle" fill="#f7cf77" font-family="Arial" font-size="16" font-weight="900">WATER REUSE 72%</text></g>
+ <g filter="url(#shadow)"><ellipse cx="129" cy="629" rx="35" ry="41" fill="#e8ae82" stroke="#10212b" stroke-width="5"/><path d="M98 621q8-31 33-37q28 6 33 37z" fill="#2f383c"/><path d="M91 690q40-25 80 0l26 98H65z" fill="#f0a52d" stroke="#10212b" stroke-width="5"/><path d="M157 706q57 11 107 39" stroke="#f0a52d" stroke-width="21" stroke-linecap="round"/></g>
+ <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M171 900q37-24 69 0q-36 27-69 0z"/><path d="M277 935q34-22 63 0q-32 25-63 0z"/><path d="M397 891q31-20 59 0q-30 23-59 0z"/></g>
+ <rect x="38" y="543" width="493" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="284" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="284">세척수도 바닥 배수로 바로 보내지 않고 밀폐 집수조에서 고형물을 회수한다.</tspan><tspan x="284" dy="24" font-size="14">清洗水不再直排地沟，而是在封闭集水槽中回收固体颗粒。</tspan><tspan x="284" dy="22" font-size="13">Washwater enters a closed sump, where solids are removed before water is reused.</tspan></text>
+ <rect x="548" y="543" width="188" height="94" rx="22" fill="#dffcff" stroke="#111" stroke-width="4"/>
+ <text x="642" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">배수구 전에 잡아!</tspan><tspan x="642" dy="21" font-size="13">排水前拦截！</tspan><tspan x="642" dy="19" font-size="12">Catch it before drain!</tspan></text>
+ <text x="42" y="979" fill="#fff" stroke="#0c6179" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">RINSE!  TRAP!  REUSE!</text>
+</g>
+
+<!-- PANEL 4: lab verification and recovered harbor life -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#lab)"/>
+ <rect x="774" y="782" width="746" height="224" fill="url(#sea)"/>
+ <g transform="translate(811 684)" filter="url(#shadow)"><rect width="304" height="177" rx="17" fill="#103343" stroke="#79e2ea" stroke-width="5"/><text x="20" y="31" fill="#d8fbff" font-family="Arial" font-size="14" font-weight="900">B-37  30-DAY VERIFICATION</text><text x="20" y="69" fill="#7ff0b6" font-family="Arial" font-size="24" font-weight="900">PAINT FLAKES  −88%</text><text x="20" y="103" fill="#7ff0b6" font-family="Arial" font-size="24" font-weight="900">Cu LOAD       −61%</text><text x="20" y="137" fill="#f7cf77" font-family="Arial" font-size="20" font-weight="900">WASH WATER REUSE +72%</text></g>
+ <g filter="url(#shadow)"><ellipse cx="1281" cy="680" rx="37" ry="43" fill="#efb68d" stroke="#10212b" stroke-width="5"/><path d="M1247 673q9-32 36-38q29 6 34 38z" fill="#303a3f"/><path d="M1238 748q44-27 88 0l28 109h-145z" fill="#eef7f8" stroke="#10212b" stroke-width="5"/><path d="M1248 765q-63 13-112 49" stroke="#eef7f8" stroke-width="22" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1430" cy="702" rx="34" ry="40" fill="#d9a477" stroke="#10212b" stroke-width="5"/><path d="M1399 695q8-30 32-35q27 5 32 35z" fill="#46362f"/><path d="M1392 769q39-24 78 0l25 88h-128z" fill="#1f7d89" stroke="#10212b" stroke-width="5"/></g>
+ <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M1160 902q42-26 78 0q-40 30-78 0z"/><path d="M1270 940q37-23 70 0q-35 27-70 0z"/><path d="M1392 893q34-21 64 0q-32 25-64 0z"/></g>
+ <path d="M1169 906l-18-13 2 26zM1278 942l-17-12 2 24zM1400 895l-16-11 2 23z" fill="#d8f6ff" stroke="#176987" stroke-width="3"/>
+ <circle cx="1491" cy="845" r="10" fill="#b5f5ff" opacity=".8"/><circle cx="1469" cy="873" r="7" fill="#b5f5ff" opacity=".8"/>
+ <rect x="795" y="543" width="493" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1041" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1041">30일 뒤 도료 조각과 구리 부하가 크게 줄고, 부두 아래 치어가 다시 모인다.</tspan><tspan x="1041" dy="24" font-size="14">30天后，涂层碎屑和铜负荷显著下降，幼鱼重新聚集在码头下。</tspan><tspan x="1041" dy="22" font-size="13">After 30 days, paint debris and copper loads fall sharply—and juvenile fish return.</tspan></text>
+ <rect x="1305" y="543" width="190" height="94" rx="22" fill="#e8ffdc" stroke="#111" stroke-width="4"/>
+ <text x="1400" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1400">조선소도 바다의 일부야!</tspan><tspan x="1400" dy="21" font-size="13">船厂也是海洋的一部分！</tspan><tspan x="1400" dy="19" font-size="12">Shipyards protect the sea too!</tspan></text>
+ <text x="811" y="979" fill="#fff" stroke="#12697a" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="29" font-weight="900" filter="url(#glow)">CAPTURE AT SOURCE · KEEP THE HARBOR ALIVE!</text>
+</g>
+</svg>
