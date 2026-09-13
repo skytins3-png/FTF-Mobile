@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="lab" x2="0" y2="1"><stop stop-color="#dcecf4"/><stop offset="1" stop-color="#8ab3c5"/></linearGradient>
+ <linearGradient id="city" x2="0" y2="1"><stop stop-color="#89c8e8"/><stop offset="1" stop-color="#e7f4fb"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#59656e"/><stop offset="1" stop-color="#252c31"/></linearGradient>
+ <linearGradient id="green" x2="0" y2="1"><stop stop-color="#a6db9f"/><stop offset="1" stop-color="#417b55"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#62d0df"/><stop offset="1" stop-color="#0d6685"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".38"/></filter>
+ <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r="2.4" fill="#1b1b1b"/><circle cx="11" cy="10" r="1.7" fill="#303030"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="#07131b"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0d3447"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #131  길 위에서부터 줄여라</text>
+<text x="930" y="49" fill="#c9fbff" font-family="Arial" font-size="18" font-weight="800">B-34 SOURCE REDUCTION STREET · 从源头减少道路颗粒</text>
+
+<!-- PANEL 1 -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#lab)"/>
+ <rect x="46" y="286" width="670" height="184" rx="18" fill="#d8e5e9" stroke="#506b76" stroke-width="6"/>
+ <g transform="translate(86 307)" filter="url(#shadow)"><rect width="245" height="116" rx="14" fill="#173e52" stroke="#7ce1ef" stroke-width="5"/><circle cx="80" cy="58" r="42" fill="#171b1e" stroke="#78868c" stroke-width="12"/><path d="M80 16v84M38 58h84M50 28l60 60M110 28L50 88" stroke="#9aa8ad" stroke-width="5"/><text x="167" y="49" fill="#fff" font-family="Arial" font-size="15" font-weight="900">ABRASION RIG</text><text x="167" y="78" fill="#91f3c2" font-family="Arial" font-size="24" font-weight="900">−42%</text><text x="167" y="99" fill="#d9f9ff" font-family="Arial" font-size="12">particle shedding</text></g>
+ <g transform="translate(360 306)"><rect width="312" height="120" rx="14" fill="#f7fbfc" stroke="#51717e" stroke-width="5"/><rect x="25" y="24" width="72" height="72" rx="12" fill="url(#dots)" stroke="#333" stroke-width="3"/><rect x="122" y="24" width="72" height="72" rx="12" fill="#34383b" stroke="#111" stroke-width="3"/><g fill="#111"><circle cx="137" cy="41" r="4"/><circle cx="165" cy="50" r="3"/><circle cx="151" cy="73" r="4"/><circle cx="178" cy="82" r="3"/></g><text x="224" y="43" fill="#245365" font-family="Arial" font-size="14" font-weight="900">COMPOUND A/B</text><text x="224" y="70" fill="#176f56" font-family="Arial" font-size="21" font-weight="900">LOW-WEAR</text><text x="224" y="94" fill="#41535b" font-family="Arial" font-size="12">same wet grip</text></g>
+ <g filter="url(#shadow)"><ellipse cx="577" cy="185" rx="38" ry="44" fill="#efbc96" stroke="#10212b" stroke-width="5"/><path d="M543 178q10-34 36-40q31 6 36 40z" fill="#2e343a"/><path d="M536 247q42-26 84 0l30 109H507z" fill="#e8f6f8" stroke="#10212b" stroke-width="5"/><path d="M541 263q-55 7-102 31" stroke="#e8f6f8" stroke-width="22" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="680" cy="211" rx="34" ry="40" fill="#d89f73" stroke="#10212b" stroke-width="5"/><path d="M650 204q8-31 32-37q29 6 34 38z" fill="#48342e"/><path d="M644 268q38-23 77 0l25 98H618z" fill="#1c6d77" stroke="#10212b" stroke-width="5"/></g>
+ <rect x="36" y="102" width="477" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="274" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="274">포집만으로는 끝이 아니다. 처음부터 덜 닳는 타이어를 고른다.</tspan><tspan x="274" dy="24" font-size="14">不能只靠拦截，要从源头选择更耐磨的轮胎材料。</tspan><tspan x="274" dy="22" font-size="13">Capture is not enough. Choose compounds that shed less from the start.</tspan></text>
+ <rect x="520" y="103" width="214" height="90" rx="22" fill="#fff1bd" stroke="#111" stroke-width="4"/>
+ <text x="627" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="627">성능은 유지, 먼지는 감소!</tspan><tspan x="627" dy="21" font-size="13">性能不降，颗粒更少！</tspan><tspan x="627" dy="19" font-size="12">Grip stays. Dust drops.</tspan></text>
+ <text x="40" y="486" fill="#fff" stroke="#0d5d76" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">TEST!  SPIN!  CUT THE SHED!</text>
+</g>
+
+<!-- PANEL 2 -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#city)"/>
+ <g fill="#d7e3e8" stroke="#6f8790" stroke-width="3"><rect x="806" y="136" width="100" height="165"/><rect x="922" y="110" width="126" height="191"/><rect x="1064" y="145" width="92" height="156"/><rect x="1170" y="121" width="120" height="180"/><rect x="1304" y="151" width="174" height="150"/></g>
+ <path d="M774 303H1520V512H774z" fill="url(#road)"/>
+ <path d="M820 406h654" stroke="#f4e88d" stroke-width="8" stroke-dasharray="54 34"/>
+ <path d="M801 318h710" stroke="#9ed0d8" stroke-width="14" opacity=".8"/>
+ <g transform="translate(865 326)" filter="url(#shadow)"><rect width="195" height="66" rx="22" fill="#176a7c" stroke="#0a2530" stroke-width="6"/><path d="M26 7h116l33 40H8z" fill="#89c5d3"/><circle cx="45" cy="67" r="25" fill="#111" stroke="#737e83" stroke-width="8"/><circle cx="153" cy="67" r="25" fill="#111" stroke="#737e83" stroke-width="8"/></g>
+ <g transform="translate(1163 328)" filter="url(#shadow)"><rect width="160" height="59" rx="20" fill="#4f8b56" stroke="#152c1b" stroke-width="6"/><path d="M22 6h90l29 35H8z" fill="#9fd5a8"/><circle cx="38" cy="60" r="22" fill="#111" stroke="#737e83" stroke-width="7"/><circle cx="126" cy="60" r="22" fill="#111" stroke="#737e83" stroke-width="7"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1403" cy="240" rx="36" ry="42" fill="#edb58e" stroke="#10212b" stroke-width="5"/><path d="M1371 233q8-32 33-38q29 6 35 38z" fill="#2f3b42"/><path d="M1365 301q40-24 79 0l28 103h-135z" fill="#f0f6f7" stroke="#10212b" stroke-width="5"/><path d="M1371 318q-50 8-97 37" stroke="#f0f6f7" stroke-width="21" stroke-linecap="round"/></g>
+ <rect x="796" y="103" width="473" height="114" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1032" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1032">시험 구간에는 저마모 타이어 차량과 저속 운행 구역을 함께 적용한다.</tspan><tspan x="1032" dy="24" font-size="14">试验路段同时采用低磨耗轮胎与低速行驶区。</tspan><tspan x="1032" dy="22" font-size="13">The pilot street pairs low-wear tires with a lower-speed zone.</tspan></text>
+ <rect x="1280" y="103" width="215" height="94" rx="22" fill="#eaffdb" stroke="#111" stroke-width="4"/>
+ <text x="1387" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1387">마찰 자체를 줄여!</tspan><tspan x="1387" dy="21" font-size="13">先减少磨耗！</tspan><tspan x="1387" dy="19" font-size="12">Reduce wear itself!</tspan></text>
+ <text x="801" y="486" fill="#fff" stroke="#4a5a18" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">ROLL!  SLOW!  SHED LESS!</text>
+</g>
+
+<!-- PANEL 3 -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#green)"/>
+ <path d="M16 720Q140 676 255 718T486 714T762 694V1006H16z" fill="#3d714b"/>
+ <path d="M16 798Q198 750 370 800T762 772V1006H16z" fill="url(#sea)"/>
+ <path d="M74 606h625v165H74z" fill="#575f63" stroke="#263035" stroke-width="6"/>
+ <path d="M83 701h607" stroke="#f0e58a" stroke-width="7" stroke-dasharray="45 30"/>
+ <path d="M228 757q86-91 175-1" fill="none" stroke="#9ee6f2" stroke-width="22" opacity=".85"/>
+ <path d="M403 757q85-70 194-56" fill="none" stroke="#9ee6f2" stroke-width="18" opacity=".82"/>
+ <g transform="translate(512 640)"><path d="M0 90q70-110 144 0z" fill="#705338" stroke="#3d2f20" stroke-width="5"/><g fill="#9ed36f"><circle cx="28" cy="38" r="21"/><circle cx="64" cy="23" r="27"/><circle cx="104" cy="40" r="24"/><circle cx="128" cy="67" r="19"/></g><g stroke="#d8ead0" stroke-width="5"><path d="M22 79l18-42M59 82l8-55M96 82l11-42M123 82l5-27"/></g></g>
+ <g filter="url(#shadow)"><ellipse cx="151" cy="635" rx="36" ry="42" fill="#edb58e" stroke="#10212b" stroke-width="5"/><path d="M119 628q8-32 33-38q29 6 35 38z" fill="#313a3e"/><path d="M113 696q40-24 79 0l27 100H85z" fill="#146678" stroke="#10212b" stroke-width="5"/><path d="M185 714q52 8 96 31" stroke="#146678" stroke-width="21" stroke-linecap="round"/></g>
+ <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M533 856q35-24 66 0q-34 26-66 0z"/><path d="M611 895q32-22 60 0q-30 24-60 0z"/></g>
+ <path d="M498 932q32-50 62 0" fill="#70b467" stroke="#2f7240" stroke-width="5"/><path d="M578 941q30-55 62 0" fill="#79bd6c" stroke="#2f7240" stroke-width="5"/>
+ <rect x="38" y="544" width="479" height="113" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="277" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="277">남은 빗물은 식생도랑과 투수성 포장으로 천천히 걸러 바다로 보낸다.</tspan><tspan x="277" dy="24" font-size="14">剩余雨水经植草沟与透水铺装缓慢过滤后再入海。</tspan><tspan x="277" dy="22" font-size="13">Bioswales and permeable paving filter what remains before it reaches the sea.</tspan></text>
+ <text x="43" y="982" fill="#fff" stroke="#185e44" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">SWISH!  SOAK!  FILTER!</text>
+</g>
+
+<!-- PANEL 4 -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="#173846"/>
+ <rect x="806" y="554" width="680" height="274" rx="22" fill="#0a222d" stroke="#68d9e7" stroke-width="6"/>
+ <text x="1146" y="589" text-anchor="middle" fill="#cfffff" font-family="Arial" font-size="18" font-weight="900">B-34 STREET PILOT · 30 DAYS</text>
+ <g font-family="Arial" font-weight="900"><text x="850" y="641" fill="#fff" font-size="17">TIRE-WEAR PARTICLES</text><text x="1432" y="641" text-anchor="end" fill="#8ff0b9" font-size="34">−58%</text><text x="850" y="697" fill="#fff" font-size="17">ZINC IN RUNOFF</text><text x="1432" y="697" text-anchor="end" fill="#7dddf1" font-size="34">−44%</text><text x="850" y="753" fill="#fff" font-size="17">STORMWATER TO OCEAN</text><text x="1432" y="753" text-anchor="end" fill="#ffe783" font-size="34">−36%</text><text x="850" y="804" fill="#fff" font-size="15">WET BRAKING PERFORMANCE</text><text x="1432" y="804" text-anchor="end" fill="#f4f9fb" font-size="24">MAINTAINED</text></g>
+ <g transform="translate(818 858)" filter="url(#shadow)"><ellipse cx="55" cy="42" rx="34" ry="40" fill="#f0bd98" stroke="#0b2028" stroke-width="5"/><path d="M25 35q8-30 31-36q28 5 33 36z" fill="#303a40"/><path d="M19 98q37-23 74 0l25 78H-6z" fill="#eaf5f7" stroke="#0b2028" stroke-width="5"/><text x="55" y="142" text-anchor="middle" fill="#184b5c" font-family="Arial" font-size="16" font-weight="900">FTF</text></g>
+ <g transform="translate(1280 850)"><path d="M0 102q52-72 101 0" fill="#71b667" stroke="#27633a" stroke-width="6"/><path d="M77 102q55-78 108 0" fill="#7ac06c" stroke="#27633a" stroke-width="6"/><g fill="#b8f5ff" stroke="#2e7890" stroke-width="4"><path d="M23 51q27-20 52 0q-26 20-52 0z"/><path d="M96 38q31-21 58 0q-29 22-58 0z"/></g></g>
+ <rect x="956" y="846" width="307" height="132" rx="22" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1110" y="879" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="16" font-weight="900"><tspan x="1110">잡는 것보다 더 좋은 건</tspan><tspan x="1110" dy="23">처음부터 덜 만드는 것!</tspan><tspan x="1110" dy="24" font-size="13">比拦截更好的是从源头少产生。</tspan><tspan x="1110" dy="21" font-size="12">The best particle is the one never shed.</tspan></text>
+ <text x="797" y="989" fill="#fff" stroke="#08718c" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">CUT AT THE SOURCE · CLEANER STREET · CLEANER SEA!</text>
+</g>
+</svg>
