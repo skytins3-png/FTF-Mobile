@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="FTF-03 scene 15 multi-city cascade failure test">
+<defs>
+ <linearGradient id="storm" x2="0" y2="1"><stop stop-color="#071524"/><stop offset=".55" stop-color="#25455b"/><stop offset="1" stop-color="#7f8790"/></linearGradient>
+ <linearGradient id="ops" x2="1" y2="1"><stop stop-color="#102432"/><stop offset="1" stop-color="#263f4f"/></linearGradient>
+ <linearGradient id="city" x2="0" y2="1"><stop stop-color="#1b3042"/><stop offset="1" stop-color="#090f17"/></linearGradient>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#132b43"/><stop offset=".58" stop-color="#708ea0"/><stop offset="1" stop-color="#f0bb76"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".45"/></filter>
+ <style>
+ .panel{stroke:#050b12;stroke-width:16}.bubble{fill:#fff;stroke:#17212b;stroke-width:5}.note{fill:#f7ecd2;stroke:#3d3023;stroke-width:5}.ko{font:700 25px Arial,sans-serif;fill:#101820}.zh{font:600 19px Arial,sans-serif;fill:#293946}.en{font:600 16px Arial,sans-serif;fill:#52606a}.fx{font:900 italic 40px Impact,Arial,sans-serif;fill:#ffd85c;stroke:#101820;stroke-width:3;paint-order:stroke}.skin{fill:#e2aa82;stroke:#17202a;stroke-width:4}.skin2{fill:#c98f67;stroke:#17202a;stroke-width:4}.hair{fill:#18212b;stroke:#0b1117;stroke-width:4}.coat{fill:#e9f0f2;stroke:#17202a;stroke-width:4}.navy{fill:#36546d;stroke:#17202a;stroke-width:4}.vest{fill:#e86c49;stroke:#17202a;stroke-width:4}.med{fill:#dbe9e6;stroke:#17202a;stroke-width:4}.screen{fill:#061d2c;stroke:#66d9ef;stroke-width:4}.red{fill:#ff756b}.green{fill:#80e0a0}.amber{fill:#ffd163}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#050a10"/>
+<rect x="28" y="24" width="1024" height="112" rx="24" fill="#0c1926" stroke="#69d4ed" stroke-width="4"/>
+<text x="56" y="66" fill="#ccefff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 15</text>
+<text x="56" y="108" fill="white" font-size="34" font-weight="900">연쇄 장애 — 세 도시가 동시에 멈춘 밤</text>
+
+<!-- PANEL 1: command center sees three simultaneous failures -->
+<rect class="panel" x="28" y="154" width="1024" height="405" rx="24" fill="url(#ops)"/>
+<rect class="screen" x="55" y="184" width="590" height="285" rx="18"/>
+<path d="M95 255h500M95 320h500M95 385h500" stroke="#1e6075" stroke-width="3"/>
+<circle cx="180" cy="290" r="34" class="red"/><circle cx="365" cy="355" r="34" class="red"/><circle cx="525" cy="265" r="34" class="red"/>
+<path d="M180 290L365 355L525 265" fill="none" stroke="#ff8f79" stroke-width="9" stroke-dasharray="17 13"/>
+<text x="134" y="237" fill="#ffb1a8" font-size="18" font-weight="900">CITY A · POWER</text><text x="316" y="416" fill="#ffb1a8" font-size="18" font-weight="900">CITY B · WATER</text><text x="470" y="218" fill="#ffb1a8" font-size="18" font-weight="900">CITY C · COMMS</text>
+<ellipse class="skin" cx="733" cy="408" rx="38" ry="44"/><path class="hair" d="M698 395q12-55 67-28q17 9 9 39q-34-19-68-6z"/><path class="coat" d="M670 470q63-57 126 0v74H670z"/><circle cx="720" cy="412" r="5"/><circle cx="746" cy="412" r="5"/><path d="M720 438q13 8 27 0" fill="none" stroke="#7a4535" stroke-width="5"/>
+<ellipse class="skin2" cx="910" cy="420" rx="36" ry="42"/><path class="hair" d="M876 407q11-52 64-26q16 8 9 36q-33-18-66-5z"/><path class="navy" d="M850 478q60-54 120 0v66H850z"/>
+<rect class="bubble" x="615" y="174" width="405" height="166" rx="20" filter="url(#shadow)"/>
+<text class="ko" x="640" y="210">세 도시에서 동시에 장애 발생!</text><text class="ko" x="640" y="241">전력·식수·통신이 서로를 끌어내린다.</text>
+<text class="zh" x="640" y="273">三座城市同时故障，电力、供水、通信连锁失效。</text>
+<text class="en" x="640" y="307">THREE CITIES FAIL AT ONCE. POWER, WATER AND COMMS CASCADE.</text>
+<text class="fx" x="76" y="525">BEEP! BEEP! CASCADE!</text>
+
+<!-- PANEL 2: City A hospital and substation -->
+<rect class="panel" x="28" y="580" width="1024" height="405" rx="24" fill="url(#storm)"/>
+<path d="M28 850h1024v135H28z" fill="#101a22"/>
+<rect x="74" y="680" width="330" height="210" fill="#d8e5e7" stroke="#17212b" stroke-width="7"/><rect x="160" y="720" width="76" height="76" fill="#b9d7dc"/><path d="M198 700v116M140 758h116" stroke="#d94f56" stroke-width="13"/>
+<rect x="455" y="665" width="210" height="188" rx="15" fill="#263744" stroke="#111820" stroke-width="7"/><path d="M493 807l50-95 49 95M543 712v-35" fill="none" stroke="#ffd36c" stroke-width="11"/><path d="M675 700h220v150H675z" fill="#1d2a35" stroke="#111820" stroke-width="7"/><path d="M715 736h140M715 778h140M715 820h140" stroke="#768896" stroke-width="8"/>
+<ellipse class="skin" cx="330" cy="889" rx="30" ry="35"/><path class="hair" d="M302 879q9-43 52-21q13 6 8 29q-27-14-53-4z"/><path class="med" d="M282 940q48-43 96 0v27H282z"/>
+<ellipse class="skin2" cx="744" cy="890" rx="30" ry="35"/><path class="hair" d="M716 880q9-43 52-21q13 6 8 29q-27-14-53-4z"/><path class="vest" d="M696 941q48-43 96 0v26H696z"/>
+<rect class="note" x="60" y="602" width="920" height="104" rx="18"/>
+<text class="ko" x="84" y="636">도시 A — 병원은 비상전력으로 전환, 변전소는 구역별로 분리한다.</text>
+<text class="zh" x="84" y="667">A市——医院切换应急电源，变电站按区域隔离。</text>
+<text class="en" x="84" y="696">CITY A — HOSPITALS GO TO BACKUP POWER; THE GRID IS ISOLATED BY ZONE.</text>
+<rect class="bubble" x="650" y="714" width="355" height="123" rx="18"/>
+<text class="ko" x="675" y="749">중앙망 기다리지 마. 지역 모드로!</text><text class="zh" x="675" y="781">别等中央电网，切换本地模式！</text><text class="en" x="675" y="812">DON'T WAIT FOR THE CENTRAL GRID. GO LOCAL!</text>
+<text class="fx" x="390" y="954">CLACK! POWER! HOLD!</text>
+
+<!-- PANEL 3: City B/C water convoy and mesh relay -->
+<rect class="panel" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#city)"/>
+<path d="M28 1302h1024v108H28z" fill="#111820"/>
+<path d="M65 1235h195v-140h115v140h100v-190h150v190h110v-115h125v115h112v67H65z" fill="#223644" stroke="#101820" stroke-width="7"/>
+<rect x="104" y="1250" width="245" height="95" rx="17" fill="#486c7e" stroke="#0f1820" stroke-width="6"/><circle cx="160" cy="1350" r="28" fill="#202a30"/><circle cx="300" cy="1350" r="28" fill="#202a30"/><path d="M350 1290h118l46 55H350z" fill="#6f8f9d" stroke="#0f1820" stroke-width="6"/><text x="125" y="1309" fill="#d6f6ff" font-size="20" font-weight="900">WATER RELAY</text>
+<path d="M705 1190l34-88 34 88M739 1102v-62M665 1140q74-78 148 0M625 1095q114-128 228 0" fill="none" stroke="#77e2ff" stroke-width="8"/>
+<ellipse class="skin" cx="560" cy="1295" rx="31" ry="37"/><path class="hair" d="M531 1284q10-46 56-23q14 7 8 31q-28-15-56-4z"/><path class="navy" d="M508 1350q52-47 104 0v43H508z"/>
+<ellipse class="skin2" cx="875" cy="1295" rx="31" ry="37"/><path class="hair" d="M846 1284q10-46 56-23q14 7 8 31q-28-15-56-4z"/><path class="vest" d="M823 1350q52-47 104 0v43H823z"/>
+<rect class="bubble" x="55" y="1028" width="550" height="142" rx="18"/>
+<text class="ko" x="80" y="1064">도시 B는 물을 보내고, 도시 C는 근거리 메시망을 세운다.</text>
+<text class="zh" x="80" y="1097">B市转运净水，C市建立近距离网状通信。</text>
+<text class="en" x="80" y="1131">CITY B MOVES CLEAN WATER; CITY C BUILDS A LOCAL MESH NETWORK.</text>
+<rect class="note" x="620" y="1028" width="385" height="140" rx="18"/>
+<text class="ko" x="645" y="1064">도시는 혼자가 아니다.</text><text class="ko" x="645" y="1096">살아 있는 구역이 옆 도시를 받친다.</text>
+<text class="zh" x="645" y="1128">仍在运转的区域支撑邻近城市。</text><text class="en" x="645" y="1157">WORKING ZONES SUPPORT THEIR NEIGHBORS.</text>
+<text class="fx" x="425" y="1380">FLOW! MESH! RELAY!</text>
+
+<!-- PANEL 4: dawn recovery map and lesson -->
+<rect class="panel" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#dawn)"/>
+<circle cx="905" cy="1530" r="82" fill="#ffd18a" opacity=".9"/>
+<path d="M28 1758l135-105 125 80 105-138 135 115 120-96 130 105 108-78 136 117v132H28z" fill="#334f61" stroke="#1e303c" stroke-width="7"/>
+<rect class="screen" x="62" y="1474" width="535" height="278" rx="18"/>
+<text x="91" y="1516" fill="#d9f7ff" font-size="20" font-weight="900">MULTI-CITY CASCADE TEST · RESULT</text>
+<circle cx="160" cy="1595" r="26" class="green"/><circle cx="337" cy="1668" r="26" class="green"/><circle cx="500" cy="1570" r="26" class="green"/>
+<path d="M160 1595L337 1668L500 1570" fill="none" stroke="#8cf0b0" stroke-width="9"/>
+<text x="95" y="1716" fill="#8ff0b3" font-size="23" font-weight="900">NO TOTAL COLLAPSE · LOCAL RECOVERY ACTIVE</text>
+<ellipse class="skin" cx="720" cy="1685" rx="37" ry="43"/><path class="hair" d="M685 1673q11-52 64-26q16 8 9 36q-33-18-65-6z"/><path class="coat" d="M658 1743q62-55 124 0v106H658z"/>
+<ellipse class="skin2" cx="900" cy="1692" rx="36" ry="42"/><path class="hair" d="M866 1680q11-51 63-25q16 8 9 35q-32-18-64-6z"/><path class="navy" d="M840 1749q60-54 120 0v100H840z"/>
+<rect class="bubble" x="610" y="1454" width="410" height="174" rx="18"/>
+<text class="ko" x="635" y="1491">세 도시가 흔들렸지만 전체는 무너지지 않았다.</text>
+<text class="ko" x="635" y="1523">서로 연결된 지역 생존망이 충격을 끊어냈다.</text>
+<text class="zh" x="635" y="1555">三座城市受冲击，但区域生存网阻断了连锁崩溃。</text>
+<text class="en" x="635" y="1590">THREE CITIES SHOOK, BUT LOCAL SURVIVAL NETWORKS STOPPED TOTAL COLLAPSE.</text>
+<rect class="note" x="73" y="1780" width="932" height="82" rx="18"/>
+<text class="ko" x="98" y="1813">다음 검증: 재난이 14일을 넘어 한 달 동안 계속된다면?</text>
+<text class="zh" x="98" y="1844">下一项验证：如果灾难持续超过十四天，整整一个月呢？</text>
+<text class="fx" x="585" y="1873">DAWN! NETWORK HOLDS!</text>
+</svg>
