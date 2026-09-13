@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#88cce8"/><stop offset="1" stop-color="#e8f6fb"/></linearGradient>
+ <linearGradient id="depot" x2="0" y2="1"><stop stop-color="#dce8ed"/><stop offset="1" stop-color="#8da8b4"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#596168"/><stop offset="1" stop-color="#252b30"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#5ed4df"/><stop offset="1" stop-color="#075c7c"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#163b50"/><stop offset="1" stop-color="#071a26"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="#07131b"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0d3447"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #132  도시의 모든 바퀴를 바꾸다</text>
+<text x="895" y="49" fill="#c9fbff" font-family="Arial" font-size="18" font-weight="800">B-35 CITY FLEET SCALE-UP · 城市车队源头减排</text>
+
+<!-- PANEL 1: fleet depot audit -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#depot)"/>
+ <rect x="36" y="265" width="706" height="221" fill="#c6d1d6" stroke="#526770" stroke-width="5"/>
+ <path d="M61 445H718" stroke="#f4e58a" stroke-width="8" stroke-dasharray="46 30"/>
+ <g transform="translate(73 290)" filter="url(#shadow)"><rect width="230" height="95" rx="18" fill="#1d7282" stroke="#0a2832" stroke-width="6"/><rect x="31" y="-34" width="139" height="54" rx="12" fill="#9ed2de" stroke="#0a2832" stroke-width="5"/><circle cx="51" cy="96" r="29" fill="#111" stroke="#7f8e94" stroke-width="9"/><circle cx="184" cy="96" r="29" fill="#111" stroke="#7f8e94" stroke-width="9"/><text x="115" y="57" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18" font-weight="900">CITY BUS</text></g>
+ <g transform="translate(351 303)" filter="url(#shadow)"><rect width="190" height="78" rx="20" fill="#4d8b58" stroke="#18321f" stroke-width="6"/><path d="M25 5h111l33 35H10z" fill="#b3dfbb"/><circle cx="42" cy="80" r="25" fill="#111" stroke="#7f8e94" stroke-width="8"/><circle cx="150" cy="80" r="25" fill="#111" stroke="#7f8e94" stroke-width="8"/><text x="95" y="57" text-anchor="middle" fill="#fff" font-family="Arial" font-size="16" font-weight="900">SERVICE VAN</text></g>
+ <g filter="url(#shadow)"><ellipse cx="603" cy="282" rx="37" ry="43" fill="#efbb94" stroke="#10212b" stroke-width="5"/><path d="M570 274q9-33 35-39q30 7 35 39z" fill="#31383d"/><path d="M563 345q42-25 83 0l27 103H535z" fill="#edf7f8" stroke="#10212b" stroke-width="5"/><path d="M569 361q-54 10-104 35" stroke="#edf7f8" stroke-width="22" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="691" cy="307" rx="33" ry="39" fill="#d89c70" stroke="#10212b" stroke-width="5"/><path d="M661 300q8-30 31-36q28 6 34 36z" fill="#48362f"/><path d="M655 363q37-22 75 0l24 86H631z" fill="#176777" stroke="#10212b" stroke-width="5"/></g>
+ <g transform="translate(421 386)"><rect width="272" height="79" rx="12" fill="#122f3e" stroke="#7fe8ee" stroke-width="4"/><text x="18" y="29" fill="#d6fbff" font-family="Arial" font-size="14" font-weight="900">FLEET TIRE AUDIT</text><text x="18" y="58" fill="#80f0b6" font-family="Arial" font-size="24" font-weight="900">68 VEHICLES → LOW-WEAR</text></g>
+ <rect x="38" y="103" width="496" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="286" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="286">시험이 끝났다면 이제 도시 차량 전체로 확대한다.</tspan><tspan x="286" dy="24" font-size="14">试验结束后，把低磨耗方案扩展到整支城市车队。</tspan><tspan x="286" dy="22" font-size="13">The pilot worked. Now scale low-wear tires across the city fleet.</tspan></text>
+ <rect x="547" y="104" width="185" height="94" rx="22" fill="#fff1bd" stroke="#111" stroke-width="4"/>
+ <text x="639" y="134" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="639">버스부터 바꾼다!</tspan><tspan x="639" dy="21" font-size="13">先从公交开始！</tspan><tspan x="639" dy="19" font-size="12">Start with the fleet!</tspan></text>
+ <text x="40" y="486" fill="#fff" stroke="#0c6179" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="32" font-weight="900">CHECK!  TAG!  SWAP!</text>
+</g>
+
+<!-- PANEL 2: operating controls -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#sky)"/>
+ <g fill="#d8e5e9" stroke="#718891" stroke-width="3"><rect x="799" y="149" width="97" height="153"/><rect x="910" y="115" width="130" height="187"/><rect x="1055" y="140" width="99" height="162"/><rect x="1170" y="123" width="134" height="179"/><rect x="1320" y="156" width="168" height="146"/></g>
+ <path d="M774 302H1520V512H774z" fill="url(#road)"/>
+ <path d="M806 418h679" stroke="#f2e890" stroke-width="8" stroke-dasharray="54 33"/>
+ <g transform="translate(839 327)" filter="url(#shadow)"><rect width="247" height="74" rx="19" fill="#226d80" stroke="#0b2933" stroke-width="6"/><rect x="31" y="-31" width="153" height="49" rx="10" fill="#9fd4df" stroke="#0b2933" stroke-width="5"/><circle cx="53" cy="76" r="27" fill="#111" stroke="#7f8e94" stroke-width="8"/><circle cx="198" cy="76" r="27" fill="#111" stroke="#7f8e94" stroke-width="8"/><text x="123" y="52" text-anchor="middle" fill="#fff" font-family="Arial" font-size="17" font-weight="900">FTF PILOT BUS</text></g>
+ <g transform="translate(1161 333)" filter="url(#shadow)"><rect width="174" height="65" rx="20" fill="#4f8e58" stroke="#17301d" stroke-width="6"/><path d="M21 4h101l31 36H8z" fill="#b2dfb9"/><circle cx="40" cy="67" r="23" fill="#111" stroke="#7f8e94" stroke-width="7"/><circle cx="138" cy="67" r="23" fill="#111" stroke="#7f8e94" stroke-width="7"/></g>
+ <g transform="translate(1362 313)"><rect width="119" height="82" rx="10" fill="#f6fafb" stroke="#18323f" stroke-width="5"/><text x="59" y="28" text-anchor="middle" fill="#18323f" font-family="Arial" font-size="13" font-weight="900">SMART TPMS</text><text x="59" y="56" text-anchor="middle" fill="#12825d" font-family="Arial" font-size="21" font-weight="900">OPTIMAL</text></g>
+ <g filter="url(#shadow)"><ellipse cx="1421" cy="231" rx="35" ry="41" fill="#efb88f" stroke="#10212b" stroke-width="5"/><path d="M1389 224q9-31 33-37q29 6 34 37z" fill="#2f393f"/><path d="M1383 292q39-24 78 0l26 96h-130z" fill="#f0f7f8" stroke="#10212b" stroke-width="5"/><path d="M1388 309q-49 9-95 35" stroke="#f0f7f8" stroke-width="21" stroke-linecap="round"/></g>
+ <rect x="795" y="103" width="482" height="114" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1036" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1036">적정 공기압과 완만한 가감속까지 함께 관리해 마모를 더 줄인다.</tspan><tspan x="1036" dy="24" font-size="14">同时管理胎压与平稳加减速，进一步减少磨耗。</tspan><tspan x="1036" dy="22" font-size="13">Correct pressure and smoother driving cut wear even further.</tspan></text>
+ <rect x="1288" y="103" width="208" height="94" rx="22" fill="#eaffdb" stroke="#111" stroke-width="4"/>
+ <text x="1392" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1392">운전도 방어선이다!</tspan><tspan x="1392" dy="21" font-size="13">驾驶也是防线！</tspan><tspan x="1392" dy="19" font-size="12">Driving is a barrier too!</tspan></text>
+ <text x="800" y="486" fill="#fff" stroke="#4d641a" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="32" font-weight="900">ROLL SMOOTH!  WEAR LESS!</text>
+</g>
+
+<!-- PANEL 3: vacuum sweep before rain -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="#667783"/>
+ <path d="M16 524H762V1006H16z" fill="url(#road)"/>
+ <path d="M60 881h656" stroke="#eee394" stroke-width="8" stroke-dasharray="54 34"/>
+ <g transform="translate(90 675)" filter="url(#shadow)"><rect width="335" height="142" rx="20" fill="#e0a73e" stroke="#382810" stroke-width="7"/><rect x="38" y="-56" width="155" height="72" rx="12" fill="#cfe6ec" stroke="#382810" stroke-width="6"/><circle cx="72" cy="146" r="38" fill="#111" stroke="#7f8e94" stroke-width="10"/><circle cx="273" cy="146" r="38" fill="#111" stroke="#7f8e94" stroke-width="10"/><rect x="205" y="25" width="99" height="79" rx="10" fill="#27343b"/><text x="254" y="56" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14" font-weight="900">VACUUM</text><text x="254" y="82" text-anchor="middle" fill="#7ff1bb" font-family="Arial" font-size="20" font-weight="900">CAPTURE</text><path d="M44 126q95 58 196 3" fill="none" stroke="#d8eef4" stroke-width="10" stroke-dasharray="14 10"/></g>
+ <g fill="#171717"><circle cx="475" cy="838" r="5"/><circle cx="496" cy="854" r="4"/><circle cx="520" cy="831" r="6"/><circle cx="548" cy="860" r="4"/><circle cx="569" cy="836" r="5"/><circle cx="592" cy="856" r="4"/></g>
+ <path d="M448 820q88-54 178 1" fill="none" stroke="#b8f1ff" stroke-width="8" stroke-dasharray="12 10"/>
+ <g transform="translate(573 703)" filter="url(#shadow)"><ellipse cx="54" cy="42" rx="35" ry="41" fill="#e9b187" stroke="#10212b" stroke-width="5"/><path d="M22 35q8-31 33-37q29 6 34 37z" fill="#43372f"/><path d="M15 104q40-24 79 0l28 108H-12z" fill="#136c79" stroke="#10212b" stroke-width="5"/><path d="M21 121q-50 4-99 36" stroke="#136c79" stroke-width="21" stroke-linecap="round"/></g>
+ <rect x="38" y="544" width="500" height="114" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="288" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="288">비 예보 전에는 진공 청소차가 남은 검은 입자를 먼저 회수한다.</tspan><tspan x="288" dy="24" font-size="14">降雨前，真空清扫车先回收残留的黑色道路颗粒。</tspan><tspan x="288" dy="22" font-size="13">Before rain, vacuum sweepers collect residual road particles first.</tspan></text>
+ <rect x="553" y="545" width="181" height="94" rx="22" fill="#dff7ff" stroke="#111" stroke-width="4"/>
+ <text x="643" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="643">빗물보다 먼저!</tspan><tspan x="643" dy="21" font-size="13">抢在雨水之前！</tspan><tspan x="643" dy="19" font-size="12">Beat the rain!</tspan></text>
+ <text x="41" y="980" fill="#fff" stroke="#9b5e08" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">VRRROOOM!  SUCK!  CAPTURE!</text>
+</g>
+
+<!-- PANEL 4: harbor verification -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#sea)"/>
+ <path d="M774 775Q910 735 1035 778T1275 761T1520 746V1006H774z" fill="#08718e"/>
+ <g fill="#82c76f" stroke="#2e7141" stroke-width="5"><path d="M902 992q15-122 42-213q36 108 24 213z"/><path d="M1002 1006q18-135 49-224q28 109 14 224z"/><path d="M1314 1005q-4-133 31-221q29 109 25 221z"/></g>
+ <g fill="#d9f7ff" stroke="#176987" stroke-width="4"><path d="M1108 868q42-29 79 0q-40 31-79 0z"/><path d="M1202 916q34-23 64 0q-32 25-64 0z"/><path d="M1365 858q37-25 70 0q-35 27-70 0z"/></g>
+ <g transform="translate(824 580)" filter="url(#shadow)"><rect width="372" height="171" rx="16" fill="url(#screen)" stroke="#a2ecf5" stroke-width="5"/><text x="24" y="33" fill="#dffbff" font-family="Arial" font-size="17" font-weight="900">B-35 OUTFALL MONITOR · 6 WEEKS</text><text x="25" y="77" fill="#7ff1b3" font-family="Arial" font-size="28" font-weight="900">ROAD-WEAR PARTICLES  −55%</text><text x="25" y="116" fill="#81d8ff" font-family="Arial" font-size="27" font-weight="900">Zn LOAD  −48%</text><text x="25" y="151" fill="#ffd77b" font-family="Arial" font-size="19" font-weight="900">FLEET COVERAGE  82%</text></g>
+ <g filter="url(#shadow)"><ellipse cx="1290" cy="685" rx="38" ry="44" fill="#efbb94" stroke="#10212b" stroke-width="5"/><path d="M1256 677q9-34 35-40q31 7 36 40z" fill="#31383d"/><path d="M1248 751q43-26 85 0l29 112h-143z" fill="#edf7f8" stroke="#10212b" stroke-width="5"/><path d="M1254 768q-54 8-104 30" stroke="#edf7f8" stroke-width="22" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1411" cy="719" rx="34" ry="40" fill="#d89c70" stroke="#10212b" stroke-width="5"/><path d="M1380 712q8-31 32-37q29 6 34 37z" fill="#49352f"/><path d="M1374 779q39-23 78 0l25 99h-128z" fill="#176777" stroke="#10212b" stroke-width="5"/></g>
+ <rect x="1197" y="545" width="300" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1347" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="16" font-weight="900"><tspan x="1347">배수구에서 막고, 바퀴에서 줄이고, 비 오기 전에 회수했다.</tspan><tspan x="1347" dy="23" font-size="13">在排水口拦截、从轮胎减量、在降雨前回收。</tspan><tspan x="1347" dy="21" font-size="12">Trap it, reduce it at the wheel, collect it before rain.</tspan></text>
+ <rect x="824" y="798" width="326" height="93" rx="20" fill="#eaffdb" stroke="#111" stroke-width="4"/>
+ <text x="987" y="828" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="987">한 지점의 실험이 도시의 기준이 됐다.</tspan><tspan x="987" dy="21" font-size="13">一个试点，变成整座城市的标准。</tspan><tspan x="987" dy="19" font-size="12">One pilot became a city standard.</tspan></text>
+ <text x="808" y="980" fill="#fff" stroke="#075064" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">VERIFY!  SCALE!  PROTECT THE BAY!</text>
+</g>
+</svg>
