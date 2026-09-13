@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#203d68"/><stop offset=".55" stop-color="#e58d63"/><stop offset="1" stop-color="#f6c38a"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#1b9bb1"/><stop offset="1" stop-color="#063c58"/></linearGradient>
+ <linearGradient id="dock" x2="0" y2="1"><stop stop-color="#6d7880"/><stop offset="1" stop-color="#26333b"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".45"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#07131c"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#102d42"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #137  항구에 들어오기 전에 막아라</text>
+<text x="872" y="49" fill="#c9f6ff" font-family="Arial" font-size="18" font-weight="800">B-40 BIOFOULING GATE · 港口生物污染防线</text>
+
+<!-- PANEL 1: arriving vessel inspection -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#dawn)"/>
+ <rect x="16" y="287" width="746" height="225" fill="url(#sea)"/>
+ <path d="M62 360q238-77 491-12l-51 103H121z" fill="#273d4a" stroke="#0a202b" stroke-width="7"/>
+ <rect x="161" y="279" width="291" height="67" rx="13" fill="#e9f0f2" stroke="#24333b" stroke-width="6"/>
+ <text x="307" y="321" text-anchor="middle" font-family="Arial" font-size="21" font-weight="900" fill="#24333b">OCEAN CARRIER 21</text>
+ <path d="M520 217v170" stroke="#edf9ff" stroke-width="7"/><path d="M520 220l113 41-113 28z" fill="#e74d4d"/>
+ <g transform="translate(548 355)" filter="url(#shadow)"><ellipse cx="43" cy="-48" rx="33" ry="39" fill="#efb38c" stroke="#14242c" stroke-width="5"/><path d="M11-51q8-29 33-34q28 5 32 34z" fill="#263a44"/><rect x="0" y="-9" width="88" height="107" rx="17" fill="#eff7f9" stroke="#14242c" stroke-width="5"/><path d="M13 18l-76-28" stroke="#eff7f9" stroke-width="19" stroke-linecap="round"/><rect x="-151" y="-42" width="99" height="76" rx="9" fill="#0d3649" stroke="#75e5f0" stroke-width="4"/><circle cx="-124" cy="-12" r="8" fill="#79efb3"/><path d="M-107-19h38M-107-1h29" stroke="#95eefd" stroke-width="5"/></g>
+ <path d="M95 442q84-28 167 0" fill="none" stroke="#a8f5ff" stroke-width="5" stroke-dasharray="11 10"/>
+ <g fill="#8bc7a1" stroke="#274f3a" stroke-width="3"><circle cx="184" cy="437" r="10"/><circle cx="223" cy="451" r="8"/><circle cx="261" cy="430" r="9"/></g>
+ <rect x="38" y="103" width="493" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="284" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="284">외항선이 들어오기 전, FTF팀은 선체 틈과 흡입구까지 먼저 검사한다.</tspan><tspan x="284" dy="24" font-size="14">远洋船进港前，FTF团队先检查船体缝隙和海水吸入口。</tspan><tspan x="284" dy="22" font-size="13">Before entry, the FTF team inspects hull niches and sea-chest openings.</tspan></text>
+ <rect x="548" y="103" width="188" height="94" rx="22" fill="#fff2b6" stroke="#111" stroke-width="4"/>
+ <text x="642" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">입항 전 확인!</tspan><tspan x="642" dy="21" font-size="13">进港前检查！</tspan><tspan x="642" dy="19" font-size="12">Inspect before entry!</tspan></text>
+ <text x="42" y="486" fill="#fff" stroke="#0a5974" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">PING!  SCAN!  HOLD!</text>
+</g>
+
+<!-- PANEL 2: diver and ROV find hitchhiking species -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#sea)"/>
+ <path d="M800 172q286-92 606 0l-47 142H843z" fill="#233c48" stroke="#102630" stroke-width="7"/>
+ <g transform="translate(915 326)" filter="url(#shadow)"><circle cx="0" cy="0" r="39" fill="#182a33" stroke="#9cecf4" stroke-width="7"/><rect x="-31" y="38" width="62" height="105" rx="20" fill="#e7a52f" stroke="#182a33" stroke-width="6"/><rect x="-55" y="61" width="23" height="74" rx="10" fill="#18313d"/><path d="M-18 143l-34 66M18 143l42 62" stroke="#182a33" stroke-width="16" stroke-linecap="round"/></g>
+ <g transform="translate(1096 347)" filter="url(#shadow)"><rect width="173" height="88" rx="20" fill="#f09b2d" stroke="#24323a" stroke-width="6"/><circle cx="31" cy="72" r="25" fill="#1e343d" stroke="#8eeaf2" stroke-width="7"/><circle cx="143" cy="72" r="25" fill="#1e343d" stroke="#8eeaf2" stroke-width="7"/><rect x="48" y="18" width="76" height="34" rx="8" fill="#123543" stroke="#a7f5f8" stroke-width="4"/><circle cx="68" cy="35" r="8" fill="#7cf2b3"/><circle cx="103" cy="35" r="8" fill="#ffd76d"/></g>
+ <g fill="#7ba565" stroke="#314d2d" stroke-width="3"><path d="M1315 268q16-43 29 0q18-45 31 0q11-32 26 0v58h-86z"/><circle cx="1370" cy="344" r="13"/><circle cx="1402" cy="360" r="10"/></g>
+ <path d="M1270 392q85-29 150-11" fill="none" stroke="#ffda6c" stroke-width="5" stroke-dasharray="10 9"/>
+ <text x="1323" y="418" fill="#fff59e" font-family="Arial" font-size="18" font-weight="900">FOREIGN BIOFOULING CLUSTER</text>
+ <rect x="796" y="103" width="495" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1043" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1043">잠수팀과 ROV가 프로펠러 주변에서 낯선 부착생물 군집을 찾아낸다.</tspan><tspan x="1043" dy="24" font-size="14">潜水员与ROV在螺旋桨附近发现异常附着生物群。</tspan><tspan x="1043" dy="22" font-size="13">Divers and the ROV detect an unfamiliar biofouling cluster near the propeller.</tspan></text>
+ <rect x="1308" y="103" width="187" height="94" rx="22" fill="#ffe0d5" stroke="#111" stroke-width="4"/>
+ <text x="1401" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1401">그대로 들어오면 안 돼!</tspan><tspan x="1401" dy="21" font-size="13">不能直接进港！</tspan><tspan x="1401" dy="19" font-size="12">Do not bring it in!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#0b5b70" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">BEEP!  SPOT!  FLAG!</text>
+</g>
+
+<!-- PANEL 3: contained cleaning berth -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#dock)"/>
+ <rect x="16" y="797" width="746" height="209" fill="url(#sea)"/>
+ <path d="M78 720q230-78 455-19l-43 106H120z" fill="#29434e" stroke="#13252d" stroke-width="7"/>
+ <path d="M92 814q229 45 446 1" fill="none" stroke="#70dbe6" stroke-width="13"/>
+ <g transform="translate(514 694)" filter="url(#shadow)"><rect width="181" height="98" rx="19" fill="#133a49" stroke="#7cebf2" stroke-width="5"/><text x="91" y="27" text-anchor="middle" fill="#d9fbff" font-family="Arial" font-size="14" font-weight="900">CONTAINED CLEANING</text><rect x="27" y="43" width="127" height="31" rx="8" fill="#223f48"/><path d="M38 58h105" stroke="#70efb0" stroke-width="7"/></g>
+ <path d="M495 754q-90 13-166 69" fill="none" stroke="#74e3ee" stroke-width="16"/>
+ <path d="M327 823l37-4-18 33z" fill="#baf9ff"/>
+ <g transform="translate(150 650)" filter="url(#shadow)"><ellipse cx="43" cy="-48" rx="33" ry="39" fill="#edb088" stroke="#15242c" stroke-width="5"/><path d="M12-51q8-29 33-34q27 5 31 34z" fill="#303b3f"/><rect y="-9" width="88" height="107" rx="17" fill="#f2f7f9" stroke="#15242c" stroke-width="5"/><path d="M74 13l82 43" stroke="#f2f7f9" stroke-width="19" stroke-linecap="round"/></g>
+ <g transform="translate(451 873)"><rect width="266" height="87" rx="14" fill="#0e3341" stroke="#7de9ef" stroke-width="4"/><text x="133" y="27" text-anchor="middle" fill="#d8fbff" font-family="Arial" font-size="13" font-weight="900">RECOVERY FILTER</text><text x="133" y="57" text-anchor="middle" fill="#82f0b5" font-family="Arial" font-size="21" font-weight="900">CAPTURE 96%</text><text x="133" y="78" text-anchor="middle" fill="#ffd875" font-family="Arial" font-size="13" font-weight="900">NO DISCHARGE TO HARBOR</text></g>
+ <rect x="38" y="543" width="493" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="284" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="284">선박은 격리 세척 구역으로 이동한다. 떨어진 생물과 세척수는 모두 회수한다.</tspan><tspan x="284" dy="24" font-size="14">船舶转入封闭清洗泊位，脱落生物与清洗水全部回收。</tspan><tspan x="284" dy="22" font-size="13">The vessel moves to a contained berth; removed organisms and wash water are recovered.</tspan></text>
+ <rect x="548" y="543" width="188" height="94" rx="22" fill="#dffcff" stroke="#111" stroke-width="4"/>
+ <text x="642" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">바다로 흘리지 마!</tspan><tspan x="642" dy="21" font-size="13">不能排进海里！</tspan><tspan x="642" dy="19" font-size="12">Nothing back to sea!</tspan></text>
+ <text x="42" y="979" fill="#fff" stroke="#0b6078" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">SEAL!  CLEAN!  CAPTURE!</text>
+</g>
+
+<!-- PANEL 4: clearance and protected harbor -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="#dce9ed"/>
+ <rect x="790" y="784" width="714" height="206" rx="15" fill="url(#sea)"/>
+ <g transform="translate(823 650)" filter="url(#shadow)"><rect width="365" height="165" rx="18" fill="#0d3545" stroke="#74e7ef" stroke-width="5"/><text x="183" y="30" text-anchor="middle" fill="#d8fbff" font-family="Arial" font-size="15" font-weight="900">PORT BIOSECURITY CLEARANCE</text><text x="28" y="66" fill="#fff" font-family="Arial" font-size="16" font-weight="800">Foreign fouling risk</text><text x="337" y="66" text-anchor="end" fill="#82f0b4" font-family="Arial" font-size="19" font-weight="900">−93%</text><text x="28" y="98" fill="#fff" font-family="Arial" font-size="16" font-weight="800">Recovered solids</text><text x="337" y="98" text-anchor="end" fill="#82f0b4" font-family="Arial" font-size="19" font-weight="900">96%</text><text x="28" y="130" fill="#fff" font-family="Arial" font-size="16" font-weight="800">Harbor discharge</text><text x="337" y="130" text-anchor="end" fill="#ffd66e" font-family="Arial" font-size="19" font-weight="900">0</text><rect x="247" y="140" width="91" height="16" rx="8" fill="#68e6a2"/></g>
+ <g transform="translate(1245 667)" filter="url(#shadow)"><ellipse cx="44" cy="-49" rx="34" ry="40" fill="#efb48d" stroke="#14242c" stroke-width="5"/><path d="M13-52q8-29 32-34q28 5 32 34z" fill="#313a3e"/><rect x="0" y="-10" width="92" height="110" rx="18" fill="#f2f8f9" stroke="#14242c" stroke-width="5"/><path d="M10 10l-70-35" stroke="#f2f8f9" stroke-width="19" stroke-linecap="round"/><rect x="-141" y="-56" width="84" height="61" rx="8" fill="#173b49" stroke="#89edf4" stroke-width="4"/><text x="-99" y="-20" text-anchor="middle" fill="#81f0b5" font-family="Arial" font-size="13" font-weight="900">CLEAR</text></g>
+ <g fill="#d9f8ff" stroke="#156781" stroke-width="4"><path d="M863 893q39-25 72 0q-37 29-72 0z"/><path d="M1015 931q35-23 66 0q-34 26-66 0z"/><path d="M1195 881q33-21 62 0q-31 24-62 0z"/></g>
+ <path d="M1350 921q31-55 60 0q-31 35-60 0z" fill="#65a06e" stroke="#2a5d39" stroke-width="4"/>
+ <rect x="795" y="543" width="496" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1043" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1043">검사와 회수가 끝난 뒤에야 입항 허가가 떨어진다. 항구의 생태계는 그대로 지킨다.</tspan><tspan x="1043" dy="24" font-size="14">完成检查和回收后才允许进港，港湾生态系统因此得到保护。</tspan><tspan x="1043" dy="22" font-size="13">Only after inspection and recovery is entry cleared, protecting the harbor ecosystem.</tspan></text>
+ <rect x="1308" y="543" width="187" height="94" rx="22" fill="#dcffe8" stroke="#111" stroke-width="4"/>
+ <text x="1401" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1401">이제 입항!</tspan><tspan x="1401" dy="21" font-size="13">现在可以进港！</tspan><tspan x="1401" dy="19" font-size="12">Cleared to enter!</tspan></text>
+ <text x="803" y="979" fill="#fff" stroke="#0b6078" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">VERIFY!  CLEAR!  PROTECT!</text>
+</g>
+</svg>
