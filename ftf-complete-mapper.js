@@ -1,7 +1,7 @@
 (()=>{
   const BASE='/FTF-Mobile/assets/comics/';
-  const TARGET_SCENES=180;
-  const AVAILABLE_SCENES={1:153,2:30,3:17,8:26};
+  const TARGET_SCENES=30;
+  const AVAILABLE_SCENES={1:153,2:30,3:18,8:26};
   const COMPLETE=new Set(Object.keys(AVAILABLE_SCENES).map(Number));
   const previous=window.showComic;
   if(typeof previous!=='function')return;
@@ -20,7 +20,7 @@
     if(!viewer||!img)return result;
     const sceneNumber=idx+1;
     const ext=(n===1&&(sceneNumber===77||sceneNumber===96||sceneNumber===102))?'jpg':'svg';
-    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(sceneNumber).padStart(2,'0')}.${ext}?v=192`;
+    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(sceneNumber).padStart(2,'0')}.${ext}?v=193`;
     window.ftfSceneIndex=idx;
     viewer.classList.add('show','ftf-integrated');
     if(built)built.style.display='none';
