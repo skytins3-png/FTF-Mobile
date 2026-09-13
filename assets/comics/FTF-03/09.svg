@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+  <linearGradient id="night" x2="0" y2="1"><stop stop-color="#101a2c"/><stop offset="1" stop-color="#37546b"/></linearGradient>
+  <linearGradient id="rain" x2="1" y2="1"><stop stop-color="#17283e"/><stop offset="1" stop-color="#5b7788"/></linearGradient>
+  <linearGradient id="warm" x2="0" y2="1"><stop stop-color="#f5c779"/><stop offset="1" stop-color="#d46f5a"/></linearGradient>
+  <style>
+    .panel{stroke:#07101a;stroke-width:16}.bubble{fill:#fff;stroke:#17202b;stroke-width:5}.narr{fill:#f6eedb;stroke:#17202b;stroke-width:5}
+    .ko{font:700 24px Arial,sans-serif;fill:#111827}.zh{font:600 19px Arial,sans-serif;fill:#263448}.en{font:600 16px Arial,sans-serif;fill:#435266}
+    .fx{font:900 italic 38px Impact,Arial,sans-serif;fill:#ffd75c;stroke:#111827;stroke-width:3;paint-order:stroke}.skin{fill:#efbd98;stroke:#17202b;stroke-width:4}
+    .hair{fill:#1a2029;stroke:#0d1117;stroke-width:4}.coat{fill:#e8edf2;stroke:#17202b;stroke-width:4}.vest{fill:#e8992f;stroke:#17202b;stroke-width:4}.dark{fill:#26384a;stroke:#17202b;stroke-width:4}
+    .eye{fill:#1a2029}.screen{fill:#102638;stroke:#79d9ef;stroke-width:4}.line{fill:none;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+<rect width="1080" height="1920" fill="#070c13"/>
+<rect x="28" y="24" width="1024" height="110" rx="24" fill="#111c2b" stroke="#79d9ef" stroke-width="4"/>
+<text x="55" y="66" fill="#ccecff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 09</text>
+<text x="55" y="107" fill="white" font-size="33" font-weight="900">첫 번째 30일 — 생존망의 진짜 시험</text>
+
+<!-- PANEL 1: DAY 12 STORM CONTROL ROOM -->
+<rect class="panel" x="28" y="154" width="1024" height="405" rx="24" fill="url(#night)"/>
+<rect class="narr" x="55" y="176" width="925" height="92" rx="18"/>
+<text class="ko" x="78" y="208">관찰 12일째. 폭우가 도시 서쪽 전력망을 다시 흔든다.</text>
+<text class="zh" x="78" y="237">观察第12天。暴雨再次冲击城市西部电网。</text>
+<text class="en" x="78" y="260">DAY 12. HEAVY RAIN HITS THE WESTERN GRID AGAIN.</text>
+<!-- control consoles -->
+<rect class="screen" x="70" y="300" width="390" height="190" rx="14"/>
+<path class="line" d="M95 430 L150 388 L205 412 L265 350 L320 394 L375 330 L430 372" stroke="#64f0a2" stroke-width="8"/>
+<circle cx="265" cy="350" r="11" fill="#ff6d6d"/><circle cx="375" cy="330" r="11" fill="#ff6d6d"/>
+<text x="92" y="330" fill="#b6e9ff" font-size="18" font-weight="700">WEST GRID LOAD</text>
+<text x="92" y="470" fill="#ff9d9d" font-size="18" font-weight="900">WARNING · 87%</text>
+<!-- scientist woman -->
+<ellipse class="skin" cx="610" cy="355" rx="39" ry="47"/>
+<path class="hair" d="M570 340q10-62 74-31q18 10 12 44q-41-25-78-7z"/>
+<circle class="eye" cx="597" cy="357" r="4"/><circle class="eye" cx="623" cy="357" r="4"/><path d="M601 377q11 8 22 0" fill="none" stroke="#9a5e52" stroke-width="3"/>
+<path class="coat" d="M545 420q66-62 132 0v120H545z"/><path d="M610 420v120" stroke="#9ab3c3" stroke-width="4"/>
+<!-- engineer man -->
+<ellipse class="skin" cx="820" cy="360" rx="39" ry="47"/>
+<path class="hair" d="M780 345q15-60 75-28q18 10 9 42q-39-22-75-7z"/>
+<circle class="eye" cx="807" cy="362" r="4"/><circle class="eye" cx="833" cy="362" r="4"/><path d="M811 382q11 7 22 0" fill="none" stroke="#9a5e52" stroke-width="3"/>
+<path class="vest" d="M754 425q66-62 132 0v115H754z"/>
+<rect class="bubble" x="515" y="282" width="490" height="80" rx="18"/>
+<text class="ko" x="538" y="314">A구역 부하를 B·C구역으로 분산해!</text>
+<text class="en" x="538" y="343">SHIFT THE LOAD TO SECTORS B AND C!</text>
+<text class="fx" x="770" y="520">BEEP! ALERT!</text>
+
+<!-- PANEL 2: FIELD POWER + WATER REDUNDANCY -->
+<rect class="panel" x="28" y="580" width="1024" height="405" rx="24" fill="url(#rain)"/>
+<!-- rain -->
+<g stroke="#9fd6ee" stroke-width="5" opacity=".7"><path d="M80 610l-24 48M170 595l-24 50M280 610l-26 53M420 595l-25 52M560 612l-24 50M720 596l-26 54M880 608l-25 52M1010 595l-24 51"/></g>
+<!-- substation -->
+<rect x="70" y="720" width="360" height="190" rx="16" fill="#34485a" stroke="#111827" stroke-width="5"/>
+<rect x="105" y="752" width="110" height="105" fill="#182c3f" stroke="#87d9ee" stroke-width="4"/>
+<circle cx="160" cy="805" r="30" fill="#f4cf57" stroke="#111827" stroke-width="4"/><path d="M160 775v60M130 805h60" stroke="#684f12" stroke-width="7"/>
+<rect x="250" y="752" width="135" height="105" rx="8" fill="#172638" stroke="#86e8b1" stroke-width="4"/>
+<text x="269" y="790" fill="#9affc4" font-size="19" font-weight="800">BACKUP</text><text x="267" y="820" fill="white" font-size="17">POWER 100%</text>
+<!-- water plant -->
+<ellipse cx="775" cy="825" rx="190" ry="80" fill="#2d4f63" stroke="#111827" stroke-width="5"/>
+<ellipse cx="775" cy="795" rx="190" ry="80" fill="#4e90ac" stroke="#111827" stroke-width="5"/>
+<path d="M598 793q177 70 354 0" fill="none" stroke="#a8edf7" stroke-width="7"/>
+<rect x="665" y="655" width="220" height="90" rx="12" fill="#213a4d" stroke="#8ae5ec" stroke-width="4"/>
+<text x="692" y="694" fill="#baf4ff" font-size="21" font-weight="900">WATER NODE 3</text><text x="700" y="723" fill="white" font-size="17">PRESSURE STABLE</text>
+<!-- field engineer -->
+<ellipse class="skin" cx="495" cy="710" rx="35" ry="42"/><path class="hair" d="M459 696q10-52 62-26q15 8 9 37q-31-18-64-6z"/><path class="vest" d="M440 758q56-53 112 0v153H440z"/>
+<rect class="bubble" x="86" y="606" width="560" height="95" rx="18"/>
+<text class="ko" x="109" y="638">예비 전력 정상! 정수 압력도 유지됩니다!</text>
+<text class="zh" x="109" y="667">备用电力正常！净水压力保持稳定！</text>
+<text class="en" x="109" y="690">BACKUP POWER AND WATER PRESSURE ARE HOLDING!</text>
+<text class="fx" x="670" y="955">CLACK! FLOW!</text>
+
+<!-- PANEL 3: SHELTER HUMAN CHECK -->
+<rect class="panel" x="28" y="1005" width="1024" height="405" rx="24" fill="#d8e0dc"/>
+<rect x="60" y="1035" width="960" height="340" rx="18" fill="#b8c6c3"/>
+<path d="M80 1358L290 1080H800L1005 1358Z" fill="#e4e8e5" stroke="#263442" stroke-width="5"/>
+<rect x="435" y="1085" width="220" height="90" fill="#33495a"/><text x="468" y="1125" fill="white" font-size="22" font-weight="900">SHELTER · C</text><text x="496" y="1155" fill="#9affc4" font-size="17">128 / 128 SAFE</text>
+<!-- mother -->
+<ellipse class="skin" cx="255" cy="1210" rx="34" ry="41"/><path class="hair" d="M220 1196q10-54 55-31q20 10 16 43q-34-21-64-7z"/><circle class="eye" cx="244" cy="1212" r="4"/><circle class="eye" cx="266" cy="1212" r="4"/><path d="M242 1231q13 10 26 0" fill="none" stroke="#9a5e52" stroke-width="3"/><path d="M205 1260q50-48 101 0v100H205z" fill="#6684b5" stroke="#17202b" stroke-width="4"/>
+<!-- child -->
+<ellipse class="skin" cx="385" cy="1250" rx="27" ry="32"/><path class="hair" d="M357 1238q9-40 43-22q15 8 11 31q-27-16-48-5z"/><circle class="eye" cx="377" cy="1251" r="3"/><circle class="eye" cx="394" cy="1251" r="3"/><path d="M365 1288q40-39 80 0v72H365z" fill="#efb45f" stroke="#17202b" stroke-width="4"/>
+<!-- medic -->
+<ellipse class="skin" cx="790" cy="1200" rx="36" ry="44"/><path class="hair" d="M753 1185q10-56 58-28q18 9 13 38q-34-20-65-6z"/><circle class="eye" cx="779" cy="1202" r="4"/><circle class="eye" cx="802" cy="1202" r="4"/><path class="coat" d="M730 1255q61-55 122 0v105H730z"/><path d="M790 1260v65M760 1292h60" stroke="#d34949" stroke-width="10"/>
+<rect class="bubble" x="88" y="1049" width="710" height="91" rx="18"/>
+<text class="ko" x="111" y="1081">숫자만 맞으면 안 돼요. 한 사람씩 얼굴을 확인해요.</text>
+<text class="zh" x="111" y="1110">不能只看数字。要确认每一个人的面孔。</text>
+<text class="en" x="111" y="1133">NUMBERS AREN'T ENOUGH. CHECK EVERY PERSON.</text>
+<text class="fx" x="690" y="1380">CHECK! 128!</text>
+
+<!-- PANEL 4: DAY 30 REVIEW / HOPEFUL DAWN -->
+<rect class="panel" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#warm)"/>
+<!-- city -->
+<circle cx="880" cy="1530" r="78" fill="#ffe69a" opacity=".95"/>
+<g fill="#304457" stroke="#17202b" stroke-width="3"><rect x="55" y="1680" width="130" height="190"/><rect x="205" y="1625" width="155" height="245"/><rect x="380" y="1700" width="120" height="170"/><rect x="520" y="1650" width="175" height="220"/><rect x="715" y="1690" width="135" height="180"/><rect x="870" y="1640" width="145" height="230"/></g>
+<!-- review board -->
+<rect class="screen" x="95" y="1470" width="535" height="200" rx="16"/>
+<text x="120" y="1510" fill="#bceeff" font-size="20" font-weight="900">DAY 30 · SURVIVAL NETWORK REVIEW</text>
+<text x="120" y="1550" fill="#91ffc0" font-size="18">WATER ........ 99.4%</text><text x="120" y="1583" fill="#91ffc0" font-size="18">POWER ....... 98.8%</text><text x="120" y="1616" fill="#91ffc0" font-size="18">SHELTER CHECK 100%</text>
+<path class="line" d="M360 1615l45-35 42 18 44-60 52 24 48-42" stroke="#ffd85e" stroke-width="7"/>
+<!-- two protagonists in foreground -->
+<ellipse class="skin" cx="710" cy="1600" rx="39" ry="47"/><path class="hair" d="M670 1585q11-62 74-31q17 9 11 43q-39-23-77-7z"/><circle class="eye" cx="697" cy="1602" r="4"/><circle class="eye" cx="723" cy="1602" r="4"/><path d="M700 1622q11 8 22 0" fill="none" stroke="#9a5e52" stroke-width="3"/><path class="coat" d="M645 1665q65-60 130 0v205H645z"/>
+<ellipse class="skin" cx="880" cy="1605" rx="39" ry="47"/><path class="hair" d="M840 1590q13-60 74-30q17 9 10 42q-38-22-75-7z"/><circle class="eye" cx="867" cy="1607" r="4"/><circle class="eye" cx="893" cy="1607" r="4"/><path d="M870 1627q11 8 22 0" fill="none" stroke="#9a5e52" stroke-width="3"/><path class="vest" d="M815 1670q65-60 130 0v200H815z"/>
+<rect class="narr" x="80" y="1692" width="790" height="138" rx="20"/>
+<text class="ko" x="105" y="1728">30일을 버텼다. 하지만 성공이 아니라, 이제 시작할 자격을 얻은 것이다.</text>
+<text class="zh" x="105" y="1760">我们撑过了30天。但这不是成功，只是获得了继续开始的资格。</text>
+<text class="en" x="105" y="1793">WE SURVIVED 30 DAYS. THIS IS NOT VICTORY—IT IS PERMISSION TO CONTINUE.</text>
+<text class="fx" x="690" y="1860">DAY 30 · GO!</text>
+</svg>
