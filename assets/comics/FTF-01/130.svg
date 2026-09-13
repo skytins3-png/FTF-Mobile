@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="storm" x2="0" y2="1"><stop stop-color="#152536"/><stop offset="1" stop-color="#566d79"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#4b555d"/><stop offset="1" stop-color="#20272d"/></linearGradient>
+ <linearGradient id="bio" x2="0" y2="1"><stop stop-color="#a8d4b5"/><stop offset="1" stop-color="#376d58"/></linearGradient>
+ <linearGradient id="river" x2="0" y2="1"><stop stop-color="#6ed6e3"/><stop offset="1" stop-color="#0b5574"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".45"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="rain" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M8 0L0 20M25 0L14 30M38 3L28 28" stroke="#d7f4ff" stroke-width="3" opacity=".34"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="#071018"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0b2a3d"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #130  검은 먼지의 길을 끊어라</text>
+<text x="930" y="49" fill="#bdf7ff" font-family="Arial" font-size="18" font-weight="800">B-33 TIRE-WEAR RUNOFF INTERCEPT · 轮胎磨损颗粒拦截</text>
+
+<!-- PANEL 1: road source tracking -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#storm)"/>
+ <rect x="16" y="84" width="746" height="428" fill="url(#rain)"/>
+ <path d="M16 350Q210 325 400 350T762 338V512H16z" fill="url(#road)"/>
+ <path d="M25 405h690" stroke="#e9e39a" stroke-width="8" stroke-dasharray="48 34" opacity=".75"/>
+ <g transform="translate(80 277)" filter="url(#shadow)"><rect width="205" height="76" rx="24" fill="#21475c" stroke="#0c1e28" stroke-width="6"/><path d="M28 8h126l34 45H5z" fill="#7ca2b1"/><circle cx="48" cy="74" r="28" fill="#151a1e" stroke="#57626a" stroke-width="8"/><circle cx="163" cy="74" r="28" fill="#151a1e" stroke="#57626a" stroke-width="8"/></g>
+ <g fill="#141414" filter="url(#glow)"><circle cx="270" cy="382" r="8"/><circle cx="294" cy="390" r="5"/><circle cx="323" cy="395" r="7"/><circle cx="348" cy="401" r="4"/><circle cx="385" cy="407" r="6"/><circle cx="418" cy="410" r="5"/><circle cx="452" cy="416" r="7"/></g>
+ <path d="M265 380Q385 420 523 452" fill="none" stroke="#77dcff" stroke-width="15" opacity=".75"/><path d="M275 382Q390 419 516 447" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="8 12"/>
+ <g filter="url(#shadow)"><ellipse cx="574" cy="282" rx="38" ry="44" fill="#edb58e" stroke="#10212b" stroke-width="5"/><path d="M540 275q9-34 36-40q31 6 36 40z" fill="#2b343b"/><path d="M530 344q45-27 90 0l32 133H497z" fill="#146678" stroke="#10212b" stroke-width="5"/><path d="M536 362q-53 10-100 43" stroke="#146678" stroke-width="22" stroke-linecap="round"/><text x="575" y="426" text-anchor="middle" fill="#fff" font-family="Arial" font-size="20" font-weight="900">FTF</text></g>
+ <g filter="url(#shadow)"><ellipse cx="686" cy="307" rx="34" ry="40" fill="#dca073" stroke="#10212b" stroke-width="5"/><path d="M656 300q8-31 32-37q29 6 34 38z" fill="#40302e"/><path d="M650 360q38-22 76 0l26 118H624z" fill="#e0a044" stroke="#10212b" stroke-width="5"/></g>
+ <rect x="34" y="103" width="488" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="278" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="278">빗속 도로의 검은 가루는 단순한 흙이 아니다. 타이어 마모 입자다.</tspan><tspan x="278" dy="24" font-size="14">雨天路面的黑色粉末并非普通尘土，而是轮胎磨损颗粒。</tspan><tspan x="278" dy="22" font-size="13">The black dust on wet roads is tire-wear debris, not ordinary dirt.</tspan></text>
+ <rect x="520" y="104" width="214" height="96" rx="22" fill="#fff3c9" stroke="#111" stroke-width="4"/>
+ <text x="627" y="134" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="627">배수구까지 추적해!</tspan><tspan x="627" dy="22" font-size="13">追到排水口！</tspan><tspan x="627" dy="20" font-size="12">Trace it to the drain!</tspan></text>
+ <text x="42" y="487" fill="#fff" stroke="#0a5169" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">SKRRR!  RAIN!  TRACE!</text>
+</g>
+
+<!-- PANEL 2: capture system -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#bio)"/>
+ <path d="M774 396Q950 315 1125 367T1520 350V512H774z" fill="#486a51"/>
+ <path d="M797 174h685v290H797z" fill="#6d7e75" stroke="#243b35" stroke-width="6"/>
+ <path d="M815 205h228l72 190H866z" fill="#354b4a" stroke="#172b2b" stroke-width="6"/>
+ <g stroke="#98aaa6" stroke-width="7"><path d="M838 242h241M850 278h241M862 314h241M874 350h241"/><path d="M885 210l35 184M942 210l35 184M999 210l35 184"/></g>
+ <path d="M1097 255Q1170 306 1244 300T1423 252" fill="none" stroke="#7bd8ef" stroke-width="26" opacity=".8"/>
+ <g transform="translate(1115 189)"><rect width="295" height="155" rx="20" fill="#14384a" stroke="#74e4c5" stroke-width="6"/><rect x="23" y="23" width="249" height="109" rx="12" fill="#d9f7ec" stroke="#2b7868" stroke-width="5"/><g stroke="#4e9b83" stroke-width="5"><path d="M42 42l208 75M42 70l190 60M69 27l198 73M52 119l202-77"/></g><g fill="#242424"><circle cx="90" cy="65" r="8"/><circle cx="141" cy="90" r="7"/><circle cx="192" cy="62" r="8"/><circle cx="221" cy="109" r="7"/></g></g>
+ <g filter="url(#shadow)"><ellipse cx="1018" cy="151" rx="35" ry="41" fill="#f0bd98" stroke="#10212b" stroke-width="5"/><path d="M987 144q8-31 32-37q29 5 35 38z" fill="#293840"/><path d="M980 205q39-23 77 0l26 119H951z" fill="#eef8f9" stroke="#10212b" stroke-width="5"/><path d="M1051 225q48 6 79 28" stroke="#eef8f9" stroke-width="21" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1444" cy="178" rx="34" ry="40" fill="#d79d70" stroke="#10212b" stroke-width="5"/><path d="M1414 171q8-31 32-37q28 5 34 37z" fill="#32323a"/><path d="M1407 233q38-23 75 0l25 118h-126z" fill="#225d49" stroke="#10212b" stroke-width="5"/></g>
+ <rect x="796" y="103" width="452" height="115" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1022" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1022">배수구 1차 필터 뒤에 광물층·바이오차 포집대를 추가한다.</tspan><tspan x="1022" dy="24" font-size="14">在雨水口滤网后加装矿物层与生物炭捕集带。</tspan><tspan x="1022" dy="22" font-size="13">A mineral-and-biochar trap captures tire particles after the drain screen.</tspan></text>
+ <rect x="1260" y="106" width="231" height="94" rx="22" fill="#e7ffd9" stroke="#111" stroke-width="4"/>
+ <text x="1375" y="135" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1375">두 단계로 잡아!</tspan><tspan x="1375" dy="22" font-size="13">两级拦截！</tspan><tspan x="1375" dy="20" font-size="12">Catch it in two stages!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#145944" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">FILTER!  TRAP!  HOLD!</text>
+</g>
+
+<!-- PANEL 3: field verification -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="#bed6d2"/>
+ <path d="M16 838Q172 793 315 839T762 817V1006H16z" fill="#6a8d82"/>
+ <path d="M44 720h682v213H44z" fill="#8fa9a5" stroke="#46645f" stroke-width="5"/>
+ <g transform="translate(72 739)"><rect width="286" height="166" rx="14" fill="#123a4c" stroke="#79ead0" stroke-width="5"/><text x="143" y="30" text-anchor="middle" fill="#dffff9" font-family="Arial" font-size="16" font-weight="900">RUNOFF SAMPLE · 14 DAYS</text><text x="22" y="72" fill="#fff" font-family="Arial" font-size="14" font-weight="800">TIRE PARTICLES</text><text x="260" y="72" text-anchor="end" fill="#83f0b0" font-family="Arial" font-size="26" font-weight="900">−69%</text><text x="22" y="108" fill="#fff" font-family="Arial" font-size="14" font-weight="800">ZINC LOAD</text><text x="260" y="108" text-anchor="end" fill="#7edcff" font-family="Arial" font-size="26" font-weight="900">−47%</text><text x="22" y="143" fill="#fff" font-family="Arial" font-size="14" font-weight="800">CAPTURE SERVICE</text><text x="260" y="143" text-anchor="end" fill="#ffe477" font-family="Arial" font-size="18" font-weight="900">21 DAYS</text></g>
+ <g transform="translate(390 744)"><rect width="292" height="158" rx="14" fill="#ecfbfb" stroke="#346b71" stroke-width="5"/><circle cx="84" cy="83" r="53" fill="#fff" stroke="#527f86" stroke-width="5"/><g fill="#1b1b1b"><circle cx="58" cy="66" r="7"/><circle cx="92" cy="52" r="6"/><circle cx="110" cy="85" r="8"/><circle cx="72" cy="102" r="5"/><circle cx="121" cy="116" r="6"/></g><text x="174" y="55" fill="#1b4f58" font-family="Arial" font-size="15" font-weight="900">MICROSCOPE</text><text x="174" y="85" fill="#1c7d69" font-family="Arial" font-size="23" font-weight="900">BEFORE → AFTER</text><text x="174" y="116" fill="#253f45" font-family="Arial" font-size="15" font-weight="800">particle count drops</text></g>
+ <g filter="url(#shadow)"><ellipse cx="626" cy="646" rx="37" ry="43" fill="#edb58e" stroke="#10212b" stroke-width="5"/><path d="M593 639q8-33 35-39q30 6 34 40z" fill="#363239"/><path d="M586 705q41-24 81 0l29 112H557z" fill="#eef8f9" stroke="#10212b" stroke-width="5"/><path d="M590 726q-50 9-91 34" stroke="#eef8f9" stroke-width="21" stroke-linecap="round"/></g>
+ <rect x="39" y="543" width="470" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="274" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="274">두 번의 폭우 뒤에도 타이어 입자와 아연 유출이 크게 줄었다.</tspan><tspan x="274" dy="24" font-size="14">两场暴雨后，轮胎颗粒与锌的外排仍显著下降。</tspan><tspan x="274" dy="22" font-size="13">After two storms, tire-particle and zinc runoff remain sharply lower.</tspan></text>
+ <rect x="522" y="549" width="207" height="95" rx="22" fill="#eafff5" stroke="#111" stroke-width="4"/>
+ <text x="625" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="625">검은 먼지가 줄었어!</tspan><tspan x="625" dy="22" font-size="13">黑色颗粒减少了！</tspan><tspan x="625" dy="20" font-size="12">The black dust is down!</tspan></text>
+ <text x="43" y="978" fill="#fff" stroke="#225d5a" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="33" font-weight="900">SAMPLE!  COUNT!  VERIFY!</text>
+</g>
+
+<!-- PANEL 4: cleaner river mouth -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#river)"/>
+ <circle cx="1428" cy="603" r="62" fill="#ffe69b" opacity=".88"/>
+ <path d="M774 814Q934 761 1080 809T1520 789V1006H774z" fill="#0a6e7b"/>
+ <g opacity=".95"><path d="M872 821q32-28 64 0q-31 26-64 0z" fill="#c9f7ff"/><circle cx="924" cy="815" r="4" fill="#102c34"/><path d="M1010 859q27-24 55 0q-28 23-55 0z" fill="#d6f9d1"/><circle cx="1055" cy="854" r="4" fill="#102c34"/><path d="M1178 798q36-31 70 0q-34 29-70 0z" fill="#e5f7bd"/><circle cx="1235" cy="792" r="4" fill="#102c34"/></g>
+ <g transform="translate(1285 778)" filter="url(#shadow)"><ellipse cx="0" cy="0" rx="64" ry="38" fill="#4aa98a"/><ellipse cx="-58" cy="-5" rx="25" ry="15" fill="#4aa98a"/><path d="M30 30l35 26-42 4zM22-31l34-24-45 4z" fill="#3e8d75"/><circle cx="-74" cy="-9" r="5" fill="#122c2a"/></g>
+ <g filter="url(#shadow)"><ellipse cx="965" cy="679" rx="38" ry="44" fill="#efb991" stroke="#10212b" stroke-width="5"/><path d="M931 672q9-34 36-40q31 6 36 40z" fill="#2d3540"/><path d="M921 739q45-27 90 0l32 132H888z" fill="#146678" stroke="#10212b" stroke-width="5"/><text x="966" y="817" text-anchor="middle" fill="#fff" font-family="Arial" font-size="20" font-weight="900">FTF</text></g>
+ <g filter="url(#shadow)"><ellipse cx="1088" cy="696" rx="34" ry="40" fill="#d9a274" stroke="#10212b" stroke-width="5"/><path d="M1058 689q8-31 32-37q29 6 34 38z" fill="#44322e"/><path d="M1052 749q38-22 76 0l26 119h-128z" fill="#d89a42" stroke="#10212b" stroke-width="5"/></g>
+ <rect x="796" y="544" width="460" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1026" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1026">도로에서 막은 작은 입자 하나가 하구와 바다의 생명을 지킨다.</tspan><tspan x="1026" dy="24" font-size="14">在道路上拦下的一颗小颗粒，也能守护河口与海洋生命。</tspan><tspan x="1026" dy="22" font-size="13">Every particle stopped on the road protects life downstream.</tspan></text>
+ <rect x="1271" y="551" width="218" height="96" rx="22" fill="#e6fff0" stroke="#111" stroke-width="4"/>
+ <text x="1380" y="581" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1380">바다까지 보내지 마!</tspan><tspan x="1380" dy="22" font-size="13">别让它流进大海！</tspan><tspan x="1380" dy="20" font-size="12">Keep it out of the sea!</tspan></text>
+ <rect x="1132" y="694" width="347" height="143" rx="18" fill="#082b3b" stroke="#77ead7" stroke-width="5" opacity=".96"/>
+ <text x="1305" y="724" text-anchor="middle" fill="#dffff8" font-family="Arial" font-size="16" font-weight="900">B-33 FIELD RESULT</text><text x="1155" y="761" fill="#fff" font-family="Arial" font-size="14" font-weight="800">TIRE PARTICLE OUTFALL</text><text x="1454" y="761" text-anchor="end" fill="#82f0b3" font-family="Arial" font-size="24" font-weight="900">−69%</text><text x="1155" y="799" fill="#fff" font-family="Arial" font-size="14" font-weight="800">ESTUARY TURBIDITY</text><text x="1454" y="799" text-anchor="end" fill="#7edcff" font-family="Arial" font-size="24" font-weight="900">−31%</text>
+ <text x="802" y="978" fill="#fff" stroke="#0b5667" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="32" font-weight="900">STOP AT SOURCE · PROTECT DOWNSTREAM!</text>
+</g>
+</svg>
