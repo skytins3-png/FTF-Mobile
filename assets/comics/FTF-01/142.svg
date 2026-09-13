@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 142 trace the invader route before the next arrival">
+<defs>
+  <linearGradient id="night" x2="0" y2="1"><stop stop-color="#07172d"/><stop offset=".58" stop-color="#234c67"/><stop offset="1" stop-color="#e78650"/></linearGradient>
+  <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#159ab3"/><stop offset="1" stop-color="#043344"/></linearGradient>
+  <linearGradient id="ops" x2="1" y2="1"><stop stop-color="#e8f0f3"/><stop offset="1" stop-color="#96aeb9"/></linearGradient>
+  <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#304d72"/><stop offset=".62" stop-color="#e8a763"/><stop offset="1" stop-color="#f4d19c"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-opacity=".5"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#76e8ef" stroke-opacity=".16"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="#061219"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#11364d"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #142  침입자의 길을 거꾸로 추적한다</text>
+<text x="900" y="49" fill="#caf7ff" font-family="Arial" font-size="18" font-weight="800">TRACE THE ROUTE · 追踪入侵路径 · PRE-ARRIVAL DEFENSE</text>
+
+<!-- PANEL 1: analysts compare the faint eDNA hit with a harbor genetic fingerprint library -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#ops)"/>
+ <rect x="37" y="246" width="700" height="229" rx="18" fill="#c5d3da" stroke="#617782" stroke-width="4"/>
+ <rect x="413" y="263" width="286" height="170" rx="16" fill="#0c3040" stroke="#78e9ef" stroke-width="5" filter="url(#shadow)"/>
+ <rect x="431" y="282" width="250" height="132" fill="url(#grid)"/>
+ <path d="M449 352h21l12-38 14 71 16-50 18 25 17-61 15 78 19-45 16 28h24l13-51 15 60 17-31 18 18" fill="none" stroke="#7cf0b5" stroke-width="5"/>
+ <text x="556" y="404" text-anchor="middle" fill="#ffcf67" font-family="Arial" font-size="14" font-weight="900">eDNA FINGERPRINT MATCH · 92%</text>
+ <!-- female molecular ecologist -->
+ <g transform="translate(91 346)" filter="url(#shadow)">
+   <ellipse cx="48" cy="-57" rx="35" ry="42" fill="#d9a17b" stroke="#142832" stroke-width="5"/>
+   <path d="M13-63q7-34 36-39q30 7 33 39l-18-11q-22 10-51 11z" fill="#392b2a"/>
+   <circle cx="37" cy="-57" r="4"/><circle cx="60" cy="-57" r="4"/>
+   <rect x="0" y="-10" width="101" height="116" rx="18" fill="#f6fafb" stroke="#142832" stroke-width="5"/>
+   <path d="M87 18l110 23" stroke="#f6fafb" stroke-width="20" stroke-linecap="round"/>
+   <path d="M22 105l-18 65M77 105l20 65" stroke="#344750" stroke-width="23" stroke-linecap="round"/>
+ </g>
+ <!-- male data analyst -->
+ <g transform="translate(274 355)" filter="url(#shadow)">
+   <ellipse cx="44" cy="-51" rx="33" ry="39" fill="#c98f6c" stroke="#142832" stroke-width="5"/>
+   <path d="M12-57q7-31 34-35q27 5 31 34l-16-9q-20 8-49 10z" fill="#273137"/>
+   <rect y="-5" width="94" height="108" rx="18" fill="#1f6e87" stroke="#142832" stroke-width="5"/>
+   <path d="M79 17l88-25" stroke="#1f6e87" stroke-width="19" stroke-linecap="round"/>
+ </g>
+ <rect x="39" y="102" width="505" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="291" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="291">B-2의 미세 신호를 항만 유전자 지문 자료와 대조하자, 지난달 외항선에서 검출된 계통과 92% 일치한다.</tspan><tspan x="291" dy="24" font-size="14">将B-2微弱信号与港口基因指纹库比对，和上月一艘外轮检出的谱系吻合92%。</tspan><tspan x="291" dy="22" font-size="13">The B-2 trace matches a lineage found on a foreign vessel last month—92% similarity.</tspan></text>
+ <rect x="559" y="103" width="176" height="92" rx="22" fill="#fff1b4" stroke="#111" stroke-width="4"/>
+ <text x="647" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="647">신호에는 경로가 있다!</tspan><tspan x="647" dy="21" font-size="13">信号有路径！</tspan><tspan x="647" dy="19" font-size="12">Every signal has a route!</tspan></text>
+ <text x="43" y="486" fill="#fff" stroke="#5d7884" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">MATCH!  LINK!  TRACE!</text>
+</g>
+
+<!-- PANEL 2: combine AIS shipping routes and port calls to identify the likely source corridor -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="#0c2637"/>
+ <rect x="796" y="238" width="700" height="239" rx="18" fill="#10384a" stroke="#5fbac8" stroke-width="4"/>
+ <!-- stylized harbor/world route map -->
+ <path d="M833 390q67-92 150-50t130-37q78-72 160-12t184-27" fill="none" stroke="#276475" stroke-width="42" opacity=".55"/>
+ <path d="M835 393q78-42 152-24t136-24q92-55 173 4t158-51" fill="none" stroke="#63dbe7" stroke-width="5" stroke-dasharray="12 12"/>
+ <circle cx="886" cy="377" r="12" fill="#ffd15f" filter="url(#glow)"/><circle cx="1117" cy="346" r="12" fill="#ffd15f" filter="url(#glow)"/><circle cx="1298" cy="348" r="12" fill="#ff6d6a" filter="url(#glow)"/><circle cx="1448" cy="298" r="12" fill="#7cf0b5" filter="url(#glow)"/>
+ <text x="862" y="422" fill="#fff" font-family="Arial" font-size="13" font-weight="800">PORT A</text><text x="1082" y="326" fill="#fff" font-family="Arial" font-size="13" font-weight="800">PORT C</text><text x="1260" y="384" fill="#ffc7c3" font-family="Arial" font-size="13" font-weight="900">VESSEL K-17</text><text x="1390" y="278" fill="#c8ffe3" font-family="Arial" font-size="13" font-weight="900">FTF HARBOR</text>
+ <!-- ship icon -->
+ <g transform="translate(1240 278)" filter="url(#shadow)"><path d="M0 44h104l-18 38H20z" fill="#e8eef0" stroke="#10232c" stroke-width="5"/><rect x="33" y="11" width="45" height="34" fill="#e8eef0" stroke="#10232c" stroke-width="4"/><rect x="48" y="-13" width="8" height="25" fill="#263b44"/></g>
+ <!-- route investigator -->
+ <g transform="translate(829 349)" filter="url(#shadow)"><ellipse cx="42" cy="-50" rx="32" ry="39" fill="#dfa77e" stroke="#122832" stroke-width="5"/><path d="M11-57q6-29 32-34q29 6 31 33l-15-9q-19 8-48 10z" fill="#322c29"/><rect y="-4" width="91" height="106" rx="17" fill="#f0aa35" stroke="#122832" stroke-width="5"/><path d="M80 18l90-34" stroke="#f0aa35" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="797" y="102" width="503" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1048" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1048">AIS 항적·기항 기록·선체 검사 이력을 겹치자 같은 항로의 K-17 선박이 위험 연결점으로 좁혀진다.</tspan><tspan x="1048" dy="24" font-size="14">叠加AIS航迹、靠港记录和船体检查史后，风险源锁定到同航线的K-17。</tspan><tspan x="1048" dy="22" font-size="13">AIS tracks, port calls and hull records narrow the likely source corridor to vessel K-17.</tspan></text>
+ <rect x="1318" y="103" width="178" height="92" rx="22" fill="#ffd8d3" stroke="#111" stroke-width="4"/>
+ <text x="1407" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1407">다음 입항 전에 확인!</tspan><tspan x="1407" dy="21" font-size="13">下次进港前核验！</tspan><tspan x="1407" dy="19" font-size="12">Check before arrival!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#0c566b" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">MAP!  CROSS-CHECK!  FLAG!</text>
+</g>
+
+<!-- PANEL 3: pre-arrival inspection at outer anchorage, real crew/diver/ROV -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="12" fill="url(#night)"/>
+ <rect x="16" y="709" width="746" height="297" fill="url(#sea)"/>
+ <path d="M353 641h296l-35 82H389z" fill="#e7ecee" stroke="#172830" stroke-width="6"/><rect x="438" y="585" width="108" height="58" rx="6" fill="#d7e4e8" stroke="#172830" stroke-width="5"/><rect x="477" y="544" width="10" height="44" fill="#273d46"/>
+ <text x="500" y="692" text-anchor="middle" fill="#243840" font-family="Arial" font-size="17" font-weight="900">K-17</text>
+ <!-- inspector on patrol boat -->
+ <g transform="translate(94 699)" filter="url(#shadow)"><path d="M0 78h214l-28 57H24z" fill="#e7b338" stroke="#142832" stroke-width="6"/><rect x="51" y="33" width="96" height="48" fill="#eaf1f3" stroke="#142832" stroke-width="5"/><ellipse cx="98" cy="8" rx="30" ry="36" fill="#d7a17c" stroke="#142832" stroke-width="5"/><path d="M70 3q6-27 29-31q25 5 27 30l-13-8q-17 7-43 9z" fill="#2d3438"/><rect x="61" y="42" width="77" height="63" rx="13" fill="#f18b36" stroke="#142832" stroke-width="4"/></g>
+ <!-- diver -->
+ <g transform="translate(428 836)" filter="url(#shadow)"><ellipse cx="0" cy="0" rx="30" ry="35" fill="#1d3039" stroke="#d7eef1" stroke-width="4"/><rect x="-20" y="-7" width="40" height="19" rx="7" fill="#75e1eb" opacity=".75"/><path d="M-4 36l-36 88M12 35l45 84M-22 44l-60 38M30 43l62 21" stroke="#e5a637" stroke-width="20" stroke-linecap="round"/><rect x="23" y="-5" width="19" height="62" rx="8" fill="#cbd7da" stroke="#17303a" stroke-width="4"/></g>
+ <!-- ROV and scan beams -->
+ <g transform="translate(582 820)" filter="url(#shadow)"><rect width="119" height="70" rx="14" fill="#efb437" stroke="#142832" stroke-width="5"/><circle cx="28" cy="35" r="12" fill="#123947"/><circle cx="91" cy="35" r="12" fill="#123947"/><circle cx="60" cy="35" r="8" fill="#7bf0b6" filter="url(#glow)"/><path d="M0 24l-108-45M0 48l-112 65" stroke="#78e9ef" stroke-width="4" opacity=".55"/></g>
+ <rect x="39" y="545" width="507" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="292" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="292">K-17이 다시 오자 부두가 아니라 외항 정박지에서 먼저 멈춘다. 잠수팀과 ROV가 선체·흡입구를 정밀 검사한다.</tspan><tspan x="292" dy="24" font-size="14">K-17再次抵达时先停在外锚地，潜水员和ROV对船体与海水箱入口做精细检查。</tspan><tspan x="292" dy="22" font-size="13">When K-17 returns, it stops offshore first; divers and an ROV inspect hull and sea-chest intakes.</tspan></text>
+ <rect x="565" y="546" width="170" height="91" rx="22" fill="#d7f5ff" stroke="#111" stroke-width="4"/>
+ <text x="650" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="650">항구 안으로는 아직!</tspan><tspan x="650" dy="21" font-size="13">暂不进港！</tspan><tspan x="650" dy="19" font-size="12">Not inside yet!</tspan></text>
+ <text x="42" y="974" fill="#fff" stroke="#075267" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">HOLD!  DIVE!  SCAN!</text>
+</g>
+
+<!-- PANEL 4: treatment completed offshore and harbor remains clean -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="12" fill="url(#dawn)"/>
+ <rect x="774" y="713" width="746" height="293" fill="url(#sea)"/>
+ <!-- treatment barge and contained recovery -->
+ <path d="M821 683h294l-31 69H851z" fill="#dfe9eb" stroke="#172830" stroke-width="6"/><rect x="873" y="620" width="118" height="64" fill="#d7e5e8" stroke="#172830" stroke-width="5"/><rect x="1011" y="635" width="71" height="48" rx="8" fill="#efad36" stroke="#172830" stroke-width="5"/><path d="M1047 682v116" stroke="#e8eef0" stroke-width="12"/><rect x="1015" y="793" width="66" height="84" rx="12" fill="#dcebed" stroke="#17323d" stroke-width="5"/><text x="1048" y="838" text-anchor="middle" fill="#16333e" font-family="Arial" font-size="12" font-weight="900">SEALED</text>
+ <!-- clear harbor / fish / eelgrass -->
+ <path d="M1171 953q22-63 8-119M1220 958q-15-58 13-118M1272 956q23-60 4-116M1327 960q-19-66 13-124M1390 956q15-55 2-112" fill="none" stroke="#48a96b" stroke-width="13" stroke-linecap="round"/>
+ <g fill="#f7d15f" stroke="#143744" stroke-width="3"><path d="M1190 816q34-24 67 0q-33 26-67 0zm0 0-20-16v31z"/><path d="M1320 862q31-22 60 0q-30 23-60 0zm0 0-18-14v28z"/><path d="M1411 800q25-18 50 0q-25 19-50 0zm0 0-16-12v24z"/></g>
+ <!-- two harbor staff -->
+ <g transform="translate(1124 683)" filter="url(#shadow)"><ellipse cx="43" cy="-49" rx="32" ry="38" fill="#dca27b" stroke="#142832" stroke-width="5"/><path d="M11-55q6-29 33-34q28 5 30 33l-15-9q-20 8-48 10z" fill="#362c2b"/><rect y="-5" width="91" height="104" rx="17" fill="#f2b43a" stroke="#142832" stroke-width="5"/><path d="M78 18l92 26" stroke="#f2b43a" stroke-width="18" stroke-linecap="round"/></g>
+ <g transform="translate(1285 686)" filter="url(#shadow)"><ellipse cx="43" cy="-49" rx="32" ry="38" fill="#c9906e" stroke="#142832" stroke-width="5"/><path d="M12-56q6-29 32-33q28 5 30 32l-15-9q-19 8-47 10z" fill="#28343a"/><rect y="-5" width="91" height="104" rx="17" fill="#20728a" stroke="#142832" stroke-width="5"/></g>
+ <rect x="797" y="545" width="505" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1049" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1049">의심 부착물은 외항에서 밀폐 회수·처리한다. 재검사 음성 확인 뒤에만 입항을 허가하고 항내 감시망은 계속 켜 둔다.</tspan><tspan x="1049" dy="24" font-size="14">可疑附着物在外锚地密闭回收处理，复检阴性后才准入港，港内监测持续运行。</tspan><tspan x="1049" dy="22" font-size="13">Suspect growth is contained offshore; entry follows only after a negative re-test while harbor sentinels stay active.</tspan></text>
+ <rect x="1319" y="546" width="176" height="109" rx="22" fill="#d9ffe9" stroke="#111" stroke-width="4"/>
+ <text x="1407" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1407">SOURCE RISK −91%</tspan><tspan x="1407" dy="20">HARBOR RELEASE 0</tspan><tspan x="1407" dy="20">NATIVE JUVENILES +29%</tspan><tspan x="1407" dy="20" font-size="12">源头风险下降 · 港内零排放</tspan></text>
+ <text x="801" y="974" fill="#fff" stroke="#075267" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="29" font-weight="900">CONTAIN!  RE-TEST!  CLEAR!</text>
+</g>
+</svg>
