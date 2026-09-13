@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="studio" x2="0" y2="1"><stop stop-color="#d9f0f2"/><stop offset="1" stop-color="#9bb8bf"/></linearGradient>
+ <linearGradient id="testlab" x2="0" y2="1"><stop stop-color="#dff7fa"/><stop offset="1" stop-color="#6ca5b7"/></linearGradient>
+ <linearGradient id="ocean" x2="0" y2="1"><stop stop-color="#56bfd6"/><stop offset="1" stop-color="#073b58"/></linearGradient>
+ <linearGradient id="control" x2="0" y2="1"><stop stop-color="#18384d"/><stop offset="1" stop-color="#071722"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".32"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#07141f"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0d2c42"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #127  옷 한 벌에서 바다를 지키다</text>
+<text x="962" y="49" fill="#bff6ff" font-family="Arial" font-size="18" font-weight="800">B-30 LOW-SHED DESIGN SHIFT · 低脱纤设计转变</text>
+
+<!-- PANEL 1: design studio -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#studio)"/>
+ <rect x="16" y="357" width="746" height="155" fill="#6f8790"/>
+ <rect x="62" y="146" width="250" height="177" rx="10" fill="#f6fbfc" stroke="#264451" stroke-width="6"/>
+ <rect x="88" y="174" width="85" height="118" rx="8" fill="#318aa4"/><rect x="185" y="174" width="98" height="52" rx="8" fill="#73c8b7"/><rect x="185" y="239" width="98" height="53" rx="8" fill="#d8ab68"/>
+ <text x="187" y="333" text-anchor="middle" fill="#173845" font-family="Arial" font-size="19" font-weight="900">FABRIC LIBRARY</text>
+ <rect x="339" y="334" width="343" height="73" rx="12" fill="#c9dfe3" stroke="#294958" stroke-width="5"/>
+ <g filter="url(#sh)"><ellipse cx="445" cy="238" rx="39" ry="45" fill="#efbd98" stroke="#10212b" stroke-width="5"/><path d="M409 229q10-36 39-43q34 7 39 44z" fill="#342d33"/><path d="M401 295q44-27 88 0l32 143H371z" fill="#eef9fb" stroke="#10212b" stroke-width="5"/><text x="445" y="379" text-anchor="middle" fill="#0b6687" font-family="Arial" font-size="21" font-weight="900">FTF</text><path d="M486 319q52 12 90 35" stroke="#eef9fb" stroke-width="22" stroke-linecap="round"/></g>
+ <g filter="url(#sh)"><ellipse cx="636" cy="256" rx="36" ry="42" fill="#e3aa80" stroke="#10212b" stroke-width="5"/><path d="M603 247q9-33 35-38q31 6 35 39z" fill="#27343b"/><path d="M597 311q39-24 78 0l29 129H570z" fill="#173f53" stroke="#10212b" stroke-width="5"/><text x="636" y="387" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18" font-weight="900">DESIGN</text></g>
+ <path d="M543 354q35-30 70-4l-8 39-86-2z" fill="#4f8ea4" stroke="#183846" stroke-width="4"/><path d="M559 350l18 28 17-27" fill="none" stroke="#dff7ff" stroke-width="5"/>
+ <rect x="35" y="101" width="482" height="117" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="276" y="131" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="276">공장 배출을 줄인 다음, FTF는 제품 설계 단계로 올라갔다.</tspan><tspan x="276" dy="24" font-size="14">减少工厂排放后，FTF把行动推进到产品设计阶段。</tspan><tspan x="276" dy="22" font-size="13">After cutting factory discharge, FTF moves upstream into product design.</tspan></text>
+ <rect x="529" y="108" width="205" height="91" rx="22" fill="#fff4cb" stroke="#111" stroke-width="4"/>
+ <text x="631" y="138" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="631">덜 빠지는 원단으로!</tspan><tspan x="631" dy="22" font-size="13">改用低脱纤面料！</tspan><tspan x="631" dy="20" font-size="12">Choose low-shed fabric!</tspan></text>
+ <text x="42" y="486" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="37" font-weight="900">DESIGN!  CHOOSE!  PREVENT!</text>
+</g>
+
+<!-- PANEL 2: abrasion test lab -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#testlab)"/>
+ <rect x="820" y="226" width="298" height="177" rx="18" fill="#e9f5f7" stroke="#173643" stroke-width="7"/>
+ <circle cx="897" cy="309" r="58" fill="#9cc7cf" stroke="#214d5c" stroke-width="7"/><circle cx="897" cy="309" r="35" fill="#4f8da0"/><path d="M854 308q43-39 87 0q-44 41-87 0z" fill="#62c2aa" opacity=".8"/>
+ <rect x="1146" y="215" width="309" height="191" rx="18" fill="#122f40" stroke="#7debf2" stroke-width="5"/>
+ <text x="1300" y="253" text-anchor="middle" fill="#d9ffff" font-family="Arial" font-size="19" font-weight="900">MICROFIBER SHED TEST</text>
+ <text x="1192" y="302" fill="#fff" font-family="Arial" font-size="17" font-weight="800">STANDARD FABRIC</text><text x="1418" y="302" text-anchor="end" fill="#ff9e9e" font-family="Arial" font-size="24" font-weight="900">100</text>
+ <text x="1192" y="346" fill="#fff" font-family="Arial" font-size="17" font-weight="800">LOW-SHED FABRIC</text><text x="1418" y="346" text-anchor="end" fill="#83f0b5" font-family="Arial" font-size="24" font-weight="900">31</text>
+ <rect x="1190" y="365" width="220" height="18" rx="9" fill="#294d5d"/><rect x="1190" y="365" width="68" height="18" rx="9" fill="#5ee0a5"/>
+ <g filter="url(#sh)"><ellipse cx="1005" cy="185" rx="35" ry="41" fill="#efbd98" stroke="#10212b" stroke-width="5"/><path d="M974 178q7-31 32-37q30 5 35 38z" fill="#4e352d"/><path d="M967 239q38-23 76 0l27 126H940z" fill="#eef9fb" stroke="#10212b" stroke-width="5"/><path d="M1042 263q46 10 82 27" stroke="#eef9fb" stroke-width="21" stroke-linecap="round"/></g>
+ <g fill="#ffd55f" filter="url(#glow)"><path d="M1095 300l17-18 4 22 22-8-10 23 22 7-24 7 3 23-18-17-17 16 4-24-24-5 21-9z"/><path d="M1430 331l14-15 3 18 19-7-8 19 18 6-20 6 3 19-15-14-14 13 3-20-20-4 17-8z"/></g>
+ <rect x="796" y="101" width="476" height="115" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1034" y="131" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1034">마찰·세탁 시험에서 저탈락 원단은 미세섬유 방출을 69% 줄였다.</tspan><tspan x="1034" dy="24" font-size="14">耐磨与洗涤测试显示，低脱纤面料使微纤维释放减少69%。</tspan><tspan x="1034" dy="22" font-size="13">Abrasion and wash tests show 69% less microfiber shedding.</tspan></text>
+ <rect x="1287" y="104" width="205" height="94" rx="22" fill="#eaffd8" stroke="#111" stroke-width="4"/>
+ <text x="1389" y="134" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1389">수치는 거짓말 안 해!</tspan><tspan x="1389" dy="22" font-size="13">数据不会说谎！</tspan><tspan x="1389" dy="20" font-size="12">The numbers don't lie!</tspan></text>
+ <text x="804" y="486" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="36" font-weight="900">SPIN!  WASH!  MEASURE!</text>
+</g>
+
+<!-- PANEL 3: consumers and ocean -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#ocean)"/>
+ <path d="M16 735q130-45 263-8t245 2t238-16v293H16z" fill="#0d6680" opacity=".65"/>
+ <path d="M16 903Q155 852 283 889T528 870T762 885V1006H16Z" fill="#073c57"/>
+ <g stroke="#245d31" stroke-width="8" fill="#67a74d"><path d="M65 999q12-207 75-322q-14 143 45 255q-56-27-120 67Z"/><path d="M168 1000q5-176 59-283q-12 123 45 220q-49-18-104 63Z"/></g>
+ <g fill="#f7c95d" stroke="#113645" stroke-width="3"><path d="M398 770q49-27 94 0q-45 28-94 0l-31 22v-44z"/><path d="M520 840q43-24 84 0q-41 25-84 0l-28 19v-38z"/><path d="M347 878q39-22 76 0q-37 23-76 0l-25 18v-36z"/></g>
+ <g filter="url(#sh)"><ellipse cx="622" cy="724" rx="70" ry="45" fill="#5ea56f" stroke="#174d3d" stroke-width="5"/><ellipse cx="682" cy="722" rx="28" ry="22" fill="#76bb82"/><path d="M571 705l-51-32 19 53zM575 746l-50 36 61-12zM646 692l34-44 8 56zM649 751l44 34-12-54z" fill="#72b37c" stroke="#174d3d" stroke-width="4"/></g>
+ <!-- shoppers on boardwalk -->
+ <rect x="36" y="660" width="270" height="112" rx="12" fill="#c5a875" stroke="#6d5736" stroke-width="5"/>
+ <g filter="url(#sh)"><ellipse cx="112" cy="630" rx="31" ry="36" fill="#efbd98" stroke="#10212b" stroke-width="4"/><path d="M84 625q7-28 29-33q27 5 31 34z" fill="#342d33"/><path d="M80 679q33-20 66 0l24 101H56z" fill="#5c97ab" stroke="#10212b" stroke-width="4"/><path d="M139 697q37 5 66 20" stroke="#5c97ab" stroke-width="18" stroke-linecap="round"/></g>
+ <g filter="url(#sh)"><ellipse cx="240" cy="640" rx="30" ry="35" fill="#e3aa80" stroke="#10212b" stroke-width="4"/><path d="M213 633q7-27 28-32q25 5 30 33z" fill="#28343b"/><path d="M210 689q32-19 64 0l23 93h-110z" fill="#456c50" stroke="#10212b" stroke-width="4"/></g>
+ <path d="M171 705q28-20 58 0l-4 54h-50z" fill="#5dd2b2" stroke="#183b40" stroke-width="4"/><text x="200" y="739" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#123">LOW-SHED</text>
+ <rect x="40" y="542" width="468" height="112" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="274" y="572" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="274">새 원단이 매장에 들어가자, 선택 하나가 하구와 바다까지 이어졌다.</tspan><tspan x="274" dy="24" font-size="14">新面料进入市场后，一次选择一路影响到河口与海洋。</tspan><tspan x="274" dy="22" font-size="13">When the new fabric reaches stores, one choice travels all the way to the sea.</tspan></text>
+ <rect x="517" y="551" width="214" height="92" rx="22" fill="#eaffd5" stroke="#111" stroke-width="4"/>
+ <text x="624" y="581" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="624">입기 전부터 바다를 지켜.</tspan><tspan x="624" dy="22" font-size="13">穿上之前就保护海洋。</tspan><tspan x="624" dy="20" font-size="12">Protect the sea before you wear it.</tspan></text>
+ <text x="42" y="977" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">CHOOSE BETTER!  SHED LESS!  OCEAN WINS!</text>
+</g>
+
+<!-- PANEL 4: verified impact -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#control)"/>
+ <g filter="url(#sh)"><ellipse cx="890" cy="708" rx="41" ry="47" fill="#efbd98" stroke="#10212b" stroke-width="5"/><path d="M853 699q9-36 39-43q34 6 39 44z" fill="#342d33"/><path d="M844 768q47-28 94 0l32 157H811z" fill="#eef9fb" stroke="#10212b" stroke-width="5"/><text x="890" y="856" text-anchor="middle" fill="#0b6687" font-family="Arial" font-size="22" font-weight="900">FTF</text></g>
+ <rect x="1010" y="584" width="470" height="300" rx="18" fill="#0d2b3b" stroke="#7ee9ef" stroke-width="5"/>
+ <text x="1245" y="623" text-anchor="middle" fill="#d9ffff" font-family="Arial" font-size="23" font-weight="900">FTF B-30 VERIFIED IMPACT</text>
+ <g font-family="Arial" font-weight="900"><text x="1053" y="680" fill="#fff" font-size="18">MICROFIBER SHEDDING</text><text x="1440" y="680" text-anchor="end" fill="#80f0b1" font-size="27">−69%</text><text x="1053" y="730" fill="#fff" font-size="18">ESTUARY FIBER LOAD</text><text x="1440" y="730" text-anchor="end" fill="#80f0b1" font-size="27">−34%</text><text x="1053" y="780" fill="#fff" font-size="18">LOW-SHED PRODUCT SHARE</text><text x="1440" y="780" text-anchor="end" fill="#80f0b1" font-size="27">+48%</text><text x="1053" y="830" fill="#fff" font-size="18">KELP NURSERY USE</text><text x="1440" y="830" text-anchor="end" fill="#80f0b1" font-size="27">+21%</text></g>
+ <rect x="797" y="544" width="442" height="103" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1018" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1018">설계부터 바꾸자, 해양 유입량도 함께 내려가기 시작했다.</tspan><tspan x="1018" dy="24" font-size="14">从设计端改变后，进入海洋的微纤维也开始下降。</tspan><tspan x="1018" dy="22" font-size="13">Change the design, and the ocean-bound load begins to fall too.</tspan></text>
+ <rect x="1280" y="895" width="216" height="83" rx="22" fill="#fff4cb" stroke="#111" stroke-width="4"/>
+ <text x="1388" y="925" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1388">다음은 유통까지!</tspan><tspan x="1388" dy="21" font-size="13">下一步延伸到流通端！</tspan><tspan x="1388" dy="19" font-size="12">Next: the supply chain!</tspan></text>
+ <text x="811" y="977" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">DESIGN TODAY · CLEANER OCEAN TOMORROW</text>
+</g>
+</svg>
