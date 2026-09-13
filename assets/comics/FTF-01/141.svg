@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 141 harbor sentinel early-warning network">
+<defs>
+  <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#101d36"/><stop offset=".55" stop-color="#446f89"/><stop offset="1" stop-color="#f2aa69"/></linearGradient>
+  <linearGradient id="water" x2="0" y2="1"><stop stop-color="#159eb8"/><stop offset="1" stop-color="#06374b"/></linearGradient>
+  <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#edf4f6"/><stop offset="1" stop-color="#a7bbc3"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-opacity=".48"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#74dce7" stroke-opacity=".18"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="#071219"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#12354d"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #141  다시 들어오기 전에 알아낸다</text>
+<text x="935" y="49" fill="#caf7ff" font-family="Arial" font-size="18" font-weight="800">HARBOR SENTINEL NETWORK · 港口前哨监测网</text>
+
+<!-- PANEL 1: dawn deployment of sentinel plates and eDNA samplers -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#dawn)"/>
+ <rect x="16" y="250" width="746" height="262" fill="url(#water)"/>
+ <path d="M16 432q160-56 323-14t423-15v109H16z" fill="#594a3d"/>
+ <rect x="40" y="194" width="344" height="44" fill="#46555d" stroke="#18272d" stroke-width="5"/>
+ <rect x="87" y="232" width="25" height="171" fill="#323d43"/><rect x="311" y="232" width="25" height="168" fill="#323d43"/>
+ <path d="M453 183h233l-27 58H475z" fill="#e8ecec" stroke="#17272f" stroke-width="5"/><rect x="520" y="145" width="88" height="39" rx="5" fill="#d8e6e9" stroke="#17272f" stroke-width="4"/>
+ <!-- field scientist -->
+ <g transform="translate(185 338)" filter="url(#shadow)">
+  <ellipse cx="46" cy="-54" rx="34" ry="41" fill="#dda37b" stroke="#10242d" stroke-width="5"/>
+  <path d="M12-61q5-31 35-37q29 5 33 35l-17-10q-21 10-51 12z" fill="#352b28"/>
+  <circle cx="35" cy="-53" r="4"/><circle cx="58" cy="-53" r="4"/>
+  <rect x="0" y="-10" width="95" height="111" rx="18" fill="#f0b533" stroke="#10242d" stroke-width="5"/>
+  <path d="M82 17l88 43" stroke="#f0b533" stroke-width="19" stroke-linecap="round"/>
+  <path d="M16 100l-23 61M74 100l18 64" stroke="#243943" stroke-width="22" stroke-linecap="round"/>
+ </g>
+ <!-- sampler rope and settlement plates -->
+ <path d="M359 225v210" stroke="#d9eef0" stroke-width="6"/>
+ <rect x="332" y="305" width="54" height="18" rx="4" fill="#f1c24d" stroke="#17272f" stroke-width="4"/>
+ <rect x="332" y="356" width="54" height="18" rx="4" fill="#f1c24d" stroke="#17272f" stroke-width="4"/>
+ <rect x="332" y="407" width="54" height="18" rx="4" fill="#f1c24d" stroke="#17272f" stroke-width="4"/>
+ <g transform="translate(572 334)"><rect width="94" height="76" rx="14" fill="#dfeff2" stroke="#18313d" stroke-width="5"/><circle cx="47" cy="38" r="22" fill="#143a49"/><circle cx="47" cy="38" r="8" fill="#75efb2" filter="url(#glow)"/><path d="M47 0v-52" stroke="#dceff1" stroke-width="6"/><circle cx="47" cy="-57" r="8" fill="#ffca54"/></g>
+ <rect x="39" y="102" width="500" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="289" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="289">C-4를 치운 다음 날, 연구팀은 정착판과 자동 eDNA 채수기를 항만 곳곳에 설치한다.</tspan><tspan x="289" dy="24" font-size="14">清理C-4后的第二天，团队在港区部署附着板和自动环境DNA采样器。</tspan><tspan x="289" dy="22" font-size="13">The day after C-4 cleanup, the team deploys settlement plates and automatic eDNA samplers.</tspan></text>
+ <rect x="558" y="103" width="178" height="92" rx="22" fill="#fff2b6" stroke="#111" stroke-width="4"/>
+ <text x="647" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="647">24시간 감시!</tspan><tspan x="647" dy="21" font-size="13">24小时监测！</tspan><tspan x="647" dy="19" font-size="12">Watch 24/7!</tspan></text>
+ <text x="42" y="486" fill="#fff" stroke="#0a566d" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">DEPLOY!  SAMPLE!  WATCH!</text>
+</g>
+
+<!-- PANEL 2: live control room detects tiny return signal -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#lab)"/>
+ <rect x="797" y="238" width="698" height="238" rx="16" fill="#cbd9df" stroke="#617883" stroke-width="4"/>
+ <rect x="1168" y="249" width="294" height="188" rx="16" fill="#0d3041" stroke="#76ebf2" stroke-width="5" filter="url(#shadow)"/>
+ <rect x="1190" y="273" width="250" height="111" fill="url(#grid)" stroke="#3b7180" stroke-width="3"/>
+ <polyline points="1201,354 1230,348 1261,352 1291,345 1320,350 1348,339 1378,342 1409,310 1430,316" fill="none" stroke="#78efb4" stroke-width="4"/>
+ <circle cx="1409" cy="310" r="10" fill="#ff716b" filter="url(#glow)"/>
+ <text x="1315" y="411" text-anchor="middle" fill="#ffcf6f" font-family="Arial" font-size="17" font-weight="900">EARLY SIGNAL · GATE B-2</text>
+ <!-- woman analyst -->
+ <g transform="translate(835 344)" filter="url(#shadow)">
+  <ellipse cx="45" cy="-51" rx="33" ry="40" fill="#dda37d" stroke="#172832" stroke-width="5"/>
+  <path d="M12-58q7-31 34-37q30 6 31 36l-17-10q-20 9-48 11z" fill="#3d2b28"/>
+  <rect y="-7" width="94" height="112" rx="18" fill="#f8fbfc" stroke="#172832" stroke-width="5"/>
+  <path d="M79 18l103 25" stroke="#f8fbfc" stroke-width="19" stroke-linecap="round"/>
+ </g>
+ <rect x="985" y="282" width="149" height="126" rx="14" fill="#eaf1f3" stroke="#263b45" stroke-width="5"/><rect x="1005" y="303" width="109" height="39" rx="7" fill="#163b4b"/><text x="1059" y="328" text-anchor="middle" fill="#79efb5" font-family="Arial" font-size="13" font-weight="900">AUTO eDNA</text><rect x="1015" y="362" width="18" height="29" fill="#68d7e4"/><rect x="1043" y="353" width="18" height="38" fill="#68d7e4"/><rect x="1071" y="337" width="18" height="54" fill="#ff716b"/><rect x="1099" y="367" width="18" height="24" fill="#68d7e4"/>
+ <rect x="796" y="102" width="488" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1040" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1040">사흘 뒤, 입구 B-2에서 아주 약한 외래종 DNA 신호가 다시 뜬다. 확산되기 전이라 아직 눈에는 보이지 않는다.</tspan><tspan x="1040" dy="24" font-size="14">三天后，B-2入口再次出现微弱外来种DNA信号，尚未扩散到肉眼可见。</tspan><tspan x="1040" dy="22" font-size="13">Three days later, Gate B-2 shows a faint non-native DNA signal—before visible spread begins.</tspan></text>
+ <rect x="1305" y="103" width="190" height="92" rx="22" fill="#ffe0dc" stroke="#111" stroke-width="4"/>
+ <text x="1400" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1400">보이기 전에 잡는다!</tspan><tspan x="1400" dy="21" font-size="13">看见前就拦住！</tspan><tspan x="1400" dy="19" font-size="12">Catch it before sight!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#607983" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">PING!  MATCH!  ALERT!</text>
+</g>
+
+<!-- PANEL 3: rapid response at gate B-2 -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="12" fill="#163b49"/>
+ <rect x="16" y="684" width="746" height="322" fill="url(#water)"/>
+ <path d="M16 914q155-69 316-20t430-21v133H16z" fill="#5a493c"/>
+ <path d="M123 682v252M638 682v251" stroke="#f1c64c" stroke-width="12"/><path d="M123 704q127 28 259 4t256 1" fill="none" stroke="#f1c64c" stroke-width="9" stroke-dasharray="18 11"/>
+ <text x="381" y="729" text-anchor="middle" fill="#fff6bd" font-family="Arial" font-size="16" font-weight="900">B-2 RAPID RESPONSE ZONE</text>
+ <!-- ROV -->
+ <g transform="translate(350 820)" filter="url(#shadow)"><rect x="0" y="0" width="132" height="78" rx="15" fill="#f0b735" stroke="#142b34" stroke-width="6"/><circle cx="30" cy="39" r="13" fill="#143947"/><circle cx="101" cy="39" r="13" fill="#143947"/><rect x="50" y="20" width="32" height="37" rx="8" fill="#102f3c"/><circle cx="66" cy="38" r="7" fill="#7cecb5" filter="url(#glow)"/><path d="M132 25l71-34M132 54l71 38" stroke="#f0b735" stroke-width="12" stroke-linecap="round"/><circle cx="211" cy="-14" r="14" fill="none" stroke="#dff5f7" stroke-width="7"/><circle cx="211" cy="95" r="14" fill="none" stroke="#dff5f7" stroke-width="7"/></g>
+ <!-- technician on pier -->
+ <g transform="translate(127 646)" filter="url(#shadow)"><ellipse cx="44" cy="-48" rx="34" ry="40" fill="#dba27b" stroke="#14262f" stroke-width="5"/><path d="M11-55q8-31 34-35q29 5 32 34l-16-10q-20 9-50 11z" fill="#293238"/><rect y="-5" width="94" height="109" rx="18" fill="#eb7c35" stroke="#14262f" stroke-width="5"/><path d="M83 18l91 30" stroke="#eb7c35" stroke-width="19" stroke-linecap="round"/></g>
+ <!-- capture filter -->
+ <g transform="translate(566 831)"><rect width="104" height="112" rx="17" fill="#e5eff1" stroke="#17313c" stroke-width="5"/><rect x="19" y="20" width="66" height="57" rx="8" fill="#174252"/><path d="M29 35h46M29 48h46M29 61h46" stroke="#73e5ee" stroke-width="5"/><text x="52" y="98" text-anchor="middle" fill="#18323b" font-family="Arial" font-size="12" font-weight="900">CAPTURE</text></g>
+ <rect x="39" y="545" width="503" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="290" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="290">팀은 B-2만 즉시 차단한다. ROV가 정착판과 선착장 구조물을 훑고, 미세 부착물을 회수 필터로 포집한다.</tspan><tspan x="290" dy="24" font-size="14">团队只封锁B-2。ROV检查附着板和码头结构，并把微小附着物收进过滤器。</tspan><tspan x="290" dy="22" font-size="13">Only B-2 is isolated. An ROV sweeps surfaces and captures micro-fouling before it spreads.</tspan></text>
+ <rect x="561" y="546" width="176" height="92" rx="22" fill="#dffbe6" stroke="#111" stroke-width="4"/>
+ <text x="649" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="649">작게 막아 크게 지킨다!</tspan><tspan x="649" dy="21" font-size="13">小范围拦截，大范围保护！</tspan><tspan x="649" dy="19" font-size="11">Small response, big protection!</tspan></text>
+ <text x="42" y="984" fill="#fff" stroke="#0a566d" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">SEAL!  SWEEP!  CAPTURE!</text>
+</g>
+
+<!-- PANEL 4: verification and healthy harbor -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="12" fill="#d8ecef"/>
+ <rect x="774" y="760" width="746" height="246" fill="url(#water)"/>
+ <circle cx="1390" cy="602" r="73" fill="#ffd566" opacity=".95"/>
+ <path d="M774 760q170-42 339 4t407-5v247H774z" fill="#0c839b" opacity=".46"/>
+ <!-- fish and seagrass -->
+ <g fill="#8ff0c5" stroke="#0b5363" stroke-width="3"><path d="M1120 867q35-25 72 0q-37 25-72 0l-23-17v34z"/><path d="M1270 914q30-22 63 0q-33 22-63 0l-20-15v30z"/><path d="M936 927q29-20 58 0q-29 21-58 0l-18-14v28z"/></g>
+ <path d="M833 1002q6-87 29-150M859 1002q15-80 47-139M1438 1002q-2-83-32-151M1411 1002q-11-76-52-133" stroke="#49c98e" stroke-width="11" stroke-linecap="round"/>
+ <!-- harbor team -->
+ <g transform="translate(812 707)" filter="url(#shadow)"><ellipse cx="43" cy="-48" rx="33" ry="40" fill="#dda37c" stroke="#172832" stroke-width="5"/><path d="M10-55q8-31 34-35q28 5 31 34l-15-10q-21 9-50 11z" fill="#3a2c29"/><rect y="-5" width="92" height="109" rx="18" fill="#f7fafb" stroke="#172832" stroke-width="5"/></g>
+ <g transform="translate(936 707)" filter="url(#shadow)"><ellipse cx="43" cy="-48" rx="33" ry="40" fill="#bf805e" stroke="#172832" stroke-width="5"/><path d="M10-55q8-31 34-35q28 5 31 34l-15-10q-21 9-50 11z" fill="#282c30"/><rect y="-5" width="92" height="109" rx="18" fill="#eb7c35" stroke="#172832" stroke-width="5"/></g>
+ <!-- results board -->
+ <rect x="1115" y="625" width="352" height="193" rx="17" fill="#0e3141" stroke="#77e9ef" stroke-width="5" filter="url(#shadow)"/>
+ <text x="1291" y="656" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18" font-weight="900">14-DAY SENTINEL CHECK</text>
+ <text x="1144" y="692" fill="#83f0b8" font-family="Arial" font-size="17" font-weight="800">Non-native eDNA</text><text x="1440" y="692" text-anchor="end" fill="#83f0b8" font-family="Arial" font-size="18" font-weight="900">−99%</text>
+ <text x="1144" y="725" fill="#83f0b8" font-family="Arial" font-size="17" font-weight="800">Visible fouling</text><text x="1440" y="725" text-anchor="end" fill="#83f0b8" font-family="Arial" font-size="18" font-weight="900">NONE</text>
+ <text x="1144" y="758" fill="#83f0b8" font-family="Arial" font-size="17" font-weight="800">Response footprint</text><text x="1440" y="758" text-anchor="end" fill="#83f0b8" font-family="Arial" font-size="18" font-weight="900">1 BERTH</text>
+ <text x="1144" y="791" fill="#83f0b8" font-family="Arial" font-size="17" font-weight="800">Native juvenile fish</text><text x="1440" y="791" text-anchor="end" fill="#83f0b8" font-family="Arial" font-size="18" font-weight="900">+27%</text>
+ <rect x="796" y="545" width="493" height="65" rx="16" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1042" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="16" font-weight="900"><tspan x="1042">14일 뒤 재확인. 다시 퍼지기 전에 끊었다. 항구는 이제 ‘청소’가 아니라 ‘조기경보’로 지킨다.</tspan><tspan x="1042" dy="22" font-size="13">14天后复检：扩散前已截断。港口从“清理”升级为“预警防守”。</tspan></text>
+ <rect x="1307" y="546" width="188" height="65" rx="22" fill="#dffbe6" stroke="#111" stroke-width="4"/>
+ <text x="1401" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="1401">먼저 알면 먼저 막는다!</tspan><tspan x="1401" dy="20" font-size="12">Early warning wins!</tspan></text>
+ <text x="803" y="984" fill="#fff" stroke="#0b6174" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">VERIFY!  CLEAR!  KEEP WATCH!</text>
+</g>
+</svg>
