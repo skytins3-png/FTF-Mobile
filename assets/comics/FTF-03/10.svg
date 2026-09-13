@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#18253a"/><stop offset="1" stop-color="#6a4d55"/></linearGradient>
+  <linearGradient id="dawn" x2="1" y2="1"><stop stop-color="#384f6d"/><stop offset=".55" stop-color="#dc8b65"/><stop offset="1" stop-color="#f6d18a"/></linearGradient>
+  <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#375f78"/><stop offset="1" stop-color="#132f45"/></linearGradient>
+  <style>
+    .panel{stroke:#07101a;stroke-width:16}.bubble{fill:#fff;stroke:#17202b;stroke-width:5}.narr{fill:#f7efda;stroke:#17202b;stroke-width:5}
+    .ko{font:700 24px Arial,sans-serif;fill:#111827}.zh{font:600 19px Arial,sans-serif;fill:#263448}.en{font:600 16px Arial,sans-serif;fill:#435266}
+    .fx{font:900 italic 38px Impact,Arial,sans-serif;fill:#ffd75c;stroke:#111827;stroke-width:3;paint-order:stroke}.skin{fill:#efbd98;stroke:#17202b;stroke-width:4}
+    .hair{fill:#1a2029;stroke:#0d1117;stroke-width:4}.coat{fill:#e9eef3;stroke:#17202b;stroke-width:4}.vest{fill:#ef9e36;stroke:#17202b;stroke-width:4}.navy{fill:#26394e;stroke:#17202b;stroke-width:4}
+    .eye{fill:#1a2029}.screen{fill:#102638;stroke:#79d9ef;stroke-width:4}.line{fill:none;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+<rect width="1080" height="1920" fill="#070c13"/>
+<rect x="28" y="24" width="1024" height="110" rx="24" fill="#111c2b" stroke="#79d9ef" stroke-width="4"/>
+<text x="55" y="66" fill="#ccecff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 10</text>
+<text x="55" y="107" fill="white" font-size="33" font-weight="900">31일째 — 땅 아래에서 온 경고</text>
+
+<!-- PANEL 1: seismic warning room -->
+<rect class="panel" x="28" y="154" width="1024" height="405" rx="24" fill="url(#sky)"/>
+<rect class="narr" x="55" y="176" width="930" height="94" rx="18"/>
+<text class="ko" x="78" y="208">30일 검증을 통과한 다음 날, 태평양 화산대에서 낯선 진동이 잡힌다.</text>
+<text class="zh" x="78" y="237">通过30天验证后的第二天，环太平洋火山带出现异常震动。</text>
+<text class="en" x="78" y="260">DAY 31. AN UNUSUAL TREMOR RISES ALONG THE PACIFIC RING.</text>
+<rect class="screen" x="70" y="300" width="470" height="205" rx="14"/>
+<path d="M98 403h55l22-56 31 112 32-85 29 45 31-133 34 158 35-96 31 55 39-34 61 0" fill="none" stroke="#ff6969" stroke-width="8"/>
+<text x="96" y="330" fill="#b6e9ff" font-size="18" font-weight="800">SEISMIC ARRAY · NODE 17</text>
+<text x="96" y="483" fill="#ff9a9a" font-size="18" font-weight="900">ANOMALY: MAGMA PRESSURE ↑</text>
+<!-- scientist woman -->
+<ellipse class="skin" cx="665" cy="364" rx="40" ry="48"/>
+<path class="hair" d="M624 349q11-64 76-31q18 10 11 45q-40-24-78-7z"/>
+<circle class="eye" cx="651" cy="365" r="4"/><circle class="eye" cx="678" cy="365" r="4"/><path d="M652 385q13 5 25-2" fill="none" stroke="#9a5e52" stroke-width="3"/>
+<path class="coat" d="M596 430q69-64 138 0v110H596z"/><path d="M665 430v110" stroke="#9ab3c3" stroke-width="4"/>
+<!-- analyst man -->
+<ellipse class="skin" cx="850" cy="370" rx="38" ry="46"/>
+<path class="hair" d="M811 354q15-59 73-28q18 10 9 41q-37-20-73-7z"/>
+<circle class="eye" cx="837" cy="372" r="4"/><circle class="eye" cx="862" cy="372" r="4"/>
+<path class="navy" d="M790 434q60-58 121 0v106H790z"/>
+<rect class="bubble" x="558" y="285" width="450" height="85" rx="18"/>
+<text class="ko" x="581" y="318">경보를 숨기지 마. 먼저 사실부터 공개해.</text>
+<text class="zh" x="581" y="345">不要隐瞒警报，先公开事实。</text>
+<text class="fx" x="735" y="523">BEEP! BEEP!</text>
+
+<!-- PANEL 2: satellite + volcano -->
+<rect class="panel" x="28" y="580" width="1024" height="405" rx="24" fill="#26384a"/>
+<path d="M70 902L300 690L430 820L590 640L820 830L1005 690V960H70Z" fill="#31373d" stroke="#151b22" stroke-width="6"/>
+<path d="M450 850L590 640L725 850Z" fill="#4c4748" stroke="#171b20" stroke-width="6"/>
+<path d="M575 650q25-55 56 0q25 42 66 65q-73 8-126-12q-33-16 4-53z" fill="#8d5251" opacity=".95"/>
+<path d="M600 642q15-90 55-145q20-25 41-70" fill="none" stroke="#b7b9bd" stroke-width="24" opacity=".55"/>
+<path d="M602 642q18-85 58-145q22-28 43-74" fill="none" stroke="#d8d9db" stroke-width="12" opacity=".7"/>
+<!-- satellite -->
+<g transform="translate(115 630) rotate(-10)"><rect x="0" y="35" width="95" height="60" fill="#d0d9e2" stroke="#17202b" stroke-width="5"/><rect x="-90" y="25" width="85" height="80" fill="#315f9a" stroke="#17202b" stroke-width="5"/><rect x="100" y="25" width="85" height="80" fill="#315f9a" stroke="#17202b" stroke-width="5"/><circle cx="48" cy="65" r="20" fill="#efc45c" stroke="#17202b" stroke-width="4"/><path d="M48 35V0" stroke="#d0d9e2" stroke-width="7"/></g>
+<rect class="bubble" x="85" y="765" width="510" height="105" rx="18"/>
+<text class="ko" x="109" y="798">위성 열영상과 지진계가 같은 지점을 가리켜요.</text>
+<text class="zh" x="109" y="828">卫星热成像和地震仪指向同一地点。</text>
+<text class="en" x="109" y="855">THERMAL IMAGING AND SEISMIC DATA POINT TO ONE SITE.</text>
+<rect class="narr" x="620" y="760" width="365" height="105" rx="18"/>
+<text class="ko" x="644" y="795">예측은 공포가 아니라</text><text class="ko" x="644" y="826">대피 시간을 벌기 위한 것.</text>
+<text class="en" x="644" y="852">PREDICTION BUYS TIME.</text>
+<text class="fx" x="720" y="955">RUMBLE…</text>
+
+<!-- PANEL 3: coastal drill with real families -->
+<rect class="panel" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#sea)"/>
+<path d="M28 1260q140-55 290 0t300 0t300 0t134 0v150H28z" fill="#397b91"/>
+<path d="M55 1180h260l70-85l80 85h210l85-110l105 110h160v160H55z" fill="#75848b" stroke="#25313b" stroke-width="6"/>
+<path d="M760 1070l-35 110h150l-40-110z" fill="#6c787d" stroke="#252f36" stroke-width="5"/>
+<!-- evacuation arrow sign -->
+<rect x="800" y="1160" width="180" height="75" rx="10" fill="#f7f4dd" stroke="#16212a" stroke-width="5"/><path d="M835 1197h82m0 0l-28-25m28 25l-28 25" stroke="#2c865e" stroke-width="10" fill="none"/><text x="824" y="1150" fill="white" font-size="18" font-weight="800">HIGH GROUND</text>
+<!-- family 1 -->
+<ellipse class="skin" cx="210" cy="1190" rx="34" ry="41"/><path class="hair" d="M175 1176q12-53 58-29q17 9 12 39q-33-19-63-5z"/><path d="M155 1240q55-50 110 0v126H155z" fill="#6684b5" stroke="#17202b" stroke-width="4"/>
+<ellipse class="skin" cx="330" cy="1245" rx="27" ry="32"/><path class="hair" d="M302 1234q9-40 43-22q15 8 11 31q-26-15-48-5z"/><path d="M292 1285q40-38 80 0v81H292z" fill="#efb45f" stroke="#17202b" stroke-width="4"/>
+<!-- rescue worker -->
+<ellipse class="skin" cx="585" cy="1188" rx="35" ry="42"/><path class="hair" d="M549 1175q10-52 62-26q15 8 9 37q-31-18-64-6z"/><path class="vest" d="M527 1238q58-54 116 0v128H527z"/><path d="M585 1245v100" stroke="#fff1a7" stroke-width="8"/>
+<rect class="bubble" x="75" y="1035" width="700" height="107" rx="18"/>
+<text class="ko" x="99" y="1068">대피는 훈련처럼, 설명은 숨김없이. 가족 단위로 고지대로 이동!</text>
+<text class="zh" x="99" y="1098">像演练一样撤离，信息完全公开。以家庭为单位前往高地！</text>
+<text class="en" x="99" y="1125">MOVE BY FAMILY GROUPS TO HIGH GROUND. KEEP INFORMATION OPEN.</text>
+<text class="fx" x="520" y="1380">STEP! STEP!</text>
+
+<!-- PANEL 4: command ethics + next phase -->
+<rect class="panel" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#dawn)"/>
+<rect class="screen" x="65" y="1470" width="515" height="210" rx="16"/>
+<text x="92" y="1505" fill="#bdeeff" font-size="19" font-weight="900">EARTH SURVIVAL NETWORK · PHASE 2</text>
+<text x="92" y="1543" fill="#91ffc0" font-size="18">SEISMIC ALERT .... ONLINE</text>
+<text x="92" y="1576" fill="#91ffc0" font-size="18">SATELLITE LINK ... ONLINE</text>
+<text x="92" y="1609" fill="#91ffc0" font-size="18">EVAC ROUTES ...... VERIFIED</text>
+<text x="92" y="1642" fill="#ffd780" font-size="18">PUBLIC CONSENT ... REQUIRED</text>
+<!-- team -->
+<ellipse class="skin" cx="700" cy="1570" rx="39" ry="47"/><path class="hair" d="M660 1555q11-62 74-31q17 9 11 43q-39-23-77-7z"/><circle class="eye" cx="687" cy="1572" r="4"/><circle class="eye" cx="713" cy="1572" r="4"/><path d="M688 1592q12 8 24 0" fill="none" stroke="#9a5e52" stroke-width="3"/><path class="coat" d="M635 1635q65-60 130 0v220H635z"/>
+<ellipse class="skin" cx="865" cy="1575" rx="39" ry="47"/><path class="hair" d="M825 1560q13-60 74-30q17 9 10 42q-38-22-75-7z"/><circle class="eye" cx="852" cy="1577" r="4"/><circle class="eye" cx="878" cy="1577" r="4"/><path class="navy" d="M800 1640q65-60 130 0v215H800z"/>
+<rect class="bubble" x="540" y="1460" width="475" height="116" rx="18"/>
+<text class="ko" x="565" y="1494">이제 생존망은 재난을 기다리는 시스템이 아니야.</text>
+<text class="zh" x="565" y="1524">生存网络不再只是等待灾难的系统。</text>
+<text class="en" x="565" y="1552">THE NETWORK MUST SEE DANGER BEFORE IT ARRIVES.</text>
+<rect class="narr" x="86" y="1710" width="850" height="125" rx="18"/>
+<text class="ko" x="112" y="1747">다음 목표: 화산·빙하·해수면 데이터를 하나의 조기경보망으로 묶는다.</text>
+<text class="zh" x="112" y="1778">下一目标：把火山、冰川和海平面数据接入同一预警网络。</text>
+<text class="en" x="112" y="1808">NEXT: LINK VOLCANO, GLACIER AND SEA-LEVEL DATA INTO ONE WARNING GRID.</text>
+<text class="fx" x="770" y="1860">LINK! GO!</text>
+</svg>
