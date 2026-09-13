@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="factorySky" x2="0" y2="1"><stop stop-color="#8ed8ed"/><stop offset="1" stop-color="#d7eef5"/></linearGradient>
+ <linearGradient id="plant" x2="0" y2="1"><stop stop-color="#dce9ec"/><stop offset="1" stop-color="#9db5bc"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#57c7d9"/><stop offset="1" stop-color="#0b5d79"/></linearGradient>
+ <linearGradient id="lab" x2="0" y2="1"><stop stop-color="#203f55"/><stop offset="1" stop-color="#081b28"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".32"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#07141f"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0d2c42"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #126  공장 문 앞에서 바다를 지키다</text>
+<text x="928" y="49" fill="#bff6ff" font-family="Arial" font-size="18" font-weight="800">B-29 INDUSTRIAL SOURCE SHIFT · 工业源头转变</text>
+
+<!-- PANEL 1: factory outfall investigation -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#factorySky)"/>
+ <rect x="16" y="336" width="746" height="176" fill="#6d858e"/>
+ <rect x="54" y="184" width="318" height="190" fill="#c9d7db" stroke="#233944" stroke-width="6"/>
+ <rect x="92" y="126" width="48" height="150" fill="#8d9ca3" stroke="#263d46" stroke-width="6"/><path d="M116 122q-14-35 12-64q18 31 2 60" fill="none" stroke="#d5e8ec" stroke-width="15" stroke-linecap="round"/>
+ <rect x="182" y="222" width="130" height="80" fill="#7f9daa" stroke="#233944" stroke-width="5"/><text x="247" y="270" text-anchor="middle" fill="#fff" font-family="Arial" font-size="24" font-weight="900">TEXTILE</text>
+ <path d="M360 350h170v54H360z" fill="#31566a"/><path d="M530 366q60 0 98 42" fill="none" stroke="#31566a" stroke-width="30" stroke-linecap="round"/>
+ <path d="M620 408q53 12 91 44" fill="none" stroke="#aa6688" stroke-width="17" opacity=".8"/>
+ <!-- woman scientist -->
+ <g filter="url(#sh)"><ellipse cx="555" cy="235" rx="40" ry="46" fill="#efbd98" stroke="#10212b" stroke-width="5"/><path d="M519 228q8-34 38-41q34 5 39 43z" fill="#342d33"/><path d="M514 290q42-26 85 0l34 152H480z" fill="#eef9fb" stroke="#10212b" stroke-width="5"/><text x="556" y="374" text-anchor="middle" fill="#0b6687" font-family="Arial" font-size="22" font-weight="900">FTF</text><path d="M513 318q-49 17-89 50" stroke="#eef9fb" stroke-width="23" stroke-linecap="round"/></g>
+ <!-- male technician -->
+ <g filter="url(#sh)"><ellipse cx="688" cy="265" rx="34" ry="40" fill="#e5ad82" stroke="#10212b" stroke-width="5"/><path d="M657 259q7-31 33-36q30 5 35 38z" fill="#26313a"/><path d="M649 319q36-22 73 0l27 125h-128z" fill="#173f53" stroke="#10212b" stroke-width="5"/><text x="686" y="389" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18" font-weight="900">FTF</text></g>
+ <rect x="38" y="101" width="480" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="278" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="278">세탁 필터 다음 추적점은 염색 공장의 배출수였다.</tspan><tspan x="278" dy="24" font-size="14">继洗衣过滤之后，追踪点来到染整工厂排水口。</tspan><tspan x="278" dy="22" font-size="13">After laundry filters, the trail leads to a textile-dyeing outfall.</tspan></text>
+ <rect x="523" y="102" width="214" height="96" rx="22" fill="#fff4cb" stroke="#111" stroke-width="4"/>
+ <text x="630" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="16" font-weight="900"><tspan x="630">여기서부터 바꾸자!</tspan><tspan x="630" dy="22" font-size="14">从这里开始改变！</tspan><tspan x="630" dy="20" font-size="12">Change it at the source!</tspan></text>
+ <text x="42" y="487" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="38" font-weight="900">TRACE!  SAMPLE!  SOURCE!</text>
+</g>
+
+<!-- PANEL 2: retrofit -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#plant)"/>
+ <g stroke="#37505c" stroke-width="7" fill="none"><path d="M815 365h600"/><path d="M905 190v226M1110 171v245M1318 207v209"/></g>
+ <rect x="945" y="208" width="136" height="170" rx="18" fill="#e8f5f7" stroke="#173643" stroke-width="7"/><rect x="1128" y="205" width="128" height="173" rx="18" fill="#d7f1ee" stroke="#173643" stroke-width="7"/><rect x="1289" y="231" width="128" height="147" rx="18" fill="#e9f7fb" stroke="#173643" stroke-width="7"/>
+ <g stroke="#55a8b3" stroke-width="7"><path d="M971 249h84M971 276h84M971 303h84M1150 245h84M1150 272h84M1150 299h84M1312 268h82M1312 295h82M1312 322h82"/></g>
+ <!-- workers -->
+ <g filter="url(#sh)"><ellipse cx="852" cy="260" rx="36" ry="42" fill="#eab58e" stroke="#10212b" stroke-width="5"/><path d="M820 254q7-32 34-38q30 5 36 40z" fill="#4f372d"/><path d="M813 315q39-23 78 0l30 127H783z" fill="#eef9fb" stroke="#10212b" stroke-width="5"/><path d="M890 334q43-15 81-35" stroke="#eef9fb" stroke-width="22" stroke-linecap="round"/></g>
+ <g filter="url(#sh)"><ellipse cx="1450" cy="274" rx="34" ry="40" fill="#efbd98" stroke="#10212b" stroke-width="5"/><path d="M1419 268q7-31 32-37q30 5 35 38z" fill="#273841"/><path d="M1412 327q36-22 73 0l27 114h-127z" fill="#18475c" stroke="#10212b" stroke-width="5"/></g>
+ <g fill="#ffd55f" filter="url(#glow)"><path d="M1084 339l18-19 4 24 23-9-10 25 23 7-27 8 4 25-20-18-18 17 4-26-26-5 25-10z"/><path d="M1260 320l16-17 4 21 20-8-9 22 20 7-23 6 3 22-17-16-16 15 4-23-23-5 21-9z"/></g>
+ <rect x="796" y="101" width="492" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1042" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1042">FTF 팀은 염료 회수·미세섬유 포집·폐수 재순환 설비를 한 줄로 연결했다.</tspan><tspan x="1042" dy="24" font-size="14">FTF把染料回收、微纤维捕集与废水回用系统连成一线。</tspan><tspan x="1042" dy="22" font-size="13">FTF links dye recovery, microfiber capture and closed-loop water reuse.</tspan></text>
+ <rect x="1300" y="108" width="196" height="92" rx="22" fill="#eaffd8" stroke="#111" stroke-width="4"/>
+ <text x="1398" y="138" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1398">배출 전에 회수!</tspan><tspan x="1398" dy="22" font-size="13">排放前回收！</tspan><tspan x="1398" dy="20" font-size="12">Recover before release!</tspan></text>
+ <text x="804" y="487" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="36" font-weight="900">CAPTURE!  REUSE!  CLOSE THE LOOP!</text>
+</g>
+
+<!-- PANEL 3: restored estuary -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#water)"/>
+ <path d="M16 898Q130 850 250 885T500 865T762 885V1006H16Z" fill="#073c57"/>
+ <g stroke="#245d31" stroke-width="8" fill="#67a74d"><path d="M74 997q9-210 69-326q-12 147 45 257q-54-25-114 69Z"/><path d="M171 1000q4-182 59-290q-12 128 45 226q-50-18-104 64Z"/><path d="M285 999q8-190 68-300q-18 138 42 234q-50-18-110 66Z"/></g>
+ <g fill="#f7c95d" stroke="#113645" stroke-width="3"><path d="M435 759q50-28 95 0q-45 29-95 0l-31 23v-45z"/><path d="M550 831q44-24 85 0q-41 25-85 0l-28 20v-39z"/><path d="M371 861q40-22 78 0q-38 23-78 0l-25 18v-36z"/></g>
+ <g filter="url(#sh)"><ellipse cx="615" cy="696" rx="73" ry="47" fill="#5ea56f" stroke="#174d3d" stroke-width="5"/><ellipse cx="679" cy="694" rx="29" ry="23" fill="#76bb82"/><path d="M563 676l-55-34 20 56zM568 720l-54 39 66-13zM642 662l36-47 8 60zM645 727l47 36-13-58z" fill="#72b37c" stroke="#174d3d" stroke-width="4"/></g>
+ <rect x="446" y="604" width="245" height="102" rx="14" fill="#eefcff" stroke="#102a35" stroke-width="5"/>
+ <text x="568" y="635" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#12455a">ESTUARY LOAD SENSOR</text><text x="568" y="678" text-anchor="middle" font-family="Arial" font-size="31" font-weight="900" fill="#1a9c70">DYE −84% · FIBER −76%</text>
+ <rect x="38" y="542" width="450" height="112" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="263" y="572" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="263">2주 뒤, 하구의 색도와 미세섬유 부하가 동시에 떨어졌다.</tspan><tspan x="263" dy="24" font-size="14">两周后，河口色度与微纤维负荷同步下降。</tspan><tspan x="263" dy="22" font-size="13">Two weeks later, both dye load and microfiber levels fall sharply.</tspan></text>
+ <rect x="502" y="553" width="220" height="91" rx="22" fill="#eaffd5" stroke="#111" stroke-width="4"/>
+ <text x="612" y="583" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="612">바다가 먼저 대답했어.</tspan><tspan x="612" dy="22" font-size="13">大海先给出了答案。</tspan><tspan x="612" dy="20" font-size="12">The sea answered first.</tspan></text>
+ <text x="42" y="977" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="36" font-weight="900">CLEARER WATER!  STRONGER LIFE!</text>
+</g>
+
+<!-- PANEL 4: verified dashboard and pledge -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#lab)"/>
+ <rect x="1018" y="580" width="462" height="292" rx="18" fill="#0d2b3b" stroke="#7ee9ef" stroke-width="5"/>
+ <text x="1249" y="619" text-anchor="middle" fill="#d9ffff" font-family="Arial" font-size="23" font-weight="900">FTF B-29 VERIFIED IMPACT</text>
+ <g font-family="Arial" font-weight="900"><text x="1062" y="672" fill="#fff" font-size="19">Dye discharge</text><text x="1435" y="672" text-anchor="end" fill="#58efae" font-size="27">−84%</text><text x="1062" y="721" fill="#fff" font-size="19">Microfiber load</text><text x="1435" y="721" text-anchor="end" fill="#58efae" font-size="27">−76%</text><text x="1062" y="770" fill="#fff" font-size="19">Water reuse</text><text x="1435" y="770" text-anchor="end" fill="#58efae" font-size="27">+68%</text><text x="1062" y="819" fill="#fff" font-size="19">Juvenile fish index</text><text x="1435" y="819" text-anchor="end" fill="#58efae" font-size="27">+29%</text></g>
+ <!-- team -->
+ <g filter="url(#sh)"><ellipse cx="873" cy="692" rx="40" ry="45" fill="#efbd98" stroke="#10212b" stroke-width="5"/><path d="M837 685q8-34 38-41q34 5 39 43z" fill="#342d33"/><path d="M833 748q41-25 83 0l31 146H802z" fill="#eef9fb" stroke="#10212b" stroke-width="5"/><text x="875" y="827" text-anchor="middle" fill="#0a678c" font-family="Arial" font-size="21" font-weight="900">FTF</text></g>
+ <g filter="url(#sh)"><ellipse cx="957" cy="738" rx="32" ry="37" fill="#e8b58e" stroke="#10212b" stroke-width="5"/><path d="M927 733q7-28 31-34q28 4 33 35z" fill="#263740"/><path d="M921 789q34-20 68 0l25 105H896z" fill="#17465d" stroke="#10212b" stroke-width="5"/></g>
+ <rect x="796" y="542" width="604" height="112" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1098" y="572" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1098">“청소만으로는 늦다. 오염이 만들어지는 자리에서 흐름을 바꾼다.”</tspan><tspan x="1098" dy="24" font-size="14">“只清理已经太迟，要在污染产生的地方改变流向。”</tspan><tspan x="1098" dy="22" font-size="13">“Cleanup alone is too late. Change the flow where pollution begins.”</tspan></text>
+ <rect x="1050" y="888" width="398" height="84" rx="22" fill="#fff4cb" stroke="#111" stroke-width="4"/>
+ <text x="1249" y="921" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="1249">SOURCE CHANGE · SEA CHANGE</tspan><tspan x="1249" dy="24" font-size="14">원천을 바꾸면 바다가 바뀐다 · 改变源头，改变海洋</tspan></text>
+ <text x="804" y="974" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">VERIFY!  SCALE!  PROTECT!</text>
+</g>
+<rect x="8" y="8" width="1520" height="1008" rx="12" fill="none" stroke="#d9faff" stroke-width="8"/>
+</svg>
