@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="FTF-03 scene 18 sixty day food water medicine endurance trial">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#13283d"/><stop offset=".58" stop-color="#45677c"/><stop offset="1" stop-color="#d69a70"/></linearGradient>
+ <linearGradient id="greenhouse" x2="0" y2="1"><stop stop-color="#173643"/><stop offset="1" stop-color="#5a826b"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#12354f"/><stop offset="1" stop-color="#0a1d30"/></linearGradient>
+ <linearGradient id="clinic" x2="0" y2="1"><stop stop-color="#40454d"/><stop offset="1" stop-color="#161d27"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".48"/></filter>
+ <style>
+ .panel{stroke:#050b12;stroke-width:16}.bubble{fill:#fff;stroke:#17212b;stroke-width:5}.note{fill:#f8efd9;stroke:#4a3d30;stroke-width:5}.ko{font:700 25px Arial,sans-serif;fill:#111a21}.zh{font:600 19px Arial,sans-serif;fill:#2d3942}.en{font:600 16px Arial,sans-serif;fill:#4b5963}.fx{font:900 italic 38px Impact,Arial,sans-serif;fill:#ffd65b;stroke:#101820;stroke-width:3;paint-order:stroke}.skin{fill:#e4ad84;stroke:#18222b;stroke-width:4}.skin2{fill:#c98d68;stroke:#18222b;stroke-width:4}.hair{fill:#17212b;stroke:#0c1218;stroke-width:4}.jacket{fill:#365f78;stroke:#17212b;stroke-width:4}.vest{fill:#e66c4f;stroke:#17212b;stroke-width:4}.med{fill:#edf3f1;stroke:#17212b;stroke-width:4}.farmer{fill:#557a55;stroke:#17212b;stroke-width:4}.screen{fill:#071e2b;stroke:#70d9ef;stroke-width:4}.green{fill:#78dda0}.amber{fill:#ffd169}.red{fill:#ff746b}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#050a10"/>
+<rect x="28" y="24" width="1024" height="112" rx="24" fill="#0c1926" stroke="#69d4ed" stroke-width="4"/>
+<text x="56" y="66" fill="#ccefff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 18</text>
+<text x="56" y="108" fill="white" font-size="33" font-weight="900">60일 기후 스트레스 — 식량·물·의약품을 끝까지 지켜라</text>
+
+<!-- PANEL 1: day 42 resource command center -->
+<rect class="panel" x="28" y="154" width="1024" height="405" rx="24" fill="url(#sky)"/>
+<rect class="screen" x="60" y="182" width="525" height="218" rx="18"/>
+<text x="84" y="220" fill="#ffd169" font-size="22" font-weight="900">DAY 42 / 60 · RESOURCE STRESS</text>
+<text x="84" y="258" fill="#d8f4ff" font-size="18" font-weight="700">FOOD 61% · WATER 54% · MEDICINE 47%</text>
+<text x="84" y="294" fill="#82e3a5" font-size="18" font-weight="700">GREENHOUSE OUTPUT +18% · RECYCLE LOOP 92%</text>
+<text x="84" y="330" fill="#ff9a82" font-size="18" font-weight="700">COLD-CHAIN RESERVE: 18 DAYS</text>
+<path d="M92 368h115l62-42 78 25 61-70 78 21 76-48" fill="none" stroke="#7fe8ff" stroke-width="7"/>
+<circle cx="207" cy="368" r="7" fill="#ffd169"/><circle cx="269" cy="326" r="7" fill="#ffd169"/><circle cx="347" cy="351" r="7" fill="#ffd169"/><circle cx="408" cy="281" r="7" fill="#ffd169"/><circle cx="486" cy="302" r="7" fill="#ffd169"/>
+<!-- analyst -->
+<ellipse class="skin" cx="723" cy="422" rx="39" ry="45"/><path class="hair" d="M687 408q10-59 70-30q18 10 10 43q-38-21-72-7z"/><path class="jacket" d="M657 487q66-59 132 0v55H657z"/><path d="M671 500l-76-63M778 499l78-69" stroke="#17212b" stroke-width="12" stroke-linecap="round"/>
+<!-- coordinator -->
+<ellipse class="skin2" cx="914" cy="426" rx="37" ry="43"/><path class="hair" d="M881 414q11-54 65-28q16 8 10 38q-34-18-67-5z"/><path class="vest" d="M850 486q64-55 128 0v55H850z"/>
+<rect class="bubble" x="594" y="178" width="424" height="172" rx="20" filter="url(#shadow)"/>
+<text class="ko" x="618" y="216">42일째. 남은 양보다 중요한 건</text><text class="ko" x="618" y="249">‘매일 다시 만들어내는 능력’이야.</text>
+<text class="zh" x="618" y="282">第42天。关键不是库存，而是每天持续再生。</text>
+<text class="en" x="618" y="316">DAY 42. SURVIVAL NOW DEPENDS ON DAILY REGENERATION, NOT STOCKPILES.</text>
+<text class="fx" x="70" y="526">COUNT! PLAN! HOLD!</text>
+
+<!-- PANEL 2: greenhouse and food cycle -->
+<rect class="panel" x="28" y="580" width="1024" height="405" rx="24" fill="url(#greenhouse)"/>
+<!-- greenhouse frame -->
+<path d="M60 900V705l170-91h420l170 91v195" fill="#cde7dc" opacity=".16" stroke="#cce7dd" stroke-width="8"/>
+<path d="M230 615v285M440 615v285M650 615v285M60 705h760" stroke="#91b9ac" stroke-width="6" opacity=".65"/>
+<!-- crop beds -->
+<path d="M85 845h680l60 95H45z" fill="#563e2e" stroke="#18222b" stroke-width="6"/>
+<g fill="#66a95d" stroke="#24462a" stroke-width="3"><path d="M120 845q-20-55 22-70q8 44-22 70z"/><path d="M175 845q-14-63 31-74q2 51-31 74z"/><path d="M240 845q-20-58 25-72q5 49-25 72z"/><path d="M310 845q-15-62 32-74q0 51-32 74z"/><path d="M385 845q-18-58 26-72q4 48-26 72z"/><path d="M455 845q-15-62 31-74q2 51-31 74z"/><path d="M535 845q-18-58 26-72q4 48-26 72z"/><path d="M610 845q-15-62 32-74q0 51-32 74z"/></g>
+<!-- farmer + child -->
+<ellipse class="skin2" cx="716" cy="856" rx="34" ry="39"/><path class="hair" d="M684 846q9-48 58-24q15 8 8 34q-29-16-58-5z"/><path class="farmer" d="M657 911q59-52 118 0v59H657z"/><path d="M670 914l-80-52M764 914l72-59" stroke="#17212b" stroke-width="11" stroke-linecap="round"/>
+<ellipse class="skin" cx="915" cy="873" rx="29" ry="34"/><path class="hair" d="M889 862q8-41 49-21q13 7 7 29q-25-14-49-4z"/><path d="M869 918q47-43 94 0v49H869z" fill="#d5a45f" stroke="#17212b" stroke-width="4"/>
+<rect class="note" x="58" y="604" width="945" height="112" rx="18"/>
+<text class="ko" x="84" y="640">버리는 잎은 퇴비로, 남은 물은 다시 뿌리로. 온실은 하루도 멈추지 않는다.</text>
+<text class="zh" x="84" y="673">废叶变成堆肥，余水回到根系；温室一天也不停。</text>
+<text class="en" x="84" y="704">LEAVES BECOME COMPOST; WATER RETURNS TO THE ROOTS. THE GREENHOUSE NEVER STOPS.</text>
+<text class="fx" x="420" y="956">GROW! SHARE! REPEAT!</text>
+
+<!-- PANEL 3: water plant + clinic cold chain -->
+<rect class="panel" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#water)"/>
+<!-- water tanks -->
+<ellipse cx="165" cy="1200" rx="105" ry="42" fill="#7195a5" stroke="#17212b" stroke-width="7"/><rect x="60" y="1200" width="210" height="142" fill="#527486" stroke="#17212b" stroke-width="7"/><ellipse cx="165" cy="1342" rx="105" ry="42" fill="#3e6578" stroke="#17212b" stroke-width="7"/>
+<path d="M270 1260h160v-95h70" fill="none" stroke="#a8cfdc" stroke-width="21"/><path d="M270 1260h160v-95h70" fill="none" stroke="#203943" stroke-width="5"/>
+<circle cx="535" cy="1165" r="58" fill="#193d51" stroke="#70d9ef" stroke-width="7"/><path d="M535 1125q-42 53 0 90q42-37 0-90z" fill="#6fd5ec"/>
+<!-- clinic refrigerator -->
+<rect x="670" y="1100" width="300" height="242" rx="22" fill="#e6eff0" stroke="#17212b" stroke-width="8"/><rect x="704" y="1140" width="232" height="86" rx="14" fill="#102b39" stroke="#70d9ef" stroke-width="5"/><text x="728" y="1192" fill="#82e3a5" font-size="34" font-weight="900">3.8°C</text><text x="840" y="1190" fill="#d8f4ff" font-size="16" font-weight="700">SAFE</text><path d="M820 1262v58M790 1291h60" stroke="#d94f56" stroke-width="12"/>
+<!-- technician -->
+<ellipse class="skin2" cx="435" cy="1354" rx="31" ry="36"/><path class="hair" d="M406 1344q9-44 53-22q14 7 8 30q-27-14-53-4z"/><path class="jacket" d="M383 1397q52-46 104 0h-104z"/>
+<!-- medic -->
+<ellipse class="skin" cx="846" cy="1360" rx="31" ry="36"/><path class="hair" d="M817 1350q9-44 54-22q13 7 7 30q-27-14-53-4z"/><path class="med" d="M793 1400q53-46 106 0h-106z"/>
+<rect class="bubble" x="58" y="1029" width="580" height="118" rx="18"/>
+<text class="ko" x="84" y="1065">정수 손실 8% 이하. 한 방울도 그냥 버리지 않는다.</text>
+<text class="zh" x="84" y="1098">净水损耗控制在8%以下，一滴都不白白浪费。</text>
+<text class="en" x="84" y="1130">PURIFICATION LOSS BELOW 8%. NOT A DROP IS WASTED.</text>
+<rect class="bubble" x="655" y="1029" width="350" height="118" rx="18"/>
+<text class="ko" x="679" y="1065">백신·인슐린 냉장 유지!</text><text class="zh" x="679" y="1098">疫苗与胰岛素冷链稳定！</text><text class="en" x="679" y="1130">VACCINE &amp; INSULIN COLD CHAIN: STABLE!</text>
+<text class="fx" x="375" y="1386">FILTER! CHILL! PROTECT!</text>
+
+<!-- PANEL 4: day 60 dawn and handoff -->
+<rect class="panel" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#sky)"/>
+<circle cx="886" cy="1530" r="82" fill="#ffd18c" opacity=".95"/>
+<!-- resilient district -->
+<path d="M28 1790l115-76 105 40 104-112 113 86 103-70 116 82 115-67 153 117v100H28z" fill="#38566a" stroke="#1d2e3a" stroke-width="7"/>
+<rect x="82" y="1610" width="146" height="170" fill="#4b6b7c" stroke="#17242e" stroke-width="6"/><rect x="260" y="1545" width="155" height="235" fill="#587887" stroke="#17242e" stroke-width="6"/><rect x="450" y="1640" width="130" height="140" fill="#456575" stroke="#17242e" stroke-width="6"/>
+<g fill="#ffe39a"><rect x="110" y="1640" width="26" height="28"/><rect x="172" y="1640" width="26" height="28"/><rect x="110" y="1700" width="26" height="28"/><rect x="172" y="1700" width="26" height="28"/><rect x="291" y="1580" width="28" height="31"/><rect x="355" y="1580" width="28" height="31"/><rect x="291" y="1645" width="28" height="31"/><rect x="355" y="1645" width="28" height="31"/></g>
+<!-- solar roofs and greenhouse -->
+<path d="M73 1608l82-46 82 46" fill="#284d68" stroke="#17212b" stroke-width="6"/><path d="M257 1543l80-48 80 48" fill="#284d68" stroke="#17212b" stroke-width="6"/><rect x="620" y="1655" width="180" height="118" rx="15" fill="#9bcdb8" opacity=".62" stroke="#d9f3e8" stroke-width="5"/>
+<!-- team at overlook -->
+<ellipse class="skin" cx="705" cy="1742" rx="34" ry="39"/><path class="hair" d="M673 1731q10-48 58-24q15 8 8 34q-29-16-58-5z"/><path class="jacket" d="M647 1795q58-50 116 0v70H647z"/>
+<ellipse class="skin2" cx="846" cy="1744" rx="34" ry="39"/><path class="hair" d="M814 1733q10-48 58-24q15 8 8 34q-29-16-58-5z"/><path class="med" d="M788 1796q58-50 116 0v69H788z"/>
+<ellipse class="skin" cx="960" cy="1762" rx="27" ry="32"/><path class="hair" d="M935 1752q8-39 46-20q12 6 7 27q-23-13-46-4z"/><path d="M916 1805q44-39 88 0v60H916z" fill="#d7a45d" stroke="#17212b" stroke-width="4"/>
+<rect class="note" x="58" y="1456" width="930" height="165" rx="20" filter="url(#shadow)"/>
+<text class="ko" x="84" y="1495">60일째. 식량·물·의약품은 바닥나지 않았다.</text><text class="ko" x="84" y="1529">도시는 ‘비축’이 아니라 ‘순환’으로 살아남는 법을 배웠다.</text>
+<text class="zh" x="84" y="1562">第60天。粮食、水和药品没有耗尽，城市学会了靠循环生存。</text>
+<text class="en" x="84" y="1596">DAY 60. FOOD, WATER AND MEDICINE HELD. THE CITY LEARNED TO SURVIVE BY CIRCULATION.</text>
+<rect class="bubble" x="620" y="1635" width="380" height="105" rx="18"/>
+<text class="ko" x="646" y="1672">다음 시험: 도시 간 자원 공유.</text><text class="zh" x="646" y="1703">下一关：城市之间共享资源。</text><text class="en" x="646" y="1732">NEXT: INTERCITY RESOURCE SHARING.</text>
+<text class="fx" x="74" y="1850">DAY 60! CYCLE! SURVIVE!</text>
+</svg>
