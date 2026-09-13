@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 151 continuous harbor biosecurity monitoring prevents invasive species from returning">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#0a3655"/><stop offset=".62" stop-color="#3a9fc1"/><stop offset="1" stop-color="#ffd58b"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#1e9eba"/><stop offset="1" stop-color="#053849"/></linearGradient>
+ <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#0a2030"/><stop offset="1" stop-color="#174f67"/></linearGradient>
+ <linearGradient id="sunset" x2="1" y2="1"><stop stop-color="#f6bd67"/><stop offset=".45" stop-color="#4f86a4"/><stop offset="1" stop-color="#0e4051"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-opacity=".45"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#06131c"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#12496a"/>
+<text x="28" y="50" fill="#fff" font-family="Arial,Malgun Gothic" font-size="31" font-weight="900">FTF-01  #151  지금 막아도 다시 들어올 수 있다 — 그래서 끝까지 지켜본다</text>
+<text x="1030" y="49" fill="#d9fbff" font-family="Arial" font-size="17" font-weight="800">WATCH · DETECT · RESPOND · VERIFY</text>
+
+<!-- PANEL 1 -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+ <rect x="16" y="318" width="746" height="194" fill="url(#sea)"/>
+ <path d="M30 338c110-17 202-9 318 0s235 11 399-7v34H30z" fill="#bce8ee" opacity=".45"/>
+ <g filter="url(#shadow)"><path d="M515 340h205l-26 86H544z" fill="#e9eef0" stroke="#153443" stroke-width="5"/><rect x="570" y="281" width="94" height="62" rx="8" fill="#d5e4e9" stroke="#153443" stroke-width="4"/><rect x="601" y="240" width="34" height="42" fill="#f3b84b"/><path d="M618 239v-42" stroke="#153443" stroke-width="5"/><circle cx="618" cy="194" r="7" fill="#ff5757" filter="url(#glow)"/><text x="618" y="397" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#163846">MARINE WATCH</text></g>
+ <g transform="translate(160 382)" filter="url(#shadow)"><ellipse cy="0" rx="54" ry="25" fill="#f1c34d" stroke="#173a47" stroke-width="5"/><rect x="-36" y="-85" width="72" height="92" rx="10" fill="#f4d257" stroke="#173a47" stroke-width="5"/><rect x="-23" y="-70" width="46" height="33" rx="4" fill="#102d3b"/><path d="M0-85v-52" stroke="#173a47" stroke-width="6"/><circle cy="-145" r="14" fill="#65d8ff" stroke="#fff" stroke-width="4"/><text y="-6" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#142b34">B-2</text></g>
+ <g transform="translate(322 410)" filter="url(#shadow)"><ellipse cy="0" rx="49" ry="22" fill="#f1c34d" stroke="#173a47" stroke-width="5"/><rect x="-31" y="-72" width="62" height="78" rx="9" fill="#f4d257" stroke="#173a47" stroke-width="5"/><path d="M0-72v-44" stroke="#173a47" stroke-width="6"/><circle cy="-124" r="12" fill="#65d8ff" stroke="#fff" stroke-width="4"/><text y="-5" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#142b34">C-4</text></g>
+ <g transform="translate(470 413)" filter="url(#shadow)"><ellipse cy="0" rx="45" ry="20" fill="#f1c34d" stroke="#173a47" stroke-width="5"/><rect x="-28" y="-65" width="56" height="70" rx="8" fill="#f4d257" stroke="#173a47" stroke-width="5"/><path d="M0-65v-40" stroke="#173a47" stroke-width="6"/><circle cy="-112" r="11" fill="#65d8ff" stroke="#fff" stroke-width="4"/><text y="-4" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#142b34">E-1</text></g>
+ <g transform="translate(100 250)" filter="url(#shadow)"><ellipse cy="-42" rx="27" ry="33" fill="#c9906b" stroke="#102a35" stroke-width="5"/><path d="M-27-52q8-27 29-28q22 4 28 28l-17-7q-19 7-40 7" fill="#26282a"/><rect x="-39" y="-5" width="78" height="96" rx="17" fill="#f0a63c" stroke="#102a35" stroke-width="5"/><path d="M-31 18l-58 40M31 18l60 35" stroke="#f0a63c" stroke-width="18" stroke-linecap="round"/><path d="M-25 90l-18 82M25 90l19 82" stroke="#172a31" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="38" y="102" width="540" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="308" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="308">항만 입구와 주요 해역에 스마트 부이·수중 센서를 두고 24시간 재유입을 감시한다.</tspan><tspan x="308" dy="24" font-size="14">在港口入口和重点海域布设智能浮标与水下传感器，全天监测再次入侵。</tspan><tspan x="308" dy="22" font-size="13">Smart buoys and underwater sensors watch for re-entry around the clock.</tspan></text>
+ <path d="M585 111h149q18 0 18 18v89q0 18-18 18h-76l-31 30 9-30h-51q-18 0-18-18v-89q0-18 18-18z" fill="#fff4bf" stroke="#111" stroke-width="4"/>
+ <text x="660" y="141" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="660">24시간 감시!</tspan><tspan x="660" dy="23">이상 신호 즉시 알림!</tspan><tspan x="660" dy="20" font-size="12">全天监测 · 即时预警</tspan></text>
+ <text x="43" y="491" font-family="Arial" font-size="26" font-weight="1000" fill="#ffe15c" stroke="#111" stroke-width="1">PING! WATCH! DETECT EARLY!</text>
+</g>
+
+<!-- PANEL 2 -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#lab)"/>
+ <rect x="794" y="112" width="706" height="222" rx="12" fill="#071923" stroke="#4cc9e8" stroke-width="4"/>
+ <rect x="814" y="132" width="240" height="180" rx="8" fill="#0d3447"/><path d="M836 280l42-52 39 20 43-72 62 84" fill="none" stroke="#65e4ff" stroke-width="6"/><circle cx="960" cy="176" r="12" fill="#ff4b4b" filter="url(#glow)"/><text x="833" y="160" font-family="Arial" font-size="17" font-weight="900" fill="#fff">eDNA LIVE SIGNAL</text>
+ <rect x="1071" y="132" width="408" height="180" rx="8" fill="#102e43"/><path d="M1100 275c50-95 87 22 135-41s99 41 146-28 63 16 79-38" fill="none" stroke="#69ffb4" stroke-width="6"/><text x="1095" y="160" font-family="Arial" font-size="17" font-weight="900" fill="#fff">AI RISK FORECAST · K-17 MODEL</text><rect x="1210" y="182" width="230" height="67" rx="10" fill="#b92e39"/><text x="1325" y="211" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="20" font-weight="900" fill="#fff">위험 신호 감지</text><text x="1325" y="235" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#fff">RISK SIGNAL DETECTED</text>
+ <g transform="translate(930 412)" filter="url(#shadow)"><ellipse cy="-72" rx="29" ry="35" fill="#c98f6d" stroke="#081922" stroke-width="5"/><path d="M-30-83q9-30 31-31q23 4 29 31l-19-8q-19 7-41 8" fill="#20262a"/><rect x="-43" y="-31" width="86" height="113" rx="18" fill="#ecf1f3" stroke="#081922" stroke-width="5"/><path d="M-35-7l-73 38M35-7l68 35" stroke="#ecf1f3" stroke-width="19" stroke-linecap="round"/><rect x="-23" y="8" width="46" height="50" rx="5" fill="#164f65"/><path d="M-28 82l-25 82M28 82l25 82" stroke="#172a31" stroke-width="20" stroke-linecap="round"/></g>
+ <g transform="translate(1195 415)" filter="url(#shadow)"><ellipse cy="-70" rx="28" ry="34" fill="#b98062" stroke="#081922" stroke-width="5"/><path d="M-29-81q11-29 32-29q22 5 27 29l-17-7q-20 7-42 7" fill="#292b2c"/><rect x="-41" y="-29" width="82" height="108" rx="17" fill="#ecf1f3" stroke="#081922" stroke-width="5"/><path d="M-34-5l-60 40M34-5l65 39" stroke="#ecf1f3" stroke-width="18" stroke-linecap="round"/><path d="M-27 78l-22 84M27 78l22 84" stroke="#172a31" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="801" y="346" width="672" height="111" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1137" y="375" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1137">AI가 과거 항로·세척 기록과 현재 eDNA 신호를 비교해 위험을 조기에 예측한다.</tspan><tspan x="1137" dy="24" font-size="14">AI把历史航线、清洗记录与当前eDNA信号结合，提前预测风险。</tspan><tspan x="1137" dy="22" font-size="13">AI compares route history, cleaning logs and live eDNA to forecast risk early.</tspan></text>
+ <text x="804" y="494" font-family="Arial" font-size="25" font-weight="1000" fill="#72f3ff">CORRELATE! FORECAST! ALERT!</text>
+</g>
+
+<!-- PANEL 3 -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="url(#sunset)"/>
+ <rect x="16" y="786" width="746" height="222" fill="url(#sea)"/>
+ <g filter="url(#shadow)"><path d="M68 810h420l-47 106H112z" fill="#d7e0e3" stroke="#102d39" stroke-width="6"/><rect x="164" y="698" width="150" height="115" rx="10" fill="#ccdbe0" stroke="#102d39" stroke-width="5"/><path d="M330 699h82v-55h22v166" fill="none" stroke="#1a3844" stroke-width="10"/><text x="275" y="881" text-anchor="middle" font-family="Arial" font-size="18" font-weight="900" fill="#153a48">K-OCEAN RESPONSE</text></g>
+ <g transform="translate(204 750)" filter="url(#shadow)"><ellipse cy="-54" rx="25" ry="31" fill="#c48c69" stroke="#102a35" stroke-width="5"/><path d="M-25-64q8-24 27-25q20 3 25 25l-16-6q-18 6-36 6" fill="#242729"/><rect x="-36" y="-14" width="72" height="86" rx="15" fill="#f0a63c" stroke="#102a35" stroke-width="5"/><path d="M-29 7l-55 35M29 7l62 29" stroke="#f0a63c" stroke-width="16" stroke-linecap="round"/><path d="M-23 72l-18 73M23 72l18 73" stroke="#172a31" stroke-width="18" stroke-linecap="round"/></g>
+ <g transform="translate(370 758)" filter="url(#shadow)"><ellipse cy="-53" rx="25" ry="31" fill="#b98266" stroke="#102a35" stroke-width="5"/><path d="M-25-63q10-24 29-24q19 4 23 24l-15-6q-19 6-37 6" fill="#303134"/><rect x="-36" y="-13" width="72" height="85" rx="15" fill="#f0a63c" stroke="#102a35" stroke-width="5"/><path d="M-28 8l-51 35M28 8l55 32" stroke="#f0a63c" stroke-width="16" stroke-linecap="round"/><path d="M-23 72l-18 73M23 72l18 73" stroke="#172a31" stroke-width="18" stroke-linecap="round"/></g>
+ <g transform="translate(575 845)" filter="url(#shadow)"><rect x="-75" y="-45" width="150" height="90" rx="18" fill="#20333b" stroke="#031017" stroke-width="5"/><circle cx="-42" cy="0" r="22" fill="#6fe7ff"/><circle cx="42" cy="0" r="22" fill="#6fe7ff"/><path d="M0-45v-66" stroke="#252c31" stroke-width="8"/><rect x="-18" y="-129" width="36" height="30" rx="7" fill="#f1b54a"/></g>
+ <rect x="38" y="545" width="550" height="124" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="313" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="313">이상 신호가 뜨면 현장팀이 즉시 출동해 부이·선체·계류장비·수중 구조물을 다시 조사한다.</tspan><tspan x="313" dy="24" font-size="14">一旦出现异常信号，现场队立即复查浮标、船体、系泊设备和水下结构。</tspan><tspan x="313" dy="22" font-size="13">Any anomaly triggers immediate field checks of buoys, hulls, gear and underwater structures.</tspan></text>
+ <path d="M600 557h133q18 0 18 18v101q0 18-18 18h-68l-30 28 8-28h-43q-18 0-18-18V575q0-18 18-18z" fill="#fff4bf" stroke="#111" stroke-width="4"/>
+ <text x="667" y="587" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="667">위치 확인!</tspan><tspan x="667" dy="23">샘플 채취!</tspan><tspan x="667" dy="23">ROV 투입!</tspan><tspan x="667" dy="20" font-size="12">定位 · 采样 · 下潜</tspan></text>
+ <text x="45" y="982" font-family="Arial" font-size="26" font-weight="1000" fill="#ffe15c" stroke="#111" stroke-width="1">GO! SAMPLE! DIVE! CONTAIN!</text>
+</g>
+
+<!-- PANEL 4 -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="#8ed4e5"/>
+ <rect x="774" y="735" width="746" height="273" fill="url(#sea)"/>
+ <path d="M775 759c116-32 214 21 332-7s221 17 410-6v34H775z" fill="#ddfbff" opacity=".6"/>
+ <path d="M1210 830q55-47 118 0q-57 32-118 0m-92 72q43-34 94 0q-45 28-94 0m195 6q38-29 80 0q-40 24-80 0" fill="#78d3ba" stroke="#0f6570" stroke-width="5"/>
+ <g transform="translate(936 761)" filter="url(#shadow)"><ellipse cy="-68" rx="29" ry="35" fill="#c9906c" stroke="#102a35" stroke-width="5"/><path d="M-29-79q8-29 29-30q23 4 29 30l-18-8q-19 7-40 8" fill="#25282a"/><rect x="-42" y="-28" width="84" height="112" rx="18" fill="#1f6f8b" stroke="#102a35" stroke-width="5"/><path d="M-35-2l-76 44M35-2l88 12" stroke="#1f6f8b" stroke-width="19" stroke-linecap="round"/><path d="M-28 84l-22 84M28 84l22 84" stroke="#172a31" stroke-width="20" stroke-linecap="round"/></g>
+ <g transform="translate(1094 790)" filter="url(#shadow)"><ellipse cy="-55" rx="25" ry="31" fill="#d5a07a" stroke="#102a35" stroke-width="5"/><path d="M-25-65q8-24 26-25q20 3 25 25l-16-6q-17 6-35 6" fill="#2c2928"/><rect x="-35" y="-14" width="70" height="83" rx="15" fill="#f08c42" stroke="#102a35" stroke-width="5"/><path d="M-28 8l-55 21M28 8l77-27" stroke="#f08c42" stroke-width="16" stroke-linecap="round"/><path d="M-22 69l-17 71M22 69l17 71" stroke="#172a31" stroke-width="18" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><rect x="1212" y="572" width="273" height="166" rx="15" fill="#edfdf9" stroke="#17644c" stroke-width="5"/><text x="1348" y="608" text-anchor="middle" font-family="Arial" font-size="19" font-weight="900" fill="#17513f">30-DAY VERIFY</text><text x="1238" y="640" font-family="Arial,Malgun Gothic" font-size="16" font-weight="900" fill="#173c32">✓ 센서 9/9 ONLINE</text><text x="1238" y="668" font-family="Arial" font-size="15" font-weight="900" fill="#173c32">✓ invasive eDNA 0</text><text x="1238" y="696" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900" fill="#173c32">✓ 재유입 사건 0</text><text x="1238" y="724" font-family="Arial" font-size="15" font-weight="900" fill="#173c32">✓ native juveniles +41%</text></g>
+ <rect x="795" y="545" width="390" height="125" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="990" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="990">30일 연속 감시 결과 재유입 0건.</tspan><tspan x="990" dy="24">토종 치어 지표는 +41%까지 회복됐다.</tspan><tspan x="990" dy="22" font-size="13">30 days: zero re-entry; native juvenile index +41%.</tspan><tspan x="990" dy="20" font-size="12">连续30天：再入侵0次，本地幼鱼指标+41%。</tspan></text>
+ <path d="M821 699h240q18 0 18 18v82q0 18-18 18h-128l-29 28 8-28h-91q-18 0-18-18v-82q0-18 18-18z" fill="#fff4bf" stroke="#111" stroke-width="4"/>
+ <text x="941" y="730" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="941">깨끗한 바다는</tspan><tspan x="941" dy="24">한 번이 아니라 계속 지키는 것!</tspan><tspan x="941" dy="21" font-size="12">守护海洋，是持续的行动。</tspan></text>
+ <text x="1195" y="971" font-family="Arial" font-size="27" font-weight="1000" fill="#fff" stroke="#083b4b" stroke-width="2">VERIFY! ZERO RE-ENTRY! PROTECT!</text>
+</g>
+<rect x="12" y="12" width="1512" height="996" rx="12" fill="none" stroke="#d7f7ff" stroke-width="5"/>
+</svg>
