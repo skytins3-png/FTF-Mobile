@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 140 harbor sediment eDNA surveillance">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#142743"/><stop offset=".55" stop-color="#3f7287"/><stop offset="1" stop-color="#e9a46c"/></linearGradient>
+  <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#1aa7be"/><stop offset="1" stop-color="#06384c"/></linearGradient>
+  <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#edf5f7"/><stop offset="1" stop-color="#9fb5bd"/></linearGradient>
+  <linearGradient id="sed" x2="0" y2="1"><stop stop-color="#6c5846"/><stop offset="1" stop-color="#332b27"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-opacity=".48"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#79d9e5" stroke-opacity=".18"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="#071218"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#12354d"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #140  부두 바닥까지 추적하라</text>
+<text x="930" y="49" fill="#c8f7ff" font-family="Arial" font-size="18" font-weight="800">HARBOR eDNA SENTINEL · 港底环境DNA监测</text>
+
+<!-- PANEL 1: harbor floor sampling -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+ <rect x="16" y="250" width="746" height="262" rx="0" fill="url(#sea)"/>
+ <path d="M16 421q140-54 270-18t248-8q112-39 228 7v110H16z" fill="url(#sed)"/>
+ <path d="M70 397q65-54 132 0M248 409q48-45 96 0M577 404q52-42 104 0" fill="none" stroke="#81694e" stroke-width="18" opacity=".8"/>
+ <!-- pier and vessel -->
+ <rect x="32" y="194" width="310" height="44" fill="#44535b" stroke="#18262d" stroke-width="5"/>
+ <rect x="83" y="228" width="25" height="167" fill="#343d42"/><rect x="272" y="228" width="25" height="172" fill="#343d42"/>
+ <path d="M425 189h252l-28 57H454z" fill="#e7e9e8" stroke="#17272f" stroke-width="5"/><rect x="504" y="145" width="91" height="45" rx="5" fill="#e6f0f3" stroke="#17272f" stroke-width="4"/><path d="M609 146v-45" stroke="#dfe7ea" stroke-width="7"/><path d="M611 105l48 29h-48z" fill="#f5c24d"/>
+ <!-- diver -->
+ <g transform="translate(382 372)" filter="url(#shadow)">
+   <ellipse cx="48" cy="-51" rx="34" ry="39" fill="#d8a079" stroke="#10232d" stroke-width="5"/>
+   <rect x="21" y="-59" width="55" height="29" rx="12" fill="#95ebf2" stroke="#12323d" stroke-width="5"/><circle cx="39" cy="-45" r="7" fill="#12323d"/><circle cx="59" cy="-45" r="7" fill="#12323d"/>
+   <rect x="0" y="-10" width="96" height="105" rx="20" fill="#f0b530" stroke="#10232d" stroke-width="5"/>
+   <rect x="-22" y="6" width="25" height="83" rx="11" fill="#263b43" stroke="#10232d" stroke-width="4"/>
+   <path d="M84 14l100 58" stroke="#f0b530" stroke-width="20" stroke-linecap="round"/>
+   <path d="M177 70l43 14" stroke="#b8eef2" stroke-width="9"/><rect x="216" y="65" width="34" height="34" rx="6" fill="#d8e9eb" stroke="#18303a" stroke-width="4"/>
+   <path d="M18 94l-30 63M75 94l18 65" stroke="#233941" stroke-width="22" stroke-linecap="round"/>
+   <path d="M-28 156h55M83 160h54" stroke="#90d8de" stroke-width="13" stroke-linecap="round"/>
+ </g>
+ <!-- sample cores -->
+ <rect x="622" y="374" width="29" height="87" rx="10" fill="#dceff0" fill-opacity=".8" stroke="#b9f5fa" stroke-width="4"/><rect x="626" y="411" width="21" height="45" fill="#725e49"/>
+ <rect x="664" y="386" width="29" height="75" rx="10" fill="#dceff0" fill-opacity=".8" stroke="#b9f5fa" stroke-width="4"/><rect x="668" y="421" width="21" height="35" fill="#6f5946"/>
+ <circle cx="695" cy="347" r="6" fill="#d4fbff"/><circle cx="716" cy="329" r="4" fill="#d4fbff"/>
+ <rect x="38" y="102" width="492" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="284" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="284">선박과 탱크를 막았다고 끝이 아니다. 잠수팀이 부두 바닥 퇴적물을 구역별로 채취한다.</tspan><tspan x="284" dy="24" font-size="14">封住船体和压载舱还不够。潜水队按区域采集码头底部沉积物。</tspan><tspan x="284" dy="22" font-size="13">Ship controls are not the finish. Divers grid-sample sediment beneath the berth.</tspan></text>
+ <rect x="548" y="103" width="188" height="94" rx="22" fill="#fff3b8" stroke="#111" stroke-width="4"/>
+ <text x="642" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">바닥까지 추적!</tspan><tspan x="642" dy="21" font-size="13">追到港底！</tspan><tspan x="642" dy="19" font-size="12">Track the harbor floor!</tspan></text>
+ <text x="42" y="486" fill="#fff" stroke="#0b5369" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">DIVE!  CORE!  MAP!</text>
+</g>
+
+<!-- PANEL 2: eDNA lab identifies hotspot -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#lab)"/>
+ <rect x="797" y="246" width="698" height="229" rx="15" fill="#c9d9df" stroke="#617782" stroke-width="4"/>
+ <rect x="1213" y="243" width="257" height="199" rx="17" fill="#0d3041" stroke="#71e9f0" stroke-width="5" filter="url(#shadow)"/>
+ <rect x="1231" y="270" width="221" height="118" fill="url(#grid)" stroke="#386b7b" stroke-width="3"/>
+ <circle cx="1281" cy="315" r="9" fill="#75f0b2"/><circle cx="1340" cy="333" r="9" fill="#75f0b2"/><circle cx="1398" cy="300" r="9" fill="#ff746c" filter="url(#glow)"/><circle cx="1421" cy="351" r="9" fill="#ff746c" filter="url(#glow)"/>
+ <path d="M1398 300l23 51" stroke="#ff9189" stroke-width="4"/><text x="1342" y="414" text-anchor="middle" fill="#ffcb74" font-family="Arial" font-size="17" font-weight="900">HOTSPOT: BERTH C-4</text>
+ <!-- scientist -->
+ <g transform="translate(835 344)" filter="url(#shadow)">
+   <ellipse cx="47" cy="-50" rx="34" ry="41" fill="#e0a77e" stroke="#172832" stroke-width="5"/>
+   <path d="M14-57q7-32 34-37q29 6 31 36l-17-11q-21 10-48 12z" fill="#3b2c28"/>
+   <circle cx="36" cy="-48" r="4"/><circle cx="59" cy="-48" r="4"/>
+   <rect y="-7" width="96" height="113" rx="19" fill="#f9fcfd" stroke="#172832" stroke-width="5"/>
+   <path d="M81 18l94 24" stroke="#f9fcfd" stroke-width="20" stroke-linecap="round"/>
+ </g>
+ <!-- extractor / sequencer -->
+ <g transform="translate(1017 292)" filter="url(#shadow)"><rect width="161" height="128" rx="14" fill="#eaf2f4" stroke="#263b45" stroke-width="5"/><rect x="19" y="19" width="123" height="42" rx="8" fill="#153c4d"/><text x="80" y="45" text-anchor="middle" fill="#7df0b8" font-family="Arial" font-size="14" font-weight="900">eDNA MATCH</text><rect x="28" y="78" width="23" height="30" fill="#6bd9e5"/><rect x="60" y="70" width="23" height="38" fill="#6bd9e5"/><rect x="92" y="57" width="23" height="51" fill="#ff746c"/><rect x="124" y="84" width="16" height="24" fill="#6bd9e5"/></g>
+ <rect x="796" y="102" width="494" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1043" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1043">환경 DNA 분석에서 C-4 부두 한 지점만 외래종 신호가 강하게 잡힌다. 눈으로 안 보여도 흔적은 남는다.</tspan><tspan x="1043" dy="24" font-size="14">环境DNA显示C-4泊位出现强烈外来种信号。肉眼看不见，痕迹仍在。</tspan><tspan x="1043" dy="22" font-size="13">eDNA flags one strong non-native signal at berth C-4. Invisible does not mean absent.</tspan></text>
+ <rect x="1307" y="103" width="188" height="94" rx="22" fill="#ffe0db" stroke="#111" stroke-width="4"/>
+ <text x="1401" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1401">C-4만 격리!</tspan><tspan x="1401" dy="21" font-size="13">只隔离C-4！</tspan><tspan x="1401" dy="19" font-size="12">Isolate C-4 only!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#607783" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">EXTRACT!  MATCH!  FLAG!</text>
+</g>
+
+<!-- PANEL 3: precision suction removal -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="12" fill="#163b49"/>
+ <rect x="16" y="692" width="746" height="314" fill="url(#sea)"/>
+ <path d="M16 910q166-78 330-24t416-24v144H16z" fill="url(#sed)"/>
+ <!-- containment curtain -->
+ <path d="M123 688v246M638 688v242" stroke="#f1c44c" stroke-width="12"/><path d="M123 706q124 28 258 4t257 1" fill="none" stroke="#f1c44c" stroke-width="9" stroke-dasharray="18 11"/>
+ <text x="381" y="727" text-anchor="middle" fill="#fff7c1" font-family="Arial" font-size="16" font-weight="900">C-4 MICRO-CONTAINMENT ZONE</text>
+ <!-- suction barge equipment -->
+ <rect x="55" y="615" width="307" height="77" rx="15" fill="#384d56" stroke="#172a32" stroke-width="5"/><rect x="88" y="569" width="124" height="49" rx="8" fill="#e7ecee" stroke="#172a32" stroke-width="4"/><rect x="243" y="586" width="81" height="32" rx="6" fill="#0e3a49"/><text x="283" y="607" text-anchor="middle" fill="#7ff0b8" font-family="Arial" font-size="12" font-weight="900">SEALED</text>
+ <path d="M306 688q14 96 79 128t4 112" fill="none" stroke="#75dce6" stroke-width="24"/><path d="M318 688q13 91 78 123t5 115" fill="none" stroke="#14333e" stroke-width="8" stroke-dasharray="15 12"/>
+ <ellipse cx="401" cy="932" rx="72" ry="22" fill="#1c2b30" stroke="#91eaf0" stroke-width="5"/><path d="M351 929q49-35 101 1" fill="none" stroke="#8f7355" stroke-width="17"/>
+ <!-- technician -->
+ <g transform="translate(504 802)" filter="url(#shadow)"><ellipse cx="44" cy="-48" rx="34" ry="40" fill="#dba27b" stroke="#14262f" stroke-width="5"/><path d="M11-54q8-32 34-36q29 5 32 34l-16-10q-20 9-50 12z" fill="#253038"/><circle cx="33" cy="-47" r="4"/><circle cx="56" cy="-47" r="4"/><rect y="-7" width="90" height="110" rx="18" fill="#efad2b" stroke="#14262f" stroke-width="5"/><path d="M10 16l-88 36" stroke="#efad2b" stroke-width="19" stroke-linecap="round"/><rect x="-165" y="21" width="104" height="86" rx="11" fill="#0c3546" stroke="#7de8ef" stroke-width="4"/><text x="-113" y="48" text-anchor="middle" fill="#dffcff" font-family="Arial" font-size="11" font-weight="900">SUCTION FLOW</text><text x="-113" y="76" text-anchor="middle" fill="#7df0b5" font-family="Arial" font-size="18" font-weight="900">CLOSED</text></g>
+ <rect x="38" y="543" width="494" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="285" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="285">항구 전체를 파헤치지 않는다. C-4만 차단막으로 감싸고 정밀 흡입해 오염 퇴적물을 밀폐 회수한다.</tspan><tspan x="285" dy="24" font-size="14">不扰动整个港底，只围住C-4并精准抽吸，密闭回收受污染沉积物。</tspan><tspan x="285" dy="22" font-size="13">No broad dredging: isolate C-4 and precision-vacuum the contaminated sediment.</tspan></text>
+ <rect x="548" y="543" width="188" height="94" rx="22" fill="#d8ffe7" stroke="#111" stroke-width="4"/>
+ <text x="642" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">흩뜨리지 말 것!</tspan><tspan x="642" dy="21" font-size="13">不要扩散！</tspan><tspan x="642" dy="19" font-size="12">Contain, don't spread!</tspan></text>
+ <text x="42" y="978" fill="#fff" stroke="#0b556a" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">SEAL!  VAC!  CAPTURE!</text>
+</g>
+
+<!-- PANEL 4: verification and recovered native harbor -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="12" fill="url(#sea)"/>
+ <path d="M774 902q135-71 276-23t216 2q126-53 254-3v128H774z" fill="#5f553f"/>
+ <!-- kelp/eelgrass and fish -->
+ <g fill="#3fc27f" stroke="#126748" stroke-width="4"><path d="M845 955q-34-98 21-177q-13 100 5 177z"/><path d="M900 958q-13-107 50-171q-36 91-25 171z"/><path d="M1370 958q-31-103 27-178q-17 99 1 178z"/><path d="M1430 958q-12-98 45-158q-30 82-22 158z"/></g>
+ <g fill="#e6c85e" stroke="#183b48" stroke-width="4"><path d="M1002 803q47-29 88 0q-42 35-88 0zm88 0l31-20v40z"/><path d="M1165 846q41-25 78 0q-37 31-78 0zm78 0l28-18v36z"/><path d="M1290 775q34-21 66 0q-31 27-66 0zm66 0l24-16v32z"/></g>
+ <g fill="#f4a65e" stroke="#183b48" stroke-width="4"><path d="M944 868q29-18 58 0q-28 24-58 0zm58 0l21-14v28z"/><path d="M1230 918q31-20 62 0q-30 25-62 0zm62 0l22-15v30z"/></g>
+ <!-- dashboard -->
+ <rect x="1061" y="697" width="406" height="203" rx="18" fill="#0b3040" stroke="#6ce2ea" stroke-width="5" filter="url(#shadow)"/>
+ <text x="1264" y="728" text-anchor="middle" fill="#dcfbff" font-family="Arial" font-size="16" font-weight="900">21-DAY VERIFICATION · 21天复核</text>
+ <text x="1090" y="766" fill="#fff" font-family="Arial" font-size="15">Non-native eDNA</text><text x="1440" y="766" text-anchor="end" fill="#7df0b4" font-family="Arial" font-size="20" font-weight="900">−98%</text>
+ <rect x="1090" y="777" width="330" height="14" rx="7" fill="#244d59"/><rect x="1090" y="777" width="10" height="14" rx="7" fill="#7df0b4"/>
+ <text x="1090" y="822" fill="#fff" font-family="Arial" font-size="15">Sediment recovered</text><text x="1440" y="822" text-anchor="end" fill="#7df0b4" font-family="Arial" font-size="20" font-weight="900">96%</text>
+ <rect x="1090" y="833" width="330" height="14" rx="7" fill="#244d59"/><rect x="1090" y="833" width="317" height="14" rx="7" fill="#7df0b4"/>
+ <text x="1090" y="878" fill="#fff" font-family="Arial" font-size="15">Native juvenile fish</text><text x="1440" y="878" text-anchor="end" fill="#ffd477" font-family="Arial" font-size="20" font-weight="900">+24%</text>
+ <!-- team at surface edge -->
+ <g transform="translate(833 717)" filter="url(#shadow)"><ellipse cx="46" cy="-48" rx="33" ry="40" fill="#e0a77e" stroke="#142631" stroke-width="5"/><path d="M13-55q8-31 34-35q28 5 31 34l-17-10q-19 10-48 11z" fill="#3a2b28"/><circle cx="35" cy="-47" r="4"/><circle cx="57" cy="-47" r="4"/><rect y="-7" width="92" height="111" rx="18" fill="#f5f8f8" stroke="#142631" stroke-width="5"/><path d="M80 19l95 45" stroke="#f5f8f8" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="796" y="543" width="493" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1043" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1043">21일 반복검사에서 외래종 eDNA가 98% 줄고 토종 치어가 돌아온다. 감시망은 계속 켜 둔다.</tspan><tspan x="1043" dy="24" font-size="14">连续21天复核：外来种eDNA下降98%，本地幼鱼回归，监测继续运行。</tspan><tspan x="1043" dy="22" font-size="13">After 21 days, non-native eDNA falls 98% and native juveniles return. Sentinel stays on.</tspan></text>
+ <rect x="1307" y="543" width="188" height="94" rx="22" fill="#d9ffe9" stroke="#111" stroke-width="4"/>
+ <text x="1401" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1401">통과, 감시는 계속!</tspan><tspan x="1401" dy="21" font-size="13">通过，继续监测！</tspan><tspan x="1401" dy="19" font-size="12">Clear — keep watch!</tspan></text>
+ <text x="802" y="978" fill="#fff" stroke="#0b5369" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">VERIFY!  CLEAR!  KEEP WATCH!</text>
+</g>
+</svg>
