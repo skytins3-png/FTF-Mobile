@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="FTF-03 scene 16 thirty-day long-duration survival test">
+<defs>
+ <linearGradient id="night" x2="0" y2="1"><stop stop-color="#07111f"/><stop offset=".55" stop-color="#243748"/><stop offset="1" stop-color="#53606b"/></linearGradient>
+ <linearGradient id="shelter" x2="1" y2="1"><stop stop-color="#e6edf0"/><stop offset="1" stop-color="#91aab2"/></linearGradient>
+ <linearGradient id="greenhouse" x2="0" y2="1"><stop stop-color="#b8e6d0"/><stop offset="1" stop-color="#356f5e"/></linearGradient>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#1a334a"/><stop offset=".6" stop-color="#87a9b5"/><stop offset="1" stop-color="#f7c582"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".42"/></filter>
+ <style>
+ .panel{stroke:#050b12;stroke-width:16}.bubble{fill:#fff;stroke:#17212b;stroke-width:5}.note{fill:#f6ecd3;stroke:#493a2b;stroke-width:5}.ko{font:700 25px Arial,sans-serif;fill:#111a21}.zh{font:600 19px Arial,sans-serif;fill:#2b3942}.en{font:600 16px Arial,sans-serif;fill:#4d5b64}.fx{font:900 italic 40px Impact,Arial,sans-serif;fill:#ffd65b;stroke:#101820;stroke-width:3;paint-order:stroke}.skin{fill:#e5ad84;stroke:#18222b;stroke-width:4}.skin2{fill:#c98d68;stroke:#18222b;stroke-width:4}.hair{fill:#17212b;stroke:#0c1218;stroke-width:4}.jacket{fill:#375970;stroke:#17212b;stroke-width:4}.vest{fill:#e66b49;stroke:#17212b;stroke-width:4}.med{fill:#e8f1ef;stroke:#17212b;stroke-width:4}.work{fill:#687b48;stroke:#17212b;stroke-width:4}.screen{fill:#071e2b;stroke:#70d9ef;stroke-width:4}.green{fill:#81dfa3}.amber{fill:#ffd169}.red{fill:#ff756c}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#050a10"/>
+<rect x="28" y="24" width="1024" height="112" rx="24" fill="#0c1926" stroke="#69d4ed" stroke-width="4"/>
+<text x="56" y="66" fill="#ccefff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 16</text>
+<text x="56" y="108" fill="white" font-size="34" font-weight="900">재난 30일 — 지치지 않는 생존망</text>
+
+<!-- PANEL 1: day 17, command center fatigue -->
+<rect class="panel" x="28" y="154" width="1024" height="405" rx="24" fill="url(#night)"/>
+<rect class="screen" x="56" y="188" width="555" height="252" rx="18"/>
+<path d="M92 245h480M92 300h480M92 355h480" stroke="#24566a" stroke-width="3"/>
+<polyline points="105,345 175,315 240,332 310,270 390,300 455,245 555,266" fill="none" stroke="#84e0a1" stroke-width="8"/>
+<text x="92" y="223" fill="#a8efff" font-size="19" font-weight="900">DAY 17 · WATER 63% · POWER 58% · MEDICAL 71%</text>
+<rect x="88" y="385" width="135" height="24" rx="12" class="green"/><rect x="245" y="385" width="118" height="24" rx="12" class="amber"/><rect x="385" y="385" width="153" height="24" rx="12" class="green"/>
+<!-- tired analyst -->
+<ellipse class="skin" cx="738" cy="412" rx="40" ry="46"/><path class="hair" d="M701 399q13-58 72-29q17 9 10 41q-37-21-73-7z"/><path class="jacket" d="M668 477q70-62 140 0v66H668z"/><circle cx="724" cy="414" r="5"/><circle cx="752" cy="414" r="5"/><path d="M724 441q14 5 29 0" fill="none" stroke="#804b3a" stroke-width="5"/>
+<!-- field leader -->
+<ellipse class="skin2" cx="908" cy="422" rx="38" ry="44"/><path class="hair" d="M873 409q12-55 68-27q16 8 9 39q-34-19-68-6z"/><path class="vest" d="M842 483q66-59 132 0v60H842z"/>
+<rect class="bubble" x="606" y="174" width="418" height="166" rx="20" filter="url(#shadow)"/>
+<text class="ko" x="632" y="211">17일째. 장비보다 먼저 사람이 지친다.</text><text class="ko" x="632" y="244">교대조를 줄이면 생존망도 같이 무너져.</text>
+<text class="zh" x="632" y="278">第17天。人比设备先疲惫，必须守住轮班制度。</text>
+<text class="en" x="632" y="313">DAY 17. PEOPLE TIRE BEFORE MACHINES. PROTECT THE SHIFT ROTATION.</text>
+<text class="fx" x="78" y="523">BEEP… DAY 17… HOLD!</text>
+
+<!-- PANEL 2: food and water cycle -->
+<rect class="panel" x="28" y="580" width="1024" height="405" rx="24" fill="url(#greenhouse)"/>
+<path d="M58 842Q260 610 462 842V942H58z" fill="#d8f1e7" fill-opacity=".55" stroke="#d8fbf2" stroke-width="8"/>
+<path d="M92 842Q260 652 428 842" fill="none" stroke="#eefcf7" stroke-width="7"/>
+<path d="M120 896h285M155 842v90M220 780v152M290 746v186M360 805v127" stroke="#78a790" stroke-width="5"/>
+<path d="M122 916q30-75 61 0M196 916q32-92 64 0M280 916q31-65 62 0M350 916q25-74 50 0" fill="#5faa65" stroke="#2e7047" stroke-width="5"/>
+<!-- purifier -->
+<rect x="510" y="718" width="185" height="205" rx="20" fill="#cbdde0" stroke="#1b2a31" stroke-width="7"/><circle cx="603" cy="780" r="48" fill="#79c9df" stroke="#274955" stroke-width="6"/><path d="M603 740q45 55 0 91q-45-36 0-91z" fill="#d7f7ff"/><path d="M695 822h118v32H695" fill="none" stroke="#86e1f2" stroke-width="16"/>
+<!-- farmer character -->
+<ellipse class="skin2" cx="790" cy="875" rx="34" ry="39"/><path class="hair" d="M758 864q10-49 59-24q15 7 8 34q-30-17-59-6z"/><path class="work" d="M732 928q58-52 116 0v39H732z"/><path d="M740 925l-45-54M839 924l44-66" stroke="#17212b" stroke-width="11" stroke-linecap="round"/>
+<rect class="note" x="58" y="604" width="926" height="112" rx="18"/>
+<text class="ko" x="84" y="640">식량은 온실에서, 물은 회수·정수해서 다시 순환한다.</text>
+<text class="zh" x="84" y="674">食物来自温室，水经过回收与净化再次循环。</text>
+<text class="en" x="84" y="706">FOOD COMES FROM THE GREENHOUSE; WATER IS RECOVERED, PURIFIED AND CYCLED.</text>
+<rect class="bubble" x="690" y="730" width="313" height="126" rx="18"/>
+<text class="ko" x="714" y="766">오늘 수확량 104%.</text><text class="ko" x="714" y="798">배급을 줄이지 않아도 돼!</text>
+<text class="zh" x="714" y="829">今天产量104%，不用减配给！</text>
+<text class="en" x="714" y="851">HARVEST 104%. NO RATION CUT.</text>
+<text class="fx" x="430" y="957">FLOW! GROW! RECYCLE!</text>
+
+<!-- PANEL 3: clinic + repair + child, human resilience -->
+<rect class="panel" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#shelter)"/>
+<rect x="62" y="1090" width="325" height="242" rx="18" fill="#f2f5f3" stroke="#25323a" stroke-width="7"/>
+<path d="M214 1120v90M169 1165h90" stroke="#d94f56" stroke-width="14"/>
+<rect x="470" y="1122" width="250" height="176" rx="18" fill="#526470" stroke="#17212b" stroke-width="7"/><circle cx="535" cy="1210" r="43" fill="#28343c" stroke="#101820" stroke-width="7"/><circle cx="650" cy="1210" r="43" fill="#28343c" stroke="#101820" stroke-width="7"/><path d="M535 1167v86M492 1210h86M650 1167v86M607 1210h86" stroke="#8b9ca5" stroke-width="8"/>
+<!-- medic -->
+<ellipse class="skin" cx="262" cy="1303" rx="32" ry="37"/><path class="hair" d="M232 1292q10-46 56-23q14 7 8 32q-28-16-56-5z"/><path class="med" d="M208 1356q54-48 108 0v37H208z"/>
+<!-- mechanic -->
+<ellipse class="skin2" cx="592" cy="1320" rx="32" ry="37"/><path class="hair" d="M562 1309q10-46 56-23q14 7 8 32q-28-16-56-5z"/><path class="jacket" d="M538 1372q54-48 108 0v21H538z"/>
+<path d="M645 1342l70-67" stroke="#26333a" stroke-width="13" stroke-linecap="round"/><circle cx="720" cy="1270" r="17" fill="none" stroke="#26333a" stroke-width="9"/>
+<!-- child with drawing -->
+<ellipse class="skin" cx="874" cy="1280" rx="30" ry="34"/><path class="hair" d="M846 1270q8-42 50-21q13 6 7 29q-25-14-50-4z"/><path d="M825 1330q49-43 98 0v63H825z" fill="#f1c86f" stroke="#17212b" stroke-width="4"/>
+<rect x="815" y="1162" width="145" height="86" fill="#fff7dc" stroke="#493a2b" stroke-width="5" transform="rotate(4 887 1205)"/><path d="M836 1224l26-31 23 22 25-34 31 43" fill="none" stroke="#52a268" stroke-width="5"/><circle cx="925" cy="1187" r="10" fill="#f2be54"/>
+<rect class="bubble" x="58" y="1028" width="555" height="144" rx="18"/>
+<text class="ko" x="84" y="1065">병원도 수리팀도 멈추지 않는다. 아이들의 일상도 지킨다.</text>
+<text class="zh" x="84" y="1099">医疗与维修不停摆，也要守住孩子们的日常生活。</text>
+<text class="en" x="84" y="1133">CLINICS AND REPAIR CREWS KEEP MOVING — SO CHILDREN KEEP A NORMAL DAY.</text>
+<rect class="note" x="684" y="1028" width="320" height="124" rx="18"/>
+<text class="ko" x="710" y="1064">생존은 숫자만이 아니다.</text><text class="ko" x="710" y="1097">사람답게 버티는 것까지 포함한다.</text>
+<text class="zh" x="710" y="1129">生存也意味着保持人的生活。</text>
+<text class="fx" x="405" y="1381">FIX! CARE! LIVE!</text>
+
+<!-- PANEL 4: day 30 dawn, resilient district -->
+<rect class="panel" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#dawn)"/>
+<circle cx="902" cy="1530" r="83" fill="#ffd38b" opacity=".94"/>
+<path d="M28 1780l115-93 98 58 105-126 116 102 104-83 118 93 103-68 165 117v110H28z" fill="#344f61" stroke="#1e303c" stroke-width="7"/>
+<!-- lit buildings -->
+<rect x="110" y="1590" width="122" height="170" fill="#405f70" stroke="#17242e" stroke-width="6"/><rect x="265" y="1530" width="140" height="230" fill="#4b6877" stroke="#17242e" stroke-width="6"/><rect x="438" y="1620" width="112" height="140" fill="#3e5b69" stroke="#17242e" stroke-width="6"/>
+<g fill="#ffe39a"><rect x="132" y="1622" width="24" height="28"/><rect x="180" y="1622" width="24" height="28"/><rect x="132" y="1680" width="24" height="28"/><rect x="180" y="1680" width="24" height="28"/><rect x="291" y="1570" width="26" height="30"/><rect x="352" y="1570" width="26" height="30"/><rect x="291" y="1631" width="26" height="30"/><rect x="352" y="1631" width="26" height="30"/></g>
+<rect class="screen" x="58" y="1464" width="514" height="114" rx="18"/>
+<text x="86" y="1505" fill="#dff8ff" font-size="21" font-weight="900">DAY 30 · LONG-DURATION TEST COMPLETE</text>
+<text x="86" y="1543" fill="#8ff0b1" font-size="24" font-weight="900">WATER 61% · POWER 55% · MEDICAL 74% · COMMUNITY STABLE</text>
+<!-- two leads at dawn -->
+<ellipse class="skin" cx="713" cy="1711" rx="38" ry="44"/><path class="hair" d="M678 1698q12-55 68-27q16 8 9 39q-34-19-68-6z"/><path class="jacket" d="M647 1771q66-59 132 0v99H647z"/><ellipse class="skin2" cx="891" cy="1716" rx="37" ry="43"/><path class="hair" d="M856 1704q12-53 66-26q16 8 9 37q-33-18-65-6z"/><path class="vest" d="M827 1774q64-57 128 0v96H827z"/>
+<rect class="bubble" x="594" y="1450" width="429" height="192" rx="18" filter="url(#shadow)"/>
+<text class="ko" x="620" y="1489">30일. 아무도 구조를 기다리기만 하지 않았다.</text>
+<text class="ko" x="620" y="1522">도시는 스스로 물을 만들고, 고치고, 돌봤다.</text>
+<text class="zh" x="620" y="1555">30天。城市靠自己供水、修复、照护，没有只等救援。</text>
+<text class="en" x="620" y="1588">THIRTY DAYS. THE CITY MADE WATER, REPAIRED ITSELF, AND CARED FOR PEOPLE.</text>
+<text x="607" y="1842" fill="#fff3d0" font-size="22" font-weight="900">NEXT: CAN THIS NETWORK SURVIVE WHEN THE WEATHER ITSELF TURNS HOSTILE?</text>
+<text class="fx" x="65" y="1854">DAY 30! STILL STANDING!</text>
+</svg>
