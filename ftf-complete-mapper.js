@@ -1,13 +1,14 @@
 (()=>{
   const BASE='/FTF-Mobile/assets/comics/';
-  const TARGET_SCENES=180;
-  const AVAILABLE_SCENES={1:145,2:30,3:6,8:26};
+  const TARGET_SCENES=30;
+  const AVAILABLE_SCENES={1:145,2:30,3:9,8:26};
   const COMPLETE=new Set(Object.keys(AVAILABLE_SCENES).map(Number));
   const previous=window.showComic;
   if(typeof previous!=='function')return;
   const q=id=>document.getElementById(id);
   const hasUserComic=n=>{try{return typeof sceneComics==='function'&&sceneComics(n).length>0}catch(_){return false}};
   window.ftfComicTargetScenes=TARGET_SCENES;
+  window.ftfComicAvailableScenes=Object.freeze({...AVAILABLE_SCENES});
   window.showComic=async function(n,cut){
     const result=await previous.apply(this,arguments);
     if(!COMPLETE.has(n)||hasUserComic(n))return result;
@@ -19,7 +20,7 @@
     if(!viewer||!img)return result;
     const sceneNumber=idx+1;
     const ext=(n===1&&(sceneNumber===77||sceneNumber===96||sceneNumber===102))?'jpg':'svg';
-    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(sceneNumber).padStart(2,'0')}.${ext}?v=175`;
+    const src=`${BASE}FTF-${String(n).padStart(2,'0')}/${String(sceneNumber).padStart(2,'0')}.${ext}?v=176`;
     window.ftfSceneIndex=idx;
     viewer.classList.add('show','ftf-integrated');
     if(built)built.style.display='none';
