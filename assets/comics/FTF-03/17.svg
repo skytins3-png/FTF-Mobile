@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="FTF-03 scene 17 extreme weather survival trial">
+<defs>
+ <linearGradient id="storm" x2="0" y2="1"><stop stop-color="#091421"/><stop offset=".55" stop-color="#23394b"/><stop offset="1" stop-color="#465d68"/></linearGradient>
+ <linearGradient id="heat" x2="0" y2="1"><stop stop-color="#ffd49a"/><stop offset=".55" stop-color="#d97952"/><stop offset="1" stop-color="#7b3432"/></linearGradient>
+ <linearGradient id="flood" x2="0" y2="1"><stop stop-color="#213f5b"/><stop offset="1" stop-color="#0d2238"/></linearGradient>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#193650"/><stop offset=".65" stop-color="#7ca6b7"/><stop offset="1" stop-color="#f3c68d"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".45"/></filter>
+ <style>
+ .panel{stroke:#050b12;stroke-width:16}.bubble{fill:#fff;stroke:#17212b;stroke-width:5}.note{fill:#f7eed9;stroke:#4a3d30;stroke-width:5}.ko{font:700 25px Arial,sans-serif;fill:#111a21}.zh{font:600 19px Arial,sans-serif;fill:#2d3942}.en{font:600 16px Arial,sans-serif;fill:#4b5963}.fx{font:900 italic 38px Impact,Arial,sans-serif;fill:#ffd65b;stroke:#101820;stroke-width:3;paint-order:stroke}.skin{fill:#e4ad84;stroke:#18222b;stroke-width:4}.skin2{fill:#c98d68;stroke:#18222b;stroke-width:4}.hair{fill:#17212b;stroke:#0c1218;stroke-width:4}.jacket{fill:#355b74;stroke:#17212b;stroke-width:4}.vest{fill:#ed704d;stroke:#17212b;stroke-width:4}.med{fill:#eef3f1;stroke:#17212b;stroke-width:4}.screen{fill:#071e2b;stroke:#70d9ef;stroke-width:4}.green{fill:#78dda0}.amber{fill:#ffd169}.red{fill:#ff746b}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#050a10"/>
+<rect x="28" y="24" width="1024" height="112" rx="24" fill="#0c1926" stroke="#69d4ed" stroke-width="4"/>
+<text x="56" y="66" fill="#ccefff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 17</text>
+<text x="56" y="108" fill="white" font-size="34" font-weight="900">기후 자체가 적이 되다 — 극한 기상 생존 시험</text>
+
+<!-- PANEL 1: compound climate alert -->
+<rect class="panel" x="28" y="154" width="1024" height="405" rx="24" fill="url(#storm)"/>
+<path d="M55 360Q170 270 278 332T500 315T720 334T1028 286V559H55z" fill="#263f50"/>
+<path d="M70 222q120-92 240-20q95-105 226-10q118-80 225 9q129-61 250 23" fill="none" stroke="#9cb0bd" stroke-width="34" stroke-linecap="round" opacity=".55"/>
+<path d="M122 255l-25 72M190 242l-26 80M330 248l-30 92M450 236l-35 103M590 250l-30 88M745 240l-34 103M890 250l-30 94" stroke="#b9e7ff" stroke-width="9"/>
+<path d="M477 176l-55 92h57l-44 104 124-142h-63l41-54z" fill="#fff4a6" stroke="#d8c14e" stroke-width="5"/>
+<rect class="screen" x="60" y="180" width="430" height="135" rx="18"/>
+<text x="84" y="219" fill="#ff8a80" font-size="22" font-weight="900">COMPOUND ALERT</text>
+<text x="84" y="254" fill="#d6f3ff" font-size="18" font-weight="700">HEAT 43°C · RAIN 312 mm · WIND 41 m/s</text>
+<text x="84" y="286" fill="#ffd169" font-size="18" font-weight="700">GRID STRESS 78% · FLOOD GATES READY</text>
+<!-- characters -->
+<ellipse class="skin" cx="742" cy="421" rx="38" ry="44"/><path class="hair" d="M708 408q12-55 67-28q16 8 10 38q-35-19-69-6z"/><path class="jacket" d="M680 480q62-56 124 0v62H680z"/>
+<ellipse class="skin2" cx="904" cy="427" rx="37" ry="43"/><path class="hair" d="M870 414q12-54 66-27q16 8 9 38q-33-19-67-6z"/><path class="vest" d="M844 486q60-55 120 0v56H844z"/>
+<rect class="bubble" x="570" y="177" width="448" height="170" rx="20" filter="url(#shadow)"/>
+<text class="ko" x="594" y="214">폭염·폭우·강풍이 동시에 온다.</text><text class="ko" x="594" y="247">한 가지 재난이 아니라 ‘겹친 재난’이야.</text>
+<text class="zh" x="594" y="280">热浪、暴雨和强风同时袭来，这是复合型灾害。</text>
+<text class="en" x="594" y="315">HEAT, FLOOD AND WIND HIT TOGETHER. THIS IS A COMPOUND DISASTER.</text>
+<text class="fx" x="70" y="526">CRACK! RAIN! ALERT!</text>
+
+<!-- PANEL 2: flood barrier and cooling shelter -->
+<rect class="panel" x="28" y="580" width="1024" height="405" rx="24" fill="url(#flood)"/>
+<path d="M28 823Q160 760 290 828T550 815T820 830T1052 788V985H28z" fill="#36739a" opacity=".9"/>
+<path d="M28 866Q170 820 318 870T610 852T905 870T1052 844" fill="none" stroke="#83c9eb" stroke-width="11"/>
+<!-- flood gate -->
+<rect x="88" y="692" width="320" height="202" rx="16" fill="#707c83" stroke="#17212b" stroke-width="8"/><path d="M118 720h260M118 765h260M118 810h260M118 855h260" stroke="#414b51" stroke-width="8"/>
+<path d="M410 724l126-84v254H410z" fill="#9ca7ad" stroke="#17212b" stroke-width="8"/>
+<!-- cooling shelter -->
+<rect x="654" y="690" width="322" height="215" rx="22" fill="#dfeef2" stroke="#1c2c35" stroke-width="8"/>
+<rect x="700" y="735" width="130" height="112" rx="18" fill="#95d4e6" stroke="#315666" stroke-width="6"/><path d="M765 758v67M730 792h70" stroke="#eefcff" stroke-width="7"/>
+<circle cx="899" cy="765" r="34" fill="#edf9ff" stroke="#315666" stroke-width="6"/><path d="M899 735v60M869 765h60" stroke="#6bbbd5" stroke-width="7"/>
+<!-- worker and elderly resident -->
+<ellipse class="skin2" cx="540" cy="880" rx="33" ry="38"/><path class="hair" d="M510 870q9-46 55-23q14 7 8 32q-28-15-55-5z"/><path class="vest" d="M486 932q54-48 108 0v37H486z"/><path d="M500 927l-69-53M586 927l55-61" stroke="#17212b" stroke-width="11" stroke-linecap="round"/>
+<ellipse class="skin" cx="866" cy="868" rx="31" ry="36"/><path d="M837 858q11-40 52-21q12 6 7 28q-27-13-51-3z" fill="#d9d7d2" stroke="#4b4b4b" stroke-width="4"/><path class="med" d="M814 919q52-46 104 0v47H814z"/>
+<rect class="note" x="58" y="604" width="930" height="105" rx="18"/>
+<text class="ko" x="84" y="640">하천 방벽을 닫고, 취약 주민은 냉방 대피소로 먼저 이동한다.</text>
+<text class="zh" x="84" y="673">关闭防洪闸门，优先把脆弱人群转移到降温避难所。</text>
+<text class="en" x="84" y="703">CLOSE FLOOD BARRIERS; MOVE VULNERABLE RESIDENTS TO COOLING SHELTERS FIRST.</text>
+<text class="fx" x="420" y="957">GATE! COOL! MOVE!</text>
+
+<!-- PANEL 3: microgrid and emergency clinic -->
+<rect class="panel" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#heat)"/>
+<circle cx="920" cy="1080" r="76" fill="#fff0a6" opacity=".9"/>
+<!-- solar + battery -->
+<path d="M70 1210l280-65 42 155-280 65z" fill="#244f71" stroke="#17212b" stroke-width="7"/><path d="M121 1198l41 151M184 1184l41 151M247 1170l41 151M310 1156l41 151" stroke="#6fb5dd" stroke-width="4"/><path d="M96 1247l274-64M108 1293l274-64" stroke="#6fb5dd" stroke-width="4"/>
+<rect x="450" y="1130" width="190" height="222" rx="20" fill="#2f3f48" stroke="#17212b" stroke-width="8"/><rect x="482" y="1170" width="126" height="50" rx="12" fill="#071e2b" stroke="#70d9ef" stroke-width="4"/><text x="501" y="1203" fill="#82e3a5" font-size="23" font-weight="900">82%</text><path d="M489 1275h111" stroke="#82e3a5" stroke-width="18"/><path d="M489 1316h78" stroke="#ffd169" stroke-width="18"/>
+<!-- clinic -->
+<rect x="692" y="1150" width="292" height="215" rx="22" fill="#edf3f1" stroke="#17212b" stroke-width="8"/><path d="M820 1177v84M778 1219h84" stroke="#d94f56" stroke-width="13"/>
+<!-- engineer -->
+<ellipse class="skin2" cx="562" cy="1365" rx="32" ry="37"/><path class="hair" d="M532 1354q10-46 56-23q14 7 8 32q-28-16-56-5z"/><path class="jacket" d="M508 1410q54-48 108 0h-108z"/>
+<!-- medic -->
+<ellipse class="skin" cx="865" cy="1350" rx="31" ry="36"/><path class="hair" d="M836 1340q9-44 54-22q13 7 7 31q-26-15-53-5z"/><path class="med" d="M812 1398q53-47 106 0h-106z"/>
+<rect class="bubble" x="58" y="1029" width="595" height="112" rx="18"/>
+<text class="ko" x="84" y="1065">대형 전력망이 흔들려도 병원은 마이크로그리드로 버틴다.</text>
+<text class="zh" x="84" y="1098">即使主电网不稳，医院也依靠微电网继续运行。</text>
+<text class="en" x="84" y="1129">EVEN IF THE MAIN GRID FALTERS, THE CLINIC HOLDS ON WITH ITS MICROGRID.</text>
+<rect class="bubble" x="662" y="1030" width="340" height="112" rx="18"/>
+<text class="ko" x="686" y="1066">냉장 의약품 온도 정상!</text><text class="zh" x="686" y="1098">冷藏药品温度正常！</text><text class="en" x="686" y="1127">MEDICINE COLD CHAIN: SAFE!</text>
+<text class="fx" x="390" y="1384">POWER! CARE! HOLD!</text>
+
+<!-- PANEL 4: dawn after compound storm -->
+<rect class="panel" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#dawn)"/>
+<circle cx="900" cy="1532" r="78" fill="#ffd68f"/>
+<path d="M28 1780l115-93 98 58 105-126 116 102 104-83 118 93 103-68 165 117v110H28z" fill="#345366" stroke="#1e303c" stroke-width="7"/>
+<rect x="92" y="1600" width="135" height="165" fill="#45687a" stroke="#17242e" stroke-width="6"/><rect x="263" y="1540" width="150" height="225" fill="#506f7e" stroke="#17242e" stroke-width="6"/><rect x="450" y="1630" width="115" height="135" fill="#3d5c6b" stroke="#17242e" stroke-width="6"/>
+<g fill="#ffe39a"><rect x="118" y="1630" width="25" height="28"/><rect x="172" y="1630" width="25" height="28"/><rect x="118" y="1690" width="25" height="28"/><rect x="172" y="1690" width="25" height="28"/><rect x="292" y="1580" width="27" height="30"/><rect x="355" y="1580" width="27" height="30"/><rect x="292" y="1643" width="27" height="30"/><rect x="355" y="1643" width="27" height="30"/></g>
+<!-- residents on overlook -->
+<ellipse class="skin" cx="705" cy="1712" rx="34" ry="39"/><path class="hair" d="M674 1701q10-48 58-24q14 7 8 33q-29-16-58-5z"/><path class="jacket" d="M648 1765q57-51 114 0v87H648z"/>
+<ellipse class="skin2" cx="822" cy="1720" rx="33" ry="38"/><path class="hair" d="M792 1710q10-46 56-23q14 7 8 32q-28-16-56-5z"/><path class="vest" d="M767 1772q55-49 110 0v80H767z"/>
+<ellipse class="skin" cx="930" cy="1730" rx="28" ry="33"/><path class="hair" d="M904 1721q8-40 49-20q12 6 6 28q-24-14-49-4z"/><path d="M884 1779q46-41 92 0v73h-92z" fill="#f1c86f" stroke="#17212b" stroke-width="4"/>
+<rect class="note" x="58" y="1458" width="924" height="166" rx="20" filter="url(#shadow)"/>
+<text class="ko" x="84" y="1495">새벽 05:40. 물은 빠지고, 전력과 의료는 살아 있다.</text>
+<text class="ko" x="84" y="1529">도시는 기후를 이긴 것이 아니라, 기후가 바뀌어도 버티는 법을 배웠다.</text>
+<text class="zh" x="84" y="1563">清晨05:40。洪水退去，电力与医疗仍在运行。城市学会了适应极端气候。</text>
+<text class="en" x="84" y="1598">05:40. WATER RECEDES; POWER AND CARE REMAIN. THE CITY LEARNS TO ENDURE A CHANGING CLIMATE.</text>
+<text class="fx" x="86" y="1860">DAWN! SYSTEMS ALIVE!</text>
+<text x="706" y="1862" fill="#e7f7ff" font-size="20" font-weight="800">NEXT: FOOD · WATER · MEDICINE UNDER 60-DAY CLIMATE STRESS</text>
+</svg>
