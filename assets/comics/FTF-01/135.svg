@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="lab" x2="0" y2="1"><stop stop-color="#eef8fb"/><stop offset="1" stop-color="#9eb9c4"/></linearGradient>
+ <linearGradient id="dock" x2="0" y2="1"><stop stop-color="#829aa4"/><stop offset="1" stop-color="#25333a"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#55d3df"/><stop offset="1" stop-color="#075672"/></linearGradient>
+ <linearGradient id="sunset" x2="0" y2="1"><stop stop-color="#ffc77b"/><stop offset=".48" stop-color="#7ec9df"/><stop offset="1" stop-color="#155b75"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".38"/></filter>
+</defs>
+<rect width="1536" height="1024" fill="#07131a"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#10394a"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #135  벗겨지기 전에 바꿔라</text>
+<text x="920" y="49" fill="#c8fbff" font-family="Arial" font-size="18" font-weight="800">B-38 CLEAN HULL COATING · 低脱落船体涂层</text>
+
+<!-- PANEL 1: scientists compare old and low-release coatings -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#lab)"/>
+ <rect x="45" y="282" width="684" height="188" rx="18" fill="#dce9ed" stroke="#34515e" stroke-width="5"/>
+ <g transform="translate(103 330)"><rect width="167" height="98" rx="12" fill="#b7493c" stroke="#4b2622" stroke-width="5"/><path d="M19 22h129M19 47h129M19 72h129" stroke="#f3d5bd" stroke-width="8"/><g fill="#6f322d"><circle cx="31" cy="86" r="6"/><circle cx="77" cy="80" r="5"/><circle cx="120" cy="91" r="7"/></g><text x="84" y="-13" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900">OLD COATING</text></g>
+ <g transform="translate(330 330)"><rect width="167" height="98" rx="12" fill="#2c8c83" stroke="#174c48" stroke-width="5"/><path d="M19 22h129M19 47h129M19 72h129" stroke="#d8f4e8" stroke-width="8"/><text x="84" y="-13" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900">LOW-RELEASE</text><text x="84" y="59" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18" font-weight="900">Cu-FREE</text></g>
+ <g filter="url(#shadow)"><ellipse cx="589" cy="314" rx="37" ry="43" fill="#efb58d" stroke="#12212a" stroke-width="5"/><path d="M555 307q9-32 35-38q30 6 35 38z" fill="#30383d"/><path d="M547 382q42-26 85 0l29 92H520z" fill="#f4fafb" stroke="#12212a" stroke-width="5"/><path d="M552 395q-45 7-86 27" stroke="#f4fafb" stroke-width="21" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="674" cy="326" rx="34" ry="40" fill="#e4a77c" stroke="#12212a" stroke-width="5"/><path d="M643 319q8-29 32-35q27 6 31 35z" fill="#5b3d32"/><path d="M637 391q39-24 77 0l24 83H615z" fill="#1d7786" stroke="#12212a" stroke-width="5"/></g>
+ <rect x="38" y="103" width="497" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="286" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="286">먼지를 잘 잡는 것만으로 끝낼 수 없다. 다음 정비 때는 덜 벗겨지는 도료로 바꾼다.</tspan><tspan x="286" dy="24" font-size="14">光靠拦截粉尘还不够，下次维护要换成低脱落、无铜涂层。</tspan><tspan x="286" dy="22" font-size="13">Capture is not enough; the next refit must use a low-release, copper-free coating.</tspan></text>
+ <rect x="550" y="103" width="186" height="94" rx="22" fill="#e6ffda" stroke="#111" stroke-width="4"/>
+ <text x="643" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="643">원인부터 줄여!</tspan><tspan x="643" dy="21" font-size="13">从源头减量！</tspan><tspan x="643" dy="19" font-size="12">Reduce at source!</tspan></text>
+ <text x="42" y="486" fill="#fff" stroke="#23645d" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">TEST!  COMPARE!  CHOOSE!</text>
+</g>
+
+<!-- PANEL 2: enclosed robotic application in drydock -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#dock)"/>
+ <path d="M823 322q272-136 599-7l-45 132H858z" fill="#246f78" stroke="#143b42" stroke-width="7"/>
+ <path d="M844 316q262-91 555 0" fill="none" stroke="#d7f1e8" stroke-width="17"/>
+ <rect x="877" y="231" width="448" height="34" rx="8" fill="#edf7f8" stroke="#293940" stroke-width="5"/>
+ <text x="1101" y="254" text-anchor="middle" fill="#15323c" font-family="Arial" font-size="18" font-weight="900">FTF HARBOR SERVICE 07</text>
+ <g transform="translate(1246 316)" filter="url(#shadow)"><rect x="0" y="0" width="98" height="91" rx="15" fill="#e6a237" stroke="#4c3614" stroke-width="6"/><circle cx="22" cy="96" r="24" fill="#111" stroke="#7c8c92" stroke-width="8"/><circle cx="79" cy="96" r="24" fill="#111" stroke="#7c8c92" stroke-width="8"/><path d="M28 0v-88h20v88M39-87h115" stroke="#4b5960" stroke-width="12"/><path d="M152-87v58" stroke="#4b5960" stroke-width="12"/><circle cx="152" cy="-21" r="20" fill="#31454c" stroke="#9df1e9" stroke-width="7"/><path d="M132-13q-74 23-132 88" stroke="#83e4cf" stroke-width="14" fill="none" opacity=".72"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1434" cy="282" rx="34" ry="40" fill="#edb288" stroke="#12212a" stroke-width="5"/><path d="M1403 275q8-29 32-35q27 6 31 35z" fill="#333c40"/><path d="M1396 345q39-24 78 0l25 105h-128z" fill="#f0a42d" stroke="#12212a" stroke-width="5"/></g>
+ <rect x="795" y="103" width="492" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1041" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1041">밀폐 도크에서 자동 분사해 도막 두께를 일정하게 하고 과분사도 회수한다.</tspan><tspan x="1041" dy="24" font-size="14">在封闭船坞中自动喷涂，控制膜厚并回收过喷涂料。</tspan><tspan x="1041" dy="22" font-size="13">Robotic spraying keeps film thickness even while the enclosure recovers overspray.</tspan></text>
+ <rect x="1303" y="103" width="192" height="94" rx="22" fill="#dffcff" stroke="#111" stroke-width="4"/>
+ <text x="1399" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1399">한 방울도 놓치지 마!</tspan><tspan x="1399" dy="21" font-size="13">别浪费一滴！</tspan><tspan x="1399" dy="19" font-size="12">Catch every drop!</tspan></text>
+ <text x="802" y="486" fill="#fff" stroke="#17695f" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="31" font-weight="900">HISSS!  COAT!  SEAL!</text>
+</g>
+
+<!-- PANEL 3: sea trial with sampling drone -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#sunset)"/>
+ <path d="M16 715h746v291H16z" fill="url(#sea)"/>
+ <path d="M89 745q239-105 509-1l-53 108H147z" fill="#1f737c" stroke="#123e45" stroke-width="7"/>
+ <rect x="175" y="655" width="294" height="67" rx="15" fill="#f0f5f6" stroke="#254049" stroke-width="6"/>
+ <text x="322" y="697" text-anchor="middle" fill="#18333c" font-family="Arial" font-size="22" font-weight="900">FTF 07 · SEA TRIAL</text>
+ <g transform="translate(589 660)" filter="url(#shadow)"><path d="M0 0h104l34 36-34 36H0l-34-36z" fill="#253b45" stroke="#8be4ea" stroke-width="5"/><path d="M20 36h64M52 5v62" stroke="#9ceaf0" stroke-width="5"/><circle cx="52" cy="36" r="16" fill="#16303a" stroke="#8be4ea" stroke-width="5"/><path d="M52 73v62" stroke="#ddeff1" stroke-width="4"/><circle cx="52" cy="139" r="11" fill="#f7cf73" stroke="#18333c" stroke-width="4"/></g>
+ <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M131 914q39-25 72 0q-37 29-72 0z"/><path d="M254 945q35-23 66 0q-34 26-66 0z"/><path d="M392 899q33-21 62 0q-31 24-62 0z"/></g>
+ <g filter="url(#shadow)"><ellipse cx="680" cy="603" rx="35" ry="41" fill="#efb58d" stroke="#12212a" stroke-width="5"/><path d="M648 596q8-30 34-36q28 6 33 36z" fill="#30393d"/><path d="M642 667q40-25 79 0l26 97H616z" fill="#eef8f9" stroke="#12212a" stroke-width="5"/></g>
+ <rect x="38" y="543" width="494" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="285" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="285">30일 운항 동안 선체 주변 해수를 계속 채취해 도료 입자와 구리 신호를 추적한다.</tspan><tspan x="285" dy="24" font-size="14">连续航行30天，持续采集船体周围海水，追踪涂层颗粒和铜信号。</tspan><tspan x="285" dy="22" font-size="13">For 30 days, seawater around the hull is sampled to track coating particles and copper.</tspan></text>
+ <rect x="548" y="543" width="188" height="94" rx="22" fill="#fff1bd" stroke="#111" stroke-width="4"/>
+ <text x="642" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="642">바다에서 검증해!</tspan><tspan x="642" dy="21" font-size="13">到海上验证！</tspan><tspan x="642" dy="19" font-size="12">Verify at sea!</tspan></text>
+ <text x="42" y="979" fill="#fff" stroke="#0d6078" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">SAIL!  SAMPLE!  WATCH!</text>
+</g>
+
+<!-- PANEL 4: evidence and recovering harbor ecosystem -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#lab)"/>
+ <rect x="790" y="779" width="714" height="211" rx="18" fill="url(#sea)"/>
+ <g transform="translate(817 661)"><rect width="333" height="168" rx="16" fill="#102f3d" stroke="#77e3eb" stroke-width="5"/><text x="166" y="31" text-anchor="middle" fill="#d8fbff" font-family="Arial" font-size="15" font-weight="900">30-DAY CLEAN HULL RESULT</text><text x="24" y="68" fill="#7ff0b6" font-family="Arial" font-size="21" font-weight="900">COATING FLAKES  −74%</text><text x="24" y="99" fill="#7ff0b6" font-family="Arial" font-size="21" font-weight="900">COPPER SIGNAL   −88%</text><text x="24" y="130" fill="#f5d477" font-family="Arial" font-size="18" font-weight="900">FUEL USE        −4%</text><text x="24" y="154" fill="#fff" font-family="Arial" font-size="14">adhesion / speed: PASS</text></g>
+ <g filter="url(#shadow)"><ellipse cx="1247" cy="696" rx="38" ry="44" fill="#efb58d" stroke="#12212a" stroke-width="5"/><path d="M1212 689q9-33 36-39q30 6 35 39z" fill="#30393d"/><path d="M1204 764q43-27 86 0l28 111h-142z" fill="#f4fafb" stroke="#12212a" stroke-width="5"/><path d="M1212 780q-54 10-102 32" stroke="#f4fafb" stroke-width="22" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1363" cy="709" rx="34" ry="40" fill="#e5a97f" stroke="#12212a" stroke-width="5"/><path d="M1332 702q8-29 32-35q27 6 31 35z" fill="#593d34"/><path d="M1325 775q39-24 78 0l25 98h-128z" fill="#1d7885" stroke="#12212a" stroke-width="5"/></g>
+ <g fill="#d8f6ff" stroke="#176987" stroke-width="4"><path d="M885 905q40-26 74 0q-38 30-74 0z"/><path d="M1009 940q35-23 66 0q-34 26-66 0z"/><path d="M1126 890q33-21 62 0q-31 24-62 0z"/></g>
+ <path d="M1260 924q35-70 70 0q-35 33-70 0z" fill="#4cae74" stroke="#176544" stroke-width="5"/>
+ <path d="M1328 945q41-77 82 0q-41 36-82 0z" fill="#57bd7d" stroke="#176544" stroke-width="5"/>
+ <rect x="795" y="543" width="500" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1045" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1045">입자와 구리 신호가 크게 줄었다. 잡는 기술에서, 애초에 덜 흘리는 설계로 넘어간다.</tspan><tspan x="1045" dy="24" font-size="14">颗粒和铜信号大幅下降：从“拦截”进一步走向“少释放”的设计。</tspan><tspan x="1045" dy="22" font-size="13">Particles and copper fall sharply: the strategy moves from capture to prevention by design.</tspan></text>
+ <rect x="1310" y="543" width="186" height="94" rx="22" fill="#e5ffdd" stroke="#111" stroke-width="4"/>
+ <text x="1403" y="573" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1403">덜 흘리고, 더 지켜!</tspan><tspan x="1403" dy="21" font-size="13">少释放，多守护！</tspan><tspan x="1403" dy="19" font-size="12">Shed less. Protect more!</tspan></text>
+ <text x="805" y="978" fill="#fff" stroke="#17695f" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="28" font-weight="900">SHED LESS!  PROTECT MORE!</text>
+</g>
+</svg>
