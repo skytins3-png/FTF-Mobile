@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102238"/><stop offset="1" stop-color="#263a55"/></linearGradient>
+ <linearGradient id="lab" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dcebf2"/><stop offset="1" stop-color="#91afbc"/></linearGradient>
+ <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#526d8b"/><stop offset=".65" stop-color="#f0ad76"/><stop offset="1" stop-color="#f9dfae"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-opacity=".45"/></filter>
+ <style>
+ .panel{stroke:#111827;stroke-width:12}.cap{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;font-weight:800}.small{font-size:25px}.med{font-size:31px}.big{font-size:50px;font-weight:900}.bubble{fill:#fff;stroke:#121820;stroke-width:6}.narr{fill:#111827;stroke:#e8c46a;stroke-width:4}.ntext{fill:#fff;font-size:27px}.sfx{font-family:Arial,sans-serif;font-weight:900;font-style:italic;fill:#ffe274;stroke:#111827;stroke-width:3;paint-order:stroke;font-size:47px}.screen{fill:#0a2630;stroke:#6fd6e4;stroke-width:4}.line{stroke:#74e2ef;stroke-width:5;fill:none}.face{fill:#f0c8aa;stroke:#432f2b;stroke-width:4}.hair{fill:#2b2527;stroke:#171319;stroke-width:4}.coat{fill:#e9f0f4;stroke:#394b58;stroke-width:5}.suit{fill:#293a52;stroke:#172438;stroke-width:5}.eye{fill:#1b1717}.desk{fill:#3c4c5b;stroke:#1e2934;stroke-width:7}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#090d13"/>
+<!-- title -->
+<rect x="28" y="25" width="1024" height="115" rx="24" fill="#111827" stroke="#d8b759" stroke-width="5"/>
+<text x="58" y="75" class="cap small" fill="#f6d879">FTF-03 · SCENE 06</text>
+<text x="58" y="119" class="cap med" fill="#fff">생존망을 연결하라 · 把生存网络连起来 · CONNECT THE SURVIVAL GRID</text>
+
+<!-- PANEL 1 command room -->
+<rect x="28" y="165" width="1024" height="430" rx="18" fill="url(#night)" class="panel"/>
+<rect x="55" y="193" width="970" height="64" rx="12" class="narr"/>
+<text x="78" y="235" class="cap ntext">폭풍은 지나갔지만, 회의실의 진짜 질문은 이제 시작됐다.</text>
+<text x="78" y="269" class="cap small" fill="#d7e5ee">风暴过去了，但真正的问题才刚开始。 / The storm passed. The real question begins now.</text>
+<!-- big wall display -->
+<rect x="85" y="292" width="530" height="240" rx="15" class="screen"/>
+<path d="M125 455 C210 350 285 470 360 365 S505 438 575 330" class="line"/>
+<circle cx="180" cy="405" r="13" fill="#76e38a"/><circle cx="310" cy="420" r="13" fill="#76e38a"/><circle cx="455" cy="390" r="13" fill="#ffd65c"/><circle cx="560" cy="344" r="13" fill="#ff7b7b"/>
+<text x="110" y="330" class="cap small" fill="#c7f7ff">WATER · FOOD · POWER · SHELTER</text>
+<text x="110" y="510" class="cap small" fill="#9bddea">생존망 연결도 / 生存网络 / SURVIVAL GRID</text>
+<!-- female scientist -->
+<ellipse cx="790" cy="350" rx="62" ry="72" class="face"/><path d="M724 346q6-104 76-99 80 5 72 106-35-32-73-20-34 10-75 13z" class="hair"/><circle cx="767" cy="354" r="6" class="eye"/><circle cx="818" cy="354" r="6" class="eye"/><path d="M775 386q18 14 37 0" stroke="#9b4d51" stroke-width="4" fill="none"/>
+<path d="M702 437q91-65 178 0l35 118H674z" class="coat"/><path d="M790 435v112" stroke="#7da1ad" stroke-width="4"/>
+<rect x="765" y="456" width="64" height="34" rx="5" fill="#d9edf2" stroke="#47606b" stroke-width="3"/><text x="775" y="480" class="cap" font-size="18">DR. HAN</text>
+<path d="M717 480L620 430" stroke="#f0c8aa" stroke-width="22" stroke-linecap="round"/><circle cx="612" cy="426" r="15" class="face"/>
+<path d="M622 428L574 392" stroke="#f0c8aa" stroke-width="10"/>
+<path d="M575 391l18-10" stroke="#f0c8aa" stroke-width="8"/>
+<path d="M575 391l12 18" stroke="#f0c8aa" stroke-width="8"/>
+<path d="M844 467q38-28 72 4" stroke="#fff" stroke-width="5" fill="none"/>
+<!-- speech bubble -->
+<path d="M655 275h330q22 0 22 22v82q0 22-22 22H834l-35 38 8-38H655q-22 0-22-22v-82q0-22 22-22z" class="bubble"/>
+<text x="661" y="310" class="cap small">“하나라도 끊기면 전체가 무너져요.”</text><text x="661" y="342" class="cap" font-size="21">“任何一环断掉，整个系统都会崩溃。”</text><text x="661" y="372" class="cap" font-size="20">“Break one link, and the whole grid fails.”</text>
+<text x="105" y="575" class="sfx">HUMM… BEEP…</text>
+
+<!-- PANEL 2 resource lab -->
+<rect x="28" y="620" width="1024" height="420" rx="18" fill="url(#lab)" class="panel"/>
+<!-- pipes/tanks -->
+<rect x="70" y="685" width="190" height="210" rx="24" fill="#8ec7db" stroke="#335d6c" stroke-width="7"/><ellipse cx="165" cy="688" rx="95" ry="24" fill="#bde5ef" stroke="#335d6c" stroke-width="7"/><path d="M260 760h120v-65h155v58h135v-60h140" fill="none" stroke="#3b6576" stroke-width="24"/>
+<rect x="410" y="790" width="190" height="123" rx="16" fill="#dae7ec" stroke="#4b6978" stroke-width="6"/><circle cx="460" cy="850" r="25" fill="#53c985"/><circle cx="540" cy="850" r="25" fill="#f1cc5c"/>
+<rect x="740" y="675" width="230" height="210" rx="20" fill="#284152" stroke="#162a39" stroke-width="7"/><g fill="#63d5e5"><rect x="776" y="716" width="34" height="125"/><rect x="832" y="745" width="34" height="96"/><rect x="888" y="700" width="34" height="141"/></g>
+<!-- male engineer -->
+<ellipse cx="315" cy="885" rx="53" ry="59" class="face"/><path d="M263 877q5-76 55-74 61 2 58 79-56-34-113-5z" class="hair"/><circle cx="296" cy="887" r="5" class="eye"/><circle cx="336" cy="887" r="5" class="eye"/><path d="M280 936q60-31 117 7l26 82H256z" class="suit"/>
+<path d="M375 964l105-84" stroke="#f0c8aa" stroke-width="18" stroke-linecap="round"/><circle cx="485" cy="876" r="12" class="face"/>
+<!-- bubbles -->
+<path d="M88 642h435q20 0 20 20v91q0 20-20 20H340l-24 31-5-31H88q-20 0-20-20v-91q0-20 20-20z" class="bubble"/>
+<text x="102" y="678" class="cap small">“식수 72시간, 전력 48시간을 먼저 지킨다.”</text><text x="102" y="711" class="cap" font-size="21">“先守住72小时饮水和48小时电力。”</text><text x="102" y="742" class="cap" font-size="20">“Protect 72h water and 48h power first.”</text>
+<text x="685" y="1002" class="sfx">CLACK! FLOW! CHARGE!</text>
+
+<!-- PANEL 3 ethics + logistics vote -->
+<rect x="28" y="1065" width="1024" height="405" rx="18" fill="#222b39" class="panel"/>
+<rect x="55" y="1090" width="970" height="60" rx="10" class="narr"/><text x="75" y="1130" class="cap ntext">생존은 숫자가 아니라 사람을 지키는 순서여야 한다.</text>
+<!-- round table -->
+<ellipse cx="540" cy="1340" rx="350" ry="86" class="desk"/>
+<!-- people with actual faces -->
+<g>
+ <ellipse cx="260" cy="1228" rx="45" ry="50" class="face"/><path d="M217 1223q6-63 48-65 48 0 47 69-47-31-95-4z" class="hair"/><circle cx="245" cy="1232" r="4" class="eye"/><circle cx="277" cy="1232" r="4" class="eye"/><path d="M215 1292q48-39 96 0l27 70H190z" class="coat"/>
+ <ellipse cx="475" cy="1208" rx="45" ry="50" class="face"/><path d="M433 1204q10-61 47-62 45 3 44 65-42-24-91-3z" fill="#6a4a35" stroke="#3c2e28" stroke-width="4"/><circle cx="460" cy="1214" r="4" class="eye"/><circle cx="492" cy="1214" r="4" class="eye"/><path d="M427 1270q49-35 97 2l25 72H403z" class="suit"/>
+ <ellipse cx="690" cy="1225" rx="45" ry="50" class="face"/><path d="M647 1222q5-60 45-63 48 2 46 68-46-25-91-5z" fill="#b9b1aa" stroke="#555" stroke-width="4"/><circle cx="675" cy="1230" r="4" class="eye"/><circle cx="706" cy="1230" r="4" class="eye"/><path d="M642 1290q50-37 99 0l27 72H616z" class="coat"/>
+ <ellipse cx="860" cy="1245" rx="44" ry="49" class="face"/><path d="M818 1241q6-60 45-60 47 2 45 65-45-24-90-5z" fill="#3c302b" stroke="#211a18" stroke-width="4"/><circle cx="845" cy="1250" r="4" class="eye"/><circle cx="876" cy="1250" r="4" class="eye"/><path d="M814 1308q48-35 96 0l24 65H790z" class="suit"/>
+</g>
+<!-- vote cards -->
+<rect x="395" y="1305" width="95" height="47" rx="9" fill="#e9f6eb" stroke="#2d6b42" stroke-width="4"/><text x="409" y="1336" class="cap" font-size="19">동의 / 同意</text>
+<rect x="520" y="1305" width="120" height="47" rx="9" fill="#fff0e8" stroke="#8e4931" stroke-width="4"/><text x="530" y="1336" class="cap" font-size="19">거부권 / 拒绝权</text>
+<path d="M79 1168h377q20 0 20 20v82q0 20-20 20H280l-29 29-2-29H79q-20 0-20-20v-82q0-20 20-20z" class="bubble"/>
+<text x="93" y="1203" class="cap small">“누구도 생존 계획의 도구가 되어선 안 됩니다.”</text><text x="93" y="1234" class="cap" font-size="20">“任何人都不能成为生存计划的工具。”</text><text x="93" y="1263" class="cap" font-size="19">“No person becomes a tool of the plan.”</text>
+<text x="680" y="1442" class="sfx">TAP! VOTE! WRITE!</text>
+
+<!-- PANEL 4 dawn + transition -->
+<rect x="28" y="1495" width="1024" height="392" rx="18" fill="url(#dawn)" class="panel"/>
+<!-- city + shelter -->
+<path d="M30 1770L150 1640l80 78 120-168 105 118 100-74 115 94 130-155 222 237v117H30z" fill="#24394a" opacity=".95"/>
+<rect x="110" y="1695" width="205" height="125" fill="#e9e0cb" stroke="#4c4337" stroke-width="7"/><path d="M90 1700l122-94 124 94" fill="#a85942" stroke="#5a3029" stroke-width="7"/><rect x="190" y="1740" width="55" height="80" fill="#4e6a73"/>
+<rect x="790" y="1625" width="145" height="166" rx="12" fill="#233d4b" stroke="#152a34" stroke-width="7"/><rect x="814" y="1650" width="96" height="60" rx="8" fill="#4dcede"/><path d="M842 1764l18-87 18 87M824 1737h72" stroke="#ffd96b" stroke-width="10" fill="none"/>
+<!-- foreground two researchers -->
+<ellipse cx="485" cy="1660" rx="50" ry="57" class="face"/><path d="M438 1655q6-72 50-72 53 3 52 77-47-31-102-5z" class="hair"/><circle cx="470" cy="1665" r="5" class="eye"/><circle cx="505" cy="1665" r="5" class="eye"/><path d="M430 1723q58-42 112 0l34 138H400z" class="coat"/>
+<ellipse cx="625" cy="1675" rx="50" ry="57" class="face"/><path d="M578 1668q8-70 51-70 55 3 51 78-49-29-102-8z" fill="#594536" stroke="#34271f" stroke-width="4"/><circle cx="610" cy="1680" r="5" class="eye"/><circle cx="645" cy="1680" r="5" class="eye"/><path d="M570 1738q58-42 112 0l32 123H540z" class="suit"/>
+<path d="M535 1780q45 24 90 0" stroke="#f0c8aa" stroke-width="16" stroke-linecap="round"/>
+<path d="M93 1518h664q18 0 18 18v96q0 18-18 18H537l-25 34-7-34H93q-18 0-18-18v-96q0-18 18-18z" class="bubble" filter="url(#shadow)"/>
+<text x="108" y="1553" class="cap med">“계획은 오늘부터 도시 밖으로 움직입니다.”</text><text x="108" y="1590" class="cap small">“从今天起，计划走出会议室。”</text><text x="108" y="1621" class="cap small">“Today, the plan leaves the conference room.”</text>
+<text x="737" y="1840" class="sfx">DAWN… STEP…</text>
+
+<!-- footer -->
+<rect x="28" y="1895" width="1024" height="15" rx="7" fill="#d7b85b"/>
+</svg>
