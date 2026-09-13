@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 143 share the warning upstream and stop reinvasion before departure">
+<defs>
+ <linearGradient id="skyA" x2="0" y2="1"><stop stop-color="#112b4d"/><stop offset=".62" stop-color="#5e8ca6"/><stop offset="1" stop-color="#e9ad6e"/></linearGradient>
+ <linearGradient id="seaA" x2="0" y2="1"><stop stop-color="#21a6bc"/><stop offset="1" stop-color="#073b50"/></linearGradient>
+ <linearGradient id="room" x2="1" y2="1"><stop stop-color="#edf3f5"/><stop offset="1" stop-color="#a9c0c9"/></linearGradient>
+ <linearGradient id="dock" x2="0" y2="1"><stop stop-color="#647989"/><stop offset="1" stop-color="#253943"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-opacity=".48"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#78e8ef" stroke-opacity=".14"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="#061218"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#123c53"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #143  경고를 출항지까지 되돌려 보낸다</text>
+<text x="895" y="49" fill="#c9f7ff" font-family="Arial" font-size="18" font-weight="800">SHARE THE ALERT · 向源头港口回传预警 · BREAK THE ROUTE</text>
+
+<!-- PANEL 1: Harbor command room sends verified biosecurity alert upstream -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#room)"/>
+ <rect x="36" y="246" width="706" height="232" rx="18" fill="#c3d4da" stroke="#647d88" stroke-width="4"/>
+ <rect x="390" y="263" width="319" height="170" rx="16" fill="#0b3143" stroke="#69e4ee" stroke-width="5" filter="url(#sh)"/>
+ <rect x="407" y="281" width="285" height="135" fill="url(#grid)"/>
+ <path d="M431 377Q494 320 557 347T664 303" fill="none" stroke="#77f0b2" stroke-width="5"/>
+ <circle cx="438" cy="373" r="9" fill="#ffd05f"/><circle cx="557" cy="347" r="9" fill="#ff6964" filter="url(#glow)"/><circle cx="664" cy="304" r="9" fill="#7cf0b6"/>
+ <text x="550" y="402" text-anchor="middle" fill="#fff0a8" font-family="Arial" font-size="14" font-weight="900">VERIFIED ALERT · K-17 ROUTE · SOURCE PORT</text>
+ <!-- woman ecologist -->
+ <g transform="translate(86 350)" filter="url(#sh)"><ellipse cx="48" cy="-57" rx="35" ry="42" fill="#dda57d" stroke="#142a33" stroke-width="5"/><path d="M13-64q7-33 36-38q31 6 33 39l-18-10q-22 9-51 9z" fill="#362a29"/><circle cx="37" cy="-57" r="4"/><circle cx="60" cy="-57" r="4"/><path d="M38-38q12 8 24 0" fill="none" stroke="#8a503e" stroke-width="3"/><rect x="0" y="-10" width="101" height="116" rx="18" fill="#f7fafb" stroke="#142a33" stroke-width="5"/><rect x="24" y="9" width="53" height="18" rx="6" fill="#29a2b7"/><path d="M88 15l102-32" stroke="#f7fafb" stroke-width="20" stroke-linecap="round"/><path d="M22 105l-18 66M77 105l20 66" stroke="#344b56" stroke-width="23" stroke-linecap="round"/></g>
+ <!-- port commander -->
+ <g transform="translate(265 355)" filter="url(#sh)"><ellipse cx="44" cy="-52" rx="33" ry="40" fill="#c9936e" stroke="#142a33" stroke-width="5"/><path d="M12-58q7-30 34-35q28 5 31 34l-16-9q-20 8-49 10z" fill="#263239"/><circle cx="34" cy="-52" r="4"/><circle cx="56" cy="-52" r="4"/><rect y="-5" width="94" height="108" rx="17" fill="#225f79" stroke="#142a33" stroke-width="5"/><path d="M80 18l91 22" stroke="#225f79" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="39" y="102" width="505" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="291" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="291">K-17의 검사 결과와 eDNA 지문을 묶어, 추정 출항지에 검증된 생물보안 경보를 즉시 전송한다.</tspan><tspan x="291" dy="24" font-size="14">把K-17检查结果与eDNA指纹打包，立即向疑似源头港口发送已核验的生物安全预警。</tspan><tspan x="291" dy="22" font-size="13">K-17 findings and eDNA fingerprints are sent upstream as a verified biosecurity alert.</tspan></text>
+ <path d="M566 107h156q20 0 20 20v70q0 20-20 20H617l-31 27 8-27h-28q-20 0-20-20v-70q0-20 20-20z" fill="#fff0b8" stroke="#111" stroke-width="4"/>
+ <text x="644" y="137" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="644">이번엔 여기서만</tspan><tspan x="644" dy="20">막지 않는다!</tspan><tspan x="644" dy="20" font-size="12">不只在这里拦截！</tspan></text>
+ <text x="42" y="488" fill="#fff" stroke="#57737e" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">VERIFY!  PACKAGE!  SEND!</text>
+</g>
+
+<!-- PANEL 2: source port receives alert and inspects K-17 sister vessels before departure -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#skyA)"/>
+ <rect x="774" y="329" width="746" height="183" fill="url(#seaA)"/>
+ <rect x="802" y="294" width="695" height="58" fill="url(#dock)" stroke="#172a33" stroke-width="5"/>
+ <!-- cranes -->
+ <path d="M1334 292V157h15v135M1341 162h109M1397 162v91" stroke="#293943" stroke-width="12" fill="none"/><path d="M1450 162l-46-42" stroke="#293943" stroke-width="10"/>
+ <!-- vessel -->
+ <g transform="translate(1003 302)" filter="url(#sh)"><path d="M0 20h327l-35 83H43z" fill="#e5eaec" stroke="#142a33" stroke-width="6"/><rect x="101" y="-47" width="105" height="69" rx="5" fill="#d5e2e6" stroke="#142a33" stroke-width="5"/><rect x="139" y="-96" width="12" height="51" fill="#2d424c"/><text x="164" y="73" text-anchor="middle" fill="#263b44" font-family="Arial" font-size="18" font-weight="900">K-17 LINE</text></g>
+ <!-- inspector 1 -->
+ <g transform="translate(824 355)" filter="url(#sh)"><ellipse cx="44" cy="-50" rx="32" ry="39" fill="#e1aa80" stroke="#122a33" stroke-width="5"/><path d="M11-57q6-29 32-34q29 6 31 33l-15-9q-19 8-48 10z" fill="#242f35"/><rect y="-4" width="91" height="106" rx="17" fill="#f4a534" stroke="#122a33" stroke-width="5"/><rect x="18" y="20" width="55" height="18" rx="5" fill="#fff"/><path d="M80 18l91-34" stroke="#f4a534" stroke-width="19" stroke-linecap="round"/></g>
+ <!-- female inspector -->
+ <g transform="translate(920 394)" filter="url(#sh)"><ellipse cx="40" cy="-48" rx="30" ry="37" fill="#d79b73" stroke="#122a33" stroke-width="5"/><path d="M10-54q8-28 31-31q27 5 29 31l-15-8q-18 7-45 8z" fill="#3a2726"/><rect y="-3" width="84" height="99" rx="16" fill="#f0b246" stroke="#122a33" stroke-width="5"/><path d="M72 16l70 18" stroke="#f0b246" stroke-width="18" stroke-linecap="round"/></g>
+ <rect x="797" y="102" width="504" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1049" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1049">출항지는 경보를 받자 같은 계통 선박의 흡입구·해수상자·선체 틈을 출항 전에 전수 검사한다.</tspan><tspan x="1049" dy="24" font-size="14">源头港收到预警后，对同航线船舶的海水吸入口、海水箱和船体缝隙进行离港前全检。</tspan><tspan x="1049" dy="22" font-size="13">The source port inspects sea chests, intakes and hull niches across the same vessel line before departure.</tspan></text>
+ <path d="M1322 106h162q18 0 18 18v77q0 18-18 18h-103l-32 28 8-28h-35q-18 0-18-18v-77q0-18 18-18z" fill="#d7fff0" stroke="#111" stroke-width="4"/>
+ <text x="1403" y="136" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="1403">출항 전에 찾는다.</tspan><tspan x="1403" dy="21">离港前发现。</tspan><tspan x="1403" dy="19" font-size="12">Find it before sailing.</tspan></text>
+ <text x="801" y="488" fill="#fff" stroke="#315b6b" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">ALERT!  HOLD!  INSPECT!</text>
+</g>
+
+<!-- PANEL 3: contained cleaning and sealed recovery before vessel leaves -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="12" fill="#18374a"/>
+ <rect x="16" y="745" width="746" height="261" fill="url(#seaA)"/>
+ <path d="M78 716h614l-37 73H112z" fill="#e4eaec" stroke="#132832" stroke-width="6"/>
+ <rect x="268" y="636" width="147" height="82" rx="6" fill="#d5e3e7" stroke="#132832" stroke-width="5"/><rect x="323" y="584" width="12" height="54" fill="#2a414a"/>
+ <path d="M73 807q112 28 222 0t224 0t211 0" fill="none" stroke="#d8f5ff" stroke-width="7" opacity=".75"/>
+ <!-- containment boom -->
+ <path d="M90 839q135 30 270 0t273 0" fill="none" stroke="#ffcf50" stroke-width="12" stroke-dasharray="28 10"/>
+ <!-- diver -->
+ <g transform="translate(270 886)" filter="url(#sh)"><ellipse cx="0" cy="0" rx="30" ry="35" fill="#1c3039" stroke="#d8eef1" stroke-width="4"/><rect x="-20" y="-7" width="40" height="19" rx="7" fill="#78e7ef" opacity=".78"/><path d="M-4 36l-35 78M12 35l43 75M-22 44l-58 31M30 43l64 18" stroke="#e9a83a" stroke-width="20" stroke-linecap="round"/><rect x="23" y="-5" width="19" height="60" rx="8" fill="#cbd7da" stroke="#17303a" stroke-width="4"/></g>
+ <!-- capture vacuum unit -->
+ <g transform="translate(472 845)" filter="url(#sh)"><rect width="137" height="86" rx="14" fill="#f0b43d" stroke="#142a33" stroke-width="5"/><circle cx="34" cy="43" r="17" fill="#153746"/><circle cx="99" cy="43" r="17" fill="#153746"/><path d="M0 64l-91 41" stroke="#162d36" stroke-width="16" fill="none"/><rect x="50" y="-42" width="39" height="44" rx="8" fill="#dce9ec" stroke="#142a33" stroke-width="4"/></g>
+ <!-- worker on deck -->
+ <g transform="translate(116 716)" filter="url(#sh)"><ellipse cx="42" cy="-49" rx="31" ry="38" fill="#cf956f" stroke="#142a33" stroke-width="5"/><path d="M11-55q7-28 32-32q27 5 29 31l-14-8q-18 7-47 9z" fill="#2b3134"/><rect y="-3" width="88" height="102" rx="17" fill="#ef7f35" stroke="#142a33" stroke-width="5"/><path d="M76 16l73 33" stroke="#ef7f35" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="39" y="545" width="504" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="291" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="291">의심 부착물이 나오면 바다에 긁어 버리지 않는다. 차단막 안에서 진공 회수하고 밀폐 용기로 육상 처리한다.</tspan><tspan x="291" dy="24" font-size="14">发现可疑附着物后，不直接刮入海中；在围控区内真空回收，密封送陆上处理。</tspan><tspan x="291" dy="22" font-size="13">Suspect fouling is vacuum-recovered inside containment and sealed for shore treatment—not scraped into the sea.</tspan></text>
+ <path d="M567 548h163q18 0 18 18v80q0 18-18 18h-94l-38 31 10-31h-41q-18 0-18-18v-80q0-18 18-18z" fill="#fff0b8" stroke="#111" stroke-width="4"/>
+ <text x="648" y="578" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="648">바다로 0.</tspan><tspan x="648" dy="20">회수는 100% 목표!</tspan><tspan x="648" dy="20" font-size="12">Zero to sea!</tspan></text>
+ <text x="43" y="982" fill="#fff" stroke="#0a566b" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="29" font-weight="900">SEAL!  VAC!  RECOVER!</text>
+</g>
+
+<!-- PANEL 4: shared dashboard confirms route interruption and healthy harbor -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="12" fill="url(#skyA)"/>
+ <rect x="774" y="754" width="746" height="252" fill="url(#seaA)"/>
+ <path d="M792 842q139 30 277 0t278 0t156 0" fill="none" stroke="#d8f7ff" stroke-width="7" opacity=".8"/>
+ <!-- distant ship -->
+ <g transform="translate(1191 707)" filter="url(#sh)"><path d="M0 33h244l-28 62H31z" fill="#e8edef" stroke="#142a33" stroke-width="5"/><rect x="78" y="-22" width="83" height="56" fill="#d7e4e8" stroke="#142a33" stroke-width="4"/><rect x="111" y="-61" width="10" height="40" fill="#2a4049"/></g>
+ <!-- healthy fish / eelgrass -->
+ <path d="M864 928q-17-45 5-90M900 955q-23-56 6-102M1338 956q-15-52 8-102M1373 945q-11-40 11-83" stroke="#58b96f" stroke-width="8" fill="none"/>
+ <g fill="#f4cf67" stroke="#173342" stroke-width="3"><path d="M1010 900q42-31 82 0q-40 33-82 0l-25 20v-40z"/><path d="M1163 936q36-27 72 0q-36 28-72 0l-22 17v-34z"/><path d="M1283 883q31-23 64 0q-33 25-64 0l-20 14v-29z"/></g>
+ <!-- shared monitoring board -->
+ <g transform="translate(822 700)" filter="url(#sh)"><rect width="350" height="202" rx="18" fill="#0b3042" stroke="#73e8ef" stroke-width="5"/><text x="175" y="34" text-anchor="middle" fill="#dfffff" font-family="Arial" font-size="15" font-weight="900">PORT-TO-PORT BIOSECURITY STATUS</text><line x1="28" y1="61" x2="322" y2="61" stroke="#5a8fa0" stroke-width="2"/><text x="31" y="90" fill="#fff" font-family="Arial" font-size="14" font-weight="800">K-17 PRE-DEPARTURE CHECK</text><text x="316" y="90" text-anchor="end" fill="#7cf0b6" font-family="Arial" font-size="14" font-weight="900">PASS</text><text x="31" y="121" fill="#fff" font-family="Arial" font-size="14" font-weight="800">SEA RELEASE DURING CLEANING</text><text x="316" y="121" text-anchor="end" fill="#7cf0b6" font-family="Arial" font-size="14" font-weight="900">0</text><text x="31" y="152" fill="#fff" font-family="Arial" font-size="14" font-weight="800">B-2 eDNA · 21 DAYS</text><text x="316" y="152" text-anchor="end" fill="#7cf0b6" font-family="Arial" font-size="14" font-weight="900">NEGATIVE</text><text x="31" y="183" fill="#fff" font-family="Arial" font-size="14" font-weight="800">ROUTE ALERT NETWORK</text><text x="316" y="183" text-anchor="end" fill="#ffd05f" font-family="Arial" font-size="14" font-weight="900">ACTIVE</text></g>
+ <!-- two real people reviewing success -->
+ <g transform="translate(1114 810)" filter="url(#sh)"><ellipse cx="40" cy="-49" rx="31" ry="38" fill="#dfa67e" stroke="#142a33" stroke-width="5"/><path d="M10-55q7-28 31-32q27 5 29 31l-14-8q-18 7-46 9z" fill="#3a2928"/><circle cx="30" cy="-49" r="4"/><circle cx="51" cy="-49" r="4"/><rect y="-2" width="86" height="102" rx="17" fill="#f7fafb" stroke="#142a33" stroke-width="5"/><path d="M75 17l67-26" stroke="#f7fafb" stroke-width="19" stroke-linecap="round"/></g>
+ <g transform="translate(1250 829)" filter="url(#sh)"><ellipse cx="40" cy="-48" rx="31" ry="38" fill="#c9916c" stroke="#142a33" stroke-width="5"/><path d="M10-54q6-28 31-32q27 5 29 31l-14-8q-18 7-46 9z" fill="#242f35"/><circle cx="30" cy="-48" r="4"/><circle cx="51" cy="-48" r="4"/><rect y="-2" width="86" height="100" rx="17" fill="#24657b" stroke="#142a33" stroke-width="5"/></g>
+ <rect x="797" y="545" width="504" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1049" y="574" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1049">21일 뒤 B-2는 연속 음성. 한 항구의 발견이 출항지 검사로 이어지며 재유입 경로 하나가 끊긴다.</tspan><tspan x="1049" dy="24" font-size="14">21天后B-2连续阴性；一个港口的发现推动源头港离港检查，一条再入侵路径被切断。</tspan><tspan x="1049" dy="22" font-size="13">After 21 days of negative B-2 checks, shared action has broken one reinvasion route upstream.</tspan></text>
+ <path d="M1322 548h163q18 0 18 18v80q0 18-18 18h-105l-30 29 7-29h-35q-18 0-18-18v-80q0-18 18-18z" fill="#d7fff0" stroke="#111" stroke-width="4"/>
+ <text x="1403" y="578" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="1403">경고도 방벽이다.</tspan><tspan x="1403" dy="21">预警也是防线。</tspan><tspan x="1403" dy="19" font-size="12">Alerts are barriers too.</tspan></text>
+ <text x="802" y="982" fill="#fff" stroke="#315b6b" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="29" font-weight="900">SHARE!  PREVENT!  BREAK THE ROUTE!</text>
+</g>
+</svg>
