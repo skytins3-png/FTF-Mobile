@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<defs>
+ <linearGradient id="rain" x2="0" y2="1"><stop stop-color="#263d58"/><stop offset="1" stop-color="#668da0"/></linearGradient>
+ <linearGradient id="drain" x2="0" y2="1"><stop stop-color="#8ca3a8"/><stop offset="1" stop-color="#3c555e"/></linearGradient>
+ <linearGradient id="lab" x2="0" y2="1"><stop stop-color="#d8eef1"/><stop offset="1" stop-color="#76a8b6"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#42bdd5"/><stop offset="1" stop-color="#073b5d"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".4"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="rainlines" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M6 0L0 18M24 0L12 34M38 4L27 34" stroke="#d4f4ff" stroke-width="3" opacity=".35"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="#06131e"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#0b2d43"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #129  도시의 빗물길에서 바다를 지켜라</text>
+<text x="960" y="49" fill="#bdf7ff" font-family="Arial" font-size="18" font-weight="800">B-32 STORMWATER MICROFIBER SHIELD · 城市雨水微纤维拦截</text>
+
+<!-- PANEL 1: storm runoff survey -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="10" fill="url(#rain)"/>
+ <rect x="16" y="84" width="746" height="428" fill="url(#rainlines)"/>
+ <path d="M16 386Q150 356 278 384T530 382T762 370V512H16z" fill="#49616a"/>
+ <path d="M74 359h250l44 153H42z" fill="#353f45" stroke="#111d24" stroke-width="6"/>
+ <g stroke="#7d969b" stroke-width="8"><path d="M80 390h252M91 427h251M102 464h250"/><path d="M118 364l-7 145M171 364l-7 145M224 364l-7 145M277 364l-7 145M330 364l-7 145"/></g>
+ <path d="M338 362q86 18 145 77" fill="none" stroke="#65d9ff" stroke-width="14" opacity=".8"/><path d="M351 365q58 21 93 47" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="8 12"/>
+ <g fill="#ff70bf" filter="url(#glow)"><path d="M390 390l18-6 8 14-16 9z"/><path d="M425 415l13-4 7 11-14 8z"/><path d="M462 434l15-5 7 12-15 7z"/><path d="M503 449l13-4 7 11-13 8z"/></g>
+ <g filter="url(#shadow)"><ellipse cx="555" cy="284" rx="39" ry="45" fill="#edb58e" stroke="#10212b" stroke-width="5"/><path d="M520 277q10-35 37-42q32 7 37 43z" fill="#31363f"/><path d="M510 348q45-28 90 0l34 132H477z" fill="#1f6579" stroke="#10212b" stroke-width="5"/><path d="M516 367q-55 7-95 37" stroke="#1f6579" stroke-width="23" stroke-linecap="round"/><text x="555" y="430" text-anchor="middle" fill="#fff" font-family="Arial" font-size="20" font-weight="900">FTF</text></g>
+ <g filter="url(#shadow)"><ellipse cx="680" cy="307" rx="34" ry="40" fill="#e2a778" stroke="#10212b" stroke-width="5"/><path d="M649 300q8-31 33-37q29 6 34 38z" fill="#432f30"/><path d="M645 361q38-22 76 0l26 119H618z" fill="#d18b3e" stroke="#10212b" stroke-width="5"/><path d="M646 374q-42 10-67 30" stroke="#d18b3e" stroke-width="20" stroke-linecap="round"/></g>
+ <rect x="35" y="102" width="480" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="275" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="275">비가 오면 도로와 거리의 미세섬유가 빗물관을 타고 바다로 간다.</tspan><tspan x="275" dy="24" font-size="14">下雨时，街道上的微纤维会沿雨水管流向大海。</tspan><tspan x="275" dy="22" font-size="13">Rain can carry street microfibers through storm drains straight to the sea.</tspan></text>
+ <rect x="508" y="103" width="226" height="96" rx="22" fill="#fff4c9" stroke="#111" stroke-width="4"/>
+ <text x="621" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="621">흐름을 추적해!</tspan><tspan x="621" dy="22" font-size="13">追踪水流！</tspan><tspan x="621" dy="20" font-size="12">Track the runoff!</tspan></text>
+ <text x="42" y="487" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">RAIN!  FLOW!  TRACE!</text>
+</g>
+
+<!-- PANEL 2: filter installation -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="10" fill="url(#drain)"/>
+ <path d="M802 188h690v269H802z" fill="#667b80" stroke="#243b42" stroke-width="6"/>
+ <path d="M816 220h242l68 188H866z" fill="#34464d" stroke="#172a31" stroke-width="6"/>
+ <g stroke="#92a8ad" stroke-width="7"><path d="M842 256h237M854 292h237M866 328h237M878 364h237"/><path d="M888 226l32 183M941 226l32 183M994 226l32 183"/></g>
+ <rect x="1112" y="215" width="314" height="182" rx="20" fill="#143846" stroke="#7ee6db" stroke-width="6"/>
+ <path d="M1145 246h247v118h-247z" fill="#d9faf4" stroke="#2b7775" stroke-width="5"/>
+ <g stroke="#55a894" stroke-width="5" opacity=".9"><path d="M1160 262l214 85M1160 294l181 70M1188 246l204 78M1167 347l208-79"/></g>
+ <g fill="#ff70bf"><circle cx="1202" cy="284" r="8"/><circle cx="1256" cy="309" r="7"/><circle cx="1310" cy="280" r="7"/><circle cx="1340" cy="338" r="8"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1016" cy="171" rx="35" ry="41" fill="#efbd98" stroke="#10212b" stroke-width="5"/><path d="M985 165q8-31 32-37q29 5 35 38z" fill="#2c3b43"/><path d="M979 225q38-22 76 0l27 117H950z" fill="#edf7f8" stroke="#10212b" stroke-width="5"/><path d="M1051 247q49 8 79 32" stroke="#edf7f8" stroke-width="21" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><ellipse cx="1451" cy="171" rx="34" ry="40" fill="#daa071" stroke="#10212b" stroke-width="5"/><path d="M1421 165q8-31 32-37q28 5 34 37z" fill="#32323a"/><path d="M1414 225q38-22 75 0l24 120h-126z" fill="#245b48" stroke="#10212b" stroke-width="5"/></g>
+ <rect x="796" y="101" width="466" height="115" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1029" y="131" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1029">빗물받이에 교체식 미세섬유 필터를 넣어 바다로 가기 전에 잡는다.</tspan><tspan x="1029" dy="24" font-size="14">在雨水口安装可更换微纤维滤网，入海前就拦截。</tspan><tspan x="1029" dy="22" font-size="13">Replaceable drain filters catch microfibers before runoff reaches the ocean.</tspan></text>
+ <rect x="1278" y="105" width="215" height="94" rx="22" fill="#e7ffd9" stroke="#111" stroke-width="4"/>
+ <text x="1385" y="134" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="1385">여기서 막는다!</tspan><tspan x="1385" dy="22" font-size="13">就在这里拦住！</tspan><tspan x="1385" dy="20" font-size="12">Stop it here!</tspan></text>
+ <text x="804" y="486" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">CLICK!  LOCK!  CAPTURE!</text>
+</g>
+
+<!-- PANEL 3: microscope verification -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="10" fill="url(#lab)"/>
+ <rect x="48" y="722" width="666" height="225" rx="18" fill="#b9d0d2" stroke="#41656d" stroke-width="5"/>
+ <g transform="translate(88 738)"><rect width="248" height="176" rx="14" fill="#173d4e" stroke="#6ee8d8" stroke-width="5"/><circle cx="78" cy="91" r="51" fill="#eefcff" stroke="#255f70" stroke-width="6"/><g stroke="#ff5ca8" stroke-width="4"><path d="M42 65q32 15 71 48"/><path d="M45 104q36-22 69-27"/><path d="M68 42q6 53 50 89"/><path d="M99 49q-11 48-32 77"/></g><text x="176" y="55" fill="#fff" font-family="Arial" font-size="16" font-weight="900">FILTER SAMPLE</text><text x="176" y="88" fill="#8df4d1" font-family="Arial" font-size="28" font-weight="900">−74%</text><text x="176" y="115" fill="#fff" font-family="Arial" font-size="13">MICROFIBER LOAD</text></g>
+ <g transform="translate(375 741)"><rect width="298" height="171" rx="14" fill="#102f40" stroke="#7ef2e1" stroke-width="5"/><text x="149" y="32" text-anchor="middle" fill="#dffff9" font-family="Arial" font-size="16" font-weight="900">STORMWATER SHIELD LIVE</text><text x="22" y="72" fill="#fff" font-family="Arial" font-size="14" font-weight="800">CAPTURE EFFICIENCY</text><text x="273" y="72" text-anchor="end" fill="#81f2b0" font-family="Arial" font-size="23" font-weight="900">74%</text><text x="22" y="108" fill="#fff" font-family="Arial" font-size="14" font-weight="800">OUTFALL FIBERS</text><text x="273" y="108" text-anchor="end" fill="#7edcff" font-family="Arial" font-size="23" font-weight="900">−58%</text><text x="22" y="144" fill="#fff" font-family="Arial" font-size="14" font-weight="800">FILTER SERVICE</text><text x="273" y="144" text-anchor="end" fill="#ffe477" font-family="Arial" font-size="18" font-weight="900">12 DAYS</text></g>
+ <g filter="url(#shadow)"><ellipse cx="615" cy="650" rx="37" ry="43" fill="#edb58e" stroke="#10212b" stroke-width="5"/><path d="M582 643q8-33 35-39q30 6 34 40z" fill="#37323a"/><path d="M575 710q41-24 81 0l29 112H546z" fill="#eef8f9" stroke="#10212b" stroke-width="5"/><path d="M580 729q-48 8-84 34" stroke="#eef8f9" stroke-width="21" stroke-linecap="round"/></g>
+ <rect x="40" y="542" width="472" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="276" y="572" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="276">첫 폭우 뒤 분석에서 하구로 빠져나간 미세섬유가 크게 줄었다.</tspan><tspan x="276" dy="24" font-size="14">首场暴雨后，排向河口的微纤维明显减少。</tspan><tspan x="276" dy="22" font-size="13">After the first storm, microfiber discharge at the outfall falls sharply.</tspan></text>
+ <rect x="525" y="550" width="204" height="95" rx="22" fill="#eafff5" stroke="#111" stroke-width="4"/>
+ <text x="627" y="580" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="15" font-weight="900"><tspan x="627">수치가 증명했어.</tspan><tspan x="627" dy="22" font-size="13">数据证明了。</tspan><tspan x="627" dy="20" font-size="12">The data proves it.</tspan></text>
+ <text x="42" y="980" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="33" font-weight="900">SAMPLE!  COUNT!  VERIFY!</text>
+</g>
+
+<!-- PANEL 4: restored estuary -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="10" fill="url(#sea)"/>
+ <path d="M774 748q180-58 358 0t388 3v255H774z" fill="#0a6c76"/>
+ <g opacity=".9"><path d="M815 999q22-145 9-220q43 75 51 220" fill="#35a764"/><path d="M922 999q11-161-5-239q54 90 59 239" fill="#2f995d"/><path d="M1130 1000q22-151 5-224q49 82 50 224" fill="#35a764"/><path d="M1330 1000q10-153-8-224q52 86 61 224" fill="#2f995d"/></g>
+ <g fill="#ffd65c" stroke="#173f53" stroke-width="4"><path d="M858 806q35-27 76 0q-41 32-76 0z"/><path d="M1002 858q31-24 70 0q-38 29-70 0z"/><path d="M1230 817q36-28 79 0q-43 34-79 0z"/></g>
+ <g transform="translate(1080 697)" fill="#66b68e" stroke="#173f53" stroke-width="5"><ellipse cx="0" cy="0" rx="73" ry="38"/><ellipse cx="-77" cy="2" rx="30" ry="20"/><path d="M-15-33q-18-34-40-22q8 30 31 42M8 34q22 31 45 18q-10-30-35-41M39-27q28-27 47-8q-18 26-43 28"/></g>
+ <rect x="1201" y="575" width="285" height="164" rx="18" fill="#10354a" stroke="#74ecdf" stroke-width="5"/>
+ <text x="1343" y="607" text-anchor="middle" fill="#dffff9" font-family="Arial" font-size="16" font-weight="900">ESTUARY RESPONSE</text>
+ <text x="1222" y="646" fill="#fff" font-family="Arial" font-size="14" font-weight="800">OUTFALL FIBERS</text><text x="1460" y="646" text-anchor="end" fill="#7edcff" font-family="Arial" font-size="22" font-weight="900">−58%</text>
+ <text x="1222" y="682" fill="#fff" font-family="Arial" font-size="14" font-weight="800">JUVENILE FISH</text><text x="1460" y="682" text-anchor="end" fill="#81f2b0" font-family="Arial" font-size="22" font-weight="900">+33%</text>
+ <text x="1222" y="718" fill="#fff" font-family="Arial" font-size="14" font-weight="800">WATER CLARITY</text><text x="1460" y="718" text-anchor="end" fill="#ffe477" font-family="Arial" font-size="22" font-weight="900">+21%</text>
+ <g filter="url(#shadow)"><ellipse cx="906" cy="653" rx="38" ry="44" fill="#efbd98" stroke="#10212b" stroke-width="5"/><path d="M872 646q9-34 36-40q31 6 36 41z" fill="#3a2d2f"/><path d="M865 716q42-25 85 0l31 116H835z" fill="#1d5c71" stroke="#10212b" stroke-width="5"/><text x="908" y="783" text-anchor="middle" fill="#fff" font-family="Arial" font-size="18" font-weight="900">FTF</text></g>
+ <rect x="796" y="542" width="380" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="986" y="572" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="986">바다는 마지막 필터가 아니라, 우리가 지켜야 할 목적지다.</tspan><tspan x="986" dy="24" font-size="14">大海不是最后一道滤网，而是我们要守护的目的地。</tspan><tspan x="986" dy="22" font-size="13">The ocean is not our last filter. It is the place we protect.</tspan></text>
+ <text x="804" y="980" fill="#fff" stroke="#0b5670" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="34" font-weight="900">STOP UPSTREAM · LET LIFE RETURN!</text>
+</g>
+</svg>
