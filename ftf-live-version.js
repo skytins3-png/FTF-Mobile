@@ -1,8 +1,8 @@
 (()=>{
   const apply=()=>{
     const b=document.getElementById('ftfLiveBadge');
-    if(b)b.textContent='FTF LIVE v54';
-    document.documentElement.dataset.ftfBuild='54';
+    if(b)b.textContent='FTF LIVE v55';
+    document.documentElement.dataset.ftfBuild='55';
   };
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',apply,{once:true});else apply();
 
@@ -12,7 +12,7 @@
     if(document.getElementById('ftfFullTrackPlaybackLoader'))return;
     const s=document.createElement('script');
     s.id='ftfFullTrackPlaybackLoader';
-    s.src='./ftf-full-track-playback.js?force=54';
+    s.src='./ftf-full-track-playback.js?force=55';
     s.async=false;
     document.body.appendChild(s);
   };
@@ -20,6 +20,6 @@
 
   // Ask the browser to re-check the service worker immediately using a cache-busting script URL.
   if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('./sw.js?force=54').then(reg=>reg.update()).catch(()=>{});
+    navigator.serviceWorker.register('./sw.js?force=55').then(reg=>reg.update()).catch(()=>{});
   }
 })();
