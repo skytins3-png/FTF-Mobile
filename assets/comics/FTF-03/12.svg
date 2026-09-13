@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="storm" x2="1" y2="1"><stop stop-color="#172234"/><stop offset="1" stop-color="#53687f"/></linearGradient>
+ <linearGradient id="shelter" x2="0" y2="1"><stop stop-color="#4f6173"/><stop offset="1" stop-color="#1d2937"/></linearGradient>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#f4a56e"/><stop offset=".5" stop-color="#7ca4bb"/><stop offset="1" stop-color="#193448"/></linearGradient>
+ <style>
+ .p{stroke:#07101a;stroke-width:16}.b{fill:#fff;stroke:#17202b;stroke-width:5}.n{fill:#f7efda;stroke:#17202b;stroke-width:5}.ko{font:700 24px Arial,sans-serif;fill:#111827}.zh{font:600 19px Arial,sans-serif;fill:#263448}.en{font:600 16px Arial,sans-serif;fill:#435266}.fx{font:900 italic 38px Impact,Arial,sans-serif;fill:#ffd75c;stroke:#111827;stroke-width:3;paint-order:stroke}.skin{fill:#efbd98;stroke:#17202b;stroke-width:4}.hair{fill:#18202a;stroke:#0d1117;stroke-width:4}.coat{fill:#e9eef3;stroke:#17202b;stroke-width:4}.navy{fill:#29435f;stroke:#17202b;stroke-width:4}.vest{fill:#e86b4b;stroke:#17202b;stroke-width:4}.screen{fill:#0b2436;stroke:#73d7ef;stroke-width:4}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#070c13"/>
+<rect x="28" y="24" width="1024" height="110" rx="24" fill="#111c2b" stroke="#73d7ef" stroke-width="4"/>
+<text x="55" y="66" fill="#ccecff" font-size="21" font-weight="700">FTF-03 · EARTH SURVIVAL PLAN · SCENE 12</text>
+<text x="55" y="107" fill="white" font-size="33" font-weight="900">72시간 통합 대응훈련</text>
+
+<!-- PANEL 1 command center drill begins -->
+<rect class="p" x="28" y="154" width="1024" height="405" rx="24" fill="url(#storm)"/>
+<rect class="screen" x="65" y="205" width="590" height="255" rx="18"/>
+<text x="92" y="242" fill="#c8f3ff" font-size="20" font-weight="900">72-HOUR INTEGRATED RESPONSE DRILL</text>
+<path d="M105 400l70-130 70 65 70-105 80 150 75-95 95 110" fill="none" stroke="#ff7a72" stroke-width="7"/>
+<circle cx="190" cy="315" r="12" fill="#ffd75c"/><circle cx="398" cy="333" r="12" fill="#ffd75c"/><circle cx="565" cy="292" r="12" fill="#ffd75c"/>
+<ellipse class="skin" cx="790" cy="300" rx="42" ry="48"/><path class="hair" d="M750 288q12-58 74-28q17 9 10 40q-38-21-76-6z"/><path class="coat" d="M720 370q70-63 140 0v150H720z"/>
+<ellipse class="skin" cx="925" cy="315" rx="40" ry="46"/><path class="hair" d="M888 303q12-55 68-28q16 8 10 38q-35-20-69-6z"/><path class="navy" d="M860 382q65-58 130 0v138H860z"/>
+<rect class="b" x="610" y="172" width="390" height="118" rx="18"/>
+<text class="ko" x="634" y="207">훈련 시작. 이번엔 경보만 보는 게 아니라 실제로 움직인다.</text>
+<text class="zh" x="634" y="239">演练开始。这次不只看预警，而是真正行动。</text>
+<text class="en" x="634" y="268">DRILL STARTS. THIS TIME, EVERY SYSTEM MOVES FOR REAL.</text>
+<text class="fx" x="685" y="525">BEEP! START!</text>
+
+<!-- PANEL 2 water power shelter field response -->
+<rect class="p" x="28" y="580" width="1024" height="405" rx="24" fill="#728a99"/>
+<path d="M28 845h1024v140H28z" fill="#314f62"/><path d="M70 790h260v-150h155v150h200v-205h190v205h145v195H70z" fill="#667984" stroke="#24343e" stroke-width="6"/>
+<rect x="105" y="700" width="130" height="82" rx="8" fill="#193c4f" stroke="#73d7ef" stroke-width="5"/><path d="M125 742h90" stroke="#7ff0b4" stroke-width="8"/><path d="M170 708v68" stroke="#7ff0b4" stroke-width="8"/>
+<g transform="translate(410 695)"><ellipse class="skin" cx="0" cy="0" rx="31" ry="37"/><path class="vest" d="M-52 52q52-48 104 0v115H-52z"/><path d="M-18 155l-18 75m54-75l18 75" stroke="#243442" stroke-width="18"/></g>
+<g transform="translate(600 720)"><ellipse class="skin" cx="0" cy="0" rx="31" ry="37"/><path class="navy" d="M-52 52q52-48 104 0v115H-52z"/><path d="M-18 155l-18 75m54-75l18 75" stroke="#243442" stroke-width="18"/></g>
+<g transform="translate(800 690)"><ellipse class="skin" cx="0" cy="0" rx="31" ry="37"/><path class="vest" d="M-52 52q52-48 104 0v115H-52z"/><path d="M-18 155l-18 75m54-75l18 75" stroke="#243442" stroke-width="18"/></g>
+<rect class="n" x="70" y="602" width="640" height="103" rx="18"/>
+<text class="ko" x="94" y="635">정수·비상전력·대피소를 동시에 전환하고, 고장 하나가 전체를 멈추지 않는지 시험한다.</text>
+<text class="zh" x="94" y="665">同时切换净水、应急电力与避难所，测试单点故障是否会拖垮全网。</text>
+<text class="en" x="94" y="691">WATER, POWER AND SHELTERS SWITCH TO EMERGENCY MODE TOGETHER.</text>
+<text class="fx" x="620" y="948">FLOW! POWER! MOVE!</text>
+
+<!-- PANEL 3 shelter human coordination -->
+<rect class="p" x="28" y="1005" width="1024" height="405" rx="24" fill="url(#shelter)"/>
+<path d="M70 1370v-230h940v230" fill="#2f4052" stroke="#162331" stroke-width="8"/><rect x="110" y="1160" width="260" height="140" rx="14" fill="#d9e3ea" stroke="#17202b" stroke-width="5"/><rect x="710" y="1160" width="260" height="140" rx="14" fill="#d9e3ea" stroke="#17202b" stroke-width="5"/>
+<ellipse class="skin" cx="465" cy="1195" rx="36" ry="43"/><path class="hair" d="M430 1184q12-53 64-27q15 8 9 36q-33-18-65-5z"/><path class="coat" d="M405 1257q60-54 120 0v115H405z"/><path d="M465 1270v75m-34-37h68" stroke="#d85b5b" stroke-width="9"/>
+<ellipse class="skin" cx="610" cy="1210" rx="34" ry="41"/><path class="hair" d="M577 1199q11-50 61-25q15 8 9 34q-31-17-61-5z"/><path class="navy" d="M552 1268q58-52 116 0v104H552z"/>
+<ellipse class="skin" cx="275" cy="1320" rx="26" ry="32"/><path d="M238 1359q37-34 74 0v42H238z" fill="#efb65d" stroke="#17202b" stroke-width="4"/>
+<rect class="b" x="86" y="1028" width="895" height="110" rx="18"/>
+<text class="ko" x="112" y="1062">숫자가 맞아도 사람이 움직이지 못하면 실패다. 의료진·가족·노약자 이동 시간을 직접 잰다.</text>
+<text class="zh" x="112" y="1093">数据正确也不够。若人无法移动，就是失败。现场测量医疗、家庭与老人转移时间。</text>
+<text class="en" x="112" y="1120">A PLAN FAILS IF PEOPLE CANNOT MOVE. REAL EVACUATION TIMES ARE MEASURED.</text>
+<text class="fx" x="665" y="1380">CHECK! COUNT! SAFE!</text>
+
+<!-- PANEL 4 dawn debrief and next phase -->
+<rect class="p" x="28" y="1430" width="1024" height="460" rx="24" fill="url(#dawn)"/>
+<circle cx="865" cy="1530" r="90" fill="#ffd28e" opacity=".85"/>
+<path d="M28 1740l145-130 120 95 130-160 145 155 130-115 130 120 124-90 120 125v150H28z" fill="#334b5c" stroke="#1e303d" stroke-width="7"/>
+<rect class="screen" x="70" y="1485" width="505" height="235" rx="16"/>
+<text x="96" y="1522" fill="#c8f3ff" font-size="20" font-weight="900">DRILL RESULT · HOUR 72</text>
+<text x="98" y="1572" fill="#8ff0b3" font-size="24" font-weight="900">WATER 100% · POWER 96%</text>
+<text x="98" y="1613" fill="#ffd75c" font-size="24" font-weight="900">EVACUATION 89% · MEDICAL 93%</text>
+<text x="98" y="1660" fill="#ff9b8f" font-size="19" font-weight="700">3 BOTTLENECKS FOUND — FIX BEFORE PHASE 2</text>
+<ellipse class="skin" cx="720" cy="1630" rx="40" ry="46"/><path class="hair" d="M682 1618q12-56 69-29q17 8 10 39q-36-20-71-6z"/><path class="coat" d="M655 1692q65-58 130 0v150H655z"/>
+<ellipse class="skin" cx="875" cy="1650" rx="38" ry="44"/><path class="hair" d="M839 1638q11-53 66-27q16 8 9 37q-34-19-67-6z"/><path class="navy" d="M812 1708q63-56 126 0v134H812z"/>
+<rect class="b" x="575" y="1455" width="430" height="132" rx="18"/>
+<text class="ko" x="598" y="1490">72시간을 버텼지만 세 곳이 막혔다. 실패한 지점부터 고친다.</text>
+<text class="zh" x="598" y="1522">撑过了72小时，但发现三处瓶颈。先修失败点。</text>
+<text class="en" x="598" y="1553">72 HOURS SURVIVED. THREE BOTTLENECKS FOUND. FIX THEM FIRST.</text>
+<rect class="n" x="585" y="1770" width="410" height="82" rx="18"/>
+<text class="ko" x="610" y="1803">다음 단계: 통신망 붕괴 상황에서의 독립 생존.</text>
+<text class="zh" x="610" y="1832">下一阶段：通信中断时的独立生存。</text>
+<text class="fx" x="120" y="1845">72H COMPLETE!</text>
+</svg>
