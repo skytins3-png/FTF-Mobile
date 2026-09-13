@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 146 post-clearance harbor biosecurity watch with smart eDNA buoys and targeted follow-up">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#132943"/><stop offset=".55" stop-color="#477d9b"/><stop offset="1" stop-color="#f4bd74"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#1594ad"/><stop offset="1" stop-color="#063b4e"/></linearGradient>
+ <linearGradient id="night" x2="0" y2="1"><stop stop-color="#071827"/><stop offset="1" stop-color="#15445c"/></linearGradient>
+ <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#f5fafb"/><stop offset="1" stop-color="#bdd7df"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-opacity=".42"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#06151d"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#153e56"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #146  허가 뒤에도 바다를 끝까지 지켜본다</text>
+<text x="920" y="49" fill="#c8f7ff" font-family="Arial" font-size="18" font-weight="800">CLEAR → WATCH → VERIFY · 放行后持续监测</text>
+
+<!-- PANEL 1: vessel cleared after reinspection, digital passport renewed -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+ <rect x="16" y="329" width="746" height="183" fill="url(#sea)"/>
+ <path d="M18 454q95-22 190 0t190 0t190 0t174 0" fill="none" stroke="#d7f9ff" stroke-width="6" opacity=".62"/>
+ <g transform="translate(340 322)" filter="url(#shadow)"><path d="M0 43h330l-34 86H38z" fill="#e7edf0" stroke="#112b37" stroke-width="6"/><rect x="104" y="-42" width="123" height="88" rx="6" fill="#c9dce3" stroke="#112b37" stroke-width="5"/><rect x="152" y="-98" width="13" height="57" fill="#263d48"/><circle cx="231" cy="7" r="11" fill="#8dffad"/><text x="165" y="100" text-anchor="middle" fill="#203b46" font-family="Arial" font-size="18" font-weight="900">K-17 LINE</text></g>
+ <g transform="translate(82 354)" filter="url(#shadow)"><ellipse cx="44" cy="-54" rx="33" ry="40" fill="#d7a078" stroke="#122833" stroke-width="5"/><path d="M12-60q7-31 32-35q30 5 32 34l-16-9q-20 8-48 10z" fill="#2b3036"/><rect y="-7" width="94" height="112" rx="18" fill="#245f78" stroke="#122833" stroke-width="5"/><rect x="70" y="2" width="88" height="106" rx="10" fill="#072f40" stroke="#77ecf3" stroke-width="4"/><text x="114" y="33" text-anchor="middle" fill="#8dffad" font-family="Arial" font-size="12" font-weight="900">BIO PASS</text><text x="114" y="61" text-anchor="middle" fill="#8dffad" font-family="Arial" font-size="19" font-weight="900">REISSUED</text><text x="114" y="88" text-anchor="middle" fill="#d7fbff" font-family="Arial" font-size="11" font-weight="800">ID ✓  eDNA ✓</text></g>
+ <rect x="38" y="102" width="515" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="296" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="296">재검사 음성 확인 뒤 새 생물보안 여권을 발급한다. 하지만 감시는 여기서 끝나지 않는다.</tspan><tspan x="296" dy="24" font-size="14">复检阴性后签发新生物安全通行证，但监测并未结束。</tspan><tspan x="296" dy="22" font-size="13">A new biosecurity pass is issued after a negative recheck—but surveillance continues.</tspan></text>
+ <path d="M568 104h165q18 0 18 18v76q0 18-18 18h-100l-29 28 8-28h-44q-18 0-18-18v-76q0-18 18-18z" fill="#dffff0" stroke="#111" stroke-width="4"/>
+ <text x="650" y="136" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="650">입항 허가. 감시는 계속!</tspan><tspan x="650" dy="21">准入，但继续监测！</tspan><tspan x="650" dy="19" font-size="12">Cleared. Keep watching!</tspan></text>
+ <text x="42" y="487" fill="#fff" stroke="#285d45" stroke-width="7" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">CLEAR!  REISSUE!  KEEP WATCH!</text>
+</g>
+
+<!-- PANEL 2: smart eDNA buoys maintain post-entry watch -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#night)"/>
+ <rect x="774" y="312" width="746" height="200" fill="#07546c"/>
+ <circle cx="1404" cy="137" r="42" fill="#e8f4ff" opacity=".92"/>
+ <path d="M776 429q110 24 224 0t224 0t296 0" fill="none" stroke="#96eefa" stroke-width="5" opacity=".55"/>
+ <g transform="translate(917 347)" filter="url(#shadow)"><ellipse cx="0" cy="0" rx="46" ry="22" fill="#f1b93f" stroke="#132a35" stroke-width="5"/><rect x="-21" y="-84" width="42" height="88" rx="14" fill="#f0c95d" stroke="#132a35" stroke-width="5"/><circle cy="-97" r="13" fill="#5dffae" filter="url(#glow)"/><path d="M0-84v-70" stroke="#dffbff" stroke-width="4"/><path d="M-18-138q18-16 36 0M-30-154q30-27 60 0" fill="none" stroke="#74f4ff" stroke-width="4" opacity=".9"/></g>
+ <g transform="translate(1174 370)" filter="url(#shadow)"><ellipse cx="0" cy="0" rx="42" ry="20" fill="#e7a93a" stroke="#132a35" stroke-width="5"/><rect x="-19" y="-75" width="38" height="78" rx="13" fill="#efc75b" stroke="#132a35" stroke-width="5"/><circle cy="-88" r="12" fill="#5dffae" filter="url(#glow)"/></g>
+ <g transform="translate(1387 334)" filter="url(#shadow)"><ellipse cx="0" cy="0" rx="39" ry="19" fill="#e7a93a" stroke="#132a35" stroke-width="5"/><rect x="-18" y="-68" width="36" height="70" rx="12" fill="#efc75b" stroke="#132a35" stroke-width="5"/><circle cy="-81" r="11" fill="#5dffae" filter="url(#glow)"/></g>
+ <path d="M917 198C1060 136 1268 152 1387 214" fill="none" stroke="#72f2ff" stroke-width="4" stroke-dasharray="12 10" opacity=".75"/>
+ <rect x="1002" y="250" width="278" height="76" rx="12" fill="#062d3d" stroke="#78eff7" stroke-width="4" filter="url(#glow)"/>
+ <text x="1141" y="275" text-anchor="middle" fill="#fff" font-family="Arial" font-size="13" font-weight="900">SMART eDNA WATCH GRID</text><text x="1141" y="304" text-anchor="middle" fill="#8dffad" font-family="Arial" font-size="18" font-weight="900">B-2  ·  C-4  ·  ENTRY GATE</text>
+ <rect x="798" y="102" width="520" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1058" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1058">B-2·C-4·입구의 스마트 부이가 물을 자동 채취해 eDNA 변화를 밤낮없이 비교한다.</tspan><tspan x="1058" dy="24" font-size="14">B-2、C-4与港口入口的智能浮标昼夜自动采水，比对eDNA变化。</tspan><tspan x="1058" dy="22" font-size="13">Smart buoys at B-2, C-4 and the entry gate continuously sample water and compare eDNA.</tspan></text>
+ <path d="M1336 105h151q18 0 18 18v74q0 18-18 18h-88l-29 27 8-27h-42q-18 0-18-18v-74q0-18 18-18z" fill="#dffbff" stroke="#111" stroke-width="4"/>
+ <text x="1411" y="136" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="1411">24시간 자동 감시!</tspan><tspan x="1411" dy="21">24小时自动监测！</tspan><tspan x="1411" dy="19" font-size="12">24/7 watch!</tspan></text>
+ <text x="802" y="487" fill="#fff" stroke="#176378" stroke-width="7" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">SAMPLE!  COMPARE!  WATCH!</text>
+</g>
+
+<!-- PANEL 3: tiny signal triggers targeted response, not harbor-wide disruption -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="12" fill="#0b4054"/>
+ <rect x="16" y="718" width="746" height="288" fill="#08718a"/>
+ <path d="M16 732q105 21 210 0t210 0t326 0" fill="none" stroke="#b7f5ff" stroke-width="5" opacity=".55"/>
+ <rect x="450" y="671" width="282" height="66" fill="#7b929e" stroke="#172e39" stroke-width="5"/>
+ <text x="591" y="705" text-anchor="middle" fill="#fff" font-family="Arial" font-size="15" font-weight="900">B-2 LOCAL RESPONSE ZONE</text>
+ <g transform="translate(182 818)" filter="url(#shadow)"><rect x="-76" y="-40" width="152" height="80" rx="22" fill="#e7b33d" stroke="#102a35" stroke-width="6"/><circle cx="-35" cy="0" r="17" fill="#8bf6ff" stroke="#102a35" stroke-width="5"/><circle cx="35" cy="0" r="17" fill="#8bf6ff" stroke="#102a35" stroke-width="5"/><path d="M-74 4l-76 40M74 4l75 39" stroke="#dba52d" stroke-width="15" stroke-linecap="round"/><path d="M0-40v-75" stroke="#e7d27b" stroke-width="5"/></g>
+ <g transform="translate(505 831) rotate(-7)" filter="url(#shadow)"><ellipse cx="0" cy="0" rx="30" ry="35" fill="#1d2d36" stroke="#07151c" stroke-width="5"/><rect x="-44" y="30" width="88" height="109" rx="31" fill="#17262e" stroke="#07151c" stroke-width="5"/><rect x="-19" y="-11" width="38" height="23" rx="8" fill="#8df5ff" stroke="#07151c" stroke-width="4"/><path d="M-37 64l-68 42M36 64l69 22M-24 132l-49 72M25 132l55 64" stroke="#17262e" stroke-width="23" stroke-linecap="round"/></g>
+ <path d="M368 775q40-54 84 0v115q-42 26-84 0z" fill="none" stroke="#ffdf5e" stroke-width="7" stroke-dasharray="15 10"/>
+ <g transform="translate(69 686)" filter="url(#shadow)"><ellipse cx="42" cy="-49" rx="31" ry="37" fill="#d7a078" stroke="#132b37" stroke-width="5"/><path d="M11-55q7-28 31-32q27 5 29 31l-15-8q-19 7-45 9z" fill="#30292a"/><rect y="-3" width="88" height="101" rx="17" fill="#f3f7f8" stroke="#132b37" stroke-width="5"/><path d="M74 17l90 13" stroke="#f3f7f8" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="203" y="658" width="186" height="83" rx="10" fill="url(#lab)" stroke="#102b36" stroke-width="5"/><text x="296" y="682" text-anchor="middle" fill="#173844" font-family="Arial" font-size="12" font-weight="900">B-2 eDNA TREND</text><polyline points="221,716 247,713 273,714 300,707 327,690 353,709 372,711" fill="none" stroke="#f04e58" stroke-width="6"/><circle cx="327" cy="690" r="7" fill="#ffed68"/>
+ <rect x="38" y="543" width="520" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="298" y="571" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="298">B-2에서 아주 작은 상승 신호가 잡히자 항만 전체가 아니라 해당 지점만 즉시 다시 확인한다.</tspan><tspan x="298" dy="24" font-size="14">B-2出现微弱上升信号后，只对该点立即复核，不扰动整个港区。</tspan><tspan x="298" dy="22" font-size="13">A tiny B-2 signal triggers an immediate targeted recheck instead of disrupting the whole harbor.</tspan></text>
+ <path d="M578 546h154q18 0 18 18v76q0 18-18 18h-91l-29 27 8-27h-42q-18 0-18-18v-76q0-18 18-18z" fill="#fff0bd" stroke="#111" stroke-width="4"/>
+ <text x="655" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="655">B-2만 다시 본다!</tspan><tspan x="655" dy="21">只复查B-2！</tspan><tspan x="655" dy="19" font-size="12">Recheck B-2 only!</tspan></text>
+ <text x="42" y="980" fill="#fff" stroke="#775f19" stroke-width="7" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">PING!  FLAG!  TARGET!  RECHECK!</text>
+</g>
+
+<!-- PANEL 4: 30-day clean verification and risk model updated -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="12" fill="#163d4c"/>
+ <rect x="774" y="759" width="746" height="247" fill="#0a6577"/>
+ <path d="M774 778q100 20 200 0t200 0t346 0" fill="none" stroke="#c4f6ff" stroke-width="5" opacity=".55"/>
+ <g transform="translate(835 696)" filter="url(#shadow)"><ellipse cx="45" cy="-54" rx="34" ry="41" fill="#d59b73" stroke="#122833" stroke-width="5"/><path d="M12-62q7-31 33-36q30 6 32 35l-17-9q-20 8-48 10z" fill="#273037"/><rect y="-7" width="96" height="113" rx="18" fill="#f3f7f8" stroke="#122833" stroke-width="5"/><path d="M79 11l95-23" stroke="#f3f7f8" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="1000" y="628" width="454" height="211" rx="18" fill="#eaf5f7" stroke="#102b36" stroke-width="6"/>
+ <text x="1227" y="661" text-anchor="middle" fill="#123746" font-family="Arial,Malgun Gothic" font-size="20" font-weight="900">30-DAY FOLLOW-UP · 30일 추적 검증 · 30天追踪验证</text>
+ <line x1="1030" y1="692" x2="1422" y2="692" stroke="#b4cbd2" stroke-width="3"/>
+ <text x="1044" y="724" fill="#153a46" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900">외래종 eDNA / 外来种eDNA / invasive eDNA</text><text x="1398" y="724" text-anchor="end" fill="#16884a" font-family="Arial" font-size="20" font-weight="900">0 DETECTED</text>
+ <text x="1044" y="758" fill="#153a46" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900">표적 재검사 / 定点复检 / targeted rechecks</text><text x="1398" y="758" text-anchor="end" fill="#123746" font-family="Arial" font-size="20" font-weight="900">6 / 6 CLEAR</text>
+ <text x="1044" y="792" fill="#153a46" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900">토종 치어 / 本地幼鱼 / native juveniles</text><text x="1398" y="792" text-anchor="end" fill="#16884a" font-family="Arial" font-size="20" font-weight="900">+31%</text>
+ <rect x="812" y="543" width="525" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1074" y="571" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1074">30일 동안 반복 확인해 침입 신호가 사라진 것을 검증하고, K-17 항로의 위험 모델도 새 기록으로 갱신한다.</tspan><tspan x="1074" dy="24" font-size="14">连续30天复核确认入侵信号消失，并用新记录更新K-17航线风险模型。</tspan><tspan x="1074" dy="22" font-size="13">Thirty days of clean checks close the alert and update the K-17 route risk model.</tspan></text>
+ <path d="M1363 548h131q18 0 18 18v72q0 18-18 18h-72l-28 27 7-27h-38q-18 0-18-18v-72q0-18 18-18z" fill="#dcffe7" stroke="#111" stroke-width="4"/>
+ <text x="1428" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="1428">30일 깨끗하다!</tspan><tspan x="1428" dy="21">连续30天清洁！</tspan><tspan x="1428" dy="19" font-size="12">30 days clear!</tspan></text>
+ <g opacity=".88"><path d="M917 904q35-21 70 0q-35 22-70 0zM988 907q32-19 64 0q-32 20-64 0zM1073 929q29-18 59 0q-29 19-59 0zM1180 899q37-22 74 0q-37 23-74 0z" fill="#98e5cb"/><path d="M1268 946q18-55 41-86q8 50-3 89M1330 947q7-43 33-73q5 42-8 77" fill="none" stroke="#55ba78" stroke-width="9" stroke-linecap="round"/></g>
+ <text x="802" y="980" fill="#fff" stroke="#216b46" stroke-width="7" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">VERIFY!  LEARN!  UPDATE!  PROTECT!</text>
+</g>
+</svg>
