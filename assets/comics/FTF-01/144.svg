@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 144 digital biosecurity passport follows each vessel from departure to arrival">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#17314f"/><stop offset=".62" stop-color="#6b9eb3"/><stop offset="1" stop-color="#f2b778"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#21a8bf"/><stop offset="1" stop-color="#073848"/></linearGradient>
+ <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#edf5f6"/><stop offset="1" stop-color="#a9c5cf"/></linearGradient>
+ <linearGradient id="dock" x2="0" y2="1"><stop stop-color="#6c808b"/><stop offset="1" stop-color="#2a3c45"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-opacity=".45"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7cecf2" stroke-opacity=".13"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="#061319"/>
+<rect x="12" y="12" width="1512" height="58" rx="12" fill="#123f55"/>
+<text x="30" y="51" fill="#fff" font-family="Arial,Malgun Gothic" font-size="34" font-weight="900">FTF-01  #144  선박마다 생물보안 여권을 붙인다</text>
+<text x="905" y="49" fill="#c9f8ff" font-family="Arial" font-size="18" font-weight="800">BIOSECURITY PASSPORT · 船舶生物安全通行证 · VERIFY EVERY VOYAGE</text>
+
+<!-- PANEL 1: source port issues signed digital biosecurity passport after inspection -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#lab)"/>
+ <rect x="38" y="242" width="700" height="238" rx="18" fill="#c5d9df" stroke="#637f89" stroke-width="4"/>
+ <rect x="385" y="260" width="318" height="183" rx="16" fill="#0a3242" stroke="#6de8ef" stroke-width="5" filter="url(#sh)"/>
+ <rect x="402" y="277" width="284" height="149" fill="url(#grid)"/>
+ <rect x="427" y="295" width="126" height="96" rx="8" fill="#eafcff" stroke="#66dfe8" stroke-width="3"/>
+ <rect x="441" y="309" width="48" height="48" fill="#102b38"/><path d="M445 313h14v14h-14zm20 0h20v8h-20zm-20 20h8v20h-8zm14 0h26v8h-26zm0 14h12v12h-12zm18 0h8v28h-8z" fill="#fff"/>
+ <text x="563" y="307" fill="#9ff6ff" font-family="Arial" font-size="15" font-weight="900">K-17 LINE</text>
+ <text x="563" y="332" fill="#fff" font-family="Arial" font-size="13">HULL: PASS</text><text x="563" y="353" fill="#fff" font-family="Arial" font-size="13">SEA CHEST: PASS</text><text x="563" y="374" fill="#fff" font-family="Arial" font-size="13">EDNA: NEGATIVE</text><text x="563" y="395" fill="#7dffb5" font-family="Arial" font-size="13" font-weight="900">SIGNED · 14:32</text>
+ <!-- female biosecurity officer -->
+ <g transform="translate(82 349)" filter="url(#sh)"><ellipse cx="48" cy="-58" rx="35" ry="42" fill="#dda57d" stroke="#142a33" stroke-width="5"/><path d="M13-65q7-33 36-38q31 6 33 39l-18-10q-22 9-51 9z" fill="#352827"/><circle cx="37" cy="-57" r="4"/><circle cx="60" cy="-57" r="4"/><path d="M38-38q12 8 24 0" fill="none" stroke="#8a503e" stroke-width="3"/><rect x="0" y="-10" width="101" height="116" rx="18" fill="#f7fafb" stroke="#142a33" stroke-width="5"/><rect x="24" y="9" width="53" height="18" rx="6" fill="#22a4b8"/><path d="M88 15l102-31" stroke="#f7fafb" stroke-width="20" stroke-linecap="round"/><path d="M22 105l-18 66M77 105l20 66" stroke="#344b56" stroke-width="23" stroke-linecap="round"/></g>
+ <!-- inspector -->
+ <g transform="translate(260 360)" filter="url(#sh)"><ellipse cx="44" cy="-52" rx="33" ry="40" fill="#c9936e" stroke="#142a33" stroke-width="5"/><path d="M12-58q7-30 34-35q28 5 31 34l-16-9q-20 8-49 10z" fill="#263239"/><circle cx="34" cy="-52" r="4"/><circle cx="56" cy="-52" r="4"/><rect y="-5" width="94" height="108" rx="17" fill="#ef9b31" stroke="#142a33" stroke-width="5"/><path d="M80 18l91 22" stroke="#ef9b31" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="39" y="102" width="505" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="291" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="291">출항 전 검사 결과·eDNA·세척 이력을 하나의 서명된 디지털 생물보안 여권으로 묶는다.</tspan><tspan x="291" dy="24" font-size="14">把离港前检查、eDNA和清洗记录汇成一份经过签名的数字生物安全通行证。</tspan><tspan x="291" dy="22" font-size="13">Inspection, eDNA and cleaning records become one signed digital biosecurity passport.</tspan></text>
+ <path d="M563 106h158q20 0 20 20v72q0 20-20 20H618l-31 27 8-27h-32q-20 0-20-20v-72q0-20 20-20z" fill="#fff0b8" stroke="#111" stroke-width="4"/>
+ <text x="642" y="136" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="642">검사했으면 기록을</tspan><tspan x="642" dy="20">배와 함께 보낸다!</tspan><tspan x="642" dy="19" font-size="12">让记录随船同行！</tspan></text>
+ <text x="42" y="488" fill="#fff" stroke="#55737e" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">CHECK!  SIGN!  ISSUE!</text>
+</g>
+
+<!-- PANEL 2: ship sails with passport linked to vessel identity -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+ <rect x="774" y="319" width="746" height="193" fill="url(#sea)"/>
+ <path d="M800 438q106 24 214 0t215 0t218 0" fill="none" stroke="#dcf8ff" stroke-width="7" opacity=".75"/>
+ <g transform="translate(924 307)" filter="url(#sh)"><path d="M0 45h410l-42 103H52z" fill="#e7ecee" stroke="#142a33" stroke-width="6"/><rect x="139" y="-42" width="132" height="90" rx="6" fill="#d2e1e6" stroke="#142a33" stroke-width="5"/><rect x="190" y="-102" width="13" height="61" fill="#2e444e"/><text x="205" y="109" text-anchor="middle" fill="#263b44" font-family="Arial" font-size="20" font-weight="900">K-17 LINE</text><rect x="290" y="8" width="77" height="31" rx="8" fill="#0d4050" stroke="#70edf2" stroke-width="3"/><text x="329" y="29" text-anchor="middle" fill="#7effb8" font-family="Arial" font-size="13" font-weight="900">BIO PASS ✓</text></g>
+ <!-- satellite/data ribbon -->
+ <path d="M869 158Q1040 103 1234 155T1450 126" fill="none" stroke="#72edf4" stroke-width="5" stroke-dasharray="14 10" filter="url(#glow)"/>
+ <circle cx="867" cy="159" r="11" fill="#7dffb5"/><circle cx="1233" cy="155" r="11" fill="#7dffb5"/><circle cx="1450" cy="126" r="11" fill="#7dffb5"/>
+ <rect x="810" y="102" width="505" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1062" y="130" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1062">선박 식별정보와 여권이 함께 이동해, 항해 중 임의 수정이나 다른 배의 기록 재사용을 막는다.</tspan><tspan x="1062" dy="24" font-size="14">通行证与船舶身份绑定同行，防止航途中篡改或挪用其他船舶记录。</tspan><tspan x="1062" dy="22" font-size="13">The passport stays bound to vessel identity, blocking edits and record swapping during transit.</tspan></text>
+ <path d="M1334 105h151q18 0 18 18v78q0 18-18 18h-97l-29 28 7-28h-32q-18 0-18-18v-78q0-18 18-18z" fill="#d8fff0" stroke="#111" stroke-width="4"/>
+ <text x="1409" y="136" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="1409">기록도 승선한다.</tspan><tspan x="1409" dy="21">记录也一起航行。</tspan><tspan x="1409" dy="19" font-size="12">The record sails too.</tspan></text>
+ <text x="802" y="488" fill="#fff" stroke="#315b6b" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="30" font-weight="900">BIND!  TRACK!  PROTECT!</text>
+</g>
+
+<!-- PANEL 3: arrival port scans passport before pilot boards -->
+<g>
+ <rect x="16" y="524" width="746" height="482" rx="12" fill="#19384a"/>
+ <rect x="16" y="745" width="746" height="261" fill="url(#sea)"/>
+ <rect x="53" y="683" width="676" height="69" fill="url(#dock)" stroke="#162b34" stroke-width="5"/>
+ <g transform="translate(381 717)" filter="url(#sh)"><path d="M0 28h287l-29 73H39z" fill="#e4eaed" stroke="#142a33" stroke-width="6"/><rect x="91" y="-35" width="102" height="66" rx="5" fill="#d5e3e7" stroke="#142a33" stroke-width="5"/></g>
+ <!-- scanner gate -->
+ <path d="M455 686v-102h142v102" fill="none" stroke="#69e5ed" stroke-width="13"/><rect x="480" y="603" width="92" height="53" rx="9" fill="#0b3143" stroke="#8ff6fb" stroke-width="4"/><text x="526" y="626" text-anchor="middle" fill="#fff" font-family="Arial" font-size="12" font-weight="900">BIO PASS</text><text x="526" y="646" text-anchor="middle" fill="#7dffb5" font-family="Arial" font-size="15" font-weight="900">VALID ✓</text>
+ <!-- harbor officer with tablet -->
+ <g transform="translate(98 760)" filter="url(#sh)"><ellipse cx="44" cy="-51" rx="32" ry="39" fill="#d49a72" stroke="#142a33" stroke-width="5"/><path d="M11-57q6-29 32-34q29 6 31 33l-15-9q-19 8-48 10z" fill="#272f34"/><rect y="-4" width="91" height="106" rx="17" fill="#225f79" stroke="#142a33" stroke-width="5"/><rect x="70" y="5" width="64" height="82" rx="8" fill="#0a3142" stroke="#7beaf1" stroke-width="4"/><path d="M19 103l-18 72M72 103l24 72" stroke="#344b56" stroke-width="22" stroke-linecap="round"/></g>
+ <!-- female pilot -->
+ <g transform="translate(254 767)" filter="url(#sh)"><ellipse cx="41" cy="-48" rx="30" ry="37" fill="#e0a67c" stroke="#142a33" stroke-width="5"/><path d="M10-54q8-28 31-31q27 5 29 31l-15-8q-18 7-45 8z" fill="#3a2726"/><rect y="-3" width="84" height="99" rx="16" fill="#efb142" stroke="#142a33" stroke-width="5"/><path d="M72 16l70 18" stroke="#efb142" stroke-width="18" stroke-linecap="round"/></g>
+ <rect x="39" y="543" width="505" height="119" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="291" y="571" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="291">도착항은 도선사가 승선하기 전 여권을 스캔해 시간·검사기관·선박 ID·음성 eDNA를 교차 확인한다.</tspan><tspan x="291" dy="24" font-size="14">到港后在引航员登船前扫描通行证，交叉核对时间、检查机构、船舶ID和阴性eDNA。</tspan><tspan x="291" dy="22" font-size="13">Before pilot boarding, the arrival port cross-checks time, inspector, vessel ID and negative eDNA.</tspan></text>
+ <path d="M566 548h158q18 0 18 18v77q0 18-18 18h-101l-30 27 7-27h-34q-18 0-18-18v-77q0-18 18-18z" fill="#fff0b8" stroke="#111" stroke-width="4"/>
+ <text x="645" y="578" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="645">일치해야</tspan><tspan x="645" dy="20">항구 문이 열린다.</tspan><tspan x="645" dy="19" font-size="12">匹配后才准入港。</tspan></text>
+ <text x="44" y="976" fill="#fff" stroke="#315b6b" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="29" font-weight="900">SCAN!  MATCH!  CLEAR!</text>
+</g>
+
+<!-- PANEL 4: mismatch holds vessel; verified network shows measurable protection -->
+<g>
+ <rect x="774" y="524" width="746" height="482" rx="12" fill="#102b3b"/>
+ <rect x="774" y="794" width="746" height="212" fill="url(#sea)"/>
+ <rect x="800" y="553" width="681" height="154" rx="18" fill="#0b3143" stroke="#6ee8ef" stroke-width="5"/>
+ <text x="823" y="586" fill="#d8fbff" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900">30일 공동 검증 · 30-DAY JOINT VERIFICATION · 30天联合验证</text>
+ <text x="838" y="630" fill="#7dffb5" font-family="Arial" font-size="29" font-weight="900">FALSE CLEARANCE   0</text>
+ <text x="838" y="670" fill="#fff" font-family="Arial" font-size="25" font-weight="900">ARRIVAL CHECK TIME   −41%</text>
+ <text x="1200" y="630" fill="#fff" font-family="Arial" font-size="24" font-weight="900">RECORD MATCH   100%</text>
+ <text x="1200" y="670" fill="#7dffb5" font-family="Arial" font-size="24" font-weight="900">EDNA ALERT MISS   0</text>
+ <!-- officers and healthy harbor -->
+ <g transform="translate(831 851)" filter="url(#sh)"><ellipse cx="43" cy="-50" rx="31" ry="38" fill="#d09a73" stroke="#142a33" stroke-width="5"/><rect y="-4" width="89" height="103" rx="17" fill="#22617a" stroke="#142a33" stroke-width="5"/><path d="M77 18l77-23" stroke="#22617a" stroke-width="19" stroke-linecap="round"/></g>
+ <g transform="translate(995 864)" filter="url(#sh)"><ellipse cx="40" cy="-48" rx="30" ry="37" fill="#e0a77e" stroke="#142a33" stroke-width="5"/><path d="M10-54q8-28 31-31q27 5 29 31l-15-8q-18 7-45 8z" fill="#3a2726"/><rect y="-3" width="84" height="99" rx="16" fill="#f4f7f8" stroke="#142a33" stroke-width="5"/></g>
+ <!-- fish and eelgrass -->
+ <path d="M1168 925q18-31 36 0q-18 31-36 0m39 0l22-15v30zM1290 873q17-27 34 0q-17 27-34 0m37 0l19-13v26zM1394 941q16-25 32 0q-16 25-32 0m35 0l18-12v24z" fill="#b8f4de" stroke="#143c4b" stroke-width="4"/>
+ <path d="M1110 1003q8-68 0-119M1135 1003q-5-72 15-127M1162 1003q9-58 27-111M1347 1003q-8-69 5-118M1381 1003q5-61 29-108M1430 1003q-2-55 15-97" fill="none" stroke="#43b989" stroke-width="10" stroke-linecap="round"/>
+ <rect x="1092" y="721" width="392" height="59" rx="14" fill="#e9fff3" stroke="#111" stroke-width="4"/>
+ <text x="1288" y="746" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="14" font-weight="900"><tspan x="1288">기록이 어긋나면 즉시 HOLD. 일치할 때만 입항한다.</tspan><tspan x="1288" dy="19" font-size="12">记录不一致就立即HOLD；完全匹配才准入港。</tspan></text>
+ <text x="800" y="980" fill="#fff" stroke="#315b6b" stroke-width="6" paint-order="stroke" font-family="Arial" font-size="29" font-weight="900">VERIFY!  HOLD IF MISMATCH!  PROTECT THE BAY!</text>
+</g>
+</svg>
