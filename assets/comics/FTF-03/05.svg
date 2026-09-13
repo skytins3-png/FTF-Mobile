@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a26"/><stop offset="1" stop-color="#26364a"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#163b57"/><stop offset="1" stop-color="#07151f"/></linearGradient>
+ <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffb86a"/><stop offset=".48" stop-color="#8bb8d8"/><stop offset="1" stop-color="#173147"/></linearGradient>
+ <style>
+ .panel{stroke:#090d12;stroke-width:18}.box{fill:#f6f2e8;stroke:#111822;stroke-width:7}.bubble{fill:white;stroke:#121820;stroke-width:7}.kr{font:700 31px Arial,'Malgun Gothic',sans-serif;fill:#111}.zh{font:600 25px Arial,'Microsoft YaHei',sans-serif;fill:#24303c}.en{font:700 23px Arial,sans-serif;fill:#314152;letter-spacing:.5px}.sfx{font:900 42px Arial,sans-serif;fill:#ffd75a;stroke:#111;stroke-width:5;paint-order:stroke;letter-spacing:2px}.small{font:700 21px Arial,sans-serif;fill:#d7eefc}.face{fill:#e7bd9c;stroke:#17212c;stroke-width:6}.hair{fill:#17202b}.coat{fill:#284f67;stroke:#17212c;stroke-width:6}.white{fill:#eef4f6;stroke:#17212c;stroke-width:5}.line{stroke:#121820;stroke-width:6;fill:none;stroke-linecap:round}.data{font:700 21px Arial,sans-serif;fill:#8de8c2}.red{fill:#ff7070}.green{fill:#7de3a6}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#080b10"/>
+<!-- title -->
+<rect x="28" y="26" width="1024" height="108" rx="18" class="box"/>
+<text x="55" y="72" class="kr">FTF-03 · 05  생존 계획의 첫 번째 선택</text>
+<text x="55" y="108" class="en">EARTH SURVIVAL PLAN · THE FIRST CHOICE</text>
+
+<!-- PANEL 1 underground council -->
+<rect x="30" y="155" width="1020" height="410" rx="20" fill="url(#bg1)" class="panel"/>
+<rect x="120" y="214" width="840" height="188" rx="14" fill="url(#screen)" stroke="#4f8cab" stroke-width="6"/>
+<circle cx="325" cy="305" r="59" fill="#2c78a5" opacity=".65"/><path d="M296 270q35-35 67 8q18 30-12 57q-30 19-63-4q-15-31 8-61" fill="#7bd5e7" opacity=".7"/>
+<path d="M474 257h410M474 305h340M474 353h385" stroke="#8ed8ff" stroke-width="9" opacity=".75"/>
+<text x="495" y="280" class="small">GLOBAL SURVIVAL OPTIONS</text><text x="495" y="330" class="data">SHELTER · WATER · FOOD · ENERGY</text><text x="495" y="374" class="data">COAST · CITY · MOUNTAIN · ORBIT</text>
+<!-- actual seated scientists -->
+<g transform="translate(115,430)"><circle cx="65" cy="0" r="31" class="face"/><path d="M34-7q30-45 62-4v-33H42z" class="hair"/><path d="M20 36q45-35 90 0v78H20z" class="coat"/></g>
+<g transform="translate(290,430)"><circle cx="65" cy="0" r="31" class="face"/><path d="M36-8q30-48 64-3v-30H38z" class="hair"/><path d="M20 36q45-35 90 0v78H20z" class="white"/></g>
+<g transform="translate(470,430)"><circle cx="65" cy="0" r="31" class="face"/><path d="M34-9q28-46 64-4v-31H39z" class="hair"/><path d="M20 36q45-35 90 0v78H20z" class="coat"/></g>
+<g transform="translate(650,430)"><circle cx="65" cy="0" r="31" class="face"/><path d="M34-8q30-48 64-4v-31H39z" class="hair"/><path d="M20 36q45-35 90 0v78H20z" class="white"/></g>
+<g transform="translate(830,430)"><circle cx="65" cy="0" r="31" class="face"/><path d="M34-8q30-48 64-4v-31H39z" class="hair"/><path d="M20 36q45-35 90 0v78H20z" class="coat"/></g>
+<rect x="60" y="175" width="360" height="128" rx="16" class="box"/>
+<text x="80" y="214" class="kr">재난 대응만으로는 부족합니다.</text><text x="80" y="247" class="zh">只靠灾害应对已经不够。</text><text x="80" y="278" class="en">RESPONSE ALONE IS NOT ENOUGH.</text>
+<text x="830" y="500" class="sfx" transform="rotate(-7 830 500)">HUMM…</text>
+
+<!-- PANEL 2 scientist points at layered plan -->
+<rect x="30" y="585" width="1020" height="420" rx="20" fill="#172634" class="panel"/>
+<rect x="540" y="628" width="430" height="285" rx="16" fill="#07151f" stroke="#5aa5c9" stroke-width="6"/>
+<text x="574" y="674" class="small">5-LAYER SURVIVAL GRID</text>
+<g font-family="Arial" font-weight="700" font-size="23"><rect x="580" y="700" width="340" height="34" rx="8" fill="#426d8a"/><text x="602" y="725" fill="white">1  SAFE WATER</text><rect x="580" y="744" width="300" height="34" rx="8" fill="#467c70"/><text x="602" y="769" fill="white">2  FOOD SECURITY</text><rect x="580" y="788" width="270" height="34" rx="8" fill="#7e6745"/><text x="602" y="813" fill="white">3  ENERGY</text><rect x="580" y="832" width="230" height="34" rx="8" fill="#76506e"/><text x="602" y="857" fill="white">4  SHELTER</text><rect x="580" y="876" width="200" height="34" rx="8" fill="#6a597e"/><text x="602" y="901" fill="white">5  EVACUATION</text></g>
+<!-- female scientist -->
+<circle cx="267" cy="730" r="72" class="face"/><path d="M195 724q8-105 76-101q75 3 79 105q-19-41-75-43q-56 0-80 39" class="hair"/><path d="M175 815q90-68 182 0v155H175z" class="coat"/><path d="M332 824q78-54 157-82" class="line"/><circle cx="491" cy="740" r="11" fill="#ffd75a"/>
+<rect x="64" y="606" width="445" height="135" rx="16" class="bubble"/><text x="88" y="648" class="kr">생존 계획은 한 가지 기술이 아닙니다.</text><text x="88" y="683" class="zh">生存计划不是单一技术。</text><text x="88" y="716" class="en">SURVIVAL IS A SYSTEM, NOT ONE DEVICE.</text>
+<text x="817" y="964" class="sfx" transform="rotate(5 817 964)">CLICK!</text>
+
+<!-- PANEL 3 ethical vote -->
+<rect x="30" y="1025" width="1020" height="390" rx="20" fill="#2a2532" class="panel"/>
+<rect x="94" y="1075" width="892" height="110" rx="18" fill="#121722" stroke="#615979" stroke-width="6"/>
+<text x="120" y="1122" class="small">COUNCIL VOTE · HUMAN SAFETY PRINCIPLE</text>
+<text x="120" y="1160" class="data">NO FORCED EXPERIMENTS · INFORMED CONSENT · RIGHT TO REFUSE</text>
+<!-- two detailed speakers -->
+<g transform="translate(120,1225)"><circle cx="70" cy="0" r="48" class="face"/><path d="M25-4q42-73 92-6v-44H31z" class="hair"/><path d="M10 55q62-48 124 0v116H10z" class="white"/></g>
+<g transform="translate(790,1225)"><circle cx="70" cy="0" r="48" class="face"/><path d="M26-6q45-68 92-2v-46H32z" class="hair"/><path d="M10 55q62-48 124 0v116H10z" class="coat"/></g>
+<path d="M302 1288h150" class="line"/><circle cx="472" cy="1288" r="22" class="green"/><path d="M462 1288l9 10 17-24" stroke="#10231a" stroke-width="6" fill="none"/>
+<path d="M624 1288h116" class="line"/><circle cx="603" cy="1288" r="22" class="red"/><path d="M593 1278l20 20m0-20l-20 20" stroke="#3a1111" stroke-width="6"/>
+<rect x="355" y="1207" width="375" height="150" rx="18" class="bubble"/><text x="382" y="1248" class="kr">살아남기 위해 사람을 도구로 만들 수는 없습니다.</text><text x="382" y="1287" class="zh">为了生存，也不能把人变成工具。</text><text x="382" y="1327" class="en">SURVIVAL MUST PROTECT HUMAN DIGNITY.</text>
+<text x="70" y="1388" class="sfx">TAP!  VOTE!</text>
+
+<!-- PANEL 4 dawn transition to long-term plan -->
+<rect x="30" y="1435" width="1020" height="450" rx="20" fill="url(#dawn)" class="panel"/>
+<path d="M30 1735q150-105 300-18q150-105 300-12q160-105 420 20v160H30z" fill="#163e4d"/>
+<path d="M30 1775q220-80 420-20q200-70 600 15v115H30z" fill="#102d39"/>
+<!-- observatory / planning center -->
+<rect x="160" y="1575" width="280" height="170" rx="8" fill="#d6e4e9" stroke="#1d2a33" stroke-width="7"/><rect x="195" y="1610" width="74" height="64" fill="#5f91a8"/><rect x="290" y="1610" width="74" height="64" fill="#5f91a8"/><path d="M300 1575q0-78 80-78q80 0 80 78" fill="#b9d5df" stroke="#1d2a33" stroke-width="7"/><circle cx="380" cy="1532" r="16" fill="#f4d66e"/>
+<!-- field team -->
+<g transform="translate(650,1670)"><circle cx="45" cy="0" r="32" class="face"/><path d="M16-3q29-48 58-3v-28H20z" class="hair"/><path d="M4 37q42-33 82 0v88H4z" class="coat"/></g><g transform="translate(770,1665)"><circle cx="45" cy="0" r="32" class="face"/><path d="M15-4q29-47 60-2v-30H20z" class="hair"/><path d="M4 37q42-33 82 0v88H4z" class="white"/></g>
+<rect x="70" y="1465" width="890" height="150" rx="18" class="box"/>
+<text x="100" y="1510" class="kr">오늘의 결정은 5년 뒤를 위한 준비가 된다.</text><text x="100" y="1552" class="zh">今天的决定，将成为五年后的准备。</text><text x="100" y="1593" class="en">TODAY'S DECISION BECOMES TOMORROW'S SURVIVAL PLAN.</text>
+<text x="775" y="1840" class="sfx" transform="rotate(-5 775 1840)">DAWN…</text>
+</svg>
