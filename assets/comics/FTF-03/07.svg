@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#17233b"/><stop offset="1" stop-color="#ef8a55"/></linearGradient>
+ <linearGradient id="lab" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172b42"/><stop offset="1" stop-color="#315d70"/></linearGradient>
+ <linearGradient id="water" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4fa5c9"/><stop offset="1" stop-color="#9de5e5"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".35"/></filter>
+ <style>
+ .panel{stroke:#0b0e13;stroke-width:18}.cap{fill:#f8f2df;stroke:#111827;stroke-width:5}.bubble{fill:white;stroke:#151922;stroke-width:5}.ko{font:700 26px 'Noto Sans KR','Arial';fill:#10151e}.zh{font:600 21px 'Noto Sans SC','Arial';fill:#263448}.en{font:600 18px Arial;fill:#435266}.fx{font:900 italic 42px Impact,Arial;fill:#ffd95a;stroke:#10131a;stroke-width:3;paint-order:stroke}.small{font:700 16px Arial;fill:#d7ecff}.screen{fill:#9ce8ef;stroke:#122033;stroke-width:4}.skin{fill:#efc19f;stroke:#1a202b;stroke-width:4}.hair{fill:#19202a;stroke:#11151c;stroke-width:4}.coat{fill:#e8eef3;stroke:#17202b;stroke-width:4}.vest{fill:#f2a12c;stroke:#17202b;stroke-width:4}.line{stroke:#16202c;stroke-width:4;fill:none;stroke-linecap:round}.eye{fill:#151a22}.white{fill:#fff}.dark{fill:#142031}.red{fill:#e65454}.green{fill:#5cc98b}
+ </style>
+</defs>
+<rect width="1080" height="1920" fill="#090d14"/>
+<!-- title strip -->
+<rect x="28" y="24" width="1024" height="112" rx="26" fill="#111a29" stroke="#82c8e8" stroke-width="4"/>
+<text x="56" y="68" class="small" style="font-size:22px">FTF-03 · EARTH SURVIVAL PLAN · SCENE 07</text>
+<text x="56" y="111" class="white" style="font:900 34px 'Noto Sans KR',Arial">현장 검증 — 생존망은 사람에게 닿아야 한다</text>
+
+<!-- PANEL 1 command center -->
+<rect class="panel" x="28" y="154" width="1024" height="392" rx="24" fill="url(#lab)"/>
+<rect x="55" y="178" width="970" height="76" rx="18" class="cap"/>
+<text x="78" y="211" class="ko">계획은 종이 위에서 끝나면 안 돼. 오늘 실제 도시에서 검증한다.</text>
+<text x="78" y="237" class="zh">计划不能停在纸上。今天必须在真实城市里验证。</text>
+<!-- wall screens -->
+<rect x="70" y="278" width="430" height="205" rx="12" fill="#0e1928" stroke="#78d4ff" stroke-width="5"/>
+<path d="M95 420 L145 390 L205 408 L260 335 L320 350 L382 304 L465 330" stroke="#70ffbd" stroke-width="7" fill="none"/>
+<circle cx="145" cy="390" r="8" class="red"/><circle cx="260" cy="335" r="8" class="green"/><circle cx="382" cy="304" r="8" class="green"/>
+<text x="92" y="307" class="small">WATER · POWER · SHELTER</text>
+<rect x="520" y="278" width="480" height="205" rx="12" fill="#102034" stroke="#78d4ff" stroke-width="5"/>
+<path d="M545 450h430M565 310v140M680 310v140M795 310v140M910 310v140" stroke="#34546c" stroke-width="3"/>
+<rect x="575" y="365" width="65" height="85" class="green"/><rect x="690" y="335" width="65" height="115" fill="#5aa9e6"/><rect x="805" y="390" width="65" height="60" fill="#f5c05a"/><rect x="920" y="322" width="40" height="128" fill="#d76b6b"/>
+<!-- two actual scientists -->
+<ellipse cx="250" cy="486" rx="34" ry="42" class="skin"/><path d="M215 475q6-63 72-39q17 6 18 42q-26-31-81-12z" class="hair"/><circle cx="238" cy="485" r="4" class="eye"/><circle cx="264" cy="485" r="4" class="eye"/><path d="M241 505q12 8 24 0" class="line"/><path d="M184 545q67-55 133 0v16H184z" class="coat"/>
+<ellipse cx="812" cy="488" rx="34" ry="42" class="skin"/><path d="M775 468q13-58 78-25q14 8 9 42q-34-29-78-9z" class="hair"/><circle cx="801" cy="487" r="4" class="eye"/><circle cx="824" cy="487" r="4" class="eye"/><path d="M803 505q11 7 22-1" class="line"/><path d="M747 545q65-54 130 0v16H747z" class="coat"/>
+<text x="850" y="390" class="fx" transform="rotate(-8 850 390)">BEEP! LINK!</text>
+
+<!-- PANEL 2 field water/power -->
+<rect class="panel" x="28" y="566" width="1024" height="432" rx="24" fill="#b7d8df"/>
+<!-- city background -->
+<rect x="47" y="585" width="986" height="230" fill="url(#sky)"/>
+<rect x="70" y="690" width="140" height="125" fill="#334357"/><rect x="230" y="650" width="180" height="165" fill="#48596d"/><rect x="430" y="705" width="120" height="110" fill="#39495d"/>
+<g fill="#ffd36b"><rect x="92" y="715" width="20" height="20"/><rect x="138" y="715" width="20" height="20"/><rect x="262" y="681" width="20" height="20"/><rect x="310" y="681" width="20" height="20"/><rect x="458" y="730" width="18" height="18"/></g>
+<!-- mobile purification truck -->
+<rect x="565" y="650" width="365" height="135" rx="20" fill="#e7edf2" stroke="#17202b" stroke-width="6"/>
+<rect x="610" y="678" width="120" height="62" class="screen"/><text x="625" y="713" class="dark" style="font:900 18px Arial">SAFE WATER</text>
+<circle cx="640" cy="805" r="45" fill="#242b34"/><circle cx="855" cy="805" r="45" fill="#242b34"/>
+<path d="M925 720q58 3 72 61" stroke="#5aa9e6" stroke-width="14" fill="none"/>
+<!-- pipe and clean-water station -->
+<rect x="70" y="835" width="940" height="130" rx="20" fill="#edf4ee" stroke="#16202c" stroke-width="5"/>
+<path d="M120 900H390q70 0 70-55h105q0 55 70 55h300" stroke="#2f86b7" stroke-width="24" fill="none"/>
+<circle cx="515" cy="845" r="42" fill="#dbe8ee" stroke="#17202b" stroke-width="6"/><path d="M490 845h50M515 820v50" stroke="#2b5575" stroke-width="7"/>
+<!-- worker character -->
+<ellipse cx="180" cy="800" rx="35" ry="43" class="skin"/><path d="M145 784q12-55 68-24l5 31q-32-17-67 3z" class="hair"/><circle cx="170" cy="799" r="4" class="eye"/><circle cx="193" cy="799" r="4" class="eye"/><path d="M128 854q53-57 108 0v87H128z" class="vest"/><path d="M136 870l92 0" stroke="#fff4a8" stroke-width="10"/>
+<path d="M230 870q70 5 120-18" class="line" stroke-width="8"/>
+<rect x="600" y="586" width="398" height="75" rx="20" class="bubble"/>
+<text x="622" y="616" class="ko">식수 72시간 확보. 전력망도 안정화 중!</text><text x="622" y="643" class="en">72 HOURS OF WATER. GRID STABILIZING.</text>
+<text x="760" y="900" class="fx">FLOW! CHARGE!</text>
+
+<!-- PANEL 3 shelter drill -->
+<rect class="panel" x="28" y="1018" width="1024" height="396" rx="24" fill="#263448"/>
+<rect x="48" y="1038" width="984" height="356" rx="18" fill="#dfe7e4"/>
+<!-- shelter hall perspective -->
+<path d="M60 1380L300 1100H760L1020 1380Z" fill="#b7c3c2" stroke="#24303b" stroke-width="5"/>
+<path d="M300 1100L60 1380M760 1100L1020 1380" stroke="#87989a" stroke-width="4"/>
+<rect x="437" y="1108" width="206" height="122" fill="#34495a" stroke="#17202b" stroke-width="6"/>
+<text x="466" y="1152" class="white" style="font:900 22px Arial">SHELTER A</text><text x="467" y="1184" class="small">CAPACITY 118 / 160</text>
+<!-- family characters -->
+<ellipse cx="280" cy="1220" rx="30" ry="37" class="skin"/><path d="M250 1205q14-49 59-21q11 8 8 33q-29-18-62-5z" class="hair"/><circle cx="272" cy="1221" r="3" class="eye"/><circle cx="291" cy="1221" r="3" class="eye"/><path d="M234 1264q47-45 94 0v86h-94z" fill="#5b79ad" stroke="#17202b" stroke-width="4"/>
+<ellipse cx="380" cy="1250" rx="23" ry="29" class="skin"/><path d="M356 1239q10-38 48-18l3 24q-25-12-48 1z" class="hair"/><circle cx="373" cy="1252" r="3" class="eye"/><circle cx="388" cy="1252" r="3" class="eye"/><path d="M345 1283q36-36 72 0v67h-72z" fill="#f0b05a" stroke="#17202b" stroke-width="4"/>
+<!-- medic -->
+<ellipse cx="790" cy="1210" rx="31" ry="39" class="skin"/><path d="M758 1196q8-48 57-25q14 8 10 35q-29-17-61-4z" class="hair"/><circle cx="780" cy="1211" r="3" class="eye"/><circle cx="801" cy="1211" r="3" class="eye"/><path d="M744 1253q49-45 99 0v98h-99z" class="coat"/><rect x="783" y="1275" width="20" height="52" class="red"/><rect x="767" y="1291" width="52" height="20" class="red"/>
+<path d="M750 1280q-95 25-180 12" class="line" stroke-width="7"/>
+<rect x="78" y="1048" width="650" height="82" rx="18" class="bubble"/>
+<text x="99" y="1080" class="ko">대피는 명령이 아니라 선택을 돕는 시스템이어야 합니다.</text>
+<text x="99" y="1107" class="zh">避难系统应该帮助人们做选择，而不是强迫。</text>
+<text x="650" y="1370" class="fx" transform="rotate(-5 650 1370)">STEP! CHECK!</text>
+
+<!-- PANEL 4 evaluation and next chapter -->
+<rect class="panel" x="28" y="1434" width="1024" height="456" rx="24" fill="#111b28"/>
+<!-- sunrise city -->
+<rect x="48" y="1454" width="984" height="416" rx="18" fill="url(#sky)"/>
+<circle cx="860" cy="1560" r="72" fill="#ffd775" opacity=".9"/>
+<rect x="60" y="1710" width="960" height="160" fill="#182b37"/>
+<g fill="#294450"><rect x="80" y="1625" width="120" height="245"/><rect x="220" y="1588" width="150" height="282"/><rect x="395" y="1655" width="110" height="215"/><rect x="530" y="1608" width="175" height="262"/><rect x="735" y="1660" width="120" height="210"/></g>
+<!-- foreground scientists reviewing tablet -->
+<ellipse cx="255" cy="1670" rx="38" ry="46" class="skin"/><path d="M216 1652q14-62 75-28q14 9 10 43q-38-25-75-7z" class="hair"/><circle cx="244" cy="1671" r="4" class="eye"/><circle cx="270" cy="1671" r="4" class="eye"/><path d="M191 1730q64-62 128 0v140H191z" class="coat"/>
+<ellipse cx="430" cy="1665" rx="38" ry="46" class="skin"/><path d="M391 1649q8-59 69-31q18 9 13 44q-36-24-73-6z" class="hair"/><circle cx="420" cy="1667" r="4" class="eye"/><circle cx="445" cy="1667" r="4" class="eye"/><path d="M366 1725q64-61 128 0v145H366z" class="coat"/>
+<rect x="315" y="1715" width="185" height="120" rx="12" fill="#172838" stroke="#8ce0f1" stroke-width="5" transform="rotate(-6 407 1775)"/>
+<path d="M340 1795l35-30 28 12 38-47 35 20" stroke="#70ffbd" stroke-width="6" fill="none"/>
+<rect x="560" y="1478" width="430" height="132" rx="22" class="cap" filter="url(#shadow)"/>
+<text x="584" y="1515" class="ko">첫 현장 시험 통과. 이제 5년 장기 관찰 계획으로 간다.</text>
+<text x="584" y="1547" class="zh">首次实地测试通过。下一步进入五年长期观察计划。</text>
+<text x="584" y="1577" class="en">FIELD TEST PASSED. NEXT: FIVE-YEAR OBSERVATION.</text>
+<text x="610" y="1800" class="fx">DAWN… RECORD… GO!</text>
+<!-- footer -->
+<rect x="28" y="1894" width="1024" height="10" rx="5" fill="#82c8e8"/>
+</svg>
