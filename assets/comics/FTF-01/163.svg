@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 163 validates the rebuilt M-3 maintenance depot before controlled reopening">
+<defs>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#42677c"/><stop offset=".55" stop-color="#a9c3cd"/><stop offset="1" stop-color="#e9c69b"/></linearGradient>
+ <linearGradient id="steel" x2="0" y2="1"><stop stop-color="#e8eef0"/><stop offset="1" stop-color="#77858b"/></linearGradient>
+ <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#eefaff"/><stop offset="1" stop-color="#b9dce9"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#85ced8"/><stop offset="1" stop-color="#1c6c82"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".35"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#07131b"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173f58"/>
+<text x="28" y="50" fill="#fff" font-family="Arial,Malgun Gothic" font-size="30" font-weight="900">FTF-01 #163  고쳤다고 끝이 아니다 — 다시 열기 전에 ‘재오염 0’을 증명한다</text>
+<text x="1084" y="49" fill="#d9f5ff" font-family="Arial" font-size="17" font-weight="800">VALIDATE · PRESSURE TEST · REOPEN · 复验重启</text>
+
+<!-- PANEL 1: dawn inspection -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#dawn)"/>
+ <rect x="16" y="334" width="746" height="178" fill="#748188"/>
+ <rect x="52" y="215" width="302" height="119" rx="7" fill="#dce5e8" stroke="#253b44" stroke-width="6"/>
+ <text x="203" y="252" text-anchor="middle" font-family="Arial" font-size="20" font-weight="900" fill="#213b46">M-3 SERVICE DEPOT</text>
+ <rect x="86" y="271" width="92" height="48" fill="#8fc3d5"/><rect x="222" y="271" width="92" height="48" fill="#8fc3d5"/>
+ <g filter="url(#shadow)"><rect x="410" y="314" width="230" height="112" rx="18" fill="#d9f3ee" stroke="#267c70" stroke-width="6"/><circle cx="446" cy="437" r="23" fill="#273033"/><circle cx="602" cy="437" r="23" fill="#273033"/><rect x="448" y="334" width="155" height="54" rx="9" fill="#fff" stroke="#267c70" stroke-width="4"/><text x="526" y="367" text-anchor="middle" font-family="Arial" font-size="18" font-weight="900" fill="#1d655b">FR-2 REBUILT</text><path d="M639 344q66 9 54 68q-9 43-58 48" fill="none" stroke="#29414a" stroke-width="14" stroke-linecap="round"/></g>
+ <g transform="translate(367 436)" filter="url(#shadow)"><ellipse cy="-68" rx="28" ry="34" fill="#c98f6d" stroke="#102631" stroke-width="5"/><path d="M-27-79q8-27 29-28q23 5 28 28l-16-9q-21 6-41 9" fill="#25282a"/><rect x="-43" y="-29" width="86" height="110" rx="18" fill="#f1b33a" stroke="#102631" stroke-width="5"/><path d="M-35-6l-70 21M35-6l63 13" stroke="#f1b33a" stroke-width="18" stroke-linecap="round"/></g>
+ <g transform="translate(691 445)" filter="url(#shadow)"><ellipse cy="-61" rx="26" ry="31" fill="#d3a27d" stroke="#102631" stroke-width="4"/><path d="M-25-72q8-24 26-25q19 4 25 24l-16-7q-18 5-35 8" fill="#563b31"/><rect x="-38" y="-24" width="76" height="96" rx="16" fill="#3aa48b" stroke="#102631" stroke-width="4"/><path d="M-29-4l-49-28M29-4l44-18" stroke="#3aa48b" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="39" y="103" width="672" height="105" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="375" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="375">새벽 05:30. M-3는 아직 폐쇄 상태다. FR-2를 고쳤지만 누구도 ‘정상’ 도장을 찍지 않는다.</tspan><tspan x="375" dy="25" font-size="14">清晨05:30，M-3仍保持封锁。FR-2虽已修复，但没有人提前宣布“安全”。</tspan><tspan x="375" dy="22" font-size="13">05:30. M-3 stays closed: repair is not proof. Validation comes first.</tspan></text>
+ <path d="M404 219h289q16 0 16 16v65q0 16-16 16H535l-31 26 8-26H404q-16 0-16-16v-65q0-16 16-16z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="557" y="247" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="557">압력시험 끝날 때까지 밸브 열지 마!</tspan><tspan x="557" dy="23" font-size="13">压力测试结束前，不准开阀！</tspan></text>
+ <text x="48" y="491" font-family="Arial" font-size="24" font-weight="1000" fill="#fff06d">HOLD! INSPECT! NO EARLY REOPEN!</text>
+</g>
+
+<!-- PANEL 2: tracer/pressure test -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#steel)"/>
+ <rect x="808" y="226" width="677" height="230" rx="18" fill="#203c49"/>
+ <path d="M840 323h190v-55h180v114h173" fill="none" stroke="#d7e4e8" stroke-width="28" stroke-linejoin="round"/>
+ <path d="M840 323h190v-55h180v114h173" fill="none" stroke="#3ec8da" stroke-width="10" stroke-linejoin="round" filter="url(#glow)"/>
+ <circle cx="1019" cy="267" r="34" fill="#fff" stroke="#203c49" stroke-width="6"/><text x="1019" y="275" text-anchor="middle" font-family="Arial" font-size="19" font-weight="900" fill="#c12d35">2.8 bar</text>
+ <rect x="1236" y="254" width="193" height="116" rx="14" fill="#f2fff8" stroke="#36a07f" stroke-width="5"/>
+ <text x="1332" y="286" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#206b58">CHECK VALVE</text><text x="1332" y="326" text-anchor="middle" font-family="Arial" font-size="26" font-weight="1000" fill="#18825f">PASS</text><text x="1332" y="351" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#206b58">NO BACKFLOW</text>
+ <g transform="translate(870 446)" filter="url(#shadow)"><ellipse cy="-58" rx="25" ry="30" fill="#c99170" stroke="#102b35" stroke-width="4"/><rect x="-38" y="-21" width="76" height="92" rx="15" fill="#f0b33a" stroke="#102b35" stroke-width="4"/><path d="M-30-4l-46-37M30-4l50-28" stroke="#f0b33a" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="798" y="103" width="666" height="105" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1131" y="133" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1131">형광 추적수로 FR-2를 2.8bar까지 가압한다. 새 역류방지 밸브는 20분 동안 역류 0, 누수 0.</tspan><tspan x="1131" dy="25" font-size="14">荧光示踪水加压至2.8bar，新止回阀连续20分钟零回流、零泄漏。</tspan><tspan x="1131" dy="22" font-size="13">Tracer-water pressure test: 2.8 bar, 20 minutes, zero backflow and zero leaks.</tspan></text>
+ <path d="M1060 399h340q15 0 15 15v55q0 15-15 15h-189l-29 22 7-22h-129q-15 0-15-15v-55q0-15 15-15z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1230" y="430" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1230">2.8bar 유지! 압력 흔들림 없다!</tspan><tspan x="1230" dy="22" font-size="13">压力稳定，无回流！</tspan></text>
+ <text x="812" y="492" font-family="Arial" font-size="24" font-weight="1000" fill="#eaff69">PRESSURE! TRACE! ZERO BACKFLOW!</text>
+</g>
+
+<!-- PANEL 3: biological validation -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="url(#lab)"/>
+ <rect x="43" y="712" width="691" height="244" rx="18" fill="#173e52"/>
+ <g filter="url(#shadow)"><rect x="74" y="749" width="183" height="165" rx="14" fill="#fff" stroke="#3b8ead" stroke-width="5"/><text x="165" y="782" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#245e77">FR-2 OUTLET</text><circle cx="165" cy="833" r="33" fill="#bcecf0" stroke="#2a8d9b" stroke-width="5"/><text x="165" y="840" text-anchor="middle" font-family="Arial" font-size="18" font-weight="1000" fill="#176c78">NEG</text><text x="165" y="889" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#245e77">eDNA 0/6</text></g>
+ <g filter="url(#shadow)"><rect x="286" y="749" width="183" height="165" rx="14" fill="#fff" stroke="#3b8ead" stroke-width="5"/><text x="377" y="782" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#245e77">HOSE SURFACE</text><circle cx="377" cy="833" r="33" fill="#c9f0d9" stroke="#35966a" stroke-width="5"/><text x="377" y="840" text-anchor="middle" font-family="Arial" font-size="18" font-weight="1000" fill="#237450">NEG</text><text x="377" y="889" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#245e77">SWAB 0/6</text></g>
+ <g filter="url(#shadow)"><rect x="498" y="749" width="205" height="165" rx="14" fill="#fff8dc" stroke="#bd8a2e" stroke-width="5"/><text x="600" y="782" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#795716">72-HOUR HOLD</text><text x="600" y="835" text-anchor="middle" font-family="Arial" font-size="31" font-weight="1000" fill="#22805b">12/12</text><text x="600" y="866" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#795716">ALL NEGATIVE</text><text x="600" y="892" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#795716">NO REBOUND SIGNAL</text></g>
+ <g transform="translate(350 690)" filter="url(#shadow)"><ellipse cy="-58" rx="26" ry="31" fill="#d2a17c" stroke="#102a35" stroke-width="4"/><path d="M-25-69q8-24 27-25q19 3 25 24l-16-7q-18 5-36 8" fill="#5a3d32"/><rect x="-40" y="-23" width="80" height="95" rx="16" fill="#43a88f" stroke="#102a35" stroke-width="4"/><path d="M-31-4l-52 34M31-4l52 28" stroke="#43a88f" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="39" y="548" width="670" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="374" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="374">그 뒤 72시간 동안 출구수·호스·바닥 배수구를 반복 채취한다. 12개 검체 모두 eDNA 음성.</tspan><tspan x="374" dy="25" font-size="14">随后72小时反复采样出水、软管和地漏，12份样本全部eDNA阴性。</tspan><tspan x="374" dy="23" font-size="13">Seventy-two hours of repeat sampling: 12 of 12 samples remain negative.</tspan></text>
+ <path d="M61 674h250q15 0 15 15v55q0 15-15 15H183l-27 21 6-21H61q-15 0-15-15v-55q0-15 15-15z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="185" y="706" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="185">한 번 음성으론 부족해. 72시간 본다.</tspan><tspan x="185" dy="22" font-size="13">一次阴性还不够，观察72小时。</tspan></text>
+ <text x="52" y="989" font-family="Arial" font-size="24" font-weight="1000" fill="#ffe369">SWAB! SAMPLE! 12 OF 12 NEGATIVE!</text>
+</g>
+
+<!-- PANEL 4: controlled reopening and separation -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#sea)"/>
+ <rect x="774" y="760" width="746" height="248" fill="#61757d"/>
+ <path d="M793 836h708" stroke="#e8f0f2" stroke-width="7" stroke-dasharray="20 15"/>
+ <g filter="url(#shadow)"><rect x="823" y="693" width="258" height="126" rx="16" fill="#d9f4ee" stroke="#277e71" stroke-width="6"/><text x="952" y="730" text-anchor="middle" font-family="Arial" font-size="18" font-weight="900" fill="#20685e">DEDICATED LINE A</text><path d="M855 770h190" stroke="#39a88e" stroke-width="18"/><circle cx="865" cy="770" r="18" fill="#fff" stroke="#237664" stroke-width="5"/><circle cx="1034" cy="770" r="18" fill="#fff" stroke="#237664" stroke-width="5"/></g>
+ <g filter="url(#shadow)"><rect x="1114" y="693" width="258" height="126" rx="16" fill="#e3eef9" stroke="#3d6f9d" stroke-width="6"/><text x="1243" y="730" text-anchor="middle" font-family="Arial" font-size="18" font-weight="900" fill="#2a587e">DEDICATED LINE B</text><path d="M1146 770h190" stroke="#538dc1" stroke-width="18"/><circle cx="1156" cy="770" r="18" fill="#fff" stroke="#335f88" stroke-width="5"/><circle cx="1325" cy="770" r="18" fill="#fff" stroke="#335f88" stroke-width="5"/></g>
+ <g filter="url(#shadow)"><rect x="1392" y="675" width="92" height="159" rx="13" fill="#fff8d7" stroke="#a47a22" stroke-width="5"/><text x="1438" y="708" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#725313">GATE</text><circle cx="1438" cy="758" r="25" fill="#40b77f"/><path d="M1426 758l9 10 18-23" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="1438" y="805" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#725313">REOPEN</text></g>
+ <g transform="translate(1058 944)" filter="url(#shadow)"><ellipse cy="-56" rx="25" ry="30" fill="#c98f6e" stroke="#102a35" stroke-width="4"/><rect x="-38" y="-21" width="76" height="90" rx="15" fill="#f0b33a" stroke="#102a35" stroke-width="4"/><path d="M-30-3l-60-36M30-3l64-34" stroke="#f0b33a" stroke-width="16" stroke-linecap="round"/></g>
+ <g transform="translate(1288 945)" filter="url(#shadow)"><ellipse cy="-56" rx="25" ry="30" fill="#d4a27d" stroke="#102a35" stroke-width="4"/><rect x="-38" y="-21" width="76" height="90" rx="15" fill="#45a88f" stroke="#102a35" stroke-width="4"/><path d="M-30-3l-55-29M30-3l56-34" stroke="#45a88f" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="798" y="548" width="665" height="118" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1131" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1131">08:00, M-3 조건부 재가동. 공용 호스는 폐지하고 선박별 전용 라인 A/B를 분리한다. 첫날 재오염 0.</tspan><tspan x="1131" dy="25" font-size="14">08:00，M-3有条件重启。取消共用软管，改为船舶专用A/B独立管线，首日零再污染。</tspan><tspan x="1131" dy="23" font-size="13">08:00 controlled reopening: shared hose retired, dedicated lines separated, zero recontamination.</tspan></text>
+ <path d="M817 675h259q15 0 15 15v56q0 15-15 15H950l-28 22 6-22H817q-15 0-15-15v-56q0-15 15-15z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="946" y="707" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="946">공용은 끝. 이제 한 선박, 한 라인!</tspan><tspan x="946" dy="22" font-size="13">取消共用，一船一线！</tspan></text>
+ <rect x="820" y="868" width="646" height="77" rx="16" fill="#10384a" stroke="#d9f8ff" stroke-width="3"/>
+ <text x="1143" y="897" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="16" font-weight="900" fill="#fff"><tspan x="1143">검증 결과  |  2.8bar PASS · 72h 12/12 음성 · 역류 0 · 재오염 0</tspan><tspan x="1143" dy="23" font-size="13">VALIDATED: PRESSURE PASS · 12/12 NEGATIVE · ZERO BACKFLOW · ZERO RECONTAMINATION</tspan></text>
+ <text x="812" y="989" font-family="Arial" font-size="24" font-weight="1000" fill="#fff06d">VALIDATE! SEPARATE! REOPEN SAFELY!</text>
+</g>
+</svg>
