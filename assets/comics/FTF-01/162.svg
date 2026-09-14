@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 162 traces the repeated F-7 contamination to a shared maintenance flushing rig">
+<defs>
+ <linearGradient id="night" x2="0" y2="1"><stop stop-color="#15354b"/><stop offset="1" stop-color="#07151f"/></linearGradient>
+ <linearGradient id="yard" x2="0" y2="1"><stop stop-color="#cad4d8"/><stop offset="1" stop-color="#6f7c82"/></linearGradient>
+ <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#e9f7fb"/><stop offset="1" stop-color="#badbe7"/></linearGradient>
+ <linearGradient id="clean" x2="1" y2="1"><stop stop-color="#effff5"/><stop offset="1" stop-color="#90d8b0"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".38"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#07131b"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#153f59"/>
+<text x="28" y="50" fill="#fff" font-family="Arial,Malgun Gothic" font-size="30" font-weight="900">FTF-01 #162  선박이 아니라 ‘공용 정비기지’가 연결고리였다</text>
+<text x="1110" y="49" fill="#d7f5ff" font-family="Arial" font-size="17" font-weight="800">TRACE SOURCE · QUARANTINE · DECON · 溯源隔离</text>
+
+<!-- PANEL 1 -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#night)"/>
+ <rect x="16" y="340" width="746" height="172" fill="url(#yard)"/>
+ <rect x="45" y="218" width="288" height="122" rx="7" fill="#dbe3e6" stroke="#243c46" stroke-width="6"/>
+ <rect x="73" y="242" width="62" height="45" fill="#8fc3d5"/><rect x="158" y="242" width="62" height="45" fill="#8fc3d5"/><rect x="243" y="242" width="62" height="45" fill="#8fc3d5"/>
+ <text x="189" y="322" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#203640">SERVICE DEPOT M-3</text>
+ <g filter="url(#sh)"><rect x="392" y="320" width="254" height="117" rx="18" fill="#e6a43c" stroke="#2d3134" stroke-width="6"/><circle cx="428" cy="445" r="24" fill="#252a2d"/><circle cx="606" cy="445" r="24" fill="#252a2d"/><rect x="432" y="343" width="145" height="55" rx="10" fill="#fcf3d5" stroke="#774f13" stroke-width="4"/><text x="505" y="376" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#65430f">FLUSH RIG FR-2</text><path d="M646 352q74 11 54 83q-14 47-64 42" fill="none" stroke="#25393f" stroke-width="15" stroke-linecap="round"/></g>
+ <circle cx="695" cy="469" r="18" fill="#8ee6de" filter="url(#glow)"/><circle cx="667" cy="470" r="8" fill="#8ee6de"/>
+ <g transform="translate(343 430)" filter="url(#sh)"><ellipse cy="-68" rx="29" ry="35" fill="#c9906d" stroke="#0e2430" stroke-width="5"/><path d="M-28-79q11-27 29-28q23 4 29 28l-18-8q-20 7-40 8" fill="#222"/><rect x="-44" y="-29" width="88" height="112" rx="18" fill="#f0b43b" stroke="#0e2430" stroke-width="5"/><path d="M-34-5l-79 20M34-5l75 7" stroke="#f0b43b" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="39" y="104" width="675" height="113" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="376" y="135" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="376">K-41·K-44·K-47의 정비 동선을 겹치자 세 척 모두 같은 M-3 기지의 세척 카트 FR-2를 썼다.</tspan><tspan x="376" dy="25" font-size="14">叠加三艘船的维护轨迹后，全部指向M-3维修站的共用冲洗设备FR-2。</tspan><tspan x="376" dy="23" font-size="13">Maintenance routes converge on one shared flushing rig: FR-2 at depot M-3.</tspan></text>
+ <text x="50" y="493" font-family="Arial" font-size="24" font-weight="1000" fill="#ffe568">TRACE! THREE SHIPS — ONE SERVICE RIG!</text>
+</g>
+
+<!-- PANEL 2 -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#lab)"/>
+ <rect x="805" y="235" width="688" height="228" rx="18" fill="#173f53"/>
+ <g filter="url(#sh)"><rect x="835" y="268" width="192" height="161" rx="14" fill="#fff" stroke="#3d8aab" stroke-width="5"/><text x="931" y="302" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#225c76">FR-2 HOSE</text><path d="M870 337q64-52 119 1q-57 61-119 7" fill="none" stroke="#2e434d" stroke-width="14" stroke-linecap="round"/><circle cx="981" cy="366" r="14" fill="#65ddd0" filter="url(#glow)"/><text x="931" y="411" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#a52d2d">eDNA POSITIVE</text></g>
+ <g filter="url(#sh)"><rect x="1050" y="268" width="192" height="161" rx="14" fill="#fff8db" stroke="#ab7a22" stroke-width="5"/><text x="1146" y="302" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#765316">BIOFILM MATCH</text><text x="1146" y="348" text-anchor="middle" font-family="Arial" font-size="32" font-weight="1000" fill="#a22d2d">99.2%</text><text x="1146" y="385" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#765316">K-42 F-7 ↔ FR-2</text><text x="1146" y="411" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#765316">SAME SIGNAL PROFILE</text></g>
+ <g filter="url(#sh)"><rect x="1264" y="268" width="197" height="161" rx="14" fill="#ffe1df" stroke="#b33f42" stroke-width="5"/><text x="1362" y="302" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#8c282c">ROOT CAUSE</text><text x="1362" y="348" text-anchor="middle" font-family="Arial" font-size="24" font-weight="1000" fill="#a52b30">BACKFLOW</text><text x="1362" y="383" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#8c282c">FR-2 CHECK VALVE</text><text x="1362" y="410" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#8c282c">FAILED AFTER SERVICE</text></g>
+ <g transform="translate(842 458)" filter="url(#sh)"><ellipse cy="-59" rx="26" ry="31" fill="#d1a07b" stroke="#102a35" stroke-width="4"/><path d="M-25-69q9-25 26-25q21 4 26 25l-17-8q-17 6-35 8" fill="#51362a"/><rect x="-39" y="-22" width="78" height="93" rx="16" fill="#48a98f" stroke="#102a35" stroke-width="4"/></g>
+ <rect x="798" y="103" width="663" height="111" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1130" y="134" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1130">FR-2 호스 안쪽 생물막이 K-42의 F-7과 99.2% 일치. 역류방지 밸브 고장이 오염을 되돌려 보냈다.</tspan><tspan x="1130" dy="25" font-size="14">FR-2软管生物膜与K-42 F-7吻合99.2%，故障止回阀造成污染回流。</tspan><tspan x="1130" dy="23" font-size="13">The hose biofilm matches K-42; a failed check valve caused contaminated backflow.</tspan></text>
+ <text x="815" y="493" font-family="Arial" font-size="24" font-weight="1000" fill="#16394c">SWAB! MATCH! ROOT CAUSE CONFIRMED!</text>
+</g>
+
+<!-- PANEL 3 -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#394d56"/>
+ <rect x="35" y="706" width="708" height="260" rx="18" fill="#7e8b90"/>
+ <path d="M53 719h672" stroke="#d7e0e3" stroke-width="6" stroke-dasharray="16 14"/>
+ <g filter="url(#sh)"><rect x="83" y="758" width="215" height="130" rx="16" fill="#e5a33c" stroke="#2d3336" stroke-width="6"/><text x="190" y="803" text-anchor="middle" font-family="Arial" font-size="19" font-weight="900" fill="#5f3c0b">FR-2</text><text x="190" y="835" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#5f3c0b">QUARANTINED</text><path d="M73 743l236 160M309 743L73 903" stroke="#d92f38" stroke-width="12"/></g>
+ <g filter="url(#sh)"><rect x="354" y="745" width="345" height="160" rx="18" fill="#dff7f2" stroke="#238b78" stroke-width="6"/><rect x="385" y="778" width="62" height="90" rx="9" fill="#2b6674"/><rect x="470" y="768" width="88" height="111" rx="9" fill="#5cb9a4"/><rect x="583" y="778" width="84" height="90" rx="9" fill="#2b6674"/><path d="M421 755v-36M514 752v-44M625 755v-36" stroke="#c9f2eb" stroke-width="12" stroke-linecap="round"/><circle cx="421" cy="714" r="12" fill="#d8fff7"/><circle cx="514" cy="701" r="14" fill="#d8fff7"/><circle cx="625" cy="714" r="12" fill="#d8fff7"/><text x="526" y="896" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#145b4f">DISASSEMBLE · HEAT · UV · REPLACE VALVE</text></g>
+ <g transform="translate(334 942)" filter="url(#sh)"><ellipse cy="-55" rx="25" ry="30" fill="#c88d6b" stroke="#102a35" stroke-width="4"/><rect x="-37" y="-21" width="74" height="90" rx="15" fill="#f0b33a" stroke="#102a35" stroke-width="4"/><path d="M-30-5l-55-38M30-5l59-36" stroke="#f0b33a" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="39" y="548" width="668" height="124" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="373" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="373">M-3 기지를 즉시 격리한다. FR-2는 분해·고온세척·UV 처리하고 역류방지 밸브를 새것으로 교체한다.</tspan><tspan x="373" dy="25" font-size="14">立即隔离M-3维修站，FR-2拆解、高温清洗、UV处理并更换止回阀。</tspan><tspan x="373" dy="23" font-size="13">Depot M-3 is quarantined; FR-2 is stripped, heat-cleaned, UV-treated and rebuilt.</tspan></text>
+ <path d="M408 680h289q16 0 16 16v70q0 16-16 16H527l-31 27 8-27H408q-16 0-16-16v-70q0-16 16-16z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="557" y="711" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="557">M-3 사용 중지! FR-2 전부 분해한다!</tspan><tspan x="557" dy="24" font-size="13">M-3暂停使用！FR-2全部拆解！</tspan></text>
+ <text x="51" y="988" font-family="Arial" font-size="24" font-weight="1000" fill="#ffe36d">LOCKDOWN! STRIP! HEAT! UV!</text>
+</g>
+
+<!-- PANEL 4 -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#clean)"/>
+ <rect x="802" y="718" width="690" height="239" rx="18" fill="#cbe9d8"/>
+ <path d="M815 866q110-55 220 0t220 0t210 0" fill="none" stroke="#3293a2" stroke-width="16"/>
+ <g filter="url(#sh)"><rect x="833" y="747" width="298" height="174" rx="16" fill="#fff" stroke="#2d8b61" stroke-width="5"/><text x="982" y="781" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#256d4d">48-HOUR VERIFICATION</text><text x="982" y="823" text-anchor="middle" font-family="Arial" font-size="29" font-weight="1000" fill="#20835a">12 / 12 NEG</text><text x="982" y="858" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#256d4d">FR-2 · K-41 · K-42 · K-44 · K-47</text><text x="982" y="888" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#256d4d">NO SECONDARY eDNA</text></g>
+ <g filter="url(#sh)"><rect x="1154" y="747" width="305" height="174" rx="16" fill="#eef8ff" stroke="#32769b" stroke-width="5"/><text x="1307" y="781" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#245c79">NEW RULE</text><text x="1307" y="823" text-anchor="middle" font-family="Arial" font-size="24" font-weight="1000" fill="#245c79">ONE SHIP + ONE RIG</text><text x="1307" y="858" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#245c79">DEDICATED HOSE · AUTO LOG</text><text x="1307" y="888" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#245c79">NO SHARED BACKFLOW PATH</text></g>
+ <g transform="translate(1210 713)" filter="url(#sh)"><ellipse cy="-62" rx="28" ry="34" fill="#d0a07d" stroke="#102a35" stroke-width="5"/><path d="M-27-73q9-26 28-27q22 5 28 27l-18-9q-19 7-38 9" fill="#493329"/><rect x="-42" y="-26" width="84" height="103" rx="17" fill="#49aa91" stroke="#102a35" stroke-width="5"/><path d="M-33-3l-71 29M33-3l74-35" stroke="#49aa91" stroke-width="18" stroke-linecap="round"/></g>
+ <rect x="798" y="548" width="665" height="124" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1130" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1130">48시간 뒤 관련 선박·FR-2 모두 음성. 이제 공용 호스를 없애고 ‘선박 1척-전용 세척라인 1개’로 바꾼다.</tspan><tspan x="1130" dy="25" font-size="14">48小时后相关船舶与FR-2全部阴性，并改为“一船一专用冲洗管线”。</tspan><tspan x="1130" dy="23" font-size="13">All linked tests turn negative; shared hoses are replaced by dedicated one-vessel lines.</tspan></text>
+ <path d="M840 680h287q16 0 16 16v62q0 16-16 16H967l-29 25 7-25H840q-16 0-16-16v-62q0-16 16-16z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="988" y="712" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="988">재검사 전부 음성. 공유 경로를 없앤다!</tspan><tspan x="988" dy="23" font-size="13">复检全部阴性，取消共用污染路径！</tspan></text>
+ <text x="812" y="986" font-family="Arial" font-size="24" font-weight="1000" fill="#1b694b">VERIFY! ZERO RETURN! BREAK THE SHARED PATH!</text>
+</g>
+</svg>
