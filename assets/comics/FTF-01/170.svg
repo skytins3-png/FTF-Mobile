@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 170 restores B-zone pressure with a sterile V-12 cartridge, quarantines the contaminated carrier, closes the logistics loop, and verifies zero cross-zone spread">
+<defs>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#071827"/><stop offset=".55" stop-color="#31586b"/><stop offset="1" stop-color="#e3a467"/></linearGradient>
+ <linearGradient id="steel" x2="1" y2="1"><stop stop-color="#edf2f3"/><stop offset="1" stop-color="#8ea0a4"/></linearGradient>
+ <linearGradient id="pipe" x2="1"><stop stop-color="#506b76"/><stop offset=".5" stop-color="#b9d1d8"/><stop offset="1" stop-color="#506b76"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#163f53"/><stop offset="1" stop-color="#071b27"/></linearGradient>
+ <linearGradient id="clean" x2="0" y2="1"><stop stop-color="#e9f8f3"/><stop offset="1" stop-color="#9dcfc1"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".35"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>.t{font-family:Arial,'Malgun Gothic',sans-serif}.box{fill:#fff;stroke:#102631;stroke-width:4}.bub{fill:#fff;stroke:#111;stroke-width:4}.cap{font-size:17px;font-weight:900;fill:#10202a}.sfx{font-family:Arial,'Malgun Gothic',sans-serif;font-size:21px;font-weight:1000;fill:#fff36b;stroke:#10202a;stroke-width:1.4;paint-order:stroke}.tiny{font-family:Arial,'Malgun Gothic',sans-serif;font-size:12px;font-weight:900}.tag{font-family:Arial,'Malgun Gothic',sans-serif;font-size:14px;font-weight:1000}</style>
+</defs>
+<rect width="1536" height="1024" fill="#06121b"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173f58"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #170  경계는 지키고, 압력은 되살린다 — 비상물류의 고리를 닫다</text>
+<text x="1002" y="49" class="t" fill="#d9f5ff" font-size="16" font-weight="800">PRESSURE RESTORED · ZERO CROSS-ZONE · 闭环验证</text>
+
+<!-- PANEL 1: clean-side installation -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#dawn)"/>
+ <rect x="16" y="322" width="746" height="190" fill="url(#steel)"/>
+ <rect x="502" y="225" width="190" height="118" rx="14" fill="#e9eef0" stroke="#1f3c49" stroke-width="5" filter="url(#shadow)"/>
+ <rect x="522" y="247" width="150" height="55" rx="8" fill="url(#screen)"/>
+ <text x="597" y="269" text-anchor="middle" class="tiny" fill="#9de7ff">B-ZONE PRESSURE</text>
+ <text x="597" y="292" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#6dffa7">2.6 bar · NORMAL</text>
+ <circle cx="673" cy="231" r="10" fill="#56d88e" filter="url(#glow)"/>
+ <path d="M405 366h265v54H405z" fill="#6f858c" stroke="#19313a" stroke-width="5"/><path d="M430 392h70" stroke="url(#pipe)" stroke-width="22"/><circle cx="520" cy="392" r="35" fill="#d9e5e8" stroke="#395762" stroke-width="7"/><circle cx="520" cy="392" r="14" fill="#4f9b7b"/><path d="M555 392h93" stroke="url(#pipe)" stroke-width="22"/><text x="520" y="447" text-anchor="middle" class="tag" fill="#173843">V-12 NEW · STERILE</text>
+ <!-- engineer -->
+ <g transform="translate(285 405)" filter="url(#shadow)"><ellipse cy="-83" rx="28" ry="34" fill="#d39a74" stroke="#102631" stroke-width="4"/><path d="M-28-95q8-26 28-28q24 2 29 25l-16-6q-21 2-41 9" fill="#2b2b2b"/><rect x="-47" y="-39" width="94" height="111" rx="18" fill="#3d9c82" stroke="#102631" stroke-width="4"/><rect x="-35" y="-9" width="70" height="21" rx="5" fill="#9fe3c7"/><path d="M-38-5l89 11" stroke="#3d9c82" stroke-width="18" stroke-linecap="round"/><circle cx="63" cy="7" r="13" fill="#d9f4ea" stroke="#234f44" stroke-width="3"/><path d="M-22 70v64M22 70v64" stroke="#263940" stroke-width="19"/><path d="M-35 136h30M8 136h31" stroke="#111" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="40" y="102" width="665" height="112" rx="18" class="box"/>
+ <text x="372" y="132" text-anchor="middle" class="t cap"><tspan x="372">06:36, 멸균 V-12 카트리지는 오염측 케이스와 접촉 없이 B구역 밸브에 장착된다. 압력은 1.1에서 2.6 bar로 회복된다.</tspan><tspan x="372" dy="25" font-size="14">06:36，无菌V-12阀芯在不接触污染运输箱的情况下装入B区阀门；压力由1.1恢复至2.6 bar。</tspan><tspan x="372" dy="22" font-size="13">06:36 — the sterile V-12 is installed without carrier contact; pressure returns from 1.1 to 2.6 bar.</tspan></text>
+ <path d="M330 224h350q14 0 14 14v62q0 14-14 14H535l-28 23 6-23H330q-14 0-14-14v-62q0-14 14-14z" class="bub"/>
+ <text x="505" y="254" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="505">압력 정상! 경계선은 한 번도 넘지 않았어!</tspan><tspan x="505" dy="21" font-size="12">压力正常！边界一次也没有跨越！</tspan></text>
+ <text x="48" y="493" class="sfx">CLICK! SEAL! PRESSURE RESTORED!</text>
+</g>
+
+<!-- PANEL 2: contaminated carrier quarantine -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="#d8e1e2"/>
+ <rect x="798" y="238" width="686" height="225" rx="18" fill="#bdc9cb" stroke="#40575d" stroke-width="5"/>
+ <rect x="827" y="284" width="290" height="142" rx="16" fill="#812d32" stroke="#32171a" stroke-width="6" filter="url(#shadow)"/>
+ <rect x="848" y="306" width="248" height="80" rx="9" fill="#a84648"/><text x="972" y="337" text-anchor="middle" class="t" font-size="20" font-weight="1000" fill="#fff">QUARANTINE Q-4</text><text x="972" y="365" text-anchor="middle" class="tiny" fill="#ffe4e4">REUSABLE CARRIER · TRACE+</text>
+ <path d="M900 284v-29h144v29" fill="none" stroke="#32171a" stroke-width="13"/>
+ <rect x="1150" y="276" width="278" height="153" rx="16" fill="#f7f2cf" stroke="#9b842c" stroke-width="5"/>
+ <rect x="1171" y="300" width="236" height="61" rx="8" fill="url(#screen)"/>
+ <text x="1289" y="325" text-anchor="middle" class="tiny" fill="#d9f5ff">CHAIN TRACE</text><text x="1289" y="349" text-anchor="middle" class="t" font-size="16" font-weight="1000" fill="#ff8075">M-3 → C-4 → F-3 → CASE</text>
+ <rect x="1180" y="377" width="96" height="31" rx="6" fill="#df5750"/><text x="1228" y="397" text-anchor="middle" class="tiny" fill="#fff">LATCH +</text><rect x="1290" y="377" width="108" height="31" rx="6" fill="#53b987"/><text x="1344" y="397" text-anchor="middle" class="tiny" fill="#fff">INNER NEG</text>
+ <!-- investigator -->
+ <g transform="translate(1450 410)" filter="url(#shadow)"><ellipse cy="-80" rx="27" ry="33" fill="#c68e69" stroke="#102631" stroke-width="4"/><path d="M-27-92q7-24 27-26q22 2 27 23l-14-5q-19 2-40 8" fill="#44342e"/><rect x="-44" y="-36" width="88" height="106" rx="17" fill="#e7a437" stroke="#102631" stroke-width="4"/><path d="M-35-1l-72-24" stroke="#e7a437" stroke-width="17" stroke-linecap="round"/><rect x="-124" y="-41" width="35" height="27" rx="4" fill="#172f39"/><path d="M-20 68v59M20 68v59" stroke="#263940" stroke-width="18"/></g>
+ <rect x="798" y="103" width="666" height="112" rx="18" class="box"/>
+ <text x="1131" y="133" text-anchor="middle" class="t cap"><tspan x="1131">오염측에 남은 운반 케이스는 Q-4로 즉시 봉인된다. 바코드 기록은 M-3부터 C-4·F-3를 거친 접촉 고리를 하나로 연결한다.</tspan><tspan x="1131" dy="25" font-size="14">污染侧运输箱立即封存至Q-4；条码记录把M-3、C-4、F-3的接触链完整连接起来。</tspan><tspan x="1131" dy="22" font-size="13">The carrier is sealed in Q-4; barcode history links the M-3, C-4 and F-3 contact chain.</tspan></text>
+ <path d="M1135 438h330q14 0 14 14v40H1121v-40q0-14 14-14z" class="bub"/>
+ <text x="1300" y="466" text-anchor="middle" class="t" font-size="15" font-weight="900">케이스는 여기서 끝낸다! / 外箱到此为止！</text>
+ <text x="812" y="493" class="sfx">SEAL! SCAN! QUARANTINE!</text>
+</g>
+
+<!-- PANEL 3: incident map closes the loop -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#b9d2db"/>
+ <rect x="45" y="699" width="688" height="260" rx="18" fill="#dce8e8" stroke="#355c65" stroke-width="5"/>
+ <rect x="265" y="724" width="435" height="202" rx="16" fill="#142d3b" stroke="#527a87" stroke-width="6" filter="url(#shadow)"/>
+ <text x="482" y="752" text-anchor="middle" class="tiny" fill="#9de7ff">LIVE CONTACT MAP · 06:42</text>
+ <g fill="none" stroke-width="8"><path d="M315 812h75" stroke="#ff725f"/><path d="M420 812h75" stroke="#ff9d52"/><path d="M525 812h75" stroke="#e6cf4f"/><path d="M630 812v67" stroke="#66d69e"/></g>
+ <g class="tiny" text-anchor="middle"><circle cx="300" cy="812" r="25" fill="#c34742"/><text x="300" y="816" fill="#fff">M-3</text><circle cx="405" cy="812" r="25" fill="#d66b45"/><text x="405" y="816" fill="#fff">C-4</text><circle cx="510" cy="812" r="25" fill="#bf9b36"/><text x="510" y="816" fill="#fff">F-3</text><circle cx="615" cy="812" r="25" fill="#537b82"/><text x="615" y="816" fill="#fff">CASE</text><circle cx="630" cy="895" r="26" fill="#3eaa79"/><text x="630" y="899" fill="#fff">STOP</text></g>
+ <path d="M305 877h272" stroke="#f4dc4c" stroke-width="5" stroke-dasharray="15 11"/><text x="441" y="902" text-anchor="middle" class="tiny" fill="#ffe965">YELLOW BIOSECURITY LINE</text>
+ <!-- commander -->
+ <g transform="translate(150 840)" filter="url(#shadow)"><ellipse cy="-86" rx="29" ry="35" fill="#d19b76" stroke="#102631" stroke-width="4"/><path d="M-29-99q8-26 29-28q24 2 30 26l-17-6q-20 2-42 8" fill="#26282a"/><rect x="-49" y="-40" width="98" height="115" rx="18" fill="#345f7b" stroke="#102631" stroke-width="4"/><rect x="-36" y="-8" width="72" height="22" rx="5" fill="#83b3ca"/><path d="M38-8l77 31" stroke="#345f7b" stroke-width="18" stroke-linecap="round"/><path d="M-23 72v66M23 72v66" stroke="#263940" stroke-width="20"/></g>
+ <rect x="40" y="544" width="675" height="122" rx="18" class="box"/>
+ <text x="377" y="573" text-anchor="middle" class="t cap"><tspan x="377">상황실이 모든 차단 기록을 겹쳐 보자 공통점이 드러난다. 모든 TRACE+는 노란 경계 이전에서 멈췄고, 청정측으로 이어진 고리는 하나도 없다.</tspan><tspan x="377" dy="25" font-size="14">叠加全部拦截记录后，共同点出现：所有TRACE+都止于黄色边界之前，没有一条污染链进入洁净侧。</tspan><tspan x="377" dy="22" font-size="13">Overlaying every interception reveals the pattern: every TRACE+ stops before the yellow line; none reaches the clean side.</tspan></text>
+ <path d="M69 681h360q14 0 14 14v65q0 14-14 14H245l-28 24 6-24H69q-14 0-14-14v-65q0-14 14-14z" class="bub"/>
+ <text x="249" y="711" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="249">다음 단계는 일회향 멸균 물류다. 재사용 케이스는 경계를 넘지 않는다.</tspan><tspan x="249" dy="21" font-size="12">下一步：单向无菌物流，重复使用箱永不越界。</tspan></text>
+ <text x="48" y="984" class="sfx">MAP IT! CONNECT! CLOSE THE LOOP!</text>
+</g>
+
+<!-- PANEL 4: validation and dawn port -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#dawn)"/>
+ <circle cx="1385" cy="630" r="67" fill="#ffd780" opacity=".9"/>
+ <path d="M774 815h746v193H774z" fill="#2c5968"/><path d="M774 850q150-48 310 0t310 0 126 0v158H774z" fill="#1d4658"/>
+ <!-- cranes / port -->
+ <path d="M865 761v121M865 761h118M983 761v44M865 782l76 67" stroke="#273b43" stroke-width="13" fill="none"/><path d="M1260 746v136M1260 746h116M1376 746v48M1260 770l78 70" stroke="#273b43" stroke-width="13" fill="none"/>
+ <!-- validation board -->
+ <rect x="826" y="690" width="373" height="226" rx="18" fill="#eef7f4" stroke="#39665f" stroke-width="6" filter="url(#shadow)"/>
+ <text x="1012" y="722" text-anchor="middle" class="t" font-size="19" font-weight="1000" fill="#17493e">EMERGENCY LOGISTICS VALIDATION</text>
+ <g class="t" font-size="17" font-weight="900" fill="#173b35"><text x="858" y="760">✓ 3 emergency handoffs</text><text x="858" y="793">✓ 0 cross-zone carrier contacts</text><text x="858" y="826">✓ B-zone pressure stable 2.6 bar</text><text x="858" y="859">✓ 20 / 20 environmental swabs NEG</text></g>
+ <rect x="847" y="875" width="330" height="27" rx="8" fill="#48b980"/><text x="1012" y="894" text-anchor="middle" class="tiny" fill="#fff">STANDARD UPDATED · ONE-WAY STERILE HANDOFF</text>
+ <!-- team -->
+ <g transform="translate(1290 870)" filter="url(#shadow)"><ellipse cx="-75" cy="-78" rx="25" ry="31" fill="#d39a74" stroke="#102631" stroke-width="4"/><path d="M-99-88q8-23 24-23q19 1 25 21l-14-5q-17 2-35 7" fill="#292929"/><rect x="-112" y="-41" width="74" height="91" rx="16" fill="#345f7b" stroke="#102631" stroke-width="4"/><path d="M-91 47v57M-58 47v57" stroke="#263940" stroke-width="17"/><ellipse cx="30" cy="-78" rx="25" ry="31" fill="#c58c68" stroke="#102631" stroke-width="4"/><path d="M6-88q7-22 24-23q18 1 25 20l-14-5q-16 2-35 8" fill="#49342c"/><rect x="-7" y="-41" width="74" height="91" rx="16" fill="#3d9c82" stroke="#102631" stroke-width="4"/><path d="M14 47v57M47 47v57" stroke="#263940" stroke-width="17"/><ellipse cx="135" cy="-78" rx="25" ry="31" fill="#d19b76" stroke="#102631" stroke-width="4"/><path d="M111-88q7-22 24-23q19 1 25 20l-14-5q-17 2-35 8" fill="#25282a"/><rect x="98" y="-41" width="74" height="91" rx="16" fill="#e7a437" stroke="#102631" stroke-width="4"/><path d="M119 47v57M152 47v57" stroke="#263940" stroke-width="17"/></g>
+ <rect x="798" y="544" width="666" height="121" rx="18" class="box"/>
+ <text x="1131" y="573" text-anchor="middle" class="t cap"><tspan x="1131">해 뜰 무렵 새 비상물류 절차를 연속 검증한다. 3회 인계 동안 운반체 교차 0, 압력 안정, 환경검사 20/20 음성 — 차단이 ‘습관’이 된다.</tspan><tspan x="1131" dy="25" font-size="14">日出时连续验证新应急物流：3次交接、运输载体越界0、压力稳定、环境检测20/20阴性。</tspan><tspan x="1131" dy="22" font-size="13">At sunrise, three handoffs confirm zero carrier crossings, stable pressure and 20/20 negative environmental swabs.</tspan></text>
+ <path d="M1212 679h250q14 0 14 14v62q0 14-14 14h-113l-30 23 8-23h-115q-14 0-14-14v-62q0-14 14-14z" class="bub"/>
+ <text x="1337" y="709" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="1337">이제 비상일수록 경계를 더 정확히 지킨다.</tspan><tspan x="1337" dy="21" font-size="12">越是紧急，越要守住边界。</tspan></text>
+ <text x="812" y="984" class="sfx">20/20 NEGATIVE! ZERO CROSS-ZONE!</text>
+</g>
+</svg>
