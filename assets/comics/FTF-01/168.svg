@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 168 extends emergency contamination control from personnel boots to wheeled rescue equipment, intercepting a trace-positive cart before it crosses into Zone B">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#071d32"/><stop offset=".6" stop-color="#315d73"/><stop offset="1" stop-color="#d69b62"/></linearGradient>
+ <linearGradient id="floor" x2="1" y2="1"><stop stop-color="#d6dde0"/><stop offset="1" stop-color="#6b7e84"/></linearGradient>
+ <linearGradient id="bay" x2="0" y2="1"><stop stop-color="#e8f5f2"/><stop offset="1" stop-color="#9fcfc2"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#173b4d"/><stop offset="1" stop-color="#081c28"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".35"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>.t{font-family:Arial,'Malgun Gothic',sans-serif}.box{fill:#fff;stroke:#102631;stroke-width:4}.bub{fill:#fff;stroke:#111;stroke-width:4}.cap{font-size:17px;font-weight:900;fill:#10202a}.sfx{font-family:Arial,'Malgun Gothic',sans-serif;font-size:21px;font-weight:1000;fill:#fff36b;stroke:#10202a;stroke-width:1.4;paint-order:stroke}.tiny{font-family:Arial,'Malgun Gothic',sans-serif;font-size:12px;font-weight:900}</style>
+</defs>
+<rect width="1536" height="1024" fill="#06121b"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173f58"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #168  비상장비도 예외 없다 — 바퀴가 오염선을 넘기 전에 잡아라</text>
+<text x="1082" y="49" class="t" fill="#d9f5ff" font-size="16" font-weight="800">EMERGENCY CART · WHEEL TRACE · 紧急设备防交叉污染</text>
+
+<!-- PANEL 1: rescue cart approaches the clean boundary -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+ <rect x="16" y="330" width="746" height="182" fill="url(#floor)"/>
+ <path d="M45 454h675" stroke="#f4d24f" stroke-width="10" stroke-dasharray="28 18"/>
+ <text x="67" y="441" class="tiny" fill="#17384a">ZONE A · DIRTY</text><text x="622" y="441" class="tiny" fill="#17384a">ZONE B · CLEAN</text>
+ <rect x="511" y="230" width="176" height="142" rx="18" fill="#e6edf0" stroke="#213b47" stroke-width="5" filter="url(#shadow)"/>
+ <rect x="530" y="253" width="138" height="74" rx="8" fill="#b9d7e1"/><path d="M546 304l23-29 25 29 20-38 33 38" fill="none" stroke="#173f58" stroke-width="8"/><circle cx="668" cy="246" r="12" fill="#ff5f53" filter="url(#glow)"/>
+ <!-- human responder 1 -->
+ <g transform="translate(222 393)" filter="url(#shadow)"><ellipse cy="-76" rx="28" ry="34" fill="#d49a74" stroke="#102631" stroke-width="4"/><path d="M-29-88q8-26 29-28q23 2 29 24l-17-6q-19 3-41 10" fill="#252525"/><rect x="-47" y="-34" width="94" height="112" rx="18" fill="#e8a637" stroke="#102631" stroke-width="4"/><rect x="-34" y="-6" width="68" height="21" rx="5" fill="#f4e16b"/><path d="M-37-1l-53 28M38-1l53 22" stroke="#e8a637" stroke-width="17" stroke-linecap="round"/><path d="M-21 74v61M21 74v61" stroke="#263940" stroke-width="19"/><path d="M-33 136h29M8 136h30" stroke="#111" stroke-width="16" stroke-linecap="round"/></g>
+ <!-- wheeled emergency cart -->
+ <g transform="translate(356 348)" filter="url(#shadow)"><rect x="0" y="0" width="176" height="88" rx="12" fill="#e8eef0" stroke="#17384a" stroke-width="5"/><rect x="14" y="17" width="92" height="34" rx="6" fill="#cfe9f2"/><text x="60" y="39" text-anchor="middle" class="tiny" fill="#17384a">RESCUE O₂</text><rect x="121" y="10" width="36" height="66" rx="18" fill="#8ec4d7" stroke="#17384a" stroke-width="4"/><path d="M4 78h176" stroke="#17384a" stroke-width="8"/><circle cx="28" cy="99" r="19" fill="#2a3337" stroke="#0a0f12" stroke-width="5"/><circle cx="151" cy="99" r="19" fill="#2a3337" stroke="#0a0f12" stroke-width="5"/><path d="M176 18h38v58" fill="none" stroke="#17384a" stroke-width="8" stroke-linecap="round"/></g>
+ <rect x="39" y="103" width="671" height="112" rx="18" class="box"/>
+ <text x="374" y="133" text-anchor="middle" class="t cap"><tspan x="374">06:24, 압력경보 대응 중 구조용 산소카트가 B구역으로 이동한다. 사람은 장화를 바꿨지만 바퀴는 아직 검사 전이다.</tspan><tspan x="374" dy="25" font-size="14">06:24，救援氧气车驶向B区；人员已换靴，但车轮尚未检查。</tspan><tspan x="374" dy="22" font-size="13">06:24 — responders changed boots, but the wheeled oxygen cart is still unscreened at the Zone B boundary.</tspan></text>
+ <path d="M398 222h302q14 0 14 14v62q0 14-14 14H552l-31 24 8-24H398q-14 0-14-14v-62q0-14 14-14z" class="bub"/>
+ <text x="549" y="252" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="549">카트 정지! 사람만 깨끗하면 끝이 아니야!</tspan><tspan x="549" dy="21" font-size="12">停车！不只人员要洁净，车轮也要检查！</tspan></text>
+ <text x="47" y="493" class="sfx">ALARM! ROLL! HOLD THE CART!</text>
+</g>
+
+<!-- PANEL 2: wheel scan catches residue -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#bay)"/>
+ <rect x="808" y="239" width="680" height="224" rx="20" fill="#eef3f2" stroke="#2e5b59" stroke-width="5"/>
+ <rect x="837" y="267" width="221" height="164" rx="14" fill="#d8edf6" stroke="#28799d" stroke-width="5"/><text x="947" y="297" text-anchor="middle" class="tiny">WHEEL SCAN PAD</text><circle cx="907" cy="350" r="42" fill="#31383b"/><circle cx="1000" cy="350" r="42" fill="#31383b"/><path d="M861 405h173" stroke="#4babc2" stroke-width="10" stroke-dasharray="12 9"/>
+ <rect x="1082" y="267" width="196" height="164" rx="14" fill="#fff3c4" stroke="#b78324" stroke-width="5"/><text x="1180" y="297" text-anchor="middle" class="tiny">TRACE READER</text><rect x="1104" y="319" width="152" height="55" rx="9" fill="url(#screen)"/><text x="1180" y="353" text-anchor="middle" class="t" font-size="20" font-weight="1000" fill="#ff7f68">REAR-L: TRACE+</text><text x="1180" y="399" text-anchor="middle" class="tiny" fill="#a84422">A-ZONE RESIDUE</text>
+ <rect x="1300" y="267" width="159" height="164" rx="14" fill="#fde4df" stroke="#c95745" stroke-width="5"/><text x="1380" y="297" text-anchor="middle" class="tiny">GATE STATUS</text><circle cx="1380" cy="350" r="35" fill="#ff5b50" filter="url(#glow)"/><text x="1380" y="357" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#fff">LOCK</text><text x="1380" y="407" text-anchor="middle" class="tiny" fill="#a84422">NO CROSSING</text>
+ <rect x="798" y="103" width="666" height="112" rx="18" class="box"/>
+ <text x="1131" y="133" text-anchor="middle" class="t cap"><tspan x="1131">바퀴 스캔패드가 왼쪽 뒤 타이어에서 TRACE+를 검출한다. 자동게이트가 열리기 전에 잠긴다.</tspan><tspan x="1131" dy="25" font-size="14">车轮扫描垫在左后轮检出TRACE+，自动门在开启前锁定。</tspan><tspan x="1131" dy="22" font-size="13">The wheel pad detects TRACE+ on the left rear tire and locks the clean-zone gate before entry.</tspan></text>
+ <path d="M1117 389h335q14 0 14 14v62q0 14-14 14h-179l-28 22 7-22h-135q-14 0-14-14v-62q0-14 14-14z" class="bub"/>
+ <text x="1285" y="419" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="1285">TRACE+ 확인! B구역 진입 금지, 세척베이로!</tspan><tspan x="1285" dy="21" font-size="12">确认TRACE+！禁止进入B区，转入清洗舱！</tspan></text>
+ <text x="813" y="493" class="sfx">SCAN! BEEP! TRACE+! GATE LOCK!</text>
+</g>
+
+<!-- PANEL 3: dedicated emergency decon bay -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#c8dce4"/>
+ <rect x="42" y="708" width="692" height="253" rx="18" fill="#dce9e7" stroke="#386b68" stroke-width="5"/>
+ <rect x="66" y="742" width="206" height="179" rx="15" fill="#f5fbfa" stroke="#35966a" stroke-width="5"/><text x="169" y="772" text-anchor="middle" class="tiny">STEP 1 · FOAM WASH</text><path d="M93 835q76-66 152 0" fill="none" stroke="#59b6cf" stroke-width="14"/><circle cx="116" cy="824" r="8" fill="#fff"/><circle cx="147" cy="804" r="7" fill="#fff"/><circle cx="190" cy="816" r="9" fill="#fff"/><circle cx="223" cy="799" r="6" fill="#fff"/><text x="169" y="894" text-anchor="middle" class="tiny">WHEELS + AXLE</text>
+ <rect x="289" y="742" width="206" height="179" rx="15" fill="#f5fbfa" stroke="#35966a" stroke-width="5"/><text x="392" y="772" text-anchor="middle" class="tiny">STEP 2 · UV-C</text><path d="M327 817h130M327 845h130" stroke="#8a71d9" stroke-width="10" filter="url(#glow)"/><text x="392" y="894" text-anchor="middle" class="tiny">180 SEC CYCLE</text>
+ <rect x="512" y="742" width="196" height="179" rx="15" fill="#f5fbfa" stroke="#35966a" stroke-width="5"/><text x="610" y="772" text-anchor="middle" class="tiny">STEP 3 · RESWAB</text><circle cx="610" cy="834" r="44" fill="#c8f1d9" stroke="#35966a" stroke-width="5"/><text x="610" y="841" text-anchor="middle" class="t" font-size="21" font-weight="1000" fill="#237450">NEG</text><text x="610" y="900" text-anchor="middle" class="tiny">RELEASE</text>
+ <!-- supervisor -->
+ <g transform="translate(620 691)" filter="url(#shadow)"><ellipse cy="-67" rx="25" ry="30" fill="#c78f6b" stroke="#102631" stroke-width="4"/><path d="M-25-78q8-23 25-24q21 2 25 21l-14-5q-18 3-36 8" fill="#4d352b"/><rect x="-40" y="-29" width="80" height="95" rx="16" fill="#3ba083" stroke="#102631" stroke-width="4"/><path d="M-34-1l-46 20M34-1l46-18" stroke="#3ba083" stroke-width="15" stroke-linecap="round"/><path d="M-18 63v49M18 63v49" stroke="#263940" stroke-width="17"/></g>
+ <rect x="39" y="548" width="670" height="118" rx="18" class="box"/>
+ <text x="374" y="579" text-anchor="middle" class="t cap"><tspan x="374">카트는 즉시 비상장비 전용 세척베이로 이동한다. 거품세척→UV-C→재검사 순서로 처리해 음성을 확인한다.</tspan><tspan x="374" dy="25" font-size="14">推车立即进入紧急设备专用清洗舱，依次泡沫清洗、UV-C、复检，结果转阴。</tspan><tspan x="374" dy="22" font-size="13">The cart enters a dedicated emergency decon bay: foam wash, UV-C, then reswab—negative before release.</tspan></text>
+ <path d="M58 672h337q14 0 14 14v57q0 14-14 14H222l-29 23 7-23H58q-14 0-14-14v-57q0-14 14-14z" class="bub"/>
+ <text x="227" y="704" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="227">응급이라도 검증 전에는 못 넘어간다.</tspan><tspan x="227" dy="21" font-size="12">即使紧急，验证前也不能跨区。</tspan></text>
+ <text x="51" y="987" class="sfx">FOAM! UV! RESWAB! NEGATIVE!</text>
+</g>
+
+<!-- PANEL 4: new emergency transfer rule -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="#173b4e"/>
+ <rect x="801" y="705" width="690" height="255" rx="18" fill="url(#screen)" stroke="#74c8c3" stroke-width="5"/>
+ <rect x="827" y="739" width="194" height="174" rx="14" fill="#eaf6f2" stroke="#49a77d" stroke-width="5"/><text x="924" y="768" text-anchor="middle" class="tiny">EMERGENCY TRANSFER</text><text x="924" y="799" text-anchor="middle" class="t" font-size="17" font-weight="1000">DIRTY CART</text><path d="M856 831h136" stroke="#d68d38" stroke-width="10"/><text x="924" y="869" text-anchor="middle" class="tiny">STOP AT LINE</text><text x="924" y="895" text-anchor="middle" class="tiny">线外停车 / 경계 정지</text>
+ <rect x="1041" y="739" width="194" height="174" rx="14" fill="#fff3c4" stroke="#c69738" stroke-width="5"/><text x="1138" y="768" text-anchor="middle" class="tiny">CLEAN HANDOFF</text><path d="M1077 828h122" stroke="#173f58" stroke-width="9"/><path d="M1181 810l28 18-28 18" fill="#173f58"/><text x="1138" y="869" text-anchor="middle" class="tiny">LOAD ONLY</text><text x="1138" y="895" text-anchor="middle" class="tiny">物资交接 / 물품 인계</text>
+ <rect x="1255" y="739" width="206" height="174" rx="14" fill="#dff3e6" stroke="#49a77d" stroke-width="5"/><text x="1358" y="768" text-anchor="middle" class="tiny">CLEAN CART</text><circle cx="1358" cy="829" r="43" fill="#c8f1d9" stroke="#35966a" stroke-width="5"/><text x="1358" y="837" text-anchor="middle" class="t" font-size="22" font-weight="1000" fill="#237450">14/14 NEG</text><text x="1358" y="894" text-anchor="middle" class="tiny">24H VALIDATED</text>
+ <rect x="798" y="548" width="666" height="118" rx="18" class="box"/>
+ <text x="1131" y="579" text-anchor="middle" class="t cap"><tspan x="1131">규칙을 바꾼다. 비상장비는 오염측 카트에서 청정측 카트로 물품만 인계하고, 어떤 바퀴도 경계를 직접 넘지 않는다.</tspan><tspan x="1131" dy="25" font-size="14">新规：紧急物资只在污染侧与洁净侧推车之间交接，任何车轮不得直接跨线。</tspan><tspan x="1131" dy="22" font-size="13">New rule: transfer the load cart-to-cart at the boundary; no emergency wheel crosses directly into the clean zone.</tspan></text>
+ <path d="M1077 673h375q14 0 14 14v58q0 14-14 14h-193l-30 22 8-22h-160q-14 0-14-14v-58q0-14 14-14z" class="bub"/>
+ <text x="1264" y="704" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="1264">24시간 14/14 음성. 사람도 장비도 같은 경계 규칙!</tspan><tspan x="1264" dy="21" font-size="12">24小时14/14阴性。人员和设备遵守同一边界规则！</tspan></text>
+ <text x="813" y="987" class="sfx">TRANSFER! VERIFY! 14/14 NEG! ZERO CROSSING!</text>
+</g>
+</svg>
