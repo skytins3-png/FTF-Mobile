@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 174 blocks a storm-time paper clipboard and pen from crossing biosecurity zones, traces the contaminated pen, and replaces shared manual handoff with zone-dedicated boards and a sealed voice-and-document pass window">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#07131f"/><stop offset=".55" stop-color="#244a5e"/><stop offset="1" stop-color="#95a8ae"/></linearGradient>
+  <linearGradient id="deck" x2="0" y2="1"><stop stop-color="#c9d3d5"/><stop offset="1" stop-color="#6f858d"/></linearGradient>
+  <linearGradient id="room" x2="1" y2="1"><stop stop-color="#dce6e8"/><stop offset="1" stop-color="#9fb4b9"/></linearGradient>
+  <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#113f52"/><stop offset="1" stop-color="#041821"/></linearGradient>
+  <linearGradient id="clean" x2="1" y2="1"><stop stop-color="#0f6f75"/><stop offset="1" stop-color="#1bb285"/></linearGradient>
+  <linearGradient id="warn" x2="1" y2="1"><stop stop-color="#ffca54"/><stop offset="1" stop-color="#e75d45"/></linearGradient>
+  <filter id="sh"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-opacity=".42"/></filter>
+  <filter id="gl"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .t{font-family:Arial,'Malgun Gothic',sans-serif}.cap{font-size:17px;font-weight:900;fill:#10222a}.tiny{font-family:Arial,'Malgun Gothic',sans-serif;font-size:12px;font-weight:900}.bub{fill:#fff;stroke:#10242d;stroke-width:4}.box{fill:#fff;stroke:#16323d;stroke-width:4}.sfx{font-family:Arial,'Malgun Gothic',sans-serif;font-size:22px;font-weight:1000;fill:#fff26d;stroke:#0a1a22;stroke-width:2;paint-order:stroke}.mono{font-family:Consolas,monospace;font-weight:900}
+  </style>
+</defs>
+<rect width="1536" height="1024" fill="#061019"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173f59"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #174  종이 한 장도 경계를 넘지 않는다 — 수동 인계 우회 차단</text>
+<text x="1000" y="49" class="t" fill="#d7f5ff" font-size="16" font-weight="800">NETWORK OUTAGE · PAPER HANDOFF · SEALED PASS WINDOW</text>
+
+<!-- PANEL 1 -->
+<g>
+  <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+  <rect x="16" y="354" width="746" height="158" fill="url(#deck)"/>
+  <path d="M390 202v310" stroke="#f2d64f" stroke-width="10" stroke-dasharray="23 12"/>
+  <text x="406" y="492" class="tiny" fill="#263b42">BIOSECURITY LINE</text>
+  <g opacity=".55" stroke="#d7ecf3" stroke-width="3"><path d="M52 95L-4 205M114 92L54 211M180 92L118 213M590 90l-62 123M652 92l-58 118M712 95l-58 116"/></g>
+  <path d="M94 349V215h16v134M110 225l118 42M110 247l82-22" stroke="#192832" stroke-width="10" fill="none"/>
+  <path d="M670 350V232h14v118M684 242l-92 36" stroke="#192832" stroke-width="9" fill="none"/>
+  <rect x="40" y="103" width="665" height="111" rx="18" class="box"/>
+  <text x="372" y="132" text-anchor="middle" class="t cap"><tspan x="372">05:08 폭풍으로 구역 간 데이터망이 끊긴다. 주간조 책임자가 서명 인계를 계속하려고 A구역 기록판과 펜을 들고 B구역 경계로 향한다.</tspan><tspan x="372" dy="25" font-size="14">05:08，暴风导致区域数据网络中断。白班负责人拿着A区记录板和笔准备到B区继续签字交接。</tspan><tspan x="372" dy="22" font-size="13">05:08 — the storm drops the inter-zone network; a supervisor carries A-zone clipboard and pen toward B-zone for manual sign-off.</tspan></text>
+  <!-- supervisor -->
+  <g transform="translate(298 406)" filter="url(#sh)">
+    <ellipse cy="-101" rx="31" ry="38" fill="#d8a481" stroke="#102631" stroke-width="4"/>
+    <path d="M-30-112q8-29 31-31q24 2 31 27l-18-6q-22 1-44 10" fill="#292d31"/>
+    <circle cx="-11" cy="-102" r="3"/><circle cx="12" cy="-102" r="3"/><path d="M-16-88q16 8 32 0" stroke="#845746" stroke-width="3" fill="none"/>
+    <rect x="-53" y="-57" width="106" height="132" rx="22" fill="#e38b35" stroke="#102631" stroke-width="4"/>
+    <path d="M-42-18h84" stroke="#f9d56d" stroke-width="12"/>
+    <path d="M-43-27l-73 26" stroke="#e38b35" stroke-width="20" stroke-linecap="round"/><path d="M45-28l72 13" stroke="#e38b35" stroke-width="20" stroke-linecap="round"/>
+    <path d="M-27 74l-8 76M27 74l9 76" stroke="#273b43" stroke-width="23" stroke-linecap="round"/>
+    <path d="M-49 149h35M13 149h40" stroke="#101a1f" stroke-width="15" stroke-linecap="round"/>
+  </g>
+  <!-- clipboard -->
+  <g transform="translate(184 391) rotate(-7)" filter="url(#sh)"><rect x="-48" y="-63" width="96" height="126" rx="7" fill="#e9e2c8" stroke="#31393b" stroke-width="5"/><rect x="-22" y="-72" width="44" height="18" rx="6" fill="#606d70"/><path d="M-30-33h60M-30-10h60M-30 13h60M-30 36h45" stroke="#7c8789" stroke-width="4"/><text x="0" y="57" text-anchor="middle" class="tiny" fill="#27383d">A-LOG</text><path d="M49-47l25 78" stroke="#1d5481" stroke-width="7"/><circle cx="74" cy="31" r="5" fill="#e54e45"/></g>
+  <path d="M414 230h280q14 0 14 14v63q0 14-14 14H560l-27 24 6-24H414q-14 0-14-14v-63q0-14 14-14z" class="bub"/>
+  <text x="554" y="258" text-anchor="middle" class="t" font-size="15" font-weight="900"><tspan x="554">망이 죽었어. 종이로만 서명 받고 바로 돌아올게.</tspan><tspan x="554" dy="20" font-size="12">网络断了，用纸签完就回来。 / Network is down—I'll get a paper signature.</tspan></text>
+  <text x="44" y="490" class="sfx">STATIC!  LINK DOWN!  MANUAL HANDOFF!</text>
+</g>
+
+<!-- PANEL 2 -->
+<g>
+  <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#room)"/>
+  <rect x="774" y="355" width="746" height="157" fill="url(#deck)"/>
+  <rect x="1062" y="224" width="190" height="177" rx="17" fill="#edf3f4" stroke="#294d59" stroke-width="6" filter="url(#sh)"/>
+  <rect x="1084" y="247" width="146" height="70" rx="7" fill="url(#screen)"/>
+  <text x="1157" y="270" text-anchor="middle" class="tiny" fill="#a9edff">BOUNDARY SCAN</text><text x="1157" y="299" text-anchor="middle" class="t" font-size="20" font-weight="1000" fill="#ff6c61">OBJECT BLOCKED</text>
+  <circle cx="1157" cy="353" r="19" fill="#ee5248" filter="url(#gl)"/>
+  <path d="M1147 192v320" stroke="#f0d44f" stroke-width="9" stroke-dasharray="22 12"/>
+  <!-- inspector -->
+  <g transform="translate(921 416)" filter="url(#sh)"><ellipse cy="-91" rx="29" ry="36" fill="#e0ad88" stroke="#102631" stroke-width="4"/><path d="M-29-103q9-24 29-27q22 2 29 24l-15-5q-20 2-43 8" fill="#382d2a"/><rect x="-49" y="-45" width="98" height="117" rx="19" fill="#2f8d83" stroke="#102631" stroke-width="4"/><path d="M37-13l112-29" stroke="#2f8d83" stroke-width="18" stroke-linecap="round"/><path d="M-24 70v65M24 70v65" stroke="#263941" stroke-width="21"/></g>
+  <!-- swab and pen closeup -->
+  <g transform="translate(1320 348)" filter="url(#sh)"><rect x="-98" y="-62" width="196" height="124" rx="15" fill="#eef3f4" stroke="#263b43" stroke-width="5"/><text x="0" y="-36" text-anchor="middle" class="tiny" fill="#334a52">PEN P-14 / SWAB</text><path d="M-66-3h103" stroke="#205b8d" stroke-width="10" stroke-linecap="round"/><circle cx="41" cy="-3" r="9" fill="#e84d45"/><path d="M-55 29h112" stroke="#d8e0e2" stroke-width="9" stroke-linecap="round"/><circle cx="59" cy="29" r="8" fill="#ff665c" filter="url(#gl)"/><text x="0" y="51" text-anchor="middle" class="tiny" fill="#d73e39">TRACE+</text></g>
+  <rect x="798" y="103" width="666" height="111" rx="18" class="box"/>
+  <text x="1131" y="132" text-anchor="middle" class="t cap"><tspan x="1131">게이트는 종이판까지 정지시킨다. 면봉검사에서 기록판은 음성, 그러나 펜 P-14의 그립 부분에서 TRACE+가 검출된다.</tspan><tspan x="1131" dy="25" font-size="14">边界门连纸质记录板也拦下。记录板阴性，但P-14笔握位检测为TRACE+。</tspan><tspan x="1131" dy="22" font-size="13">The gate stops the paper handoff; the board is negative, but pen P-14’s grip tests TRACE+.</tspan></text>
+  <path d="M818 232h348q14 0 14 14v64q0 14-14 14H1030l-30 24 8-24H818q-14 0-14-14v-64q0-14 14-14z" class="bub"/>
+  <text x="992" y="260" text-anchor="middle" class="t" font-size="15" font-weight="900"><tspan x="992">멈춰! 종이보다 펜이 더 많이 손을 탄다.</tspan><tspan x="992" dy="20" font-size="12">停！笔比纸接触更多双手。 / Stop—the pen touches more hands than the paper.</tspan></text>
+  <text x="804" y="490" class="sfx">BEEP!  HOLD!  SWAB → PEN P-14 TRACE+!</text>
+</g>
+
+<!-- PANEL 3 -->
+<g>
+  <rect x="16" y="524" width="746" height="484" rx="12" fill="#9fb3b8"/>
+  <rect x="16" y="820" width="746" height="188" fill="url(#deck)"/>
+  <!-- sealed pass window -->
+  <rect x="255" y="622" width="252" height="245" rx="14" fill="#d9e5e8" stroke="#244956" stroke-width="7" filter="url(#sh)"/>
+  <rect x="282" y="648" width="198" height="113" rx="8" fill="#7da4b2" stroke="#183a47" stroke-width="5"/>
+  <path d="M381 648v113" stroke="#d6eef5" stroke-width="6"/>
+  <circle cx="355" cy="705" r="12" fill="#14333f"/><circle cx="407" cy="705" r="12" fill="#14333f"/>
+  <rect x="293" y="782" width="176" height="52" rx="14" fill="#eef4f5" stroke="#2d555f" stroke-width="5"/>
+  <path d="M322 808h118" stroke="#56bba0" stroke-width="9" stroke-linecap="round"/>
+  <text x="381" y="854" text-anchor="middle" class="tiny" fill="#183b46">SEALED PASS / VOICE LINK</text>
+  <!-- zone A worker -->
+  <g transform="translate(157 850)" filter="url(#sh)"><ellipse cy="-96" rx="30" ry="37" fill="#d5a07c" stroke="#102631" stroke-width="4"/><path d="M-29-108q9-26 29-28q22 2 29 24l-16-5q-20 1-42 9" fill="#252b2f"/><rect x="-51" y="-50" width="102" height="123" rx="20" fill="#e48a34" stroke="#102631" stroke-width="4"/><path d="M-40-13h80" stroke="#f7d46b" stroke-width="11"/><path d="M40-20l92-39" stroke="#e48a34" stroke-width="19" stroke-linecap="round"/><path d="M-25 70v74M25 70v74" stroke="#283d45" stroke-width="22"/></g>
+  <!-- zone B worker -->
+  <g transform="translate(610 850)" filter="url(#sh)"><ellipse cy="-96" rx="30" ry="37" fill="#e0ac87" stroke="#102631" stroke-width="4"/><path d="M-29-108q9-26 29-28q22 2 29 24l-16-5q-20 1-42 9" fill="#392c29"/><rect x="-51" y="-50" width="102" height="123" rx="20" fill="#2e8b82" stroke="#102631" stroke-width="4"/><path d="M-40-13h80" stroke="#b9f1df" stroke-width="11"/><path d="M-40-20l-92-39" stroke="#2e8b82" stroke-width="19" stroke-linecap="round"/><path d="M-25 70v74M25 70v74" stroke="#283d45" stroke-width="22"/></g>
+  <!-- dedicated boards -->
+  <g transform="translate(95 664)" filter="url(#sh)"><rect width="112" height="142" rx="8" fill="#f0e8cc" stroke="#334145" stroke-width="5"/><rect x="35" y="-10" width="42" height="18" rx="5" fill="#68777a"/><text x="56" y="33" text-anchor="middle" class="tiny" fill="#23383e">A ONLY</text><path d="M18 54h76M18 79h76M18 104h55" stroke="#879294" stroke-width="4"/><path d="M88 22l14 67" stroke="#235f95" stroke-width="7"/></g>
+  <g transform="translate(558 664)" filter="url(#sh)"><rect width="112" height="142" rx="8" fill="#e1efe8" stroke="#334145" stroke-width="5"/><rect x="35" y="-10" width="42" height="18" rx="5" fill="#68777a"/><text x="56" y="33" text-anchor="middle" class="tiny" fill="#23383e">B ONLY</text><path d="M18 54h76M18 79h76M18 104h55" stroke="#879294" stroke-width="4"/><path d="M88 22l14 67" stroke="#2f8b74" stroke-width="7"/></g>
+  <rect x="40" y="543" width="665" height="99" rx="18" class="box"/>
+  <text x="372" y="571" text-anchor="middle" class="t cap"><tspan x="372">공용 기록도구를 폐지한다. A·B는 각자 전용 기록판과 펜을 쓰고, 망이 끊겨도 밀폐창 음성 확인과 비접촉 문서 슬롯으로 내용만 교차 검증한다.</tspan><tspan x="372" dy="24" font-size="14">取消共用记录工具。A、B区各用专属记录板与笔；断网时只通过密闭窗口语音确认与无接触文件槽核对内容。</tspan><tspan x="372" dy="21" font-size="13">Shared writing tools are retired; each zone keeps dedicated boards and pens, while only information crosses the sealed pass window.</tspan></text>
+  <text x="52" y="987" class="sfx">LOCK BY ZONE!  VOICE CHECK!  ZERO SHARED TOOLS!</text>
+</g>
+
+<!-- PANEL 4 -->
+<g>
+  <rect x="774" y="524" width="746" height="484" rx="12" fill="#b9c9cc"/>
+  <rect x="774" y="821" width="746" height="187" fill="url(#deck)"/>
+  <!-- command display -->
+  <rect x="842" y="653" width="405" height="218" rx="18" fill="#eaf0f1" stroke="#294d59" stroke-width="6" filter="url(#sh)"/>
+  <rect x="867" y="679" width="355" height="132" rx="9" fill="url(#screen)"/>
+  <text x="1044" y="707" text-anchor="middle" class="t" font-size="17" font-weight="1000" fill="#bff4ff">STORM FAILOVER DRILL · 6 HANDOFFS</text>
+  <g class="tiny" fill="#e5fbff"><text x="892" y="740">OBJECT CROSSING</text><text x="1182" y="740" text-anchor="end" fill="#6ff0a6">0</text><text x="892" y="767">DEDICATED TOOL SWABS</text><text x="1182" y="767" text-anchor="end" fill="#6ff0a6">26 / 26 NEG</text><text x="892" y="794">SIGN-OFF COMPLETION</text><text x="1182" y="794" text-anchor="end" fill="#6ff0a6">6 / 6</text></g>
+  <rect x="881" y="826" width="327" height="26" rx="13" fill="#c8d5d8"/><rect x="881" y="826" width="327" height="26" rx="13" fill="url(#clean)"/>
+  <!-- commander -->
+  <g transform="translate(1359 857)" filter="url(#sh)"><ellipse cy="-101" rx="31" ry="38" fill="#d7a380" stroke="#102631" stroke-width="4"/><path d="M-30-112q8-28 31-31q24 2 31 27l-17-6q-22 1-45 10" fill="#252b2e"/><rect x="-55" y="-57" width="110" height="135" rx="22" fill="#234f64" stroke="#102631" stroke-width="4"/><path d="M-42-18h84" stroke="#9ed8e4" stroke-width="11"/><rect x="-20" y="2" width="40" height="32" rx="4" fill="#d9e5e7"/><text x="0" y="23" text-anchor="middle" class="tiny" fill="#213a43">IC</text><path d="M-46-27l-88 39" stroke="#234f64" stroke-width="20" stroke-linecap="round"/><path d="M-27 76l-8 74M27 76l9 74" stroke="#263a42" stroke-width="23"/></g>
+  <rect x="798" y="543" width="666" height="100" rx="18" class="box"/>
+  <text x="1131" y="571" text-anchor="middle" class="t cap"><tspan x="1131">폭풍 중 수동 인계 6회를 반복한다. 경계 통과 물체 0, 전용 기록도구 26/26 음성, 서명 완료 6/6. 이제 비상상황에서도 ‘정보만 이동’ 원칙이 유지된다.</tspan><tspan x="1131" dy="24" font-size="14">暴风中重复6次人工交接：物体越界0，专用记录工具26/26阴性，签字6/6完成。</tspan><tspan x="1131" dy="21" font-size="13">Six storm-time manual handoffs pass: zero objects cross, dedicated tools test 26/26 negative, and all six sign-offs complete.</tspan></text>
+  <path d="M1253 667h211q14 0 14 14v80q0 14-14 14h-126l-28 24 6-24h-63q-14 0-14-14v-80q0-14 14-14z" class="bub"/>
+  <text x="1358" y="695" text-anchor="middle" class="t" font-size="15" font-weight="900"><tspan x="1358">좋아. 사람도 장비도 종이도 넘지 않는다.</tspan><tspan x="1358" dy="20" font-size="12">很好，人员、设备和纸张都不越界。</tspan><tspan x="1358" dy="18" font-size="12">Good—people, gear and paper stay in-zone.</tspan></text>
+  <text x="803" y="985" class="sfx">6/6 COMPLETE!  26/26 NEG!  INFORMATION ONLY!</text>
+</g>
+</svg>
