@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 167 validates the new clean-zone boot gate during an emergency response and catches a bypass before contamination crosses zones">
+<defs>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#0b2942"/><stop offset=".56" stop-color="#426b7d"/><stop offset="1" stop-color="#d8a36c"/></linearGradient>
+ <linearGradient id="floor" x2="1" y2="1"><stop stop-color="#c8d2d4"/><stop offset="1" stop-color="#64767b"/></linearGradient>
+ <linearGradient id="gate" x2="0" y2="1"><stop stop-color="#e8f5f1"/><stop offset="1" stop-color="#9cc9bd"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#173b4e"/><stop offset="1" stop-color="#0a1f2d"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".35"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>.t{font-family:Arial,'Malgun Gothic',sans-serif}.box{fill:#fff;stroke:#102631;stroke-width:4}.bub{fill:#fff;stroke:#111;stroke-width:4}.cap{font-size:17px;font-weight:900;fill:#10202a}.sfx{font-family:Arial,'Malgun Gothic',sans-serif;font-size:21px;font-weight:1000;fill:#fff36b;stroke:#10202a;stroke-width:1.4;paint-order:stroke}</style>
+</defs>
+<rect width="1536" height="1024" fill="#06121b"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173f58"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #167  비상상황에도 오염선은 넘지 않는다 — 우회 동선을 현장에서 막아라</text>
+<text x="1088" y="49" class="t" fill="#d9f5ff" font-size="16" font-weight="800">EMERGENCY GATE · BYPASS CHECK · 紧急防交叉污染</text>
+
+<!-- PANEL 1: emergency -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#dawn)"/>
+ <rect x="16" y="330" width="746" height="182" fill="url(#floor)"/>
+ <rect x="533" y="245" width="173" height="138" rx="18" fill="#e6edf0" stroke="#213b47" stroke-width="5" filter="url(#shadow)"/>
+ <rect x="552" y="268" width="135" height="72" rx="8" fill="#b9d7e1"/><path d="M569 319l24-31 24 31 21-39 31 39" fill="none" stroke="#173f58" stroke-width="8"/><circle cx="686" cy="261" r="12" fill="#ff5f53" filter="url(#glow)"/>
+ <path d="M61 454h650" stroke="#f3d54d" stroke-width="10" stroke-dasharray="28 18"/>
+ <text x="75" y="443" class="t" font-size="15" font-weight="1000" fill="#17384a">ZONE A</text><text x="638" y="443" class="t" font-size="15" font-weight="1000" fill="#17384a">ZONE B</text>
+ <!-- two human responders -->
+ <g transform="translate(260 400)" filter="url(#shadow)"><ellipse cy="-79" rx="29" ry="35" fill="#d29a74" stroke="#102631" stroke-width="4"/><path d="M-28-91q8-26 28-28q24 3 29 24l-17-6q-20 4-40 10" fill="#292929"/><rect x="-47" y="-36" width="94" height="116" rx="18" fill="#e9a834" stroke="#102631" stroke-width="4"/><rect x="-34" y="-7" width="68" height="22" rx="5" fill="#f4e16b"/><path d="M-39-3l-62 26M39-2l65-26" stroke="#e9a834" stroke-width="17" stroke-linecap="round"/><path d="M-21 77v64M21 77v64" stroke="#263940" stroke-width="19"/><path d="M-33 141h29M8 141h30" stroke="#111" stroke-width="16" stroke-linecap="round"/></g>
+ <g transform="translate(442 401)" filter="url(#shadow)"><ellipse cy="-79" rx="29" ry="35" fill="#c88f6b" stroke="#102631" stroke-width="4"/><path d="M-28-91q9-26 29-28q23 3 28 24l-17-6q-20 4-40 10" fill="#51372d"/><rect x="-47" y="-36" width="94" height="116" rx="18" fill="#3ba083" stroke="#102631" stroke-width="4"/><rect x="-34" y="-7" width="68" height="22" rx="5" fill="#d4f3e9"/><path d="M-39-2l-59-30M39-2l62 30" stroke="#3ba083" stroke-width="17" stroke-linecap="round"/><path d="M-21 77v64M21 77v64" stroke="#263940" stroke-width="19"/><path d="M-33 141h29M8 141h30" stroke="#111" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="38" y="103" width="672" height="112" rx="18" class="box"/>
+ <text x="374" y="133" text-anchor="middle" class="t cap"><tspan x="374">06:18, B구역 배관 압력경보. 두 작업자가 새 장화교체 게이트를 통과해 긴급 출동한다.</tspan><tspan x="374" dy="25" font-size="14">06:18，B区管线压力报警，两名人员通过新换靴门紧急出动。</tspan><tspan x="374" dy="22" font-size="13">06:18 — a Zone B pressure alarm sends two responders through the new boot-change gate.</tspan></text>
+ <path d="M388 222h306q14 0 14 14v61q0 14-14 14H547l-29 24 7-24H388q-14 0-14-14v-61q0-14 14-14z" class="bub"/>
+ <text x="541" y="252" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="541">비상이어도 순서 그대로! 스캔하고 갈아 신어!</tspan><tspan x="541" dy="21" font-size="12">紧急也不能跳步骤！扫码、换靴！</tspan></text>
+ <text x="46" y="491" class="sfx">ALARM! MOVE! SCAN! CHANGE!</text>
+</g>
+
+<!-- PANEL 2: attempted bypass -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#gate)"/>
+ <rect x="805" y="240" width="683" height="230" rx="18" fill="#e9efee" stroke="#2e5b59" stroke-width="5"/>
+ <rect x="838" y="270" width="174" height="156" rx="16" fill="#d7edf7" stroke="#28799d" stroke-width="5"/><text x="925" y="299" text-anchor="middle" class="t" font-size="14" font-weight="1000">DIRTY SIDE</text><path d="M872 337h106" stroke="#28799d" stroke-width="10"/><text x="925" y="375" text-anchor="middle" class="t" font-size="13" font-weight="900">REMOVE BOOTS</text><text x="925" y="401" text-anchor="middle" class="t" font-size="12">脱靴 / 장화 벗기</text>
+ <rect x="1036" y="270" width="204" height="156" rx="16" fill="#fff3c4" stroke="#b78324" stroke-width="5"/><text x="1138" y="299" text-anchor="middle" class="t" font-size="14" font-weight="1000">SCAN GATE</text><rect x="1070" y="321" width="136" height="48" rx="10" fill="#173f58"/><text x="1138" y="352" text-anchor="middle" class="t" fill="#fff" font-size="16" font-weight="1000">B-21 · DENIED</text><text x="1138" y="400" text-anchor="middle" class="t" font-size="12" font-weight="900" fill="#a84422">NO BOOT CHANGE</text>
+ <rect x="1266" y="270" width="185" height="156" rx="16" fill="#dbf0e1" stroke="#369468" stroke-width="5"/><text x="1358" y="299" text-anchor="middle" class="t" font-size="14" font-weight="1000">CLEAN SIDE</text><path d="M1302 348h112" stroke="#369468" stroke-width="10"/><text x="1358" y="382" text-anchor="middle" class="t" font-size="13" font-weight="900">ZONE B BOOTS</text>
+ <!-- bypass red arrow -->
+ <path d="M946 438c85 52 251 49 363-8" fill="none" stroke="#e34d42" stroke-width="10" stroke-dasharray="19 12"/><path d="M1301 416l31 14-28 19" fill="#e34d42"/>
+ <circle cx="987" cy="447" r="15" fill="#ff554e" filter="url(#glow)"/>
+ <rect x="798" y="103" width="666" height="112" rx="18" class="box"/>
+ <text x="1131" y="133" text-anchor="middle" class="t cap"><tspan x="1131">세 번째 작업자 B-21이 시간을 줄이려 옆 통로로 우회한다. 게이트 로그가 즉시 불일치를 띄운다.</tspan><tspan x="1131" dy="25" font-size="14">第三名人员B-21试图走侧通道节省时间，门禁日志立即显示不一致。</tspan><tspan x="1131" dy="22" font-size="13">A third responder, B-21, tries a side-route shortcut; the gate log flags the mismatch instantly.</tspan></text>
+ <path d="M1124 390h330q14 0 14 14v60q0 14-14 14h-178l-28 22 6-22h-130q-14 0-14-14v-60q0-14 14-14z" class="bub"/>
+ <text x="1289" y="420" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="1289">B-21 정지! 우회 금지—게이트로 돌아가!</tspan><tspan x="1289" dy="21" font-size="12">B-21停下！禁止绕行，返回换靴门！</tspan></text>
+ <text x="813" y="493" class="sfx">BEEP! DENIED! NO BYPASS!</text>
+</g>
+
+<!-- PANEL 3: swab verifies interception -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#c7dce4"/>
+ <rect x="43" y="712" width="691" height="247" rx="18" fill="url(#screen)"/>
+ <rect x="67" y="744" width="202" height="170" rx="14" fill="#fff" stroke="#3c8faa" stroke-width="5"/><text x="168" y="773" text-anchor="middle" class="t" font-size="14" font-weight="900">B-21 OLD BOOT</text><circle cx="168" cy="828" r="37" fill="#ffd0b2" stroke="#c96733" stroke-width="5"/><text x="168" y="836" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#a84422">TRACE+</text><text x="168" y="886" text-anchor="middle" class="t" font-size="12" font-weight="900">A-ZONE RESIDUE</text>
+ <rect x="286" y="744" width="202" height="170" rx="14" fill="#fff" stroke="#3c8faa" stroke-width="5"/><text x="387" y="773" text-anchor="middle" class="t" font-size="14" font-weight="900">SIDE PASSAGE</text><circle cx="387" cy="828" r="37" fill="#c8f1d9" stroke="#35966a" stroke-width="5"/><text x="387" y="836" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#237450">NEG</text><text x="387" y="886" text-anchor="middle" class="t" font-size="12" font-weight="900">INTERCEPTED</text>
+ <rect x="505" y="744" width="202" height="170" rx="14" fill="#fff" stroke="#3c8faa" stroke-width="5"/><text x="606" y="773" text-anchor="middle" class="t" font-size="14" font-weight="900">ZONE B FLOOR</text><circle cx="606" cy="828" r="37" fill="#c8f1d9" stroke="#35966a" stroke-width="5"/><text x="606" y="836" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#237450">NEG</text><text x="606" y="886" text-anchor="middle" class="t" font-size="12" font-weight="900">NO CROSSING</text>
+ <rect x="39" y="548" width="670" height="119" rx="18" class="box"/>
+ <text x="374" y="579" text-anchor="middle" class="t cap"><tspan x="374">B-21의 기존 장화는 TRACE+, 그러나 우회통로와 B구역 바닥은 음성. 경보가 이동 전에 잡았다.</tspan><tspan x="374" dy="25" font-size="14">B-21旧靴呈TRACE+，但侧通道与B区地面均为阴性——警报在跨区前拦截。</tspan><tspan x="374" dy="22" font-size="13">B-21's old boots are TRACE+, but the side passage and Zone B floor remain negative: interception succeeded.</tspan></text>
+ <path d="M55 674h340q14 0 14 14v57q0 14-14 14H220l-29 23 7-23H55q-14 0-14-14v-57q0-14 14-14z" class="bub"/>
+ <text x="225" y="706" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="225">넘어가기 전에 잡았다. 통로 자체를 잠근다!</tspan><tspan x="225" dy="21" font-size="12">在跨区前拦住了——锁死侧通道！</tspan></text>
+ <text x="50" y="989" class="sfx">SWAB! TRACE+ / NEG / NEG — INTERCEPTED!</text>
+</g>
+
+<!-- PANEL 4: hardened protocol -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="#b7d5cc"/>
+ <rect x="803" y="707" width="688" height="251" rx="18" fill="#f3f7f5" stroke="#2d6860" stroke-width="5"/>
+ <rect x="827" y="744" width="189" height="166" rx="16" fill="#d9edf6" stroke="#28799d" stroke-width="5"/><text x="921" y="774" text-anchor="middle" class="t" font-size="14" font-weight="1000">ONE-WAY GATE</text><path d="M859 833h124" stroke="#28799d" stroke-width="11"/><path d="M977 819l27 14-27 14" fill="#28799d"/><text x="921" y="878" text-anchor="middle" class="t" font-size="12" font-weight="900">NO SIDE ROUTE</text>
+ <rect x="1038" y="744" width="197" height="166" rx="16" fill="#fff3c4" stroke="#b78324" stroke-width="5"/><text x="1136" y="774" text-anchor="middle" class="t" font-size="14" font-weight="1000">EMERGENCY MODE</text><rect x="1068" y="804" width="137" height="48" rx="10" fill="#173f58"/><text x="1136" y="835" text-anchor="middle" class="t" fill="#fff" font-size="16" font-weight="1000">SCAN REQUIRED</text><text x="1136" y="881" text-anchor="middle" class="t" font-size="12" font-weight="900">비상시에도 동일 / 紧急同样</text>
+ <rect x="1257" y="744" width="207" height="166" rx="16" fill="#dff2e5" stroke="#369468" stroke-width="5"/><text x="1360" y="774" text-anchor="middle" class="t" font-size="14" font-weight="1000">24H VALIDATION</text><text x="1360" y="825" text-anchor="middle" class="t" font-size="28" font-weight="1000" fill="#237450">14 / 14 NEG</text><text x="1360" y="859" text-anchor="middle" class="t" font-size="12" font-weight="900">CROSS-ZONE = 0</text><text x="1360" y="886" text-anchor="middle" class="t" font-size="12" font-weight="900">BYPASS = 0</text>
+ <rect x="798" y="548" width="666" height="119" rx="18" class="box"/>
+ <text x="1131" y="579" text-anchor="middle" class="t cap"><tspan x="1131">옆 통로를 물리적으로 폐쇄하고 비상모드도 스캔·장화교체를 강제한다. 24시간 14/14 음성.</tspan><tspan x="1131" dy="25" font-size="14">物理封闭侧通道，紧急模式也强制扫码与换靴。24小时14/14阴性。</tspan><tspan x="1131" dy="22" font-size="13">The side route is physically closed; emergency mode still requires scan and boot change. 14/14 negative.</tspan></text>
+ <path d="M815 674h366q14 0 14 14v58q0 14-14 14h-190l-29 23 7-23H815q-14 0-14-14v-58q0-14 14-14z" class="bub"/>
+ <text x="998" y="706" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="998">빠른 길보다 안전한 길 하나만 남긴다.</tspan><tspan x="998" dy="21" font-size="12">只保留一条安全通道，不留捷径。</tspan></text>
+ <text x="813" y="989" class="sfx">LOCK! SCAN! CHANGE! 14/14 NEGATIVE!</text>
+</g>
+</svg>
