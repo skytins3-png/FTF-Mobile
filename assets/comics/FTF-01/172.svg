@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 172 finds the shared shift tablet as a hidden cross-zone carrier and replaces device handoff with one-way data transfer between fixed zone tablets">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#102942"/><stop offset=".55" stop-color="#527b91"/><stop offset="1" stop-color="#efb56d"/></linearGradient>
+  <linearGradient id="steel" x2="0" y2="1"><stop stop-color="#e5ecee"/><stop offset="1" stop-color="#8fa2a8"/></linearGradient>
+  <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#123c51"/><stop offset="1" stop-color="#061721"/></linearGradient>
+  <linearGradient id="clean" x2="1" y2="1"><stop stop-color="#144f67"/><stop offset="1" stop-color="#168a76"/></linearGradient>
+  <filter id="sh"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".4"/></filter>
+  <filter id="gl"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>.t{font-family:Arial,'Malgun Gothic',sans-serif}.box{fill:#fff;stroke:#102733;stroke-width:4}.cap{font-size:17px;font-weight:900;fill:#10202a}.bub{fill:#fff;stroke:#101820;stroke-width:4}.sfx{font-family:Arial,'Malgun Gothic',sans-serif;font-size:21px;font-weight:1000;fill:#fff16f;stroke:#10202a;stroke-width:1.5;paint-order:stroke}.tiny{font-family:Arial,'Malgun Gothic',sans-serif;font-size:12px;font-weight:900}.tag{font-family:Arial,'Malgun Gothic',sans-serif;font-size:14px;font-weight:1000}</style>
+</defs>
+<rect width="1536" height="1024" fill="#06131c"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#153f59"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #172  정보만 넘겨라 — 공용 태블릿은 경계를 넘지 않는다</text>
+<text x="1035" y="49" class="t" fill="#d8f6ff" font-size="16" font-weight="800">SHIFT TABLET · HIDDEN CARRIER · ONE-WAY DATA HANDOFF</text>
+
+<!-- PANEL 1: audit catches the handoff -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+ <rect x="16" y="331" width="746" height="181" fill="#aebcc0"/>
+ <path d="M392 330v182" stroke="#f4d74f" stroke-width="9" stroke-dasharray="20 12"/><text x="406" y="492" class="tiny" fill="#28393f">BIOSECURITY LINE</text>
+ <rect x="448" y="239" width="244" height="159" rx="14" fill="#e8eef0" stroke="#284550" stroke-width="6" filter="url(#sh)"/>
+ <rect x="470" y="261" width="200" height="73" rx="8" fill="url(#screen)"/><text x="570" y="283" text-anchor="middle" class="tiny" fill="#9fe9ff">HANDOVER AUDIT 07:31</text><text x="570" y="310" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#ff7770">UNTAGGED DEVICE MOVEMENT</text>
+ <circle cx="650" cy="365" r="15" fill="#ef4c4c" filter="url(#gl)"/><text x="570" y="372" text-anchor="middle" class="tiny" fill="#8b2525">STOP · DEVICE T-3</text>
+ <!-- night worker -->
+ <g transform="translate(183 403)" filter="url(#sh)"><ellipse cy="-87" rx="29" ry="35" fill="#cf9874" stroke="#102631" stroke-width="4"/><path d="M-29-100q8-25 29-28q23 2 30 25l-16-5q-21 2-43 8" fill="#292b2d"/><rect x="-49" y="-40" width="98" height="113" rx="18" fill="#32799b" stroke="#102631" stroke-width="4"/><rect x="-36" y="-8" width="72" height="22" rx="5" fill="#91cce2"/><path d="M38-6l84-27" stroke="#32799b" stroke-width="18" stroke-linecap="round"/><path d="M-23 71v64M23 71v64" stroke="#273b43" stroke-width="20"/></g>
+ <!-- day worker -->
+ <g transform="translate(323 402)" filter="url(#sh)"><ellipse cy="-87" rx="29" ry="35" fill="#dfae87" stroke="#102631" stroke-width="4"/><path d="M-29-100q7-25 29-28q23 2 29 25l-15-5q-21 2-43 8" fill="#3a2d29"/><rect x="-49" y="-40" width="98" height="113" rx="18" fill="#3f9b7d" stroke="#102631" stroke-width="4"/><rect x="-36" y="-8" width="72" height="22" rx="5" fill="#a1e2ca"/><path d="M-38-6l-64-25" stroke="#3f9b7d" stroke-width="18" stroke-linecap="round"/><path d="M-23 71v64M23 71v64" stroke="#273b43" stroke-width="20"/></g>
+ <!-- tablet between them -->
+ <g transform="translate(254 318) rotate(-4)" filter="url(#sh)"><rect x="-46" y="-35" width="92" height="70" rx="7" fill="#1a252c" stroke="#0d1418" stroke-width="5"/><rect x="-37" y="-27" width="74" height="49" rx="3" fill="#4c839a"/><text x="0" y="-3" text-anchor="middle" class="tiny" fill="#dcf6ff">T-3</text><circle cx="0" cy="29" r="3" fill="#bac8cb"/></g>
+ <rect x="40" y="103" width="665" height="111" rx="18" class="box"/><text x="372" y="132" text-anchor="middle" class="t cap"><tspan x="372">07:31 교대 서명 직후, 야간조가 공용 태블릿 T-3을 주간조에게 직접 건넨다. 감사센서가 ‘미등록 경계 이동’을 즉시 잡아낸다.</tspan><tspan x="372" dy="25" font-size="14">07:31，换班签字后，夜班把共用平板T-3直接递给白班；审计传感器立刻发现“未登记越界”。</tspan><tspan x="372" dy="22" font-size="13">07:31 — shared tablet T-3 is handed across the line; the audit sensor flags an unregistered crossing.</tspan></text>
+ <path d="M133 226h323q14 0 14 14v60q0 14-14 14H309l-26 22 6-22H133q-14 0-14-14v-60q0-14 14-14z" class="bub"/><text x="294" y="253" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="294">멈춰! 사람과 공구만이 아니라 전자기기도 경계 물품이야.</tspan><tspan x="294" dy="21" font-size="12">停！电子设备也是跨区物品。</tspan></text>
+ <text x="48" y="492" class="sfx">BEEP! STOP! DEVICE T-3!</text>
+</g>
+
+<!-- PANEL 2: swab and route replay -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="#c8d5d8"/>
+ <rect x="796" y="232" width="688" height="232" rx="18" fill="url(#steel)" stroke="#435a60" stroke-width="5"/>
+ <rect x="1014" y="249" width="423" height="188" rx="15" fill="#132c3b" stroke="#507886" stroke-width="6" filter="url(#sh)"/>
+ <text x="1225" y="274" text-anchor="middle" class="tiny" fill="#9fe9ff">T-3 CONTACT MAP · LAST 90 MIN</text>
+ <path d="M1060 343C1100 307 1144 310 1184 337S1265 389 1310 349 1376 314 1401 332" fill="none" stroke="#ffd452" stroke-width="7" stroke-dasharray="11 8"/>
+ <circle cx="1060" cy="343" r="12" fill="#4aa67d"/><circle cx="1184" cy="337" r="12" fill="#f0bb3e"/><circle cx="1310" cy="349" r="12" fill="#ef5750" filter="url(#gl)"/><circle cx="1401" cy="332" r="12" fill="#ef5750" filter="url(#gl)"/>
+ <text x="1060" y="370" text-anchor="middle" class="tiny" fill="#d9eef5">A DESK</text><text x="1184" y="370" text-anchor="middle" class="tiny" fill="#ffe7a2">HANDOVER</text><text x="1310" y="389" text-anchor="middle" class="tiny" fill="#ff8a83">B LINE</text><text x="1401" y="358" text-anchor="middle" class="tiny" fill="#ff8a83">B DESK</text>
+ <!-- tech with swab -->
+ <g transform="translate(865 415)" filter="url(#sh)"><ellipse cy="-82" rx="28" ry="34" fill="#d39c77" stroke="#102631" stroke-width="4"/><path d="M-28-95q7-24 28-27q22 2 28 23l-14-5q-20 2-42 9" fill="#282c2f"/><rect x="-46" y="-37" width="92" height="108" rx="17" fill="#4b9b88" stroke="#102631" stroke-width="4"/><path d="M36-4l90-31" stroke="#4b9b88" stroke-width="17" stroke-linecap="round"/><path d="M-21 69v60M21 69v60" stroke="#263940" stroke-width="19"/></g>
+ <g transform="translate(963 342) rotate(-7)" filter="url(#sh)"><rect x="-49" y="-37" width="98" height="74" rx="7" fill="#1a252c" stroke="#0d1418" stroke-width="5"/><rect x="-39" y="-27" width="78" height="50" rx="3" fill="#315f70"/><text x="0" y="-3" text-anchor="middle" class="tiny" fill="#fff">T-3 SWAB</text><text x="0" y="16" text-anchor="middle" class="tiny" fill="#ff7770">BEZEL TRACE+</text></g>
+ <rect x="798" y="103" width="666" height="112" rx="18" class="box"/><text x="1131" y="132" text-anchor="middle" class="t cap"><tspan x="1131">T-3 테두리와 보호케이스에서 TRACE+가 검출된다. 동선 재생 결과, 기기는 A구역 책상→교대선→B구역 책상을 반복 이동했다.</tspan><tspan x="1131" dy="25" font-size="14">T-3边框和保护壳检出TRACE+；轨迹回放显示设备反复经过A区桌面→换班线→B区桌面。</tspan><tspan x="1131" dy="22" font-size="13">TRACE+ appears on T-3's bezel and case; route replay confirms repeated A-desk → handover → B-desk travel.</tspan></text>
+ <path d="M948 443h461q14 0 14 14v38H934v-38q0-14 14-14z" class="bub"/><text x="1178" y="470" text-anchor="middle" class="t" font-size="15" font-weight="900">데이터는 깨끗해도, 기기는 오염될 수 있다! / 数据干净，设备仍可能带污染！</text>
+ <text x="806" y="492" class="sfx">SWAB! TRACE+! REPLAY THE ROUTE!</text>
+</g>
+
+<!-- PANEL 3: replace physical handoff with one-way transfer -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#aecad3"/>
+ <rect x="44" y="700" width="690" height="260" rx="18" fill="#dbe6e8" stroke="#365b64" stroke-width="5"/>
+ <path d="M377 692v270" stroke="#f4d74f" stroke-width="9" stroke-dasharray="20 12"/>
+ <rect x="91" y="734" width="220" height="169" rx="16" fill="#e8eff0" stroke="#284651" stroke-width="6" filter="url(#sh)"/><rect x="111" y="755" width="180" height="88" rx="8" fill="url(#screen)"/><text x="201" y="780" text-anchor="middle" class="tiny" fill="#9fe9ff">A-ZONE FIXED TABLET</text><text x="201" y="810" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#77efaa">UPLOAD ONLY</text><rect x="144" y="861" width="114" height="20" rx="10" fill="#4aa67d"/><text x="201" y="876" text-anchor="middle" class="tiny" fill="#fff">DEVICE STAYS A</text>
+ <rect x="451" y="734" width="220" height="169" rx="16" fill="#e8eff0" stroke="#284651" stroke-width="6" filter="url(#sh)"/><rect x="471" y="755" width="180" height="88" rx="8" fill="url(#screen)"/><text x="561" y="780" text-anchor="middle" class="tiny" fill="#9fe9ff">B-ZONE FIXED TABLET</text><text x="561" y="810" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#77efaa">RECEIVE COPY</text><rect x="504" y="861" width="114" height="20" rx="10" fill="#4aa67d"/><text x="561" y="876" text-anchor="middle" class="tiny" fill="#fff">DEVICE STAYS B</text>
+ <path d="M309 801h140" stroke="#54d7ff" stroke-width="8" stroke-dasharray="13 8"/><polygon points="449,801 425,787 425,815" fill="#54d7ff"/><text x="379" y="778" text-anchor="middle" class="tiny" fill="#164759">SIGNED DATA COPY</text><text x="379" y="829" text-anchor="middle" class="tiny" fill="#164759">NO DEVICE CROSSING</text>
+ <!-- data officer -->
+ <g transform="translate(375 925)" filter="url(#sh)"><ellipse cy="-84" rx="28" ry="34" fill="#c98f6b" stroke="#102631" stroke-width="4"/><path d="M-28-96q7-24 28-27q22 2 28 23l-15-5q-20 2-41 9" fill="#24272a"/><rect x="-47" y="-38" width="94" height="108" rx="17" fill="#365f7a" stroke="#102631" stroke-width="4"/><path d="M-37-4l-57-44M37-4l57-44" stroke="#365f7a" stroke-width="17" stroke-linecap="round"/><path d="M-21 68v58M21 68v58" stroke="#263940" stroke-width="19"/></g>
+ <rect x="40" y="544" width="675" height="127" rx="18" class="box"/><text x="377" y="573" text-anchor="middle" class="t cap"><tspan x="377">공용 T-3은 격리·소독한다. A/B 구역에 고정 태블릿을 따로 설치하고, 인계 기록은 서명된 데이터 복사본만 단방향 전송한다.</tspan><tspan x="377" dy="25" font-size="14">共用T-3隔离消毒；A/B区各装固定平板，交接记录只以签名数据副本单向传输。</tspan><tspan x="377" dy="22" font-size="13">T-3 is quarantined; fixed A/B tablets stay in-zone while only a signed data copy crosses one way.</tspan></text>
+ <path d="M96 678h552q14 0 14 14v48H82v-48q0-14 14-14z" class="bub"/><text x="372" y="708" text-anchor="middle" class="t" font-size="16" font-weight="900">기계를 넘기지 마. 정보만 넘겨! / 不传设备，只传信息！ / MOVE DATA, NOT DEVICES!</text>
+ <text x="55" y="986" class="sfx">ISOLATE! WIPE! COPY! ONE-WAY!</text>
+</g>
+
+<!-- PANEL 4: validation -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#clean)"/>
+ <rect x="807" y="720" width="680" height="235" rx="18" fill="#d9e6e6" stroke="#2e5a5f" stroke-width="5"/>
+ <rect x="1013" y="740" width="437" height="184" rx="16" fill="#102b39" stroke="#5b8790" stroke-width="6" filter="url(#sh)"/>
+ <text x="1231" y="769" text-anchor="middle" class="tiny" fill="#a0ebff">24 H VALIDATION · SHIFT HANDOFF</text>
+ <rect x="1050" y="792" width="104" height="55" rx="9" fill="#3aa675"/><text x="1102" y="814" text-anchor="middle" class="tiny" fill="#fff">DEVICES</text><text x="1102" y="837" text-anchor="middle" class="t" font-size="19" font-weight="1000" fill="#fff">0 CROSS</text>
+ <rect x="1178" y="792" width="104" height="55" rx="9" fill="#3aa675"/><text x="1230" y="814" text-anchor="middle" class="tiny" fill="#fff">SURFACES</text><text x="1230" y="837" text-anchor="middle" class="t" font-size="19" font-weight="1000" fill="#fff">22/22 NEG</text>
+ <rect x="1306" y="792" width="104" height="55" rx="9" fill="#3aa675"/><text x="1358" y="814" text-anchor="middle" class="tiny" fill="#fff">HANDOFFS</text><text x="1358" y="837" text-anchor="middle" class="t" font-size="19" font-weight="1000" fill="#fff">6/6 CLEAN</text>
+ <path d="M1064 882l36 25 57-69M1192 882l36 25 57-69M1320 882l36 25 57-69" fill="none" stroke="#77f0a8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- supervisor -->
+ <g transform="translate(892 897)" filter="url(#sh)"><ellipse cy="-84" rx="29" ry="35" fill="#d39a74" stroke="#102631" stroke-width="4"/><path d="M-29-98q8-25 29-28q23 2 30 25l-17-6q-21 2-42 9" fill="#293038"/><rect x="-49" y="-39" width="98" height="112" rx="18" fill="#315d79" stroke="#102631" stroke-width="4"/><rect x="-36" y="-8" width="72" height="22" rx="5" fill="#83b9cf"/><path d="M38-4l91-31" stroke="#315d79" stroke-width="18" stroke-linecap="round"/><path d="M-23 71v62M23 71v62" stroke="#243a43" stroke-width="20"/></g>
+ <rect x="798" y="544" width="666" height="128" rx="18" class="box"/><text x="1131" y="573" text-anchor="middle" class="t cap"><tspan x="1131">24시간 동안 6번의 교대 인계를 재검증한다. 기기 경계 이동 0회, 접촉면 22/22 음성. ‘정보와 물체를 분리한다’가 새 표준이 된다.</tspan><tspan x="1131" dy="25" font-size="14">24小时复核6次交接：设备越界0次，接触面22/22阴性。“信息与物体分离”成为新标准。</tspan><tspan x="1131" dy="22" font-size="13">Six handoffs over 24 hours: zero device crossings and 22/22 negative surfaces. Separate data from objects becomes the new rule.</tspan></text>
+ <path d="M848 681h550q14 0 14 14v46H834v-46q0-14 14-14z" class="bub"/><text x="1122" y="711" text-anchor="middle" class="t" font-size="16" font-weight="900">경계를 넘는 건 승인된 데이터뿐이다. / 只有获批数据可以越界。 / ONLY APPROVED DATA CROSSES.</text>
+ <text x="808" y="985" class="sfx">ZERO CROSS! 22/22 NEG! LOCK THE STANDARD!</text>
+</g>
+</svg>
