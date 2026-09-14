@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 171 extends the closed biosecurity loop to shift handover and contractor tools, intercepting an unregistered case before entry and validating a clean handoff">
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#162b45"/><stop offset=".6" stop-color="#6f94a6"/><stop offset="1" stop-color="#f0bd79"/></linearGradient>
+<linearGradient id="floor" x2="0" y2="1"><stop stop-color="#cfd8d8"/><stop offset="1" stop-color="#889da3"/></linearGradient>
+<linearGradient id="screen" x2="0" y2="1"><stop stop-color="#153d50"/><stop offset="1" stop-color="#071c29"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".38"/></filter>
+<filter id="gl"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>.t{font-family:Arial,'Malgun Gothic',sans-serif}.box{fill:#fff;stroke:#112733;stroke-width:4}.cap{font-size:17px;font-weight:900;fill:#10202a}.bub{fill:#fff;stroke:#111;stroke-width:4}.sfx{font-family:Arial,'Malgun Gothic',sans-serif;font-size:21px;font-weight:1000;fill:#fff36b;stroke:#10202a;stroke-width:1.5;paint-order:stroke}.tiny{font-family:Arial,'Malgun Gothic',sans-serif;font-size:12px;font-weight:900}.tag{font-family:Arial,'Malgun Gothic',sans-serif;font-size:14px;font-weight:1000}</style>
+</defs>
+<rect width="1536" height="1024" fill="#07131c"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173f58"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #171  닫힌 고리를 교대시간에도 지켜라 — 외부 반입물 0회 통과</text>
+<text x="1005" y="49" class="t" fill="#d9f5ff" font-size="16" font-weight="800">SHIFT HANDOVER · CONTRACTOR GATE · ZERO UNCHECKED ENTRY</text>
+
+<!-- PANEL 1 -->
+<g>
+<rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+<rect x="16" y="329" width="746" height="183" fill="url(#floor)"/>
+<rect x="455" y="232" width="245" height="173" rx="16" fill="#e7edef" stroke="#23424f" stroke-width="6" filter="url(#sh)"/>
+<rect x="478" y="254" width="199" height="72" rx="9" fill="url(#screen)"/><text x="577" y="279" text-anchor="middle" class="tiny" fill="#9de7ff">SHIFT HANDOVER 07:15</text><text x="577" y="307" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#71f2a1">B-ZONE CLEAN STATUS</text>
+<path d="M425 411h302" stroke="#f2d24e" stroke-width="8" stroke-dasharray="18 12"/><text x="576" y="438" text-anchor="middle" class="tiny" fill="#27353a">BIOSECURITY HANDOVER LINE</text>
+<!-- outgoing worker -->
+<g transform="translate(155 405)" filter="url(#sh)"><ellipse cy="-86" rx="29" ry="35" fill="#d39b78" stroke="#102631" stroke-width="4"/><path d="M-29-98q8-27 29-29q24 2 30 25l-16-5q-22 2-43 9" fill="#2b2c2d"/><rect x="-49" y="-40" width="98" height="113" rx="18" fill="#32799b" stroke="#102631" stroke-width="4"/><rect x="-36" y="-9" width="72" height="22" rx="5" fill="#92cce3"/><path d="M38-5l67-27" stroke="#32799b" stroke-width="18" stroke-linecap="round"/><rect x="92" y="-48" width="47" height="33" rx="4" fill="#162f3d"/><path d="M-23 71v64M23 71v64" stroke="#273b43" stroke-width="20"/></g>
+<!-- incoming worker -->
+<g transform="translate(325 405)" filter="url(#sh)"><ellipse cy="-86" rx="29" ry="35" fill="#c88f69" stroke="#102631" stroke-width="4"/><path d="M-29-99q6-24 29-28q22 2 29 24l-14-5q-23 1-44 9" fill="#3a302d"/><rect x="-49" y="-40" width="98" height="113" rx="18" fill="#3f9b7d" stroke="#102631" stroke-width="4"/><rect x="-36" y="-9" width="72" height="22" rx="5" fill="#9fe2c8"/><path d="M-37-6l-67-25" stroke="#3f9b7d" stroke-width="18" stroke-linecap="round"/><rect x="-139" y="-47" width="48" height="34" rx="4" fill="#eaf2f4" stroke="#284650" stroke-width="3"/><path d="M-23 71v64M23 71v64" stroke="#273b43" stroke-width="20"/></g>
+<rect x="40" y="102" width="665" height="112" rx="18" class="box"/><text x="372" y="132" text-anchor="middle" class="t cap"><tspan x="372">07:15 교대. 야간조는 압력·검사·격리 기록을 태블릿으로 인계하고, 주간조는 경계 상태를 직접 대조한 뒤 서명한다.</tspan><tspan x="372" dy="25" font-size="14">07:15换班。夜班交接压力、检测与隔离记录；白班逐项核对边界状态后签字。</tspan><tspan x="372" dy="22" font-size="13">07:15 handover — pressure, test and quarantine records are checked line by line before sign-off.</tspan></text>
+<path d="M180 223h319q14 0 14 14v63q0 14-14 14H355l-25 22 5-22H180q-14 0-14-14v-63q0-14 14-14z" class="bub"/><text x="338" y="254" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="338">기록만 넘기지 마. 경계 상태를 눈으로 확인해!</tspan><tspan x="338" dy="21" font-size="12">不要只交记录，现场确认边界！</tspan></text>
+<text x="48" y="492" class="sfx">CHECK! MATCH! SIGN! HANDOVER!</text>
+</g>
+
+<!-- PANEL 2 -->
+<g>
+<rect x="774" y="84" width="746" height="428" rx="12" fill="#c8d5d8"/>
+<rect x="798" y="232" width="686" height="231" rx="18" fill="#aabbbf" stroke="#40575d" stroke-width="5"/>
+<rect x="1090" y="253" width="205" height="151" rx="15" fill="#e9eff0" stroke="#294651" stroke-width="6"/><rect x="1110" y="273" width="165" height="64" rx="8" fill="url(#screen)"/><text x="1192" y="296" text-anchor="middle" class="tiny" fill="#9de7ff">ENTRY SCAN</text><text x="1192" y="322" text-anchor="middle" class="t" font-size="20" font-weight="1000" fill="#ff7166">UNREGISTERED</text><circle cx="1264" cy="356" r="15" fill="#f34f49" filter="url(#gl)"/><text x="1192" y="378" text-anchor="middle" class="tiny" fill="#7a2828">GATE LOCKED</text>
+<rect x="872" y="320" width="171" height="104" rx="12" fill="#4e5960" stroke="#20282c" stroke-width="6" filter="url(#sh)"/><path d="M910 320v-24h95v24" fill="none" stroke="#20282c" stroke-width="12"/><rect x="895" y="347" width="125" height="40" rx="6" fill="#d7c348"/><text x="957" y="372" text-anchor="middle" class="tiny" fill="#1e2528">EXT TOOL CASE X-7</text>
+<!-- contractor -->
+<g transform="translate(842 421)" filter="url(#sh)"><ellipse cy="-81" rx="27" ry="33" fill="#d19a74" stroke="#102631" stroke-width="4"/><path d="M-27-93q8-24 27-26q21 2 27 22l-13-5q-19 2-41 9" fill="#5a463b"/><rect x="-44" y="-36" width="88" height="106" rx="17" fill="#d68e35" stroke="#102631" stroke-width="4"/><path d="M35-2l77-18" stroke="#d68e35" stroke-width="17" stroke-linecap="round"/><path d="M-20 68v58M20 68v58" stroke="#303e43" stroke-width="18"/></g>
+<!-- gate officer -->
+<g transform="translate(1402 420)" filter="url(#sh)"><ellipse cy="-80" rx="27" ry="33" fill="#c58c68" stroke="#102631" stroke-width="4"/><path d="M-27-92q7-24 27-26q22 2 27 23l-14-5q-19 2-40 8" fill="#26282a"/><rect x="-44" y="-36" width="88" height="106" rx="17" fill="#345f7b" stroke="#102631" stroke-width="4"/><path d="M-35-2l-80-7" stroke="#345f7b" stroke-width="17" stroke-linecap="round"/><path d="M-20 68v58M20 68v58" stroke="#263940" stroke-width="18"/></g>
+<rect x="798" y="103" width="666" height="112" rx="18" class="box"/><text x="1131" y="133" text-anchor="middle" class="t cap"><tspan x="1131">07:22 외부 정비업체가 공구 케이스 X-7을 반입하려 한다. RFID가 없자 게이트는 사람과 케이스를 동시에 멈춘다.</tspan><tspan x="1131" dy="25" font-size="14">07:22，外部维修商携X-7工具箱入场；无RFID登记，闸门同时拦停人员与箱体。</tspan><tspan x="1131" dy="22" font-size="13">07:22 — contractor case X-7 has no RFID registration; the gate stops both person and carrier.</tspan></text>
+<path d="M1016 429h391q14 0 14 14v48h-419v-48q0-14 14-14z" class="bub"/><text x="1211" y="458" text-anchor="middle" class="t" font-size="15" font-weight="900">등록되지 않은 물건은 1cm도 넘기지 않는다! / 未登记物品一步也不进！</text>
+<text x="814" y="492" class="sfx">BEEP! RED! GATE LOCK! STOP!</text>
+</g>
+
+<!-- PANEL 3 -->
+<g>
+<rect x="16" y="524" width="746" height="484" rx="12" fill="#b7d0d8"/>
+<rect x="45" y="705" width="688" height="255" rx="18" fill="#dbe7e8" stroke="#355c65" stroke-width="5"/>
+<rect x="292" y="724" width="402" height="203" rx="16" fill="#142d3b" stroke="#527a87" stroke-width="6" filter="url(#sh)"/><text x="493" y="751" text-anchor="middle" class="tiny" fill="#9de7ff">X-7 DECON + TOOL INVENTORY</text>
+<rect x="327" y="777" width="132" height="48" rx="8" fill="#c94d45"/><text x="393" y="799" text-anchor="middle" class="tiny" fill="#fff">HANDLE TRACE+</text><text x="393" y="816" text-anchor="middle" class="tiny" fill="#fff">OUTSIDE ONLY</text>
+<rect x="482" y="777" width="176" height="48" rx="8" fill="#44a879"/><text x="570" y="799" text-anchor="middle" class="tiny" fill="#fff">TOOLS 18/18 NEG</text><text x="570" y="816" text-anchor="middle" class="tiny" fill="#fff">INNER TRAY CLEAN</text>
+<path d="M394 845h176" stroke="#f1d34e" stroke-width="7"/><polygon points="570,845 550,833 550,857" fill="#f1d34e"/><text x="482" y="873" text-anchor="middle" class="tiny" fill="#ffe96e">OUTER CASE → DECON / CLEAN TOOLS → PASS-THROUGH</text>
+<!-- tech -->
+<g transform="translate(160 862)" filter="url(#sh)"><ellipse cy="-86" rx="29" ry="35" fill="#d39a75" stroke="#102631" stroke-width="4"/><path d="M-29-99q8-25 29-28q23 2 30 25l-17-6q-20 2-42 9" fill="#312f31"/><rect x="-49" y="-40" width="98" height="114" rx="18" fill="#4b9b88" stroke="#102631" stroke-width="4"/><path d="M38-5l88-19" stroke="#4b9b88" stroke-width="18" stroke-linecap="round"/><rect x="113" y="-39" width="42" height="30" rx="4" fill="#dff2ee" stroke="#295247" stroke-width="3"/><path d="M-23 72v65M23 72v65" stroke="#263940" stroke-width="20"/></g>
+<rect x="40" y="544" width="675" height="128" rx="18" class="box"/><text x="377" y="573" text-anchor="middle" class="t cap"><tspan x="377">검사 결과 X-7 손잡이는 TRACE+, 내부 공구 18개는 모두 음성. 외함은 소독구역에 남기고 깨끗한 공구만 패스스루 트레이로 넘긴다.</tspan><tspan x="377" dy="25" font-size="14">X-7把手TRACE+，内部18件工具全部阴性；外箱留在消毒区，仅清洁工具通过传递盘。</tspan><tspan x="377" dy="22" font-size="13">X-7 handle is TRACE+; all 18 internal tools are negative. The case stays outside; clean tools cross by tray only.</tspan></text>
+<path d="M120 684h338q14 0 14 14v58H106v-58q0-14 14-14z" class="bub"/><text x="289" y="713" text-anchor="middle" class="t" font-size="15" font-weight="900"><tspan x="289">깨끗한 것만 넘긴다. 외함은 경계를 넘지 않아!</tspan><tspan x="289" dy="20" font-size="12">只传清洁工具，外箱不过线！</tspan></text>
+<text x="56" y="985" class="sfx">SWAB! TRACE+! 18/18 NEG! PASS-THROUGH!</text>
+</g>
+
+<!-- PANEL 4 -->
+<g>
+<rect x="774" y="524" width="746" height="484" rx="12" fill="#203d4a"/>
+<rect x="798" y="704" width="686" height="256" rx="18" fill="#d7e3e4" stroke="#355c65" stroke-width="5"/>
+<rect x="830" y="727" width="400" height="205" rx="16" fill="url(#screen)" stroke="#527a87" stroke-width="6" filter="url(#sh)"/>
+<text x="1030" y="756" text-anchor="middle" class="tiny" fill="#9de7ff">SHIFT + CONTRACTOR BIOSECURITY DRILL</text>
+<g class="tiny"><rect x="862" y="786" width="143" height="38" rx="7" fill="#3fa773"/><text x="933" y="809" text-anchor="middle" fill="#fff">PERSON 12/12 NEG</text><rect x="1025" y="786" width="165" height="38" rx="7" fill="#3fa773"/><text x="1107" y="809" text-anchor="middle" fill="#fff">TOOLS 18/18 NEG</text><rect x="862" y="839" width="143" height="38" rx="7" fill="#3fa773"/><text x="933" y="862" text-anchor="middle" fill="#fff">FLOOR 8/8 NEG</text><rect x="1025" y="839" width="165" height="38" rx="7" fill="#3fa773"/><text x="1107" y="862" text-anchor="middle" fill="#fff">UNCHECKED ENTRY 0</text></g>
+<text x="1030" y="911" text-anchor="middle" class="t" font-size="20" font-weight="1000" fill="#6dffa7">PROTOCOL LOCKED · ZERO CROSS-ZONE</text>
+<!-- supervisor -->
+<g transform="translate(1383 865)" filter="url(#sh)"><ellipse cy="-86" rx="29" ry="35" fill="#c8916e" stroke="#102631" stroke-width="4"/><path d="M-29-99q8-26 29-28q24 2 30 26l-17-6q-20 2-42 8" fill="#26282a"/><rect x="-49" y="-40" width="98" height="115" rx="18" fill="#345f7b" stroke="#102631" stroke-width="4"/><path d="M-40-4l-102-34" stroke="#345f7b" stroke-width="18" stroke-linecap="round"/><rect x="-157" y="-54" width="39" height="29" rx="4" fill="#162f39"/><path d="M-23 72v66M23 72v66" stroke="#263940" stroke-width="20"/></g>
+<rect x="798" y="544" width="666" height="128" rx="18" class="box"/><text x="1131" y="573" text-anchor="middle" class="t cap"><tspan x="1131">교대조와 외부업체까지 포함한 종합 드릴 종료. 사람 12/12, 공구 18/18, 바닥 8/8 음성. 미검사 반입은 0건이다.</tspan><tspan x="1131" dy="25" font-size="14">综合演练结束：人员12/12、工具18/18、地面8/8均阴性；未检查入场为0。</tspan><tspan x="1131" dy="22" font-size="13">Full drill complete: people 12/12, tools 18/18 and floors 8/8 negative; unchecked entry remains zero.</tspan></text>
+<path d="M1207 687h252q14 0 14 14v58h-280v-58q0-14 14-14z" class="bub"/><text x="1333" y="716" text-anchor="middle" class="t" font-size="15" font-weight="900"><tspan x="1333">이제 규칙은 사람보다 먼저 움직인다.</tspan><tspan x="1333" dy="20" font-size="12">现在，规则先于人员行动。</tspan></text>
+<text x="813" y="985" class="sfx">ZERO ENTRY! ZERO SPREAD! LOCK THE SOP!</text>
+</g>
+</svg>
