@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 169 prevents cross-zone contamination by separating a trace-positive transport case from its sterile inner emergency valve cartridge during a live pressure alarm">
+<defs>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#07192b"/><stop offset=".58" stop-color="#244c63"/><stop offset="1" stop-color="#d28e59"/></linearGradient>
+ <linearGradient id="deck" x2="1" y2="1"><stop stop-color="#d7dfe2"/><stop offset="1" stop-color="#6c7f84"/></linearGradient>
+ <linearGradient id="clean" x2="0" y2="1"><stop stop-color="#e9f6f3"/><stop offset="1" stop-color="#9bcfc2"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#173d50"/><stop offset="1" stop-color="#081b28"/></linearGradient>
+ <linearGradient id="pass" x2="1"><stop stop-color="#d8edf5"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#d3eee5"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".35"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>.t{font-family:Arial,'Malgun Gothic',sans-serif}.box{fill:#fff;stroke:#102631;stroke-width:4}.bub{fill:#fff;stroke:#111;stroke-width:4}.cap{font-size:17px;font-weight:900;fill:#10202a}.sfx{font-family:Arial,'Malgun Gothic',sans-serif;font-size:21px;font-weight:1000;fill:#fff36b;stroke:#10202a;stroke-width:1.4;paint-order:stroke}.tiny{font-family:Arial,'Malgun Gothic',sans-serif;font-size:12px;font-weight:900}</style>
+</defs>
+<rect width="1536" height="1024" fill="#06121b"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173f58"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #169  케이스는 멈추고, 깨끗한 핵심 물품만 건너간다</text>
+<text x="1034" y="49" class="t" fill="#d9f5ff" font-size="16" font-weight="800">LIVE HANDOFF · CASE TRACE+ · 洁净核心物品交接</text>
+
+<!-- PANEL 1: live emergency handoff -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#dawn)"/>
+ <rect x="16" y="330" width="746" height="182" fill="url(#deck)"/>
+ <path d="M58 455h646" stroke="#f2d047" stroke-width="10" stroke-dasharray="26 16"/>
+ <text x="70" y="443" class="tiny" fill="#17384a">ZONE A · DIRTY SIDE</text><text x="572" y="443" class="tiny" fill="#17384a">ZONE B · CLEAN SIDE</text>
+ <rect x="520" y="231" width="176" height="112" rx="14" fill="#e9eef0" stroke="#1f3c49" stroke-width="5" filter="url(#shadow)"/>
+ <rect x="540" y="252" width="136" height="50" rx="7" fill="url(#screen)"/><text x="608" y="283" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#ff7768">PRESSURE LOW</text><circle cx="677" cy="236" r="11" fill="#ff5a50" filter="url(#glow)"/>
+ <!-- dirty-side responder -->
+ <g transform="translate(212 398)" filter="url(#shadow)"><ellipse cy="-78" rx="28" ry="34" fill="#d39a74" stroke="#102631" stroke-width="4"/><path d="M-28-90q8-26 28-28q24 2 29 25l-16-6q-21 2-41 9" fill="#2a2a2a"/><rect x="-47" y="-35" width="94" height="112" rx="18" fill="#e7a437" stroke="#102631" stroke-width="4"/><rect x="-35" y="-7" width="70" height="21" rx="5" fill="#f4e16b"/><path d="M-38-2l-55 30M38-2l54 18" stroke="#e7a437" stroke-width="17" stroke-linecap="round"/><path d="M-22 74v61M22 74v61" stroke="#263940" stroke-width="19"/><path d="M-34 136h29M8 136h30" stroke="#111" stroke-width="16" stroke-linecap="round"/></g>
+ <!-- transport case -->
+ <g transform="translate(350 345)" filter="url(#shadow)"><rect x="0" y="0" width="184" height="94" rx="12" fill="#586b72" stroke="#172a32" stroke-width="6"/><rect x="17" y="17" width="150" height="57" rx="7" fill="#81949a"/><path d="M67 0v-21h51V0" fill="none" stroke="#172a32" stroke-width="10" stroke-linecap="round"/><rect x="55" y="31" width="74" height="29" rx="5" fill="#dce9eb"/><text x="92" y="50" text-anchor="middle" class="tiny" fill="#203740">VALVE V-12</text><circle cx="19" cy="84" r="7" fill="#e24d42"/><circle cx="165" cy="84" r="7" fill="#e24d42"/></g>
+ <!-- clean-side responder -->
+ <g transform="translate(642 403)" filter="url(#shadow)"><ellipse cy="-72" rx="26" ry="32" fill="#c68e69" stroke="#102631" stroke-width="4"/><path d="M-26-84q8-24 26-25q21 2 26 22l-14-5q-18 2-38 8" fill="#44342e"/><rect x="-43" y="-31" width="86" height="103" rx="17" fill="#3d9c82" stroke="#102631" stroke-width="4"/><path d="M-34-2l-47 18M34-2l46-22" stroke="#3d9c82" stroke-width="16" stroke-linecap="round"/><path d="M-20 68v56M20 68v56" stroke="#263940" stroke-width="18"/></g>
+ <rect x="39" y="103" width="670" height="112" rx="18" class="box"/>
+ <text x="374" y="133" text-anchor="middle" class="t cap"><tspan x="374">06:31, B구역 압력경보가 계속된다. 교체용 V-12 밸브 카트리지가 재사용 운반 케이스에 담겨 경계에 도착한다.</tspan><tspan x="374" dy="25" font-size="14">06:31，B区压力报警持续；更换用V-12阀芯装在可重复使用运输箱内抵达边界。</tspan><tspan x="374" dy="22" font-size="13">06:31 — the live alarm continues as a V-12 replacement cartridge arrives inside a reusable transport case.</tspan></text>
+ <path d="M395 220h302q14 0 14 14v68q0 14-14 14H550l-31 24 8-24H395q-14 0-14-14v-68q0-14 14-14z" class="bub"/>
+ <text x="548" y="249" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="548">케이스째 넘기지 마! 손잡이부터 스캔!</tspan><tspan x="548" dy="21" font-size="12">不要整箱交接！先扫描把手！</tspan></text>
+ <text x="48" y="493" class="sfx">ALARM! ARRIVE! HOLD THE CASE!</text>
+</g>
+
+<!-- PANEL 2: case handle positive, sterile pouch negative -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#clean)"/>
+ <rect x="803" y="244" width="683" height="218" rx="20" fill="#eef4f2" stroke="#32615e" stroke-width="5"/>
+ <g transform="translate(834 284)" filter="url(#shadow)"><rect width="260" height="132" rx="14" fill="#64767d" stroke="#18313b" stroke-width="5"/><path d="M91 0v-25h78V0" fill="none" stroke="#18313b" stroke-width="12"/><rect x="35" y="32" width="190" height="61" rx="9" fill="#84979d"/><path d="M106 57h48" stroke="#ff5a50" stroke-width="14" stroke-linecap="round" filter="url(#glow)"/><text x="130" y="119" text-anchor="middle" class="tiny" fill="#fff">REUSABLE OUTER CASE</text></g>
+ <rect x="1120" y="276" width="160" height="149" rx="14" fill="#fff1c3" stroke="#b48224" stroke-width="5"/><text x="1200" y="302" text-anchor="middle" class="tiny">SURFACE READER</text><rect x="1138" y="320" width="124" height="48" rx="8" fill="url(#screen)"/><text x="1200" y="350" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#ff7768">HANDLE +</text><text x="1200" y="397" text-anchor="middle" class="tiny" fill="#a84422">TRACE MATCH</text>
+ <g transform="translate(1310 280)" filter="url(#shadow)"><rect width="144" height="139" rx="16" fill="#e5faf0" stroke="#3b9b6c" stroke-width="5"/><path d="M25 34h94v68H25z" fill="#fff" stroke="#78b89a" stroke-width="3"/><path d="M43 52h58v32H43z" fill="#d9edf5"/><text x="72" y="72" text-anchor="middle" class="tiny">STERILE</text><circle cx="72" cy="117" r="14" fill="#54c687"/><path d="M64 117l6 6 13-16" fill="none" stroke="#fff" stroke-width="5"/><text x="72" y="136" text-anchor="middle" class="tiny" fill="#237450">POUCH NEG</text></g>
+ <rect x="798" y="103" width="666" height="112" rx="18" class="box"/>
+ <text x="1131" y="133" text-anchor="middle" class="t cap"><tspan x="1131">외부 케이스 손잡이에서 TRACE+가 검출된다. 그러나 밀봉된 내부 멸균 파우치는 음성이다 — 오염은 포장 표면에 멈춰 있다.</tspan><tspan x="1131" dy="25" font-size="14">外箱把手检出TRACE+，但密封的内层无菌袋为阴性；污染停留在外包装表面。</tspan><tspan x="1131" dy="22" font-size="13">TRACE+ appears on the outer handle, while the sealed sterile inner pouch remains negative.</tspan></text>
+ <path d="M1088 389h374q14 0 14 14v62q0 14-14 14h-189l-31 23 8-23h-162q-14 0-14-14v-62q0-14 14-14z" class="bub"/>
+ <text x="1275" y="419" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="1275">외부 케이스 격리! 내부 파우치만 무접촉 인계!</tspan><tspan x="1275" dy="21" font-size="12">隔离外箱！只交接内层无菌袋！</tspan></text>
+ <text x="812" y="493" class="sfx">SCAN! TRACE+! OUTER STAYS!</text>
+</g>
+
+<!-- PANEL 3: pass-through hatch and clean transfer -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#c9dfe5"/>
+ <rect x="43" y="703" width="690" height="260" rx="18" fill="#dceae8" stroke="#386b68" stroke-width="5"/>
+ <rect x="270" y="733" width="220" height="184" rx="16" fill="url(#pass)" stroke="#357c83" stroke-width="6" filter="url(#shadow)"/>
+ <rect x="298" y="761" width="164" height="86" rx="10" fill="#f8ffff" stroke="#58a6ad" stroke-width="4"/><path d="M325 785h110v39H325z" fill="#e4f8ee" stroke="#5fa681" stroke-width="3"/><text x="380" y="810" text-anchor="middle" class="tiny">STERILE V-12</text><circle cx="309" cy="878" r="15" fill="#58c989"/><circle cx="451" cy="878" r="15" fill="#58c989"/><text x="380" y="883" text-anchor="middle" class="tiny" fill="#237450">PASS-THROUGH READY</text>
+ <g transform="translate(150 832)" filter="url(#shadow)"><ellipse cy="-82" rx="27" ry="33" fill="#d39a74" stroke="#102631" stroke-width="4"/><path d="M-27-94q8-25 27-27q23 2 28 24l-15-6q-20 3-40 9" fill="#2b2b2b"/><rect x="-45" y="-38" width="90" height="108" rx="18" fill="#e7a437" stroke="#102631" stroke-width="4"/><path d="M-35-4l67 23" stroke="#e7a437" stroke-width="17" stroke-linecap="round"/><circle cx="44" cy="23" r="12" fill="#65d39a" stroke="#183b32" stroke-width="3"/><path d="M-21 68v59M21 68v59" stroke="#263940" stroke-width="18"/></g>
+ <g transform="translate(610 832)" filter="url(#shadow)"><ellipse cy="-82" rx="27" ry="33" fill="#c68e69" stroke="#102631" stroke-width="4"/><path d="M-27-94q8-24 27-26q22 2 27 23l-14-5q-19 2-40 8" fill="#47342e"/><rect x="-45" y="-38" width="90" height="108" rx="18" fill="#3d9c82" stroke="#102631" stroke-width="4"/><path d="M35-4l-67 23" stroke="#3d9c82" stroke-width="17" stroke-linecap="round"/><circle cx="-44" cy="23" r="12" fill="#65d39a" stroke="#183b32" stroke-width="3"/><path d="M-21 68v59M21 68v59" stroke="#263940" stroke-width="18"/></g>
+ <path d="M249 854h-38M511 854h38" stroke="#61b391" stroke-width="8" stroke-dasharray="10 8"/>
+ <rect x="39" y="548" width="670" height="118" rx="18" class="box"/>
+ <text x="374" y="579" text-anchor="middle" class="t cap"><tspan x="374">새 장갑을 낀 양쪽 작업자가 패스스루 해치를 사용한다. 외부 케이스는 A구역에 남고, 음성 확인된 멸균 파우치만 B구역으로 이동한다.</tspan><tspan x="374" dy="25" font-size="14">两侧人员更换新手套，通过传递舱交接；外箱留在A区，仅阴性的无菌袋进入B区。</tspan><tspan x="374" dy="22" font-size="13">With fresh gloves, crews use the pass-through hatch: the case stays in A, only the negative sterile pouch crosses.</tspan></text>
+ <path d="M237 668h287q14 0 14 14v58q0 14-14 14H405l-28 21 7-21H237q-14 0-14-14v-58q0-14 14-14z" class="bub"/>
+ <text x="381" y="697" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="381">봉인 확인 — 손에서 손으로 넘기지 않는다.</tspan><tspan x="381" dy="20" font-size="12">确认封口，不进行手递手交接。</tspan></text>
+ <text x="48" y="987" class="sfx">GLOVE! VERIFY! PASS! ZERO CONTACT!</text>
+</g>
+
+<!-- PANEL 4: live repair succeeds, rule becomes permanent -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="#172f3c"/>
+ <rect x="795" y="692" width="700" height="270" rx="18" fill="#dce7e8" stroke="#385b63" stroke-width="5"/>
+ <g transform="translate(830 735)" filter="url(#shadow)"><rect width="250" height="178" rx="16" fill="#edf3f3" stroke="#37545d" stroke-width="5"/><text x="125" y="27" text-anchor="middle" class="tiny">B-ZONE PRESSURE MANIFOLD</text><circle cx="75" cy="91" r="45" fill="#fff" stroke="#31545e" stroke-width="5"/><path d="M75 91l22-26" stroke="#2c8a67" stroke-width="7" stroke-linecap="round"/><text x="75" y="149" text-anchor="middle" class="tiny" fill="#237450">2.6 bar · STABLE</text><rect x="146" y="59" width="76" height="68" rx="9" fill="#cedfe2" stroke="#31545e" stroke-width="4"/><text x="184" y="86" text-anchor="middle" class="tiny">V-12</text><text x="184" y="107" text-anchor="middle" class="tiny" fill="#237450">LOCKED</text></g>
+ <g transform="translate(1111 720)" filter="url(#shadow)"><rect width="345" height="208" rx="16" fill="#f6fbfa" stroke="#3b806f" stroke-width="5"/><text x="172" y="29" text-anchor="middle" class="t" font-size="16" font-weight="1000" fill="#204b43">NEW CROSS-ZONE HANDOFF RULE</text><path d="M36 58h273" stroke="#9dbeb6" stroke-width="3"/><text x="45" y="86" class="t" font-size="15" font-weight="900">1. OUTER CASE: DIRTY SIDE ONLY</text><text x="45" y="113" class="t" font-size="15" font-weight="900">2. INNER POUCH: SCAN NEGATIVE</text><text x="45" y="140" class="t" font-size="15" font-weight="900">3. PASS-THROUGH + FRESH GLOVES</text><text x="45" y="167" class="t" font-size="15" font-weight="900">4. 24H FOLLOW-UP: 16 / 16 NEG</text><rect x="60" y="178" width="225" height="20" rx="10" fill="#5cc98a"/><text x="172" y="193" text-anchor="middle" class="tiny" fill="#fff">ZERO SECONDARY SPREAD</text></g>
+ <g transform="translate(1029 900)" filter="url(#shadow)"><ellipse cy="-61" rx="23" ry="28" fill="#c68e69" stroke="#102631" stroke-width="4"/><path d="M-23-71q7-21 23-23q19 2 23 20l-13-4q-16 2-33 7" fill="#43342f"/><rect x="-38" y="-26" width="76" height="83" rx="14" fill="#3d9c82" stroke="#102631" stroke-width="4"/><path d="M-31-2l-39 16M31-2l39-17" stroke="#3d9c82" stroke-width="14" stroke-linecap="round"/></g>
+ <rect x="798" y="548" width="666" height="118" rx="18" class="box"/>
+ <text x="1131" y="579" text-anchor="middle" class="t cap"><tspan x="1131">V-12 교체 후 압력은 2.6bar로 회복된다. 24시간 추적검사 16/16 음성 — ‘외부 케이스는 남고 깨끗한 핵심만 이동’ 규칙이 상시 적용된다.</tspan><tspan x="1131" dy="25" font-size="14">V-12更换后压力恢复至2.6bar，24小时追踪16/16阴性；“外箱不越界，只转移洁净核心”成为常规规则。</tspan><tspan x="1131" dy="22" font-size="13">Pressure returns to 2.6 bar; 16/16 follow-up samples are negative, making clean-core-only transfer the permanent rule.</tspan></text>
+ <path d="M820 672h312q14 0 14 14v58q0 14-14 14H997l-30 22 8-22H820q-14 0-14-14v-58q0-14 14-14z" class="bub"/>
+ <text x="976" y="701" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="976">수리는 빨라야 하지만, 경계는 더 정확해야 한다.</tspan><tspan x="976" dy="20" font-size="12">抢修要快，边界控制必须更准确。</tspan></text>
+ <text x="811" y="987" class="sfx">PRESSURE UP! 16/16 NEG! CLEAN CORE ONLY!</text>
+</g>
+</svg>
