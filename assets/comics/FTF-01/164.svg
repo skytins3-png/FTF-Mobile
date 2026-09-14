@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 164 proves the reopened M-3 depot remains clean under real ship operations">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#274c68"/><stop offset=".52" stop-color="#78a8bc"/><stop offset="1" stop-color="#ffd09d"/></linearGradient>
+ <linearGradient id="night" x2="1" y2="1"><stop stop-color="#071928"/><stop offset="1" stop-color="#24465b"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#4bb8cc"/><stop offset="1" stop-color="#0b4d68"/></linearGradient>
+ <linearGradient id="deck" x2="0" y2="1"><stop stop-color="#dce5e7"/><stop offset="1" stop-color="#728087"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity=".38"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+  .t{font-family:Arial,'Malgun Gothic',sans-serif}.cap{font-weight:900;fill:#10202a}.small{font-size:13px}.mid{font-size:17px}.sfx{font-family:Arial,sans-serif;font-size:23px;font-weight:1000;fill:#fff36b;stroke:#10202a;stroke-width:1.2;paint-order:stroke}.box{fill:#fff;stroke:#111;stroke-width:4}.bubble{fill:#fff;stroke:#111;stroke-width:4}
+ </style>
+</defs>
+<rect width="1536" height="1024" fill="#06121b"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173f58"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #164  다시 연 첫날 — ‘깨끗함’은 실제 운항 속에서도 유지되어야 한다</text>
+<text x="1080" y="49" class="t" fill="#d9f5ff" font-size="16" font-weight="800">LIVE LOAD · DEDICATED LINE · VERIFY · 实船验证</text>
+
+<!-- PANEL 1: first real ship after reopening -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+ <rect x="16" y="330" width="746" height="182" fill="#65767e"/>
+ <path d="M16 425h746v87H16z" fill="url(#sea)"/>
+ <path d="M64 401h360l51 36H31z" fill="#eef2f3" stroke="#203944" stroke-width="6"/>
+ <rect x="105" y="326" width="158" height="77" rx="8" fill="#f6fbfc" stroke="#203944" stroke-width="5"/>
+ <rect x="131" y="342" width="36" height="23" fill="#70b3c9"/><rect x="184" y="342" width="36" height="23" fill="#70b3c9"/>
+ <text x="302" y="420" class="t" font-size="25" font-weight="1000" fill="#183847">K-51</text>
+ <rect x="473" y="237" width="242" height="152" rx="12" fill="#dce7ea" stroke="#223842" stroke-width="5"/>
+ <text x="594" y="271" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#1b4358">M-3 SERVICE DEPOT</text>
+ <rect x="504" y="295" width="80" height="70" rx="7" fill="#79b6c6"/><rect x="602" y="295" width="80" height="70" rx="7" fill="#79b6c6"/>
+ <path d="M585 389v57" stroke="#f4b737" stroke-width="18"/><path d="M585 446h-77" stroke="#f4b737" stroke-width="18"/>
+ <text x="642" y="413" class="t" font-size="14" font-weight="900" fill="#fff">LINE A · K-51 ONLY</text>
+ <g transform="translate(472 456)" filter="url(#shadow)"><ellipse cy="-66" rx="27" ry="33" fill="#c98e6e" stroke="#102631" stroke-width="4"/><path d="M-26-77q9-25 29-27q23 4 27 25l-18-7q-20 4-38 9" fill="#2d2d2d"/><rect x="-43" y="-27" width="86" height="105" rx="17" fill="#f1b33a" stroke="#102631" stroke-width="4"/><path d="M-34-6l-59 25M34-6l63-9" stroke="#f1b33a" stroke-width="17" stroke-linecap="round"/></g>
+ <g transform="translate(687 457)" filter="url(#shadow)"><ellipse cy="-65" rx="26" ry="32" fill="#d6a17d" stroke="#102631" stroke-width="4"/><path d="M-25-75q9-24 27-25q20 3 25 23l-17-6q-18 5-35 8" fill="#563a31"/><rect x="-40" y="-26" width="80" height="101" rx="16" fill="#3da58b" stroke="#102631" stroke-width="4"/><path d="M-31-5l-47-25M31-5l46 27" stroke="#3da58b" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="38" y="103" width="672" height="108" rx="18" class="box"/>
+ <text x="374" y="134" text-anchor="middle" class="t cap mid"><tspan x="374">재가동 첫 실선 K-51이 들어온다. 새 규칙대로 K-51은 전용 세척라인 A만 사용한다.</tspan><tspan x="374" dy="25" font-size="14">重启后的首艘实船K-51进场，只能使用专属清洗A线，禁止共用软管。</tspan><tspan x="374" dy="22" font-size="13">First live ship after reopening: K-51 uses dedicated Line A only. No shared hose.</tspan></text>
+ <path d="M419 219h288q16 0 16 16v58q0 16-16 16H553l-32 27 8-27H419q-16 0-16-16v-58q0-16 16-16z" class="bubble"/>
+ <text x="566" y="249" text-anchor="middle" class="t" font-size="17" font-weight="900"><tspan x="566">라인 A 봉인번호 확인! K-51 외 사용 금지!</tspan><tspan x="566" dy="22" font-size="13">核对A线封签！仅限K-51！</tspan></text>
+ <text x="47" y="491" class="sfx">DOCK! SEAL! DEDICATED LINE!</text>
+</g>
+
+<!-- PANEL 2: live wash + contamination barrier -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#deck)"/>
+ <rect x="798" y="231" width="690" height="244" rx="18" fill="#1d3947"/>
+ <path d="M829 347h170v-64h176v108h155v-62h116" fill="none" stroke="#dde8ea" stroke-width="30" stroke-linejoin="round"/>
+ <path d="M829 347h170v-64h176v108h155v-62h116" fill="none" stroke="#43c3dd" stroke-width="10" stroke-linejoin="round" filter="url(#glow)"/>
+ <circle cx="999" cy="283" r="34" fill="#fff" stroke="#203944" stroke-width="6"/><text x="999" y="291" text-anchor="middle" class="t" font-size="19" font-weight="1000" fill="#176a7c">2.6 bar</text>
+ <rect x="1177" y="257" width="145" height="121" rx="12" fill="#fff6cf" stroke="#b78324" stroke-width="5"/>
+ <text x="1249" y="284" text-anchor="middle" class="t" font-size="14" font-weight="900" fill="#6e5018">BACKFLOW</text><text x="1249" y="329" text-anchor="middle" class="t" font-size="31" font-weight="1000" fill="#198260">0</text><text x="1249" y="355" text-anchor="middle" class="t" font-size="12" font-weight="900" fill="#6e5018">LIVE LOAD</text>
+ <rect x="1341" y="247" width="116" height="144" rx="12" fill="#eefcf6" stroke="#3a9c76" stroke-width="5"/>
+ <text x="1399" y="279" text-anchor="middle" class="t" font-size="13" font-weight="900">FLOW</text><text x="1399" y="320" text-anchor="middle" class="t" font-size="25" font-weight="1000" fill="#24795d">PASS</text><text x="1399" y="350" text-anchor="middle" class="t" font-size="11" font-weight="900">NO CROSS-LINE</text>
+ <g transform="translate(872 459)" filter="url(#shadow)"><ellipse cy="-59" rx="25" ry="30" fill="#c99170" stroke="#102b35" stroke-width="4"/><rect x="-38" y="-22" width="76" height="92" rx="15" fill="#f0b33a" stroke="#102b35" stroke-width="4"/><path d="M-30-5l-45-36M30-5l51-29" stroke="#f0b33a" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="798" y="103" width="666" height="108" rx="18" class="box"/>
+ <text x="1131" y="134" text-anchor="middle" class="t cap mid"><tspan x="1131">실제 세척 유량에서 압력 2.6bar. 역류 0, A/B 라인 간 교차 흐름 0을 센서가 실시간 확인한다.</tspan><tspan x="1131" dy="25" font-size="14">实船清洗负荷下保持2.6bar：零回流、A/B线零交叉流动。</tspan><tspan x="1131" dy="22" font-size="13">Under real wash load: 2.6 bar, zero backflow, zero cross-line flow.</tspan></text>
+ <path d="M1046 402h394q15 0 15 15v55q0 15-15 15h-202l-29 22 7-22h-170q-15 0-15-15v-55q0-15 15-15z" class="bubble"/>
+ <text x="1243" y="433" text-anchor="middle" class="t" font-size="17" font-weight="900"><tspan x="1243">실부하에서도 역류 0! A/B 완전 분리!</tspan><tspan x="1243" dy="22" font-size="13">实载零回流，A/B完全隔离！</tspan></text>
+ <text x="812" y="492" class="sfx">FLOW! PRESSURE! ZERO CROSS-LINE!</text>
+</g>
+
+<!-- PANEL 3: surprise swab catches risk outside the hose -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#c9dce3"/>
+ <rect x="42" y="704" width="692" height="257" rx="18" fill="#173e52"/>
+ <rect x="75" y="742" width="228" height="170" rx="14" fill="#fff" stroke="#3b8ead" stroke-width="5"/>
+ <text x="189" y="774" text-anchor="middle" class="t" font-size="14" font-weight="900" fill="#245e77">HOSE A / OUTLET</text><circle cx="189" cy="826" r="34" fill="#c8f1d9" stroke="#35966a" stroke-width="5"/><text x="189" y="834" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#237450">NEG</text><text x="189" y="880" text-anchor="middle" class="t" font-size="13" font-weight="900">eDNA 0</text>
+ <rect x="328" y="742" width="228" height="170" rx="14" fill="#fff2e7" stroke="#cf6b31" stroke-width="5"/>
+ <text x="442" y="774" text-anchor="middle" class="t" font-size="14" font-weight="900" fill="#7f3e1f">WHEEL CHOCK C-4</text><circle cx="442" cy="826" r="34" fill="#ffd0b1" stroke="#cf6b31" stroke-width="5"/><text x="442" y="834" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#a83d1d">TRACE</text><text x="442" y="880" text-anchor="middle" class="t" font-size="13" font-weight="900">OLD BIOFILM</text>
+ <rect x="579" y="742" width="122" height="170" rx="14" fill="#fff6cf" stroke="#b78324" stroke-width="5"/>
+ <text x="640" y="776" text-anchor="middle" class="t" font-size="13" font-weight="900">ACTION</text><text x="640" y="820" text-anchor="middle" class="t" font-size="19" font-weight="1000" fill="#b63b2b">STOP</text><text x="640" y="850" text-anchor="middle" class="t" font-size="12" font-weight="900">DISINFECT</text><text x="640" y="879" text-anchor="middle" class="t" font-size="12" font-weight="900">RE-SWAB</text>
+ <g transform="translate(366 696)" filter="url(#shadow)"><ellipse cy="-58" rx="26" ry="31" fill="#d2a17c" stroke="#102a35" stroke-width="4"/><path d="M-25-69q8-24 27-25q19 3 25 24l-16-7q-18 5-36 8" fill="#5a3d32"/><rect x="-40" y="-23" width="80" height="95" rx="16" fill="#43a88f" stroke="#102a35" stroke-width="4"/><path d="M-31-4l-52 34M31-4l52 28" stroke="#43a88f" stroke-width="16" stroke-linecap="round"/></g>
+ <rect x="39" y="548" width="670" height="119" rx="18" class="box"/>
+ <text x="374" y="579" text-anchor="middle" class="t cap mid"><tspan x="374">무작위 면봉검사에서 호스는 음성. 하지만 바퀴 고임목 C-4에서 오래된 생물막 흔적을 발견한다.</tspan><tspan x="374" dy="25" font-size="14">随机拭子显示软管阴性，却在轮挡C-4发现旧生物膜痕迹。</tspan><tspan x="374" dy="23" font-size="13">Random swab: hose negative, but wheel chock C-4 carries an old biofilm trace.</tspan></text>
+ <path d="M67 674h287q15 0 15 15v55q0 15-15 15H211l-30 23 8-23H67q-15 0-15-15v-55q0-15 15-15z" class="bubble"/>
+ <text x="211" y="704" text-anchor="middle" class="t" font-size="17" font-weight="900"><tspan x="211">호스만 보지 마! 바닥 장비까지 전부 멈춰!</tspan><tspan x="211" dy="22" font-size="13">别只查软管！地面器材全部停用！</tspan></text>
+ <text x="61" y="944" class="sfx">SWAB! TRACE! STOP! DISINFECT!</text>
+</g>
+
+<!-- PANEL 4: corrective loop closed -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#night)"/>
+ <path d="M774 838h746v170H774z" fill="#0a405a"/>
+ <rect x="813" y="723" width="667" height="193" rx="18" fill="#edf7f4" stroke="#4da486" stroke-width="5"/>
+ <text x="1147" y="756" text-anchor="middle" class="t" font-size="17" font-weight="1000" fill="#205d4c">FIRST LIVE-DAY VALIDATION</text>
+ <g class="t" font-weight="900" fill="#173e52" font-size="16">
+  <text x="850" y="795">K-51 dedicated Line A</text><text x="1397" y="795" text-anchor="end" fill="#17825d">PASS</text>
+  <text x="850" y="827">Backflow / cross-line flow</text><text x="1397" y="827" text-anchor="end" fill="#17825d">0 / 0</text>
+  <text x="850" y="859">C-4 trace → disinfect → re-swab</text><text x="1397" y="859" text-anchor="end" fill="#17825d">NEGATIVE</text>
+  <text x="850" y="891">Secondary harbor eDNA signal</text><text x="1397" y="891" text-anchor="end" fill="#17825d">0</text>
+ </g>
+ <g transform="translate(880 713)" filter="url(#shadow)"><ellipse cy="-62" rx="26" ry="32" fill="#c98f6d" stroke="#102631" stroke-width="4"/><path d="M-25-73q9-24 27-25q21 3 26 24l-17-7q-19 5-36 8" fill="#27292b"/><rect x="-40" y="-25" width="80" height="99" rx="16" fill="#f1b33a" stroke="#102631" stroke-width="4"/></g>
+ <g transform="translate(1450 713)" filter="url(#shadow)"><ellipse cy="-62" rx="26" ry="32" fill="#d5a17c" stroke="#102631" stroke-width="4"/><path d="M-25-73q8-24 27-25q20 3 25 24l-17-7q-18 5-35 8" fill="#563a31"/><rect x="-40" y="-25" width="80" height="99" rx="16" fill="#3da58b" stroke="#102631" stroke-width="4"/></g>
+ <rect x="798" y="548" width="666" height="121" rx="18" class="box"/>
+ <text x="1131" y="579" text-anchor="middle" class="t cap mid"><tspan x="1131">C-4를 즉시 소독·격리하고 재검사 음성 확인. 첫 실운항 검증은 ‘숨은 장비까지 포함’하는 새 체크리스트로 닫힌다.</tspan><tspan x="1131" dy="25" font-size="14">C-4立即消毒隔离，复检阴性；新清单把所有地面器材也纳入闭环管理。</tspan><tspan x="1131" dy="23" font-size="13">C-4 is disinfected and re-swabbed negative. The new checklist now covers every ground tool.</tspan></text>
+ <path d="M1017 678h406q15 0 15 15v55q0 15-15 15h-216l-31 23 9-23h-168q-15 0-15-15v-55q0-15 15-15z" class="bubble"/>
+ <text x="1220" y="709" text-anchor="middle" class="t" font-size="17" font-weight="900"><tspan x="1220">깨끗한 라인만으론 부족해. ‘현장 전체’가 깨끗해야 한다.</tspan><tspan x="1220" dy="22" font-size="13">不仅管线要干净，整个现场都必须干净。</tspan></text>
+ <text x="810" y="976" class="sfx">CORRECT! RE-SWAB! ZERO SECONDARY SPREAD!</text>
+</g>
+</svg>
