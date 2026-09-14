@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 173 hardens the fixed-tablet system during a storm power dip by stopping a shared emergency charger from crossing zones and replacing it with sealed zone-dedicated backup power">
+<defs>
+ <linearGradient id="storm" x2="0" y2="1"><stop stop-color="#081522"/><stop offset=".48" stop-color="#28485b"/><stop offset="1" stop-color="#8aa0a8"/></linearGradient>
+ <linearGradient id="deck" x2="0" y2="1"><stop stop-color="#c4cfd1"/><stop offset="1" stop-color="#768b91"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#0b3447"/><stop offset="1" stop-color="#04141d"/></linearGradient>
+ <linearGradient id="warn" x2="1" y2="1"><stop stop-color="#ffbe47"/><stop offset="1" stop-color="#e76046"/></linearGradient>
+ <linearGradient id="clean" x2="1" y2="1"><stop stop-color="#0a6674"/><stop offset="1" stop-color="#18a77f"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-opacity=".45"/></filter>
+ <filter id="gl"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="rain"><feTurbulence baseFrequency=".9" numOctaves="1" seed="7" result="n"/><feColorMatrix in="n" values="1 0 0 0 .65  0 1 0 0 .78  0 0 1 0 .9  0 0 0 .18 0"/></filter>
+ <style>
+ .t{font-family:Arial,'Malgun Gothic',sans-serif}.cap{font-size:17px;font-weight:900;fill:#10202a}.tiny{font-family:Arial,'Malgun Gothic',sans-serif;font-size:12px;font-weight:900}.bub{fill:#fff;stroke:#10202a;stroke-width:4}.box{fill:#fff;stroke:#102733;stroke-width:4}.sfx{font-family:Arial,'Malgun Gothic',sans-serif;font-size:22px;font-weight:1000;fill:#fff16f;stroke:#0b1a22;stroke-width:2;paint-order:stroke}.mono{font-family:Consolas,monospace;font-weight:900}
+ </style>
+</defs>
+<rect width="1536" height="1024" fill="#051018"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#173e58"/>
+<text x="28" y="50" class="t" fill="#fff" font-size="29" font-weight="900">FTF-01 #173  전원도 경계를 넘지 않는다 — 폭풍 속 공용 충전기 차단</text>
+<text x="1015" y="49" class="t" fill="#d5f4ff" font-size="16" font-weight="800">STORM POWER DIP · SHARED CHARGER · ZONE-LOCKED BACKUP</text>
+
+<!-- PANEL 1: storm and power dip -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#storm)"/>
+ <path d="M16 345 Q150 309 292 338 T568 328 T762 336V512H16Z" fill="#123a4d"/>
+ <path d="M62 390h650v122H62z" fill="url(#deck)"/>
+ <path d="M400 352v160" stroke="#f6d64b" stroke-width="9" stroke-dasharray="20 12"/><text x="414" y="496" class="tiny" fill="#22343a">BIOSECURITY LINE</text>
+ <!-- harbor cranes -->
+ <path d="M88 345V208h16v137M104 219l112 43M104 244l82-22" stroke="#172630" stroke-width="10" fill="none"/><path d="M654 344V225h14v119M668 234l-92 38" stroke="#172630" stroke-width="9" fill="none"/>
+ <path d="M260 118l-38 69 42-10-20 62 80-98-43 12 24-35z" fill="#fff6a3" filter="url(#gl)"/>
+ <g opacity=".55" stroke="#d3ecf7" stroke-width="3"><path d="M40 102l-70 130M93 94L20 234M150 91L72 235M515 91l-70 139M570 91l-76 143M705 95l-70 137"/></g>
+ <!-- fixed stations -->
+ <g transform="translate(132 286)" filter="url(#sh)"><rect x="-46" y="-70" width="126" height="119" rx="12" fill="#e5ecee" stroke="#274854" stroke-width="5"/><rect x="-28" y="-51" width="90" height="58" rx="6" fill="url(#screen)"/><text x="17" y="-25" text-anchor="middle" class="tiny" fill="#a4edff">A-ZONE</text><text x="17" y="-5" text-anchor="middle" class="tiny" fill="#ff8a78">UPS 18%</text><rect x="-5" y="18" width="44" height="14" rx="7" fill="#e9684f"/></g>
+ <g transform="translate(570 286)" filter="url(#sh)"><rect x="-46" y="-70" width="126" height="119" rx="12" fill="#e5ecee" stroke="#274854" stroke-width="5"/><rect x="-28" y="-51" width="90" height="58" rx="6" fill="url(#screen)"/><text x="17" y="-25" text-anchor="middle" class="tiny" fill="#a4edff">B-ZONE</text><text x="17" y="-5" text-anchor="middle" class="tiny" fill="#ff8a78">UPS 21%</text><rect x="-5" y="18" width="44" height="14" rx="7" fill="#e9684f"/></g>
+ <!-- technician realistic figure -->
+ <g transform="translate(342 402)" filter="url(#sh)">
+  <ellipse cy="-101" rx="31" ry="38" fill="#d6a17d" stroke="#102631" stroke-width="4"/><path d="M-30-111q8-29 31-31q24 2 31 27l-17-6q-22 1-45 10" fill="#252a2d"/><path d="M-18-97q18 9 36 0" stroke="#805240" stroke-width="3" fill="none"/><circle cx="-11" cy="-103" r="3"/><circle cx="12" cy="-103" r="3"/>
+  <rect x="-54" y="-57" width="108" height="132" rx="22" fill="#e28a35" stroke="#102631" stroke-width="4"/><path d="M-42-18h84" stroke="#f8d36d" stroke-width="12"/><rect x="-22" y="1" width="44" height="34" rx="5" fill="#dfe7e8" stroke="#18303a" stroke-width="3"/><text x="0" y="22" text-anchor="middle" class="tiny" fill="#25363d">PWR</text>
+  <path d="M-45-30l-79 41" stroke="#e28a35" stroke-width="20" stroke-linecap="round"/><path d="M44-31l80 37" stroke="#e28a35" stroke-width="20" stroke-linecap="round"/><path d="M-27 73l-8 77M27 73l9 77" stroke="#263942" stroke-width="23" stroke-linecap="round"/><path d="M-48 149h35M14 149h39" stroke="#101b20" stroke-width="15" stroke-linecap="round"/>
+ </g>
+ <g transform="translate(248 405)" filter="url(#sh)"><rect x="-55" y="-33" width="110" height="66" rx="11" fill="#202c34" stroke="#0b1317" stroke-width="5"/><rect x="-41" y="-20" width="61" height="40" rx="5" fill="#5b8494"/><text x="-10" y="5" text-anchor="middle" class="tiny" fill="#fff">P-6</text><circle cx="37" cy="0" r="9" fill="#e95a4c"/><path d="M55 0q34 0 44-23" stroke="#151d22" stroke-width="8" fill="none"/></g>
+ <rect x="40" y="103" width="665" height="111" rx="18" class="box"/><text x="372" y="132" text-anchor="middle" class="t cap"><tspan x="372">04:42 폭풍으로 순간 전압이 떨어진다. A·B 고정 태블릿의 UPS가 동시에 경고를 띄우자 전원 담당자가 공용 비상배터리 P-6을 들고 뛰어온다.</tspan><tspan x="372" dy="25" font-size="14">04:42，暴风导致电压瞬降。A、B区固定平板同时报警，电力人员带着共用应急电源P-6赶来。</tspan><tspan x="372" dy="22" font-size="13">04:42 — a storm power dip hits both fixed tablets; a technician rushes in with shared emergency pack P-6.</tspan></text>
+ <path d="M88 229h323q14 0 14 14v62q0 14-14 14H275l-25 22 5-22H88q-14 0-14-14v-62q0-14 14-14z" class="bub"/><text x="250" y="257" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="250">배터리 하나면 두 구역 다 살릴 수 있어!</tspan><tspan x="250" dy="21" font-size="12">一个电源就能救两个区！ / One pack can save both zones!</tspan></text>
+ <text x="44" y="490" class="sfx">KRAK!  POWER DIP!  UPS 18%!</text>
+</g>
+
+<!-- PANEL 2: crossing blocked and trace found -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="#bdcbd0"/>
+ <rect x="774" y="350" width="746" height="162" fill="url(#deck)"/>
+ <path d="M1138 216v296" stroke="#f4d74f" stroke-width="10" stroke-dasharray="22 12"/>
+ <!-- smart gate -->
+ <rect x="1049" y="236" width="176" height="160" rx="16" fill="#e8eff0" stroke="#264a56" stroke-width="6" filter="url(#sh)"/><rect x="1072" y="259" width="130" height="67" rx="7" fill="url(#screen)"/><text x="1137" y="281" text-anchor="middle" class="tiny" fill="#a9edff">BOUNDARY SCAN</text><text x="1137" y="307" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#ff695f">P-6 BLOCKED</text><circle cx="1137" cy="355" r="18" fill="#ef5148" filter="url(#gl)"/>
+ <!-- power pack closeup -->
+ <g transform="translate(1323 344)" filter="url(#sh)"><rect x="-82" y="-58" width="164" height="116" rx="16" fill="#1c2931" stroke="#0b1317" stroke-width="6"/><rect x="-62" y="-35" width="82" height="52" rx="6" fill="#446c7c"/><text x="-21" y="-8" text-anchor="middle" class="tiny" fill="#fff">P-6</text><circle cx="53" cy="-10" r="13" fill="#e95850"/><path d="M82 0q52 1 62-35" stroke="#1b2429" stroke-width="10" fill="none"/><circle cx="144" cy="-38" r="13" fill="#ff594c" filter="url(#gl)"/><text x="47" y="42" text-anchor="middle" class="tiny" fill="#ff948b">USB-C TRACE+</text></g>
+ <!-- inspector -->
+ <g transform="translate(905 420)" filter="url(#sh)"><ellipse cy="-90" rx="29" ry="35" fill="#dfad88" stroke="#102631" stroke-width="4"/><path d="M-29-102q8-25 29-27q22 1 29 24l-15-5q-20 2-43 8" fill="#372b28"/><rect x="-49" y="-44" width="98" height="116" rx="19" fill="#318a81" stroke="#102631" stroke-width="4"/><path d="M37-11l107-28" stroke="#318a81" stroke-width="18" stroke-linecap="round"/><path d="M-24 70v65M24 70v65" stroke="#253942" stroke-width="21"/></g>
+ <g transform="translate(1020 360) rotate(-12)"><rect x="-36" y="-8" width="72" height="16" rx="8" fill="#e9f0f2" stroke="#26383f" stroke-width="3"/><circle cx="35" cy="0" r="7" fill="#ff665c"/></g>
+ <rect x="798" y="103" width="666" height="111" rx="18" class="box"/><text x="1131" y="132" text-anchor="middle" class="t cap"><tspan x="1131">P-6은 A구역 충전 직후 B구역으로 이동하려다 경계 게이트에서 차단된다. USB-C 커넥터 면봉검사에서 TRACE+가 검출된다.</tspan><tspan x="1131" dy="25" font-size="14">P-6给A区充电后准备进入B区，被边界门拦下；USB-C接头拭子检测为TRACE+。</tspan><tspan x="1131" dy="22" font-size="13">After charging A-zone, P-6 is stopped before B-zone; its USB-C connector tests TRACE+.</tspan></text>
+ <path d="M835 231h364q14 0 14 14v63q0 14-14 14H1046l-31 25 8-25H835q-14 0-14-14v-63q0-14 14-14z" class="bub"/><text x="1016" y="259" text-anchor="middle" class="t" font-size="15" font-weight="900"><tspan x="1016">멈춰! 데이터만이 아니라 전원 케이블도 접촉 경로야.</tspan><tspan x="1016" dy="20" font-size="12">停！电源线也是接触路径。 / Power cables are contact paths too.</tspan></text>
+ <text x="803" y="490" class="sfx">BEEP!  GATE LOCK!  SWAB → TRACE+!</text>
+</g>
+
+<!-- PANEL 3: forensic replay and no-cross power architecture -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#a9c2cc"/>
+ <rect x="42" y="699" width="694" height="270" rx="18" fill="#dbe6e8" stroke="#365b64" stroke-width="5"/>
+ <path d="M376 689v280" stroke="#f4d74f" stroke-width="9" stroke-dasharray="20 12"/>
+ <!-- A backup locker -->
+ <g transform="translate(177 813)" filter="url(#sh)"><rect x="-104" y="-95" width="208" height="191" rx="15" fill="#e9eff0" stroke="#31515d" stroke-width="6"/><rect x="-80" y="-70" width="160" height="66" rx="8" fill="url(#screen)"/><text x="0" y="-45" text-anchor="middle" class="tiny" fill="#a6edff">A-ZONE POWER A-UPS</text><text x="0" y="-18" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#6ff2ad">SEALED · LOCAL ONLY</text><rect x="-68" y="18" width="136" height="48" rx="8" fill="#28434d"/><path d="M-45 42h90" stroke="#62df8e" stroke-width="9"/><circle cx="74" cy="72" r="9" fill="#5fd991"/></g>
+ <!-- B backup locker -->
+ <g transform="translate(573 813)" filter="url(#sh)"><rect x="-104" y="-95" width="208" height="191" rx="15" fill="#e9eff0" stroke="#31515d" stroke-width="6"/><rect x="-80" y="-70" width="160" height="66" rx="8" fill="url(#screen)"/><text x="0" y="-45" text-anchor="middle" class="tiny" fill="#a6edff">B-ZONE POWER B-UPS</text><text x="0" y="-18" text-anchor="middle" class="t" font-size="18" font-weight="1000" fill="#6ff2ad">SEALED · LOCAL ONLY</text><rect x="-68" y="18" width="136" height="48" rx="8" fill="#28434d"/><path d="M-45 42h90" stroke="#62df8e" stroke-width="9"/><circle cx="74" cy="72" r="9" fill="#5fd991"/></g>
+ <!-- no-cross icon -->
+ <circle cx="376" cy="817" r="61" fill="#fff" stroke="#b33434" stroke-width="8"/><path d="M335 776l82 82M417 776l-82 82" stroke="#d13d3d" stroke-width="12"/><path d="M326 817h100" stroke="#263d47" stroke-width="12"/><text x="376" y="900" text-anchor="middle" class="tiny" fill="#9f2727">NO SHARED POWER</text>
+ <!-- route evidence monitor -->
+ <rect x="72" y="545" width="620" height="123" rx="15" fill="#102a39" stroke="#4a6e7c" stroke-width="5" filter="url(#sh)"/><text x="382" y="570" text-anchor="middle" class="tiny" fill="#a2e8ff">CONTACT REPLAY · P-6</text><circle cx="148" cy="613" r="11" fill="#53c084"/><circle cx="283" cy="613" r="11" fill="#f4bd48"/><circle cx="430" cy="613" r="11" fill="#ef5e54" filter="url(#gl)"/><circle cx="584" cy="613" r="11" fill="#ef5e54" filter="url(#gl)"/><path d="M159 613h113M294 613h125M441 613h132" stroke="#ffd35b" stroke-width="7" stroke-dasharray="12 8"/><text x="148" y="642" text-anchor="middle" class="tiny" fill="#d9f4ff">A LOCKER</text><text x="283" y="642" text-anchor="middle" class="tiny" fill="#ffe7a1">P-6</text><text x="430" y="642" text-anchor="middle" class="tiny" fill="#ff9a92">CABLE</text><text x="584" y="642" text-anchor="middle" class="tiny" fill="#ff9a92">B ATTEMPT</text>
+ <path d="M88 672h589q14 0 14 14v57H73v-57q0-14 15-14z" class="bub"/><text x="382" y="699" text-anchor="middle" class="t" font-size="15" font-weight="900"><tspan x="382">해결은 ‘소독해서 함께 쓰기’가 아니라, 전원 자체를 구역에 묶는 것이다.</tspan><tspan x="382" dy="20" font-size="12">不是“消毒后共用”，而是让电源永远留在各自区域。 / Lock the power source to its zone.</tspan></text>
+ <text x="60" y="988" class="sfx">ISOLATE!  SPLIT POWER!  NO CROSS-CABLE!</text>
+</g>
+
+<!-- PANEL 4: validation under repeated failover -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#clean)"/>
+ <rect x="800" y="706" width="690" height="250" rx="18" fill="#dbe6e8" stroke="#365b64" stroke-width="5"/>
+ <!-- command team -->
+ <g transform="translate(890 870)" filter="url(#sh)"><ellipse cy="-100" rx="30" ry="37" fill="#d9a47e" stroke="#102631" stroke-width="4"/><path d="M-30-112q8-27 30-30q24 2 31 26l-17-6q-21 2-44 10" fill="#242a2d"/><rect x="-52" y="-55" width="104" height="125" rx="20" fill="#346d91" stroke="#102631" stroke-width="4"/><rect x="-35" y="-15" width="70" height="23" rx="5" fill="#8fc9e3"/><path d="M-25 69v68M25 69v68" stroke="#243941" stroke-width="22"/></g>
+ <g transform="translate(1005 870)" filter="url(#sh)"><ellipse cy="-100" rx="30" ry="37" fill="#e4b38e" stroke="#102631" stroke-width="4"/><path d="M-30-112q7-28 30-30q24 2 31 26l-16-6q-22 2-45 10" fill="#392b28"/><rect x="-52" y="-55" width="104" height="125" rx="20" fill="#3a947f" stroke="#102631" stroke-width="4"/><path d="M-25 69v68M25 69v68" stroke="#243941" stroke-width="22"/></g>
+ <!-- validation dashboard -->
+ <rect x="1076" y="700" width="362" height="217" rx="16" fill="#102a39" stroke="#78a6b7" stroke-width="6" filter="url(#sh)"/><text x="1257" y="729" text-anchor="middle" class="tiny" fill="#a4edff">24H STORM FAILOVER VALIDATION</text><text x="1110" y="768" class="t" font-size="17" font-weight="900" fill="#d9eff7">POWER EVENTS</text><text x="1392" y="768" text-anchor="end" class="mono" font-size="18" fill="#79f0aa">6 / 6 PASS</text><text x="1110" y="803" class="t" font-size="17" font-weight="900" fill="#d9eff7">CROSS-ZONE DEVICES</text><text x="1392" y="803" text-anchor="end" class="mono" font-size="18" fill="#79f0aa">0</text><text x="1110" y="838" class="t" font-size="17" font-weight="900" fill="#d9eff7">CONNECTOR SWABS</text><text x="1392" y="838" text-anchor="end" class="mono" font-size="18" fill="#79f0aa">24 / 24 NEG</text><text x="1110" y="873" class="t" font-size="17" font-weight="900" fill="#d9eff7">A/B UPTIME</text><text x="1392" y="873" text-anchor="end" class="mono" font-size="18" fill="#79f0aa">100%</text><rect x="1108" y="887" width="286" height="13" rx="6" fill="#24535d"/><rect x="1108" y="887" width="286" height="13" rx="6" fill="#54d58e"/>
+ <!-- separate power paths -->
+ <g transform="translate(892 635)"><rect x="-66" y="-45" width="132" height="90" rx="11" fill="#eef2f3" stroke="#294b57" stroke-width="5"/><rect x="-48" y="-27" width="96" height="42" rx="5" fill="url(#screen)"/><text x="0" y="-3" text-anchor="middle" class="tiny" fill="#80efad">A-UPS 100%</text><circle cx="0" cy="30" r="8" fill="#58d28e"/></g>
+ <g transform="translate(1038 635)"><rect x="-66" y="-45" width="132" height="90" rx="11" fill="#eef2f3" stroke="#294b57" stroke-width="5"/><rect x="-48" y="-27" width="96" height="42" rx="5" fill="url(#screen)"/><text x="0" y="-3" text-anchor="middle" class="tiny" fill="#80efad">B-UPS 100%</text><circle cx="0" cy="30" r="8" fill="#58d28e"/></g>
+ <path d="M892 681v20M1038 681v20" stroke="#8df0b0" stroke-width="8"/>
+ <rect x="798" y="545" width="666" height="114" rx="18" class="box"/><text x="1131" y="574" text-anchor="middle" class="t cap"><tspan x="1131">A/B 전용 비상전원을 봉인 설치한 뒤 24시간 동안 여섯 차례 전원전환을 반복한다. 교차 장비 0, 커넥터 24/24 음성, 가동률 100%.</tspan><tspan x="1131" dy="25" font-size="14">安装A/B区专用密封备用电源后，24小时内反复切换6次：跨区设备0，接头24/24阴性，在线率100%。</tspan><tspan x="1131" dy="22" font-size="13">With sealed zone-dedicated backup power, six failovers pass: zero crossings, 24/24 connector swabs negative, 100% uptime.</tspan></text>
+ <path d="M825 667h552q15 0 15 15v55q0 15-15 15H1127l-31 25 8-25H825q-15 0-15-15v-55q0-15 15-15z" class="bub"/><text x="1100" y="695" text-anchor="middle" class="t" font-size="16" font-weight="900"><tspan x="1100">이제 정전이 와도 사람·기기·케이블 어느 것도 경계를 넘지 않는다.</tspan><tspan x="1100" dy="21" font-size="12">即使停电，人、设备、线缆也不再越界。 / Even a blackout cannot reopen the crossing.</tspan></text>
+ <text x="816" y="985" class="sfx">6/6 PASS!  24/24 NEG!  ZERO CROSSING!</text>
+</g>
+</svg>
