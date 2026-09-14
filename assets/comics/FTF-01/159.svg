@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 159 tests the human biosecurity chain with a live night drill before a real emergency">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#061427"/><stop offset=".62" stop-color="#173e57"/><stop offset="1" stop-color="#d67f4d"/></linearGradient>
+ <linearGradient id="ops" x2="1" y2="1"><stop stop-color="#eaf7fb"/><stop offset="1" stop-color="#91b7c7"/></linearGradient>
+ <linearGradient id="dock" x2="1" y2="1"><stop stop-color="#243b47"/><stop offset="1" stop-color="#0b1b25"/></linearGradient>
+ <linearGradient id="safe" x2="1" y2="1"><stop stop-color="#eafff4"/><stop offset="1" stop-color="#63c99c"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-opacity=".48"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#050d14"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#123d58"/>
+<text x="28" y="50" fill="#fff" font-family="Arial,Malgun Gothic" font-size="30" font-weight="900">FTF-01 #159  규칙은 종이에 있는 게 아니다 — 실제 비상처럼 훈련한다</text>
+<text x="972" y="49" fill="#c8f4ff" font-family="Arial" font-size="17" font-weight="800">LIVE DRILL · NIGHT SHIFT · 实战演练</text>
+
+<!-- PANEL 1: surprise drill -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#sky)"/>
+ <rect x="16" y="340" width="746" height="172" fill="#0d5970"/>
+ <path d="M42 368h682v39H42z" fill="#76858a"/><path d="M85 407v89M220 407v89M600 407v89M704 407v89" stroke="#33484e" stroke-width="17"/>
+ <g filter="url(#sh)"><path d="M82 432h265l-37 56H123z" fill="#eef3f5" stroke="#173746" stroke-width="6"/><rect x="154" y="361" width="125" height="73" rx="9" fill="#b8d8df" stroke="#173746" stroke-width="5"/><text x="214" y="474" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#173746">K-27</text></g>
+ <g transform="translate(487 389)" filter="url(#sh)"><ellipse cy="-62" rx="28" ry="34" fill="#c48b68" stroke="#102a35" stroke-width="5"/><path d="M-29-72q10-29 31-29q22 5 28 29l-20-9q-19 8-39 9" fill="#24282b"/><rect x="-42" y="-25" width="84" height="108" rx="18" fill="#f2b53f" stroke="#102a35" stroke-width="5"/><path d="M-34-2l-76 25M34-2l76 24" stroke="#f2b53f" stroke-width="19" stroke-linecap="round"/></g>
+ <g transform="translate(631 391)" filter="url(#sh)"><ellipse cy="-62" rx="28" ry="34" fill="#d3a07b" stroke="#102a35" stroke-width="5"/><path d="M-29-72q11-28 31-29q22 4 28 29l-20-8q-19 7-39 8" fill="#4a3025"/><rect x="-42" y="-25" width="84" height="108" rx="18" fill="#49b99b" stroke="#102a35" stroke-width="5"/><path d="M-34-2l-74 27M34-2l73 25" stroke="#49b99b" stroke-width="19" stroke-linecap="round"/></g>
+ <g filter="url(#sh)"><rect x="405" y="276" width="300" height="76" rx="14" fill="#ffdfdc" stroke="#b52f34" stroke-width="5"/><circle cx="440" cy="314" r="16" fill="#d12f38"/><text x="468" y="306" font-family="Arial" font-size="16" font-weight="900" fill="#8e1f25">SURPRISE DRILL</text><text x="468" y="331" font-family="Arial" font-size="13" font-weight="900" fill="#8e1f25">SIMULATED eDNA ALERT · 21:17</text></g>
+ <rect x="38" y="103" width="610" height="128" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="343" y="134" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="343">21:17, 예고 없이 모의 eDNA 경보가 울렸다. 야간조는 이것이 훈련인지 모른 채 실제 절차대로 K-27을 즉시 멈춘다.</tspan><tspan x="343" dy="25" font-size="14">21:17，未预告的模拟eDNA警报响起，夜班按真实程序立即停止K-27。</tspan><tspan x="343" dy="23" font-size="13">At 21:17 an unannounced simulated alert tests the night crew like a real event.</tspan></text>
+ <text x="49" y="494" font-family="Arial" font-size="25" font-weight="1000" fill="#ffe56a">BEEP! ALERT! HOLD K-27! START THE CLOCK!</text>
+</g>
+
+<!-- PANEL 2: chain executes -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#ops)"/>
+ <rect x="805" y="256" width="680" height="206" rx="18" fill="#163d52" stroke="#092633" stroke-width="6"/>
+ <g filter="url(#sh)"><rect x="830" y="278" width="208" height="158" rx="14" fill="#eafff8" stroke="#2a936a" stroke-width="5"/><text x="934" y="307" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#155840">01 HOLD</text><text x="934" y="337" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#155840">K-27 LOCKED ✓</text><text x="934" y="365" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#155840">02 SEAL</text><text x="934" y="395" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#155840">S-88421 ✓</text></g>
+ <g filter="url(#sh)"><rect x="1060" y="278" width="208" height="158" rx="14" fill="#e9f7ff" stroke="#357ca6" stroke-width="5"/><text x="1164" y="307" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#205a79">03 SWAB</text><text x="1164" y="337" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#205a79">HULL H-3 ✓</text><text x="1164" y="365" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#205a79">04 HANDOFF</text><text x="1164" y="395" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#205a79">DUAL SIGN ✓</text></g>
+ <g filter="url(#sh)"><rect x="1290" y="278" width="168" height="158" rx="14" fill="#fff2cb" stroke="#9a7223" stroke-width="5"/><text x="1374" y="310" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#6e5118">CLOCK</text><text x="1374" y="360" text-anchor="middle" font-family="Arial" font-size="38" font-weight="1000" fill="#a52b2b">06:48</text><text x="1374" y="396" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#6e5118">TARGET &lt; 10:00</text></g>
+ <g transform="translate(990 478)" filter="url(#sh)"><ellipse cy="-60" rx="27" ry="33" fill="#c78f6b" stroke="#102a35" stroke-width="5"/><path d="M-28-70q10-27 29-28q22 4 28 28l-19-8q-18 7-38 8" fill="#25282a"/><rect x="-40" y="-22" width="80" height="94" rx="17" fill="#4ba3c4" stroke="#102a35" stroke-width="5"/></g>
+ <g transform="translate(1450 477)" filter="url(#sh)"><ellipse cy="-60" rx="27" ry="33" fill="#b98165" stroke="#102a35" stroke-width="5"/><path d="M-28-70q9-27 29-28q21 4 28 28l-19-8q-19 7-38 8" fill="#2b221f"/><rect x="-40" y="-22" width="80" height="94" rx="17" fill="#f0b640" stroke="#102a35" stroke-width="5"/></g>
+ <rect x="796" y="103" width="650" height="122" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1121" y="134" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1121">정지 → 봉인 → 재채취 → 이중서명. 누구도 단계를 건너뛰지 않는다. 타이머는 10분 제한을 계속 세고 있다.</tspan><tspan x="1121" dy="25" font-size="14">停止→封签→复采→双签，任何步骤都不能跳过，十分钟倒计时持续进行。</tspan><tspan x="1121" dy="23" font-size="13">Hold, seal, swab and dual-sign—every step must survive pressure.</tspan></text>
+ <text x="810" y="493" font-family="Arial" font-size="24" font-weight="1000" fill="#153847">HOLD! SEAL! SWAB! SIGN! NO SHORTCUTS!</text>
+</g>
+
+<!-- PANEL 3: deliberate failure injected -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="url(#dock)"/>
+ <rect x="39" y="701" width="700" height="263" rx="16" fill="#6b7d82"/>
+ <g filter="url(#sh)"><rect x="85" y="752" width="238" height="116" rx="15" fill="#c7d4d8" stroke="#203940" stroke-width="5"/><circle cx="137" cy="882" r="22" fill="#1e2b30"/><circle cx="278" cy="882" r="22" fill="#1e2b30"/><path d="M122 784h165M122 815h165" stroke="#6b858d" stroke-width="10"/><text x="204" y="848" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#253c45">HOSE H-9</text></g>
+ <path d="M320 809c90 0 84 78 182 78" fill="none" stroke="#2c3539" stroke-width="25" stroke-linecap="round"/>
+ <g filter="url(#sh)"><rect x="454" y="707" width="254" height="124" rx="14" fill="#ffe5e0" stroke="#b03838" stroke-width="5"/><text x="581" y="738" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#8d2727">INJECTED FAULT</text><text x="581" y="771" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#8d2727">H-9 CLEAN TAG MISSING</text><text x="581" y="801" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#8d2727">WHO CATCHES IT?</text></g>
+ <g transform="translate(585 896)" filter="url(#sh)"><ellipse cy="-66" rx="29" ry="35" fill="#d0a07c" stroke="#102a35" stroke-width="5"/><path d="M-29-76q10-29 30-30q22 5 29 30l-20-9q-19 8-39 9" fill="#342821"/><rect x="-43" y="-26" width="86" height="111" rx="18" fill="#f3b641" stroke="#102a35" stroke-width="5"/><path d="M-35-2l-92 35M35-2l80 29" stroke="#f3b641" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="39" y="548" width="667" height="128" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="372" y="579" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="372">훈련팀이 일부러 H-9 청결 태그를 빼 두었다. 신입 요원이 14초 만에 발견하고 사용을 막는다. 절차가 사람보다 먼저 움직인다.</tspan><tspan x="372" dy="25" font-size="14">演练组故意移除H-9洁净标签，新队员14秒内发现并立即停用。</tspan><tspan x="372" dy="23" font-size="13">A planted missing tag is caught in 14 seconds before the hose can be used.</tspan></text>
+ <path d="M397 847h319q16 0 16 16v76q0 16-16 16H578l-32 28 8-28H397q-16 0-16-16v-76q0-16 16-16z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="556" y="878" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="556">태그 없음! H-9 사용 금지!</tspan><tspan x="556" dy="24" font-size="13">标签缺失！禁止使用H-9！</tspan></text>
+ <text x="49" y="988" font-family="Arial" font-size="25" font-weight="1000" fill="#ffe15c">SPOT! STOP! 14 SEC! NO TAG, NO USE!</text>
+</g>
+
+<!-- PANEL 4: after action review -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#safe)"/>
+ <rect x="805" y="684" width="681" height="245" rx="18" fill="#123f52" stroke="#0b2935" stroke-width="6"/>
+ <g filter="url(#sh)"><rect x="830" y="707" width="285" height="190" rx="15" fill="#f1fff8" stroke="#2c946d" stroke-width="5"/><text x="972" y="739" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#155840">LIVE DRILL RESULT</text><text x="855" y="773" font-family="Arial" font-size="14" font-weight="900" fill="#155840">✓ FULL STOP: 00:38</text><text x="855" y="802" font-family="Arial" font-size="14" font-weight="900" fill="#155840">✓ FAULT CAUGHT: 00:14</text><text x="855" y="831" font-family="Arial" font-size="14" font-weight="900" fill="#155840">✓ CHAIN CLOSED: 07:26</text><text x="855" y="860" font-family="Arial" font-size="14" font-weight="900" fill="#155840">✓ MISSED STEPS: 0</text></g>
+ <g filter="url(#sh)"><rect x="1140" y="707" width="315" height="190" rx="15" fill="#fff3ce" stroke="#9b7325" stroke-width="5"/><text x="1297" y="739" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#6e5118">30-DAY READINESS</text><text x="1165" y="774" font-family="Arial" font-size="14" font-weight="900" fill="#6e5118">12 SURPRISE DRILLS</text><text x="1165" y="805" font-family="Arial" font-size="14" font-weight="900" fill="#6e5118">12 / 12 COMPLETE</text><text x="1165" y="836" font-family="Arial" font-size="14" font-weight="900" fill="#6e5118">0 BROKEN HANDOFFS</text><text x="1165" y="867" font-family="Arial" font-size="14" font-weight="900" fill="#6e5118">0 SECONDARY eDNA</text></g>
+ <g transform="translate(1085 938)" filter="url(#sh)"><ellipse cy="-54" rx="26" ry="31" fill="#c99270" stroke="#102a35" stroke-width="5"/><path d="M-27-64q9-26 28-27q20 4 27 27l-18-8q-18 7-37 8" fill="#24282b"/><rect x="-39" y="-18" width="78" height="83" rx="16" fill="#49b99b" stroke="#102a35" stroke-width="5"/></g>
+ <rect x="797" y="548" width="650" height="114" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1122" y="578" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1122">07:26에 전 절차가 닫혔다. 30일 동안 불시훈련 12회 모두 성공, 끊어진 인계 0, 2차 eDNA 0.</tspan><tspan x="1122" dy="25" font-size="14">07:26完成全流程；30天12次突击演练全部完成，交接中断0，二次eDNA 0。</tspan><tspan x="1122" dy="23" font-size="13">The chain closes in 7:26. Twelve surprise drills prove the rule works under pressure.</tspan></text>
+ <text x="808" y="979" font-family="Arial" font-size="25" font-weight="1000" fill="#0f503d">DRILL! VERIFY! READY BEFORE THE REAL ALARM!</text>
+</g>
+</svg>
