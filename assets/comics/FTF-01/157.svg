@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 157 verifies vessel biosecurity passes, physical seals, samples and arrival records at the destination port to prevent tampering or missed contamination">
+<defs>
+ <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#16334f"/><stop offset=".58" stop-color="#ef9a68"/><stop offset="1" stop-color="#ffd8a0"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#28abc5"/><stop offset="1" stop-color="#06485e"/></linearGradient>
+ <linearGradient id="lab" x2="1" y2="1"><stop stop-color="#eef8fa"/><stop offset="1" stop-color="#9fb8bf"/></linearGradient>
+ <linearGradient id="safe" x2="1" y2="1"><stop stop-color="#ecfff7"/><stop offset="1" stop-color="#66cfa5"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-opacity=".42"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#06141d"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#164965"/>
+<text x="28" y="50" fill="#fff" font-family="Arial,Malgun Gothic" font-size="30" font-weight="900">FTF-01 #157  패스만 믿지 않는다 — 도착지에서 봉인과 기록을 다시 맞춘다</text>
+<text x="970" y="49" fill="#c9f8ff" font-family="Arial" font-size="17" font-weight="800">ARRIVAL CHAIN-OF-CUSTODY CHECK · 到港全链路核验</text>
+
+<!-- PANEL 1 arrival -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#dawn)"/>
+ <rect x="16" y="336" width="746" height="176" fill="url(#sea)"/>
+ <path d="M38 360h690v38H38z" fill="#66767a"/><path d="M74 398v96M210 398v96M594 398v96M706 398v96" stroke="#34464b" stroke-width="17"/>
+ <g filter="url(#shadow)"><path d="M80 416h325l-48 72H124z" fill="#edf2f4" stroke="#163744" stroke-width="6"/><rect x="171" y="334" width="151" height="85" rx="9" fill="#bfd9df" stroke="#163744" stroke-width="5"/><rect x="195" y="354" width="40" height="28" fill="#337b90"/><rect x="245" y="354" width="40" height="28" fill="#337b90"/><text x="251" y="465" text-anchor="middle" font-family="Arial" font-size="18" font-weight="900" fill="#17333f">K-27</text></g>
+ <g transform="translate(512 343)" filter="url(#shadow)"><ellipse cy="-62" rx="28" ry="34" fill="#c99572" stroke="#102a35" stroke-width="5"/><path d="M-29-73q9-29 30-29q22 4 29 29l-20-8q-19 8-39 8" fill="#292625"/><rect x="-42" y="-25" width="84" height="110" rx="18" fill="#45b996" stroke="#102a35" stroke-width="5"/><path d="M-34-1l-65 35M34-1l62 31" stroke="#45b996" stroke-width="19" stroke-linecap="round"/><rect x="-16" y="8" width="32" height="45" rx="5" fill="#173f56"/></g>
+ <g transform="translate(650 340)" filter="url(#shadow)"><rect x="-88" y="-61" width="176" height="122" rx="14" fill="#173f56" stroke="#07151c" stroke-width="5"/><rect x="-69" y="-42" width="138" height="75" rx="7" fill="#e3fff6"/><text y="-14" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#16563f">ARRIVAL GATE</text><text y="12" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#16563f">PASS RECEIVED ✓</text><circle cx="-49" cy="47" r="8" fill="#44dfa4"/><text x="-34" y="52" font-family="Arial" font-size="12" font-weight="900" fill="#fff">VERIFY SEAL</text></g>
+ <rect x="38" y="102" width="544" height="122" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="310" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="310">K-27이 PORT B에 도착했다. 전송된 패스가 있어도 바로 통과시키지 않고 실제 봉인과 선체 상태부터 다시 본다.</tspan><tspan x="310" dy="24" font-size="14">K-27抵达B港。即使已有通行证，也先核对实物封签与船体状态。</tspan><tspan x="310" dy="23" font-size="13">The pass arrives first, but the vessel is physically verified before entry.</tspan></text>
+ <path d="M589 103h143q16 0 16 16v92q0 16-16 16h-78l-27 25 7-25h-45q-16 0-16-16v-92q0-16 16-16z" fill="#fff0c0" stroke="#111" stroke-width="4"/>
+ <text x="660" y="137" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="660">패스와 실물을</tspan><tspan x="660" dy="23">같이 봐!</tspan><tspan x="660" dy="20" font-size="12">证物同验！</tspan></text>
+ <text x="50" y="493" font-family="Arial" font-size="25" font-weight="1000" fill="#ffe15c">ARRIVE! HOLD! VERIFY THE REAL SEAL!</text>
+</g>
+
+<!-- PANEL 2 chain of custody -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#lab)"/>
+ <rect x="806" y="242" width="681" height="211" rx="18" fill="#163f55" stroke="#082631" stroke-width="6"/>
+ <g filter="url(#shadow)"><rect x="836" y="270" width="253" height="150" rx="14" fill="#e7fff7" stroke="#2c8f68" stroke-width="5"/><text x="962" y="300" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#16563f">DIGITAL PASS</text><text x="962" y="328" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#16563f">K-27 · SEAL S-88421</text><text x="962" y="354" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#16563f">HULL ✓ BALLAST ✓ GEAR ✓</text><text x="962" y="380" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#16563f">ORIGIN TIME 10:42</text><text x="962" y="404" text-anchor="middle" font-family="Arial" font-size="12" font-weight="900" fill="#16563f">HASH MATCH ✓</text></g>
+ <path d="M1096 344h80" stroke="#7ceaff" stroke-width="9"/><polygon points="1186,344 1154,323 1154,365" fill="#7ceaff"/>
+ <g filter="url(#shadow)"><rect x="1195" y="270" width="260" height="150" rx="14" fill="#fff4cc" stroke="#6b551b" stroke-width="5"/><text x="1325" y="300" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#684f16">PHYSICAL SEAL</text><text x="1325" y="330" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#684f16">S-88421</text><path d="M1261 351h128" stroke="#744d14" stroke-width="10"/><circle cx="1261" cy="351" r="13" fill="#efbd46"/><circle cx="1389" cy="351" r="13" fill="#efbd46"/><text x="1325" y="390" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#684f16">UNBROKEN ✓</text></g>
+ <g transform="translate(902 472)" filter="url(#shadow)"><ellipse cy="-60" rx="28" ry="34" fill="#b98265" stroke="#102a35" stroke-width="5"/><path d="M-29-71q10-28 30-29q22 4 28 29l-18-8q-19 8-40 8" fill="#20262a"/><rect x="-41" y="-22" width="82" height="94" rx="18" fill="#4ea5c8" stroke="#102a35" stroke-width="5"/><path d="M-33-1l-60-32M33-1l66-28" stroke="#4ea5c8" stroke-width="18" stroke-linecap="round"/></g>
+ <rect x="796" y="102" width="650" height="117" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1121" y="131" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1121">출발지 기록 S-88421과 실제 봉인번호, 봉인 파손 여부, 도착 시각을 한 줄의 인계기록으로 맞춘다.</tspan><tspan x="1121" dy="24" font-size="14">将出发记录S-88421、实物封签、破损状态和到港时间逐项核对。</tspan><tspan x="1121" dy="23" font-size="13">Digital pass, physical seal and arrival timestamp must form one custody chain.</tspan></text>
+ <text x="812" y="493" font-family="Arial" font-size="25" font-weight="1000" fill="#163642">SCAN! MATCH! NO BROKEN LINK!</text>
+</g>
+
+<!-- PANEL 3 surprise swab -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#0d2d3e"/>
+ <rect x="16" y="748" width="746" height="260" fill="url(#sea)"/>
+ <path d="M69 820h334l-48 86H112z" fill="#e9eff1" stroke="#10333e" stroke-width="7"/>
+ <rect x="164" y="716" width="151" height="108" rx="9" fill="#c4dce2" stroke="#10333e" stroke-width="6"/>
+ <g transform="translate(496 842)" filter="url(#shadow)"><ellipse cy="-68" rx="29" ry="35" fill="#c99572" stroke="#102a35" stroke-width="5"/><path d="M-30-78q8-30 30-30q22 4 29 30l-19-8q-19 8-40 8" fill="#2a2625"/><rect x="-43" y="-28" width="86" height="116" rx="18" fill="#f1b842" stroke="#102a35" stroke-width="5"/><path d="M-35-2l-82 42M35-2l82 31" stroke="#f1b842" stroke-width="19" stroke-linecap="round"/><path d="M-117 40l-62 22" stroke="#eefcff" stroke-width="8" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><rect x="550" y="690" width="170" height="122" rx="14" fill="#dff7ff" stroke="#1b6681" stroke-width="5"/><text x="635" y="720" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#15516a">RANDOM SWAB</text><text x="635" y="748" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#15516a">HULL H-3</text><text x="635" y="775" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#15516a">eDNA NEGATIVE ✓</text></g>
+ <rect x="38" y="546" width="674" height="112" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="375" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="375">서류가 모두 맞아도 끝이 아니다. PORT B는 K-27 선체 H-3 지점을 무작위 재채취해 실제 eDNA 음성을 확인한다.</tspan><tspan x="375" dy="24" font-size="14">即使记录全部一致，B港仍随机复检K-27船体H-3点位，确认eDNA阴性。</tspan><tspan x="375" dy="23" font-size="13">A surprise hull swab proves the paperwork matches the biology.</tspan></text>
+ <path d="M468 854h246q15 0 15 15v69q0 15-15 15h-128l-34 31 9-31h-93q-15 0-15-15v-69q0-15 15-15z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="591" y="884" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="591">기록 말고 바다도 확인!</tspan><tspan x="591" dy="24" font-size="13">不只看记录，也看真实样本！</tspan></text>
+ <text x="49" y="987" font-family="Arial" font-size="25" font-weight="1000" fill="#ffe15c">SWAB! TEST! BIOLOGY CONFIRMS THE PASS!</text>
+</g>
+
+<!-- PANEL 4 verified transfer -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#safe)"/>
+ <rect x="794" y="792" width="706" height="196" rx="14" fill="url(#sea)"/>
+ <path d="M824 846h220l-33 64H860z" fill="#f4f7f8" stroke="#17414e" stroke-width="5"/><rect x="882" y="799" width="102" height="51" rx="7" fill="#bddbe2" stroke="#17414e" stroke-width="4"/><text x="934" y="890" text-anchor="middle" font-family="Arial" font-size="15" font-weight="900" fill="#17333f">K-27</text>
+ <g filter="url(#shadow)"><rect x="841" y="632" width="570" height="124" rx="18" fill="#123e55" stroke="#082631" stroke-width="5"/><text x="1126" y="663" text-anchor="middle" font-family="Arial" font-size="19" font-weight="900" fill="#fff">ARRIVAL VERIFICATION · 30 DAYS</text><text x="888" y="699" font-family="Arial" font-size="16" font-weight="900" fill="#baffdf">PASS ↔ SEAL MATCH  63/63</text><text x="1181" y="699" font-family="Arial" font-size="16" font-weight="900" fill="#baffdf">BROKEN SEAL  0</text><text x="888" y="730" font-family="Arial" font-size="16" font-weight="900" fill="#baffdf">RANDOM SWABS  21/21 NEGATIVE</text><text x="1234" y="730" font-family="Arial" font-size="16" font-weight="900" fill="#baffdf">UNTRACKED HANDOFF  0</text></g>
+ <g transform="translate(1438 850)" filter="url(#shadow)"><ellipse cy="-65" rx="28" ry="34" fill="#b98265" stroke="#102a35" stroke-width="5"/><path d="M-29-75q10-29 30-29q22 4 28 29l-18-8q-19 8-40 8" fill="#22272a"/><rect x="-42" y="-27" width="84" height="106" rx="18" fill="#45b996" stroke="#102a35" stroke-width="5"/><path d="M-34-1l-73 30M34-1l61 33" stroke="#45b996" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="796" y="546" width="650" height="72" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1121" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1121">30일 동안 63척의 패스와 봉인이 모두 일치했고, 무작위 재검사 21건도 전부 음성. 기록과 현장이 한 줄로 이어졌다.</tspan><tspan x="1121" dy="22" font-size="13">30天内63艘船证物一致，21次随机复检全部阴性。Records and reality stayed connected.</tspan></text>
+ <text x="823" y="971" font-family="Arial,Malgun Gothic" font-size="31" font-weight="1000" fill="#fff" stroke="#114b3c" stroke-width="1">VERIFY EVERY HANDOFF · 每次交接都核验 · 인계할 때마다 다시 확인</text>
+ <text x="1260" y="918" font-family="Arial" font-size="25" font-weight="1000" fill="#fff6a3">MATCH! CLEAR! RELEASE!</text>
+</g>
+</svg>
