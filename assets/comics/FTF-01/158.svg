@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-label="FTF-01 scene 158 standardizes human shift handoffs so vessel biosecurity custody never breaks between crews">
+<defs>
+ <linearGradient id="night" x2="0" y2="1"><stop stop-color="#071d35"/><stop offset=".7" stop-color="#154f6b"/><stop offset="1" stop-color="#e28c5c"/></linearGradient>
+ <linearGradient id="deck" x2="1" y2="1"><stop stop-color="#dbe6e9"/><stop offset="1" stop-color="#748e98"/></linearGradient>
+ <linearGradient id="ops" x2="1" y2="1"><stop stop-color="#e9f7fa"/><stop offset="1" stop-color="#9bb8c1"/></linearGradient>
+ <linearGradient id="safe" x2="1" y2="1"><stop stop-color="#effff8"/><stop offset="1" stop-color="#69d1a8"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-opacity=".43"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1536" height="1024" fill="#06141d"/>
+<rect x="12" y="12" width="1512" height="60" rx="12" fill="#164965"/>
+<text x="28" y="50" fill="#fff" font-family="Arial,Malgun Gothic" font-size="30" font-weight="900">FTF-01 #158  교대가 바뀌어도 규칙은 끊기지 않는다 — 사람 사이 인계까지 봉인한다</text>
+<text x="970" y="49" fill="#c9f8ff" font-family="Arial" font-size="17" font-weight="800">SHIFT HANDOFF · HUMAN CHAIN OF CUSTODY · 人员交接闭环</text>
+
+<!-- PANEL 1 -->
+<g>
+ <rect x="16" y="84" width="746" height="428" rx="12" fill="url(#night)"/>
+ <rect x="16" y="338" width="746" height="174" fill="#0d627b"/>
+ <path d="M38 366h690v42H38z" fill="#697b80"/><path d="M74 408v84M206 408v84M595 408v84M706 408v84" stroke="#33464b" stroke-width="17"/>
+ <g filter="url(#shadow)"><path d="M82 426h270l-40 62H119z" fill="#eef3f5" stroke="#163744" stroke-width="6"/><rect x="157" y="354" width="126" height="74" rx="9" fill="#bdd9df" stroke="#163744" stroke-width="5"/><text x="217" y="474" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#163744">K-27</text></g>
+ <g transform="translate(468 368)" filter="url(#shadow)"><ellipse cy="-58" rx="27" ry="33" fill="#c68f6d" stroke="#102a35" stroke-width="5"/><path d="M-28-69q9-27 29-28q21 4 27 28l-18-8q-18 7-38 8" fill="#24272a"/><rect x="-40" y="-20" width="80" height="104" rx="17" fill="#f0b640" stroke="#102a35" stroke-width="5"/><path d="M-33 0l-70 31M33 0l68 26" stroke="#f0b640" stroke-width="18" stroke-linecap="round"/><rect x="-15" y="10" width="30" height="42" rx="4" fill="#163f55"/></g>
+ <g transform="translate(610 366)" filter="url(#shadow)"><ellipse cy="-58" rx="27" ry="33" fill="#b77d61" stroke="#102a35" stroke-width="5"/><path d="M-28-68q10-28 29-29q22 5 28 29l-20-8q-18 8-37 8" fill="#3a2d27"/><rect x="-40" y="-20" width="80" height="104" rx="17" fill="#45b996" stroke="#102a35" stroke-width="5"/><path d="M-33 0l-68 29M33 0l69 26" stroke="#45b996" stroke-width="18" stroke-linecap="round"/><rect x="-15" y="10" width="30" height="42" rx="4" fill="#163f55"/></g>
+ <path d="M520 393h43" stroke="#7ceaff" stroke-width="9"/><polygon points="575,393 545,373 545,413" fill="#7ceaff"/>
+ <rect x="38" y="102" width="544" height="122" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="310" y="132" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="310">PORT B 야간조가 K-27을 넘겨받는다. 배만 인계하는 것이 아니라 봉인·샘플·장비 상태를 사람 대 사람으로 다시 확인한다.</tspan><tspan x="310" dy="24" font-size="14">B港夜班接管K-27时，人员面对面核对封签、样本和设备状态。</tspan><tspan x="310" dy="23" font-size="13">The vessel changes hands only after a face-to-face custody check.</tspan></text>
+ <path d="M590 103h141q17 0 17 17v90q0 17-17 17h-78l-27 25 7-25h-43q-17 0-17-17v-90q0-17 17-17z" fill="#fff0c0" stroke="#111" stroke-width="4"/>
+ <text x="660" y="137" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="660">말로만 넘기지 마!</tspan><tspan x="660" dy="23">같이 보고 찍어!</tspan><tspan x="660" dy="20" font-size="12">当面核验！</tspan></text>
+ <text x="48" y="494" font-family="Arial" font-size="25" font-weight="1000" fill="#ffe15c">SHIFT! FACE-TO-FACE! VERIFY BEFORE HANDOFF!</text>
+</g>
+
+<!-- PANEL 2 -->
+<g>
+ <rect x="774" y="84" width="746" height="428" rx="12" fill="url(#ops)"/>
+ <rect x="802" y="244" width="688" height="204" rx="18" fill="#153e54" stroke="#092633" stroke-width="6"/>
+ <g filter="url(#shadow)"><rect x="828" y="267" width="292" height="157" rx="14" fill="#e8fff8" stroke="#2c8f68" stroke-width="5"/><text x="974" y="297" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#16563f">HANDOFF CHECKLIST</text><text x="856" y="327" font-family="Arial" font-size="13" font-weight="900" fill="#16563f">✓ SEAL S-88421</text><text x="856" y="352" font-family="Arial" font-size="13" font-weight="900" fill="#16563f">✓ SAMPLE BOX 4/4</text><text x="856" y="377" font-family="Arial" font-size="13" font-weight="900" fill="#16563f">✓ CLEAN GEAR 6/6</text><text x="856" y="402" font-family="Arial" font-size="13" font-weight="900" fill="#16563f">✓ TIME 21:04 · BOTH SIGN</text></g>
+ <path d="M1132 344h67" stroke="#7ceaff" stroke-width="9"/><polygon points="1211,344 1181,324 1181,364" fill="#7ceaff"/>
+ <g filter="url(#shadow)"><rect x="1220" y="267" width="239" height="157" rx="14" fill="#fff4cc" stroke="#6a5318" stroke-width="5"/><text x="1339" y="298" text-anchor="middle" font-family="Arial" font-size="17" font-weight="900" fill="#684f16">DUAL SIGNATURE</text><rect x="1247" y="318" width="184" height="68" rx="9" fill="#fff" stroke="#967527" stroke-width="3"/><path d="M1260 344q30-26 58 2t53-1t45 3" fill="none" stroke="#214559" stroke-width="4"/><text x="1339" y="408" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#684f16">HASH LOCKED ✓</text></g>
+ <g transform="translate(1010 478)" filter="url(#shadow)"><ellipse cy="-58" rx="27" ry="33" fill="#c99572" stroke="#102a35" stroke-width="5"/><path d="M-28-69q8-27 29-28q21 3 27 28l-18-8q-19 8-38 8" fill="#25282b"/><rect x="-40" y="-20" width="80" height="94" rx="17" fill="#4ea5c8" stroke="#102a35" stroke-width="5"/><path d="M-33 0l-60-30M33 0l60-26" stroke="#4ea5c8" stroke-width="18" stroke-linecap="round"/></g>
+ <rect x="796" y="102" width="650" height="116" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1121" y="131" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1121">봉인번호, 샘플 상자 수량, 청결 장비 수량, 시각을 함께 스캔하고 두 교대 책임자가 동시에 서명해야 인계가 닫힌다.</tspan><tspan x="1121" dy="24" font-size="14">封签号、样本箱、洁净设备和时间全部扫描后，双方同时签字才完成交接。</tspan><tspan x="1121" dy="23" font-size="13">Seal, samples, clean gear and time are locked under dual signature.</tspan></text>
+ <text x="811" y="493" font-family="Arial" font-size="25" font-weight="1000" fill="#163642">SCAN! COUNT! DUAL-SIGN! LOCK THE HANDOFF!</text>
+</g>
+
+<!-- PANEL 3 -->
+<g>
+ <rect x="16" y="524" width="746" height="484" rx="12" fill="#0d2d3e"/>
+ <rect x="36" y="676" width="706" height="293" rx="16" fill="url(#deck)"/>
+ <path d="M76 882h607" stroke="#4d6269" stroke-width="18"/>
+ <g filter="url(#shadow)"><rect x="104" y="730" width="238" height="112" rx="15" fill="#c6d4d8" stroke="#203940" stroke-width="5"/><circle cx="153" cy="856" r="22" fill="#1e2b30"/><circle cx="293" cy="856" r="22" fill="#1e2b30"/><path d="M139 762h168M139 790h168" stroke="#6d858d" stroke-width="10"/><text x="223" y="822" text-anchor="middle" font-family="Arial" font-size="14" font-weight="900" fill="#263e46">SHARED HOSE CART</text></g>
+ <path d="M340 777c86 0 80 77 169 77" fill="none" stroke="#2b3438" stroke-width="24" stroke-linecap="round"/>
+ <g transform="translate(565 844)" filter="url(#shadow)"><ellipse cy="-64" rx="28" ry="34" fill="#b98265" stroke="#102a35" stroke-width="5"/><path d="M-29-74q10-29 31-29q21 4 27 29l-19-8q-19 8-39 8" fill="#20262a"/><rect x="-42" y="-24" width="84" height="108" rx="18" fill="#f1b842" stroke="#102a35" stroke-width="5"/><path d="M-35-1l-88 38M35-1l73 28" stroke="#f1b842" stroke-width="19" stroke-linecap="round"/></g>
+ <g filter="url(#shadow)"><rect x="498" y="702" width="203" height="108" rx="14" fill="#ffe4e0" stroke="#a93535" stroke-width="5"/><text x="599" y="731" text-anchor="middle" font-family="Arial" font-size="16" font-weight="900" fill="#8c2727">AUDIT ALERT</text><text x="599" y="759" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#8c2727">HOSE H-9</text><text x="599" y="785" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#8c2727">CLEAN TAG MISSING ✕</text></g>
+ <rect x="38" y="546" width="674" height="112" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="375" y="575" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="375">무작위 교대감사에서 공용 호스 H-9의 청결 태그가 빠진 것을 발견했다. 누구도 추측하지 않고 즉시 사용을 멈춘다.</tspan><tspan x="375" dy="24" font-size="14">随机交接审计发现共用软管H-9缺少洁净标签，立即停止使用。</tspan><tspan x="375" dy="23" font-size="13">A missing clean tag stops the hose before uncertainty becomes contamination.</tspan></text>
+ <path d="M444 848h270q15 0 15 15v72q0 15-15 15h-137l-33 30 8-30h-108q-15 0-15-15v-72q0-15 15-15z" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="579" y="878" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="18" font-weight="900"><tspan x="579">태그 없으면 사용 금지!</tspan><tspan x="579" dy="24" font-size="13">无标签，不使用！</tspan></text>
+ <text x="49" y="988" font-family="Arial" font-size="25" font-weight="1000" fill="#ffe15c">AUDIT! STOP! NO TAG, NO USE!</text>
+</g>
+
+<!-- PANEL 4 -->
+<g>
+ <rect x="774" y="524" width="746" height="484" rx="12" fill="url(#safe)"/>
+ <rect x="798" y="765" width="698" height="219" rx="16" fill="#177994"/>
+ <g filter="url(#shadow)"><rect x="820" y="558" width="372" height="190" rx="18" fill="#123f55" stroke="#082631" stroke-width="6"/><text x="1006" y="594" text-anchor="middle" font-family="Arial" font-size="20" font-weight="900" fill="#fff">30-DAY HANDOFF AUDIT</text><text x="850" y="630" font-family="Arial" font-size="15" font-weight="900" fill="#b9f9e0">84 SHIFT HANDOFFS</text><text x="850" y="660" font-family="Arial" font-size="15" font-weight="900" fill="#b9f9e0">84/84 DUAL-SIGNED</text><text x="850" y="690" font-family="Arial" font-size="15" font-weight="900" fill="#b9f9e0">MISSING CUSTODY LINKS: 0</text><text x="850" y="720" font-family="Arial" font-size="15" font-weight="900" fill="#b9f9e0">SECONDARY eDNA: 0</text></g>
+ <g filter="url(#shadow)"><rect x="1217" y="558" width="272" height="190" rx="18" fill="#effff8" stroke="#23815e" stroke-width="6"/><circle cx="1353" cy="625" r="42" fill="#42c994"/><path d="M1328 625l18 18 35-42" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/><text x="1353" y="701" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900" fill="#17563f">CHAIN UNBROKEN</text><text x="1353" y="727" text-anchor="middle" font-family="Arial" font-size="13" font-weight="900" fill="#17563f">交接链完整 ✓</text></g>
+ <g transform="translate(982 889)" filter="url(#shadow)"><ellipse cy="-65" rx="28" ry="34" fill="#c99572" stroke="#102a35" stroke-width="5"/><path d="M-29-75q8-29 30-29q22 4 28 29l-19-8q-19 8-39 8" fill="#282625"/><rect x="-42" y="-25" width="84" height="108" rx="18" fill="#45b996" stroke="#102a35" stroke-width="5"/><path d="M-35-1l-73-28M35-1l70-28" stroke="#45b996" stroke-width="19" stroke-linecap="round"/></g>
+ <g transform="translate(1144 889)" filter="url(#shadow)"><ellipse cy="-65" rx="28" ry="34" fill="#b98265" stroke="#102a35" stroke-width="5"/><path d="M-29-75q9-29 29-29q22 4 29 29l-20-8q-18 8-38 8" fill="#22282c"/><rect x="-42" y="-25" width="84" height="108" rx="18" fill="#4ea5c8" stroke="#102a35" stroke-width="5"/><path d="M-35-1l-70-27M35-1l72-27" stroke="#4ea5c8" stroke-width="19" stroke-linecap="round"/></g>
+ <rect x="801" y="772" width="672" height="94" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+ <text x="1137" y="802" text-anchor="middle" font-family="Arial,Malgun Gothic" font-size="17" font-weight="900"><tspan x="1137">30일 동안 84번의 교대가 모두 이중서명으로 이어졌다. 인계 누락 0, 2차 eDNA 0 — 사람의 기억 대신 시스템이 바다를 지킨다.</tspan><tspan x="1137" dy="24" font-size="14">30天84次交接全部双签闭环，交接缺口0，二次eDNA 0。</tspan><tspan x="1137" dy="23" font-size="13">Eighty-four handoffs, zero broken links: the system protects the sea across every shift.</tspan></text>
+ <text x="804" y="985" font-family="Arial" font-size="24" font-weight="1000" fill="#fff">VERIFY! DUAL-SIGN! ZERO BROKEN HANDOFFS!</text>
+</g>
+</svg>
