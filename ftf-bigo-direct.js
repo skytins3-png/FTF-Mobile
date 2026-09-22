@@ -1,29 +1,13 @@
 (()=>{
-const $=id=>document.getElementById(id);
-const style=document.createElement('style');
-style.textContent=`
-#bigoDirectStatic{position:sticky;top:0;z-index:80;margin:0 0 10px;border:2px solid #39bdf8;background:#111923;padding:10px!important}
-#bigoDirectStatic h2{font-size:18px;margin:0 0 8px}
-#bigoDirectStatic .mode{gap:8px}
-#bigoDirectStatic button{min-height:58px;font-size:17px;touch-action:manipulation}
-#bigoDirectStatic .note{margin:7px 2px 0}
-body.ftf-bigo-mobile #viewer{width:100vw;height:100dvh;inset:0;transform:none;background:#000}
-body.ftf-bigo-mobile #viewer img,body.ftf-bigo-pc #viewer img{object-fit:contain;background:#000}
-body.ftf-bigo-pc #viewer{inset:0;background:#000}
-`;
-document.head.appendChild(style);
-const panel=$('bigoDirectStatic');
-if(!panel)return;
-const buttons=panel.querySelectorAll('button');
-const mobile=buttons[0],pc=buttons[1];
-let actions=panel.querySelector('.bigo-actions');
-if(!actions){actions=document.createElement('div');actions.className='bigo-actions grid';actions.style.marginTop='8px';actions.innerHTML='<button id="bigoGoStatic" class="secondary">▶ 바로 방송 시작</button><button id="bigoExitStatic" class="secondary">■ 종료</button>';panel.insertBefore(actions,panel.querySelector('.note'))}
-let mode=localStorage.getItem('ftf_bigo_direct')||'mobile';
-function setMode(v){mode=v;localStorage.setItem('ftf_bigo_direct',v);document.body.classList.toggle('ftf-bigo-mobile',v==='mobile');document.body.classList.toggle('ftf-bigo-pc',v==='pc');mobile.textContent=(v==='mobile'?'✓ ':'')+'📱 모바일 9:16';pc.textContent=(v==='pc'?'✓ ':'')+'🖥 PC 전체화면'}
-async function start(v){setMode(v||mode);try{audioCtx()}catch(_){}try{E('viewer').classList.add('show');showComic(currentScene||1,currentCut||0)}catch(_){}try{startAuto('movie')}catch(_){}try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen()}catch(_){}}
-mobile.onclick=e=>{e.preventDefault();start('mobile')};
-pc.onclick=e=>{e.preventDefault();start('pc')};
-$('bigoGoStatic').onclick=e=>{e.preventDefault();start(mode)};
-$('bigoExitStatic').onclick=e=>{e.preventDefault();try{runToken++;autoMode=null;clearRun();speechSynthesis.cancel();if(window.FTFStopAudioNow)window.FTFStopAudioNow();else stopAudio()}catch(_){}try{$('viewer').classList.remove('show')}catch(_){}document.body.classList.remove('ftf-bigo-mobile','ftf-bigo-pc');try{if(document.fullscreenElement)document.exitFullscreen()}catch(_){}};
+const $=id=>document.getElementById(id), panel=$('bigoDirectStatic'); if(!panel)return;
+const st=document.createElement('style');st.textContent='#bigoDirectStatic{position:sticky;top:0;z-index:80;border:2px solid #39bdf8;background:#111923;padding:10px!important}#bigoDirectStatic button,#bigoDirectStatic select{min-height:56px;font-size:17px;touch-action:manipulation}#bigoDirectStatic select{width:100%;border-radius:12px;background:#202530;color:#fff;border:1px solid #3b4658;padding:8px;margin:8px 0}body.ftf-bigo-mobile #viewer{width:100vw;height:100dvh;inset:0;transform:none;background:#000}body.ftf-bigo-mobile #viewer img,body.ftf-bigo-pc #viewer img{object-fit:contain;background:#000}';document.head.appendChild(st);
+panel.innerHTML='<h2>📡 BIGO LIVE 방송 모드</h2><select id="bigoSource"><option value="all">전체곡 · FTF + 일반 보관곡</option><option value="ftf">FTF 프로젝트곡만</option><option value="normal">일반 보관곡만</option></select><div class="mode"><button id="bigoM" class="green">📱 모바일 9:16</button><button id="bigoP">🖥 PC 전체화면</button></div><div class="grid" style="margin-top:8px"><button id="bigoGo" class="secondary">▶ 방송 화면 시작</button><button id="bigoStop" class="secondary">■ 종료</button></div><p class="note">BIGO에서 화면공유를 켠 뒤 사용하세요. 이 화면의 음악·만화/영상이 방송 화면으로 나갑니다.</p>';
+let mode=localStorage.getItem('ftf_bigo_direct')||'mobile', list=[],pos=0,token=0;
+function setMode(v){mode=v;localStorage.setItem('ftf_bigo_direct',v);document.body.classList.toggle('ftf-bigo-mobile',v==='mobile');document.body.classList.toggle('ftf-bigo-pc',v==='pc');$('bigoM').textContent=(v==='mobile'?'✓ ':'')+'📱 모바일 9:16';$('bigoP').textContent=(v==='pc'?'✓ ':'')+'🖥 PC 전체화면'}
+function build(){const t=$('bigoSource').value;return songs.map((s,i)=>({s,i,tr:trackForSong(s.fileName||s.title)})).filter(x=>t==='all'||(t==='ftf'?!!x.tr:!x.tr))}
+async function next(my){if(my!==token||!list.length)return;const x=list[pos%list.length];pos++;try{E('viewer').classList.add('show');if(x.tr>=1&&x.tr<=7){currentScene=x.tr;showComic(x.tr,0)}else{E('viewerTitle').textContent=x.s.title||x.s.fileName;E('viewerStatus').textContent='BIGO LIVE · 일반 보관곡';E('sfxText').textContent='';E('situation').textContent='';E('captionKo').textContent=x.s.title||x.s.fileName;E('captionZh').textContent='';}}catch(_){}playSong(x.i,()=>next(my))}
+async function start(v){setMode(v||mode);token++;list=build();pos=0;if(!list.length){alert('선택한 종류의 보관곡이 없습니다.');return}try{audioCtx()}catch(_){}try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen()}catch(_){}next(token)}
+$('bigoM').onclick=e=>{e.preventDefault();start('mobile')};$('bigoP').onclick=e=>{e.preventDefault();start('pc')};$('bigoGo').onclick=e=>{e.preventDefault();start(mode)};
+$('bigoStop').onclick=e=>{e.preventDefault();token++;try{runToken++;autoMode=null;clearRun();speechSynthesis.cancel();if(window.FTFStopAudioNow)window.FTFStopAudioNow();else stopAudio()}catch(_){}try{E('viewer').classList.remove('show')}catch(_){}try{if(document.fullscreenElement)document.exitFullscreen()}catch(_){}};
 setMode(mode);
 })();
