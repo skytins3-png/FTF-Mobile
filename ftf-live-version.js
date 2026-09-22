@@ -1,8 +1,8 @@
 (()=>{
   const apply=()=>{
     const b=document.getElementById('ftfLiveBadge');
-    if(b)b.textContent='FTF LIVE v59';
-    document.documentElement.dataset.ftfBuild='59';
+    if(b)b.textContent='FTF LIVE v60';
+    document.documentElement.dataset.ftfBuild='60';
   };
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',apply,{once:true});else apply();
 
@@ -12,15 +12,15 @@
     if(document.getElementById('ftfFullTrackPlaybackLoader'))return;
     const s=document.createElement('script');
     s.id='ftfFullTrackPlaybackLoader';
-    s.src='./ftf-full-track-playback.js?force=59';
+    s.src='./ftf-full-track-playback.js?force=60';
     s.async=false;
     document.body.appendChild(s);
-    if(!document.getElementById('ftfBigoDirectLoader')){const b=document.createElement('script');b.id='ftfBigoDirectLoader';b.src='./ftf-bigo-direct.js?force=59';b.async=false;document.body.appendChild(b);}
+    if(!document.getElementById('ftfBigoDirectLoader')){const b=document.createElement('script');b.id='ftfBigoDirectLoader';b.src='./ftf-bigo-direct.js?force=60';b.async=false;document.body.appendChild(b);}
   };
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',loadGuard,{once:true});else loadGuard();
 
   // Ask the browser to re-check the service worker immediately using a cache-busting script URL.
   if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('./sw.js?force=59').then(reg=>reg.update()).catch(()=>{});
+    navigator.serviceWorker.register('./sw.js?force=60').then(reg=>reg.update()).catch(()=>{});
   }
 })();
