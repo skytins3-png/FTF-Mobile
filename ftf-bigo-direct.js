@@ -1,17 +1,29 @@
 (()=>{
 const $=id=>document.getElementById(id);
-const css=document.createElement('style');
-css.textContent='#bigoDirect{border:1px solid #315b79}#bigoDirect .m{display:grid;grid-template-columns:1fr 1fr;gap:8px}body.ftf-bigo-mobile #viewer{width:min(100vw,56.25vh);height:min(100vh,177.78vw);inset:50% auto auto 50%;transform:translate(-50%,-50%)}body.ftf-bigo-mobile #viewer img,body.ftf-bigo-pc #viewer img{object-fit:contain;background:#000}body.ftf-bigo-pc #viewer{inset:0}';
-document.head.appendChild(css);
-const goal=document.querySelector('.goal');
-if(!goal)return;
-const box=document.createElement('section');box.className='card';box.id='bigoDirect';
-box.innerHTML='<h2>📡 BIGO LIVE 방송 모드</h2><div class="m"><button id="bigoM" class="green">📱 모바일 9:16</button><button id="bigoP">🖥 PC 전체화면</button></div><div class="grid" style="margin-top:8px"><button id="bigoGo" class="secondary">▶ 방송 화면 시작</button><button id="bigoStop" class="secondary">■ 방송 모드 종료</button></div><p class="note">OBS 없이 BIGO 화면공유/화면송출용. FTF 음악은 기존 단일 재생 경로를 사용합니다.</p>';
-goal.insertAdjacentElement('afterend',box);
+const style=document.createElement('style');
+style.textContent=`
+#bigoDirectStatic{position:sticky;top:0;z-index:80;margin:0 0 10px;border:2px solid #39bdf8;background:#111923;padding:10px!important}
+#bigoDirectStatic h2{font-size:18px;margin:0 0 8px}
+#bigoDirectStatic .mode{gap:8px}
+#bigoDirectStatic button{min-height:58px;font-size:17px;touch-action:manipulation}
+#bigoDirectStatic .note{margin:7px 2px 0}
+body.ftf-bigo-mobile #viewer{width:100vw;height:100dvh;inset:0;transform:none;background:#000}
+body.ftf-bigo-mobile #viewer img,body.ftf-bigo-pc #viewer img{object-fit:contain;background:#000}
+body.ftf-bigo-pc #viewer{inset:0;background:#000}
+`;
+document.head.appendChild(style);
+const panel=$('bigoDirectStatic');
+if(!panel)return;
+const buttons=panel.querySelectorAll('button');
+const mobile=buttons[0],pc=buttons[1];
+let actions=panel.querySelector('.bigo-actions');
+if(!actions){actions=document.createElement('div');actions.className='bigo-actions grid';actions.style.marginTop='8px';actions.innerHTML='<button id="bigoGoStatic" class="secondary">▶ 바로 방송 시작</button><button id="bigoExitStatic" class="secondary">■ 종료</button>';panel.insertBefore(actions,panel.querySelector('.note'))}
 let mode=localStorage.getItem('ftf_bigo_direct')||'mobile';
-function setMode(v){mode=v;localStorage.setItem('ftf_bigo_direct',v);document.body.classList.toggle('ftf-bigo-mobile',v==='mobile');document.body.classList.toggle('ftf-bigo-pc',v==='pc');}
-$('bigoM').onclick=()=>setMode('mobile');$('bigoP').onclick=()=>setMode('pc');
-$('bigoGo').onclick=async()=>{setMode(mode);try{await document.documentElement.requestFullscreen()}catch(_){}try{audioCtx()}catch(_){}try{startAuto('movie')}catch(_){try{showComic(1,0)}catch(__){}}};
-$('bigoStop').onclick=()=>{document.body.classList.remove('ftf-bigo-mobile','ftf-bigo-pc');try{runToken++;autoMode=null;clearRun();speechSynthesis.cancel();if(window.FTFStopAudioNow)window.FTFStopAudioNow();else stopAudio()}catch(_){}try{$('viewer').classList.remove('show')}catch(_){}try{if(document.fullscreenElement)document.exitFullscreen()}catch(_){}};
+function setMode(v){mode=v;localStorage.setItem('ftf_bigo_direct',v);document.body.classList.toggle('ftf-bigo-mobile',v==='mobile');document.body.classList.toggle('ftf-bigo-pc',v==='pc');mobile.textContent=(v==='mobile'?'✓ ':'')+'📱 모바일 9:16';pc.textContent=(v==='pc'?'✓ ':'')+'🖥 PC 전체화면'}
+async function start(v){setMode(v||mode);try{audioCtx()}catch(_){}try{E('viewer').classList.add('show');showComic(currentScene||1,currentCut||0)}catch(_){}try{startAuto('movie')}catch(_){}try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen()}catch(_){}}
+mobile.onclick=e=>{e.preventDefault();start('mobile')};
+pc.onclick=e=>{e.preventDefault();start('pc')};
+$('bigoGoStatic').onclick=e=>{e.preventDefault();start(mode)};
+$('bigoExitStatic').onclick=e=>{e.preventDefault();try{runToken++;autoMode=null;clearRun();speechSynthesis.cancel();if(window.FTFStopAudioNow)window.FTFStopAudioNow();else stopAudio()}catch(_){}try{$('viewer').classList.remove('show')}catch(_){}document.body.classList.remove('ftf-bigo-mobile','ftf-bigo-pc');try{if(document.fullscreenElement)document.exitFullscreen()}catch(_){}};
 setMode(mode);
 })();
